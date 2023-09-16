@@ -18,5 +18,8 @@ def get_mcheck(barcode: str):
 
     product_id = database.get_id_from_barcode(barcode)
     mcheck = database.get_mcheck_by_product_id(product_id)
+    product_details = database.get_product_info(product_id)
 
-    return {"mcheck": mcheck}
+
+    return {"mcheck": mcheck, **product_details}
+

@@ -21,8 +21,22 @@ class Database:
                 return data["m_check2"]["animal_welfare"]["rating"]
             return None
 
+         
     def get_id_from_barcode(self, barcode_id):
-        data = self.barcode_df.loc[self.barcode_df["barcode"] == int(barcode_id)].copy()
 
-        id = data["id"].iloc[0]
-        return id
+       
+        data = self.barcode_df.loc[self.barcode_df['barcode'] == int(barcode_id)].copy()
+
+        product_id =  data['id'].iloc[0]
+        return product_id
+    
+    def get_product_info(self,product_id):
+        with open(self.MIGROS_PRODUCT_BASE_PATH + product_id + ".json") as f:
+            data = json.load(f)
+            res = {}
+            res["name"] = data["name"]
+            res["image"] = data["image_transparent"]["original"]
+            res["price"] = data["price"]["item"]["price"]
+            
+            return res
+            
