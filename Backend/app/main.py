@@ -35,4 +35,8 @@ def get_sustainability_goal():
     sustainability_goal = database.sustainability_goal("sample_customer",2)
     return round(sustainability_goal)
 
+@app.get("/user_checkout/{total_spend}")
+def update_user_goals(total_spend):
+    database.user_checkout("sample_customer",total_spend)
+
 
