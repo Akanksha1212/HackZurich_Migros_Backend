@@ -1,0 +1,743 @@
+{
+  "id": "158699438001",
+  "language": "en",
+  "name": "Sandro Vanini Mostarda di Frutta",
+  "names": {
+    "short_name": "Sandro Vanini Mostarda di Frutta"
+  },
+  "slug": "sandro-vanini-mostarda-di-frutta",
+  "slugs": {
+    "de": "sandro-vanini-mostarda-di-frutta",
+    "fr": "sandro-vanini-mostarda-di-frutta",
+    "it": "sandro-vanini-mostarda-di-frutta",
+    "en": "sandro-vanini-mostarda-di-frutta"
+  },
+  "type": "00",
+  "boss_number": "011018301540",
+  "description": {
+    "text": "Die auch unter dem Namen “Fruit Mostarda” bekannte Senffrucht hat ihren kulinarischen Ursprung in der Lombardei, einer Nachbarregion des Kantons Tessin, wo sie seit der Renaissance auf den h&ouml;fischen Tafeln von Prinzen und P&auml;psten vertreten war. Ein raffinierter Mix aus frischen Fr&uuml;chten und pikantem Senf&ouml;l, hergestellt nach einem traditionellen Rezept. Die ausgew&auml;hlten Fr&uuml;chte werden gewaschen, nach Bedarf gesch&auml;lt, aufgeschnitten und schonend dampfgegart. Die erfahrenen Kandiermeister von Sandro Vanini legen die Fr&uuml;chte zw&ouml;lf Tage lang in Zuckersirup ein, bis das Wasser aus den Fr&uuml;chten r&uuml;ckstandslos durch Zuckerl&ouml;sung ersetzt wird. In der letzten Verarbeitungsphase wird Senf&ouml;l zu den kandierten Fr&uuml;chten hinzugegeben, was der Fruit Mostarda ihren unvergleichlich s&uuml;ss-pikanten Geschmack verleiht. Fruit Kandierte Fr&uuml;chte in Sirup mit Senfaroma<br>s&uuml;ss-scharf. Mostarda ist der ideale Begleiter zu K&auml;se, gegartem Fleisch und kalten B&uuml;ffets und passt hervorragend zu Schweizer Gerichten wie Raclette oder Fondue.",
+    "source": "P4M"
+  },
+  "data_source": "SAP-X11",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03"
+  },
+  "tags": [
+    "source-p4m",
+    "migipedia",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "76402739"
+  ],
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarket"
+  },
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "brand": {
+    "id": "1E5",
+    "name": "Sandro Vanini",
+    "slug": "sandro-vanini"
+  },
+  "categories": [
+    {
+      "code": "BeSS_01011419",
+      "name": "Antipasti",
+      "slug": "supermarkt/lebensmittel/pasta-zutaten-konserven/antipasti",
+      "visible": true,
+      "parent_code": "BeSS_010114",
+      "image": {
+        "original": "https://image.migros.ch/original/24dca7eac812d195689ef187ffa59fd0ca218dfa/antipasti.jpg",
+        "stack": "https://image.migros.ch/{stack}/24dca7eac812d195689ef187ffa59fd0ca218dfa/antipasti.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010114",
+      "name": "Pasta, Zutaten & Konserven",
+      "slug": "supermarkt/lebensmittel/pasta-zutaten-konserven",
+      "visible": true,
+      "title": "Pasta aus Ihrer Migros: alles rund um Teigwaren",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/6d0964bbb34b8e041ba4d74fc0c90b149907f46a/pasta-zutaten-konserven.jpg",
+        "stack": "https://image.migros.ch/{stack}/6d0964bbb34b8e041ba4d74fc0c90b149907f46a/pasta-zutaten-konserven.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/31702195ec9d38aecefe80349eb347f79d56c750/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/31702195ec9d38aecefe80349eb347f79d56c750/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "online_relevant": [
+    {
+      "code": "MGB",
+      "name": "Migros Genossenschafts-Bund"
+    }
+  ],
+  "links": {
+    "migros_ch": {
+      "url": "https://www.migros.ch/en/product/158699438001?context=instore",
+      "name": "In-store assortment",
+      "canonical": "https://www.migros.ch/en/product/158699438001?context=instore",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/158699438001",
+      "name": "Migipedia",
+      "canonical": "https://www.migros.ch/en/product/158699438001?context=instore",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "has_safety_sheet": false,
+  "m_check2": {
+    "carbon_footprint": {
+      "image": {
+        "original": "https://image.migros.ch/original/3cb33aa7d90d7331f458860ae78688a0923b5993.svg",
+        "stack": "https://image.migros.ch/{stack}/3cb33aa7d90d7331f458860ae78688a0923b5993.svg"
+      },
+      "ground_and_sea_cargo": {
+        "kg_co2": 0.636,
+        "kg_co2_range": "0 - 0.9 kg CO₂eq / kg",
+        "co2_in_car_km": 3,
+        "rating": 5,
+        "production_in_percent": 63,
+        "packaging_in_percent": 27,
+        "transport_in_percent": 10
+      }
+    }
+  },
+  "receipt_text": "Vanini Mostarda 300g",
+  "package": {
+    "content": 300,
+    "content_unit_code": "g",
+    "content_unit": "Gram",
+    "net_weight": 0.5,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogram",
+    "type": "CU",
+    "portions_per_package": "1",
+    "brutto_weight": 0.74,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 0.001,
+    "brutto_volume_unit_code": "cdm",
+    "height": 1,
+    "length": 1,
+    "width": 1,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "300g"
+  },
+  "package_information": {
+    "tu": {
+      "gtins": [
+        "7610188330016",
+        "7610188430013",
+        "7617015047918"
+      ],
+      "brutto_weight": 4.632,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 5.671,
+      "brutto_volume_unit_code": "cdm",
+      "height": 12.4,
+      "length": 22.2,
+      "width": 20.6,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 6
+    },
+    "cu": {
+      "gtins": [
+        "76402739"
+      ],
+      "brutto_weight": 0.74,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.001,
+      "brutto_volume_unit_code": "cdm",
+      "height": 1,
+      "length": 1,
+      "width": 1,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "lu": {
+      "brutto_weight": 650.32,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 833.28,
+      "brutto_volume_unit_code": "cdm",
+      "height": 86.8,
+      "length": 120,
+      "width": 80,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 810
+    }
+  },
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "price": {
+    "valid_from": "2022-10-04T00:00:00+0200",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 7.3,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "300g"
+    },
+    "base": {
+      "price": 2.43,
+      "quantity": 100,
+      "unit": "G"
+    }
+  },
+  "features": [
+    {
+      "label_code": "MAPI_VEGETARIANISM",
+      "label": "Vegetarianism",
+      "values": [
+        {
+          "value_code": "MAPI_VEGETARIANISM_vegan",
+          "value": "Vegan"
+        },
+        {
+          "value_code": "MAPI_VEGETARIANISM_vegetarisch",
+          "value": "Vegetarian"
+        }
+      ],
+      "category_code": "MAPI_VEGETARIANISM",
+      "top_fact": false
+    },
+    {
+      "label_code": "acxMISOcugebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "erxMISOcugebindeartglas",
+          "value": "Glas"
+        }
+      ],
+      "category_code": "ecxMISOCLAeingelegtesgemueserelisheschutneysolivengewuerzekonservierungsstoffeextraktelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/5796bde67485990a09ee6f44b826f17e672cd216/sandro-vanini-mostarda-di-frutta.jpg",
+    "stack": "https://image.migros.ch/{stack}/5796bde67485990a09ee6f44b826f17e672cd216/sandro-vanini-mostarda-di-frutta.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/41c1cfe2330439acecae7db0659146e6201aaca2/sandro-vanini-mostarda-di-frutta.png",
+    "stack": "https://image.migros.ch/{stack}/41c1cfe2330439acecae7db0659146e6201aaca2/sandro-vanini-mostarda-di-frutta.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_EXPORTABLE",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_EXPORTABLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Normalposition"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "HAWA"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "10153",
+          "value": "ANTIPASTI/SENFFRUE."
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LIFECYCLE",
+      "values": [
+        {
+          "value_code": "D",
+          "value": "Detailhandelsartikel"
+        }
+      ],
+      "category_code": "MAPI_LIFECYCLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_STORAGE_CONDITIONS",
+      "values": [
+        {
+          "value_code": "01",
+          "value": "normal"
+        }
+      ],
+      "category_code": "MAPI_STORAGE_CONDITIONS",
+      "top_fact": false
+    },
+    {
+      "label_code": "acxCommonarticlecocompensated",
+      "label": "Artikel Co2 kompensiert",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false
+    },
+    {
+      "label_code": "acxCommonmesswertcompensation",
+      "label": "CO2-Wert Kompensation",
+      "values": [
+        {
+          "value_code": "NUMERIC_0.636",
+          "value": "0.636",
+          "numeric_value": 0.636
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false,
+      "unit_code": "5d71456e-a520-4294-9ddb-add78f63ce83",
+      "unit": "Equivalence per kilogram",
+      "unit_symbol": "eq / kg"
+    },
+    {
+      "label_code": "acxCommonoutputmcheckclimatedeclaration",
+      "label": "Auslobung M-Check Klimadeklaration",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Yes",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false
+    }
+  ],
+  "declarations": {
+    "declaration_number": "Q_2121841432605002",
+    "tags": [
+      "source-qim"
+    ],
+    "gtins": [
+      "76402739"
+    ],
+    "valid_from": "2000-06-13T00:00:00+0200",
+    "product_details": {
+      "regulated_description": "Candied fruits in syrup with mustard flavour",
+      "net_filled_quantity": {
+        "value": "500 g",
+        "numeric_value": 500,
+        "unit": "g"
+      },
+      "net_weight": {
+        "value": "500 Gramm",
+        "numeric_value": 500,
+        "unit": "Gramm"
+      },
+      "drained_weight": {
+        "value": "300 g",
+        "numeric_value": 300,
+        "unit": "g"
+      }
+    },
+    "preparation": {
+      "information": "Ready to eat."
+    },
+    "distributor": {
+      "name": "Haecky Import AG",
+      "address": "Duggingerstr. 15, CH-4153 Reinach"
+    },
+    "general_information": [
+      {
+        "label": "Consumer storage instructions",
+        "values": [
+          "Room temperature (15 to 25 °C) Keep refrigerated after opening."
+        ]
+      }
+    ],
+    "ingredients_information": {
+      "ingredients_text": "candied fruits and turnip in variable proportions 60% (peaches, pears, apricots, oranges, cherries, turnips, clementines, figs, sugar, glucose syrup, colouring matter: cochineal red A), sugar, water, glucose syrup, mustard flavour 0.04%, preserving agent: sodium diSULFITE.",
+      "allergens_information": {
+        "allergens": [
+          {
+            "code": "ALLG_SULFIT",
+            "label": "Sulphur dioxide and sulphites",
+            "contamination_code": "VORHANDEN",
+            "contamination_label": "contains"
+          }
+        ]
+      }
+    },
+    "nutrition_facts": {
+      "reference_sizes": {
+        "standard": {
+          "base": {
+            "quantity": {
+              "value": "100 g",
+              "numeric_value": 100,
+              "unit": "g"
+            }
+          },
+          "nutrients": [
+            {
+              "code": "NUT_ENERGY",
+              "name": "Energy",
+              "operator": "~",
+              "pictogram_name": "Energy",
+              "category": "BIG9",
+              "quantity": {
+                "value": "1243 kJ",
+                "numeric_value": 1243,
+                "unit": "kJ",
+                "alternate": {
+                  "value": "297 kcal",
+                  "numeric_value": 297,
+                  "unit": "kcal"
+                }
+              }
+            },
+            {
+              "code": "NUT_FAT",
+              "name": "Fat",
+              "pictogram_name": "Fat",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0.5 g",
+                "numeric_value": 0.5,
+                "unit": "g"
+              },
+              "rating": {
+                "value": 0,
+                "text": "low",
+                "icon": {
+                  "original": "https://image.migros.ch/original/a2b5e2562a4fedbbdec99c1932ec57c46c49cde4.svg",
+                  "stack": "https://image.migros.ch/{stack}/a2b5e2562a4fedbbdec99c1932ec57c46c49cde4.svg"
+                },
+                "hex_color": "#069800"
+              }
+            },
+            {
+              "code": "NUT_SATURATED_FATTY_ACIDS",
+              "name": "of which saturates",
+              "pictogram_name": "saturated fatty acids",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0.0 g",
+                "numeric_value": 0,
+                "unit": "g"
+              },
+              "rating": {
+                "value": 0,
+                "text": "low",
+                "icon": {
+                  "original": "https://image.migros.ch/original/a2b5e2562a4fedbbdec99c1932ec57c46c49cde4.svg",
+                  "stack": "https://image.migros.ch/{stack}/a2b5e2562a4fedbbdec99c1932ec57c46c49cde4.svg"
+                },
+                "hex_color": "#069800"
+              }
+            },
+            {
+              "code": "NUT_CARBOHYDRATES",
+              "name": "Carbohydrate",
+              "category": "BIG9",
+              "quantity": {
+                "value": "73.0 g",
+                "numeric_value": 73,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_SUGAR",
+              "name": "of which sugars",
+              "pictogram_name": "Sugar",
+              "category": "BIG9",
+              "quantity": {
+                "value": "60.0 g",
+                "numeric_value": 60,
+                "unit": "g"
+              },
+              "rating": {
+                "value": 2,
+                "text": "high",
+                "icon": {
+                  "original": "https://image.migros.ch/original/9aa833abc7cb7207238c3e98a1253eeb7bceee1f.svg",
+                  "stack": "https://image.migros.ch/{stack}/9aa833abc7cb7207238c3e98a1253eeb7bceee1f.svg"
+                },
+                "hex_color": "#cc0000"
+              }
+            },
+            {
+              "code": "NUT_FIBER",
+              "name": "Fibre",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0.5 g",
+                "numeric_value": 0.5,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_PROTEIN",
+              "name": "Protein",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0.5 g",
+                "numeric_value": 0.5,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_SALT",
+              "name": "Salt",
+              "pictogram_name": "Salt",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0.1 g",
+                "numeric_value": 0.1,
+                "unit": "g"
+              },
+              "rating": {
+                "value": 0,
+                "text": "low",
+                "icon": {
+                  "original": "https://image.migros.ch/original/a2b5e2562a4fedbbdec99c1932ec57c46c49cde4.svg",
+                  "stack": "https://image.migros.ch/{stack}/a2b5e2562a4fedbbdec99c1932ec57c46c49cde4.svg"
+                },
+                "hex_color": "#069800"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "recipe_ingredient_ids": [
+    "10000"
+  ],
+  "regional_availability": {
+    "gmaa": {
+      "probability": 0
+    },
+    "gmbs": {
+      "probability": 83
+    },
+    "gmge": {
+      "probability": 0
+    },
+    "gmlu": {
+      "probability": 0
+    },
+    "gmnf": {
+      "probability": 0
+    },
+    "gmos": {
+      "probability": 0
+    },
+    "gmti": {
+      "probability": 100
+    },
+    "gmvd": {
+      "probability": 0
+    },
+    "gmvs": {
+      "probability": 0
+    },
+    "gmzh": {
+      "probability": 11
+    }
+  },
+  "ratings": {
+    "count_all": 11,
+    "average_all": 4.818181818182
+  },
+  "related_products": {
+    "purchase_recommendations": {
+      "product_ids": [
+        "158699438007",
+        "158699438057"
+      ]
+    }
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "updated_at": "2023-08-10T06:35:02+0200",
+  "sap_created_at": "2001-12-07T18:00:00+0100",
+  "online_shop_relevant": false,
+  "base_unit": "CU",
+  "co2_compensation": {
+    "kg_co2": 0.636,
+    "kg_co2_compensation": 0.636,
+    "is_compensated": false,
+    "mcheck_enabled": true
+  },
+  "origins": {
+    "producing_country": "Switzerland"
+  },
+  "views": [
+    "all",
+    "browse",
+    "browseallretailers"
+  ]
+}

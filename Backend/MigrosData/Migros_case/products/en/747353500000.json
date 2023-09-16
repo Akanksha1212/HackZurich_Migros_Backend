@@ -1,0 +1,670 @@
+{
+  "id": "747353500000",
+  "language": "en",
+  "name": "MAGISCHER KREISEL",
+  "names": {
+    "short_name": "MAGISCHER KREISEL"
+  },
+  "slug": "magischer-kreisel",
+  "slugs": {
+    "de": "magischer-kreisel",
+    "fr": "toupie-magique",
+    "it": "magica-trottola",
+    "en": "magischer-kreisel"
+  },
+  "type": "00",
+  "product_type": "Spielset",
+  "boss_number": "130861300580",
+  "description": {
+    "text": "Ein einfacher Druck und schon fliegen die Kugeln im Inneren des Kreisels umher. Hilft dem Kind, den Zusammenhang von\nUrsache und Wirkung zu verstehen.",
+    "source": "PEX"
+  },
+  "data_source": "SAP-X12",
+  "status": {
+    "id": "currently-not-available",
+    "seasonal": false,
+    "pim_status": "88",
+    "distribution_center": [
+      {
+        "center_id": "1001",
+        "center_name": "Migros Verteilzentrum Neuendorf",
+        "status_code": "06",
+        "status_description": "marked for deletion"
+      }
+    ],
+    "description": "Currently with limited availability."
+  },
+  "tags": [
+    "source-pex",
+    "migipedia",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "8003670772941"
+  ],
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarket"
+  },
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": true,
+      "reservable": true,
+      "stock_request": true,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": true,
+      "reservable": true,
+      "stock_request": true,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": true,
+      "reservable": true,
+      "stock_request": true,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": true,
+      "reservable": true,
+      "stock_request": true,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": true,
+      "reservable": true,
+      "stock_request": true,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": true,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": true,
+      "reservable": true,
+      "stock_request": true,
+      "visible": true,
+      "exclude_cross_channel": []
+    }
+  },
+  "brand": {
+    "id": "MDH",
+    "name": "Chicco",
+    "slug": "chicco"
+  },
+  "categories": [
+    {
+      "code": "BeSS_01071207",
+      "name": "Kleinkinder",
+      "slug": "supermarkt/baby-kinder/spielwaren/kleinkinder",
+      "visible": true,
+      "title": "Spielsachen für Baby und Kleinkind in Ihrer Migros",
+      "parent_code": "BeSS_010712",
+      "image": {
+        "original": "https://image.migros.ch/original/ac83c8c8b96844bb02b4b77e5d117cccbdddfa48/kleinkinder.jpg",
+        "stack": "https://image.migros.ch/{stack}/ac83c8c8b96844bb02b4b77e5d117cccbdddfa48/kleinkinder.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010712",
+      "name": "Spielwaren",
+      "slug": "supermarkt/baby-kinder/spielwaren",
+      "visible": true,
+      "title": "Daran haben Kinder Freude: Spielwaren aus der Migros",
+      "parent_code": "BeSS_0107",
+      "image": {
+        "original": "https://image.migros.ch/original/44a2aeebd38216c32a1d9bbfc94664e575d085c1/spielwaren.jpg",
+        "stack": "https://image.migros.ch/{stack}/44a2aeebd38216c32a1d9bbfc94664e575d085c1/spielwaren.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0107",
+      "name": "Baby & Kinder",
+      "slug": "supermarkt/baby-kinder",
+      "visible": true,
+      "title": "Babyartikel: Alles rund ums Baby in Ihrer Migros kaufen",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/dc6e5e45f414e657061e049a69de80177f40ca98/baby-kinder.jpg",
+        "stack": "https://image.migros.ch/{stack}/dc6e5e45f414e657061e049a69de80177f40ca98/baby-kinder.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "MEL_SHOP_CAT_RollenspieleActionfiguren_Spielwaren_GamingSpielwaren",
+        "name": "Rollenspiele & Actionfiguren",
+        "slug": "melectronics/gaming-spielwaren/spielwaren/rollenspiele-actionfiguren",
+        "visible": true,
+        "parent_code": "MEL_SHOP_CAT_Spielwaren_GamingSpielwaren",
+        "level": 4
+      },
+      {
+        "code": "MEL_SHOP_CAT_Spielwaren_GamingSpielwaren",
+        "name": "Spielwaren",
+        "slug": "melectronics/gaming-spielwaren/spielwaren",
+        "visible": true,
+        "parent_code": "MEL_SHOP_CAT_GamingSpielwaren",
+        "level": 3
+      },
+      {
+        "code": "MEL_SHOP_CAT_GamingSpielwaren",
+        "name": "Gaming & Spielwaren",
+        "slug": "melectronics/gaming-spielwaren",
+        "visible": true,
+        "parent_code": "BeSS_04",
+        "level": 2
+      },
+      {
+        "code": "BeSS_04",
+        "name": "melectronics",
+        "slug": "melectronics",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "online_relevant": [
+    {
+      "code": "MGB",
+      "name": "Migros Genossenschafts-Bund"
+    }
+  ],
+  "links": {
+    "melectronics": {
+      "url": "https://www.melectronics.ch/de/p/747353500000/chicco-magischer-kreisel",
+      "name": "melectronics",
+      "canonical": "https://www.migros.ch/en/product/747353500000?context=instore",
+      "type": "shop",
+      "purchasable": true
+    },
+    "migros_ch": {
+      "url": "https://www.migros.ch/en/product/747353500000?context=instore",
+      "name": "In-store assortment",
+      "canonical": "https://www.migros.ch/en/product/747353500000?context=instore",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/747353500000",
+      "name": "Migipedia",
+      "canonical": "https://www.migros.ch/en/product/747353500000?context=instore",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "warranty_months": 24,
+  "receipt_text": "Magischer Kreisel",
+  "package": {
+    "content": 1,
+    "content_unit_code": "st",
+    "content_unit": "Stück",
+    "brutto_weight": 0.642,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 1.47,
+    "brutto_volume_unit_code": "cdm",
+    "height": 25,
+    "length": 18,
+    "width": 17.8,
+    "unit_dimension": "cm",
+    "price_comparison_content": 1,
+    "size": "1 Stk."
+  },
+  "package_information": {
+    "cu": {
+      "gtins": [
+        "8003670772941"
+      ],
+      "brutto_weight": 0.642,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 1.47,
+      "brutto_volume_unit_code": "cdm",
+      "height": 25,
+      "length": 18,
+      "width": 17.8,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "tuv": {
+      "number_of_base_units": 6
+    },
+    "tue": {
+      "number_of_base_units": 6
+    },
+    "lu": {
+      "number_of_base_units": 96
+    },
+    "lge": {
+      "number_of_base_units": 24
+    }
+  },
+  "vat": {
+    "id": 1,
+    "percentage": 7.7
+  },
+  "price": {
+    "valid_from": "2020-03-25T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 24.9,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "1 Stk."
+    },
+    "base": {
+      "price": 24.9,
+      "quantity": 1,
+      "unit": "st"
+    }
+  },
+  "features": [
+    {
+      "label_code": "mel_breite",
+      "label": "Breite",
+      "values": [
+        {
+          "value_code": "NUMERIC_17.5",
+          "value": "17.5 cm",
+          "numeric_value": 17.5
+        }
+      ],
+      "category_code": "MEL_CLA_Alle",
+      "top_fact": false,
+      "unit_code": "cm",
+      "unit": "Zentimeter",
+      "unit_symbol": "cm",
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "mel_hoehe",
+      "label": "Höhe",
+      "values": [
+        {
+          "value_code": "NUMERIC_23",
+          "value": "23 cm",
+          "numeric_value": 23
+        }
+      ],
+      "category_code": "MEL_CLA_Alle",
+      "top_fact": false,
+      "unit_code": "cm",
+      "unit": "Zentimeter",
+      "unit_symbol": "cm",
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "mel_tiefe",
+      "label": "Tiefe",
+      "values": [
+        {
+          "value_code": "NUMERIC_17.5",
+          "value": "17.5 cm",
+          "numeric_value": 17.5
+        }
+      ],
+      "category_code": "MEL_CLA_Alle",
+      "top_fact": false,
+      "unit_code": "cm",
+      "unit": "Zentimeter",
+      "unit_symbol": "cm",
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "mel_alter_von",
+      "label": "Alter ab (Monaten)",
+      "values": [
+        {
+          "value_code": "NUMERIC_6",
+          "value": "6",
+          "numeric_value": 6
+        }
+      ],
+      "category_code": "MEL_CLA_Spielwaren_Alle",
+      "top_fact": true,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "mel_alter_bis",
+      "label": "Alter bis (Monaten)",
+      "values": [
+        {
+          "value_code": "NUMERIC_36",
+          "value": "36",
+          "numeric_value": 36
+        }
+      ],
+      "category_code": "MEL_CLA_Spielwaren_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/69284d6e2f8c5ccfdf5d4a5a36b38db879ec8295/magischer-kreisel.jpg",
+    "stack": "https://image.migros.ch/{stack}/69284d6e2f8c5ccfdf5d4a5a36b38db879ec8295/magischer-kreisel.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/8b9c8ec1e4d918b0391dd4eced16ff90492a7efc/magischer-kreisel.png",
+    "stack": "https://image.migros.ch/{stack}/8b9c8ec1e4d918b0391dd4eced16ff90492a7efc/magischer-kreisel.png"
+  },
+  "additional_images": [
+    {
+      "original": "https://image.migros.ch/original/6b771b27a662ed29dfa68e1fa9ccc650a6baaf7b.jpg",
+      "stack": "https://image.migros.ch/{stack}/6b771b27a662ed29dfa68e1fa9ccc650a6baaf7b.jpg"
+    },
+    {
+      "original": "https://image.migros.ch/original/6faa02c9e23837afffe50b77a59d577a59d4a10c.jpg",
+      "stack": "https://image.migros.ch/{stack}/6faa02c9e23837afffe50b77a59d577a59d4a10c.jpg"
+    },
+    {
+      "original": "https://image.migros.ch/original/5a2b4d55e434738d0e9a731bf0d89a8709a91abb.jpg",
+      "stack": "https://image.migros.ch/{stack}/5a2b4d55e434738d0e9a731bf0d89a8709a91abb.jpg"
+    },
+    {
+      "original": "https://image.migros.ch/original/eaa6b1790d799d414b1c2ec25c5c87b8f6f22712.jpg",
+      "stack": "https://image.migros.ch/{stack}/eaa6b1790d799d414b1c2ec25c5c87b8f6f22712.jpg"
+    }
+  ],
+  "internal_features": [
+    {
+      "label_code": "miso_amigos_anzeige",
+      "label": "Display aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "ja"
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "MAPI_RETURNABLE",
+      "label": "Return",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "true",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MAPI_RETURNABLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_EXCLUDE_FROM_COMPARISON_ENGINES",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "false",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_EXCLUDE_FROM_COMPARISON_ENGINES",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+      "values": [
+        {
+          "value_code": "55",
+          "value": "Versandart Paket"
+        }
+      ],
+      "category_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LOGISTIC_CLASS",
+      "values": [
+        {
+          "value_code": "1",
+          "value": "Lager"
+        }
+      ],
+      "category_code": "MAPI_LOGISTIC_CLASS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Standard item"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "HART"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRESENTATION",
+      "values": [
+        {
+          "value_code": "L",
+          "value": "liegend"
+        }
+      ],
+      "category_code": "MAPI_PRESENTATION",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RISK_CLASS",
+      "values": [
+        {
+          "value_code": "1",
+          "value": "1 (high)"
+        }
+      ],
+      "category_code": "MAPI_RISK_CLASS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_QUALITY_CHECK",
+      "values": [
+        {
+          "value_code": "00",
+          "value": "No Quality Control"
+        }
+      ],
+      "category_code": "MAPI_QUALITY_CHECK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_KUBE_TUKA",
+      "values": [
+        {
+          "value_code": "BLANK",
+          "value": "KUBE und TUKA nicht zugelassen"
+        }
+      ],
+      "category_code": "MAPI_KUBE_TUKA",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HART",
+          "value": "Hartwaren Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "H",
+          "value": "Hartwaren"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "61231",
+          "value": "BABY"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_EXPORTABLE",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_EXPORTABLE",
+      "top_fact": false
+    }
+  ],
+  "regional_availability": {
+    "gmaa": {
+      "probability": 0
+    },
+    "gmbs": {
+      "probability": 0
+    },
+    "gmge": {
+      "probability": 0
+    },
+    "gmlu": {
+      "probability": 0
+    },
+    "gmnf": {
+      "probability": 0
+    },
+    "gmos": {
+      "probability": 0
+    },
+    "gmti": {
+      "probability": 0
+    },
+    "gmvd": {
+      "probability": 0
+    },
+    "gmvs": {
+      "probability": 0
+    },
+    "gmzh": {
+      "probability": 0
+    }
+  },
+  "ratings": {
+    "count_all": 1,
+    "average_all": 5
+  },
+  "quantity_on_stock": 100,
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "updated_at": "2023-08-17T10:24:44+0200",
+  "sap_created_at": "2020-03-25T00:00:00+0100",
+  "services": {
+    "logistics": [
+      {
+        "code": "MEL_LOGISTIK_FILIALE_POSTPAKET_GRATIS"
+      },
+      {
+        "code": "MEL_LOGISTIK_POSTPAKET_GRATIS"
+      }
+    ],
+    "others": []
+  },
+  "online_shop_relevant": true,
+  "base_unit": "CU",
+  "origins": {
+    "producing_country": "China"
+  },
+  "views": [
+    "all",
+    "browse",
+    "browseallretailers"
+  ]
+}

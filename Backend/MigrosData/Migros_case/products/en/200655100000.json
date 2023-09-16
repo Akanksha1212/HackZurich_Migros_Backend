@@ -1,0 +1,658 @@
+{
+  "id": "200655100000",
+  "language": "en",
+  "name": "M-Classic Mozzarella gerieben",
+  "names": {
+    "short_name": "M-Classic Mozzarella gerieben"
+  },
+  "slug": "m-classic-mozzarella-gerieben",
+  "slugs": {
+    "de": "m-classic-mozzarella-gerieben",
+    "fr": "m-classic-mozzarella-rape",
+    "it": "m-classic-mozzarella-grattugiata",
+    "en": "m-classic-mozzarella-gerieben"
+  },
+  "type": "00",
+  "boss_number": "030413501470",
+  "data_source": "SAP-X11",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "80"
+  },
+  "tags": [
+    "source-p4m",
+    "migipedia",
+    "migrolino-data",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613404862841",
+    "7613404194355"
+  ],
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarket"
+  },
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "brand": {
+    "id": "068",
+    "name": "M-Classic",
+    "slug": "m-classic",
+    "links": {
+      "homepage": {
+        "url": "https://m-classic.migros.ch/de.html",
+        "name": "Homepage",
+        "type": "info",
+        "purchasable": false
+      }
+    }
+  },
+  "categories": [
+    {
+      "code": "BeSS_0101040110",
+      "name": "Reibkäse & Käsemischungen",
+      "slug": "supermarkt/lebensmittel/milchprodukte-eier/kaese/reibkaese-kaesemischungen",
+      "visible": true,
+      "title": "Geschmack abrunden mit feinem Reibkäse",
+      "parent_code": "BeSS_01010401",
+      "image": {
+        "original": "https://image.migros.ch/original/ba0a99edf1b8fc1a3e5b941144ba200ca7fd7ac9/reibkaese-kaesemischungen.jpg",
+        "stack": "https://image.migros.ch/{stack}/ba0a99edf1b8fc1a3e5b941144ba200ca7fd7ac9/reibkaese-kaesemischungen.jpg"
+      },
+      "level": 5
+    },
+    {
+      "code": "BeSS_01010401",
+      "name": "Käse",
+      "slug": "supermarkt/lebensmittel/milchprodukte-eier/kaese",
+      "visible": true,
+      "title": "Käse von Ihrer Migros &ndash; macht Appetit auf mehr",
+      "parent_code": "BeSS_010104",
+      "image": {
+        "original": "https://image.migros.ch/original/646fe55be4ff2b665a94cc87a29c69d00106a19e/kaese.jpg",
+        "stack": "https://image.migros.ch/{stack}/646fe55be4ff2b665a94cc87a29c69d00106a19e/kaese.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010104",
+      "name": "Milchprodukte & Eier",
+      "slug": "supermarkt/lebensmittel/milchprodukte-eier",
+      "visible": true,
+      "title": "Milchprodukte und Eier –",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/6b1ea6c2d41c3ccb21bf05c8dc342f7f55d83deb/milchprodukte-eier.jpg",
+        "stack": "https://image.migros.ch/{stack}/6b1ea6c2d41c3ccb21bf05c8dc342f7f55d83deb/milchprodukte-eier.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/31702195ec9d38aecefe80349eb347f79d56c750/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/31702195ec9d38aecefe80349eb347f79d56c750/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "online_relevant": [
+    {
+      "code": "MGB",
+      "name": "Migros Genossenschafts-Bund"
+    },
+    {
+      "code": "MO",
+      "name": "Migros Online"
+    }
+  ],
+  "links": {
+    "migros_ch": {
+      "url": "https://www.migros.ch/en/product/200655100000?context=instore",
+      "name": "In-store assortment",
+      "canonical": "https://www.migros.ch/en/product/200655100000?context=instore",
+      "type": "info",
+      "purchasable": false
+    },
+    "migros_online": {
+      "url": "https://www.migros.ch/en/product/200655100000?context=online",
+      "mo_product_id": "6724441",
+      "name": "Online-shop assortment",
+      "canonical": "https://www.migros.ch/en/product/200655100000?context=instore",
+      "type": "shop",
+      "purchasable": true,
+      "one_catalog_id": 100029354
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/200655100000",
+      "name": "Migipedia",
+      "canonical": "https://www.migros.ch/en/product/200655100000?context=instore",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "has_safety_sheet": false,
+  "m_check2": {
+    "carbon_footprint": {
+      "image": {
+        "original": "https://image.migros.ch/original/6137c42cbff331738ddeafb4f91efb06075417b3.svg",
+        "stack": "https://image.migros.ch/{stack}/6137c42cbff331738ddeafb4f91efb06075417b3.svg"
+      },
+      "ground_and_sea_cargo": {
+        "kg_co2": 6.854713822,
+        "co2_in_car_km": 38,
+        "rating": 2,
+        "production_in_percent": 97.01353219,
+        "packaging_in_percent": 2.523810687,
+        "transport_in_percent": 0.462657125
+      }
+    },
+    "animal_welfare": {
+      "rating": 3,
+      "label": "Animal welfare",
+      "image": {
+        "original": "https://image.migros.ch/original/02f56762a6d67ea0470f50e5e8cc4d96d84791f0.svg",
+        "stack": "https://image.migros.ch/{stack}/02f56762a6d67ea0470f50e5e8cc4d96d84791f0.svg"
+      }
+    }
+  },
+  "receipt_text": "MClass Mozz. gerieben",
+  "package": {
+    "content": 250,
+    "content_unit_code": "g",
+    "content_unit": "Gram",
+    "net_weight": 0.25,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogram",
+    "type": "Package",
+    "portions_per_package": "3",
+    "precision": "approximate",
+    "brutto_weight": 0.25,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 0.665,
+    "brutto_volume_unit_code": "cdm",
+    "height": 2,
+    "length": 19,
+    "width": 17.5,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "250g"
+  },
+  "package_information": {
+    "tu": {
+      "gtins": [
+        "7613404194362"
+      ],
+      "brutto_weight": 2,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 15.96,
+      "brutto_volume_unit_code": "cdm",
+      "height": 13.3,
+      "length": 40,
+      "width": 30,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 8
+    },
+    "cu": {
+      "gtins": [
+        "7613404194355",
+        "7613404862841"
+      ],
+      "brutto_weight": 0.25,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.665,
+      "brutto_volume_unit_code": "cdm",
+      "height": 2,
+      "length": 19,
+      "width": 17.5,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    }
+  },
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "price": {
+    "valid_from": "2023-02-21T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 3.5,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "250g"
+    },
+    "base": {
+      "price": 1.4,
+      "quantity": 100,
+      "unit": "G"
+    }
+  },
+  "features": [
+    {
+      "label_code": "acxMISOlabart",
+      "label": "Labart",
+      "values": [
+        {
+          "value": "mikrobielles"
+        }
+      ],
+      "category_code": "ecxMISOCLAkaesemilchbutterrahmkaeseeierersatzproduktelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOkaesetyp",
+      "label": "Käsetyp",
+      "values": [
+        {
+          "value": "﻿Cream cheese"
+        }
+      ],
+      "category_code": "ecxMISOCLAkaesemilchbutterrahmkaeseeierersatzproduktelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOfettgehalt",
+      "label": "Fettgehalt",
+      "values": [
+        {
+          "value_code": "erxMISOfettgehaltdreiviertelfett",
+          "value": "dreiviertelfett"
+        }
+      ],
+      "category_code": "ecxMISOCLAkaesemilchbutterrahmkaeseeierersatzproduktelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOcugebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "erxMISOcugebindeartkunststoffverpackung",
+          "value": "Kunststoff-Verpackung"
+        }
+      ],
+      "category_code": "ecxMISOCLAkaesemilchbutterrahmkaeseeierersatzproduktelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOzubereitungsverfahren",
+      "label": "Hinweise für die Zubereitung",
+      "values": [
+        {
+          "value_code": "erxMISOzubereitungsverfahrenverzehrfertig",
+          "value": "verzehrfertig"
+        }
+      ],
+      "category_code": "ecxMISOCLAkaesemilchbutterrahmkaeseeierersatzproduktelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/5714291516a7d3b08524288f03b4611c27f77226/m-classic-mozzarella-gerieben.jpg",
+    "stack": "https://image.migros.ch/{stack}/5714291516a7d3b08524288f03b4611c27f77226/m-classic-mozzarella-gerieben.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/fd0f9ef4631c83623c9fd3b974fb3eda0ba93a51/m-classic-mozzarella-gerieben.png",
+    "stack": "https://image.migros.ch/{stack}/fd0f9ef4631c83623c9fd3b974fb3eda0ba93a51/m-classic-mozzarella-gerieben.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_RETURNABLE",
+      "label": "Return",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "true",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MAPI_RETURNABLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_EXPORTABLE",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_EXPORTABLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Normalposition"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZFRP",
+          "value": "Frische Beschaffung"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "ZFRP"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "70041",
+          "value": "REIBKAESE"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "1",
+          "value": "Molki"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LIFECYCLE",
+      "values": [
+        {
+          "value_code": "D",
+          "value": "Detailhandelsartikel"
+        }
+      ],
+      "category_code": "MAPI_LIFECYCLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_STORAGE_CONDITIONS",
+      "values": [
+        {
+          "value_code": "02",
+          "value": "gekühlt"
+        }
+      ],
+      "category_code": "MAPI_STORAGE_CONDITIONS",
+      "top_fact": false
+    },
+    {
+      "label_code": "acxCommonarticlecocompensated",
+      "label": "Artikel Co2 kompensiert",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false
+    },
+    {
+      "label_code": "acxCommonmesswertcompensation",
+      "label": "CO2-Wert Kompensation",
+      "values": [
+        {
+          "value_code": "NUMERIC_6.854713822",
+          "value": "6.854713822",
+          "numeric_value": 6.854713822
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false,
+      "unit_code": "5d71456e-a520-4294-9ddb-add78f63ce83",
+      "unit": "Equivalence per kilogram",
+      "unit_symbol": "eq / kg"
+    },
+    {
+      "label_code": "acxCommonoutputmcheckclimatedeclaration",
+      "label": "Auslobung M-Check Klimadeklaration",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Yes",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false
+    }
+  ],
+  "declarations": {
+    "declaration_number": "Q_16934113276100850",
+    "tags": [
+      "source-qim"
+    ],
+    "gtins": [
+      "7613404194355"
+    ],
+    "valid_from": "2022-03-30T00:00:00+0200",
+    "product_details": {
+      "package": {
+        "type": "Package",
+        "number_of_portions": "3",
+        "number_of_portions_operator": "≈"
+      },
+      "net_filled_quantity": {
+        "value": "250 g",
+        "numeric_value": 250,
+        "unit": "g"
+      }
+    },
+    "general_information": [
+      {
+        "label": "Cooling information/storage information",
+        "values": [
+          "Store refrigerated at max. 5 °C."
+        ]
+      }
+    ],
+    "ingredients_information": {
+      "allergens_information": {
+        "allergens": [
+          {
+            "code": "ALLG_MILCH",
+            "label": "Milk and products thereof",
+            "contamination_code": "VORHANDEN",
+            "contamination_label": "contains"
+          }
+        ]
+      }
+    }
+  },
+  "recipe_ingredient_ids": [
+    "16894",
+    "19470390"
+  ],
+  "regional_availability": {
+    "gmaa": {
+      "probability": 86
+    },
+    "gmbs": {
+      "probability": 83
+    },
+    "gmge": {
+      "probability": 50
+    },
+    "gmlu": {
+      "probability": 97
+    },
+    "gmnf": {
+      "probability": 43
+    },
+    "gmos": {
+      "probability": 96
+    },
+    "gmti": {
+      "probability": 100
+    },
+    "gmvd": {
+      "probability": 46
+    },
+    "gmvs": {
+      "probability": 48
+    },
+    "gmzh": {
+      "probability": 79
+    }
+  },
+  "ratings": {
+    "count_all": 82,
+    "average_all": 4.353658536585
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "updated_at": "2023-08-17T11:53:54+0200",
+  "sap_created_at": "2019-04-09T19:00:00+0200",
+  "online_shop_relevant": false,
+  "base_unit": "CU",
+  "co2_compensation": {
+    "kg_co2": 6.854713822,
+    "kg_co2_compensation": 6.854713822,
+    "is_compensated": false,
+    "mcheck_enabled": true
+  },
+  "origins": {},
+  "views": [
+    "all",
+    "browse",
+    "browseallretailers"
+  ]
+}

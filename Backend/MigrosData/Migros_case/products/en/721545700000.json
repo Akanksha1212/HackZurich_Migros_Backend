@@ -1,0 +1,522 @@
+{
+  "id": "721545700000",
+  "language": "en",
+  "name": "universal glue.",
+  "names": {
+    "short_name": "universal glue."
+  },
+  "slug": "universal-glue",
+  "slugs": {
+    "de": "universalklebstoff",
+    "fr": "colle-tous-usages",
+    "it": "colle-universale",
+    "en": "universal-glue"
+  },
+  "type": "00",
+  "boss_number": "150623943005",
+  "description": {
+    "text": "Weissleim zum Basteln im Duo Pack",
+    "source": "PEX"
+  },
+  "data_source": "SAP-X12",
+  "status": {
+    "id": "liquidation",
+    "seasonal": true,
+    "pim_status": "04",
+    "distribution_center": [
+      {
+        "center_id": "1001",
+        "center_name": "Migros Verteilzentrum Neuendorf",
+        "status_code": "03",
+        "status_description": "active"
+      }
+    ],
+    "description": "For a limited time only. Seasonal item."
+  },
+  "tags": [
+    "source-pex",
+    "near-non-food",
+    "migipedia",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613433613100"
+  ],
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarket"
+  },
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "brand": {
+    "id": "N48",
+    "name": "Papeteria",
+    "slug": "papeteria",
+    "image": {
+      "original": "https://image.migros.ch/original/e8c5ecf1bb139080fc7261fdd6d8bf69b1a67523/papeteria.jpg",
+      "stack": "https://image.migros.ch/{stack}/e8c5ecf1bb139080fc7261fdd6d8bf69b1a67523/papeteria.jpg"
+    }
+  },
+  "categories": [
+    {
+      "code": "BeSS_0104",
+      "name": "Haushalt & Reinigung",
+      "slug": "supermarkt/haushalt-reinigung",
+      "visible": true,
+      "title": "Reinigung mit der Migros – Reiniger für Haushalt und Garten",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png",
+        "stack": "https://image.migros.ch/{stack}/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "online_relevant": [
+    {
+      "code": "MGB",
+      "name": "Migros Genossenschafts-Bund"
+    }
+  ],
+  "links": {
+    "migros_ch": {
+      "url": "https://www.migros.ch/en/product/721545700000?context=instore",
+      "name": "In-store assortment",
+      "canonical": "https://www.migros.ch/en/product/721545700000?context=instore",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/721545700000",
+      "name": "Migipedia",
+      "canonical": "https://www.migros.ch/en/product/721545700000?context=instore",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "warranty_months": 24,
+  "receipt_text": "Universalklebstoff",
+  "package": {
+    "content": 1,
+    "content_unit_code": "cu",
+    "net_weight": 0.21,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "brutto_weight": 0.23,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 0.374,
+    "brutto_volume_unit_code": "cdm",
+    "height": 15.5,
+    "length": 4,
+    "width": 8,
+    "unit_dimension": "cm"
+  },
+  "package_information": {
+    "cu": {
+      "gtins": [
+        "7613433613100"
+      ],
+      "brutto_weight": 0.23,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.374,
+      "brutto_volume_unit_code": "cdm",
+      "height": 15.5,
+      "length": 4,
+      "width": 8,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "tuv": {
+      "brutto_weight": 1.5,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 10.743,
+      "brutto_volume_unit_code": "cdm",
+      "height": 16.5,
+      "length": 25,
+      "width": 9,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 6
+    },
+    "tue": {
+      "brutto_weight": 1.5,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 10.743,
+      "brutto_volume_unit_code": "cdm",
+      "height": 16.5,
+      "length": 25,
+      "width": 9,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 6
+    },
+    "lu": {
+      "brutto_weight": 12.5,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 36.464,
+      "brutto_volume_unit_code": "cdm",
+      "height": 37,
+      "length": 36.5,
+      "width": 27,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 48
+    }
+  },
+  "vat": {
+    "id": 1,
+    "percentage": 7.7
+  },
+  "price": {
+    "valid_from": "2023-06-13T00:00:00+0200",
+    "valid_to": "2023-09-03T23:59:59+0200",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 3,
+      "original_price": 3.8,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "1 piece"
+    },
+    "discount": {
+      "id": "1914759",
+      "region": "national",
+      "start_date": "2023-06-13T00:00:00+0200",
+      "end_date": "2023-09-03T23:59:59+0200",
+      "publication_date": "2023-06-11T00:00:00+0200",
+      "discount_amount": "40%",
+      "discount_regions": [
+        "national"
+      ],
+      "reference_product_id": "721536800000",
+      "discount_type": "aktion",
+      "discount_type_id": "002",
+      "discount_type_label": "SE Sellout",
+      "organisation": "09",
+      "cooperative": "mgb",
+      "reduction": {
+        "relative": false,
+        "amount": 40
+      },
+      "location_planning_type": "01",
+      "reduction_type_id": "01",
+      "special_advertisement": false,
+      "advertisement_type_id": "2",
+      "description": "Papeteria Klebestifte",
+      "discount_hint": "<strong>4er-Pack, </strong>4 x 20 g, Angebot gilt nur vom 13.6. bis 3.9.2023, solange Vorrat.",
+      "high_performer": false,
+      "collective_discount": true,
+      "instead_of": "statt",
+      "price": 3,
+      "original_price": 3.8,
+      "disclaimer": "Gültigkeit siehe Angebots-Detailseite.\r\nBei allen Angeboten sind M-Budget und bereits reduzierte Artikel ausgenommen.\r\nBei Aktionen können bei der Verrechnung auf dem Kassabon Rundungsdifferenzen zu Gunsten des Kunden entstehen.",
+      "source": "PriceRepository",
+      "boss_number": "150623943005",
+      "discount_role_id": "2000000002",
+      "discount_role_label": "M: Wochenangebot Typ I",
+      "last_imported": "2023-08-11T06:15:50+0200"
+    },
+    "discount_hint": "Angebot gilt nur vom 13.6. bis 3.9.2023, solange Vorrat."
+  },
+  "image": {
+    "original": "https://image.migros.ch/original/761ede61a1b94595778a8a6454cc4f76958c949a/universal-glue.jpg",
+    "stack": "https://image.migros.ch/{stack}/761ede61a1b94595778a8a6454cc4f76958c949a/universal-glue.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/c7533e52458439a925b52802ceefd8e54c130316/universal-glue.png",
+    "stack": "https://image.migros.ch/{stack}/c7533e52458439a925b52802ceefd8e54c130316/universal-glue.png"
+  },
+  "additional_images": [
+    {
+      "original": "https://image.migros.ch/original/d22dce9bb14b3209af45b5439ffd34af6b714c0b.jpg",
+      "stack": "https://image.migros.ch/{stack}/d22dce9bb14b3209af45b5439ffd34af6b714c0b.jpg"
+    }
+  ],
+  "internal_features": [
+    {
+      "label_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+      "values": [
+        {
+          "value_code": "55",
+          "value": "Versandart Paket"
+        }
+      ],
+      "category_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LOGISTIC_CLASS",
+      "values": [
+        {
+          "value_code": "1",
+          "value": "Lager"
+        }
+      ],
+      "category_code": "MAPI_LOGISTIC_CLASS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Standard item"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "HART"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUSTOMS_POSITION",
+      "values": [
+        {
+          "value": "35061000900"
+        }
+      ],
+      "category_code": "MAPI_CUSTOMS_POSITION",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRESENTATION",
+      "values": [
+        {
+          "value_code": "L",
+          "value": "liegend"
+        }
+      ],
+      "category_code": "MAPI_PRESENTATION",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RISK_CLASS",
+      "values": [
+        {
+          "value_code": "2",
+          "value": "2 (medium)"
+        }
+      ],
+      "category_code": "MAPI_RISK_CLASS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_QUALITY_CHECK",
+      "values": [
+        {
+          "value_code": "02",
+          "value": "FRI (Final Random Inspection)"
+        }
+      ],
+      "category_code": "MAPI_QUALITY_CHECK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_KUBE_TUKA",
+      "values": [
+        {
+          "value_code": "BLANK",
+          "value": "KUBE und TUKA nicht zugelassen"
+        }
+      ],
+      "category_code": "MAPI_KUBE_TUKA",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HART",
+          "value": "Hartwaren Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "H",
+          "value": "Hartwaren"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "60929",
+          "value": "BUEROMATERIAL"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_EXPORTABLE",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Yes",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MAPI_EXPORTABLE",
+      "top_fact": false
+    }
+  ],
+  "regional_availability": {
+    "gmaa": {
+      "probability": 82
+    },
+    "gmbs": {
+      "probability": 74
+    },
+    "gmge": {
+      "probability": 74
+    },
+    "gmlu": {
+      "probability": 69
+    },
+    "gmnf": {
+      "probability": 96
+    },
+    "gmos": {
+      "probability": 76
+    },
+    "gmti": {
+      "probability": 74
+    },
+    "gmvd": {
+      "probability": 81
+    },
+    "gmvs": {
+      "probability": 59
+    },
+    "gmzh": {
+      "probability": 67
+    }
+  },
+  "ratings": {
+    "count_all": 3,
+    "average_all": 4.666666666667
+  },
+  "quantity_on_stock": 0,
+  "reindex_date": "2023-09-03T23:59:59+0200",
+  "updated_at": "2023-08-17T07:46:21+0200",
+  "sap_created_at": "2020-09-09T00:00:00+0200",
+  "base_unit": "CU",
+  "origins": {
+    "producing_country": "China"
+  },
+  "views": [
+    "all",
+    "browse",
+    "browseallretailers"
+  ]
+}

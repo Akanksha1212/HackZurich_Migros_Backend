@@ -1,0 +1,981 @@
+{
+  "id": "152131000000",
+  "language": "en",
+  "name": "M-Classic Apfelmus",
+  "names": {
+    "short_name": "M-Classic Apfelmus"
+  },
+  "slug": "m-classic-apfelmus",
+  "slugs": {
+    "de": "m-classic-apfelmus-152131000000",
+    "fr": "m-classic-compote-de-pommes-152131000000",
+    "it": "m-classic-purea-di-mele-152131000000",
+    "en": "m-classic-apfelmus"
+  },
+  "type": "00",
+  "boss_number": "011111092120",
+  "description": {
+    "text": "<p>Apfelmus aus Schweizer Obst</p>",
+    "source": "P4M"
+  },
+  "data_source": "SAP-X11",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03"
+  },
+  "tags": [
+    "source-p4m",
+    "migipedia",
+    "migrolino-data",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613312390986",
+    "7613269181736",
+    "7616800150109"
+  ],
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarket"
+  },
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "brand": {
+    "id": "068",
+    "name": "M-Classic",
+    "slug": "m-classic",
+    "links": {
+      "homepage": {
+        "url": "https://m-classic.migros.ch/de.html",
+        "name": "Homepage",
+        "type": "info",
+        "purchasable": false
+      }
+    }
+  },
+  "labels": [
+    {
+      "id": "L53",
+      "name": "Swissness",
+      "slug": "swissness",
+      "image": {
+        "original": "https://image.migros.ch/original/d771bba2f6b08ba42970ea0243c6f8c5a8832f15/swissness.jpg",
+        "stack": "https://image.migros.ch/{stack}/d771bba2f6b08ba42970ea0243c6f8c5a8832f15/swissness.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_01011415",
+      "name": "Früchtekonserven",
+      "slug": "supermarkt/lebensmittel/pasta-zutaten-konserven/fruechtekonserven",
+      "visible": true,
+      "parent_code": "BeSS_010114",
+      "image": {
+        "original": "https://image.migros.ch/original/8326ed75fd9f2f18ad470de30ad4aa94243546ca/fruechtekonserven.jpg",
+        "stack": "https://image.migros.ch/{stack}/8326ed75fd9f2f18ad470de30ad4aa94243546ca/fruechtekonserven.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010114",
+      "name": "Pasta, Zutaten & Konserven",
+      "slug": "supermarkt/lebensmittel/pasta-zutaten-konserven",
+      "visible": true,
+      "title": "Pasta aus Ihrer Migros: alles rund um Teigwaren",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/6d0964bbb34b8e041ba4d74fc0c90b149907f46a/pasta-zutaten-konserven.jpg",
+        "stack": "https://image.migros.ch/{stack}/6d0964bbb34b8e041ba4d74fc0c90b149907f46a/pasta-zutaten-konserven.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/31702195ec9d38aecefe80349eb347f79d56c750/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/31702195ec9d38aecefe80349eb347f79d56c750/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "online_relevant": [
+    {
+      "code": "MGB",
+      "name": "Migros Genossenschafts-Bund"
+    },
+    {
+      "code": "MO",
+      "name": "Migros Online"
+    }
+  ],
+  "links": {
+    "migros_ch": {
+      "url": "https://www.migros.ch/en/product/152131000000?context=instore",
+      "name": "In-store assortment",
+      "canonical": "https://www.migros.ch/en/product/152131000000?context=instore",
+      "type": "info",
+      "purchasable": false
+    },
+    "migros_online": {
+      "url": "https://www.migros.ch/en/product/152131000000?context=online",
+      "mo_product_id": "58232",
+      "name": "Online-shop assortment",
+      "canonical": "https://www.migros.ch/en/product/152131000000?context=instore",
+      "type": "shop",
+      "purchasable": true,
+      "one_catalog_id": 100006679
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/152131000000",
+      "name": "Migipedia",
+      "canonical": "https://www.migros.ch/en/product/152131000000?context=instore",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "has_safety_sheet": false,
+  "m_check2": {
+    "carbon_footprint": {
+      "image": {
+        "original": "https://image.migros.ch/original/3cb33aa7d90d7331f458860ae78688a0923b5993.svg",
+        "stack": "https://image.migros.ch/{stack}/3cb33aa7d90d7331f458860ae78688a0923b5993.svg"
+      },
+      "ground_and_sea_cargo": {
+        "kg_co2": 0.386,
+        "kg_co2_range": "0 - 0.9 kg CO₂eq / kg",
+        "co2_in_car_km": 2,
+        "rating": 5,
+        "production_in_percent": 38,
+        "packaging_in_percent": 45,
+        "transport_in_percent": 17
+      }
+    }
+  },
+  "receipt_text": "MClass Apfelmus 445g",
+  "package": {
+    "content": 445,
+    "content_unit_code": "g",
+    "content_unit": "Gram",
+    "net_weight": 0.445,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogram",
+    "type": "Can",
+    "portions_per_package": "4",
+    "precision": "approximate",
+    "brutto_weight": 0.495,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 0.613,
+    "brutto_volume_unit_code": "cdm",
+    "height": 10.9,
+    "length": 7.5,
+    "width": 7.5,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "445g"
+  },
+  "package_information": {
+    "tu": {
+      "gtins": [
+        "2038000150102",
+        "7613269181743",
+        "7613312390993",
+        "7616800560601"
+      ],
+      "brutto_weight": 6.1,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 7.384,
+      "brutto_volume_unit_code": "cdm",
+      "height": 11,
+      "length": 30.1,
+      "width": 22.3,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 12
+    },
+    "cu": {
+      "gtins": [
+        "7613269181736",
+        "7613312390986",
+        "7616800150109"
+      ],
+      "brutto_weight": 0.495,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.613,
+      "brutto_volume_unit_code": "cdm",
+      "height": 10.9,
+      "length": 7.5,
+      "width": 7.5,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "lu": {
+      "brutto_weight": 897.3,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 1353.6,
+      "brutto_volume_unit_code": "cdm",
+      "height": 141,
+      "length": 120,
+      "width": 80,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1716
+    }
+  },
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "price": {
+    "valid_from": "2023-07-04T00:00:00+0200",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 1.6,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "445g"
+    },
+    "base": {
+      "price": 0.36,
+      "quantity": 100,
+      "unit": "G"
+    }
+  },
+  "features": [
+    {
+      "label_code": "acxMISOgezuckert",
+      "label": "Gezuckert",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Yes",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "ecxMISOCLAbearbeiteteshaltbaresobstfruechteobstfruechtelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOcugebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "erxMISOcugebindeartdose",
+          "value": "Dose"
+        }
+      ],
+      "category_code": "ecxMISOCLAbearbeiteteshaltbaresobstfruechteobstfruechtelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOverfuegbarkeit",
+      "label": "Verfügbarkeit",
+      "values": [
+        {
+          "value_code": "erxMISOverfuegbarkeitdasganzejahr",
+          "value": "available all year round"
+        }
+      ],
+      "category_code": "ecxMISOCLAbearbeiteteshaltbaresobstfruechteobstfruechtelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOlagerungzuhause",
+      "label": "Lagerung zu Hause",
+      "values": [
+        {
+          "value_code": "erxMISOlagerungzuhausetrockenlagern",
+          "value": "store in a dry place"
+        }
+      ],
+      "category_code": "ecxMISOCLAbearbeiteteshaltbaresobstfruechteobstfruechtelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOwiederverschliessbar",
+      "label": "Wiederverschliessbar",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "ecxMISOCLAbearbeiteteshaltbaresobstfruechteobstfruechtelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOzubereitungsverfahren",
+      "label": "Hinweise für die Zubereitung",
+      "values": [
+        {
+          "value_code": "erxMISOzubereitungsverfahrenverzehrfertig",
+          "value": "verzehrfertig"
+        }
+      ],
+      "category_code": "ecxMISOCLAbearbeiteteshaltbaresobstfruechteobstfruechtelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOformbeschaffenheitvonobst",
+      "label": "Form/Beschaffenheit",
+      "values": [
+        {
+          "value": "mashed"
+        }
+      ],
+      "category_code": "ecxMISOCLAbearbeiteteshaltbaresobstfruechteobstfruechtelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/ce8e6562390925b4e83f6024a8fe9566aabe259d/m-classic-apfelmus.jpg",
+    "stack": "https://image.migros.ch/{stack}/ce8e6562390925b4e83f6024a8fe9566aabe259d/m-classic-apfelmus.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/41386e152d00356215ecdd97870684cb3d2d9e45/m-classic-apfelmus.png",
+    "stack": "https://image.migros.ch/{stack}/41386e152d00356215ecdd97870684cb3d2d9e45/m-classic-apfelmus.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_EXPORTABLE",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Yes",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MAPI_EXPORTABLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Normalposition"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "HAWA"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "11134",
+          "value": "CANNED FRUIT"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_KUBE_TUKA",
+      "values": [
+        {
+          "value_code": "BLANK",
+          "value": "KUBE und TUKA nicht zugelassen"
+        }
+      ],
+      "category_code": "MAPI_KUBE_TUKA",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LIFECYCLE",
+      "values": [
+        {
+          "value_code": "D",
+          "value": "Detailhandelsartikel"
+        }
+      ],
+      "category_code": "MAPI_LIFECYCLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_STORAGE_CONDITIONS",
+      "values": [
+        {
+          "value_code": "01",
+          "value": "normal"
+        }
+      ],
+      "category_code": "MAPI_STORAGE_CONDITIONS",
+      "top_fact": false
+    },
+    {
+      "label_code": "acxMISOsorten",
+      "label": "Sorten",
+      "values": [
+        {
+          "value_code": "erxMISOCLAbearbeiteteshaltbaresObstFruechteObstFruechteLebensmittelGetraenkeAlle",
+          "value": "bearbeitetes haltbares Obst Fruechte"
+        }
+      ],
+      "category_code": "ecxMISOCLAbearbeiteteshaltbaresobstfruechteobstfruechtelebensmittelgetraenkealle",
+      "top_fact": false
+    },
+    {
+      "label_code": "acxCommonarticlecocompensated",
+      "label": "Artikel Co2 kompensiert",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false
+    },
+    {
+      "label_code": "acxCommonmesswertcompensation",
+      "label": "CO2-Wert Kompensation",
+      "values": [
+        {
+          "value_code": "NUMERIC_0.386",
+          "value": "0.386",
+          "numeric_value": 0.386
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false,
+      "unit_code": "5d71456e-a520-4294-9ddb-add78f63ce83",
+      "unit": "Equivalence per kilogram",
+      "unit_symbol": "eq / kg"
+    },
+    {
+      "label_code": "acxCommonoutputmcheckclimatedeclaration",
+      "label": "Auslobung M-Check Klimadeklaration",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Yes",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false
+    }
+  ],
+  "declarations": {
+    "declaration_number": "Q_2121841432603715",
+    "tags": [
+      "source-qim"
+    ],
+    "gtins": [
+      "7616800150109"
+    ],
+    "valid_from": "2021-12-28T01:00:00+0100",
+    "product_details": {
+      "package": {
+        "type": "Can",
+        "number_of_portions": "4",
+        "number_of_portions_operator": "≈"
+      },
+      "net_filled_quantity": {
+        "value": "445 g",
+        "numeric_value": 445,
+        "unit": "g"
+      }
+    },
+    "general_information": [
+      {
+        "label": "Cooling information/storage information",
+        "values": [
+          "Store in a cool, dry place.",
+          "Store at room temperature. Once opened, do not leave in the can. Keep refrigerated and consume quickly."
+        ]
+      },
+      {
+        "label": "Production information",
+        "values": [
+          "sterilized"
+        ]
+      }
+    ],
+    "nutrition_facts": {
+      "reference_sizes": {
+        "standard": {
+          "base": {
+            "quantity": {
+              "value": "100 g",
+              "numeric_value": 100,
+              "unit": "g"
+            }
+          },
+          "nutrients": [
+            {
+              "code": "NUT_ENERGY",
+              "name": "Energy",
+              "operator": "=",
+              "pictogram_name": "Energy",
+              "category": "BIG9",
+              "quantity": {
+                "value": "342 kJ",
+                "numeric_value": 342,
+                "unit": "kJ",
+                "alternate": {
+                  "value": "81 kcal",
+                  "numeric_value": 81,
+                  "unit": "kcal"
+                }
+              },
+              "rda": {
+                "percent": 4,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_FAT",
+              "name": "Fat",
+              "operator": "<",
+              "pictogram_name": "Fat",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0.5 g",
+                "numeric_value": 0.5,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 1,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_SATURATED_FATTY_ACIDS",
+              "name": "of which saturates",
+              "operator": "<",
+              "pictogram_name": "saturated fatty acids",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0.1 g",
+                "numeric_value": 0.1,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 1,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_CARBOHYDRATES",
+              "name": "Carbohydrate",
+              "operator": "=",
+              "category": "BIG9",
+              "quantity": {
+                "value": "19 g",
+                "numeric_value": 19,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 7,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_SUGAR",
+              "name": "of which sugars",
+              "operator": "=",
+              "pictogram_name": "Sugar",
+              "category": "BIG9",
+              "quantity": {
+                "value": "18 g",
+                "numeric_value": 18,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 20,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_FIBER",
+              "name": "Fibre",
+              "operator": "=",
+              "category": "BIG9",
+              "quantity": {
+                "value": "1.5 g",
+                "numeric_value": 1.5,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_PROTEIN",
+              "name": "Protein",
+              "operator": "<",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0.5 g",
+                "numeric_value": 0.5,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 1,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_SALT",
+              "name": "Salt",
+              "operator": "=",
+              "pictogram_name": "Salt",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0 g",
+                "numeric_value": 0,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 0,
+                "operator": "="
+              }
+            }
+          ]
+        },
+        "portion": {
+          "base": {
+            "quantity": {
+              "value": "120 g",
+              "numeric_value": 120,
+              "unit": "g"
+            }
+          },
+          "nutrients": [
+            {
+              "code": "NUT_ENERGY",
+              "name": "Energy",
+              "operator": "=",
+              "pictogram_name": "Energy",
+              "category": "BIG9",
+              "quantity": {
+                "value": "414 kJ",
+                "numeric_value": 414,
+                "unit": "kJ",
+                "alternate": {
+                  "value": "98 kcal",
+                  "numeric_value": 98,
+                  "unit": "kcal"
+                }
+              },
+              "rda": {
+                "percent": 5,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_FAT",
+              "name": "Fat",
+              "operator": "<",
+              "pictogram_name": "Fat",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0.5 g",
+                "numeric_value": 0.5,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 1,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_SATURATED_FATTY_ACIDS",
+              "name": "of which saturates",
+              "operator": "<",
+              "pictogram_name": "saturated fatty acids",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0.1 g",
+                "numeric_value": 0.1,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 1,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_CARBOHYDRATES",
+              "name": "Carbohydrate",
+              "operator": "=",
+              "category": "BIG9",
+              "quantity": {
+                "value": "23 g",
+                "numeric_value": 23,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 9,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_SUGAR",
+              "name": "of which sugars",
+              "operator": "=",
+              "pictogram_name": "Sugar",
+              "category": "BIG9",
+              "quantity": {
+                "value": "22 g",
+                "numeric_value": 22,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 24,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_FIBER",
+              "name": "Fibre",
+              "operator": "=",
+              "category": "BIG9",
+              "quantity": {
+                "value": "1.8 g",
+                "numeric_value": 1.8,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_PROTEIN",
+              "name": "Protein",
+              "operator": "<",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0.5 g",
+                "numeric_value": 0.5,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 1,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_SALT",
+              "name": "Salt",
+              "operator": "=",
+              "pictogram_name": "Salt",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0 g",
+                "numeric_value": 0,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 0,
+                "operator": "="
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "recipe_ingredient_ids": [
+    "14452"
+  ],
+  "regional_availability": {
+    "gmaa": {
+      "probability": 99
+    },
+    "gmbs": {
+      "probability": 100
+    },
+    "gmge": {
+      "probability": 79
+    },
+    "gmlu": {
+      "probability": 98
+    },
+    "gmnf": {
+      "probability": 98
+    },
+    "gmos": {
+      "probability": 98
+    },
+    "gmti": {
+      "probability": 100
+    },
+    "gmvd": {
+      "probability": 98
+    },
+    "gmvs": {
+      "probability": 96
+    },
+    "gmzh": {
+      "probability": 94
+    }
+  },
+  "ratings": {
+    "count_all": 53,
+    "average_all": 4.576923076923
+  },
+  "related_products": {
+    "purchase_recommendations": {
+      "product_ids": [
+        "152133000000",
+        "152151100000",
+        "152612300000",
+        "152151900000",
+        "152612100000"
+      ]
+    }
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "updated_at": "2023-08-17T11:53:08+0200",
+  "sap_created_at": "2001-10-04T19:00:00+0200",
+  "online_shop_relevant": false,
+  "base_unit": "CU",
+  "co2_compensation": {
+    "kg_co2": 0.386,
+    "kg_co2_compensation": 0.386,
+    "is_compensated": false,
+    "mcheck_enabled": true
+  },
+  "origins": {},
+  "views": [
+    "all",
+    "browse",
+    "browseallretailers"
+  ]
+}

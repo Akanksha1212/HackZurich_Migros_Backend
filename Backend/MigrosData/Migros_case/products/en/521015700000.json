@@ -1,0 +1,722 @@
+{
+  "id": "521015700000",
+  "language": "en",
+  "name": "MIBEBE BIO APP. FEN. JUICE",
+  "names": {
+    "short_name": "MIBEBE BIO APP. FEN. JUICE"
+  },
+  "slug": "mibebe-bio-app-fen-juice",
+  "slugs": {
+    "de": "mibebe-bio-mild-apf-mit-fenchelsaft",
+    "fr": "mibebe-bio-jus-dpom-doux-av-jus-fen",
+    "it": "mibebe-bio-mela-dolc-con-succ-di-fin",
+    "en": "mibebe-bio-app-fen-juice"
+  },
+  "type": "00",
+  "boss_number": "130212246315",
+  "description": {
+    "text": "Bio Apfelsaft mit Fenchelsaft. Beikost f&uuml;r S&auml;uglinge und Kleinkinder ab 6 Monaten.",
+    "source": "PEX"
+  },
+  "data_source": "SAP-X11",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03"
+  },
+  "tags": [
+    "source-pex",
+    "near-non-food",
+    "migipedia",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613312133156"
+  ],
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarket"
+  },
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "brand": {
+    "id": "R20",
+    "name": "Mibébé",
+    "slug": "mibebe",
+    "image": {
+      "original": "https://image.migros.ch/original/9614f87a78e4873696238c679e2838b8385fbce8/mibebe.jpg",
+      "stack": "https://image.migros.ch/{stack}/9614f87a78e4873696238c679e2838b8385fbce8/mibebe.jpg"
+    }
+  },
+  "labels": [
+    {
+      "id": "L76",
+      "name": "No added sugar",
+      "slug": "no-added-sugar"
+    },
+    {
+      "id": "L02",
+      "name": "Migros Organic Guidelines",
+      "slug": "migros-organic-guidelines",
+      "links": {
+        "homepage": {
+          "url": "https://bio.migros.ch/de.html",
+          "name": "Homepage",
+          "type": "info",
+          "purchasable": false
+        }
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_01070104",
+      "name": "Getränke",
+      "slug": "supermarkt/baby-kinder/babynahrung/getraenke",
+      "visible": true,
+      "parent_code": "BeSS_010701",
+      "level": 4
+    },
+    {
+      "code": "BeSS_010701",
+      "name": "Babynahrung",
+      "slug": "supermarkt/baby-kinder/babynahrung",
+      "visible": true,
+      "title": "Babynahrung für jede Altersstufe – aus Ihrer Migros",
+      "parent_code": "BeSS_0107",
+      "image": {
+        "original": "https://image.migros.ch/original/ac6ff22beaa62c8e6ff4bdf9ed2ad3c5daa9d5dc/babynahrung.jpg",
+        "stack": "https://image.migros.ch/{stack}/ac6ff22beaa62c8e6ff4bdf9ed2ad3c5daa9d5dc/babynahrung.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0107",
+      "name": "Baby & Kinder",
+      "slug": "supermarkt/baby-kinder",
+      "visible": true,
+      "title": "Babyartikel: Alles rund ums Baby in Ihrer Migros kaufen",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/dc6e5e45f414e657061e049a69de80177f40ca98/baby-kinder.jpg",
+        "stack": "https://image.migros.ch/{stack}/dc6e5e45f414e657061e049a69de80177f40ca98/baby-kinder.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "online_relevant": [
+    {
+      "code": "MGB",
+      "name": "Migros Genossenschafts-Bund"
+    },
+    {
+      "code": "MO",
+      "name": "Migros Online"
+    }
+  ],
+  "galaxus_relevant": false,
+  "links": {
+    "migros_ch": {
+      "url": "https://www.migros.ch/en/product/521015700000?context=instore",
+      "name": "In-store assortment",
+      "canonical": "https://www.migros.ch/en/product/521015700000?context=instore",
+      "type": "info",
+      "purchasable": false
+    },
+    "migros_online": {
+      "url": "https://www.migros.ch/en/product/521015700000?context=online",
+      "mo_product_id": "3865279",
+      "name": "Online-shop assortment",
+      "canonical": "https://www.migros.ch/en/product/521015700000?context=instore",
+      "type": "shop",
+      "purchasable": true,
+      "one_catalog_id": 100031878
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/521015700000",
+      "name": "Migipedia",
+      "canonical": "https://www.migros.ch/en/product/521015700000?context=instore",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "m_check2": {
+    "carbon_footprint": {
+      "image": {
+        "original": "https://image.migros.ch/original/0a2093a1718156b317e9aac46d5c2589cfde38b7.svg",
+        "stack": "https://image.migros.ch/{stack}/0a2093a1718156b317e9aac46d5c2589cfde38b7.svg"
+      },
+      "ground_and_sea_cargo": {
+        "kg_co2": 1,
+        "kg_co2_range": "1 - 1.9 kg CO₂eq / kg",
+        "co2_in_car_km": 5,
+        "rating": 4,
+        "production_in_percent": 64.8,
+        "packaging_in_percent": 17,
+        "transport_in_percent": 18.2
+      }
+    }
+  },
+  "receipt_text": "Mibébé Bio Apf.Fen.Saf",
+  "package": {
+    "content": 250,
+    "content_unit_code": "ml",
+    "content_unit": "Mililiter",
+    "net_weight": 0.32,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "brutto_weight": 0.32,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 0.691,
+    "brutto_volume_unit_code": "cdm",
+    "height": 14.7,
+    "length": 5.9,
+    "width": 5.9,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "250ml"
+  },
+  "package_information": {
+    "tu": {
+      "gtins": [
+        "7613312133163"
+      ],
+      "brutto_weight": 1.92,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 2.25,
+      "brutto_volume_unit_code": "cdm",
+      "height": 15,
+      "length": 15,
+      "width": 10,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 6
+    },
+    "cu": {
+      "gtins": [
+        "7613312133156"
+      ],
+      "brutto_weight": 0.32,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.691,
+      "brutto_volume_unit_code": "cdm",
+      "height": 14.7,
+      "length": 5.9,
+      "width": 5.9,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "lu": {
+      "brutto_weight_unit_code": "kg",
+      "number_of_base_units": 1656
+    },
+    "lge": {
+      "number_of_base_units": 276
+    },
+    "kar": {
+      "number_of_base_units": 1
+    }
+  },
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "price": {
+    "valid_from": "2018-01-29T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 1.9,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "250ml"
+    },
+    "base": {
+      "price": 0.76,
+      "quantity": 100,
+      "unit": "ml"
+    }
+  },
+  "features": [
+    {
+      "label_code": "miso_kategorie",
+      "label": "Category/theme",
+      "values": [
+        {
+          "value_code": "MISO_artikelart_saefte_tee",
+          "value": "Säfte/ Tee"
+        }
+      ],
+      "category_code": "MISO_CLA_BabyNahrung_BabyKinder_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "miso_alter",
+      "label": "Age",
+      "values": [
+        {
+          "value_code": "MISO_alter_baby_kinder_ab6_Monaten",
+          "value": "ab 6 Monaten"
+        }
+      ],
+      "category_code": "MISO_CLA_BabyNahrung_BabyKinder_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "miso_inhalt_volumen",
+      "label": "Contents (volume)",
+      "values": [
+        {
+          "value_code": "NUMERIC_250",
+          "value": "250 ml",
+          "numeric_value": 250
+        }
+      ],
+      "category_code": "MISO_CLA_BabyKinder_Alle",
+      "top_fact": false,
+      "unit_code": "ml",
+      "unit": "Mililiter",
+      "unit_symbol": "ml",
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/49607acee5f77e27503195cc76689cbcae6938b1/mibebe-bio-app-fen-juice.jpg",
+    "stack": "https://image.migros.ch/{stack}/49607acee5f77e27503195cc76689cbcae6938b1/mibebe-bio-app-fen-juice.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/d54c195e2c2afe7c67b912201dd8e84129680602/mibebe-bio-app-fen-juice.png",
+    "stack": "https://image.migros.ch/{stack}/d54c195e2c2afe7c67b912201dd8e84129680602/mibebe-bio-app-fen-juice.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "miso_amigos_anzeige",
+      "label": "Display aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "ja"
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "miso_amigos_sortierung",
+      "label": "aMigos sorting",
+      "values": [
+        {
+          "value": "260"
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Standard item"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "ZHKS"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RISK_CLASS",
+      "values": [
+        {
+          "value_code": "1",
+          "value": "1 (high)"
+        }
+      ],
+      "category_code": "MAPI_RISK_CLASS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_QUALITY_CHECK",
+      "values": [
+        {
+          "value_code": "00",
+          "value": "No Quality Control"
+        }
+      ],
+      "category_code": "MAPI_QUALITY_CHECK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZHKS",
+          "value": "HKS Standardartikel"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "H",
+          "value": "HKS Standard"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "50494",
+          "value": "GETRÄNKE"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LIFECYCLE",
+      "values": [
+        {
+          "value_code": "D",
+          "value": "Detailhandelsartikel"
+        }
+      ],
+      "category_code": "MAPI_LIFECYCLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_EXPORTABLE",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_EXPORTABLE",
+      "top_fact": false
+    }
+  ],
+  "declarations": {
+    "declaration_number": "Q_10556278847642362",
+    "tags": [
+      "source-qim"
+    ],
+    "gtins": [
+      "7613312133156"
+    ],
+    "valid_from": "2020-05-28T09:14:00+0200",
+    "product_details": {
+      "certification": "CH-BIO-006, bio.inspecta AG",
+      "net_filled_quantity": {
+        "value": "250 ml",
+        "numeric_value": 250,
+        "unit": "ml"
+      }
+    },
+    "general_information": [
+      {
+        "label": "Cooling information/storage information",
+        "values": [
+          "Once opened, keep refigerated and consume quickly.",
+          "Store in a cool, dry place and protected from light."
+        ]
+      },
+      {
+        "label": "Production information",
+        "values": [
+          "pasteurized"
+        ]
+      }
+    ],
+    "nutrition_facts": {
+      "reference_sizes": {
+        "standard": {
+          "base": {
+            "quantity": {
+              "value": "100 ml",
+              "numeric_value": 100,
+              "unit": "ml"
+            }
+          },
+          "nutrients": [
+            {
+              "code": "NUT_ENERGY",
+              "name": "Energy",
+              "operator": "=",
+              "pictogram_name": "Energy",
+              "category": "BIG9",
+              "quantity": {
+                "value": "172 kJ",
+                "numeric_value": 172,
+                "unit": "kJ",
+                "alternate": {
+                  "value": "40 kcal",
+                  "numeric_value": 40,
+                  "unit": "kcal"
+                }
+              }
+            },
+            {
+              "code": "NUT_FAT",
+              "name": "Fat",
+              "operator": "=",
+              "pictogram_name": "Fat",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0 g",
+                "numeric_value": 0,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_SATURATED_FATTY_ACIDS",
+              "name": "of which saturates",
+              "operator": "=",
+              "pictogram_name": "saturated fatty acids",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0 g",
+                "numeric_value": 0,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_CARBOHYDRATES",
+              "name": "Carbohydrate",
+              "operator": "=",
+              "category": "BIG9",
+              "quantity": {
+                "value": "10 g",
+                "numeric_value": 10,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_SUGAR",
+              "name": "of which sugars",
+              "operator": "=",
+              "pictogram_name": "Sugar",
+              "category": "BIG9",
+              "quantity": {
+                "value": "10 g",
+                "numeric_value": 10,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_FIBER",
+              "name": "Fibre",
+              "operator": "=",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0 g",
+                "numeric_value": 0,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_PROTEIN",
+              "name": "Protein",
+              "operator": "<",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0.5 g",
+                "numeric_value": 0.5,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_SALT",
+              "name": "Salt",
+              "operator": "=",
+              "pictogram_name": "Salt",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0.01 g",
+                "numeric_value": 0.01,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_SODIUM",
+              "name": "Sodium",
+              "operator": "=",
+              "category": "BIG9",
+              "quantity": {
+                "value": "4 mg",
+                "numeric_value": 4,
+                "unit": "mg"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "regional_availability": {
+    "gmaa": {
+      "probability": 98
+    },
+    "gmbs": {
+      "probability": 93
+    },
+    "gmge": {
+      "probability": 89
+    },
+    "gmlu": {
+      "probability": 97
+    },
+    "gmnf": {
+      "probability": 100
+    },
+    "gmos": {
+      "probability": 97
+    },
+    "gmti": {
+      "probability": 100
+    },
+    "gmvd": {
+      "probability": 100
+    },
+    "gmvs": {
+      "probability": 100
+    },
+    "gmzh": {
+      "probability": 93
+    }
+  },
+  "ratings": {
+    "count_all": 8,
+    "average_all": 4
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "updated_at": "2023-08-17T12:02:32+0200",
+  "sap_created_at": "2017-02-13T00:00:00+0100",
+  "base_unit": "CU",
+  "views": [
+    "all",
+    "browse",
+    "browseallretailers"
+  ]
+}

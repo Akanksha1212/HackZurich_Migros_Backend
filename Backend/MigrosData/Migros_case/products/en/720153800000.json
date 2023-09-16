@@ -1,0 +1,480 @@
+{
+  "id": "720153800000",
+  "language": "en",
+  "name": "HEFTEINBAND PAPIER BEDRUCKT",
+  "names": {
+    "short_name": "HEFTEINBAND PAPIER BEDRUCKT"
+  },
+  "slug": "hefteinband-papier-bedruckt",
+  "slugs": {
+    "de": "hefteinband-bedruckt",
+    "fr": "papier-en-couverture",
+    "it": "copertina-stampata",
+    "en": "hefteinband-papier-bedruckt"
+  },
+  "type": "00",
+  "boss_number": "150623810505",
+  "description": {
+    "text": "Das Papier um B&uuml;cher einzubinden damit sie l&auml;nger sch&ouml;n bleiben",
+    "source": "PEX"
+  },
+  "data_source": "SAP-X12",
+  "status": {
+    "id": "liquidation",
+    "seasonal": true,
+    "pim_status": "04",
+    "distribution_center": [
+      {
+        "center_id": "1001",
+        "center_name": "Migros Verteilzentrum Neuendorf",
+        "status_code": "03",
+        "status_description": "active"
+      }
+    ],
+    "description": "For a limited time only. Seasonal item."
+  },
+  "tags": [
+    "source-pex",
+    "near-non-food",
+    "migipedia",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613205322636"
+  ],
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarket"
+  },
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "brand": {
+    "id": "N48",
+    "name": "Papeteria",
+    "slug": "papeteria",
+    "image": {
+      "original": "https://image.migros.ch/original/e8c5ecf1bb139080fc7261fdd6d8bf69b1a67523/papeteria.jpg",
+      "stack": "https://image.migros.ch/{stack}/e8c5ecf1bb139080fc7261fdd6d8bf69b1a67523/papeteria.jpg"
+    }
+  },
+  "categories": [
+    {
+      "code": "BeSS_010514",
+      "name": "Schreiben & Notieren",
+      "slug": "supermarkt/papeterie-bueromaterial/schreiben-notieren",
+      "visible": true,
+      "parent_code": "BeSS_0105",
+      "level": 3
+    },
+    {
+      "code": "BeSS_0105",
+      "name": "Papeterie & Büromaterial",
+      "slug": "supermarkt/papeterie-bueromaterial",
+      "visible": true,
+      "title": "Papeterie und Büromaterialien sind immer in Ihrer Migros zu finden",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/6b764b62482953963a5ab3263b9bd3a69cbf436a/papeterie-bueromaterial.jpg",
+        "stack": "https://image.migros.ch/{stack}/6b764b62482953963a5ab3263b9bd3a69cbf436a/papeterie-bueromaterial.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "online_relevant": [
+    {
+      "code": "MGB",
+      "name": "Migros Genossenschafts-Bund"
+    }
+  ],
+  "galaxus_relevant": false,
+  "links": {
+    "migros_ch": {
+      "url": "https://www.migros.ch/en/product/720153800000?context=instore",
+      "name": "In-store assortment",
+      "canonical": "https://www.migros.ch/en/product/720153800000?context=instore",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/720153800000",
+      "name": "Migipedia",
+      "canonical": "https://www.migros.ch/en/product/720153800000?context=instore",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "receipt_text": "Hefteinband bedruckt",
+  "package": {
+    "content": 1,
+    "content_unit_code": "cu",
+    "net_weight": 0.11,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "brutto_weight": 0.11,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 437.5,
+    "brutto_volume_unit_code": "ccm",
+    "height": 3.3,
+    "length": 50,
+    "width": 3.3,
+    "unit_dimension": "cm"
+  },
+  "package_information": {
+    "cu": {
+      "gtins": [
+        "7613205322636"
+      ],
+      "brutto_weight": 0.11,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 437.5,
+      "brutto_volume_unit_code": "ccm",
+      "height": 3.3,
+      "length": 50,
+      "width": 3.3,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "tuv": {
+      "brutto_weight": 2.82,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 15.606,
+      "brutto_volume_unit_code": "cdm",
+      "height": 51,
+      "length": 17,
+      "width": 18,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 25
+    },
+    "tue": {
+      "gtins": [
+        "7612246310329"
+      ],
+      "brutto_weight": 2.925,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 18.025,
+      "brutto_volume_unit_code": "cdm",
+      "height": 17.5,
+      "length": 51.5,
+      "width": 20,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 25
+    },
+    "lu": {
+      "number_of_base_units": 1800
+    }
+  },
+  "vat": {
+    "id": 1,
+    "percentage": 7.7
+  },
+  "price": {
+    "valid_from": "2022-10-28T00:00:00+0200",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 2.7,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "1 piece"
+    }
+  },
+  "image": {
+    "original": "https://image.migros.ch/original/ec110463de0bbc3558506828f00bb265efc9269f/hefteinband-papier-bedruckt.jpg",
+    "stack": "https://image.migros.ch/{stack}/ec110463de0bbc3558506828f00bb265efc9269f/hefteinband-papier-bedruckt.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/f6ae294625a3047e21c8e3f6507db80bb7de34b7/hefteinband-papier-bedruckt.png",
+    "stack": "https://image.migros.ch/{stack}/f6ae294625a3047e21c8e3f6507db80bb7de34b7/hefteinband-papier-bedruckt.png"
+  },
+  "additional_images": [
+    {
+      "original": "https://image.migros.ch/original/35eb7a93336d0c73152d0d0d69fa2456756f5da2.jpg",
+      "stack": "https://image.migros.ch/{stack}/35eb7a93336d0c73152d0d0d69fa2456756f5da2.jpg"
+    },
+    {
+      "original": "https://image.migros.ch/original/5cf710bb82765c6a7fd16baff54a54aa16188c45.jpg",
+      "stack": "https://image.migros.ch/{stack}/5cf710bb82765c6a7fd16baff54a54aa16188c45.jpg"
+    },
+    {
+      "original": "https://image.migros.ch/original/2483846a7c8e8a1ddb934c2c59b8016a51fcfd6c.jpg",
+      "stack": "https://image.migros.ch/{stack}/2483846a7c8e8a1ddb934c2c59b8016a51fcfd6c.jpg"
+    },
+    {
+      "original": "https://image.migros.ch/original/ca460f50b474b6567be79cc05524510a86aa76b2.jpg",
+      "stack": "https://image.migros.ch/{stack}/ca460f50b474b6567be79cc05524510a86aa76b2.jpg"
+    },
+    {
+      "original": "https://image.migros.ch/original/79ecb209057e629d56ebe9099db4675d87ec19de.jpg",
+      "stack": "https://image.migros.ch/{stack}/79ecb209057e629d56ebe9099db4675d87ec19de.jpg"
+    }
+  ],
+  "internal_features": [
+    {
+      "label_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+      "values": [
+        {
+          "value_code": "55",
+          "value": "Versandart Paket"
+        }
+      ],
+      "category_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LOGISTIC_CLASS",
+      "values": [
+        {
+          "value_code": "7",
+          "value": "VMI"
+        }
+      ],
+      "category_code": "MAPI_LOGISTIC_CLASS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Standard item"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "HART"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUSTOMS_POSITION",
+      "values": [
+        {
+          "value": "48114000000"
+        }
+      ],
+      "category_code": "MAPI_CUSTOMS_POSITION",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RISK_CLASS",
+      "values": [
+        {
+          "value_code": "3",
+          "value": "3 (low)"
+        }
+      ],
+      "category_code": "MAPI_RISK_CLASS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_KUBE_TUKA",
+      "values": [
+        {
+          "value_code": "BLANK",
+          "value": "KUBE und TUKA nicht zugelassen"
+        }
+      ],
+      "category_code": "MAPI_KUBE_TUKA",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HART",
+          "value": "Hartwaren Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "H",
+          "value": "Hartwaren"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "53207",
+          "value": "SCHREIBWAREN"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_EXPORTABLE",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Yes",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MAPI_EXPORTABLE",
+      "top_fact": false
+    }
+  ],
+  "regional_availability": {
+    "gmaa": {
+      "probability": 75
+    },
+    "gmbs": {
+      "probability": 67
+    },
+    "gmge": {
+      "probability": 63
+    },
+    "gmlu": {
+      "probability": 49
+    },
+    "gmnf": {
+      "probability": 56
+    },
+    "gmos": {
+      "probability": 57
+    },
+    "gmti": {
+      "probability": 61
+    },
+    "gmvd": {
+      "probability": 70
+    },
+    "gmvs": {
+      "probability": 56
+    },
+    "gmzh": {
+      "probability": 56
+    }
+  },
+  "ratings": {
+    "count_all": 1,
+    "average_all": 2
+  },
+  "quantity_on_stock": 0,
+  "reindex_date": "2023-09-03T00:00:00+0200",
+  "updated_at": "2023-08-17T07:45:56+0200",
+  "sap_created_at": "2007-12-27T00:00:00+0100",
+  "online_shop_relevant": true,
+  "base_unit": "CU",
+  "origins": {
+    "producing_country": "Germany"
+  },
+  "views": [
+    "all",
+    "browse",
+    "browseallretailers"
+  ]
+}

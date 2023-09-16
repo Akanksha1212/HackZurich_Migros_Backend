@@ -1,0 +1,816 @@
+{
+  "id": "204107500000",
+  "language": "en",
+  "name": "Migros Bio Halbrahm",
+  "names": {
+    "short_name": "Migros Bio Halbrahm"
+  },
+  "slug": "migros-bio-halbrahm-204107500000",
+  "slugs": {
+    "de": "migros-bio-halbrahm-204107500000",
+    "fr": "migros-bio-demi-creme-204107500000",
+    "it": "migros-bio-mezza-panna",
+    "en": "migros-bio-halbrahm-204107500000"
+  },
+  "type": "00",
+  "boss_number": "030213205510",
+  "data_source": "SAP-X11",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "80"
+  },
+  "tags": [
+    "source-p4m",
+    "migipedia",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613404615638"
+  ],
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarket"
+  },
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "brand": {
+    "id": "E28",
+    "name": "Migros Bio",
+    "slug": "migros-bio"
+  },
+  "labels": [
+    {
+      "id": "L02",
+      "name": "Migros Organic Guidelines",
+      "slug": "migros-organic-guidelines",
+      "links": {
+        "homepage": {
+          "url": "https://bio.migros.ch/de.html",
+          "name": "Homepage",
+          "type": "info",
+          "purchasable": false
+        }
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_01010406",
+      "name": "Rahm",
+      "slug": "supermarkt/lebensmittel/milchprodukte-eier/rahm",
+      "visible": true,
+      "title": "Rahm von der Migros &ndash; ein Segen für die Küche",
+      "parent_code": "BeSS_010104",
+      "image": {
+        "original": "https://image.migros.ch/original/5f43dec9800b17a7aa4defd26e6c1662a8f7f3ed/rahm.jpg",
+        "stack": "https://image.migros.ch/{stack}/5f43dec9800b17a7aa4defd26e6c1662a8f7f3ed/rahm.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010104",
+      "name": "Milchprodukte & Eier",
+      "slug": "supermarkt/lebensmittel/milchprodukte-eier",
+      "visible": true,
+      "title": "Milchprodukte und Eier –",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/6b1ea6c2d41c3ccb21bf05c8dc342f7f55d83deb/milchprodukte-eier.jpg",
+        "stack": "https://image.migros.ch/{stack}/6b1ea6c2d41c3ccb21bf05c8dc342f7f55d83deb/milchprodukte-eier.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/31702195ec9d38aecefe80349eb347f79d56c750/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/31702195ec9d38aecefe80349eb347f79d56c750/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "online_relevant": [
+    {
+      "code": "MGB",
+      "name": "Migros Genossenschafts-Bund"
+    },
+    {
+      "code": "MO",
+      "name": "Migros Online"
+    }
+  ],
+  "links": {
+    "migros_ch": {
+      "url": "https://www.migros.ch/en/product/204107500000?context=instore",
+      "name": "In-store assortment",
+      "canonical": "https://www.migros.ch/en/product/204107500000?context=instore",
+      "type": "info",
+      "purchasable": false
+    },
+    "migros_online": {
+      "url": "https://www.migros.ch/en/product/204107500000?context=online",
+      "mo_product_id": "6642853",
+      "name": "Online-shop assortment",
+      "canonical": "https://www.migros.ch/en/product/204107500000?context=instore",
+      "type": "shop",
+      "purchasable": true,
+      "one_catalog_id": 100015326
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/204107500000",
+      "name": "Migipedia",
+      "canonical": "https://www.migros.ch/en/product/204107500000?context=instore",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "has_safety_sheet": false,
+  "m_check2": {
+    "carbon_footprint": {
+      "image": {
+        "original": "https://image.migros.ch/original/3647ce79a496ca6d707e072f7e3f61ecc313e54b.svg",
+        "stack": "https://image.migros.ch/{stack}/3647ce79a496ca6d707e072f7e3f61ecc313e54b.svg"
+      },
+      "ground_and_sea_cargo": {
+        "kg_co2": 4.709688646,
+        "co2_in_car_km": 26,
+        "rating": 3,
+        "production_in_percent": 96.18470224,
+        "packaging_in_percent": 3.673278915,
+        "transport_in_percent": 0.142018849
+      }
+    }
+  },
+  "receipt_text": "Bio Halbrahm 250ml",
+  "package": {
+    "content": 250,
+    "content_unit_code": "ml",
+    "content_unit": "Millilitre",
+    "net_weight": 0.25,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogram",
+    "type": "Package",
+    "portions_per_package": "8",
+    "precision": "approximate",
+    "brutto_weight": 0.25,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 412.5,
+    "brutto_volume_unit_code": "ccm",
+    "height": 16.5,
+    "length": 5,
+    "width": 5,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "250ml"
+  },
+  "package_information": {
+    "tu": {
+      "gtins": [
+        "7613404615645",
+        "7613404676424"
+      ],
+      "brutto_weight": 3,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 15960,
+      "brutto_volume_unit_code": "ccm",
+      "height": 13.3,
+      "length": 40,
+      "width": 30,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 12
+    },
+    "cu": {
+      "gtins": [
+        "7613404615638"
+      ],
+      "brutto_weight": 0.25,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 412.5,
+      "brutto_volume_unit_code": "ccm",
+      "height": 16.5,
+      "length": 5,
+      "width": 5,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    }
+  },
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "price": {
+    "valid_from": "2022-12-29T00:00:00+0100",
+    "valid_to": "2023-10-09T23:59:59+0200",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 3,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "250ml"
+    },
+    "base": {
+      "price": 1.2,
+      "quantity": 100,
+      "unit": "ML"
+    }
+  },
+  "image": {
+    "original": "https://image.migros.ch/original/3f8f38dbc079b5beff89a9c36ed18c651b2458fe/migros-bio-halbrahm.jpg",
+    "stack": "https://image.migros.ch/{stack}/3f8f38dbc079b5beff89a9c36ed18c651b2458fe/migros-bio-halbrahm.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/866f0afdeafde96062951c89d5068a5ffa0a5396/migros-bio-halbrahm.png",
+    "stack": "https://image.migros.ch/{stack}/866f0afdeafde96062951c89d5068a5ffa0a5396/migros-bio-halbrahm.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_EXPORTABLE",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_EXPORTABLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Normalposition"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZFRP",
+          "value": "Frische Beschaffung"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "ZFRP"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "70119",
+          "value": "BIO"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LIFECYCLE",
+      "values": [
+        {
+          "value_code": "D",
+          "value": "Detailhandelsartikel"
+        }
+      ],
+      "category_code": "MAPI_LIFECYCLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_STORAGE_CONDITIONS",
+      "values": [
+        {
+          "value_code": "02",
+          "value": "refrigerated"
+        }
+      ],
+      "category_code": "MAPI_STORAGE_CONDITIONS",
+      "top_fact": false
+    },
+    {
+      "label_code": "acxCommonarticlecocompensated",
+      "label": "Artikel Co2 kompensiert",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false
+    },
+    {
+      "label_code": "acxCommonmesswertcompensation",
+      "label": "CO2-Wert Kompensation",
+      "values": [
+        {
+          "value_code": "NUMERIC_4.709688646",
+          "value": "4.709688646",
+          "numeric_value": 4.709688646
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false,
+      "unit_code": "5d71456e-a520-4294-9ddb-add78f63ce83",
+      "unit": "Equivalence per kilogram",
+      "unit_symbol": "eq / kg"
+    },
+    {
+      "label_code": "acxCommonoutputmcheckclimatedeclaration",
+      "label": "Auslobung M-Check Klimadeklaration",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Yes",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false
+    }
+  ],
+  "declarations": {
+    "declaration_number": "Q_1604593688411602",
+    "tags": [
+      "source-qim"
+    ],
+    "gtins": [
+      "7613404615638"
+    ],
+    "valid_from": "2021-08-03T00:00:00+0200",
+    "product_details": {
+      "certification": "Bio-Zertifizierung: CH-BIO-006",
+      "package": {
+        "type": "Package",
+        "number_of_portions": "8",
+        "number_of_portions_operator": "≈"
+      },
+      "net_filled_quantity": {
+        "value": "250 g",
+        "numeric_value": 250,
+        "unit": "g"
+      }
+    },
+    "general_information": [
+      {
+        "label": "Cooling information/storage information",
+        "values": [
+          "Protect from light, store at max.+5 °C."
+        ]
+      },
+      {
+        "label": "Production information",
+        "values": [
+          "pasteurized"
+        ]
+      }
+    ],
+    "nutrition_facts": {
+      "reference_sizes": {
+        "standard": {
+          "base": {
+            "quantity": {
+              "value": "100 ml",
+              "numeric_value": 100,
+              "unit": "ml"
+            }
+          },
+          "nutrients": [
+            {
+              "code": "NUT_ENERGY",
+              "name": "Energy",
+              "operator": "=",
+              "pictogram_name": "Energy",
+              "category": "BIG9",
+              "quantity": {
+                "value": "1164 kJ",
+                "numeric_value": 1164,
+                "unit": "kJ",
+                "alternate": {
+                  "value": "282 kcal",
+                  "numeric_value": 282,
+                  "unit": "kcal"
+                }
+              },
+              "rda": {
+                "percent": 14,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_FAT",
+              "name": "Fat",
+              "operator": "=",
+              "pictogram_name": "Fat",
+              "category": "BIG9",
+              "quantity": {
+                "value": "28.0 g",
+                "numeric_value": 28,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 40,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_SATURATED_FATTY_ACIDS",
+              "name": "of which saturates",
+              "operator": "=",
+              "pictogram_name": "saturated fatty acids",
+              "category": "BIG9",
+              "quantity": {
+                "value": "17.0 g",
+                "numeric_value": 17,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 85,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_CARBOHYDRATES",
+              "name": "Carbohydrate",
+              "operator": "=",
+              "category": "BIG9",
+              "quantity": {
+                "value": "4.0 g",
+                "numeric_value": 4,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_SUGAR",
+              "name": "of which sugars",
+              "operator": "=",
+              "pictogram_name": "Sugar",
+              "category": "BIG9",
+              "quantity": {
+                "value": "4.0 g",
+                "numeric_value": 4,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 4,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_FIBER",
+              "name": "Fibre",
+              "operator": "=",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0 g",
+                "numeric_value": 0,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_PROTEIN",
+              "name": "Protein",
+              "operator": "=",
+              "category": "BIG9",
+              "quantity": {
+                "value": "3.5 g",
+                "numeric_value": 3.5,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 7,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_SALT",
+              "name": "Salt",
+              "operator": "=",
+              "pictogram_name": "Salt",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0.07 g",
+                "numeric_value": 0.07,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 1,
+                "operator": "="
+              }
+            }
+          ]
+        },
+        "portion": {
+          "base": {
+            "quantity": {
+              "value": "30 ml",
+              "numeric_value": 30,
+              "unit": "ml"
+            }
+          },
+          "nutrients": [
+            {
+              "code": "NUT_ENERGY",
+              "name": "Energy",
+              "operator": "=",
+              "pictogram_name": "Energy",
+              "category": "BIG9",
+              "quantity": {
+                "value": "350 kJ",
+                "numeric_value": 350,
+                "unit": "kJ",
+                "alternate": {
+                  "value": "85 kcal",
+                  "numeric_value": 85,
+                  "unit": "kcal"
+                }
+              },
+              "rda": {
+                "percent": 4,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_FAT",
+              "name": "Fat",
+              "operator": "=",
+              "pictogram_name": "Fat",
+              "category": "BIG9",
+              "quantity": {
+                "value": "8.4 g",
+                "numeric_value": 8.4,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 12,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_SATURATED_FATTY_ACIDS",
+              "name": "of which saturates",
+              "operator": "=",
+              "pictogram_name": "saturated fatty acids",
+              "category": "BIG9",
+              "quantity": {
+                "value": "5.1 g",
+                "numeric_value": 5.1,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 26,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_CARBOHYDRATES",
+              "name": "Carbohydrate",
+              "operator": "=",
+              "category": "BIG9",
+              "quantity": {
+                "value": "1.2 g",
+                "numeric_value": 1.2,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 0.5,
+                "operator": "<"
+              }
+            },
+            {
+              "code": "NUT_SUGAR",
+              "name": "of which sugars",
+              "operator": "=",
+              "pictogram_name": "Sugar",
+              "category": "BIG9",
+              "quantity": {
+                "value": "1.2 g",
+                "numeric_value": 1.2,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 1,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_FIBER",
+              "name": "Fibre",
+              "operator": "=",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0 g",
+                "numeric_value": 0,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_PROTEIN",
+              "name": "Protein",
+              "operator": "=",
+              "category": "BIG9",
+              "quantity": {
+                "value": "1.1 g",
+                "numeric_value": 1.1,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 2,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_SALT",
+              "name": "Salt",
+              "operator": "=",
+              "pictogram_name": "Salt",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0.00 g",
+                "numeric_value": 0,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 0,
+                "operator": "="
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "recipe_ingredient_ids": [
+    "16914",
+    "19453138"
+  ],
+  "regional_availability": {
+    "gmaa": {
+      "probability": 57
+    },
+    "gmbs": {
+      "probability": 64
+    },
+    "gmge": {
+      "probability": 21
+    },
+    "gmlu": {
+      "probability": 46
+    },
+    "gmnf": {
+      "probability": 6
+    },
+    "gmos": {
+      "probability": 0
+    },
+    "gmti": {
+      "probability": 13
+    },
+    "gmvd": {
+      "probability": 16
+    },
+    "gmvs": {
+      "probability": 19
+    },
+    "gmzh": {
+      "probability": 71
+    }
+  },
+  "ratings": {
+    "count_all": 25,
+    "average_all": 4
+  },
+  "reindex_date": "2023-10-09T23:59:59+0200",
+  "updated_at": "2023-08-17T11:54:22+0200",
+  "sap_created_at": "2021-04-29T19:00:00+0200",
+  "online_shop_relevant": false,
+  "base_unit": "CU",
+  "co2_compensation": {
+    "kg_co2": 4.709688646,
+    "kg_co2_compensation": 4.709688646,
+    "is_compensated": false,
+    "mcheck_enabled": true
+  },
+  "views": [
+    "all",
+    "browse",
+    "browseallretailers"
+  ]
+}

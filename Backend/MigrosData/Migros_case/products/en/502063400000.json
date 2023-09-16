@@ -1,0 +1,642 @@
+{
+  "id": "502063400000",
+  "language": "en",
+  "name": "Putzsprit",
+  "names": {
+    "short_name": "Putzsprit"
+  },
+  "slug": "putzsprit",
+  "slugs": {
+    "de": "putzsprit",
+    "fr": "alcool-nettoyage",
+    "it": "alcool-d-pulire",
+    "en": "putzsprit"
+  },
+  "type": "00",
+  "boss_number": "150126802005",
+  "description": {
+    "text": "Wie wirkt der Spiritus? Streifenfreier Glanz und hygienische Reinigung auf Oberfl&auml;chen durch die aktiv fettl&ouml;sende Wirkung des Spiritus.",
+    "source": "PEX"
+  },
+  "data_source": "SAP-X11",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03",
+    "distribution_center": [
+      {
+        "center_id": "1000",
+        "center_name": "Migros Verteilzentrum Suhr",
+        "status_description": "product.status.distribution_center."
+      },
+      {
+        "center_id": "1001",
+        "center_name": "Migros Verteilzentrum Neuendorf",
+        "status_description": "product.status.distribution_center."
+      },
+      {
+        "center_id": "1020",
+        "center_name": "Regionallager Basel",
+        "status_description": "product.status.distribution_center."
+      },
+      {
+        "center_id": "1030",
+        "center_name": "Regionallager Aare",
+        "status_description": "product.status.distribution_center."
+      },
+      {
+        "center_id": "1040",
+        "center_name": "Entrepôt régional Genève",
+        "status_description": "product.status.distribution_center."
+      },
+      {
+        "center_id": "1060",
+        "center_name": "Entrepôt régional Vaud",
+        "status_description": "product.status.distribution_center."
+      },
+      {
+        "center_id": "1070",
+        "center_name": "Regionallager Luzern",
+        "status_description": "product.status.distribution_center."
+      },
+      {
+        "center_id": "1080",
+        "center_name": "Entrepôt régional Neuchâtel /",
+        "status_description": "product.status.distribution_center."
+      },
+      {
+        "center_id": "1090",
+        "center_name": "Regionallager Ostschweiz",
+        "status_description": "product.status.distribution_center."
+      },
+      {
+        "center_id": "1120",
+        "center_name": "Magazzino regionale Ticino",
+        "status_description": "product.status.distribution_center."
+      },
+      {
+        "center_id": "1130",
+        "center_name": "Entrepôt régional Valais",
+        "status_description": "product.status.distribution_center."
+      },
+      {
+        "center_id": "1150",
+        "center_name": "Regionallager Zürich",
+        "status_description": "product.status.distribution_center."
+      }
+    ]
+  },
+  "tags": [
+    "source-pex",
+    "near-non-food",
+    "migipedia",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613312388143"
+  ],
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarket"
+  },
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "brand": {
+    "id": "127",
+    "name": "M-Plus",
+    "slug": "m-plus"
+  },
+  "categories": [
+    {
+      "code": "BeSS_0104010602",
+      "name": "Allzweckreiniger",
+      "slug": "supermarkt/haushalt-reinigung/waschen-reinigen-pflege/reinigungsmittel/allzweckreiniger",
+      "visible": true,
+      "parent_code": "BeSS_01040106",
+      "level": 5
+    },
+    {
+      "code": "BeSS_01040106",
+      "name": "Reinigungsmittel",
+      "slug": "supermarkt/haushalt-reinigung/waschen-reinigen-pflege/reinigungsmittel",
+      "visible": true,
+      "title": "Putzmittel bei der Migros: Und alles glänzt!",
+      "parent_code": "BeSS_010401",
+      "image": {
+        "original": "https://image.migros.ch/original/8ae8cde85bbe4352f65f30c350b6bc7562eae30e/reinigungsmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/8ae8cde85bbe4352f65f30c350b6bc7562eae30e/reinigungsmittel.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010401",
+      "name": "Waschen, Reinigen & Pflege",
+      "slug": "supermarkt/haushalt-reinigung/waschen-reinigen-pflege",
+      "visible": true,
+      "parent_code": "BeSS_0104",
+      "image": {
+        "original": "https://image.migros.ch/original/37d8921589f88cd40b1c580b957a6a414e1fe1d1/waschen-reinigen-pflege.jpg",
+        "stack": "https://image.migros.ch/{stack}/37d8921589f88cd40b1c580b957a6a414e1fe1d1/waschen-reinigen-pflege.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0104",
+      "name": "Haushalt & Reinigung",
+      "slug": "supermarkt/haushalt-reinigung",
+      "visible": true,
+      "title": "Reinigung mit der Migros – Reiniger für Haushalt und Garten",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png",
+        "stack": "https://image.migros.ch/{stack}/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "online_relevant": [
+    {
+      "code": "MGB",
+      "name": "Migros Genossenschafts-Bund"
+    }
+  ],
+  "galaxus_relevant": false,
+  "links": {
+    "migros_ch": {
+      "url": "https://www.migros.ch/en/product/502063400000?context=instore",
+      "name": "In-store assortment",
+      "canonical": "https://www.migros.ch/en/product/502063400000?context=instore",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/502063400000",
+      "name": "Migipedia",
+      "canonical": "https://www.migros.ch/en/product/502063400000?context=instore",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "m_check2": {},
+  "receipt_text": "M-Plus Putzsprit",
+  "package": {
+    "content": 1000,
+    "content_unit_code": "ml",
+    "content_unit": "Mililiter",
+    "net_weight": 0.04,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "brutto_weight": 0.95,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 1.133,
+    "brutto_volume_unit_code": "cdm",
+    "height": 24,
+    "length": 5.9,
+    "width": 8,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "1000ml"
+  },
+  "package_information": {
+    "tu": {
+      "gtins": [
+        "7613312388150"
+      ],
+      "brutto_weight": 6.02,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 9.884,
+      "brutto_volume_unit_code": "cdm",
+      "height": 24.7,
+      "length": 24.4,
+      "width": 16.4,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 6
+    },
+    "cu": {
+      "gtins": [
+        "7613312388143"
+      ],
+      "brutto_weight": 0.95,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 1.133,
+      "brutto_volume_unit_code": "cdm",
+      "height": 24,
+      "length": 5.9,
+      "width": 8,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "lu": {
+      "number_of_base_units": 756
+    },
+    "lge": {
+      "number_of_base_units": 1
+    },
+    "kar": {
+      "number_of_base_units": 1
+    }
+  },
+  "vat": {
+    "id": 1,
+    "percentage": 7.7
+  },
+  "price": {
+    "valid_from": "2022-06-08T00:00:00+0200",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 5.45,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "1000ml"
+    },
+    "base": {
+      "price": 0.55,
+      "quantity": 100,
+      "unit": "ml"
+    }
+  },
+  "features": [
+    {
+      "label_code": "miso_oeko_hinweis",
+      "label": "Environmental information",
+      "values": [
+        {
+          "value_code": "MISO_99prozent_biologisch_abbaubar",
+          "value": "99% biologisch abbaubar"
+        }
+      ],
+      "category_code": "MISO_CLA_WaschenPapierReinigen_Haushalt_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "miso_gefahrenhinweise",
+      "label": "Hazard warnings",
+      "values": [
+        {
+          "value": "Flüssigkeit und Dampf entzündbar. Darf nicht in die Hände von Kindern gelangen."
+        }
+      ],
+      "category_code": "MISO_CLA_WaschenPapierReinigen_Haushalt_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "miso_anwendbarkeit_beschaffenheit_form",
+      "label": "Form",
+      "values": [
+        {
+          "value_code": "MISO_fluessig",
+          "value": "flüssig"
+        }
+      ],
+      "category_code": "MISO_CLA_Reinigungsmittel_WaschenPapierReinigen_Haushalt_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "CHEMICALS_WARNING",
+      "label": "Warning",
+      "values": [
+        {
+          "value": "Always read label and product information before use."
+        }
+      ],
+      "category_code": "CHEMICALS_WARNING",
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/12409b1583b8fd92b6c610364505e844dca77906/putzsprit.jpg",
+    "stack": "https://image.migros.ch/{stack}/12409b1583b8fd92b6c610364505e844dca77906/putzsprit.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/942ef54629b9034802fa41b3a8fa0bb3a03323e2/putzsprit.png",
+    "stack": "https://image.migros.ch/{stack}/942ef54629b9034802fa41b3a8fa0bb3a03323e2/putzsprit.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Standard item"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "ZHKS"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUSTOMS_POSITION",
+      "values": [
+        {
+          "value": "3402.9000"
+        }
+      ],
+      "category_code": "MAPI_CUSTOMS_POSITION",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RISK_CLASS",
+      "values": [
+        {
+          "value_code": "2",
+          "value": "2 (medium)"
+        }
+      ],
+      "category_code": "MAPI_RISK_CLASS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_QUALITY_CHECK",
+      "values": [
+        {
+          "value_code": "00",
+          "value": "No Quality Control"
+        }
+      ],
+      "category_code": "MAPI_QUALITY_CHECK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZHKS",
+          "value": "HKS Standardartikel"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "H",
+          "value": "HKS Standard"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "50308",
+          "value": "ALLZWECK"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LIFECYCLE",
+      "values": [
+        {
+          "value_code": "D",
+          "value": "Detailhandelsartikel"
+        }
+      ],
+      "category_code": "MAPI_LIFECYCLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_EXPORTABLE",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Yes",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MAPI_EXPORTABLE",
+      "top_fact": false
+    }
+  ],
+  "chemicals_declaration": {
+    "release_date": "2023-02-28T15:18:28+0100",
+    "supplier_id": "0010008933",
+    "supplier_description": "Frike Chemicals AG",
+    "hazard_statements": [
+      {
+        "code": "H226",
+        "label": "Flammable liquid and vapour."
+      }
+    ],
+    "precautionary_statements": [
+      {
+        "code": "P101",
+        "label": "If medical advice is needed, have product container or label at hand."
+      },
+      {
+        "code": "P102",
+        "label": "Keep out of reach of children."
+      },
+      {
+        "code": "P210",
+        "label": "Keep away from heat, hot surfaces, sparks, open flames and other ignition sources. No smoking."
+      },
+      {
+        "code": "P501_F",
+        "label": "Return this material and its container to the point of sale or the collection point for hazardous waste transferred."
+      }
+    ],
+    "storage_class": {
+      "code": "LK3A",
+      "label": "3A Flammable liquid materials (Flp below 55 °C)"
+    },
+    "tunnel_restriction": {
+      "code": "TK_E",
+      "label": "E"
+    },
+    "transport_category": {
+      "code": "BK3",
+      "label": "3"
+    },
+    "hazard_classes": [
+      {
+        "code": "GK03",
+        "label": "Class 3 Flammable liquids"
+      }
+    ],
+    "un_number": {
+      "code": "UN1987",
+      "label": "UN 1987"
+    },
+    "signal_word": {
+      "code": "SW02",
+      "label": "Warning"
+    },
+    "cpid_number": "890308-69 (MGB 01.06.2023)",
+    "chem_voc_concentration": 39,
+    "poison_cabinet": false,
+    "packaging_exceeds_limited_quantity": false,
+    "chemical_quantity_limit": 20000,
+    "hazard_pictograms": [
+      {
+        "code": "GHS02",
+        "description": "flame",
+        "original": "https://image.migros.ch/original/45c0793944b0697e7b8b20b514a368ecbeea0633/GHS02.jpg",
+        "stack": "https://image.migros.ch/{stack}/45c0793944b0697e7b8b20b514a368ecbeea0633/GHS02.jpg"
+      }
+    ]
+  },
+  "regional_availability": {
+    "gmaa": {
+      "probability": 90
+    },
+    "gmbs": {
+      "probability": 93
+    },
+    "gmge": {
+      "probability": 76
+    },
+    "gmlu": {
+      "probability": 83
+    },
+    "gmnf": {
+      "probability": 67
+    },
+    "gmos": {
+      "probability": 75
+    },
+    "gmti": {
+      "probability": 74
+    },
+    "gmvd": {
+      "probability": 82
+    },
+    "gmvs": {
+      "probability": 93
+    },
+    "gmzh": {
+      "probability": 81
+    }
+  },
+  "ratings": {
+    "count_all": 8,
+    "average_all": 4.5
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "updated_at": "2023-08-17T07:36:05+0200",
+  "sap_created_at": "2022-06-07T00:00:00+0200",
+  "base_unit": "CU",
+  "views": [
+    "all",
+    "browse",
+    "browseallretailers"
+  ]
+}

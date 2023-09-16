@@ -1,0 +1,890 @@
+{
+  "id": "121000300000",
+  "language": "en",
+  "name": "M-Budget Apfelschorle",
+  "names": {
+    "short_name": "M-Budget Apfelschorle"
+  },
+  "slug": "m-budget-apfelschorle-121000300000",
+  "slugs": {
+    "de": "m-budget-apfelschorle-121000300000",
+    "fr": "m-budget-jus-de-pomme-dilue-121000300000",
+    "it": "m-budget-succo-di-mela-diluito-121000300000",
+    "en": "m-budget-apfelschorle-121000300000"
+  },
+  "type": "00",
+  "boss_number": "010710393105",
+  "data_source": "SAP-X11",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03"
+  },
+  "tags": [
+    "source-p4m",
+    "migipedia",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613312304006",
+    "7610469094101",
+    "7613269190912"
+  ],
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarket"
+  },
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "brand": {
+    "id": "N26",
+    "name": "M-Budget",
+    "slug": "m-budget",
+    "links": {
+      "homepage": {
+        "url": "https://m-budget.migros.ch/de.html",
+        "name": "Homepage",
+        "type": "info",
+        "purchasable": false
+      }
+    },
+    "image": {
+      "original": "https://image.migros.ch/original/16521d4e21b0df0edd8627d960293cef47fc1263/m-budget.jpg",
+      "stack": "https://image.migros.ch/{stack}/16521d4e21b0df0edd8627d960293cef47fc1263/m-budget.jpg"
+    }
+  },
+  "categories": [
+    {
+      "code": "BeSS_01011007",
+      "name": "Fruchtsäfte & Gemüsesäfte",
+      "slug": "supermarkt/lebensmittel/getraenke-heiss-kalt/fruchtsaefte-gemuesesaefte",
+      "visible": true,
+      "title": "Fruchtsäfte in Ihrer Migros kaufen",
+      "parent_code": "BeSS_010110",
+      "image": {
+        "original": "https://image.migros.ch/original/f96b34cbda3af1687c31575cd037a621c131af0f/fruchtsaefte-gemuesesaefte.jpg",
+        "stack": "https://image.migros.ch/{stack}/f96b34cbda3af1687c31575cd037a621c131af0f/fruchtsaefte-gemuesesaefte.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010110",
+      "name": "Getränke heiss & kalt",
+      "slug": "supermarkt/lebensmittel/getraenke-heiss-kalt",
+      "visible": true,
+      "title": "Getränke aus der Migros löschen auch Ihren Durst",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/d04d95fbc2e1b4ada4783d2976d37a962a0318a1/getraenke-heiss-kalt.jpg",
+        "stack": "https://image.migros.ch/{stack}/d04d95fbc2e1b4ada4783d2976d37a962a0318a1/getraenke-heiss-kalt.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/31702195ec9d38aecefe80349eb347f79d56c750/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/31702195ec9d38aecefe80349eb347f79d56c750/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "online_relevant": [
+    {
+      "code": "MGB",
+      "name": "Migros Genossenschafts-Bund"
+    },
+    {
+      "code": "MO",
+      "name": "Migros Online"
+    }
+  ],
+  "links": {
+    "migros_ch": {
+      "url": "https://www.migros.ch/en/product/121000300000?context=instore",
+      "name": "In-store assortment",
+      "canonical": "https://www.migros.ch/en/product/121000300000?context=instore",
+      "type": "info",
+      "purchasable": false
+    },
+    "migros_online": {
+      "url": "https://www.migros.ch/en/product/121000300000?context=online",
+      "mo_product_id": "219281",
+      "name": "Online-shop assortment",
+      "canonical": "https://www.migros.ch/en/product/121000300000?context=instore",
+      "type": "shop",
+      "purchasable": true,
+      "one_catalog_id": 100037174
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/121000300000",
+      "name": "Migipedia",
+      "canonical": "https://www.migros.ch/en/product/121000300000?context=instore",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "has_safety_sheet": false,
+  "m_check2": {
+    "carbon_footprint": {
+      "image": {
+        "original": "https://image.migros.ch/original/3cb33aa7d90d7331f458860ae78688a0923b5993.svg",
+        "stack": "https://image.migros.ch/{stack}/3cb33aa7d90d7331f458860ae78688a0923b5993.svg"
+      },
+      "ground_and_sea_cargo": {
+        "kg_co2": 0.81,
+        "kg_co2_range": "0 - 0.9 kg CO₂eq / kg",
+        "co2_in_car_km": 4,
+        "rating": 5,
+        "production_in_percent": 82,
+        "packaging_in_percent": 17,
+        "transport_in_percent": 1
+      }
+    }
+  },
+  "receipt_text": "MBud Apfelschorle",
+  "package": {
+    "content": 9000,
+    "content_unit_code": "ml",
+    "content_unit": "Millilitre",
+    "net_weight": 10.002,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogram",
+    "type": "Bottle",
+    "portions_per_package": "8",
+    "precision": "approximate",
+    "brutto_weight": 10.614,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 15.24,
+    "brutto_volume_unit_code": "cdm",
+    "height": 32.8,
+    "length": 17.6,
+    "width": 26.4,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "6 x 1.5l"
+  },
+  "package_information": {
+    "tu": {
+      "gtins": [
+        "7613269190929",
+        "7617027916172"
+      ],
+      "brutto_weight": 10.614,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 15.519,
+      "brutto_volume_unit_code": "cdm",
+      "height": 34.8,
+      "length": 26.2,
+      "width": 17.6,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "cu": {
+      "gtins": [
+        "7610469094101",
+        "7613269190912",
+        "7613312304006"
+      ],
+      "brutto_weight": 10.614,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 15.24,
+      "brutto_volume_unit_code": "cdm",
+      "height": 32.8,
+      "length": 17.6,
+      "width": 26.4,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "lu": {
+      "brutto_weight": 916.576,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 1336.32,
+      "brutto_volume_unit_code": "cdm",
+      "height": 139.2,
+      "length": 120,
+      "width": 80,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 84
+    }
+  },
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "price": {
+    "valid_from": "2019-11-12T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 8.35,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "6 x 1.5l"
+    },
+    "base": {
+      "price": 0.09,
+      "quantity": 100,
+      "unit": "ML"
+    }
+  },
+  "image": {
+    "original": "https://image.migros.ch/original/3a7075ee1560c2664ad2795e4fcfe04b8b9eb01f/m-budget-apfelschorle.jpg",
+    "stack": "https://image.migros.ch/{stack}/3a7075ee1560c2664ad2795e4fcfe04b8b9eb01f/m-budget-apfelschorle.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/f8f0ccb56d73384a8cae30c57b464b084d1dd632/m-budget-apfelschorle.png",
+    "stack": "https://image.migros.ch/{stack}/f8f0ccb56d73384a8cae30c57b464b084d1dd632/m-budget-apfelschorle.png"
+  },
+  "additional_images": [
+    {
+      "original": "https://image.migros.ch/original/c4d49f7115704058aa24341e0b26778171246c4c.jpg",
+      "stack": "https://image.migros.ch/{stack}/c4d49f7115704058aa24341e0b26778171246c4c.jpg"
+    }
+  ],
+  "internal_features": [
+    {
+      "label_code": "MAPI_EXPORTABLE",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_EXPORTABLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Normalposition"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "HAWA"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "10735",
+          "value": "APPLE JUICES"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LIFECYCLE",
+      "values": [
+        {
+          "value_code": "D",
+          "value": "Detailhandelsartikel"
+        }
+      ],
+      "category_code": "MAPI_LIFECYCLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_3",
+          "value": "3",
+          "numeric_value": 3
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_STORAGE_CONDITIONS",
+      "values": [
+        {
+          "value_code": "01",
+          "value": "normal"
+        }
+      ],
+      "category_code": "MAPI_STORAGE_CONDITIONS",
+      "top_fact": false
+    },
+    {
+      "label_code": "acxCommonarticlecocompensated",
+      "label": "Artikel Co2 kompensiert",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false
+    },
+    {
+      "label_code": "acxCommonmesswertcompensation",
+      "label": "CO2-Wert Kompensation",
+      "values": [
+        {
+          "value_code": "NUMERIC_0.81",
+          "value": "0.81",
+          "numeric_value": 0.81
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false,
+      "unit_code": "5d71456e-a520-4294-9ddb-add78f63ce83",
+      "unit": "Equivalence per kilogram",
+      "unit_symbol": "eq / kg"
+    },
+    {
+      "label_code": "acxCommonoutputmcheckclimatedeclaration",
+      "label": "Auslobung M-Check Klimadeklaration",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Yes",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false
+    }
+  ],
+  "declarations": {
+    "declaration_number": "Q_1604593688125107",
+    "tags": [
+      "source-qim"
+    ],
+    "gtins": [
+      "7613312304006"
+    ],
+    "valid_from": "2022-08-10T00:00:00+0200",
+    "product_details": {
+      "package": {
+        "type": "Bottle",
+        "number_of_portions": "8",
+        "number_of_portions_operator": "≈"
+      },
+      "net_filled_quantity": {
+        "value": "1500 ml",
+        "numeric_value": 1500,
+        "unit": "ml"
+      }
+    },
+    "general_information": [
+      {
+        "label": "Cooling information/storage information",
+        "values": [
+          "Once opened, keep refigerated and consume quickly."
+        ]
+      },
+      {
+        "label": "Production information",
+        "values": [
+          "pasteurized"
+        ]
+      }
+    ],
+    "ingredients_information": {
+      "ingredients_text": "apple juice from concentrate (Switzerland), natural mineral water, carbonic acid."
+    },
+    "nutrition_facts": {
+      "reference_sizes": {
+        "standard": {
+          "base": {
+            "quantity": {
+              "value": "100 ml",
+              "numeric_value": 100,
+              "unit": "ml"
+            }
+          },
+          "nutrients": [
+            {
+              "code": "NUT_ENERGY",
+              "name": "Energy",
+              "operator": "=",
+              "pictogram_name": "Energy",
+              "category": "BIG9",
+              "quantity": {
+                "value": "120 kJ",
+                "numeric_value": 120,
+                "unit": "kJ",
+                "alternate": {
+                  "value": "28 kcal",
+                  "numeric_value": 28,
+                  "unit": "kcal"
+                }
+              },
+              "rda": {
+                "percent": 1,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_FAT",
+              "name": "Fat",
+              "operator": "=",
+              "pictogram_name": "Fat",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0 g",
+                "numeric_value": 0,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 0,
+                "operator": "="
+              },
+              "rating": {
+                "value": 0,
+                "text": "low",
+                "icon": {
+                  "original": "https://image.migros.ch/original/a2b5e2562a4fedbbdec99c1932ec57c46c49cde4.svg",
+                  "stack": "https://image.migros.ch/{stack}/a2b5e2562a4fedbbdec99c1932ec57c46c49cde4.svg"
+                },
+                "hex_color": "#069800"
+              }
+            },
+            {
+              "code": "NUT_SATURATED_FATTY_ACIDS",
+              "name": "of which saturates",
+              "operator": "=",
+              "pictogram_name": "saturated fatty acids",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0 g",
+                "numeric_value": 0,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 0,
+                "operator": "="
+              },
+              "rating": {
+                "value": 0,
+                "text": "low",
+                "icon": {
+                  "original": "https://image.migros.ch/original/a2b5e2562a4fedbbdec99c1932ec57c46c49cde4.svg",
+                  "stack": "https://image.migros.ch/{stack}/a2b5e2562a4fedbbdec99c1932ec57c46c49cde4.svg"
+                },
+                "hex_color": "#069800"
+              }
+            },
+            {
+              "code": "NUT_CARBOHYDRATES",
+              "name": "Carbohydrate",
+              "operator": "=",
+              "category": "BIG9",
+              "quantity": {
+                "value": "7 g",
+                "numeric_value": 7,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 3,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_SUGAR",
+              "name": "of which sugars",
+              "operator": "=",
+              "pictogram_name": "Sugar",
+              "category": "BIG9",
+              "quantity": {
+                "value": "6 g",
+                "numeric_value": 6,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 7,
+                "operator": "="
+              },
+              "rating": {
+                "value": 1,
+                "text": "medium",
+                "icon": {
+                  "original": "https://image.migros.ch/original/b84b389195e426a9e6b4cd66f2c79b1a049809da.svg",
+                  "stack": "https://image.migros.ch/{stack}/b84b389195e426a9e6b4cd66f2c79b1a049809da.svg"
+                },
+                "hex_color": "#e8a800"
+              }
+            },
+            {
+              "code": "NUT_FIBER",
+              "name": "Fibre",
+              "operator": "=",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0 g",
+                "numeric_value": 0,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_PROTEIN",
+              "name": "Protein",
+              "operator": "=",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0 g",
+                "numeric_value": 0,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 0,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_SALT",
+              "name": "Salt",
+              "operator": "=",
+              "pictogram_name": "Salt",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0 g",
+                "numeric_value": 0,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 0,
+                "operator": "="
+              },
+              "rating": {
+                "value": 0,
+                "text": "low",
+                "icon": {
+                  "original": "https://image.migros.ch/original/a2b5e2562a4fedbbdec99c1932ec57c46c49cde4.svg",
+                  "stack": "https://image.migros.ch/{stack}/a2b5e2562a4fedbbdec99c1932ec57c46c49cde4.svg"
+                },
+                "hex_color": "#069800"
+              }
+            }
+          ]
+        },
+        "portion": {
+          "base": {
+            "quantity": {
+              "value": "200 ml",
+              "numeric_value": 200,
+              "unit": "ml"
+            }
+          },
+          "nutrients": [
+            {
+              "code": "NUT_ENERGY",
+              "name": "Energy",
+              "operator": "=",
+              "pictogram_name": "Energy",
+              "category": "BIG9",
+              "quantity": {
+                "value": "241 kJ",
+                "numeric_value": 241,
+                "unit": "kJ",
+                "alternate": {
+                  "value": "57 kcal",
+                  "numeric_value": 57,
+                  "unit": "kcal"
+                }
+              },
+              "rda": {
+                "percent": 3,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_FAT",
+              "name": "Fat",
+              "operator": "=",
+              "pictogram_name": "Fat",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0 g",
+                "numeric_value": 0,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 0,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_SATURATED_FATTY_ACIDS",
+              "name": "of which saturates",
+              "operator": "=",
+              "pictogram_name": "saturated fatty acids",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0 g",
+                "numeric_value": 0,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 0,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_CARBOHYDRATES",
+              "name": "Carbohydrate",
+              "operator": "=",
+              "category": "BIG9",
+              "quantity": {
+                "value": "14 g",
+                "numeric_value": 14,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 5,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_SUGAR",
+              "name": "of which sugars",
+              "operator": "=",
+              "pictogram_name": "Sugar",
+              "category": "BIG9",
+              "quantity": {
+                "value": "12 g",
+                "numeric_value": 12,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 13,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_FIBER",
+              "name": "Fibre",
+              "operator": "=",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0 g",
+                "numeric_value": 0,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_PROTEIN",
+              "name": "Protein",
+              "operator": "=",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0 g",
+                "numeric_value": 0,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 0,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_SALT",
+              "name": "Salt",
+              "operator": "=",
+              "pictogram_name": "Salt",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0 g",
+                "numeric_value": 0,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 0,
+                "operator": "="
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "recipe_ingredient_ids": [
+    "10000"
+  ],
+  "regional_availability": {
+    "gmaa": {
+      "probability": 97
+    },
+    "gmbs": {
+      "probability": 95
+    },
+    "gmge": {
+      "probability": 50
+    },
+    "gmlu": {
+      "probability": 95
+    },
+    "gmnf": {
+      "probability": 53
+    },
+    "gmos": {
+      "probability": 96
+    },
+    "gmti": {
+      "probability": 52
+    },
+    "gmvd": {
+      "probability": 60
+    },
+    "gmvs": {
+      "probability": 70
+    },
+    "gmzh": {
+      "probability": 88
+    }
+  },
+  "ratings": {
+    "count_all": 24,
+    "average_all": 4.25
+  },
+  "related_products": {
+    "purchase_recommendations": {
+      "product_ids": [
+        "121050500000",
+        "121006700000",
+        "121010300000",
+        "121051500000",
+        "121047000000"
+      ]
+    }
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "updated_at": "2023-08-17T11:47:43+0200",
+  "sap_created_at": "2010-07-01T19:00:00+0200",
+  "online_shop_relevant": false,
+  "base_unit": "CU",
+  "co2_compensation": {
+    "kg_co2": 0.81,
+    "kg_co2_compensation": 0.81,
+    "is_compensated": false,
+    "mcheck_enabled": true
+  },
+  "origins": {
+    "producing_country": "Switzerland"
+  },
+  "views": [
+    "all",
+    "browse",
+    "browseallretailers"
+  ]
+}

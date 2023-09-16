@@ -1,0 +1,773 @@
+{
+  "id": "109700100000",
+  "language": "en",
+  "name": "Patissier Geliermittel 3:1",
+  "names": {
+    "short_name": "Patissier Geliermittel 3:1"
+  },
+  "slug": "patissier-geliermittel-31",
+  "slugs": {
+    "de": "patissier-geliermittel-31",
+    "fr": "patissier-gelifiant-31",
+    "it": "patissier-gelificante-31",
+    "en": "patissier-geliermittel-31"
+  },
+  "type": "00",
+  "boss_number": "010410902015",
+  "data_source": "SAP-X11",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03"
+  },
+  "tags": [
+    "source-p4m",
+    "migipedia",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613312364352"
+  ],
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarket"
+  },
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "brand": {
+    "id": "Q05",
+    "name": "Patissier",
+    "slug": "patissier"
+  },
+  "labels": [
+    {
+      "id": "L57",
+      "name": "V-vegan",
+      "slug": "v-vegan",
+      "image": {
+        "original": "https://image.migros.ch/original/9d3e0f9b6c46972be8c5310f3fbc6b417d52acc1/v-vegan.jpg",
+        "stack": "https://image.migros.ch/{stack}/9d3e0f9b6c46972be8c5310f3fbc6b417d52acc1/v-vegan.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_0101030901",
+      "name": "Backen & Desserts",
+      "slug": "supermarkt/lebensmittel/baeckerei-confiserie-backen/backzutaten/backen-desserts",
+      "visible": true,
+      "title": "Backwaren und Desserts in der Migros kaufen",
+      "parent_code": "BeSS_01010309",
+      "image": {
+        "original": "https://image.migros.ch/original/2e32e950881bbfe700b44313ec665cde02c6f4f6/backen-desserts.jpg",
+        "stack": "https://image.migros.ch/{stack}/2e32e950881bbfe700b44313ec665cde02c6f4f6/backen-desserts.jpg"
+      },
+      "level": 5
+    },
+    {
+      "code": "BeSS_01010309",
+      "name": "Backzutaten",
+      "slug": "supermarkt/lebensmittel/baeckerei-confiserie-backen/backzutaten",
+      "visible": true,
+      "title": "Backzutaten von der Migros &ndash; Feines für den Ofen",
+      "parent_code": "BeSS_010103",
+      "image": {
+        "original": "https://image.migros.ch/original/01ae24f34647902a0f4a1ce49b92b099fa298fbb/backzutaten.jpg",
+        "stack": "https://image.migros.ch/{stack}/01ae24f34647902a0f4a1ce49b92b099fa298fbb/backzutaten.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010103",
+      "name": "Bäckerei, Confiserie & Backen",
+      "slug": "supermarkt/lebensmittel/baeckerei-confiserie-backen",
+      "visible": true,
+      "title": "Backen macht Freude! Alle Zutaten finden Sie in Ihrer Migros",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/04b41cd6f4daedf3061a2a37617d48e992760b35/baeckerei-confiserie-backen.jpg",
+        "stack": "https://image.migros.ch/{stack}/04b41cd6f4daedf3061a2a37617d48e992760b35/baeckerei-confiserie-backen.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/31702195ec9d38aecefe80349eb347f79d56c750/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/31702195ec9d38aecefe80349eb347f79d56c750/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "online_relevant": [
+    {
+      "code": "MGB",
+      "name": "Migros Genossenschafts-Bund"
+    },
+    {
+      "code": "MO",
+      "name": "Migros Online"
+    }
+  ],
+  "links": {
+    "migros_ch": {
+      "url": "https://www.migros.ch/en/product/109700100000?context=instore",
+      "name": "In-store assortment",
+      "canonical": "https://www.migros.ch/en/product/109700100000?context=instore",
+      "type": "info",
+      "purchasable": false
+    },
+    "migros_online": {
+      "url": "https://www.migros.ch/en/product/109700100000?context=online",
+      "mo_product_id": "7095353",
+      "name": "Online-shop assortment",
+      "canonical": "https://www.migros.ch/en/product/109700100000?context=instore",
+      "type": "shop",
+      "purchasable": true,
+      "one_catalog_id": 100062785
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/109700100000",
+      "name": "Migipedia",
+      "canonical": "https://www.migros.ch/en/product/109700100000?context=instore",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "has_safety_sheet": false,
+  "m_check2": {
+    "carbon_footprint": {
+      "image": {
+        "original": "https://image.migros.ch/original/3cb33aa7d90d7331f458860ae78688a0923b5993.svg",
+        "stack": "https://image.migros.ch/{stack}/3cb33aa7d90d7331f458860ae78688a0923b5993.svg"
+      },
+      "ground_and_sea_cargo": {
+        "kg_co2": 0.66,
+        "kg_co2_range": "0 - 0.9 kg CO₂eq / kg",
+        "co2_in_car_km": 3,
+        "rating": 5,
+        "production_in_percent": 71,
+        "packaging_in_percent": 26,
+        "transport_in_percent": 3
+      }
+    }
+  },
+  "receipt_text": "Geliermittel 3:1",
+  "package": {
+    "content": 90,
+    "content_unit_code": "g",
+    "content_unit": "Gram",
+    "net_weight": 0.09,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogram",
+    "type": "Package",
+    "portions_per_package": "3",
+    "precision": "exact",
+    "brutto_weight": 0.096,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 0.311,
+    "brutto_volume_unit_code": "cdm",
+    "height": 15.7,
+    "length": 2.2,
+    "width": 9,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "3 x 30g"
+  },
+  "package_information": {
+    "tu": {
+      "gtins": [
+        "7613312364369"
+      ],
+      "brutto_weight": 1.26,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 5.686,
+      "brutto_volume_unit_code": "cdm",
+      "height": 16.4,
+      "length": 32.4,
+      "width": 10.7,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 12
+    },
+    "cu": {
+      "gtins": [
+        "7613312364352"
+      ],
+      "brutto_weight": 0.096,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.311,
+      "brutto_volume_unit_code": "cdm",
+      "height": 15.7,
+      "length": 2.2,
+      "width": 9,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "lu": {
+      "brutto_weight": 365.2,
+      "brutto_weight_unit_code": "kg",
+      "length": 120,
+      "width": 80,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 3240
+    }
+  },
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "price": {
+    "valid_from": "2021-09-08T00:00:00+0200",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 2.6,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "3 x 30g"
+    },
+    "base": {
+      "price": 2.89,
+      "quantity": 100,
+      "unit": "G"
+    }
+  },
+  "features": [
+    {
+      "label_code": "MAPI_VEGETARIANISM",
+      "label": "Vegetarianism",
+      "values": [
+        {
+          "value_code": "MAPI_VEGETARIANISM_vegan",
+          "value": "vegan"
+        }
+      ],
+      "category_code": "MAPI_VEGETARIANISM",
+      "top_fact": false
+    },
+    {
+      "label_code": "acxMISOcugebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "erxMISOcugebindeartbeutelsack",
+          "value": "Beutel/Sack"
+        }
+      ],
+      "category_code": "ecxMISOCLAbackkochmischungenzutatenbrotbackwarenlebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOanzahlentnehmbarereinzelportionen",
+      "label": "Anzahl entnehmbarer Einzeleinheiten",
+      "values": [
+        {
+          "value_code": "NUMERIC_3",
+          "value": "3",
+          "numeric_value": 3
+        }
+      ],
+      "category_code": "ecxMISOCLAbackkochmischungenzutatenbrotbackwarenlebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/edd5a86cf5e62d0d14e8c50efa27e9d75f427d9e/patissier-geliermittel-31.jpg",
+    "stack": "https://image.migros.ch/{stack}/edd5a86cf5e62d0d14e8c50efa27e9d75f427d9e/patissier-geliermittel-31.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/06908a11c5bf28f79834f182b930bd1efb8705dc/patissier-geliermittel-31.png",
+    "stack": "https://image.migros.ch/{stack}/06908a11c5bf28f79834f182b930bd1efb8705dc/patissier-geliermittel-31.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_EXPORTABLE",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Yes",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MAPI_EXPORTABLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Normalposition"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "HAWA"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "10075",
+          "value": "BAKING INGREDIENTS"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LIFECYCLE",
+      "values": [
+        {
+          "value_code": "D",
+          "value": "Detailhandelsartikel"
+        }
+      ],
+      "category_code": "MAPI_LIFECYCLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_STORAGE_CONDITIONS",
+      "values": [
+        {
+          "value_code": "01",
+          "value": "normal"
+        }
+      ],
+      "category_code": "MAPI_STORAGE_CONDITIONS",
+      "top_fact": false
+    },
+    {
+      "label_code": "acxCommonarticlecocompensated",
+      "label": "Artikel Co2 kompensiert",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false
+    },
+    {
+      "label_code": "acxCommonmesswertcompensation",
+      "label": "CO2-Wert Kompensation",
+      "values": [
+        {
+          "value_code": "NUMERIC_0.66",
+          "value": "0.66",
+          "numeric_value": 0.66
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false,
+      "unit_code": "5d71456e-a520-4294-9ddb-add78f63ce83",
+      "unit": "Equivalence per kilogram",
+      "unit_symbol": "eq / kg"
+    },
+    {
+      "label_code": "acxCommonoutputmcheckclimatedeclaration",
+      "label": "Auslobung M-Check Klimadeklaration",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Yes",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false
+    }
+  ],
+  "declarations": {
+    "declaration_number": "Q_1604593688413273",
+    "tags": [
+      "source-qim"
+    ],
+    "gtins": [
+      "7613312364352"
+    ],
+    "valid_from": "2022-05-25T00:00:00+0200",
+    "product_details": {
+      "package": {
+        "type": "Package",
+        "number_of_portions": "3",
+        "number_of_portions_operator": "="
+      },
+      "net_filled_quantity": {
+        "value": "90 g",
+        "numeric_value": 90,
+        "unit": "g"
+      }
+    },
+    "general_information": [
+      {
+        "label": "Cooling information/storage information",
+        "values": [
+          "Store in a dry place."
+        ]
+      }
+    ],
+    "ingredients_information": {
+      "ingredients_text": "glucose, gelling agent: pectin, acid: citric acid, sugar, preservative: sorbic acid."
+    },
+    "nutrition_facts": {
+      "reference_sizes": {
+        "standard": {
+          "base": {
+            "quantity": {
+              "value": "100 g",
+              "numeric_value": 100,
+              "unit": "g"
+            }
+          },
+          "nutrients": [
+            {
+              "code": "NUT_ENERGY",
+              "name": "Energy",
+              "operator": "=",
+              "pictogram_name": "Energy",
+              "category": "BIG9",
+              "quantity": {
+                "value": "995 kJ",
+                "numeric_value": 995,
+                "unit": "kJ",
+                "alternate": {
+                  "value": "233 kcal",
+                  "numeric_value": 233,
+                  "unit": "kcal"
+                }
+              },
+              "rda": {
+                "percent": 0,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_CARBOHYDRATES",
+              "name": "Carbohydrate",
+              "operator": "=",
+              "category": "BIG9",
+              "quantity": {
+                "value": "47 g",
+                "numeric_value": 47,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 18,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_SUGAR",
+              "name": "of which sugars",
+              "operator": "=",
+              "pictogram_name": "Sugar",
+              "category": "BIG9",
+              "quantity": {
+                "value": "47 g",
+                "numeric_value": 47,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 52,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_SALT",
+              "name": "Salt",
+              "operator": "=",
+              "pictogram_name": "Salt",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0.13 g",
+                "numeric_value": 0.13,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 2,
+                "operator": "="
+              }
+            }
+          ]
+        },
+        "portion": {
+          "base": {
+            "quantity": {
+              "value": "30 g",
+              "numeric_value": 30,
+              "unit": "g"
+            }
+          },
+          "nutrients": [
+            {
+              "code": "NUT_ENERGY",
+              "name": "Energy",
+              "operator": "=",
+              "pictogram_name": "Energy",
+              "category": "BIG9",
+              "quantity": {
+                "value": "297 kJ",
+                "numeric_value": 297,
+                "unit": "kJ",
+                "alternate": {
+                  "value": "70 kcal",
+                  "numeric_value": 70,
+                  "unit": "kcal"
+                }
+              },
+              "rda": {
+                "percent": 0,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_CARBOHYDRATES",
+              "name": "Carbohydrate",
+              "operator": "=",
+              "category": "BIG9",
+              "quantity": {
+                "value": "14 g",
+                "numeric_value": 14,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 5,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_SUGAR",
+              "name": "of which sugars",
+              "operator": "=",
+              "pictogram_name": "Sugar",
+              "category": "BIG9",
+              "quantity": {
+                "value": "14 g",
+                "numeric_value": 14,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 16,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_SALT",
+              "name": "Salt",
+              "operator": "=",
+              "pictogram_name": "Salt",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0.04 g",
+                "numeric_value": 0.04,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 1,
+                "operator": "="
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "recipe_ingredient_ids": [
+    "10000"
+  ],
+  "regional_availability": {
+    "gmaa": {
+      "probability": 84
+    },
+    "gmbs": {
+      "probability": 88
+    },
+    "gmge": {
+      "probability": 74
+    },
+    "gmlu": {
+      "probability": 81
+    },
+    "gmnf": {
+      "probability": 94
+    },
+    "gmos": {
+      "probability": 68
+    },
+    "gmti": {
+      "probability": 45
+    },
+    "gmvd": {
+      "probability": 70
+    },
+    "gmvs": {
+      "probability": 78
+    },
+    "gmzh": {
+      "probability": 79
+    }
+  },
+  "ratings": {
+    "count_all": 25,
+    "average_all": 4.72
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "updated_at": "2023-08-17T11:48:31+0200",
+  "sap_created_at": "2021-09-05T19:00:00+0200",
+  "online_shop_relevant": false,
+  "base_unit": "CU",
+  "co2_compensation": {
+    "kg_co2": 0.66,
+    "kg_co2_compensation": 0.66,
+    "is_compensated": false,
+    "mcheck_enabled": true
+  },
+  "origins": {
+    "producing_country": "Switzerland"
+  },
+  "views": [
+    "all",
+    "browse",
+    "browseallretailers"
+  ]
+}

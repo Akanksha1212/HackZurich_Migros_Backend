@@ -1,0 +1,562 @@
+{
+  "id": "513222600000",
+  "language": "en",
+  "name": "Baby Pflege-Öl",
+  "names": {
+    "short_name": "Baby Pflege-Öl"
+  },
+  "slug": "baby-pflege-oel",
+  "slugs": {
+    "de": "baby-pflege-oel",
+    "fr": "baby-huile-de-soin",
+    "it": "baby-olio-di-cura",
+    "en": "baby-pflege-oel"
+  },
+  "type": "00",
+  "boss_number": "130121531016",
+  "description": {
+    "text": "Eignet sich f&uuml;r die besonders milde Reinigung, Feuchtigkeitspflege und Massage der Babyhaut. Nat&uuml;rliches Mandel&ouml;l reinigt und pflegt auch irritierte Babyhaut. Auch werdende Mamis k&ouml;nnen das &Ouml;l w&auml;hrend der Schwangerschaft verwenden.",
+    "source": "PEX"
+  },
+  "data_source": "SAP-X11",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03",
+    "distribution_center": [
+      {
+        "center_id": "1000",
+        "center_name": "Migros Verteilzentrum Suhr",
+        "status_description": "product.status.distribution_center."
+      },
+      {
+        "center_id": "1001",
+        "center_name": "Migros Verteilzentrum Neuendorf",
+        "status_description": "product.status.distribution_center."
+      },
+      {
+        "center_id": "1020",
+        "center_name": "Regionallager Basel",
+        "status_description": "product.status.distribution_center."
+      },
+      {
+        "center_id": "1030",
+        "center_name": "Regionallager Aare",
+        "status_description": "product.status.distribution_center."
+      },
+      {
+        "center_id": "1040",
+        "center_name": "Entrepôt régional Genève",
+        "status_description": "product.status.distribution_center."
+      },
+      {
+        "center_id": "1060",
+        "center_name": "Entrepôt régional Vaud",
+        "status_description": "product.status.distribution_center."
+      },
+      {
+        "center_id": "1070",
+        "center_name": "Regionallager Luzern",
+        "status_description": "product.status.distribution_center."
+      },
+      {
+        "center_id": "1080",
+        "center_name": "Entrepôt régional Neuchâtel /",
+        "status_description": "product.status.distribution_center."
+      },
+      {
+        "center_id": "1090",
+        "center_name": "Regionallager Ostschweiz",
+        "status_description": "product.status.distribution_center."
+      },
+      {
+        "center_id": "1120",
+        "center_name": "Magazzino regionale Ticino",
+        "status_description": "product.status.distribution_center."
+      },
+      {
+        "center_id": "1130",
+        "center_name": "Entrepôt régional Valais",
+        "status_description": "product.status.distribution_center."
+      },
+      {
+        "center_id": "1150",
+        "center_name": "Regionallager Zürich",
+        "status_description": "product.status.distribution_center."
+      }
+    ]
+  },
+  "tags": [
+    "source-pex",
+    "near-non-food",
+    "migipedia",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "4005808364251"
+  ],
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarket"
+  },
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "brand": {
+    "id": "393",
+    "name": "Nivea",
+    "slug": "nivea"
+  },
+  "categories": [
+    {
+      "code": "BeSS_010703",
+      "name": "Babypflege",
+      "slug": "supermarkt/baby-kinder/babypflege",
+      "visible": true,
+      "title": "Babypflege: Cremes und Shampoos von Ihrer Migros kaufen",
+      "parent_code": "BeSS_0107",
+      "level": 3
+    },
+    {
+      "code": "BeSS_0107",
+      "name": "Baby & Kinder",
+      "slug": "supermarkt/baby-kinder",
+      "visible": true,
+      "title": "Babyartikel: Alles rund ums Baby in Ihrer Migros kaufen",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/dc6e5e45f414e657061e049a69de80177f40ca98/baby-kinder.jpg",
+        "stack": "https://image.migros.ch/{stack}/dc6e5e45f414e657061e049a69de80177f40ca98/baby-kinder.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "online_relevant": [
+    {
+      "code": "MGB",
+      "name": "Migros Genossenschafts-Bund"
+    },
+    {
+      "code": "MO",
+      "name": "Migros Online"
+    }
+  ],
+  "galaxus_relevant": false,
+  "links": {
+    "migros_ch": {
+      "url": "https://www.migros.ch/en/product/513222600000?context=instore",
+      "name": "In-store assortment",
+      "canonical": "https://www.migros.ch/en/product/513222600000?context=instore",
+      "type": "info",
+      "purchasable": false
+    },
+    "migros_online": {
+      "url": "https://www.migros.ch/en/product/513222600000?context=online",
+      "mo_product_id": "101750",
+      "name": "Online-shop assortment",
+      "canonical": "https://www.migros.ch/en/product/513222600000?context=instore",
+      "type": "shop",
+      "purchasable": true,
+      "one_catalog_id": 100018330
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/513222600000",
+      "name": "Migipedia",
+      "canonical": "https://www.migros.ch/en/product/513222600000?context=instore",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "m_check2": {},
+  "receipt_text": "Nivea Baby Pflege-Öl",
+  "package": {
+    "content": 200,
+    "content_unit_code": "ml",
+    "content_unit": "Mililiter",
+    "net_weight": 0.2,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "brutto_weight": 0.23,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 0.416,
+    "brutto_volume_unit_code": "cdm",
+    "height": 15.1,
+    "length": 3.4,
+    "width": 8.1,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "200ml"
+  },
+  "package_information": {
+    "tu": {
+      "gtins": [
+        "4005808364268"
+      ],
+      "brutto_weight": 1.22,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 2.835,
+      "brutto_volume_unit_code": "cdm",
+      "height": 15,
+      "length": 21,
+      "width": 9,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 6
+    },
+    "cu": {
+      "gtins": [
+        "4005808364251"
+      ],
+      "brutto_weight": 0.23,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.416,
+      "brutto_volume_unit_code": "cdm",
+      "height": 15.1,
+      "length": 3.4,
+      "width": 8.1,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "lu": {
+      "height": 150,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 2304
+    },
+    "lge": {
+      "number_of_base_units": 288
+    },
+    "kar": {
+      "number_of_base_units": 12
+    }
+  },
+  "vat": {
+    "id": 1,
+    "percentage": 7.7
+  },
+  "price": {
+    "valid_from": "2018-01-10T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 5.4,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "200ml"
+    },
+    "base": {
+      "price": 2.7,
+      "quantity": 100,
+      "unit": "ml"
+    }
+  },
+  "features": [
+    {
+      "label_code": "miso_inhalt_volumen",
+      "label": "Contents (volume)",
+      "values": [
+        {
+          "value_code": "NUMERIC_200",
+          "value": "200 ml",
+          "numeric_value": 200
+        }
+      ],
+      "category_code": "MISO_CLA_BabyKinder_Alle",
+      "top_fact": false,
+      "unit_code": "ml",
+      "unit": "Mililiter",
+      "unit_symbol": "ml",
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "miso_kategorie",
+      "label": "Category/theme",
+      "values": [
+        {
+          "value_code": "MISO_artikelart_creme_lotion_oel",
+          "value": "Crème / Lotion / Oel"
+        }
+      ],
+      "category_code": "MISO_CLA_Pflege_BabyHygiene_BabyKinder_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/0a89e2c470ee2ba8fb517ea1efb90a17707cb5ab/baby-pflege-oel.jpg",
+    "stack": "https://image.migros.ch/{stack}/0a89e2c470ee2ba8fb517ea1efb90a17707cb5ab/baby-pflege-oel.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/0526c02897d40bc8f8dbf7618a94660ee64092b4/baby-pflege-oel.png",
+    "stack": "https://image.migros.ch/{stack}/0526c02897d40bc8f8dbf7618a94660ee64092b4/baby-pflege-oel.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "miso_amigos_anzeige",
+      "label": "Display aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "ja"
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "miso_amigos_sortierung",
+      "label": "aMigos sorting",
+      "values": [
+        {
+          "value": "440"
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Standard item"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "ZHKS"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RISK_CLASS",
+      "values": [
+        {
+          "value_code": "1",
+          "value": "1 (high)"
+        }
+      ],
+      "category_code": "MAPI_RISK_CLASS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_QUALITY_CHECK",
+      "values": [
+        {
+          "value_code": "00",
+          "value": "No Quality Control"
+        }
+      ],
+      "category_code": "MAPI_QUALITY_CHECK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZHKS",
+          "value": "HKS Standardartikel"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "H",
+          "value": "HKS Standard"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "50101",
+          "value": "NIVEA BABY"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LIFECYCLE",
+      "values": [
+        {
+          "value_code": "D",
+          "value": "Detailhandelsartikel"
+        }
+      ],
+      "category_code": "MAPI_LIFECYCLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_EXPORTABLE",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_EXPORTABLE",
+      "top_fact": false
+    }
+  ],
+  "regional_availability": {
+    "gmaa": {
+      "probability": 90
+    },
+    "gmbs": {
+      "probability": 88
+    },
+    "gmge": {
+      "probability": 76
+    },
+    "gmlu": {
+      "probability": 80
+    },
+    "gmnf": {
+      "probability": 82
+    },
+    "gmos": {
+      "probability": 73
+    },
+    "gmti": {
+      "probability": 94
+    },
+    "gmvd": {
+      "probability": 88
+    },
+    "gmvs": {
+      "probability": 85
+    },
+    "gmzh": {
+      "probability": 80
+    }
+  },
+  "ratings": {
+    "count_all": 7,
+    "average_all": 4.285714285714
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "updated_at": "2023-08-17T12:01:30+0200",
+  "sap_created_at": "2009-09-17T00:00:00+0200",
+  "base_unit": "CU",
+  "views": [
+    "all",
+    "browse",
+    "browseallretailers"
+  ]
+}

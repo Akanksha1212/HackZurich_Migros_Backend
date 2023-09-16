@@ -1,0 +1,810 @@
+{
+  "id": "104216200000",
+  "language": "en",
+  "name": "Alnatura Reiswaffel Joghurt Erdbeer",
+  "names": {
+    "short_name": "Alnatura Reiswaffel Joghurt Erdbeer"
+  },
+  "slug": "alnatura-reiswaffel-joghurt-erdbeer",
+  "slugs": {
+    "de": "alnatura-reiswaffel-joghurt-erdbeer",
+    "fr": "alnatura-galettes-riz-yogourt-fraise",
+    "it": "alnatura-gallette-riso-yogurt-fragole",
+    "en": "alnatura-reiswaffel-joghurt-erdbeer"
+  },
+  "type": "00",
+  "boss_number": "010318214105",
+  "description": {
+    "text": "<p>gepuffter Vollkornreis mit Erdbeer-Joghurtschokolade<br>nach dem &Ouml;ffnen luftdicht und sonnengesch&uuml;tzt lagern</p><p>Bitte trocken lagern und vor W&auml;rme sch&uuml;tzen.</p>",
+    "source": "P4M"
+  },
+  "data_source": "SAP-X11",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03"
+  },
+  "tags": [
+    "source-p4m",
+    "migipedia",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "4104420232884",
+    "4104420054400",
+    "7613312095164"
+  ],
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarket"
+  },
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "brand": {
+    "id": "D06",
+    "name": "Alnatura",
+    "slug": "alnatura",
+    "links": {
+      "homepage": {
+        "url": "https://www.migros.ch/de/einkaufen/migros-marken-und-labels/alnatura.html",
+        "name": "Homepage",
+        "type": "info",
+        "purchasable": false
+      }
+    },
+    "image": {
+      "original": "https://image.migros.ch/original/2c0deb7a67525727ed8213ce2b42bc8a6eb35567/alnatura.jpg",
+      "stack": "https://image.migros.ch/{stack}/2c0deb7a67525727ed8213ce2b42bc8a6eb35567/alnatura.jpg"
+    }
+  },
+  "labels": [
+    {
+      "id": "L49",
+      "name": "ohne aha! Glu/La",
+      "slug": "ohne-aha-glula"
+    },
+    {
+      "id": "L52",
+      "name": "Third-party organic food",
+      "slug": "third-party-organic-food"
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_01010307",
+      "name": "Zwieback & Knäckebrot",
+      "slug": "supermarkt/lebensmittel/baeckerei-confiserie-backen/zwieback-knaeckebrot",
+      "visible": true,
+      "title": "Zwieback und Knäckebrot &ndash; knackig von der Migros",
+      "parent_code": "BeSS_010103",
+      "image": {
+        "original": "https://image.migros.ch/original/a334a9ac3038c870aec7bc4c4fc6173141648cf3/zwieback-knaeckebrot.jpg",
+        "stack": "https://image.migros.ch/{stack}/a334a9ac3038c870aec7bc4c4fc6173141648cf3/zwieback-knaeckebrot.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010103",
+      "name": "Bäckerei, Confiserie & Backen",
+      "slug": "supermarkt/lebensmittel/baeckerei-confiserie-backen",
+      "visible": true,
+      "title": "Backen macht Freude! Alle Zutaten finden Sie in Ihrer Migros",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/04b41cd6f4daedf3061a2a37617d48e992760b35/baeckerei-confiserie-backen.jpg",
+        "stack": "https://image.migros.ch/{stack}/04b41cd6f4daedf3061a2a37617d48e992760b35/baeckerei-confiserie-backen.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/31702195ec9d38aecefe80349eb347f79d56c750/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/31702195ec9d38aecefe80349eb347f79d56c750/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "ALNA_CAT_Reiswaffeln_BrotBackwarenundReiswaffeln",
+        "name": "Reiswaffeln",
+        "slug": "alnatura/brot-backwaren-und-reiswaffeln/reiswaffeln",
+        "visible": true,
+        "parent_code": "ALNA_CAT_BrotBackwarenundReiswaffeln",
+        "level": 3
+      },
+      {
+        "code": "ALNA_CAT_BrotBackwarenundReiswaffeln",
+        "name": "Brot, Backwaren und Reiswaffeln",
+        "slug": "alnatura/brot-backwaren-und-reiswaffeln",
+        "visible": true,
+        "parent_code": "BeSS_97",
+        "level": 2
+      },
+      {
+        "code": "BeSS_97",
+        "name": "Alnatura",
+        "slug": "alnatura",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "online_relevant": [
+    {
+      "code": "MGB",
+      "name": "Migros Genossenschafts-Bund"
+    },
+    {
+      "code": "MO",
+      "name": "Migros Online"
+    }
+  ],
+  "links": {
+    "migros_ch": {
+      "url": "https://www.migros.ch/en/product/104216200000?context=instore",
+      "name": "In-store assortment",
+      "canonical": "https://www.migros.ch/en/product/104216200000?context=instore",
+      "type": "info",
+      "purchasable": false
+    },
+    "migros_online": {
+      "url": "https://www.migros.ch/en/product/104216200000?context=online",
+      "mo_product_id": "3290232",
+      "name": "Online-shop assortment",
+      "canonical": "https://www.migros.ch/en/product/104216200000?context=instore",
+      "type": "shop",
+      "purchasable": true,
+      "one_catalog_id": 100026446
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/104216200000",
+      "name": "Migipedia",
+      "canonical": "https://www.migros.ch/en/product/104216200000?context=instore",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "has_safety_sheet": false,
+  "m_check2": {},
+  "receipt_text": "Alnatura Reiswaffel",
+  "package": {
+    "content": 100,
+    "content_unit_code": "g",
+    "content_unit": "Gram",
+    "net_weight": 0.1,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogram",
+    "type": "CU",
+    "portions_per_package": "1",
+    "brutto_weight": 0.102,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 0.567,
+    "brutto_volume_unit_code": "cdm",
+    "height": 18,
+    "length": 3.5,
+    "width": 9,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "100g"
+  },
+  "package_information": {
+    "tu": {
+      "gtins": [
+        "4104420054417",
+        "4104420232891"
+      ],
+      "brutto_weight": 1.365,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 9.286,
+      "brutto_volume_unit_code": "cdm",
+      "height": 15.9,
+      "length": 29.2,
+      "width": 20,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 12
+    },
+    "cu": {
+      "gtins": [
+        "4104420054400",
+        "4104420232884",
+        "7613312095164"
+      ],
+      "brutto_weight": 0.102,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.567,
+      "brutto_volume_unit_code": "cdm",
+      "height": 18,
+      "length": 3.5,
+      "width": 9,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "lu": {
+      "brutto_weight": 265.24,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 1.69,
+      "brutto_volume_unit_code": "m3",
+      "height": 176,
+      "length": 120,
+      "width": 80,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 2112
+    }
+  },
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "price": {
+    "valid_from": "2018-01-29T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 1.9,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "100g"
+    },
+    "base": {
+      "price": 1.9,
+      "quantity": 100,
+      "unit": "G"
+    }
+  },
+  "features": [
+    {
+      "label_code": "MAPI_ALLERGENES",
+      "label": "Allergens",
+      "values": [
+        {
+          "value_code": "MAPI_ALLERGENES_glutenfrei",
+          "value": "Gluten free"
+        }
+      ],
+      "category_code": "MAPI_ALLERGENES",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_VEGETARIANISM",
+      "label": "Vegetarianism",
+      "values": [
+        {
+          "value_code": "MAPI_VEGETARIANISM_vegetarisch",
+          "value": "Vegetarian"
+        }
+      ],
+      "category_code": "MAPI_VEGETARIANISM",
+      "top_fact": false
+    },
+    {
+      "label_code": "acxMISOcugebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "erxmisocugebindeartkunststoffverpackung",
+          "value": "Kunststoff-Verpackung"
+        }
+      ],
+      "category_code": "ecxMISOCLAbearbeitetegetreideproduktegetreidehuelsenfruchtproduktelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOproduktionsanspruch",
+      "label": "Produktionsverfahren",
+      "values": [
+        {
+          "value_code": "erxmisoproduktionsanspruchbioproduktion",
+          "value": "Bio-Produktion"
+        }
+      ],
+      "category_code": "ecxMISOCLAbearbeitetegetreideproduktegetreidehuelsenfruchtproduktelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/63e39803d9fcfce861efe05969e8182e2d15c11a/alnatura-reiswaffel-joghurt-erdbeer.jpg",
+    "stack": "https://image.migros.ch/{stack}/63e39803d9fcfce861efe05969e8182e2d15c11a/alnatura-reiswaffel-joghurt-erdbeer.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/3ac0ad29c780786f64a4086da4eeafd71e5eda08/alnatura-reiswaffel-joghurt-erdbeer.png",
+    "stack": "https://image.migros.ch/{stack}/3ac0ad29c780786f64a4086da4eeafd71e5eda08/alnatura-reiswaffel-joghurt-erdbeer.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_EXPORTABLE",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_EXPORTABLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Normalposition"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "HAWA"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "10395",
+          "value": "ALNATURA DUR BAKED G"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LIFECYCLE",
+      "values": [
+        {
+          "value_code": "D",
+          "value": "Detailhandelsartikel"
+        }
+      ],
+      "category_code": "MAPI_LIFECYCLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUSTOMS_POSITION",
+      "values": [
+        {
+          "value": "1904.1090"
+        }
+      ],
+      "category_code": "MAPI_CUSTOMS_POSITION",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_STORAGE_CONDITIONS",
+      "values": [
+        {
+          "value_code": "01",
+          "value": "normal"
+        }
+      ],
+      "category_code": "MAPI_STORAGE_CONDITIONS",
+      "top_fact": false
+    },
+    {
+      "label_code": "acxCommonarticlecocompensated",
+      "label": "Artikel Co2 kompensiert",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false
+    },
+    {
+      "label_code": "acxCommonmesswertcompensation",
+      "label": "CO2-Wert Kompensation",
+      "values": [
+        {
+          "value_code": "NUMERIC_0.603",
+          "value": "0.603",
+          "numeric_value": 0.603
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false,
+      "unit_code": "5d71456e-a520-4294-9ddb-add78f63ce83",
+      "unit": "Equivalence per kilogram",
+      "unit_symbol": "eq / kg"
+    },
+    {
+      "label_code": "acxCommonoutputmcheckclimatedeclaration",
+      "label": "Auslobung M-Check Klimadeklaration",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false
+    }
+  ],
+  "declarations": {
+    "declaration_number": "Q_1604593688123491",
+    "tags": [
+      "source-qim"
+    ],
+    "gtins": [
+      "4104420232884"
+    ],
+    "valid_from": "2023-08-07T00:00:00+0200",
+    "product_details": {
+      "net_filled_quantity": {
+        "value": "100 g",
+        "numeric_value": 100,
+        "unit": "g"
+      },
+      "net_weight": {
+        "value": "100 Gramm",
+        "numeric_value": 100,
+        "unit": "Gramm"
+      }
+    },
+    "distributor": {
+      "name": "Alnatura GmbH",
+      "address": "Mahatma-Gandhi-Straße 7, 64295 Darmstadt"
+    },
+    "ingredients_information": {
+      "allergens_information": {
+        "trace_allergens_text": "May contain: Nuts, Sesame seeds, Soya",
+        "allergens": [
+          {
+            "code": "ALLG_MILCH",
+            "label": "Milk and its derivatives",
+            "contamination_code": "VORHANDEN",
+            "contamination_label": "contains"
+          }
+        ]
+      }
+    },
+    "nutrition_facts": {
+      "reference_sizes": {
+        "standard": {
+          "base": {
+            "quantity": {
+              "value": "100 g",
+              "numeric_value": 100,
+              "unit": "g"
+            }
+          },
+          "nutrients": [
+            {
+              "code": "NUT_ENERGY",
+              "name": "Energy",
+              "operator": "~",
+              "pictogram_name": "Energy",
+              "category": "BIG9",
+              "quantity": {
+                "value": "2123.00 kJ",
+                "numeric_value": 2123,
+                "unit": "kJ",
+                "alternate": {
+                  "value": "507.00 kcal",
+                  "numeric_value": 507,
+                  "unit": "kcal"
+                }
+              }
+            },
+            {
+              "code": "NUT_FAT",
+              "name": "Fat",
+              "operator": "~",
+              "pictogram_name": "Fat",
+              "category": "BIG9",
+              "quantity": {
+                "value": "25.00 g",
+                "numeric_value": 25,
+                "unit": "g"
+              },
+              "rating": {
+                "value": 2,
+                "text": "high",
+                "icon": {
+                  "original": "https://image.migros.ch/original/9aa833abc7cb7207238c3e98a1253eeb7bceee1f.svg",
+                  "stack": "https://image.migros.ch/{stack}/9aa833abc7cb7207238c3e98a1253eeb7bceee1f.svg"
+                },
+                "hex_color": "#cc0000"
+              }
+            },
+            {
+              "code": "NUT_SATURATED_FATTY_ACIDS",
+              "name": "of which saturates",
+              "operator": "~",
+              "pictogram_name": "saturated fatty acids",
+              "category": "BIG9",
+              "quantity": {
+                "value": "14.00 g",
+                "numeric_value": 14,
+                "unit": "g"
+              },
+              "rating": {
+                "value": 2,
+                "text": "high",
+                "icon": {
+                  "original": "https://image.migros.ch/original/9aa833abc7cb7207238c3e98a1253eeb7bceee1f.svg",
+                  "stack": "https://image.migros.ch/{stack}/9aa833abc7cb7207238c3e98a1253eeb7bceee1f.svg"
+                },
+                "hex_color": "#cc0000"
+              }
+            },
+            {
+              "code": "NUT_CARBOHYDRATES",
+              "name": "Carbohydrate",
+              "operator": "~",
+              "category": "BIG9",
+              "quantity": {
+                "value": "63.00 g",
+                "numeric_value": 63,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_SUGAR",
+              "name": "of which sugars",
+              "operator": "~",
+              "pictogram_name": "Sugar",
+              "category": "BIG9",
+              "quantity": {
+                "value": "32.00 g",
+                "numeric_value": 32,
+                "unit": "g"
+              },
+              "rating": {
+                "value": 2,
+                "text": "high",
+                "icon": {
+                  "original": "https://image.migros.ch/original/9aa833abc7cb7207238c3e98a1253eeb7bceee1f.svg",
+                  "stack": "https://image.migros.ch/{stack}/9aa833abc7cb7207238c3e98a1253eeb7bceee1f.svg"
+                },
+                "hex_color": "#cc0000"
+              }
+            },
+            {
+              "code": "NUT_FIBER",
+              "name": "Fibre",
+              "operator": "~",
+              "category": "BIG9",
+              "quantity": {
+                "value": "1.80 g",
+                "numeric_value": 1.8,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_PROTEIN",
+              "name": "Protein",
+              "operator": "~",
+              "category": "BIG9",
+              "quantity": {
+                "value": "6.60 g",
+                "numeric_value": 6.6,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_SALT",
+              "name": "Salt",
+              "operator": "~",
+              "pictogram_name": "Salt",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0.11 g",
+                "numeric_value": 0.11,
+                "unit": "g"
+              },
+              "rating": {
+                "value": 0,
+                "text": "low",
+                "icon": {
+                  "original": "https://image.migros.ch/original/a2b5e2562a4fedbbdec99c1932ec57c46c49cde4.svg",
+                  "stack": "https://image.migros.ch/{stack}/a2b5e2562a4fedbbdec99c1932ec57c46c49cde4.svg"
+                },
+                "hex_color": "#069800"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "recipe_ingredient_ids": [
+    "17839400"
+  ],
+  "regional_availability": {
+    "gmaa": {
+      "probability": 83
+    },
+    "gmbs": {
+      "probability": 90
+    },
+    "gmge": {
+      "probability": 76
+    },
+    "gmlu": {
+      "probability": 78
+    },
+    "gmnf": {
+      "probability": 49
+    },
+    "gmos": {
+      "probability": 69
+    },
+    "gmti": {
+      "probability": 97
+    },
+    "gmvd": {
+      "probability": 63
+    },
+    "gmvs": {
+      "probability": 56
+    },
+    "gmzh": {
+      "probability": 86
+    }
+  },
+  "ratings": {
+    "count_all": 29,
+    "average_all": 4.275862068966
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "updated_at": "2023-08-17T11:37:51+0200",
+  "sap_created_at": "2016-05-10T19:00:00+0200",
+  "online_shop_relevant": false,
+  "base_unit": "CU",
+  "co2_compensation": {
+    "kg_co2": 0.603,
+    "kg_co2_compensation": 0.603,
+    "is_compensated": false,
+    "mcheck_enabled": false
+  },
+  "origins": {
+    "producing_country": "Netherlands"
+  },
+  "views": [
+    "all",
+    "browse",
+    "browseallretailers"
+  ]
+}

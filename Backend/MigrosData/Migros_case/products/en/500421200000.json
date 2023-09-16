@@ -1,0 +1,573 @@
+{
+  "id": "500421200000",
+  "language": "en",
+  "name": "Smacc. Polvere",
+  "names": {
+    "short_name": "Smacc. Polvere"
+  },
+  "slug": "smacc-polvere",
+  "slugs": {
+    "de": "smacc-polvere",
+    "fr": "smacc-polvere",
+    "it": "smacc-polvere",
+    "en": "smacc-polvere"
+  },
+  "type": "00",
+  "boss_number": "150126754910",
+  "data_source": "SAP-X11",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03",
+    "distribution_center": [
+      {
+        "center_id": "1000",
+        "center_name": "Migros Verteilzentrum Suhr",
+        "status_code": "91",
+        "status_description": "91"
+      },
+      {
+        "center_id": "1001",
+        "center_name": "Migros Verteilzentrum Neuendorf",
+        "status_code": "91",
+        "status_description": "91"
+      },
+      {
+        "center_id": "1120",
+        "center_name": "Magazzino regionale Ticino",
+        "status_description": "product.status.distribution_center."
+      }
+    ]
+  },
+  "tags": [
+    "source-pex",
+    "near-non-food",
+    "migipedia",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "8004060657985",
+    "8004060567505"
+  ],
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarket"
+  },
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "brand": {
+    "id": "A65",
+    "name": "Omino Bianco",
+    "slug": "omino-bianco"
+  },
+  "categories": [
+    {
+      "code": "BeSS_01040101",
+      "name": "Waschmittel",
+      "slug": "supermarkt/haushalt-reinigung/waschen-reinigen-pflege/waschmittel",
+      "visible": true,
+      "title": "Waschmittel bei der Migros: Porentief rein und duftig fein",
+      "parent_code": "BeSS_010401",
+      "image": {
+        "original": "https://image.migros.ch/original/5375aa4df371ff3df3f9db75583d9d1137053eaf/waschmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/5375aa4df371ff3df3f9db75583d9d1137053eaf/waschmittel.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010401",
+      "name": "Waschen, Reinigen & Pflege",
+      "slug": "supermarkt/haushalt-reinigung/waschen-reinigen-pflege",
+      "visible": true,
+      "parent_code": "BeSS_0104",
+      "image": {
+        "original": "https://image.migros.ch/original/37d8921589f88cd40b1c580b957a6a414e1fe1d1/waschen-reinigen-pflege.jpg",
+        "stack": "https://image.migros.ch/{stack}/37d8921589f88cd40b1c580b957a6a414e1fe1d1/waschen-reinigen-pflege.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0104",
+      "name": "Haushalt & Reinigung",
+      "slug": "supermarkt/haushalt-reinigung",
+      "visible": true,
+      "title": "Reinigung mit der Migros – Reiniger für Haushalt und Garten",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png",
+        "stack": "https://image.migros.ch/{stack}/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "online_relevant": [
+    {
+      "code": "MGB",
+      "name": "Migros Genossenschafts-Bund"
+    }
+  ],
+  "links": {
+    "migros_ch": {
+      "url": "https://www.migros.ch/en/product/500421200000?context=instore",
+      "name": "In-store assortment",
+      "canonical": "https://www.migros.ch/en/product/500421200000?context=instore",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/500421200000",
+      "name": "Migipedia",
+      "canonical": "https://www.migros.ch/en/product/500421200000?context=instore",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "m_check2": {},
+  "receipt_text": "Omino Smacc. Polvere",
+  "package": {
+    "content": 600,
+    "content_unit_code": "g",
+    "content_unit": "Gramm",
+    "net_weight": 0.6,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "brutto_weight": 0.631,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 0.892,
+    "brutto_volume_unit_code": "cdm",
+    "height": 17,
+    "length": 12.2,
+    "width": 4.3,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "600g"
+  },
+  "package_information": {
+    "tu": {
+      "gtins": [
+        "8004060827777",
+        "8004060937513"
+      ],
+      "brutto_weight": 5.048,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 9.012,
+      "brutto_volume_unit_code": "cdm",
+      "height": 19,
+      "length": 25.5,
+      "width": 18.6,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 7
+    },
+    "cu": {
+      "gtins": [
+        "8004060657985",
+        "8004060567505"
+      ],
+      "brutto_weight": 0.631,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.892,
+      "brutto_volume_unit_code": "cdm",
+      "height": 17,
+      "length": 12.2,
+      "width": 4.3,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "lu": {
+      "brutto_weight": 242.304,
+      "brutto_weight_unit_code": "kg",
+      "number_of_base_units": 336
+    },
+    "lge": {
+      "number_of_base_units": 168
+    }
+  },
+  "vat": {
+    "id": 1,
+    "percentage": 7.7
+  },
+  "price": {
+    "valid_from": "2018-01-01T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 7.4,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "600g"
+    },
+    "base": {
+      "price": 1.23,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "features": [
+    {
+      "label_code": "CHEMICALS_WARNING",
+      "label": "Warning",
+      "values": [
+        {
+          "value": "Always read label and product information before use."
+        }
+      ],
+      "category_code": "CHEMICALS_WARNING",
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/dccadd659640558ca08be6d63f3e5696346328b6/smacc-polvere.jpg",
+    "stack": "https://image.migros.ch/{stack}/dccadd659640558ca08be6d63f3e5696346328b6/smacc-polvere.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/1ac095d16fe1f9f738c5adc815c9b9f3da6ad2fd/smacc-polvere.png",
+    "stack": "https://image.migros.ch/{stack}/1ac095d16fe1f9f738c5adc815c9b9f3da6ad2fd/smacc-polvere.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Standard item"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "ZHKS"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RISK_CLASS",
+      "values": [
+        {
+          "value_code": "1",
+          "value": "1 (high)"
+        }
+      ],
+      "category_code": "MAPI_RISK_CLASS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_QUALITY_CHECK",
+      "values": [
+        {
+          "value_code": "00",
+          "value": "No Quality Control"
+        }
+      ],
+      "category_code": "MAPI_QUALITY_CHECK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZHKS",
+          "value": "HKS Standardartikel"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "H",
+          "value": "HKS Standard"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "50497",
+          "value": "REG. WASCHEN"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LIFECYCLE",
+      "values": [
+        {
+          "value_code": "D",
+          "value": "Detailhandelsartikel"
+        }
+      ],
+      "category_code": "MAPI_LIFECYCLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_EXPORTABLE",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_EXPORTABLE",
+      "top_fact": false
+    }
+  ],
+  "chemicals_declaration": {
+    "release_date": "2016-06-01T10:10:32+0200",
+    "supplier_id": "0010000875",
+    "supplier_description": "Bolton Swiss SA",
+    "hazard_statements": [
+      {
+        "code": "H318",
+        "label": "Causes serious eye damage."
+      }
+    ],
+    "precautionary_statements": [
+      {
+        "code": "P101",
+        "label": "If medical advice is needed, have product container or label at hand."
+      },
+      {
+        "code": "P102",
+        "label": "Keep out of reach of children."
+      },
+      {
+        "code": "P280",
+        "label": "Wear protective gloves / protective clothing / eye protection / face protection."
+      },
+      {
+        "code": "P305_351_338",
+        "label": "IF IN EYES: Rinse cautiously with water for several minutes. Remove contact lenses, if present and easy to do. Continue rinsing."
+      },
+      {
+        "code": "P310",
+        "label": "Immediately call a POISON CENTER or doctor/physician."
+      }
+    ],
+    "signal_word": {
+      "code": "SW01",
+      "label": "Danger"
+    },
+    "cpid_number": "237230-00",
+    "poison_cabinet": false,
+    "hazard_pictograms": [
+      {
+        "code": "GHS05",
+        "description": "corrosivity",
+        "original": "https://image.migros.ch/original/b9b6d67492a097fcc99d628551e84904ab689e51/GHS05.jpg",
+        "stack": "https://image.migros.ch/{stack}/b9b6d67492a097fcc99d628551e84904ab689e51/GHS05.jpg"
+      }
+    ],
+    "cleaning_agents": [
+      {
+        "concentration": {
+          "code": "RMK31",
+          "label": "30% and over"
+        },
+        "group": {
+          "code": "RMS07",
+          "label": "bleaching agents on basis of oxygen"
+        }
+      },
+      {
+        "concentration": {
+          "code": "RMK05",
+          "label": "less than 5%"
+        },
+        "group": {
+          "code": "RMS03",
+          "label": "anionic surfactants"
+        }
+      },
+      {
+        "concentration": {
+          "code": "RMK05",
+          "label": "less than 5%"
+        },
+        "group": {
+          "code": "RMS04",
+          "label": "nonionic surfactants"
+        }
+      }
+    ],
+    "extra_cleaning_agents": [
+      {
+        "group": {
+          "code": "RMW04",
+          "label": "fragrances"
+        },
+        "name": "benzyl salicylate"
+      },
+      {
+        "group": {
+          "code": "RMW01",
+          "label": "enzymes"
+        }
+      }
+    ],
+    "declaration_required_ingredients": [
+      {
+        "name": "SODIUM CARBONATE PEROXIDE",
+        "cas_number": "15630-89-4"
+      },
+      {
+        "name": "SODIUM C10-13 ALKYLBENZENESULFONATE",
+        "cas_number": "68411-30-3"
+      }
+    ]
+  },
+  "regional_availability": {
+    "gmaa": {
+      "probability": 0
+    },
+    "gmbs": {
+      "probability": 0
+    },
+    "gmge": {
+      "probability": 0
+    },
+    "gmlu": {
+      "probability": 0
+    },
+    "gmnf": {
+      "probability": 0
+    },
+    "gmos": {
+      "probability": 0
+    },
+    "gmti": {
+      "probability": 100
+    },
+    "gmvd": {
+      "probability": 0
+    },
+    "gmvs": {
+      "probability": 0
+    },
+    "gmzh": {
+      "probability": 0
+    }
+  },
+  "ratings": {
+    "count_all": 3,
+    "average_all": 5
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "updated_at": "2023-08-17T04:06:05+0200",
+  "sap_created_at": "2012-10-17T00:00:00+0200",
+  "base_unit": "CU",
+  "views": [
+    "all",
+    "browse",
+    "browseallretailers"
+  ]
+}

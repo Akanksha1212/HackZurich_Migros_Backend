@@ -1,0 +1,940 @@
+{
+  "id": "111283000000",
+  "language": "en",
+  "name": "American Favorites XL Toast hell",
+  "names": {
+    "short_name": "American Favorites XL Toast hell"
+  },
+  "slug": "american-favorites-xl-toast-hell-111283000000",
+  "slugs": {
+    "de": "american-favorites-xl-toast-hell",
+    "fr": "american-favorites-xl-toast-claire",
+    "it": "american-favorites-xl-toast-chiaro",
+    "en": "american-favorites-xl-toast-hell-111283000000"
+  },
+  "type": "00",
+  "boss_number": "020110600515",
+  "description": {
+    "text": "Helles Weizenbrot, toasten und geniessen.",
+    "source": "P4M"
+  },
+  "data_source": "SAP-X11",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "80"
+  },
+  "tags": [
+    "source-p4m",
+    "migipedia",
+    "migrolino-data",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613404016541",
+    "7616700026948"
+  ],
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarket"
+  },
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "brand": {
+    "id": "F64",
+    "name": "American Favorites",
+    "slug": "american-favorites",
+    "image": {
+      "original": "https://image.migros.ch/original/4390ee577672e6920596be64f1563ee0bccef6a2/american-favorites.jpg",
+      "stack": "https://image.migros.ch/{stack}/4390ee577672e6920596be64f1563ee0bccef6a2/american-favorites.jpg"
+    }
+  },
+  "labels": [
+    {
+      "id": "L03",
+      "name": "IP-SUISSE",
+      "slug": "ip-suisse"
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_01010303",
+      "name": "Toastbrote",
+      "slug": "supermarkt/lebensmittel/baeckerei-confiserie-backen/toastbrote",
+      "visible": true,
+      "title": "Feine Toastbrote in Ihrer Migros kaufen",
+      "parent_code": "BeSS_010103",
+      "image": {
+        "original": "https://image.migros.ch/original/a96d51888d192dd807beba85b3e5947a4940d6d9/toastbrote.jpg",
+        "stack": "https://image.migros.ch/{stack}/a96d51888d192dd807beba85b3e5947a4940d6d9/toastbrote.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010103",
+      "name": "Bäckerei, Confiserie & Backen",
+      "slug": "supermarkt/lebensmittel/baeckerei-confiserie-backen",
+      "visible": true,
+      "title": "Backen macht Freude! Alle Zutaten finden Sie in Ihrer Migros",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/04b41cd6f4daedf3061a2a37617d48e992760b35/baeckerei-confiserie-backen.jpg",
+        "stack": "https://image.migros.ch/{stack}/04b41cd6f4daedf3061a2a37617d48e992760b35/baeckerei-confiserie-backen.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/31702195ec9d38aecefe80349eb347f79d56c750/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/31702195ec9d38aecefe80349eb347f79d56c750/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "online_relevant": [
+    {
+      "code": "MGB",
+      "name": "Migros Genossenschafts-Bund"
+    },
+    {
+      "code": "MO",
+      "name": "Migros Online"
+    }
+  ],
+  "links": {
+    "migros_ch": {
+      "url": "https://www.migros.ch/en/product/111283000000?context=instore",
+      "name": "In-store assortment",
+      "canonical": "https://www.migros.ch/en/product/111283000000?context=instore",
+      "type": "info",
+      "purchasable": false
+    },
+    "migros_online": {
+      "url": "https://www.migros.ch/en/product/111283000000?context=online",
+      "mo_product_id": "54189",
+      "name": "Online-shop assortment",
+      "canonical": "https://www.migros.ch/en/product/111283000000?context=instore",
+      "type": "shop",
+      "purchasable": true,
+      "one_catalog_id": 100005574
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/111283000000",
+      "name": "Migipedia",
+      "canonical": "https://www.migros.ch/en/product/111283000000?context=instore",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "has_safety_sheet": false,
+  "m_check2": {
+    "carbon_footprint": {
+      "image": {
+        "original": "https://image.migros.ch/original/3cb33aa7d90d7331f458860ae78688a0923b5993.svg",
+        "stack": "https://image.migros.ch/{stack}/3cb33aa7d90d7331f458860ae78688a0923b5993.svg"
+      },
+      "ground_and_sea_cargo": {
+        "kg_co2": 0.92,
+        "kg_co2_range": "0 - 0.9 kg CO₂eq / kg",
+        "co2_in_car_km": 5,
+        "rating": 5,
+        "production_in_percent": 80,
+        "packaging_in_percent": 19,
+        "transport_in_percent": 1
+      }
+    }
+  },
+  "receipt_text": "XL Toast American",
+  "package": {
+    "content": 730,
+    "content_unit_code": "g",
+    "content_unit": "Gram",
+    "net_weight": 0.73,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogram",
+    "type": "Package",
+    "portions_per_package": "16",
+    "precision": "exact",
+    "brutto_weight": 0.73,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 2958.375,
+    "brutto_volume_unit_code": "ccm",
+    "height": 10.5,
+    "length": 11.5,
+    "width": 24,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "730g"
+  },
+  "package_information": {
+    "tu": {
+      "gtins": [
+        "7616700043662"
+      ],
+      "brutto_weight": 5.11,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 31.92,
+      "brutto_volume_unit_code": "cdm",
+      "height": 13.3,
+      "length": 60,
+      "width": 40,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 7
+    },
+    "cu": {
+      "gtins": [
+        "7613404016541",
+        "7616700026948"
+      ],
+      "brutto_weight": 0.73,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 2958.375,
+      "brutto_volume_unit_code": "ccm",
+      "height": 10.5,
+      "length": 11.5,
+      "width": 24,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    }
+  },
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "price": {
+    "valid_from": "2022-12-06T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 3.3,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "730g"
+    },
+    "base": {
+      "price": 0.45,
+      "quantity": 100,
+      "unit": "G"
+    }
+  },
+  "features": [
+    {
+      "label_code": "acxMISOcugebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "erxMISOcugebindeartfolienverpackung",
+          "value": "Folienverpackung"
+        }
+      ],
+      "category_code": "ecxMISOCLAbrotbrotbackwarenlebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOartvonprodukt",
+      "label": "Art von Produkt",
+      "values": [
+        {
+          "value": "Toast"
+        }
+      ],
+      "category_code": "ecxMISOCLAbrotbrotbackwarenlebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOproduktionsanspruch",
+      "label": "Produktionsverfahren",
+      "values": [
+        {
+          "value_code": "erxMISOproduktionsanspruchfreivonkonservierungsstoffen",
+          "value": "frei von Konservierungsstoffen"
+        },
+        {
+          "value_code": "erxMISOproduktionsanspruchipsuissequalitaet",
+          "value": "IP-SUISSE-Qualität"
+        }
+      ],
+      "category_code": "ecxMISOCLAbrotbrotbackwarenlebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOzubereitungsverfahren",
+      "label": "Hinweise für die Zubereitung",
+      "values": [
+        {
+          "value_code": "erxMISOzubereitungsverfahrenzumtoastengeeignet",
+          "value": "zum toasten geeignet"
+        }
+      ],
+      "category_code": "ecxMISOCLAbrotbrotbackwarenlebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/4f9b75695828019e0ed8b2036629945fcd33162e/american-favorites-xl-toast-hell.jpg",
+    "stack": "https://image.migros.ch/{stack}/4f9b75695828019e0ed8b2036629945fcd33162e/american-favorites-xl-toast-hell.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/8c7bead4f6239a43599c41594bfa07146eedf909/american-favorites-xl-toast-hell.png",
+    "stack": "https://image.migros.ch/{stack}/8c7bead4f6239a43599c41594bfa07146eedf909/american-favorites-xl-toast-hell.png"
+  },
+  "additional_images": [
+    {
+      "original": "https://image.migros.ch/original/0ced49895aec861697b0704f350d4624a91b5731.jpg",
+      "stack": "https://image.migros.ch/{stack}/0ced49895aec861697b0704f350d4624a91b5731.jpg"
+    }
+  ],
+  "internal_features": [
+    {
+      "label_code": "MAPI_EXPORTABLE",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_EXPORTABLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Normalposition"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZFRP",
+          "value": "Frische Beschaffung"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "ZFRP"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LIFECYCLE",
+      "values": [
+        {
+          "value_code": "D",
+          "value": "Detailhandelsartikel"
+        }
+      ],
+      "category_code": "MAPI_LIFECYCLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_STORAGE_CONDITIONS",
+      "values": [
+        {
+          "value_code": "01",
+          "value": "normal"
+        }
+      ],
+      "category_code": "MAPI_STORAGE_CONDITIONS",
+      "top_fact": false
+    },
+    {
+      "label_code": "acxCommonarticlecocompensated",
+      "label": "Artikel Co2 kompensiert",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false
+    },
+    {
+      "label_code": "acxCommonmesswertcompensation",
+      "label": "CO2-Wert Kompensation",
+      "values": [
+        {
+          "value_code": "NUMERIC_0.92",
+          "value": "0.92",
+          "numeric_value": 0.92
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false,
+      "unit_code": "5d71456e-a520-4294-9ddb-add78f63ce83",
+      "unit": "Equivalence per kilogram",
+      "unit_symbol": "eq / kg"
+    },
+    {
+      "label_code": "acxCommonoutputmcheckclimatedeclaration",
+      "label": "Auslobung M-Check Klimadeklaration",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Yes",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false
+    }
+  ],
+  "declarations": {
+    "declaration_number": "Q_2121841432607851",
+    "tags": [
+      "source-qim"
+    ],
+    "gtins": [
+      "7613404016541"
+    ],
+    "valid_from": "2022-12-06T01:00:00+0100",
+    "product_details": {
+      "certification": "www.ipsuisse.ch, Zertifizierung/ Certification : ProCert",
+      "package": {
+        "type": "Package",
+        "number_of_portions": "16",
+        "number_of_portions_operator": "="
+      },
+      "net_filled_quantity": {
+        "value": "730 g",
+        "numeric_value": 730,
+        "unit": "g"
+      }
+    },
+    "general_information": [
+      {
+        "label": "Cooling information/storage information",
+        "values": [
+          "Store in a dry place. Keep away from heat. Once opened, close tightly and use within 3 days."
+        ]
+      }
+    ],
+    "ingredients_information": {
+      "ingredients_text": "<strong>wheat</strong> flour*, water, yeast, rapeseed oil, sugar, <strong>wheat</strong> protein, table vinegar, iodized table salt, <strong>barley</strong> malt flour, flour treatment agent: ascorbic acid.\n* IP-Suisse/TerraSuisse",
+      "allergens_information": {
+        "trace_allergens_text": "May contain: eggs, soy, milk, sesame.",
+        "allergens": [
+          {
+            "code": "ALLG_GLUTEN",
+            "label": "Cereals containing gluten and products thereof",
+            "contamination_code": "VORHANDEN",
+            "contamination_label": "contains"
+          }
+        ]
+      }
+    },
+    "nutrition_facts": {
+      "reference_sizes": {
+        "standard": {
+          "base": {
+            "quantity": {
+              "value": "100 g",
+              "numeric_value": 100,
+              "unit": "g"
+            }
+          },
+          "nutrients": [
+            {
+              "code": "NUT_ENERGY",
+              "name": "Energy",
+              "operator": "=",
+              "pictogram_name": "Energy",
+              "category": "BIG9",
+              "quantity": {
+                "value": "1114 kJ",
+                "numeric_value": 1114,
+                "unit": "kJ",
+                "alternate": {
+                  "value": "264 kcal",
+                  "numeric_value": 264,
+                  "unit": "kcal"
+                }
+              },
+              "rda": {
+                "percent": 13,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_FAT",
+              "name": "Fat",
+              "operator": "=",
+              "pictogram_name": "Fat",
+              "category": "BIG9",
+              "quantity": {
+                "value": "3.9 g",
+                "numeric_value": 3.9,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 6,
+                "operator": "="
+              },
+              "rating": {
+                "value": 1,
+                "text": "medium",
+                "icon": {
+                  "original": "https://image.migros.ch/original/b84b389195e426a9e6b4cd66f2c79b1a049809da.svg",
+                  "stack": "https://image.migros.ch/{stack}/b84b389195e426a9e6b4cd66f2c79b1a049809da.svg"
+                },
+                "hex_color": "#e8a800"
+              }
+            },
+            {
+              "code": "NUT_SATURATED_FATTY_ACIDS",
+              "name": "of which saturates",
+              "operator": "=",
+              "pictogram_name": "saturated fatty acids",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0.4 g",
+                "numeric_value": 0.4,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 2,
+                "operator": "="
+              },
+              "rating": {
+                "value": 0,
+                "text": "low",
+                "icon": {
+                  "original": "https://image.migros.ch/original/a2b5e2562a4fedbbdec99c1932ec57c46c49cde4.svg",
+                  "stack": "https://image.migros.ch/{stack}/a2b5e2562a4fedbbdec99c1932ec57c46c49cde4.svg"
+                },
+                "hex_color": "#069800"
+              }
+            },
+            {
+              "code": "NUT_CARBOHYDRATES",
+              "name": "Carbohydrate",
+              "operator": "=",
+              "category": "BIG9",
+              "quantity": {
+                "value": "47 g",
+                "numeric_value": 47,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 18,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_SUGAR",
+              "name": "of which sugars",
+              "operator": "=",
+              "pictogram_name": "Sugar",
+              "category": "BIG9",
+              "quantity": {
+                "value": "2.6 g",
+                "numeric_value": 2.6,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 3,
+                "operator": "="
+              },
+              "rating": {
+                "value": 0,
+                "text": "low",
+                "icon": {
+                  "original": "https://image.migros.ch/original/a2b5e2562a4fedbbdec99c1932ec57c46c49cde4.svg",
+                  "stack": "https://image.migros.ch/{stack}/a2b5e2562a4fedbbdec99c1932ec57c46c49cde4.svg"
+                },
+                "hex_color": "#069800"
+              }
+            },
+            {
+              "code": "NUT_FIBER",
+              "name": "Fibre",
+              "operator": "=",
+              "category": "BIG9",
+              "quantity": {
+                "value": "2.6 g",
+                "numeric_value": 2.6,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_PROTEIN",
+              "name": "Protein",
+              "operator": "=",
+              "category": "BIG9",
+              "quantity": {
+                "value": "8.8 g",
+                "numeric_value": 8.8,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 18,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_SALT",
+              "name": "Salt",
+              "operator": "=",
+              "pictogram_name": "Salt",
+              "category": "BIG9",
+              "quantity": {
+                "value": "1.4 g",
+                "numeric_value": 1.4,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 23,
+                "operator": "="
+              },
+              "rating": {
+                "value": 1,
+                "text": "medium",
+                "icon": {
+                  "original": "https://image.migros.ch/original/b84b389195e426a9e6b4cd66f2c79b1a049809da.svg",
+                  "stack": "https://image.migros.ch/{stack}/b84b389195e426a9e6b4cd66f2c79b1a049809da.svg"
+                },
+                "hex_color": "#e8a800"
+              }
+            }
+          ]
+        },
+        "portion": {
+          "base": {
+            "quantity": {
+              "value": "46 g",
+              "numeric_value": 46,
+              "unit": "g"
+            }
+          },
+          "nutrients": [
+            {
+              "code": "NUT_ENERGY",
+              "name": "Energy",
+              "operator": "=",
+              "pictogram_name": "Energy",
+              "category": "BIG9",
+              "quantity": {
+                "value": "520 kJ",
+                "numeric_value": 520,
+                "unit": "kJ",
+                "alternate": {
+                  "value": "123 kcal",
+                  "numeric_value": 123,
+                  "unit": "kcal"
+                }
+              },
+              "rda": {
+                "percent": 6,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_FAT",
+              "name": "Fat",
+              "operator": "=",
+              "pictogram_name": "Fat",
+              "category": "BIG9",
+              "quantity": {
+                "value": "1.8 g",
+                "numeric_value": 1.8,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 3,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_SATURATED_FATTY_ACIDS",
+              "name": "of which saturates",
+              "operator": "=",
+              "pictogram_name": "saturated fatty acids",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0.2 g",
+                "numeric_value": 0.2,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 1,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_CARBOHYDRATES",
+              "name": "Carbohydrate",
+              "operator": "=",
+              "category": "BIG9",
+              "quantity": {
+                "value": "22 g",
+                "numeric_value": 22,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 8,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_SUGAR",
+              "name": "of which sugars",
+              "operator": "=",
+              "pictogram_name": "Sugar",
+              "category": "BIG9",
+              "quantity": {
+                "value": "1.2 g",
+                "numeric_value": 1.2,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 1,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_FIBER",
+              "name": "Fibre",
+              "operator": "=",
+              "category": "BIG9",
+              "quantity": {
+                "value": "1.2 g",
+                "numeric_value": 1.2,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_PROTEIN",
+              "name": "Protein",
+              "operator": "=",
+              "category": "BIG9",
+              "quantity": {
+                "value": "4.1 g",
+                "numeric_value": 4.1,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 8,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_SALT",
+              "name": "Salt",
+              "operator": "=",
+              "pictogram_name": "Salt",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0.66 g",
+                "numeric_value": 0.66,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 11,
+                "operator": "="
+              }
+            }
+          ]
+        }
+      }
+    },
+    "golden_standard": {
+      "compliant": true
+    }
+  },
+  "recipe_ingredient_ids": [
+    "15745",
+    "19486501"
+  ],
+  "regional_availability": {
+    "gmaa": {
+      "probability": 96
+    },
+    "gmbs": {
+      "probability": 93
+    },
+    "gmge": {
+      "probability": 87
+    },
+    "gmlu": {
+      "probability": 95
+    },
+    "gmnf": {
+      "probability": 94
+    },
+    "gmos": {
+      "probability": 95
+    },
+    "gmti": {
+      "probability": 97
+    },
+    "gmvd": {
+      "probability": 93
+    },
+    "gmvs": {
+      "probability": 93
+    },
+    "gmzh": {
+      "probability": 93
+    }
+  },
+  "ratings": {
+    "count_all": 412,
+    "average_all": 4.657568238213
+  },
+  "related_products": {
+    "purchase_recommendations": {
+      "product_ids": [
+        "111283100000",
+        "111283200000",
+        "111283700000",
+        "111285000000",
+        "111291600000"
+      ]
+    }
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "updated_at": "2023-08-17T11:51:16+0200",
+  "sap_created_at": "2006-11-14T18:00:00+0100",
+  "online_shop_relevant": false,
+  "base_unit": "CU",
+  "co2_compensation": {
+    "kg_co2": 0.92,
+    "kg_co2_compensation": 0.92,
+    "is_compensated": false,
+    "mcheck_enabled": true
+  },
+  "origins": {
+    "producing_country": "Switzerland"
+  },
+  "views": [
+    "all",
+    "browse",
+    "browseallretailers"
+  ]
+}

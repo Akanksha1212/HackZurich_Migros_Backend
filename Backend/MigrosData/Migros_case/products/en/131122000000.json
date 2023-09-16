@@ -1,0 +1,836 @@
+{
+  "id": "131122000000",
+  "language": "en",
+  "name": "Anna's Best Kartoffeln gedämpft",
+  "names": {
+    "short_name": "Anna's Best Kartoffeln gedämpft"
+  },
+  "slug": "annas-best-kartoffeln-gedaempft",
+  "slugs": {
+    "de": "annas-best-kartoffeln-gedaempft",
+    "fr": "annas-best-pommes-terre-cuite-vapeur",
+    "it": "annas-best-patate-cotte-al-vapore",
+    "en": "annas-best-kartoffeln-gedaempft"
+  },
+  "type": "00",
+  "boss_number": "020630531510",
+  "description": {
+    "text": "Biss f&uuml;r Biss eine wahre Freude: Die Schweizer Kartoffeln sind bereits ged&auml;mpft und ersparen Ihnen so eine Menge Zeit.",
+    "source": "P4M"
+  },
+  "data_source": "SAP-X11",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "80"
+  },
+  "tags": [
+    "source-p4m",
+    "migipedia",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "2184240000001",
+    "7617027633369"
+  ],
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarket"
+  },
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "brand": {
+    "id": "007",
+    "name": "Anna's Best",
+    "slug": "annas-best",
+    "links": {
+      "homepage": {
+        "url": "https://annasbest.migros.ch/de.html",
+        "name": "Homepage",
+        "type": "info",
+        "purchasable": false
+      }
+    }
+  },
+  "labels": [
+    {
+      "id": "L79",
+      "name": "Nutri-Score",
+      "slug": "nutri-score"
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_0101190203",
+      "name": "Salate",
+      "slug": "supermarkt/lebensmittel/fruechte-gemuese/gemuese/salate",
+      "visible": true,
+      "title": "Salate und Salatgemüse in Ihrer Migros kaufen",
+      "parent_code": "BeSS_01011902",
+      "level": 5
+    },
+    {
+      "code": "BeSS_01011902",
+      "name": "Gemüse",
+      "slug": "supermarkt/lebensmittel/fruechte-gemuese/gemuese",
+      "visible": true,
+      "title": "Mit Gem&uuml;se von der Migros jeden Tag gesund essen",
+      "parent_code": "BeSS_010119",
+      "level": 4
+    },
+    {
+      "code": "BeSS_010119",
+      "name": "Früchte & Gemüse",
+      "slug": "supermarkt/lebensmittel/fruechte-gemuese",
+      "visible": true,
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/f839060a505bba25c0f37585edb558c003c50479/fruechte-gemuese.jpg",
+        "stack": "https://image.migros.ch/{stack}/f839060a505bba25c0f37585edb558c003c50479/fruechte-gemuese.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/31702195ec9d38aecefe80349eb347f79d56c750/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/31702195ec9d38aecefe80349eb347f79d56c750/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "online_relevant": [
+    {
+      "code": "MGB",
+      "name": "Migros Genossenschafts-Bund"
+    }
+  ],
+  "links": {
+    "migros_ch": {
+      "url": "https://www.migros.ch/en/product/131122000000?context=instore",
+      "name": "In-store assortment",
+      "canonical": "https://www.migros.ch/en/product/131122000000?context=instore",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/131122000000",
+      "name": "Migipedia",
+      "canonical": "https://www.migros.ch/en/product/131122000000?context=instore",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "has_safety_sheet": false,
+  "m_check2": {
+    "carbon_footprint": {
+      "image": {
+        "original": "https://image.migros.ch/original/3cb33aa7d90d7331f458860ae78688a0923b5993.svg",
+        "stack": "https://image.migros.ch/{stack}/3cb33aa7d90d7331f458860ae78688a0923b5993.svg"
+      },
+      "ground_and_sea_cargo": {
+        "kg_co2": 0.48,
+        "kg_co2_range": "0 - 0.9 kg CO₂eq / kg",
+        "co2_in_car_km": 2,
+        "rating": 5,
+        "production_in_percent": 48,
+        "packaging_in_percent": 36,
+        "transport_in_percent": 16
+      }
+    }
+  },
+  "receipt_text": "Kartoffeln gedämpft",
+  "package": {
+    "content": 1000,
+    "content_unit_code": "g",
+    "content_unit": "Gram",
+    "net_weight": 1,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogram",
+    "type": "KG",
+    "portions_per_package": "1",
+    "brutto_weight": 1,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 1.163,
+    "brutto_volume_unit_code": "cdm",
+    "height": 12.6,
+    "length": 5.1,
+    "width": 18.1,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "average_min": 0.3,
+    "average_min_unit_code": "kg",
+    "average_max": 0.65,
+    "average_max_unit_code": "kg"
+  },
+  "package_information": {
+    "tu": {
+      "gtins": [
+        "7617027633376"
+      ],
+      "brutto_weight": 1,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 15.96,
+      "brutto_volume_unit_code": "cdm",
+      "height": 13.3,
+      "length": 40,
+      "width": 30,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "kg": {
+      "gtins": [
+        "2184240000001",
+        "7617027633369"
+      ],
+      "brutto_weight": 1,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 1.163,
+      "brutto_volume_unit_code": "cdm",
+      "height": 12.6,
+      "length": 5.1,
+      "width": 18.1,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    }
+  },
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "price": {
+    "valid_from": "2022-09-06T00:00:00+0200",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 4.2,
+      "quantity": 1,
+      "unit": "KG",
+      "varying_quantity": false,
+      "display_quantity": "1 kg"
+    },
+    "estimated_piece_weight": 475,
+    "estimated_piece_price": 2,
+    "base": {
+      "price": 0.42,
+      "quantity": 100,
+      "unit": "G"
+    }
+  },
+  "features": [
+    {
+      "label_code": "acxMISOsorte",
+      "label": "Sorte",
+      "values": [
+        {
+          "value_code": "erxMISOsortekartoffeln",
+          "value": "Kartoffeln"
+        }
+      ],
+      "category_code": "ecxMISOCLAbearbeiteteshaltbaresgemuesegemueselebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOcugebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "erxMISOcugebindeartkunststoffverpackung",
+          "value": "Kunststoff-Verpackung"
+        }
+      ],
+      "category_code": "ecxMISOCLAbearbeiteteshaltbaresgemuesegemueselebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOentkerntentsteint",
+      "label": "Entkernt/entsteint",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "ecxMISOCLAbearbeiteteshaltbaresgemuesegemueselebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOproduktionsanspruch",
+      "label": "Produktionsverfahren",
+      "values": [
+        {
+          "value_code": "erxMISOproduktionsanspruchbioproduktion",
+          "value": "Bio-Produktion"
+        }
+      ],
+      "category_code": "ecxMISOCLAbearbeiteteshaltbaresgemuesegemueselebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOwiederverschliessbar",
+      "label": "Wiederverschliessbar",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "ecxMISOCLAbearbeiteteshaltbaresgemuesegemueselebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOanzahlentnehmbarereinzelportionen",
+      "label": "Anzahl entnehmbarer Einzeleinheiten",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "ecxMISOCLAbearbeiteteshaltbaresgemuesegemueselebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/6beb557d5476cda27267072cf0bf4af4b1c21acb/annas-best-kartoffeln-gedaempft.jpg",
+    "stack": "https://image.migros.ch/{stack}/6beb557d5476cda27267072cf0bf4af4b1c21acb/annas-best-kartoffeln-gedaempft.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/2a7a5953a4eb5cd66646e1d71ab28d092e17d77f/annas-best-kartoffeln-gedaempft.png",
+    "stack": "https://image.migros.ch/{stack}/2a7a5953a4eb5cd66646e1d71ab28d092e17d77f/annas-best-kartoffeln-gedaempft.png"
+  },
+  "additional_images": [
+    {
+      "original": "https://image.migros.ch/original/322320eab7a8f1a82bde51729cce0392ee609201.jpg",
+      "stack": "https://image.migros.ch/{stack}/322320eab7a8f1a82bde51729cce0392ee609201.jpg"
+    }
+  ],
+  "internal_features": [
+    {
+      "label_code": "MAPI_EXPORTABLE",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_EXPORTABLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Normalposition"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZFRP",
+          "value": "Frische Beschaffung"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "ZFRP"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "70568",
+          "value": "VEGETABLES"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LIFECYCLE",
+      "values": [
+        {
+          "value_code": "D",
+          "value": "Detailhandelsartikel"
+        }
+      ],
+      "category_code": "MAPI_LIFECYCLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_STORAGE_CONDITIONS",
+      "values": [
+        {
+          "value_code": "02",
+          "value": "refrigerated"
+        }
+      ],
+      "category_code": "MAPI_STORAGE_CONDITIONS",
+      "top_fact": false
+    },
+    {
+      "label_code": "acxMISOsorten",
+      "label": "Sorten",
+      "values": [
+        {
+          "value_code": "erxMISOCLAbearbeiteteshaltbaresGemueseGemueseLebensmittelGetraenkeAlle",
+          "value": "bearbeitetes haltbares Gemuese"
+        }
+      ],
+      "category_code": "ecxMISOCLAbearbeiteteshaltbaresgemuesegemueselebensmittelgetraenkealle",
+      "top_fact": false
+    },
+    {
+      "label_code": "acxMISOamigosmaximalgewicht",
+      "label": "Maximal-Gewicht",
+      "values": [
+        {
+          "value_code": "NUMERIC_450",
+          "value": "450",
+          "numeric_value": 450
+        }
+      ],
+      "category_code": "ecxMISOCLAbearbeiteteshaltbaresgemuesegemueselebensmittelgetraenkealle",
+      "top_fact": false,
+      "unit_code": "450a3d52-a066-4786-9744-4a7daa8339f7",
+      "unit": "g",
+      "unit_symbol": "g"
+    },
+    {
+      "label_code": "acxMISOamigosminimalgewicht",
+      "label": "Minimal-Gewicht",
+      "values": [
+        {
+          "value_code": "NUMERIC_250",
+          "value": "250",
+          "numeric_value": 250
+        }
+      ],
+      "category_code": "ecxMISOCLAbearbeiteteshaltbaresgemuesegemueselebensmittelgetraenkealle",
+      "top_fact": false,
+      "unit_code": "450a3d52-a066-4786-9744-4a7daa8339f7",
+      "unit": "g",
+      "unit_symbol": "g"
+    },
+    {
+      "label_code": "acxCommonarticlecocompensated",
+      "label": "Artikel Co2 kompensiert",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false
+    },
+    {
+      "label_code": "acxCommonmesswertcompensation",
+      "label": "CO2-Wert Kompensation",
+      "values": [
+        {
+          "value_code": "NUMERIC_0.48",
+          "value": "0.48",
+          "numeric_value": 0.48
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false,
+      "unit_code": "5d71456e-a520-4294-9ddb-add78f63ce83",
+      "unit": "Equivalence per kilogram",
+      "unit_symbol": "eq / kg"
+    },
+    {
+      "label_code": "acxCommonoutputmcheckclimatedeclaration",
+      "label": "Auslobung M-Check Klimadeklaration",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Yes",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false
+    }
+  ],
+  "declarations": {
+    "declaration_number": "Q_754519042644549",
+    "tags": [
+      "source-qim"
+    ],
+    "gtins": [
+      "2184240000001"
+    ],
+    "valid_from": "2021-07-28T09:59:00+0200",
+    "general_information": [
+      {
+        "label": "Cooling information/storage information",
+        "values": [
+          "Store refrigerated at max. 5 °C."
+        ]
+      },
+      {
+        "label": "Production information",
+        "values": [
+          "pasteurized",
+          "thoroughly cooked"
+        ]
+      }
+    ],
+    "nutrition_facts": {
+      "nutri_score": {
+        "value": "A",
+        "image": {
+          "original": "https://image.migros.ch/original/ae3dfecb5a72aefe755971e0517fdca2d9ee4eb9.png",
+          "stack": "https://image.migros.ch/{stack}/ae3dfecb5a72aefe755971e0517fdca2d9ee4eb9.png"
+        }
+      },
+      "reference_sizes": {
+        "standard": {
+          "base": {
+            "quantity": {
+              "value": "100 g",
+              "numeric_value": 100,
+              "unit": "g"
+            }
+          },
+          "nutrients": [
+            {
+              "code": "NUT_ENERGY",
+              "name": "Energy",
+              "operator": "=",
+              "pictogram_name": "Energy",
+              "category": "BIG9",
+              "quantity": {
+                "value": "327 kJ",
+                "numeric_value": 327,
+                "unit": "kJ",
+                "alternate": {
+                  "value": "77 kcal",
+                  "numeric_value": 77,
+                  "unit": "kcal"
+                }
+              }
+            },
+            {
+              "code": "NUT_FAT",
+              "name": "Fat",
+              "operator": "<",
+              "pictogram_name": "Fat",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0.5 g",
+                "numeric_value": 0.5,
+                "unit": "g"
+              },
+              "rating": {
+                "value": 0,
+                "text": "low",
+                "icon": {
+                  "original": "https://image.migros.ch/original/a2b5e2562a4fedbbdec99c1932ec57c46c49cde4.svg",
+                  "stack": "https://image.migros.ch/{stack}/a2b5e2562a4fedbbdec99c1932ec57c46c49cde4.svg"
+                },
+                "hex_color": "#069800"
+              }
+            },
+            {
+              "code": "NUT_SATURATED_FATTY_ACIDS",
+              "name": "of which saturates",
+              "operator": "=",
+              "pictogram_name": "saturated fatty acids",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0 g",
+                "numeric_value": 0,
+                "unit": "g"
+              },
+              "rating": {
+                "value": 0,
+                "text": "low",
+                "icon": {
+                  "original": "https://image.migros.ch/original/a2b5e2562a4fedbbdec99c1932ec57c46c49cde4.svg",
+                  "stack": "https://image.migros.ch/{stack}/a2b5e2562a4fedbbdec99c1932ec57c46c49cde4.svg"
+                },
+                "hex_color": "#069800"
+              }
+            },
+            {
+              "code": "NUT_CARBOHYDRATES",
+              "name": "Carbohydrate",
+              "operator": "=",
+              "category": "BIG9",
+              "quantity": {
+                "value": "16 g",
+                "numeric_value": 16,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_SUGAR",
+              "name": "of which sugars",
+              "operator": "=",
+              "pictogram_name": "Sugar",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0.7 g",
+                "numeric_value": 0.7,
+                "unit": "g"
+              },
+              "rating": {
+                "value": 0,
+                "text": "low",
+                "icon": {
+                  "original": "https://image.migros.ch/original/a2b5e2562a4fedbbdec99c1932ec57c46c49cde4.svg",
+                  "stack": "https://image.migros.ch/{stack}/a2b5e2562a4fedbbdec99c1932ec57c46c49cde4.svg"
+                },
+                "hex_color": "#069800"
+              }
+            },
+            {
+              "code": "NUT_FIBER",
+              "name": "Fibre",
+              "operator": "=",
+              "category": "BIG9",
+              "quantity": {
+                "value": "2.1 g",
+                "numeric_value": 2.1,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_PROTEIN",
+              "name": "Protein",
+              "operator": "=",
+              "category": "BIG9",
+              "quantity": {
+                "value": "2.0 g",
+                "numeric_value": 2,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_SALT",
+              "name": "Salt",
+              "operator": "=",
+              "pictogram_name": "Salt",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0 g",
+                "numeric_value": 0,
+                "unit": "g"
+              },
+              "rating": {
+                "value": 0,
+                "text": "low",
+                "icon": {
+                  "original": "https://image.migros.ch/original/a2b5e2562a4fedbbdec99c1932ec57c46c49cde4.svg",
+                  "stack": "https://image.migros.ch/{stack}/a2b5e2562a4fedbbdec99c1932ec57c46c49cde4.svg"
+                },
+                "hex_color": "#069800"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "recipe_ingredient_ids": [
+    "12904581",
+    "16646"
+  ],
+  "regional_availability": {
+    "gmaa": {
+      "probability": 18
+    },
+    "gmbs": {
+      "probability": 76
+    },
+    "gmge": {
+      "probability": 21
+    },
+    "gmlu": {
+      "probability": 32
+    },
+    "gmnf": {
+      "probability": 4
+    },
+    "gmos": {
+      "probability": 11
+    },
+    "gmti": {
+      "probability": 0
+    },
+    "gmvd": {
+      "probability": 0
+    },
+    "gmvs": {
+      "probability": 11
+    },
+    "gmzh": {
+      "probability": 76
+    }
+  },
+  "ratings": {
+    "count_all": 32,
+    "average_all": 4.481481481481
+  },
+  "related_products": {
+    "purchase_recommendations": {
+      "product_ids": [
+        "131122400000",
+        "131123000000",
+        "131123100000",
+        "131123200000"
+      ]
+    }
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "updated_at": "2023-08-17T07:20:42+0200",
+  "sap_created_at": "2008-01-15T18:00:00+0100",
+  "online_shop_relevant": false,
+  "base_unit": "KG",
+  "co2_compensation": {
+    "kg_co2": 0.48,
+    "kg_co2_compensation": 0.48,
+    "is_compensated": false,
+    "mcheck_enabled": true
+  },
+  "views": [
+    "all",
+    "browse",
+    "browseallretailers"
+  ]
+}

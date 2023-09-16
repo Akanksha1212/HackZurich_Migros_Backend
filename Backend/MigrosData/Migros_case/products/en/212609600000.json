@@ -1,0 +1,475 @@
+{
+  "id": "212609600000",
+  "language": "en",
+  "name": "Boursin Pfeffer",
+  "names": {
+    "short_name": "Boursin Pfeffer"
+  },
+  "slug": "boursin-pfeffer",
+  "slugs": {
+    "de": "boursin-pfeffer",
+    "fr": "boursin-de-poivre",
+    "it": "boursin-alle-pepe",
+    "en": "boursin-pfeffer"
+  },
+  "type": "00",
+  "boss_number": "030413508024",
+  "data_source": "SAP-X11",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "80"
+  },
+  "tags": [
+    "source-p4m",
+    "migipedia",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "3073781065305"
+  ],
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarket"
+  },
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "brand": {
+    "id": "K49",
+    "name": "Boursin",
+    "slug": "boursin"
+  },
+  "categories": [
+    {
+      "code": "BeSS_0101040111",
+      "name": "Frischkäse & Streichkäse & Hüttenkäse",
+      "slug": "supermarkt/lebensmittel/milchprodukte-eier/kaese/frischkaese-streichkaese-huettenkaese",
+      "visible": true,
+      "title": "Der Frischkäse ist ein Alleskönner",
+      "parent_code": "BeSS_01010401",
+      "image": {
+        "original": "https://image.migros.ch/original/701a62f29f511d894d6fc2de6faffaa1e6404361/frischkaese-streichkaese-huettenkaese.jpg",
+        "stack": "https://image.migros.ch/{stack}/701a62f29f511d894d6fc2de6faffaa1e6404361/frischkaese-streichkaese-huettenkaese.jpg"
+      },
+      "level": 5
+    },
+    {
+      "code": "BeSS_01010401",
+      "name": "Käse",
+      "slug": "supermarkt/lebensmittel/milchprodukte-eier/kaese",
+      "visible": true,
+      "title": "Käse von Ihrer Migros &ndash; macht Appetit auf mehr",
+      "parent_code": "BeSS_010104",
+      "image": {
+        "original": "https://image.migros.ch/original/646fe55be4ff2b665a94cc87a29c69d00106a19e/kaese.jpg",
+        "stack": "https://image.migros.ch/{stack}/646fe55be4ff2b665a94cc87a29c69d00106a19e/kaese.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010104",
+      "name": "Milchprodukte & Eier",
+      "slug": "supermarkt/lebensmittel/milchprodukte-eier",
+      "visible": true,
+      "title": "Milchprodukte und Eier –",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/6b1ea6c2d41c3ccb21bf05c8dc342f7f55d83deb/milchprodukte-eier.jpg",
+        "stack": "https://image.migros.ch/{stack}/6b1ea6c2d41c3ccb21bf05c8dc342f7f55d83deb/milchprodukte-eier.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/31702195ec9d38aecefe80349eb347f79d56c750/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/31702195ec9d38aecefe80349eb347f79d56c750/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "online_relevant": [
+    {
+      "code": "MGB",
+      "name": "Migros Genossenschafts-Bund"
+    }
+  ],
+  "links": {
+    "migros_ch": {
+      "url": "https://www.migros.ch/en/product/212609600000?context=instore",
+      "name": "In-store assortment",
+      "canonical": "https://www.migros.ch/en/product/212609600000?context=instore",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/212609600000",
+      "name": "Migipedia",
+      "canonical": "https://www.migros.ch/en/product/212609600000?context=instore",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "has_safety_sheet": false,
+  "m_check2": {},
+  "receipt_text": "Boursin Pfeffer 2x150g",
+  "package": {
+    "content": 300,
+    "content_unit_code": "g",
+    "content_unit": "Gram",
+    "net_weight": 0.3,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogram",
+    "type": "CU",
+    "portions_per_package": "1",
+    "brutto_weight": 0.3,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 249.75,
+    "brutto_volume_unit_code": "ccm",
+    "height": 7.5,
+    "length": 4.5,
+    "width": 7.4,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "2 x 150g"
+  },
+  "package_information": {
+    "tu": {
+      "gtins": [
+        "7613269565161"
+      ],
+      "brutto_weight": 0.9,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 63840,
+      "brutto_volume_unit_code": "ccm",
+      "height": 26.6,
+      "length": 60,
+      "width": 40,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 3
+    },
+    "cu": {
+      "gtins": [
+        "3073781065305"
+      ],
+      "brutto_weight": 0.3,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 249.75,
+      "brutto_volume_unit_code": "ccm",
+      "height": 7.5,
+      "length": 4.5,
+      "width": 7.4,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "lu": {
+      "number_of_base_units": 3840
+    }
+  },
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "price": {
+    "valid_from": "2023-03-30T00:00:00+0200",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "source": "PriceRepository",
+    "no_price_hint": "Current daily price"
+  },
+  "image": {
+    "original": "https://image.migros.ch/original/7d691480397f9ae4d65b5314e6106a65a61097b9/boursin-pfeffer.jpg",
+    "stack": "https://image.migros.ch/{stack}/7d691480397f9ae4d65b5314e6106a65a61097b9/boursin-pfeffer.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/c5965c11104e68a73f2d5cc7bb969d561b008fa5/boursin-pfeffer.png",
+    "stack": "https://image.migros.ch/{stack}/c5965c11104e68a73f2d5cc7bb969d561b008fa5/boursin-pfeffer.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_EXPORTABLE",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_EXPORTABLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Normalposition"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZFRP",
+          "value": "Frische Beschaffung"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "ZFRP"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "70049",
+          "value": "SELLOUT/PROMOTIONEN"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LIFECYCLE",
+      "values": [
+        {
+          "value_code": "S",
+          "value": "Sellout"
+        }
+      ],
+      "category_code": "MAPI_LIFECYCLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUSTOMS_POSITION",
+      "values": [
+        {
+          "value": "0406.1090"
+        }
+      ],
+      "category_code": "MAPI_CUSTOMS_POSITION",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_STORAGE_CONDITIONS",
+      "values": [
+        {
+          "value_code": "02",
+          "value": "refrigerated"
+        }
+      ],
+      "category_code": "MAPI_STORAGE_CONDITIONS",
+      "top_fact": false
+    },
+    {
+      "label_code": "acxCommonarticlecocompensated",
+      "label": "Artikel Co2 kompensiert",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false
+    },
+    {
+      "label_code": "acxCommonmesswertcompensation",
+      "label": "CO2-Wert Kompensation",
+      "values": [
+        {
+          "value_code": "NUMERIC_3.443",
+          "value": "3.443",
+          "numeric_value": 3.443
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false,
+      "unit_code": "5d71456e-a520-4294-9ddb-add78f63ce83",
+      "unit": "Equivalence per kilogram",
+      "unit_symbol": "eq / kg"
+    },
+    {
+      "label_code": "acxCommonoutputmcheckclimatedeclaration",
+      "label": "Auslobung M-Check Klimadeklaration",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false
+    }
+  ],
+  "recipe_ingredient_ids": [
+    "16883",
+    "84175",
+    "88845"
+  ],
+  "regional_availability": {
+    "gmaa": {
+      "probability": 0
+    },
+    "gmbs": {
+      "probability": 0
+    },
+    "gmge": {
+      "probability": 0
+    },
+    "gmlu": {
+      "probability": 0
+    },
+    "gmnf": {
+      "probability": 0
+    },
+    "gmos": {
+      "probability": 0
+    },
+    "gmti": {
+      "probability": 0
+    },
+    "gmvd": {
+      "probability": 0
+    },
+    "gmvs": {
+      "probability": 0
+    },
+    "gmzh": {
+      "probability": 0
+    }
+  },
+  "ratings": {
+    "count_all": 7,
+    "average_all": 4.571428571429
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "updated_at": "2023-08-15T07:34:46+0200",
+  "sap_created_at": "2015-05-11T19:00:00+0200",
+  "online_shop_relevant": false,
+  "base_unit": "CU",
+  "co2_compensation": {
+    "kg_co2": 3.443,
+    "kg_co2_compensation": 3.443,
+    "is_compensated": false,
+    "mcheck_enabled": false
+  },
+  "views": [
+    "all",
+    "browse",
+    "browseallretailers"
+  ]
+}

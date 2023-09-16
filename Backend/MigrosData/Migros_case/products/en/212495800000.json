@@ -1,0 +1,581 @@
+{
+  "id": "212495800000",
+  "language": "en",
+  "name": "Cathedral City Cheddar Extra",
+  "names": {
+    "short_name": "Cathedral City Cheddar Extra"
+  },
+  "slug": "cathedral-city-cheddar-extra",
+  "slugs": {
+    "de": "cathedral-city-cheddar-extra",
+    "fr": "cathedral-city-cheddar-extra",
+    "it": "cathedral-city-cheddar-extra",
+    "en": "cathedral-city-cheddar-extra"
+  },
+  "type": "00",
+  "boss_number": "030413472070",
+  "data_source": "SAP-X11",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "80"
+  },
+  "tags": [
+    "source-p4m",
+    "migipedia",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "5000295080836"
+  ],
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarket"
+  },
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "categories": [
+    {
+      "code": "BeSS_0101040101",
+      "name": "Hartkäse & Halbhartkäse",
+      "slug": "supermarkt/lebensmittel/milchprodukte-eier/kaese/hartkaese-halbhartkaese",
+      "visible": true,
+      "title": "Halbhartkäse und Hartkäse in Ihrer Migros kaufen",
+      "parent_code": "BeSS_01010401",
+      "image": {
+        "original": "https://image.migros.ch/original/4bb375b7e6a3788c2579addca57ad4f59d8bd741/hartkaese-halbhartkaese.jpg",
+        "stack": "https://image.migros.ch/{stack}/4bb375b7e6a3788c2579addca57ad4f59d8bd741/hartkaese-halbhartkaese.jpg"
+      },
+      "level": 5
+    },
+    {
+      "code": "BeSS_01010401",
+      "name": "Käse",
+      "slug": "supermarkt/lebensmittel/milchprodukte-eier/kaese",
+      "visible": true,
+      "title": "Käse von Ihrer Migros &ndash; macht Appetit auf mehr",
+      "parent_code": "BeSS_010104",
+      "image": {
+        "original": "https://image.migros.ch/original/646fe55be4ff2b665a94cc87a29c69d00106a19e/kaese.jpg",
+        "stack": "https://image.migros.ch/{stack}/646fe55be4ff2b665a94cc87a29c69d00106a19e/kaese.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010104",
+      "name": "Milchprodukte & Eier",
+      "slug": "supermarkt/lebensmittel/milchprodukte-eier",
+      "visible": true,
+      "title": "Milchprodukte und Eier –",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/6b1ea6c2d41c3ccb21bf05c8dc342f7f55d83deb/milchprodukte-eier.jpg",
+        "stack": "https://image.migros.ch/{stack}/6b1ea6c2d41c3ccb21bf05c8dc342f7f55d83deb/milchprodukte-eier.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/31702195ec9d38aecefe80349eb347f79d56c750/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/31702195ec9d38aecefe80349eb347f79d56c750/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "online_relevant": [
+    {
+      "code": "MGB",
+      "name": "Migros Genossenschafts-Bund"
+    }
+  ],
+  "links": {
+    "migros_ch": {
+      "url": "https://www.migros.ch/en/product/212495800000?context=instore",
+      "name": "In-store assortment",
+      "canonical": "https://www.migros.ch/en/product/212495800000?context=instore",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/212495800000",
+      "name": "Migipedia",
+      "canonical": "https://www.migros.ch/en/product/212495800000?context=instore",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "has_safety_sheet": false,
+  "m_check2": {
+    "carbon_footprint": {
+      "image": {
+        "original": "https://image.migros.ch/original/6137c42cbff331738ddeafb4f91efb06075417b3.svg",
+        "stack": "https://image.migros.ch/{stack}/6137c42cbff331738ddeafb4f91efb06075417b3.svg"
+      },
+      "ground_and_sea_cargo": {
+        "kg_co2": 9.12,
+        "kg_co2_range": "4.8 - 9.9 kg CO₂eq / kg",
+        "co2_in_car_km": 50,
+        "rating": 2,
+        "production_in_percent": 97.76,
+        "packaging_in_percent": 0.35,
+        "transport_in_percent": 1.9
+      }
+    }
+  },
+  "receipt_text": "Cheddar Extra Mature",
+  "package": {
+    "content": 200,
+    "content_unit_code": "g",
+    "content_unit": "Gram",
+    "net_weight": 0.2,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogram",
+    "type": "CU",
+    "portions_per_package": "1",
+    "brutto_weight": 0.2,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 0.883,
+    "brutto_volume_unit_code": "cdm",
+    "height": 15.5,
+    "length": 3.8,
+    "width": 15,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "200g"
+  },
+  "package_information": {
+    "tu": {
+      "gtins": [
+        "7613404231142"
+      ],
+      "brutto_weight": 2.4,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 63.84,
+      "brutto_volume_unit_code": "cdm",
+      "height": 26.6,
+      "length": 60,
+      "width": 40,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 12
+    },
+    "cu": {
+      "gtins": [
+        "5000295080836"
+      ],
+      "brutto_weight": 0.2,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.883,
+      "brutto_volume_unit_code": "cdm",
+      "height": 15.5,
+      "length": 3.8,
+      "width": 15,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "lu": {
+      "number_of_base_units": 2280
+    }
+  },
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "price": {
+    "valid_from": "2023-07-02T00:00:00+0200",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 4.95,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "200g"
+    },
+    "base": {
+      "price": 2.48,
+      "quantity": 100,
+      "unit": "G"
+    }
+  },
+  "features": [
+    {
+      "label_code": "acxMISOkaesetyp",
+      "label": "Käsetyp",
+      "values": [
+        {
+          "value": "Semi-hard cheese"
+        }
+      ],
+      "category_code": "ecxMISOCLAkaesemilchbutterrahmkaeseeierersatzproduktelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOcugebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "erxMISOcugebindeartkunststoffverpackung",
+          "value": "Kunststoff-Verpackung"
+        }
+      ],
+      "category_code": "ecxMISOCLAkaesemilchbutterrahmkaeseeierersatzproduktelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOzubereitungsverfahren",
+      "label": "Hinweise für die Zubereitung",
+      "values": [
+        {
+          "value_code": "erxMISOzubereitungsverfahrenverzehrfertig",
+          "value": "verzehrfertig"
+        }
+      ],
+      "category_code": "ecxMISOCLAkaesemilchbutterrahmkaeseeierersatzproduktelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/1f14ea8ffc282df39525f9c06eaecc948961c959/cathedral-city-cheddar-extra.jpg",
+    "stack": "https://image.migros.ch/{stack}/1f14ea8ffc282df39525f9c06eaecc948961c959/cathedral-city-cheddar-extra.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/81ac26e3ef4c6810cda47f2826f3cedaed77346f/cathedral-city-cheddar-extra.png",
+    "stack": "https://image.migros.ch/{stack}/81ac26e3ef4c6810cda47f2826f3cedaed77346f/cathedral-city-cheddar-extra.png"
+  },
+  "additional_images": [
+    {
+      "original": "https://image.migros.ch/original/012c64817c818323daf7089f6c81bf512c72fbdd.jpg",
+      "stack": "https://image.migros.ch/{stack}/012c64817c818323daf7089f6c81bf512c72fbdd.jpg"
+    }
+  ],
+  "internal_features": [
+    {
+      "label_code": "MAPI_RETURNABLE",
+      "label": "Return",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "true",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MAPI_RETURNABLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_EXPORTABLE",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_EXPORTABLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Normalposition"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZFRP",
+          "value": "Frische Beschaffung"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "ZFRP"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "70453",
+          "value": "SCHNITTKAESE AUSLAND"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "1_SAP_007",
+          "value": "1"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_KUBE_TUKA",
+      "values": [
+        {
+          "value_code": "BLANK",
+          "value": "KUBE und TUKA nicht zugelassen"
+        }
+      ],
+      "category_code": "MAPI_KUBE_TUKA",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LIFECYCLE",
+      "values": [
+        {
+          "value_code": "N",
+          "value": "Neuheit"
+        }
+      ],
+      "category_code": "MAPI_LIFECYCLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_STORAGE_CONDITIONS",
+      "values": [
+        {
+          "value_code": "02",
+          "value": "refrigerated"
+        }
+      ],
+      "category_code": "MAPI_STORAGE_CONDITIONS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_MULTIPACK",
+      "values": [
+        {
+          "value_code": "0",
+          "value": "No pack expression"
+        }
+      ],
+      "category_code": "MAPI_MULTIPACK",
+      "top_fact": false
+    },
+    {
+      "label_code": "acxCommonarticlecocompensated",
+      "label": "Artikel Co2 kompensiert",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false
+    },
+    {
+      "label_code": "acxCommonmesswertcompensation",
+      "label": "CO2-Wert Kompensation",
+      "values": [
+        {
+          "value_code": "NUMERIC_9.12",
+          "value": "9.12",
+          "numeric_value": 9.12
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false,
+      "unit_code": "5d71456e-a520-4294-9ddb-add78f63ce83",
+      "unit": "Equivalence per kilogram",
+      "unit_symbol": "eq / kg"
+    },
+    {
+      "label_code": "acxCommonoutputmcheckclimatedeclaration",
+      "label": "Auslobung M-Check Klimadeklaration",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Yes",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false
+    }
+  ],
+  "recipe_ingredient_ids": [
+    "10000"
+  ],
+  "regional_availability": {
+    "gmaa": {
+      "probability": 93
+    },
+    "gmbs": {
+      "probability": 88
+    },
+    "gmge": {
+      "probability": 74
+    },
+    "gmlu": {
+      "probability": 76
+    },
+    "gmnf": {
+      "probability": 45
+    },
+    "gmos": {
+      "probability": 82
+    },
+    "gmti": {
+      "probability": 71
+    },
+    "gmvd": {
+      "probability": 74
+    },
+    "gmvs": {
+      "probability": 44
+    },
+    "gmzh": {
+      "probability": 89
+    }
+  },
+  "ratings": {
+    "count_all": 29,
+    "average_all": 4.586206896552
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "updated_at": "2023-08-17T07:24:58+0200",
+  "sap_created_at": "2019-07-29T19:00:00+0200",
+  "online_shop_relevant": false,
+  "base_unit": "CU",
+  "co2_compensation": {
+    "kg_co2": 9.12,
+    "kg_co2_compensation": 9.12,
+    "is_compensated": false,
+    "mcheck_enabled": true
+  },
+  "views": [
+    "all",
+    "browse",
+    "browseallretailers"
+  ]
+}

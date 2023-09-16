@@ -1,0 +1,440 @@
+{
+  "id": "511811400000",
+  "language": "en",
+  "name": "Parakito Refill Bracelet",
+  "names": {
+    "short_name": "Parakito Refill Bracelet"
+  },
+  "slug": "parakito-refill-bracelet",
+  "slugs": {
+    "de": "parakito-refill-armband",
+    "fr": "parakito-refill-bracelet",
+    "it": "parakito-refill-bracciale",
+    "en": "parakito-refill-bracelet"
+  },
+  "type": "00",
+  "boss_number": "090322230525",
+  "data_source": "SAP-X11",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03"
+  },
+  "tags": [
+    "source-pex",
+    "near-non-food",
+    "migipedia",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "3532678601533"
+  ],
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarket"
+  },
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "brand": {
+    "id": "T33",
+    "name": "Parakito",
+    "slug": "parakito",
+    "image": {
+      "original": "https://image.migros.ch/original/386efc8aa2911977de820ae5313366c524a1dec5/parakito.jpg",
+      "stack": "https://image.migros.ch/{stack}/386efc8aa2911977de820ae5313366c524a1dec5/parakito.jpg"
+    }
+  },
+  "categories": [
+    {
+      "code": "BeSS_011201",
+      "name": "Hausapotheke",
+      "slug": "supermarkt/gesundheit/hausapotheke",
+      "visible": true,
+      "parent_code": "BeSS_0112",
+      "level": 3
+    },
+    {
+      "code": "BeSS_0112",
+      "name": "Gesundheit",
+      "slug": "supermarkt/gesundheit",
+      "visible": true,
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/832762761a56d78835c380db87e2aa4ecd7a4eed/gesundheit.jpg",
+        "stack": "https://image.migros.ch/{stack}/832762761a56d78835c380db87e2aa4ecd7a4eed/gesundheit.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "online_relevant": [
+    {
+      "code": "MGB",
+      "name": "Migros Genossenschafts-Bund"
+    }
+  ],
+  "links": {
+    "migros_ch": {
+      "url": "https://www.migros.ch/en/product/511811400000?context=instore",
+      "name": "In-store assortment",
+      "canonical": "https://www.migros.ch/en/product/511811400000?context=instore",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/511811400000",
+      "name": "Migipedia",
+      "canonical": "https://www.migros.ch/en/product/511811400000?context=instore",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "receipt_text": "ParaKito Refill",
+  "package": {
+    "content": 1,
+    "content_unit_code": "st",
+    "content_unit": "Stück",
+    "net_weight": 0.018,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "brutto_weight": 0.019,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 0.288,
+    "brutto_volume_unit_code": "cdm",
+    "height": 12,
+    "length": 8,
+    "width": 3,
+    "unit_dimension": "cm",
+    "price_comparison_content": 1,
+    "size": "1 Stk."
+  },
+  "package_information": {
+    "tu": {
+      "gtins": [
+        "7613312434864"
+      ],
+      "brutto_weight": 0.322,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 4.095,
+      "brutto_volume_unit_code": "cdm",
+      "height": 10,
+      "length": 21,
+      "width": 19.5,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 12
+    },
+    "cu": {
+      "gtins": [
+        "3532678601533"
+      ],
+      "brutto_weight": 0.019,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.288,
+      "brutto_volume_unit_code": "cdm",
+      "height": 12,
+      "length": 8,
+      "width": 3,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "lu": {
+      "brutto_weight": 88.976,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 1195.2,
+      "brutto_volume_unit_code": "cdm",
+      "height": 124.5,
+      "length": 120,
+      "width": 80,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 2496
+    },
+    "lge": {
+      "number_of_base_units": 227
+    },
+    "kar": {
+      "number_of_base_units": 1
+    }
+  },
+  "vat": {
+    "id": 1,
+    "percentage": 7.7
+  },
+  "price": {
+    "valid_from": "2023-06-09T00:00:00+0200",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 14.9,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "1 Stk."
+    },
+    "base": {
+      "price": 14.9,
+      "quantity": 1,
+      "unit": "ST"
+    }
+  },
+  "features": [
+    {
+      "label_code": "miso_geeignet_fuer",
+      "label": "Suitable for",
+      "values": [
+        {
+          "value_code": "MISO_geeignet_fuer_insektenschutz",
+          "value": "Insektenschutz"
+        }
+      ],
+      "category_code": "MISO_CLA_Hausapotheke_Gesundheit_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/95d1a993b4522155dc8f883687a4a7a45439fe81/parakito-refill-bracelet.jpg",
+    "stack": "https://image.migros.ch/{stack}/95d1a993b4522155dc8f883687a4a7a45439fe81/parakito-refill-bracelet.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/5b1acdc8c55eb6d2664ddd3bd67a6f75b3cae9de/parakito-refill-bracelet.png",
+    "stack": "https://image.migros.ch/{stack}/5b1acdc8c55eb6d2664ddd3bd67a6f75b3cae9de/parakito-refill-bracelet.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Standard item"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "ZHKS"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RISK_CLASS",
+      "values": [
+        {
+          "value_code": "1",
+          "value": "1 (high)"
+        }
+      ],
+      "category_code": "MAPI_RISK_CLASS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_QUALITY_CHECK",
+      "values": [
+        {
+          "value_code": "00",
+          "value": "No Quality Control"
+        }
+      ],
+      "category_code": "MAPI_QUALITY_CHECK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZHKS",
+          "value": "HKS Standardartikel"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "H",
+          "value": "HKS Standard"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "50385",
+          "value": "SELBSTMEDIKATION"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LIFECYCLE",
+      "values": [
+        {
+          "value_code": "D",
+          "value": "Detailhandelsartikel"
+        }
+      ],
+      "category_code": "MAPI_LIFECYCLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_EXPORTABLE",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_EXPORTABLE",
+      "top_fact": false
+    }
+  ],
+  "regional_availability": {
+    "gmaa": {
+      "probability": 0
+    },
+    "gmbs": {
+      "probability": 0
+    },
+    "gmge": {
+      "probability": 0
+    },
+    "gmlu": {
+      "probability": 0
+    },
+    "gmnf": {
+      "probability": 0
+    },
+    "gmos": {
+      "probability": 0
+    },
+    "gmti": {
+      "probability": 0
+    },
+    "gmvd": {
+      "probability": 0
+    },
+    "gmvs": {
+      "probability": 0
+    },
+    "gmzh": {
+      "probability": 0
+    }
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "updated_at": "2023-08-15T14:32:04+0200",
+  "sap_created_at": "2023-06-08T00:00:00+0200",
+  "base_unit": "CU",
+  "views": [
+    "all",
+    "browse",
+    "browseallretailers"
+  ]
+}

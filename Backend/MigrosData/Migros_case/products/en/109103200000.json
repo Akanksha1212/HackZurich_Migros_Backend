@@ -1,0 +1,636 @@
+{
+  "id": "109103200000",
+  "language": "en",
+  "name": "Vogelsand",
+  "names": {
+    "short_name": "Vogelsand"
+  },
+  "slug": "vogelsand",
+  "slugs": {
+    "de": "vogelsand",
+    "fr": "sable-pour-oiseaux",
+    "it": "sabbia-per-uccelli",
+    "en": "vogelsand"
+  },
+  "type": "00",
+  "boss_number": "011811720505",
+  "description": {
+    "text": "Vogelsand<br>2,3kg. Diese Mischung enth&auml;lt im Feuer ausgebrannten Quarzsand, Kalkgrit, Muschelschalenschrot und nat&uuml;rliche Mineralien und Aufbaustoffe. Das beigef&uuml;gte Vogelgrit hilft bei der Zermahlung von Saaten und Getreiden im Magen des Vogels. Der Sand sollte alle 2-3 Tage erneuert werden und die Bodenschale einmal w&ouml;chentlich heiss ausgewaschen werden.",
+    "source": "PEX"
+  },
+  "data_source": "SAP-X11",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03"
+  },
+  "tags": [
+    "source-pex",
+    "migipedia",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7617027170291",
+    "7610368047048"
+  ],
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarket"
+  },
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "brand": {
+    "id": "068",
+    "name": "M-Classic",
+    "slug": "m-classic",
+    "links": {
+      "homepage": {
+        "url": "https://m-classic.migros.ch/de.html",
+        "name": "Homepage",
+        "type": "info",
+        "purchasable": false
+      }
+    }
+  },
+  "categories": [
+    {
+      "code": "BeSS_01080501",
+      "name": "Futter",
+      "slug": "supermarkt/tierwelt/voegel/futter",
+      "visible": true,
+      "parent_code": "BeSS_010805",
+      "image": {
+        "original": "https://image.migros.ch/original/7f8b637be9b76904d60ad40d8fba87fd1357b2c7/futter.jpg",
+        "stack": "https://image.migros.ch/{stack}/7f8b637be9b76904d60ad40d8fba87fd1357b2c7/futter.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010805",
+      "name": "Vögel",
+      "slug": "supermarkt/tierwelt/voegel",
+      "visible": true,
+      "title": "Vögel: Futter und Vogelsand in Ihrer Migros kaufen",
+      "parent_code": "BeSS_0108",
+      "image": {
+        "original": "https://image.migros.ch/original/6fdbad39b17f2c979fba31faa6a94e46e4311a26/voegel.jpg",
+        "stack": "https://image.migros.ch/{stack}/6fdbad39b17f2c979fba31faa6a94e46e4311a26/voegel.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0108",
+      "name": "Tierwelt",
+      "slug": "supermarkt/tierwelt",
+      "visible": true,
+      "title": "Tierwelt bei der Migros: nur das Beste für Ihren Liebling",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c6a8b209b0929b2040fbe89bc5edcacf6e029598/tierwelt.jpg",
+        "stack": "https://image.migros.ch/{stack}/c6a8b209b0929b2040fbe89bc5edcacf6e029598/tierwelt.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "online_relevant": [
+    {
+      "code": "MGB",
+      "name": "Migros Genossenschafts-Bund"
+    },
+    {
+      "code": "MO",
+      "name": "Migros Online"
+    }
+  ],
+  "galaxus_relevant": true,
+  "links": {
+    "migros_ch": {
+      "url": "https://www.migros.ch/en/product/109103200000?context=instore",
+      "name": "In-store assortment",
+      "canonical": "https://www.migros.ch/en/product/109103200000?context=instore",
+      "type": "info",
+      "purchasable": false
+    },
+    "migros_online": {
+      "url": "https://www.migros.ch/en/product/109103200000?context=online",
+      "mo_product_id": "72662",
+      "name": "Online-shop assortment",
+      "canonical": "https://www.migros.ch/en/product/109103200000?context=instore",
+      "type": "shop",
+      "purchasable": true,
+      "one_catalog_id": 100012602
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/109103200000",
+      "name": "Migipedia",
+      "canonical": "https://www.migros.ch/en/product/109103200000?context=instore",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "m_check2": {
+    "carbon_footprint": {
+      "image": {
+        "original": "https://image.migros.ch/original/3647ce79a496ca6d707e072f7e3f61ecc313e54b.svg",
+        "stack": "https://image.migros.ch/{stack}/3647ce79a496ca6d707e072f7e3f61ecc313e54b.svg"
+      },
+      "ground_and_sea_cargo": {
+        "kg_co2": 2.51,
+        "kg_co2_range": "2 - 4.7 kg CO₂eq / kg",
+        "co2_in_car_km": 13,
+        "rating": 3,
+        "production_in_percent": 88.51,
+        "packaging_in_percent": 4.6,
+        "transport_in_percent": 6.9
+      }
+    }
+  },
+  "receipt_text": "MClass Vogelsand",
+  "package": {
+    "content": 2300,
+    "content_unit_code": "g",
+    "content_unit": "Gramm",
+    "net_weight": 2.3,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "brutto_weight": 2.51,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 2.271,
+    "brutto_volume_unit_code": "cdm",
+    "height": 21,
+    "length": 10.4,
+    "width": 10.4,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "2.3kg"
+  },
+  "package_information": {
+    "tu": {
+      "gtins": [
+        "7610368015740",
+        "7617027170307"
+      ],
+      "brutto_weight": 14.46,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 12.087,
+      "brutto_volume_unit_code": "cdm",
+      "height": 19.5,
+      "length": 29.8,
+      "width": 20.8,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 6
+    },
+    "cu": {
+      "gtins": [
+        "7610368047048",
+        "7617027170291"
+      ],
+      "brutto_weight": 2.51,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 2.271,
+      "brutto_volume_unit_code": "cdm",
+      "height": 21,
+      "length": 10.4,
+      "width": 10.4,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "lu": {
+      "brutto_weight": 961.344,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 931.2,
+      "brutto_volume_unit_code": "cdm",
+      "height": 78,
+      "length": 120,
+      "width": 80,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 384
+    }
+  },
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "price": {
+    "valid_from": "2023-01-02T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 1.5,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "2.3kg"
+    },
+    "base": {
+      "price": 0.07,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "features": [
+    {
+      "label_code": "miso_haustierart",
+      "label": "Type of pet",
+      "values": [
+        {
+          "value_code": "MISO_haustierart_vogel",
+          "value": "Vogel"
+        }
+      ],
+      "category_code": "MISO_CLA_HaustierbedarfHaustiernahrung_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "miso_artdeszubehoers",
+      "label": "Type of accessory",
+      "values": [
+        {
+          "value_code": "MISO_artdeszubehoers_vogelsand",
+          "value": "Vogelsand"
+        }
+      ],
+      "category_code": "MISO_CLA_Haustierzubehoer_Haustierbedarf_HaustierbedarfHaustiernahrung_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/77bf83c15d58f79a999d29ba54470524adf97e70/vogelsand.jpg",
+    "stack": "https://image.migros.ch/{stack}/77bf83c15d58f79a999d29ba54470524adf97e70/vogelsand.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/0030f453d51f07ea27e09a5027491f874e7f3c33/vogelsand.png",
+    "stack": "https://image.migros.ch/{stack}/0030f453d51f07ea27e09a5027491f874e7f3c33/vogelsand.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "miso_amigos_anzeige",
+      "label": "Display aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "ja"
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "miso_amigos_sortierung",
+      "label": "aMigos sorting",
+      "values": [
+        {
+          "value": "150"
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "MAPI_RETURNABLE",
+      "label": "Return",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "true",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MAPI_RETURNABLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_EXCLUDE_FROM_COMPARISON_ENGINES",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "false",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_EXCLUDE_FROM_COMPARISON_ENGINES",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Standard item"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "HAWA"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "11818",
+          "value": "HAUSVOGELFUTTER"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LIFECYCLE",
+      "values": [
+        {
+          "value_code": "D",
+          "value": "Detailhandelsartikel"
+        }
+      ],
+      "category_code": "MAPI_LIFECYCLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_EXPORTABLE",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_EXPORTABLE",
+      "top_fact": false
+    }
+  ],
+  "declarations": {
+    "declaration_number": "8822574407118",
+    "tags": [
+      "source-pim"
+    ],
+    "product_name": "M-Classic Vogelsand",
+    "valid_from": "2019-07-25T07:39:46+0200",
+    "product_details": {
+      "regulated_description": "Sand für Vögel"
+    },
+    "general_information": [
+      {
+        "label": "Obligatorische Zusatzangaben",
+        "values": [
+          "Adresse Migros /Kontaktangaben für Endverbraucheranfragen (M-Infoline) / Produit aux Pays-Bas par: NL 09172"
+        ]
+      },
+      {
+        "label": "Aufbewarungs- und Verpackungshinweise",
+        "values": [
+          "-"
+        ]
+      },
+      {
+        "label": "Haltbarkeit",
+        "values": [
+          "Mindestens haltbar bis:"
+        ]
+      }
+    ],
+    "ingredients_information": {
+      "ingredients_text": "Weisser Sand 90 %, Muschel- und Austernschalen 10 %, Anisöl 0.03 %."
+    },
+    "nutrition_facts": {
+      "reference_sizes": {
+        "standard": {
+          "base": {
+            "description": "Analytische Bestandteile"
+          },
+          "nutrients": [
+            {
+              "code": "NUT_SODIUM",
+              "name": "Sodium",
+              "operator": "=",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0.04 %",
+                "numeric_value": 0.04,
+                "unit": "%"
+              }
+            },
+            {
+              "code": "NUT_CALCIUM",
+              "name": "Calcium",
+              "operator": "=",
+              "category": "MINERALSTOFFE_SPURENELEMENTE",
+              "quantity": {
+                "value": "3.6 %",
+                "numeric_value": 3.6,
+                "unit": "%"
+              }
+            },
+            {
+              "code": "NUT_PHOSPHORUS",
+              "name": "Phosphor",
+              "operator": "=",
+              "category": "MINERALSTOFFE_SPURENELEMENTE",
+              "quantity": {
+                "value": "0.004 %",
+                "numeric_value": 0.004,
+                "unit": "%"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "recipe_ingredient_ids": [
+    "10000"
+  ],
+  "regional_availability": {
+    "gmaa": {
+      "probability": 96
+    },
+    "gmbs": {
+      "probability": 100
+    },
+    "gmge": {
+      "probability": 45
+    },
+    "gmlu": {
+      "probability": 78
+    },
+    "gmnf": {
+      "probability": 92
+    },
+    "gmos": {
+      "probability": 97
+    },
+    "gmti": {
+      "probability": 68
+    },
+    "gmvd": {
+      "probability": 75
+    },
+    "gmvs": {
+      "probability": 74
+    },
+    "gmzh": {
+      "probability": 88
+    }
+  },
+  "ratings": {
+    "count_all": 21,
+    "average_all": 4.823529411765
+  },
+  "related_products": {
+    "purchase_recommendations": {
+      "product_ids": [
+        "109115300000",
+        "109111100000",
+        "109138500000",
+        "109112100000",
+        "109114000000"
+      ]
+    }
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "updated_at": "2023-08-17T11:47:53+0200",
+  "sap_created_at": "2001-10-05T00:00:00+0200",
+  "base_unit": "CU",
+  "origins": {
+    "producing_country": "-"
+  },
+  "views": [
+    "all",
+    "browse",
+    "browseallretailers"
+  ]
+}

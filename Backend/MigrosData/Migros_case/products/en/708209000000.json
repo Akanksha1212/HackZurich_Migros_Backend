@@ -1,0 +1,618 @@
+{
+  "id": "708209000000",
+  "language": "en",
+  "name": "NYLONFLICK",
+  "names": {
+    "short_name": "NYLONFLICK"
+  },
+  "slug": "nylonflick",
+  "slugs": {
+    "de": "nylonflick-12x20cm",
+    "fr": "nylonflick",
+    "it": "nylonflick",
+    "en": "nylonflick"
+  },
+  "type": "01",
+  "boss_number": "150632273005",
+  "data_source": "SAP-X12",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03",
+    "distribution_center": [
+      {
+        "center_id": "1001",
+        "center_name": "Migros Verteilzentrum Neuendorf",
+        "status_code": "03",
+        "status_description": "active"
+      }
+    ]
+  },
+  "tags": [
+    "source-pex",
+    "near-non-food",
+    "migipedia",
+    "base-product",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarket"
+  },
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "categories": [
+    {
+      "code": "BeSS_01042405",
+      "name": "Aufbügelstoffe & Motive & Applikationen",
+      "slug": "supermarkt/haushalt-reinigung/naehzubehoer/aufbuegelstoffe-motive-applikationen",
+      "visible": true,
+      "parent_code": "BeSS_010424",
+      "level": 4
+    },
+    {
+      "code": "BeSS_010424",
+      "name": "Nähzubehör",
+      "slug": "supermarkt/haushalt-reinigung/naehzubehoer",
+      "visible": true,
+      "parent_code": "BeSS_0104",
+      "level": 3
+    },
+    {
+      "code": "BeSS_0104",
+      "name": "Haushalt & Reinigung",
+      "slug": "supermarkt/haushalt-reinigung",
+      "visible": true,
+      "title": "Reinigung mit der Migros – Reiniger für Haushalt und Garten",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png",
+        "stack": "https://image.migros.ch/{stack}/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "online_relevant": [
+    {
+      "code": "MGB",
+      "name": "Migros Genossenschafts-Bund"
+    }
+  ],
+  "links": {
+    "migros_ch": {
+      "url": "https://www.migros.ch/en/product/708209000000?context=instore",
+      "name": "In-store assortment",
+      "canonical": "https://www.migros.ch/en/product/708209000000?context=instore",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/708209000000",
+      "name": "Migipedia",
+      "canonical": "https://www.migros.ch/en/product/708209000000?context=instore",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "receipt_text": "Nylonflick",
+  "package": {
+    "content": 1,
+    "content_unit_code": "st",
+    "content_unit": "Stück",
+    "net_weight": 0.014,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "brutto_weight": 0.014,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 66.36,
+    "brutto_volume_unit_code": "ccm",
+    "height": 15.8,
+    "length": 0.4,
+    "width": 10.5,
+    "unit_dimension": "cm",
+    "price_comparison_content": 1,
+    "size": "1 Stk."
+  },
+  "package_information": {
+    "cu": {
+      "brutto_weight": 0.014,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 66.36,
+      "brutto_volume_unit_code": "ccm",
+      "height": 15.8,
+      "length": 0.4,
+      "width": 10.5,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "tuv": {
+      "brutto_weight": 0.07,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.332,
+      "brutto_volume_unit_code": "cdm",
+      "height": 15.8,
+      "length": 2,
+      "width": 10.5,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 5
+    },
+    "tue": {
+      "brutto_weight": 0.07,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.332,
+      "brutto_volume_unit_code": "cdm",
+      "height": 15.8,
+      "length": 2,
+      "width": 10.5,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 5
+    },
+    "lu": {
+      "number_of_base_units": 350
+    }
+  },
+  "vat": {
+    "id": 1,
+    "percentage": 7.7
+  },
+  "price": {
+    "valid_from": "2021-01-06T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 3.95,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "1 Stk."
+    },
+    "base": {
+      "price": 3.95,
+      "quantity": 1,
+      "unit": "st"
+    }
+  },
+  "features": [
+    {
+      "label_code": "miso_anwendungsbereich",
+      "label": "Area of application",
+      "values": [
+        {
+          "value_code": "MISO_flicken",
+          "value": "Flicken"
+        }
+      ],
+      "category_code": "MISO_CLA_Mercerie_Verbrauch_Haushalt_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "miso_anzahl",
+      "label": "Number",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1 Stk.",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MISO_CLA_Mercerie_Verbrauch_Haushalt_Alle",
+      "top_fact": false,
+      "unit_code": "Stk.",
+      "unit": "Stück",
+      "unit_symbol": "Stk.",
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "miso_masse_groesse",
+      "label": "Dimensions/size",
+      "values": [
+        {
+          "value": "12 x 20cm"
+        }
+      ],
+      "category_code": "MISO_CLA_Mercerie_Verbrauch_Haushalt_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "miso_material",
+      "label": "Material",
+      "values": [
+        {
+          "value_code": "MISO_material_nylon",
+          "value": "Nylon"
+        }
+      ],
+      "category_code": "MISO_CLA_Mercerie_Verbrauch_Haushalt_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "miso_farbe",
+      "label": "Color",
+      "values": [
+        {
+          "value_code": "MISO_farbe_schwarz",
+          "value": "schwarz"
+        },
+        {
+          "value_code": "MISO_farbe_marine",
+          "value": "marine"
+        },
+        {
+          "value_code": "MISO_farbe_ecru",
+          "value": "ecru"
+        }
+      ],
+      "category_code": "MISO_CLA_Mercerie_Verbrauch_Haushalt_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "miso_waschhinweis",
+      "label": "Washing instructions",
+      "values": [
+        {
+          "image": {
+            "code": "MISO_30grad",
+            "description": "30°",
+            "original": "https://image.migros.ch/original/6eb0d0a281c700d9caf6313b46c280f235f99632/30.jpg",
+            "stack": "https://image.migros.ch/{stack}/6eb0d0a281c700d9caf6313b46c280f235f99632/30.jpg"
+          },
+          "value_code": "MISO_30grad",
+          "value": "30°"
+        },
+        {
+          "image": {
+            "code": "MISO_bleichen_nicht_erlaubt",
+            "description": "Bleichen nicht erlaubt",
+            "original": "https://image.migros.ch/original/fa26e68fc80b2538297c670585b4608ab8d061a5/bleichen-nicht-erlaubt.jpg",
+            "stack": "https://image.migros.ch/{stack}/fa26e68fc80b2538297c670585b4608ab8d061a5/bleichen-nicht-erlaubt.jpg"
+          },
+          "value_code": "MISO_bleichen_nicht_erlaubt",
+          "value": "Bleichen nicht erlaubt"
+        },
+        {
+          "image": {
+            "code": "MISO_buegeln_lauwarm",
+            "description": "Bügeln lauwarm",
+            "original": "https://image.migros.ch/original/d82ec6502a492d2ae176e14255a1dba4f543d860/buegeln-lauwarm.jpg",
+            "stack": "https://image.migros.ch/{stack}/d82ec6502a492d2ae176e14255a1dba4f543d860/buegeln-lauwarm.jpg"
+          },
+          "value_code": "MISO_buegeln_lauwarm",
+          "value": "Bügeln lauwarm"
+        },
+        {
+          "image": {
+            "code": "MISO_trockner_nicht_geeignet",
+            "description": "Trockner nicht geeignet",
+            "original": "https://image.migros.ch/original/2136218b4056ce5b7ec27b01860a675015472990/trockner-nicht-geeignet.jpg",
+            "stack": "https://image.migros.ch/{stack}/2136218b4056ce5b7ec27b01860a675015472990/trockner-nicht-geeignet.jpg"
+          },
+          "value_code": "MISO_trockner_nicht_geeignet",
+          "value": "Trockner nicht geeignet"
+        }
+      ],
+      "category_code": "MISO_CLA_Mercerie_Verbrauch_Haushalt_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/c757149a5cd0156945f576c1e34460c97e5d95ad/nylonflick.jpg",
+    "stack": "https://image.migros.ch/{stack}/c757149a5cd0156945f576c1e34460c97e5d95ad/nylonflick.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/0a58df7616af81da93dd2101be4d79cc15310e39/nylonflick.png",
+    "stack": "https://image.migros.ch/{stack}/0a58df7616af81da93dd2101be4d79cc15310e39/nylonflick.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+      "values": [
+        {
+          "value_code": "55",
+          "value": "Versandart Paket"
+        }
+      ],
+      "category_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LOGISTIC_CLASS",
+      "values": [
+        {
+          "value_code": "7",
+          "value": "VMI"
+        }
+      ],
+      "category_code": "MAPI_LOGISTIC_CLASS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Standard item"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "HART"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUSTOMS_POSITION",
+      "values": [
+        {
+          "value": "59039091000"
+        }
+      ],
+      "category_code": "MAPI_CUSTOMS_POSITION",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RISK_CLASS",
+      "values": [
+        {
+          "value_code": "3",
+          "value": "3 (low)"
+        }
+      ],
+      "category_code": "MAPI_RISK_CLASS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_KUBE_TUKA",
+      "values": [
+        {
+          "value_code": "BLANK",
+          "value": "KUBE und TUKA nicht zugelassen"
+        }
+      ],
+      "category_code": "MAPI_KUBE_TUKA",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HART",
+          "value": "Hartwaren Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "H",
+          "value": "Hartwaren"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "60958",
+          "value": "PATCHES/STICKER"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Yes",
+          "boolean_value": true
+        },
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_EXPORTABLE",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Yes",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MAPI_EXPORTABLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "miso_amigos_anzeige",
+      "label": "Display aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "ja"
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "miso_amigos_sortierung",
+      "label": "aMigos sorting",
+      "values": [
+        {
+          "value": "270"
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    }
+  ],
+  "recipe_ingredient_ids": [
+    "10000"
+  ],
+  "regional_availability": {
+    "gmaa": {
+      "probability": 0
+    },
+    "gmbs": {
+      "probability": 0
+    },
+    "gmge": {
+      "probability": 0
+    },
+    "gmlu": {
+      "probability": 0
+    },
+    "gmnf": {
+      "probability": 0
+    },
+    "gmos": {
+      "probability": 0
+    },
+    "gmti": {
+      "probability": 0
+    },
+    "gmvd": {
+      "probability": 0
+    },
+    "gmvs": {
+      "probability": 0
+    },
+    "gmzh": {
+      "probability": 0
+    }
+  },
+  "ratings": {
+    "count_all": 11,
+    "average_all": 4.545454545455
+  },
+  "quantity_on_stock": 0,
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "updated_at": "2023-08-17T07:45:10+0200",
+  "sap_created_at": "2009-05-18T00:00:00+0200",
+  "base_unit": "CU",
+  "origins": {
+    "producing_country": "China"
+  },
+  "views": [
+    "all",
+    "browse",
+    "browseallretailers"
+  ]
+}

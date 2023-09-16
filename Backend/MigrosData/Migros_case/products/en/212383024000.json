@@ -1,0 +1,875 @@
+{
+  "id": "212383024000",
+  "language": "en",
+  "name": "Da Emilio Pecorino Romano",
+  "names": {
+    "short_name": "Da Emilio Pecorino Romano"
+  },
+  "slug": "da-emilio-pecorino-romano",
+  "slugs": {
+    "de": "da-emilio-pecorino-romano",
+    "fr": "da-emilio-pecorino-romano",
+    "it": "da-emilio-pecorino-romano",
+    "en": "da-emilio-pecorino-romano"
+  },
+  "type": "00",
+  "boss_number": "030413472005",
+  "data_source": "SAP-X11",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "80"
+  },
+  "tags": [
+    "source-p4m",
+    "migipedia",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "2135504000008",
+    "7617067001975"
+  ],
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarket"
+  },
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "brand": {
+    "id": "BV1",
+    "name": "Da Emilio",
+    "slug": "da-emilio"
+  },
+  "categories": [
+    {
+      "code": "BeSS_0101040101",
+      "name": "Hartkäse & Halbhartkäse",
+      "slug": "supermarkt/lebensmittel/milchprodukte-eier/kaese/hartkaese-halbhartkaese",
+      "visible": true,
+      "title": "Halbhartkäse und Hartkäse in Ihrer Migros kaufen",
+      "parent_code": "BeSS_01010401",
+      "image": {
+        "original": "https://image.migros.ch/original/4bb375b7e6a3788c2579addca57ad4f59d8bd741/hartkaese-halbhartkaese.jpg",
+        "stack": "https://image.migros.ch/{stack}/4bb375b7e6a3788c2579addca57ad4f59d8bd741/hartkaese-halbhartkaese.jpg"
+      },
+      "level": 5
+    },
+    {
+      "code": "BeSS_01010401",
+      "name": "Käse",
+      "slug": "supermarkt/lebensmittel/milchprodukte-eier/kaese",
+      "visible": true,
+      "title": "Käse von Ihrer Migros &ndash; macht Appetit auf mehr",
+      "parent_code": "BeSS_010104",
+      "image": {
+        "original": "https://image.migros.ch/original/646fe55be4ff2b665a94cc87a29c69d00106a19e/kaese.jpg",
+        "stack": "https://image.migros.ch/{stack}/646fe55be4ff2b665a94cc87a29c69d00106a19e/kaese.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010104",
+      "name": "Milchprodukte & Eier",
+      "slug": "supermarkt/lebensmittel/milchprodukte-eier",
+      "visible": true,
+      "title": "Milchprodukte und Eier –",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/6b1ea6c2d41c3ccb21bf05c8dc342f7f55d83deb/milchprodukte-eier.jpg",
+        "stack": "https://image.migros.ch/{stack}/6b1ea6c2d41c3ccb21bf05c8dc342f7f55d83deb/milchprodukte-eier.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/31702195ec9d38aecefe80349eb347f79d56c750/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/31702195ec9d38aecefe80349eb347f79d56c750/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "online_relevant": [
+    {
+      "code": "MGB",
+      "name": "Migros Genossenschafts-Bund"
+    }
+  ],
+  "links": {
+    "migros_ch": {
+      "url": "https://www.migros.ch/en/product/212383024000?context=instore",
+      "name": "In-store assortment",
+      "canonical": "https://www.migros.ch/en/product/212383024000?context=instore",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/212383024000",
+      "name": "Migipedia",
+      "canonical": "https://www.migros.ch/en/product/212383024000?context=instore",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "has_safety_sheet": false,
+  "m_check2": {},
+  "receipt_text": "Emilio Pecorino Romano",
+  "package": {
+    "content": 1000,
+    "content_unit_code": "g",
+    "content_unit": "Gram",
+    "net_weight": 1,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogram",
+    "type": "Package",
+    "portions_per_package": "5",
+    "precision": "exact",
+    "brutto_weight": 1,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 0.408,
+    "brutto_volume_unit_code": "cdm",
+    "height": 14,
+    "length": 5.4,
+    "width": 5.4,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "average_min": 0.2,
+    "average_min_unit_code": "kg",
+    "average_max": 0.3,
+    "average_max_unit_code": "kg"
+  },
+  "package_information": {
+    "tu": {
+      "gtins": [
+        "7617068000557"
+      ],
+      "brutto_weight": 1,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 15.96,
+      "brutto_volume_unit_code": "cdm",
+      "height": 13.3,
+      "length": 40,
+      "width": 30,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "kg": {
+      "gtins": [
+        "2135504000008",
+        "7617067001975"
+      ],
+      "brutto_weight": 1,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.408,
+      "brutto_volume_unit_code": "cdm",
+      "height": 14,
+      "length": 5.4,
+      "width": 5.4,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    }
+  },
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "price": {
+    "valid_from": "2023-08-15T00:00:00+0200",
+    "valid_to": "2023-10-30T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 2.8,
+      "quantity": 100,
+      "unit": "g",
+      "varying_quantity": true,
+      "display_quantity": "100 g"
+    },
+    "estimated_piece_weight": 250,
+    "estimated_piece_price": 7,
+    "base": {
+      "price": 2.8,
+      "quantity": 100,
+      "unit": "G"
+    }
+  },
+  "image": {
+    "original": "https://image.migros.ch/original/2884e2b64978099dab92dd488425c6a9a9458a47/da-emilio-pecorino-romano.jpg",
+    "stack": "https://image.migros.ch/{stack}/2884e2b64978099dab92dd488425c6a9a9458a47/da-emilio-pecorino-romano.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/8717051277eee8abf48bc9e9664bda5e504bfa4d/da-emilio-pecorino-romano.png",
+    "stack": "https://image.migros.ch/{stack}/8717051277eee8abf48bc9e9664bda5e504bfa4d/da-emilio-pecorino-romano.png"
+  },
+  "additional_images": [
+    {
+      "original": "https://image.migros.ch/original/7b633417f1f15d1f9d9bdec8c6ac767511a8ec3c.jpg",
+      "stack": "https://image.migros.ch/{stack}/7b633417f1f15d1f9d9bdec8c6ac767511a8ec3c.jpg"
+    }
+  ],
+  "internal_features": [
+    {
+      "label_code": "MAPI_EXPORTABLE",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_EXPORTABLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Normalposition"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZFRP",
+          "value": "Frische Beschaffung"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "ZFRP"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "70453",
+          "value": "SCHNITTKAESE AUSLAND"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "1",
+          "value": "Molki"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LIFECYCLE",
+      "values": [
+        {
+          "value_code": "D",
+          "value": "Detailhandelsartikel"
+        }
+      ],
+      "category_code": "MAPI_LIFECYCLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUSTOMS_POSITION",
+      "values": [
+        {
+          "value": "0406.9039"
+        }
+      ],
+      "category_code": "MAPI_CUSTOMS_POSITION",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_STORAGE_CONDITIONS",
+      "values": [
+        {
+          "value_code": "02",
+          "value": "gekühlt"
+        }
+      ],
+      "category_code": "MAPI_STORAGE_CONDITIONS",
+      "top_fact": false
+    },
+    {
+      "label_code": "acxMISOamigosmaximalgewicht",
+      "label": "Maximal-Gewicht",
+      "values": [
+        {
+          "value_code": "NUMERIC_250",
+          "value": "250",
+          "numeric_value": 250
+        }
+      ],
+      "category_code": "ecxMISOCLAkaesemilchbutterrahmkaeseeierersatzproduktelebensmittelgetraenkealle",
+      "top_fact": false,
+      "unit_code": "450a3d52-a066-4786-9744-4a7daa8339f7",
+      "unit": "g",
+      "unit_symbol": "g"
+    },
+    {
+      "label_code": "acxMISOamigosminimalgewicht",
+      "label": "Minimal-Gewicht",
+      "values": [
+        {
+          "value_code": "NUMERIC_250",
+          "value": "250",
+          "numeric_value": 250
+        }
+      ],
+      "category_code": "ecxMISOCLAkaesemilchbutterrahmkaeseeierersatzproduktelebensmittelgetraenkealle",
+      "top_fact": false,
+      "unit_code": "450a3d52-a066-4786-9744-4a7daa8339f7",
+      "unit": "g",
+      "unit_symbol": "g"
+    },
+    {
+      "label_code": "acxCommonarticlecocompensated",
+      "label": "Artikel Co2 kompensiert",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false
+    },
+    {
+      "label_code": "acxCommonmesswertcompensation",
+      "label": "CO2-Wert Kompensation",
+      "values": [
+        {
+          "value_code": "NUMERIC_9.12",
+          "value": "9.12",
+          "numeric_value": 9.12
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false,
+      "unit_code": "5d71456e-a520-4294-9ddb-add78f63ce83",
+      "unit": "Equivalence per kilogram",
+      "unit_symbol": "eq / kg"
+    },
+    {
+      "label_code": "acxCommonoutputmcheckclimatedeclaration",
+      "label": "Auslobung M-Check Klimadeklaration",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false
+    }
+  ],
+  "declarations": {
+    "declaration_number": "Q_2121841432618304",
+    "tags": [
+      "source-qim"
+    ],
+    "gtins": [
+      "2135504000008"
+    ],
+    "valid_from": "2022-05-30T00:00:00+0200",
+    "product_details": {
+      "package": {
+        "type": "Package",
+        "number_of_portions": "5",
+        "number_of_portions_operator": "="
+      },
+      "net_filled_quantity": {
+        "value": "1000 g",
+        "numeric_value": 1000,
+        "unit": "g"
+      }
+    },
+    "general_information": [
+      {
+        "label": "Cooling information/storage information",
+        "values": [
+          "Store refrigerated at max. 5 °C."
+        ]
+      }
+    ],
+    "ingredients_information": {
+      "allergens_information": {
+        "allergens": [
+          {
+            "code": "ALLG_MILCH",
+            "label": "Milk and products thereof",
+            "contamination_code": "VORHANDEN",
+            "contamination_label": "contains"
+          }
+        ]
+      }
+    },
+    "nutrition_facts": {
+      "reference_sizes": {
+        "standard": {
+          "base": {
+            "quantity": {
+              "value": "100 g",
+              "numeric_value": 100,
+              "unit": "g"
+            }
+          },
+          "nutrients": [
+            {
+              "code": "NUT_ENERGY",
+              "name": "Energy",
+              "operator": "=",
+              "pictogram_name": "Energy",
+              "category": "BIG9",
+              "quantity": {
+                "value": "1717 kJ",
+                "numeric_value": 1717,
+                "unit": "kJ",
+                "alternate": {
+                  "value": "414 kcal",
+                  "numeric_value": 414,
+                  "unit": "kcal"
+                }
+              },
+              "rda": {
+                "percent": 21,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_FAT",
+              "name": "Fat",
+              "operator": "=",
+              "pictogram_name": "Fat",
+              "category": "BIG9",
+              "quantity": {
+                "value": "34 g",
+                "numeric_value": 34,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 49,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_SATURATED_FATTY_ACIDS",
+              "name": "of which saturates",
+              "operator": "=",
+              "pictogram_name": "saturated fatty acids",
+              "category": "BIG9",
+              "quantity": {
+                "value": "20 g",
+                "numeric_value": 20,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 100,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_CARBOHYDRATES",
+              "name": "Carbohydrate",
+              "operator": "=",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0 g",
+                "numeric_value": 0,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 0,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_SUGAR",
+              "name": "of which sugars",
+              "operator": "=",
+              "pictogram_name": "Sugar",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0 g",
+                "numeric_value": 0,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 0,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_FIBER",
+              "name": "Fibre",
+              "operator": "=",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0 g",
+                "numeric_value": 0,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_PROTEIN",
+              "name": "Protein",
+              "operator": "=",
+              "category": "BIG9",
+              "quantity": {
+                "value": "27 g",
+                "numeric_value": 27,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 54,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_SALT",
+              "name": "Salt",
+              "operator": "=",
+              "pictogram_name": "Salt",
+              "category": "BIG9",
+              "quantity": {
+                "value": "4.5 g",
+                "numeric_value": 4.5,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 75,
+                "operator": "="
+              }
+            }
+          ]
+        },
+        "portion": {
+          "base": {
+            "quantity": {
+              "value": "30 g",
+              "numeric_value": 30,
+              "unit": "g"
+            }
+          },
+          "nutrients": [
+            {
+              "code": "NUT_ENERGY",
+              "name": "Energy",
+              "operator": "=",
+              "pictogram_name": "Energy",
+              "category": "BIG9",
+              "quantity": {
+                "value": "508 kJ",
+                "numeric_value": 508,
+                "unit": "kJ",
+                "alternate": {
+                  "value": "122 kcal",
+                  "numeric_value": 122,
+                  "unit": "kcal"
+                }
+              },
+              "rda": {
+                "percent": 6,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_FAT",
+              "name": "Fat",
+              "operator": "=",
+              "pictogram_name": "Fat",
+              "category": "BIG9",
+              "quantity": {
+                "value": "10 g",
+                "numeric_value": 10,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 14,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_SATURATED_FATTY_ACIDS",
+              "name": "of which saturates",
+              "operator": "=",
+              "pictogram_name": "saturated fatty acids",
+              "category": "BIG9",
+              "quantity": {
+                "value": "6.0 g",
+                "numeric_value": 6,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 30,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_CARBOHYDRATES",
+              "name": "Carbohydrate",
+              "operator": "=",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0 g",
+                "numeric_value": 0,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 0,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_SUGAR",
+              "name": "of which sugars",
+              "operator": "=",
+              "pictogram_name": "Sugar",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0 g",
+                "numeric_value": 0,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 0,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_FIBER",
+              "name": "Fibre",
+              "operator": "=",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0 g",
+                "numeric_value": 0,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_PROTEIN",
+              "name": "Protein",
+              "operator": "=",
+              "category": "BIG9",
+              "quantity": {
+                "value": "8.1 g",
+                "numeric_value": 8.1,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 16,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_SALT",
+              "name": "Salt",
+              "operator": "=",
+              "pictogram_name": "Salt",
+              "category": "BIG9",
+              "quantity": {
+                "value": "1.4 g",
+                "numeric_value": 1.4,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 23,
+                "operator": "="
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "recipe_ingredient_ids": [
+    "16896",
+    "16972",
+    "19353",
+    "19481717",
+    "71233"
+  ],
+  "regional_availability": {
+    "gmaa": {
+      "probability": 11
+    },
+    "gmbs": {
+      "probability": 0
+    },
+    "gmge": {
+      "probability": 24
+    },
+    "gmlu": {
+      "probability": 7
+    },
+    "gmnf": {
+      "probability": 12
+    },
+    "gmos": {
+      "probability": 5
+    },
+    "gmti": {
+      "probability": 39
+    },
+    "gmvd": {
+      "probability": 16
+    },
+    "gmvs": {
+      "probability": 11
+    },
+    "gmzh": {
+      "probability": 18
+    }
+  },
+  "ratings": {
+    "count_all": 13,
+    "average_all": 4.076923076923
+  },
+  "related_products": {
+    "purchase_recommendations": {
+      "product_ids": [
+        "212396024000",
+        "212392400000",
+        "212383124000",
+        "212397726000",
+        "212385126000"
+      ]
+    }
+  },
+  "reindex_date": "2023-10-30T23:59:59+0100",
+  "updated_at": "2023-08-17T07:24:46+0200",
+  "sap_created_at": "2005-08-26T19:00:00+0200",
+  "online_shop_relevant": false,
+  "base_unit": "KG",
+  "co2_compensation": {
+    "kg_co2": 9.12,
+    "kg_co2_compensation": 9.12,
+    "is_compensated": false,
+    "mcheck_enabled": false
+  },
+  "origins": {},
+  "views": [
+    "all",
+    "browse",
+    "browseallretailers"
+  ]
+}

@@ -1,0 +1,615 @@
+{
+  "id": "111477700200",
+  "language": "en",
+  "name": "Krustenkranz",
+  "names": {
+    "short_name": "Krustenkranz"
+  },
+  "slug": "krustenkranz",
+  "slugs": {
+    "de": "krustenkranz",
+    "fr": "couronne-crustillante",
+    "it": "corona-croccante",
+    "en": "krustenkranz"
+  },
+  "type": "00",
+  "boss_number": "020110563105",
+  "description": {
+    "text": "<p><strong>Aus der Region - Krustenkranz dunkel</strong></p><p>Dieses Brot ist aus dunklem Mehl (= mittlerer Ausmahlungsgrad) aus der Region hergestellt.</p><p>Die Natur nimmt sich ihre Zeit. Getreidek&ouml;rner gedeihen und reifen im Sonnenlicht, Teige ruhen und entwickeln nat&uuml;rliche Aromen. Auch unsere B&auml;cker nehmen sich Zeit, wenn sie jedes Brot von Hand formen und im Ofen knusprig backen. Probeiren Sie es selbst – ofenfrisch, duftend und mit Mehl aus der Region hergestellt. Zertifizierung: ProCert</p><p>Mit dem Programm «Aus der Region. F&uuml;r die Region.» unterst&uuml;tzen wir die regionale Landwirtschaft und bringen f&uuml;r Sie regionale Produkte in die Regale. So w&auml;chst das Getreide, das wir f&uuml;r dieses Brot verwenden, ausschliesslich in der Region der Migros Ostschweiz. Denn das Gute liegt so nah.</p><p>Ofenfrisch: Im Laden gebacken</p><p> </p>",
+    "source": "P4M"
+  },
+  "data_source": "SAP-X11",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "80"
+  },
+  "tags": [
+    "source-p4m",
+    "migipedia",
+    "filter-aus-der-region",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613269913290"
+  ],
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarket"
+  },
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "brand": {
+    "id": "EF9",
+    "name": "In-store bakery",
+    "slug": "in-store-bakery"
+  },
+  "labels": [
+    {
+      "id": "L28",
+      "name": "Aus der Region. Für die Region.",
+      "slug": "aus-der-region-fuer-die-region",
+      "links": {
+        "homepage": {
+          "url": "https://aus-der-region.migros.ch/aus-der-region/de.html",
+          "name": "Homepage",
+          "type": "info",
+          "purchasable": false
+        }
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_0101030102",
+      "name": "Brote dunkel und Vollkorn",
+      "slug": "supermarkt/lebensmittel/baeckerei-confiserie-backen/brote/brote-dunkel-und-vollkorn",
+      "visible": true,
+      "parent_code": "BeSS_01010301",
+      "image": {
+        "original": "https://image.migros.ch/original/4191c13f02f74f09f7cb3042d1c52df08062d223/brote-dunkel-und-vollkorn.jpg",
+        "stack": "https://image.migros.ch/{stack}/4191c13f02f74f09f7cb3042d1c52df08062d223/brote-dunkel-und-vollkorn.jpg"
+      },
+      "level": 5
+    },
+    {
+      "code": "BeSS_01010301",
+      "name": "Brote",
+      "slug": "supermarkt/lebensmittel/baeckerei-confiserie-backen/brote",
+      "visible": true,
+      "title": "Frisch gebackenes Brot in Ihrer Migros kaufen",
+      "parent_code": "BeSS_010103",
+      "image": {
+        "original": "https://image.migros.ch/original/8f44af43c49f51b8602eb3e0756212f77113e795/brote.jpg",
+        "stack": "https://image.migros.ch/{stack}/8f44af43c49f51b8602eb3e0756212f77113e795/brote.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010103",
+      "name": "Bäckerei, Confiserie & Backen",
+      "slug": "supermarkt/lebensmittel/baeckerei-confiserie-backen",
+      "visible": true,
+      "title": "Backen macht Freude! Alle Zutaten finden Sie in Ihrer Migros",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/04b41cd6f4daedf3061a2a37617d48e992760b35/baeckerei-confiserie-backen.jpg",
+        "stack": "https://image.migros.ch/{stack}/04b41cd6f4daedf3061a2a37617d48e992760b35/baeckerei-confiserie-backen.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/31702195ec9d38aecefe80349eb347f79d56c750/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/31702195ec9d38aecefe80349eb347f79d56c750/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "online_relevant": [
+    {
+      "code": "MGB",
+      "name": "Migros Genossenschafts-Bund"
+    }
+  ],
+  "links": {
+    "migros_ch": {
+      "url": "https://www.migros.ch/en/product/111477700200?context=instore",
+      "name": "In-store assortment",
+      "canonical": "https://www.migros.ch/en/product/111477700200?context=instore",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/111477700200",
+      "name": "Migipedia",
+      "canonical": "https://www.migros.ch/en/product/111477700200?context=instore",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "has_safety_sheet": false,
+  "m_check2": {
+    "carbon_footprint": {
+      "image": {
+        "original": "https://image.migros.ch/original/3cb33aa7d90d7331f458860ae78688a0923b5993.svg",
+        "stack": "https://image.migros.ch/{stack}/3cb33aa7d90d7331f458860ae78688a0923b5993.svg"
+      },
+      "ground_and_sea_cargo": {
+        "kg_co2": 0.922,
+        "kg_co2_range": "0 - 0.9 kg CO₂eq / kg",
+        "co2_in_car_km": 5,
+        "rating": 5,
+        "production_in_percent": 80,
+        "packaging_in_percent": 19,
+        "transport_in_percent": 1
+      }
+    }
+  },
+  "receipt_text": "Krustenkranz",
+  "package": {
+    "content": 350,
+    "content_unit_code": "g",
+    "content_unit": "Gram",
+    "net_weight": 0.35,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogram",
+    "type": "CU",
+    "portions_per_package": "1",
+    "brutto_weight": 0.35,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 2.904,
+    "brutto_volume_unit_code": "cdm",
+    "height": 22,
+    "length": 6,
+    "width": 22,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "350g"
+  },
+  "package_information": {
+    "tu": {
+      "gtins": [
+        "7613269913405"
+      ],
+      "brutto_weight": 1.4,
+      "brutto_weight_unit_code": "kg",
+      "number_of_base_units": 4
+    },
+    "cu": {
+      "gtins": [
+        "7613269913290"
+      ],
+      "brutto_weight": 0.35,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 2.904,
+      "brutto_volume_unit_code": "cdm",
+      "height": 22,
+      "length": 6,
+      "width": 22,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    }
+  },
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "price": {
+    "valid_from": "2022-12-28T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 3.25,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "350g"
+    },
+    "base": {
+      "price": 0.93,
+      "quantity": 100,
+      "unit": "G"
+    }
+  },
+  "features": [
+    {
+      "label_code": "acxMISOcugebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "erxMISOcugebindeartbrotbeutel",
+          "value": "Brotbeutel"
+        }
+      ],
+      "category_code": "ecxMISOCLAbrotbrotbackwarenlebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOartvonprodukt",
+      "label": "Art von Produkt",
+      "values": [
+        {
+          "value": "﻿Large bread fresh"
+        }
+      ],
+      "category_code": "ecxMISOCLAbrotbrotbackwarenlebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOproduktionsanspruch",
+      "label": "Produktionsverfahren",
+      "values": [
+        {
+          "value_code": "erxMISOproduktionsanspruchausderregion",
+          "value": "Aus der Region"
+        },
+        {
+          "value_code": "erxMISOproduktionsanspruchausdunklemmehl",
+          "value": "aus dunklem Mehl"
+        },
+        {
+          "value_code": "erxMISOproduktionsanspruchgebacken",
+          "value": "gebacken"
+        },
+        {
+          "value_code": "erxMISOproduktionsanspruchipsuissequalitaet",
+          "value": "IP-SUISSE-Qualität"
+        },
+        {
+          "value_code": "erxMISOproduktionsanspruchvonhandgefertigt",
+          "value": "Von Hand gefertigt"
+        }
+      ],
+      "category_code": "ecxMISOCLAbrotbrotbackwarenlebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOzubereitungsverfahren",
+      "label": "Hinweise für die Zubereitung",
+      "values": [
+        {
+          "value_code": "erxMISOzubereitungsverfahrenverzehrfertig",
+          "value": "verzehrfertig"
+        }
+      ],
+      "category_code": "ecxMISOCLAbrotbrotbackwarenlebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/f3f708e6cf00e7d53dd7d57d5ca90d9bc8871a80/krustenkranz.jpg",
+    "stack": "https://image.migros.ch/{stack}/f3f708e6cf00e7d53dd7d57d5ca90d9bc8871a80/krustenkranz.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/b498e84e29e76a83dea6f023e87024e42a4e4166/krustenkranz.png",
+    "stack": "https://image.migros.ch/{stack}/b498e84e29e76a83dea6f023e87024e42a4e4166/krustenkranz.png"
+  },
+  "additional_images": [
+    {
+      "original": "https://image.migros.ch/original/5ad3ca3304b4a95a97b48c59677645f77e7b596a.jpg",
+      "stack": "https://image.migros.ch/{stack}/5ad3ca3304b4a95a97b48c59677645f77e7b596a.jpg"
+    }
+  ],
+  "internal_features": [
+    {
+      "label_code": "MAPI_RETURNABLE",
+      "label": "Return",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "true",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MAPI_RETURNABLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_EXPORTABLE",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_EXPORTABLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Normalposition"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZFRP",
+          "value": "Frische Beschaffung"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "ZFRP"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "70357",
+          "value": "HB DARK / WHOLEMEAL"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "8_SAP_015",
+          "value": "8"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_KUBE_TUKA",
+      "values": [
+        {
+          "value_code": "BLANK",
+          "value": "KUBE und TUKA nicht zugelassen"
+        }
+      ],
+      "category_code": "MAPI_KUBE_TUKA",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LIFECYCLE",
+      "values": [
+        {
+          "value_code": "D",
+          "value": "Detailhandelsartikel"
+        }
+      ],
+      "category_code": "MAPI_LIFECYCLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_STORAGE_CONDITIONS",
+      "values": [
+        {
+          "value_code": "01",
+          "value": "normal"
+        }
+      ],
+      "category_code": "MAPI_STORAGE_CONDITIONS",
+      "top_fact": false
+    },
+    {
+      "label_code": "acxCommonarticlecocompensated",
+      "label": "Artikel Co2 kompensiert",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false
+    },
+    {
+      "label_code": "acxCommonmesswertcompensation",
+      "label": "CO2-Wert Kompensation",
+      "values": [
+        {
+          "value_code": "NUMERIC_0.922",
+          "value": "0.922",
+          "numeric_value": 0.922
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false,
+      "unit_code": "5d71456e-a520-4294-9ddb-add78f63ce83",
+      "unit": "Equivalence per kilogram",
+      "unit_symbol": "eq / kg"
+    },
+    {
+      "label_code": "acxCommonoutputmcheckclimatedeclaration",
+      "label": "Auslobung M-Check Klimadeklaration",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Yes",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false
+    }
+  ],
+  "recipe_ingredient_ids": [
+    "10000"
+  ],
+  "regional_availability": {
+    "gmaa": {
+      "probability": 0
+    },
+    "gmbs": {
+      "probability": 0
+    },
+    "gmge": {
+      "probability": 0
+    },
+    "gmlu": {
+      "probability": 0
+    },
+    "gmnf": {
+      "probability": 0
+    },
+    "gmos": {
+      "probability": 11
+    },
+    "gmti": {
+      "probability": 0
+    },
+    "gmvd": {
+      "probability": 0
+    },
+    "gmvs": {
+      "probability": 0
+    },
+    "gmzh": {
+      "probability": 0
+    }
+  },
+  "ratings": {
+    "count_all": 19,
+    "average_all": 4.315789473684
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "updated_at": "2023-08-09T08:57:52+0200",
+  "sap_created_at": "2017-07-17T19:00:00+0200",
+  "online_shop_relevant": false,
+  "base_unit": "CU",
+  "co2_compensation": {
+    "kg_co2": 0.922,
+    "kg_co2_compensation": 0.922,
+    "is_compensated": false,
+    "mcheck_enabled": true
+  },
+  "views": [
+    "all",
+    "browse",
+    "browseallretailers"
+  ]
+}

@@ -1,0 +1,983 @@
+{
+  "id": "104476300000",
+  "language": "en",
+  "name": "Mifloc Kartoffelstock",
+  "names": {
+    "short_name": "Mifloc Kartoffelstock"
+  },
+  "slug": "mifloc-kartoffelstock",
+  "slugs": {
+    "de": "mifloc-kartoffelstock",
+    "fr": "mifloc-puree-de-pommes-de-terre",
+    "it": "mifloc-purea-di-patate",
+    "en": "mifloc-kartoffelstock"
+  },
+  "type": "00",
+  "boss_number": "011011261520",
+  "description": {
+    "text": "Mifloc Kartoffelflocken f&uuml;r Kartoffelstock",
+    "source": "P4M"
+  },
+  "data_source": "SAP-X11",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03"
+  },
+  "tags": [
+    "source-p4m",
+    "migipedia",
+    "migrolino-data",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7616800430324"
+  ],
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarket"
+  },
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "brand": {
+    "id": "116",
+    "name": "Mifloc",
+    "slug": "mifloc"
+  },
+  "labels": [
+    {
+      "id": "L58",
+      "name": "V-vegetarisch",
+      "slug": "v-vegetarisch",
+      "image": {
+        "original": "https://image.migros.ch/original/7d8431afdd3f163932da1e3b874e7764940e4494/v-vegetarisch.jpg",
+        "stack": "https://image.migros.ch/{stack}/7d8431afdd3f163932da1e3b874e7764940e4494/v-vegetarisch.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_01011404",
+      "name": "Kartoffeln & Spätzli",
+      "slug": "supermarkt/lebensmittel/pasta-zutaten-konserven/kartoffeln-spaetzli",
+      "visible": true,
+      "parent_code": "BeSS_010114",
+      "image": {
+        "original": "https://image.migros.ch/original/7a3364020d6bdaf76c71e65cd849ee2fb8ccc7c9/kartoffeln-spaetzli.jpg",
+        "stack": "https://image.migros.ch/{stack}/7a3364020d6bdaf76c71e65cd849ee2fb8ccc7c9/kartoffeln-spaetzli.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010114",
+      "name": "Pasta, Zutaten & Konserven",
+      "slug": "supermarkt/lebensmittel/pasta-zutaten-konserven",
+      "visible": true,
+      "title": "Pasta aus Ihrer Migros: alles rund um Teigwaren",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/6d0964bbb34b8e041ba4d74fc0c90b149907f46a/pasta-zutaten-konserven.jpg",
+        "stack": "https://image.migros.ch/{stack}/6d0964bbb34b8e041ba4d74fc0c90b149907f46a/pasta-zutaten-konserven.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/31702195ec9d38aecefe80349eb347f79d56c750/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/31702195ec9d38aecefe80349eb347f79d56c750/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "online_relevant": [
+    {
+      "code": "MGB",
+      "name": "Migros Genossenschafts-Bund"
+    },
+    {
+      "code": "MO",
+      "name": "Migros Online"
+    }
+  ],
+  "links": {
+    "migros_ch": {
+      "url": "https://www.migros.ch/en/product/104476300000?context=instore",
+      "name": "In-store assortment",
+      "canonical": "https://www.migros.ch/en/product/104476300000?context=instore",
+      "type": "info",
+      "purchasable": false
+    },
+    "migros_online": {
+      "url": "https://www.migros.ch/en/product/104476300000?context=online",
+      "mo_product_id": "54234",
+      "name": "Online-shop assortment",
+      "canonical": "https://www.migros.ch/en/product/104476300000?context=instore",
+      "type": "shop",
+      "purchasable": true,
+      "one_catalog_id": 100005611
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/104476300000",
+      "name": "Migipedia",
+      "canonical": "https://www.migros.ch/en/product/104476300000?context=instore",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "has_safety_sheet": false,
+  "m_check2": {
+    "carbon_footprint": {
+      "image": {
+        "original": "https://image.migros.ch/original/3cb33aa7d90d7331f458860ae78688a0923b5993.svg",
+        "stack": "https://image.migros.ch/{stack}/3cb33aa7d90d7331f458860ae78688a0923b5993.svg"
+      },
+      "ground_and_sea_cargo": {
+        "kg_co2": 0.891,
+        "kg_co2_range": "0 - 0.9 kg CO₂eq / kg",
+        "co2_in_car_km": 5,
+        "rating": 5,
+        "production_in_percent": 74,
+        "packaging_in_percent": 19,
+        "transport_in_percent": 7
+      }
+    }
+  },
+  "receipt_text": "Kartoffelstock",
+  "package": {
+    "content": 380,
+    "content_unit_code": "g",
+    "content_unit": "Gram",
+    "net_weight": 0.38,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogram",
+    "type": "Multipack",
+    "portions_per_package": "12",
+    "precision": "approximate",
+    "brutto_weight": 0.464,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 2.668,
+    "brutto_volume_unit_code": "cdm",
+    "height": 19.1,
+    "length": 9.7,
+    "width": 14.4,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "4 x 95g"
+  },
+  "package_information": {
+    "tu": {
+      "gtins": [
+        "2038000430327",
+        "7616800560069"
+      ],
+      "brutto_weight": 3.899,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 22.607,
+      "brutto_volume_unit_code": "cdm",
+      "height": 19.7,
+      "length": 38.9,
+      "width": 29.5,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 8
+    },
+    "cu": {
+      "gtins": [
+        "7616800430324"
+      ],
+      "brutto_weight": 0.464,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 2.668,
+      "brutto_volume_unit_code": "cdm",
+      "height": 19.1,
+      "length": 9.7,
+      "width": 14.4,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "lu": {
+      "brutto_weight": 305.728,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 883.2,
+      "brutto_volume_unit_code": "cdm",
+      "height": 163.9,
+      "length": 120,
+      "width": 80,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 576
+    }
+  },
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "price": {
+    "valid_from": "2022-04-05T00:00:00+0200",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 4.95,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "4 x 95g"
+    },
+    "base": {
+      "price": 1.3,
+      "quantity": 100,
+      "unit": "G"
+    }
+  },
+  "features": [
+    {
+      "label_code": "MAPI_VEGETARIANISM",
+      "label": "Vegetarianism",
+      "values": [
+        {
+          "value_code": "MAPI_VEGETARIANISM_vegetarisch",
+          "value": "vegetarian"
+        }
+      ],
+      "category_code": "MAPI_VEGETARIANISM",
+      "top_fact": false
+    },
+    {
+      "label_code": "acxMISOzubereitung",
+      "label": "Zubereitung",
+      "values": [
+        {
+          "value": " Für 1 Beutel (3 Portionen): 1.) 3 dl Wasser mit einem halben Kaffeelöffel Salz (2,5 g) und 15g frischer Butter zum Sieden bringen. 2.) 2 dl kalte Milch hinzufügen und Pfanne sofort vom Herd nehmen. Nach Belieben mit Pfeffer und Muskatnuss würzen. 3.) Kartoffelflocken in einem Guss in die Pfanne schütten und mit einer Kelle so verteilen, dass alle Flocken gut benetzt werden. Nach ca. 1 Minute kurze Zeit schonend verrühren (nicht schlagen), bis der Kartoffelstock schön glatt und luftig ist."
+        }
+      ],
+      "category_code": "ecxMISOCLAgemuesekartoffelbasierteproduktegerichtebearbeiteteverarbeitetenahrungsmittellebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOcugebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "erxMISOcugebindeartschachtel",
+          "value": "Schachtel"
+        }
+      ],
+      "category_code": "ecxMISOCLAgemuesekartoffelbasierteproduktegerichtebearbeiteteverarbeitetenahrungsmittellebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOformbeschaffenheit",
+      "label": "Form/Beschaffenheit",
+      "values": [
+        {
+          "value_code": "erxMISOformbeschaffenheitpueriert",
+          "value": "püriert"
+        }
+      ],
+      "category_code": "ecxMISOCLAgemuesekartoffelbasierteproduktegerichtebearbeiteteverarbeitetenahrungsmittellebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOzubereitungsverfahren",
+      "label": "Hinweise für die Zubereitung",
+      "values": [
+        {
+          "value_code": "erxMISOzubereitungsverfahrenheisseswasserhinzugeben",
+          "value": "heisses Wasser hinzugeben"
+        },
+        {
+          "value_code": "erxMISOzubereitungsverfahrenkochen",
+          "value": "kochen"
+        }
+      ],
+      "category_code": "ecxMISOCLAgemuesekartoffelbasierteproduktegerichtebearbeiteteverarbeitetenahrungsmittellebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/47c30cd738734a60ad98b0e7b4cc6e38bc9e31a0/mifloc-kartoffelstock.jpg",
+    "stack": "https://image.migros.ch/{stack}/47c30cd738734a60ad98b0e7b4cc6e38bc9e31a0/mifloc-kartoffelstock.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/4b4d00823f827ab0b12a83798aa97449e53d3e99/mifloc-kartoffelstock.png",
+    "stack": "https://image.migros.ch/{stack}/4b4d00823f827ab0b12a83798aa97449e53d3e99/mifloc-kartoffelstock.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_RETURNABLE",
+      "label": "Return",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "true",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MAPI_RETURNABLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_EXPORTABLE",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_EXPORTABLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Normalposition"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "HAWA"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "10130",
+          "value": "POTATO PRODUCTS"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_KUBE_TUKA",
+      "values": [
+        {
+          "value_code": "BLANK",
+          "value": "KUBE und TUKA nicht zugelassen"
+        }
+      ],
+      "category_code": "MAPI_KUBE_TUKA",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LIFECYCLE",
+      "values": [
+        {
+          "value_code": "D",
+          "value": "Detailhandelsartikel"
+        }
+      ],
+      "category_code": "MAPI_LIFECYCLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_STORAGE_CONDITIONS",
+      "values": [
+        {
+          "value_code": "01",
+          "value": "normal"
+        }
+      ],
+      "category_code": "MAPI_STORAGE_CONDITIONS",
+      "top_fact": false
+    },
+    {
+      "label_code": "acxCommonarticlecocompensated",
+      "label": "Artikel Co2 kompensiert",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false
+    },
+    {
+      "label_code": "acxCommonmesswertcompensation",
+      "label": "CO2-Wert Kompensation",
+      "values": [
+        {
+          "value_code": "NUMERIC_0.891",
+          "value": "0.891",
+          "numeric_value": 0.891
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false,
+      "unit_code": "5d71456e-a520-4294-9ddb-add78f63ce83",
+      "unit": "Equivalence per kilogram",
+      "unit_symbol": "eq / kg"
+    },
+    {
+      "label_code": "acxCommonoutputmcheckclimatedeclaration",
+      "label": "Auslobung M-Check Klimadeklaration",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Yes",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false
+    }
+  ],
+  "declarations": {
+    "declaration_number": "Q_2121841432599414",
+    "tags": [
+      "source-qim"
+    ],
+    "gtins": [
+      "7616800430324"
+    ],
+    "valid_from": "2019-01-21T01:00:00+0100",
+    "product_details": {
+      "package": {
+        "type": "Multipack",
+        "number_of_portions": "12",
+        "number_of_portions_operator": "≈"
+      }
+    },
+    "general_information": [
+      {
+        "label": "Cooling information/storage information",
+        "values": [
+          "Store in a dry place."
+        ]
+      }
+    ],
+    "ingredients_information": {
+      "allergens_information": {
+        "allergens": [
+          {
+            "code": "ALLG_SULFIT",
+            "label": "Sulphur dioxide and sulphites",
+            "contamination_code": "VORHANDEN",
+            "contamination_label": "contains"
+          },
+          {
+            "code": "ALLG_MILCH",
+            "label": "Milk and products thereof",
+            "contamination_code": "VORHANDEN",
+            "contamination_label": "contains"
+          }
+        ]
+      }
+    },
+    "nutrition_facts": {
+      "reference_sizes": {
+        "standard": {
+          "base": {
+            "quantity": {
+              "value": "100 g",
+              "numeric_value": 100,
+              "unit": "g"
+            }
+          },
+          "nutrients": [
+            {
+              "code": "NUT_ENERGY",
+              "name": "Energy",
+              "operator": "=",
+              "pictogram_name": "Energy",
+              "category": "BIG9",
+              "quantity": {
+                "value": "384 kJ",
+                "numeric_value": 384,
+                "unit": "kJ",
+                "alternate": {
+                  "value": "91 kcal",
+                  "numeric_value": 91,
+                  "unit": "kcal"
+                }
+              },
+              "rda": {
+                "percent": 5,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_FAT",
+              "name": "Fat",
+              "operator": "=",
+              "pictogram_name": "Fat",
+              "category": "BIG9",
+              "quantity": {
+                "value": "2.5 g",
+                "numeric_value": 2.5,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 4,
+                "operator": "="
+              },
+              "rating": {
+                "value": 0,
+                "text": "low",
+                "icon": {
+                  "original": "https://image.migros.ch/original/a2b5e2562a4fedbbdec99c1932ec57c46c49cde4.svg",
+                  "stack": "https://image.migros.ch/{stack}/a2b5e2562a4fedbbdec99c1932ec57c46c49cde4.svg"
+                },
+                "hex_color": "#069800"
+              }
+            },
+            {
+              "code": "NUT_SATURATED_FATTY_ACIDS",
+              "name": "of which saturates",
+              "operator": "=",
+              "pictogram_name": "saturated fatty acids",
+              "category": "BIG9",
+              "quantity": {
+                "value": "1.8 g",
+                "numeric_value": 1.8,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 9,
+                "operator": "="
+              },
+              "rating": {
+                "value": 1,
+                "text": "medium",
+                "icon": {
+                  "original": "https://image.migros.ch/original/b84b389195e426a9e6b4cd66f2c79b1a049809da.svg",
+                  "stack": "https://image.migros.ch/{stack}/b84b389195e426a9e6b4cd66f2c79b1a049809da.svg"
+                },
+                "hex_color": "#e8a800"
+              }
+            },
+            {
+              "code": "NUT_CARBOHYDRATES",
+              "name": "Carbohydrate",
+              "operator": "=",
+              "category": "BIG9",
+              "quantity": {
+                "value": "14 g",
+                "numeric_value": 14,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 5,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_SUGAR",
+              "name": "of which sugars",
+              "operator": "=",
+              "pictogram_name": "Sugar",
+              "category": "BIG9",
+              "quantity": {
+                "value": "1.6 g",
+                "numeric_value": 1.6,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 2,
+                "operator": "="
+              },
+              "rating": {
+                "value": 0,
+                "text": "low",
+                "icon": {
+                  "original": "https://image.migros.ch/original/a2b5e2562a4fedbbdec99c1932ec57c46c49cde4.svg",
+                  "stack": "https://image.migros.ch/{stack}/a2b5e2562a4fedbbdec99c1932ec57c46c49cde4.svg"
+                },
+                "hex_color": "#069800"
+              }
+            },
+            {
+              "code": "NUT_FIBER",
+              "name": "Fibre",
+              "operator": "=",
+              "category": "BIG9",
+              "quantity": {
+                "value": "1.4 g",
+                "numeric_value": 1.4,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_PROTEIN",
+              "name": "Protein",
+              "operator": "=",
+              "category": "BIG9",
+              "quantity": {
+                "value": "2.5 g",
+                "numeric_value": 2.5,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 5,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_SALT",
+              "name": "Salt",
+              "operator": "=",
+              "pictogram_name": "Salt",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0.90 g",
+                "numeric_value": 0.9,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 15,
+                "operator": "="
+              },
+              "rating": {
+                "value": 1,
+                "text": "medium",
+                "icon": {
+                  "original": "https://image.migros.ch/original/b84b389195e426a9e6b4cd66f2c79b1a049809da.svg",
+                  "stack": "https://image.migros.ch/{stack}/b84b389195e426a9e6b4cd66f2c79b1a049809da.svg"
+                },
+                "hex_color": "#e8a800"
+              }
+            }
+          ]
+        },
+        "portion": {
+          "base": {
+            "quantity": {
+              "value": "205 g",
+              "numeric_value": 205,
+              "unit": "g"
+            }
+          },
+          "preparation_state": "prepared",
+          "nutrients": [
+            {
+              "code": "NUT_ENERGY",
+              "name": "Energy",
+              "operator": "=",
+              "pictogram_name": "Energy",
+              "category": "BIG9",
+              "quantity": {
+                "value": "809 kJ",
+                "numeric_value": 809,
+                "unit": "kJ",
+                "alternate": {
+                  "value": "192 kcal",
+                  "numeric_value": 192,
+                  "unit": "kcal"
+                }
+              },
+              "rda": {
+                "percent": 10,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_FAT",
+              "name": "Fat",
+              "operator": "=",
+              "pictogram_name": "Fat",
+              "category": "BIG9",
+              "quantity": {
+                "value": "5.1 g",
+                "numeric_value": 5.1,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 7,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_SATURATED_FATTY_ACIDS",
+              "name": "of which saturates",
+              "operator": "=",
+              "pictogram_name": "saturated fatty acids",
+              "category": "BIG9",
+              "quantity": {
+                "value": "3.7 g",
+                "numeric_value": 3.7,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 19,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_CARBOHYDRATES",
+              "name": "Carbohydrate",
+              "operator": "=",
+              "category": "BIG9",
+              "quantity": {
+                "value": "30 g",
+                "numeric_value": 30,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 12,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_SUGAR",
+              "name": "of which sugars",
+              "operator": "=",
+              "pictogram_name": "Sugar",
+              "category": "BIG9",
+              "quantity": {
+                "value": "3.3 g",
+                "numeric_value": 3.3,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 4,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_FIBER",
+              "name": "Fibre",
+              "operator": "=",
+              "category": "BIG9",
+              "quantity": {
+                "value": "2.9 g",
+                "numeric_value": 2.9,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_PROTEIN",
+              "name": "Protein",
+              "operator": "=",
+              "category": "BIG9",
+              "quantity": {
+                "value": "5.1 g",
+                "numeric_value": 5.1,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 10,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_SALT",
+              "name": "Salt",
+              "operator": "=",
+              "pictogram_name": "Salt",
+              "category": "BIG9",
+              "quantity": {
+                "value": "1.8 g",
+                "numeric_value": 1.8,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 30,
+                "operator": "="
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "recipe_ingredient_ids": [
+    "16650"
+  ],
+  "regional_availability": {
+    "gmaa": {
+      "probability": 99
+    },
+    "gmbs": {
+      "probability": 100
+    },
+    "gmge": {
+      "probability": 92
+    },
+    "gmlu": {
+      "probability": 98
+    },
+    "gmnf": {
+      "probability": 100
+    },
+    "gmos": {
+      "probability": 98
+    },
+    "gmti": {
+      "probability": 100
+    },
+    "gmvd": {
+      "probability": 100
+    },
+    "gmvs": {
+      "probability": 100
+    },
+    "gmzh": {
+      "probability": 97
+    }
+  },
+  "ratings": {
+    "count_all": 165,
+    "average_all": 4.503144654088
+  },
+  "related_products": {
+    "purchase_recommendations": {
+      "product_ids": [
+        "104480400000",
+        "104480900000",
+        "104483500000",
+        "104480800000",
+        "104480600000"
+      ]
+    }
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "updated_at": "2023-08-17T11:39:35+0200",
+  "sap_created_at": "2001-10-04T19:00:00+0200",
+  "online_shop_relevant": false,
+  "base_unit": "CU",
+  "co2_compensation": {
+    "kg_co2": 0.891,
+    "kg_co2_compensation": 0.891,
+    "is_compensated": false,
+    "mcheck_enabled": true
+  },
+  "origins": {},
+  "views": [
+    "all",
+    "browse",
+    "browseallretailers"
+  ]
+}

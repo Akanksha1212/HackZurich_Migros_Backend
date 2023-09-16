@@ -1,0 +1,875 @@
+{
+  "id": "113715100000",
+  "language": "en",
+  "name": "Anna's Best Aprikosenwähe",
+  "names": {
+    "short_name": "Anna's Best Aprikosenwähe"
+  },
+  "slug": "annas-best-aprikosenwaehe",
+  "slugs": {
+    "de": "annas-best-aprikosenwaehe",
+    "fr": "annas-best-gateau-aux-abricots",
+    "it": "annas-best-crostata-albicocche",
+    "en": "annas-best-aprikosenwaehe"
+  },
+  "type": "00",
+  "boss_number": "020212142005",
+  "data_source": "SAP-X11",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "80"
+  },
+  "tags": [
+    "source-p4m",
+    "migipedia",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613269479949"
+  ],
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarket"
+  },
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "brand": {
+    "id": "007",
+    "name": "Anna's Best",
+    "slug": "annas-best",
+    "links": {
+      "homepage": {
+        "url": "https://annasbest.migros.ch/de.html",
+        "name": "Homepage",
+        "type": "info",
+        "purchasable": false
+      }
+    }
+  },
+  "labels": [
+    {
+      "id": "L79",
+      "name": "Nutri-Score",
+      "slug": "nutri-score"
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_010117",
+      "name": "Wähen",
+      "slug": "supermarkt/lebensmittel/waehen",
+      "visible": true,
+      "title": "Wähen für jeden Geschmack aus frischen und natürlichen Zutaten",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/9a6ee97874901b648a0615dadfd21cd38e4501f8/waehen.jpg",
+        "stack": "https://image.migros.ch/{stack}/9a6ee97874901b648a0615dadfd21cd38e4501f8/waehen.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/31702195ec9d38aecefe80349eb347f79d56c750/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/31702195ec9d38aecefe80349eb347f79d56c750/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "online_relevant": [
+    {
+      "code": "MGB",
+      "name": "Migros Genossenschafts-Bund"
+    }
+  ],
+  "links": {
+    "migros_ch": {
+      "url": "https://www.migros.ch/en/product/113715100000?context=instore",
+      "name": "In-store assortment",
+      "canonical": "https://www.migros.ch/en/product/113715100000?context=instore",
+      "type": "info",
+      "purchasable": false
+    },
+    "migros_online": {
+      "url": "https://www.migros.ch/en/product/113715100000?context=online",
+      "mo_product_id": "150866",
+      "name": "Online-shop assortment",
+      "canonical": "https://www.migros.ch/en/product/113715100000?context=instore",
+      "type": "shop",
+      "purchasable": true,
+      "one_catalog_id": 100027383
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/113715100000",
+      "name": "Migipedia",
+      "canonical": "https://www.migros.ch/en/product/113715100000?context=instore",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "has_safety_sheet": false,
+  "m_check2": {
+    "carbon_footprint": {
+      "image": {
+        "original": "https://image.migros.ch/original/0a2093a1718156b317e9aac46d5c2589cfde38b7.svg",
+        "stack": "https://image.migros.ch/{stack}/0a2093a1718156b317e9aac46d5c2589cfde38b7.svg"
+      },
+      "ground_and_sea_cargo": {
+        "kg_co2": 1.66,
+        "kg_co2_range": "1 - 1.9 kg CO₂eq / kg",
+        "co2_in_car_km": 9,
+        "rating": 4,
+        "production_in_percent": 86,
+        "packaging_in_percent": 10,
+        "transport_in_percent": 4
+      }
+    }
+  },
+  "receipt_text": "Aprikosenwähe",
+  "package": {
+    "content": 215,
+    "content_unit_code": "g",
+    "content_unit": "Gram",
+    "net_weight": 0.215,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogram",
+    "type": "Package",
+    "portions_per_package": "1",
+    "precision": "exact",
+    "brutto_weight": 0.215,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 1.411,
+    "brutto_volume_unit_code": "cdm",
+    "height": 21.3,
+    "length": 4.6,
+    "width": 14.4,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "215g"
+  },
+  "package_information": {
+    "tu": {
+      "gtins": [
+        "7616700044591"
+      ],
+      "brutto_weight": 0.645,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 15.96,
+      "brutto_volume_unit_code": "cdm",
+      "height": 13.3,
+      "length": 40,
+      "width": 30,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 3
+    },
+    "cu": {
+      "gtins": [
+        "7613269479949"
+      ],
+      "brutto_weight": 0.215,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 1.411,
+      "brutto_volume_unit_code": "cdm",
+      "height": 21.3,
+      "length": 4.6,
+      "width": 14.4,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    }
+  },
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "price": {
+    "valid_from": "2023-01-04T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 3.25,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "215g"
+    },
+    "base": {
+      "price": 1.51,
+      "quantity": 100,
+      "unit": "G"
+    }
+  },
+  "features": [
+    {
+      "label_code": "acxMISOzubereitungsverfahren",
+      "label": "Hinweise für die Zubereitung",
+      "values": [
+        {
+          "value_code": "erxMISOzubereitungsverfahrenverzehrfertig",
+          "value": "verzehrfertig"
+        }
+      ],
+      "category_code": "ecxMISOCLAsuessebackwarenbrotbackwarenlebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/d1cbf159f32d99440d4e358c1335c5bcf13fc19f/annas-best-aprikosenwaehe.jpg",
+    "stack": "https://image.migros.ch/{stack}/d1cbf159f32d99440d4e358c1335c5bcf13fc19f/annas-best-aprikosenwaehe.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/1d062fec32791f684b6ca3ce164aa74beec465ce/annas-best-aprikosenwaehe.png",
+    "stack": "https://image.migros.ch/{stack}/1d062fec32791f684b6ca3ce164aa74beec465ce/annas-best-aprikosenwaehe.png"
+  },
+  "additional_images": [
+    {
+      "original": "https://image.migros.ch/original/db7ca3d52bf5e9fc15170d94b4d485e5bbb41b15.jpg",
+      "stack": "https://image.migros.ch/{stack}/db7ca3d52bf5e9fc15170d94b4d485e5bbb41b15.jpg"
+    }
+  ],
+  "internal_features": [
+    {
+      "label_code": "MAPI_EXPORTABLE",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_EXPORTABLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Normalposition"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZFRP",
+          "value": "Frische Beschaffung"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "ZFRP"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "70161",
+          "value": "RB FLANS PACKED"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LIFECYCLE",
+      "values": [
+        {
+          "value_code": "D",
+          "value": "Detailhandelsartikel"
+        }
+      ],
+      "category_code": "MAPI_LIFECYCLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_STORAGE_CONDITIONS",
+      "values": [
+        {
+          "value_code": "01",
+          "value": "normal"
+        }
+      ],
+      "category_code": "MAPI_STORAGE_CONDITIONS",
+      "top_fact": false
+    },
+    {
+      "label_code": "acxCommonarticlecocompensated",
+      "label": "Artikel Co2 kompensiert",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false
+    },
+    {
+      "label_code": "acxCommonmesswertcompensation",
+      "label": "CO2-Wert Kompensation",
+      "values": [
+        {
+          "value_code": "NUMERIC_1.66",
+          "value": "1.66",
+          "numeric_value": 1.66
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false,
+      "unit_code": "5d71456e-a520-4294-9ddb-add78f63ce83",
+      "unit": "Equivalence per kilogram",
+      "unit_symbol": "eq / kg"
+    },
+    {
+      "label_code": "acxCommonoutputmcheckclimatedeclaration",
+      "label": "Auslobung M-Check Klimadeklaration",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Yes",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false
+    }
+  ],
+  "declarations": {
+    "declaration_number": "Q_2121841432610883",
+    "tags": [
+      "source-qim"
+    ],
+    "gtins": [
+      "7613269479949"
+    ],
+    "valid_from": "2022-05-10T00:00:00+0200",
+    "product_details": {
+      "package": {
+        "type": "Package",
+        "number_of_portions": "1",
+        "number_of_portions_operator": "="
+      },
+      "net_filled_quantity": {
+        "value": "215 g",
+        "numeric_value": 215,
+        "unit": "g"
+      }
+    },
+    "general_information": [
+      {
+        "label": "Warning and other mandatory information",
+        "values": [
+          "In spite of careful processing, the product may contain fruit stones or hard fragments of fruit."
+        ]
+      }
+    ],
+    "ingredients_information": {
+      "ingredients_text": "apricots 49%, <strong>wheat</strong> flour, water, vegetable oils (rapeseed, fully hydrogenated rapeseed, sunflower, olives), sugar, skimmed <strong>milk</strong> powder, durum <strong>wheat</strong> flour, modified starch, glucose syrup, whole <strong>egg</strong> powder (free range), <strong>egg</strong> white powder (free range), iodized table salt, <strong>lactose</strong>, thickener: hydroxypropyl methyl cellulose, antioxidant: ascorbic acid, <strong>milk</strong> protein, acid: citric acid, yeast, gelling agent: pectin, <strong>wheat</strong> protein, flavourings, preservative: potassium sorbate, <strong>barley</strong> malt flour, colour: carotenes.",
+      "allergens_information": {
+        "trace_allergens_text": "May contain: soy, nuts, sesame.",
+        "allergens": [
+          {
+            "code": "ALLG_GLUTEN",
+            "label": "Cereals containing gluten and products thereof",
+            "contamination_code": "VORHANDEN",
+            "contamination_label": "contains"
+          },
+          {
+            "code": "ALLG_MILCH",
+            "label": "Milk and products thereof",
+            "contamination_code": "VORHANDEN",
+            "contamination_label": "contains"
+          },
+          {
+            "code": "ALLG_EIER",
+            "label": "Eggs and products thereof",
+            "contamination_code": "VORHANDEN",
+            "contamination_label": "contains"
+          }
+        ]
+      }
+    },
+    "nutrition_facts": {
+      "nutri_score": {
+        "value": "C",
+        "image": {
+          "original": "https://image.migros.ch/original/0b6f8e3f3a2ba2f326064c337397030b0b9dea31.png",
+          "stack": "https://image.migros.ch/{stack}/0b6f8e3f3a2ba2f326064c337397030b0b9dea31.png"
+        }
+      },
+      "reference_sizes": {
+        "standard": {
+          "base": {
+            "quantity": {
+              "value": "100 g",
+              "numeric_value": 100,
+              "unit": "g"
+            }
+          },
+          "nutrients": [
+            {
+              "code": "NUT_ENERGY",
+              "name": "Energy",
+              "operator": "=",
+              "pictogram_name": "Energy",
+              "category": "BIG9",
+              "quantity": {
+                "value": "855 kJ",
+                "numeric_value": 855,
+                "unit": "kJ",
+                "alternate": {
+                  "value": "204 kcal",
+                  "numeric_value": 204,
+                  "unit": "kcal"
+                }
+              },
+              "rda": {
+                "percent": 0,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_FAT",
+              "name": "Fat",
+              "operator": "=",
+              "pictogram_name": "Fat",
+              "category": "BIG9",
+              "quantity": {
+                "value": "8.1 g",
+                "numeric_value": 8.1,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 12,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_SATURATED_FATTY_ACIDS",
+              "name": "of which saturates",
+              "operator": "=",
+              "pictogram_name": "saturated fatty acids",
+              "category": "BIG9",
+              "quantity": {
+                "value": "3.1 g",
+                "numeric_value": 3.1,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 16,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_CARBOHYDRATES",
+              "name": "Carbohydrate",
+              "operator": "=",
+              "category": "BIG9",
+              "quantity": {
+                "value": "28 g",
+                "numeric_value": 28,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 11,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_SUGAR",
+              "name": "of which sugars",
+              "operator": "=",
+              "pictogram_name": "Sugar",
+              "category": "BIG9",
+              "quantity": {
+                "value": "13 g",
+                "numeric_value": 13,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 14,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_FIBER",
+              "name": "Fibre",
+              "operator": "=",
+              "category": "BIG9",
+              "quantity": {
+                "value": "1.5 g",
+                "numeric_value": 1.5,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 0,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_PROTEIN",
+              "name": "Protein",
+              "operator": "=",
+              "category": "BIG9",
+              "quantity": {
+                "value": "3.9 g",
+                "numeric_value": 3.9,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 8,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_SALT",
+              "name": "Salt",
+              "operator": "=",
+              "pictogram_name": "Salt",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0.3 g",
+                "numeric_value": 0.3,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 5,
+                "operator": "="
+              }
+            }
+          ]
+        },
+        "portion": {
+          "base": {
+            "quantity": {
+              "value": "215 g",
+              "numeric_value": 215,
+              "unit": "g"
+            }
+          },
+          "nutrients": [
+            {
+              "code": "NUT_ENERGY",
+              "name": "Energy",
+              "operator": "=",
+              "pictogram_name": "Energy",
+              "category": "BIG9",
+              "quantity": {
+                "value": "1801 kJ",
+                "numeric_value": 1801,
+                "unit": "kJ",
+                "alternate": {
+                  "value": "429 kcal",
+                  "numeric_value": 429,
+                  "unit": "kcal"
+                }
+              },
+              "rda": {
+                "percent": 0,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_FAT",
+              "name": "Fat",
+              "operator": "=",
+              "pictogram_name": "Fat",
+              "category": "BIG9",
+              "quantity": {
+                "value": "17 g",
+                "numeric_value": 17,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 24,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_SATURATED_FATTY_ACIDS",
+              "name": "of which saturates",
+              "operator": "=",
+              "pictogram_name": "saturated fatty acids",
+              "category": "BIG9",
+              "quantity": {
+                "value": "6.6 g",
+                "numeric_value": 6.6,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 33,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_CARBOHYDRATES",
+              "name": "Carbohydrate",
+              "operator": "=",
+              "category": "BIG9",
+              "quantity": {
+                "value": "59 g",
+                "numeric_value": 59,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 23,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_SUGAR",
+              "name": "of which sugars",
+              "operator": "=",
+              "pictogram_name": "Sugar",
+              "category": "BIG9",
+              "quantity": {
+                "value": "29 g",
+                "numeric_value": 29,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 32,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_FIBER",
+              "name": "Fibre",
+              "operator": "=",
+              "category": "BIG9",
+              "quantity": {
+                "value": "3.3 g",
+                "numeric_value": 3.3,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 0,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_PROTEIN",
+              "name": "Protein",
+              "operator": "=",
+              "category": "BIG9",
+              "quantity": {
+                "value": "8.3 g",
+                "numeric_value": 8.3,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 17,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_SALT",
+              "name": "Salt",
+              "operator": "=",
+              "pictogram_name": "Salt",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0.65 g",
+                "numeric_value": 0.65,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 11,
+                "operator": "="
+              }
+            }
+          ]
+        }
+      }
+    },
+    "golden_standard": {
+      "compliant": false
+    }
+  },
+  "recipe_ingredient_ids": [
+    "10000"
+  ],
+  "regional_availability": {
+    "gmaa": {
+      "probability": 94
+    },
+    "gmbs": {
+      "probability": 52
+    },
+    "gmge": {
+      "probability": 0
+    },
+    "gmlu": {
+      "probability": 85
+    },
+    "gmnf": {
+      "probability": 67
+    },
+    "gmos": {
+      "probability": 76
+    },
+    "gmti": {
+      "probability": 74
+    },
+    "gmvd": {
+      "probability": 57
+    },
+    "gmvs": {
+      "probability": 52
+    },
+    "gmzh": {
+      "probability": 89
+    }
+  },
+  "ratings": {
+    "count_all": 139,
+    "average_all": 4.45652173913
+  },
+  "related_products": {
+    "purchase_recommendations": {
+      "product_ids": [
+        "113770500000",
+        "113710900000",
+        "113760500000",
+        "113744400000",
+        "113724900000"
+      ]
+    }
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "updated_at": "2023-08-17T11:52:29+0200",
+  "sap_created_at": "2006-11-14T18:00:00+0100",
+  "online_shop_relevant": false,
+  "base_unit": "CU",
+  "co2_compensation": {
+    "kg_co2": 1.66,
+    "kg_co2_compensation": 1.66,
+    "is_compensated": false,
+    "mcheck_enabled": true
+  },
+  "origins": {
+    "producing_country": "Switzerland"
+  },
+  "views": [
+    "all",
+    "browse",
+    "browseallretailers"
+  ]
+}

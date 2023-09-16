@@ -1,0 +1,798 @@
+{
+  "id": "120935300000",
+  "language": "en",
+  "name": "Tuca Citro Zero",
+  "names": {
+    "short_name": "Tuca Citro Zero"
+  },
+  "slug": "tuca-citro-zero-120935300000",
+  "slugs": {
+    "de": "tuca-citro-zero-120935300000",
+    "fr": "tuca-citro-zero-120935300000",
+    "it": "tuca-citro-zero-120935300000",
+    "en": "tuca-citro-zero-120935300000"
+  },
+  "type": "00",
+  "boss_number": "010710371605",
+  "data_source": "SAP-X11",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03",
+    "distribution_center": [
+      {
+        "center_id": "1000",
+        "center_name": "Migros Verteilzentrum Suhr",
+        "status_code": "92",
+        "status_description": "Kein Einkauf/Bestand VZ"
+      },
+      {
+        "center_id": "1020",
+        "center_name": "Regionallager Basel",
+        "status_code": "92",
+        "status_description": "Kein Einkauf/Bestand VZ"
+      },
+      {
+        "center_id": "1030",
+        "center_name": "Regionallager Aare",
+        "status_code": "92",
+        "status_description": "Kein Einkauf/Bestand VZ"
+      },
+      {
+        "center_id": "1040",
+        "center_name": "Entrepôt régional Genève",
+        "status_code": "92",
+        "status_description": "Kein Einkauf/Bestand VZ"
+      },
+      {
+        "center_id": "1060",
+        "center_name": "Entrepôt régional Vaud",
+        "status_code": "92",
+        "status_description": "Kein Einkauf/Bestand VZ"
+      },
+      {
+        "center_id": "1070",
+        "center_name": "Regionallager Luzern",
+        "status_code": "92",
+        "status_description": "Kein Einkauf/Bestand VZ"
+      },
+      {
+        "center_id": "1080",
+        "center_name": "Entrepôt régional Neuchâtel /",
+        "status_code": "92",
+        "status_description": "Kein Einkauf/Bestand VZ"
+      },
+      {
+        "center_id": "1090",
+        "center_name": "Regionallager Ostschweiz",
+        "status_code": "92",
+        "status_description": "Kein Einkauf/Bestand VZ"
+      },
+      {
+        "center_id": "1120",
+        "center_name": "Magazzino regionale Ticino",
+        "status_code": "92",
+        "status_description": "Kein Einkauf/Bestand VZ"
+      },
+      {
+        "center_id": "1130",
+        "center_name": "Entrepôt régional Valais",
+        "status_code": "92",
+        "status_description": "Kein Einkauf/Bestand VZ"
+      },
+      {
+        "center_id": "1150",
+        "center_name": "Regionallager Zürich",
+        "status_code": "92",
+        "status_description": "Kein Einkauf/Bestand VZ"
+      }
+    ]
+  },
+  "tags": [
+    "source-p4m",
+    "migipedia",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7617500198972"
+  ],
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarket"
+  },
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "brand": {
+    "id": "CY2",
+    "name": "Tuca",
+    "slug": "tuca"
+  },
+  "labels": [
+    {
+      "id": "L76",
+      "name": "No added sugar",
+      "slug": "no-added-sugar"
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_01011005",
+      "name": "Süssgetränke",
+      "slug": "supermarkt/lebensmittel/getraenke-heiss-kalt/suessgetraenke",
+      "visible": true,
+      "title": "Erfrischend: Süssgetränke in der Migros kaufen",
+      "parent_code": "BeSS_010110",
+      "image": {
+        "original": "https://image.migros.ch/original/e126d969b959f7758cb0dbcb38e4ab04121bbfd6/suessgetraenke.jpg",
+        "stack": "https://image.migros.ch/{stack}/e126d969b959f7758cb0dbcb38e4ab04121bbfd6/suessgetraenke.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010110",
+      "name": "Getränke heiss & kalt",
+      "slug": "supermarkt/lebensmittel/getraenke-heiss-kalt",
+      "visible": true,
+      "title": "Getränke aus der Migros löschen auch Ihren Durst",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/d04d95fbc2e1b4ada4783d2976d37a962a0318a1/getraenke-heiss-kalt.jpg",
+        "stack": "https://image.migros.ch/{stack}/d04d95fbc2e1b4ada4783d2976d37a962a0318a1/getraenke-heiss-kalt.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/31702195ec9d38aecefe80349eb347f79d56c750/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/31702195ec9d38aecefe80349eb347f79d56c750/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "online_relevant": [
+    {
+      "code": "MGB",
+      "name": "Migros Genossenschafts-Bund"
+    }
+  ],
+  "links": {
+    "migros_ch": {
+      "url": "https://www.migros.ch/en/product/120935300000?context=instore",
+      "name": "In-store assortment",
+      "canonical": "https://www.migros.ch/en/product/120935300000?context=instore",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/120935300000",
+      "name": "Migipedia",
+      "canonical": "https://www.migros.ch/en/product/120935300000?context=instore",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "has_safety_sheet": false,
+  "m_check2": {
+    "carbon_footprint": {
+      "image": {
+        "original": "https://image.migros.ch/original/3cb33aa7d90d7331f458860ae78688a0923b5993.svg",
+        "stack": "https://image.migros.ch/{stack}/3cb33aa7d90d7331f458860ae78688a0923b5993.svg"
+      },
+      "ground_and_sea_cargo": {
+        "kg_co2": 0.35,
+        "kg_co2_range": "0 - 0.9 kg CO₂eq / kg",
+        "co2_in_car_km": 1,
+        "rating": 5,
+        "production_in_percent": 40,
+        "packaging_in_percent": 49,
+        "transport_in_percent": 11
+      }
+    }
+  },
+  "receipt_text": "Tuca Citro Zero 1.5l",
+  "package": {
+    "content": 1.5,
+    "content_unit_code": "l",
+    "content_unit": "Litre",
+    "net_weight": 1.509,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogram",
+    "type": "CU",
+    "portions_per_package": "1",
+    "brutto_weight": 1.546,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 2.738,
+    "brutto_volume_unit_code": "cdm",
+    "height": 33.8,
+    "length": 9,
+    "width": 9,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "1.5l",
+    "average_min_unit_code": "kg",
+    "average_max_unit_code": "kg"
+  },
+  "package_information": {
+    "cu": {
+      "gtins": [
+        "7617500198972"
+      ],
+      "brutto_weight": 1.546,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 2.738,
+      "brutto_volume_unit_code": "cdm",
+      "height": 33.8,
+      "length": 9,
+      "width": 9,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    }
+  },
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "price": {
+    "valid_from": "2023-02-28T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 2.2,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "1.5l"
+    },
+    "base": {
+      "price": 146.67,
+      "quantity": 100,
+      "unit": "L"
+    }
+  },
+  "image": {
+    "original": "https://image.migros.ch/original/5e1cac85d9d134f569e246737402a5c24e82366f/tuca-citro-zero.jpg",
+    "stack": "https://image.migros.ch/{stack}/5e1cac85d9d134f569e246737402a5c24e82366f/tuca-citro-zero.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/2796734d995c6b304cb468eb8fe6254a8a866899/tuca-citro-zero.png",
+    "stack": "https://image.migros.ch/{stack}/2796734d995c6b304cb468eb8fe6254a8a866899/tuca-citro-zero.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_EXPORTABLE",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_EXPORTABLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Normalposition"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "HAWA"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "10713",
+          "value": "FRUIT / OTHER"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_KUBE_TUKA",
+      "values": [
+        {
+          "value_code": "BLANK",
+          "value": "KUBE und TUKA nicht zugelassen"
+        }
+      ],
+      "category_code": "MAPI_KUBE_TUKA",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LIFECYCLE",
+      "values": [
+        {
+          "value_code": "D",
+          "value": "Detailhandelsartikel"
+        }
+      ],
+      "category_code": "MAPI_LIFECYCLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_STORAGE_CONDITIONS",
+      "values": [
+        {
+          "value_code": "01",
+          "value": "normal"
+        }
+      ],
+      "category_code": "MAPI_STORAGE_CONDITIONS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_MULTIPACK",
+      "values": [
+        {
+          "value_code": "0",
+          "value": "No pack expression"
+        }
+      ],
+      "category_code": "MAPI_MULTIPACK",
+      "top_fact": false
+    },
+    {
+      "label_code": "acxhealthNutritionalClaims",
+      "label": "Gesundheits und nährwertbezogene Auslobung",
+      "values": [
+        {
+          "value_code": "noAddedSugar",
+          "value": "No added sugar. Contains naturally occurring sugars."
+        }
+      ],
+      "category_code": "ecxMISOCLAalkoholfreiegetraenketrinkfertiggetraenkelebensmittelgetraenkealle",
+      "top_fact": false
+    },
+    {
+      "label_code": "acxCommonarticlecocompensated",
+      "label": "Artikel Co2 kompensiert",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false
+    },
+    {
+      "label_code": "acxCommonmesswertcompensation",
+      "label": "CO2-Wert Kompensation",
+      "values": [
+        {
+          "value_code": "NUMERIC_0.35",
+          "value": "0.35",
+          "numeric_value": 0.35
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false,
+      "unit_code": "5d71456e-a520-4294-9ddb-add78f63ce83",
+      "unit": "Equivalence per kilogram",
+      "unit_symbol": "eq / kg"
+    },
+    {
+      "label_code": "acxCommonoutputmcheckclimatedeclaration",
+      "label": "Auslobung M-Check Klimadeklaration",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Yes",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false
+    }
+  ],
+  "declarations": {
+    "declaration_number": "Q_1604593689768464",
+    "tags": [
+      "source-qim"
+    ],
+    "gtins": [
+      "7617500198972"
+    ],
+    "valid_from": "2023-04-14T00:00:00+0200",
+    "product_details": {
+      "net_filled_quantity": {
+        "value": "1500 ml",
+        "numeric_value": 1500,
+        "unit": "ml"
+      }
+    },
+    "general_information": [
+      {
+        "label": "Other additional information",
+        "values": [
+          "Zuckerfrei"
+        ]
+      },
+      {
+        "label": "Cooling information/storage information",
+        "values": [
+          "Protect from heat.",
+          "Once opened, keep refigerated and consume quickly."
+        ]
+      },
+      {
+        "label": "Warning and other mandatory information",
+        "values": [
+          "With sweetener(s).",
+          "Contains aspartame (a source of phenylalanine)."
+        ]
+      }
+    ],
+    "ingredients_information": {
+      "ingredients_text": "natural mineral water, carbonic acid, acid: citric acid, natural lemon-lime flavouring, acidity regulator: E 331, sweeteners: aspartame and acesulfame K."
+    },
+    "nutrition_facts": {
+      "reference_sizes": {
+        "standard": {
+          "base": {
+            "quantity": {
+              "value": "100 ml",
+              "numeric_value": 100,
+              "unit": "ml"
+            }
+          },
+          "nutrients": [
+            {
+              "code": "NUT_ENERGY",
+              "name": "Energy",
+              "operator": "=",
+              "pictogram_name": "Energy",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0 kJ",
+                "numeric_value": 0,
+                "unit": "kJ",
+                "alternate": {
+                  "value": "0 kcal",
+                  "numeric_value": 0,
+                  "unit": "kcal"
+                }
+              },
+              "rda": {
+                "percent": 0,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_FAT",
+              "name": "Fat",
+              "operator": "=",
+              "pictogram_name": "Fat",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0 g",
+                "numeric_value": 0,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 0,
+                "operator": "="
+              },
+              "rating": {
+                "value": 0,
+                "text": "low",
+                "icon": {
+                  "original": "https://image.migros.ch/original/a2b5e2562a4fedbbdec99c1932ec57c46c49cde4.svg",
+                  "stack": "https://image.migros.ch/{stack}/a2b5e2562a4fedbbdec99c1932ec57c46c49cde4.svg"
+                },
+                "hex_color": "#069800"
+              }
+            },
+            {
+              "code": "NUT_SATURATED_FATTY_ACIDS",
+              "name": "of which saturates",
+              "operator": "=",
+              "pictogram_name": "saturated fatty acids",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0 g",
+                "numeric_value": 0,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 0,
+                "operator": "="
+              },
+              "rating": {
+                "value": 0,
+                "text": "low",
+                "icon": {
+                  "original": "https://image.migros.ch/original/a2b5e2562a4fedbbdec99c1932ec57c46c49cde4.svg",
+                  "stack": "https://image.migros.ch/{stack}/a2b5e2562a4fedbbdec99c1932ec57c46c49cde4.svg"
+                },
+                "hex_color": "#069800"
+              }
+            },
+            {
+              "code": "NUT_CARBOHYDRATES",
+              "name": "Carbohydrate",
+              "operator": "=",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0 g",
+                "numeric_value": 0,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 0,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_SUGAR",
+              "name": "of which sugars",
+              "operator": "=",
+              "pictogram_name": "Sugar",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0 g",
+                "numeric_value": 0,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 0,
+                "operator": "="
+              },
+              "rating": {
+                "value": 0,
+                "text": "low",
+                "icon": {
+                  "original": "https://image.migros.ch/original/a2b5e2562a4fedbbdec99c1932ec57c46c49cde4.svg",
+                  "stack": "https://image.migros.ch/{stack}/a2b5e2562a4fedbbdec99c1932ec57c46c49cde4.svg"
+                },
+                "hex_color": "#069800"
+              }
+            },
+            {
+              "code": "NUT_FIBER",
+              "name": "Fibre",
+              "operator": "=",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0 g",
+                "numeric_value": 0,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 0,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_PROTEIN",
+              "name": "Protein",
+              "operator": "=",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0 g",
+                "numeric_value": 0,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 0,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_SALT",
+              "name": "Salt",
+              "operator": "=",
+              "pictogram_name": "Salt",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0.02 g",
+                "numeric_value": 0.02,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 0,
+                "operator": "="
+              },
+              "rating": {
+                "value": 0,
+                "text": "low",
+                "icon": {
+                  "original": "https://image.migros.ch/original/a2b5e2562a4fedbbdec99c1932ec57c46c49cde4.svg",
+                  "stack": "https://image.migros.ch/{stack}/a2b5e2562a4fedbbdec99c1932ec57c46c49cde4.svg"
+                },
+                "hex_color": "#069800"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "recipe_ingredient_ids": [
+    "10000"
+  ],
+  "regional_availability": {
+    "gmaa": {
+      "probability": 70
+    },
+    "gmbs": {
+      "probability": 62
+    },
+    "gmge": {
+      "probability": 24
+    },
+    "gmlu": {
+      "probability": 44
+    },
+    "gmnf": {
+      "probability": 51
+    },
+    "gmos": {
+      "probability": 67
+    },
+    "gmti": {
+      "probability": 28
+    },
+    "gmvd": {
+      "probability": 57
+    },
+    "gmvs": {
+      "probability": 81
+    },
+    "gmzh": {
+      "probability": 52
+    }
+  },
+  "ratings": {
+    "count_all": 14,
+    "average_all": 3.5
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "updated_at": "2023-08-17T07:19:20+0200",
+  "sap_created_at": "2023-02-27T18:00:00+0100",
+  "online_shop_relevant": false,
+  "base_unit": "CU",
+  "co2_compensation": {
+    "kg_co2": 0.35,
+    "kg_co2_compensation": 0.35,
+    "is_compensated": false,
+    "mcheck_enabled": true
+  },
+  "origins": {
+    "producing_country": "Switzerland"
+  },
+  "views": [
+    "all",
+    "browse",
+    "browseallretailers"
+  ]
+}

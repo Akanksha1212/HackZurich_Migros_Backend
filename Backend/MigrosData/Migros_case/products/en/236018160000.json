@@ -1,0 +1,641 @@
+{
+  "id": "236018160000",
+  "language": "en",
+  "name": "Del Maître Bernerplatte",
+  "names": {
+    "short_name": "Del Maître Bernerplatte"
+  },
+  "slug": "del-maitre-bernerplatte",
+  "slugs": {
+    "de": "del-maitre-bernerplatte",
+    "fr": "del-maitre-choucroute-garnie-236018160000",
+    "it": "del-maitre-choucroute-garnie",
+    "en": "del-maitre-bernerplatte"
+  },
+  "type": "00",
+  "boss_number": "040114507530",
+  "data_source": "SAP-X11",
+  "status": {
+    "id": "currently-not-available",
+    "seasonal": true,
+    "pim_status": "88",
+    "description": "Currently with limited availability. Seasonal item."
+  },
+  "tags": [
+    "source-p4m",
+    "migipedia",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "2148669000004",
+    "7617027524988"
+  ],
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarket"
+  },
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "brand": {
+    "id": "BS5",
+    "name": "Del Maître",
+    "slug": "del-maitre"
+  },
+  "labels": [
+    {
+      "id": "L53",
+      "name": "Swissness",
+      "slug": "swissness",
+      "image": {
+        "original": "https://image.migros.ch/original/d771bba2f6b08ba42970ea0243c6f8c5a8832f15/swissness.jpg",
+        "stack": "https://image.migros.ch/{stack}/d771bba2f6b08ba42970ea0243c6f8c5a8832f15/swissness.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_01011306",
+      "name": "Convenience",
+      "slug": "supermarkt/lebensmittel/fertiggerichte-menues-snacks/convenience",
+      "visible": true,
+      "parent_code": "BeSS_010113",
+      "image": {
+        "original": "https://image.migros.ch/original/ff2960cfa2c4270a96095bf21ebe863e8aa99940/convenience.jpg",
+        "stack": "https://image.migros.ch/{stack}/ff2960cfa2c4270a96095bf21ebe863e8aa99940/convenience.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010113",
+      "name": "Fertiggerichte, Menüs & Snacks",
+      "slug": "supermarkt/lebensmittel/fertiggerichte-menues-snacks",
+      "visible": true,
+      "title": "Fertige Pizzen, Menüs und Snacks &ndash; schnell und lecker von der Migros",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/6770b6c8fbbd2689aece359ffeda93b90c58dd09/fertiggerichte-menues-snacks.jpg",
+        "stack": "https://image.migros.ch/{stack}/6770b6c8fbbd2689aece359ffeda93b90c58dd09/fertiggerichte-menues-snacks.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/31702195ec9d38aecefe80349eb347f79d56c750/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/31702195ec9d38aecefe80349eb347f79d56c750/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "online_relevant": [
+    {
+      "code": "MGB",
+      "name": "Migros Genossenschafts-Bund"
+    },
+    {
+      "code": "MO",
+      "name": "Migros Online"
+    }
+  ],
+  "links": {
+    "migros_ch": {
+      "url": "https://www.migros.ch/en/product/236018160000?context=instore",
+      "name": "In-store assortment",
+      "canonical": "https://www.migros.ch/en/product/236018160000?context=instore",
+      "type": "info",
+      "purchasable": false
+    },
+    "migros_online": {
+      "url": "https://www.migros.ch/en/product/236018160000?context=online",
+      "mo_product_id": "71675",
+      "name": "Online-shop assortment",
+      "canonical": "https://www.migros.ch/en/product/236018160000?context=instore",
+      "type": "shop",
+      "purchasable": true,
+      "one_catalog_id": 100011990
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/236018160000",
+      "name": "Migipedia",
+      "canonical": "https://www.migros.ch/en/product/236018160000?context=instore",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "has_safety_sheet": false,
+  "m_check2": {},
+  "receipt_text": "Bernerplatte",
+  "package": {
+    "content": 1000,
+    "content_unit_code": "g",
+    "content_unit": "Gram",
+    "net_weight": 1,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogram",
+    "type": "KG",
+    "portions_per_package": "1",
+    "brutto_weight": 1,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 3220,
+    "brutto_volume_unit_code": "ccm",
+    "height": 7,
+    "length": 23,
+    "width": 20,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100
+  },
+  "package_information": {
+    "tu": {
+      "gtins": [
+        "7617027372862"
+      ],
+      "brutto_weight": 1,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 31.92,
+      "brutto_volume_unit_code": "cdm",
+      "height": 13.3,
+      "length": 60,
+      "width": 40,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "kg": {
+      "gtins": [
+        "2148669000004",
+        "7617027524988"
+      ],
+      "brutto_weight": 1,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 3220,
+      "brutto_volume_unit_code": "ccm",
+      "height": 7,
+      "length": 23,
+      "width": 20,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    }
+  },
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "price": {
+    "valid_from": "2023-04-17T00:00:00+0200",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "source": "PriceRepository",
+    "no_price_hint": "Current daily price"
+  },
+  "image": {
+    "original": "https://image.migros.ch/original/a5d18d093f723ba51716655fe7acec5b6e9004d8/del-maitre-bernerplatte.jpg",
+    "stack": "https://image.migros.ch/{stack}/a5d18d093f723ba51716655fe7acec5b6e9004d8/del-maitre-bernerplatte.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/233121d06980c1f6331b7a182ff25587e23cfd90/del-maitre-bernerplatte.png",
+    "stack": "https://image.migros.ch/{stack}/233121d06980c1f6331b7a182ff25587e23cfd90/del-maitre-bernerplatte.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_EXPORTABLE",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_EXPORTABLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Normalposition"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZFRP",
+          "value": "Frische Beschaffung"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "ZFRP"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "70184",
+          "value": "HERBST / WINTER"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LIFECYCLE",
+      "values": [
+        {
+          "value_code": "D",
+          "value": "Detailhandelsartikel"
+        }
+      ],
+      "category_code": "MAPI_LIFECYCLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_STORAGE_CONDITIONS",
+      "values": [
+        {
+          "value_code": "02",
+          "value": "refrigerated"
+        }
+      ],
+      "category_code": "MAPI_STORAGE_CONDITIONS",
+      "top_fact": false
+    },
+    {
+      "label_code": "acxCommonmesswertcompensation",
+      "label": "CO2-Wert Kompensation",
+      "values": [
+        {
+          "value_code": "NUMERIC_3.44",
+          "value": "3.44",
+          "numeric_value": 3.44
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false,
+      "unit_code": "5d71456e-a520-4294-9ddb-add78f63ce83",
+      "unit": "Equivalence per kilogram",
+      "unit_symbol": "eq / kg"
+    }
+  ],
+  "declarations": {
+    "declaration_number": "Q_3199848991606035",
+    "tags": [
+      "source-qim"
+    ],
+    "gtins": [
+      "2148669000004"
+    ],
+    "valid_from": "2023-04-30T00:00:00+0200",
+    "product_details": {
+      "regulated_description": "Sauerkraut (50%) with meat products (Vienna sausage 13%, sausage 10%, Rack of Pork 10%, smoked bacon 7%) and potatoes (10%).",
+      "net_filled_quantity": {
+        "value": "800 g",
+        "numeric_value": 800,
+        "unit": "g"
+      }
+    },
+    "distributor": {
+      "name": "Del Maitre SA",
+      "address": "Route de Satigny 60 - 1242 Satigny - CH"
+    },
+    "general_information": [
+      {
+        "label": "Consumer storage instructions",
+        "values": [
+          "Store between +1°C and +5°C."
+        ]
+      }
+    ],
+    "ingredients_information": {
+      "ingredients_text": "Ingredient: Sauerkraut 50% [white cabbage 93%, lard 4% (with preservative: E250, antioxidants: E301, E331, E262 and E330), salt, condiment (with flavor enhancers: E627, E631, and monosodium glutamate) , rapeseed oil, white wine, chicken broth ( flavor enhancers: E621, E627, E631), juniper, onion powder, antioxidant: ascorbic acid], meat products 40% [pork meat, lard, water, beef meat, pork rind, nitrite curing salt (salt, preservative: E250), spices, broth powder (with pork gelatin), glucose syrup, glucose, maltodextrin, sugar, red wine, flavors, antioxidants : ascorbic acid, E301 and E331, stabilizers: E450, E451, acidifying agents: citric acid, E262 and E575, flavor enhancer: monosodium glutamate, Casing: sheep natural casing and pork natural casing], potatoes 10%."
+    },
+    "nutrition_facts": {
+      "reference_sizes": {
+        "standard": {
+          "base": {
+            "quantity": {
+              "value": "100 g",
+              "numeric_value": 100,
+              "unit": "g"
+            }
+          },
+          "nutrients": [
+            {
+              "code": "NUT_ENERGY",
+              "name": "Energy",
+              "operator": "~",
+              "pictogram_name": "Energy",
+              "category": "BIG9",
+              "quantity": {
+                "value": "562.0 kJ",
+                "numeric_value": 562,
+                "unit": "kJ",
+                "alternate": {
+                  "value": "135.0 kcal",
+                  "numeric_value": 135,
+                  "unit": "kcal"
+                }
+              }
+            },
+            {
+              "code": "NUT_FAT",
+              "name": "Fat",
+              "operator": "~",
+              "pictogram_name": "Fat",
+              "category": "BIG9",
+              "quantity": {
+                "value": "9.0 g",
+                "numeric_value": 9,
+                "unit": "g"
+              },
+              "rating": {
+                "value": 1,
+                "text": "medium",
+                "icon": {
+                  "original": "https://image.migros.ch/original/b84b389195e426a9e6b4cd66f2c79b1a049809da.svg",
+                  "stack": "https://image.migros.ch/{stack}/b84b389195e426a9e6b4cd66f2c79b1a049809da.svg"
+                },
+                "hex_color": "#e8a800"
+              }
+            },
+            {
+              "code": "NUT_SATURATED_FATTY_ACIDS",
+              "name": "of which saturates",
+              "operator": "~",
+              "pictogram_name": "saturated fatty acids",
+              "category": "BIG9",
+              "quantity": {
+                "value": "1.5 g",
+                "numeric_value": 1.5,
+                "unit": "g"
+              },
+              "rating": {
+                "value": 0,
+                "text": "low",
+                "icon": {
+                  "original": "https://image.migros.ch/original/a2b5e2562a4fedbbdec99c1932ec57c46c49cde4.svg",
+                  "stack": "https://image.migros.ch/{stack}/a2b5e2562a4fedbbdec99c1932ec57c46c49cde4.svg"
+                },
+                "hex_color": "#069800"
+              }
+            },
+            {
+              "code": "NUT_CARBOHYDRATES",
+              "name": "Carbohydrate",
+              "operator": "~",
+              "category": "BIG9",
+              "quantity": {
+                "value": "4.5 g",
+                "numeric_value": 4.5,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_SUGAR",
+              "name": "of which sugars",
+              "operator": "~",
+              "pictogram_name": "Sugar",
+              "category": "BIG9",
+              "quantity": {
+                "value": "2.5 g",
+                "numeric_value": 2.5,
+                "unit": "g"
+              },
+              "rating": {
+                "value": 0,
+                "text": "low",
+                "icon": {
+                  "original": "https://image.migros.ch/original/a2b5e2562a4fedbbdec99c1932ec57c46c49cde4.svg",
+                  "stack": "https://image.migros.ch/{stack}/a2b5e2562a4fedbbdec99c1932ec57c46c49cde4.svg"
+                },
+                "hex_color": "#069800"
+              }
+            },
+            {
+              "code": "NUT_FIBER",
+              "name": "Fibre",
+              "operator": "~",
+              "category": "BIG9",
+              "quantity": {
+                "value": "2.0 g",
+                "numeric_value": 2,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_PROTEIN",
+              "name": "Protein",
+              "operator": "~",
+              "category": "BIG9",
+              "quantity": {
+                "value": "8.0 g",
+                "numeric_value": 8,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_SALT",
+              "name": "Salt",
+              "operator": "~",
+              "pictogram_name": "Salt",
+              "category": "BIG9",
+              "quantity": {
+                "value": "1.6 g",
+                "numeric_value": 1.6,
+                "unit": "g"
+              },
+              "rating": {
+                "value": 2,
+                "text": "high",
+                "icon": {
+                  "original": "https://image.migros.ch/original/9aa833abc7cb7207238c3e98a1253eeb7bceee1f.svg",
+                  "stack": "https://image.migros.ch/{stack}/9aa833abc7cb7207238c3e98a1253eeb7bceee1f.svg"
+                },
+                "hex_color": "#cc0000"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "recipe_ingredient_ids": [
+    "10000"
+  ],
+  "regional_availability": {
+    "gmaa": {
+      "probability": 0
+    },
+    "gmbs": {
+      "probability": 0
+    },
+    "gmge": {
+      "probability": 0
+    },
+    "gmlu": {
+      "probability": 0
+    },
+    "gmnf": {
+      "probability": 0
+    },
+    "gmos": {
+      "probability": 0
+    },
+    "gmti": {
+      "probability": 0
+    },
+    "gmvd": {
+      "probability": 0
+    },
+    "gmvs": {
+      "probability": 0
+    },
+    "gmzh": {
+      "probability": 0
+    }
+  },
+  "ratings": {
+    "count_all": 14,
+    "average_all": 4.142857142857
+  },
+  "related_products": {
+    "purchase_recommendations": {
+      "product_ids": [
+        "236717770200",
+        "236714001500",
+        "236796255500",
+        "236771571000"
+      ]
+    }
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "updated_at": "2023-08-17T12:00:16+0200",
+  "sap_created_at": "2006-11-14T18:00:00+0100",
+  "online_shop_relevant": false,
+  "base_unit": "KG",
+  "co2_compensation": {
+    "kg_co2": 3.44,
+    "kg_co2_compensation": 3.44,
+    "is_compensated": false,
+    "mcheck_enabled": false
+  },
+  "origins": {
+    "producing_country": "Switzerland"
+  },
+  "views": [
+    "all",
+    "browse",
+    "browseallretailers"
+  ]
+}

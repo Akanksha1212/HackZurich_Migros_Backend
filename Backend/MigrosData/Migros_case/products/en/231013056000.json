@@ -1,0 +1,616 @@
+{
+  "id": "231013056000",
+  "language": "en",
+  "name": "Migros Bio Lyoner",
+  "names": {
+    "short_name": "Migros Bio Lyoner"
+  },
+  "slug": "migros-bio-lyoner",
+  "slugs": {
+    "de": "migros-bio-lyoner",
+    "fr": "migros-bio-saucisse-de-lyon",
+    "it": "migros-bio-salsiccia-di-lione",
+    "en": "migros-bio-lyoner"
+  },
+  "type": "00",
+  "boss_number": "040114505505",
+  "description": {
+    "text": "<p><strong>Aus der Region - Bio-Lyoner</strong></p><p>Hergestellt in der Schweiz aus Zentralschweizer Fleisch</p><p><strong>Bio-Fleischerzeugnis gekocht</strong></p><p>Zertifikat: CH-Bio-006, bio.inspecta AG</p>",
+    "source": "P4M"
+  },
+  "data_source": "SAP-X11",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "80"
+  },
+  "tags": [
+    "source-p4m",
+    "migipedia",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "2163409000007",
+    "7613404019160"
+  ],
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarket"
+  },
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "brand": {
+    "id": "E28",
+    "name": "Migros Bio",
+    "slug": "migros-bio"
+  },
+  "labels": [
+    {
+      "id": "L53",
+      "name": "Swissness",
+      "slug": "swissness",
+      "image": {
+        "original": "https://image.migros.ch/original/d771bba2f6b08ba42970ea0243c6f8c5a8832f15/swissness.jpg",
+        "stack": "https://image.migros.ch/{stack}/d771bba2f6b08ba42970ea0243c6f8c5a8832f15/swissness.jpg"
+      }
+    },
+    {
+      "id": "L02",
+      "name": "Migros Organic Guidelines",
+      "slug": "migros-organic-guidelines",
+      "links": {
+        "homepage": {
+          "url": "https://bio.migros.ch/de.html",
+          "name": "Homepage",
+          "type": "info",
+          "purchasable": false
+        }
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_0101061107",
+      "name": "Gekühlte Wurst und Fleischwaren aus Bio Fleisch",
+      "slug": "supermarkt/lebensmittel/fleisch/charcuterie-produkte/gekuehlte-wurst-und-fleischwaren-aus-bio-fleisch",
+      "visible": true,
+      "parent_code": "BeSS_01010611",
+      "level": 5
+    },
+    {
+      "code": "BeSS_01010611",
+      "name": "Charcuterie Produkte",
+      "slug": "supermarkt/lebensmittel/fleisch/charcuterie-produkte",
+      "visible": true,
+      "title": "Vielfältige Charcuterie-Produkte jetzt in Ihrer Migros",
+      "parent_code": "BeSS_010106",
+      "image": {
+        "original": "https://image.migros.ch/original/8285499b3bf113ad96e1303e7d1fcf0e0dff4734/charcuterie-produkte.jpg",
+        "stack": "https://image.migros.ch/{stack}/8285499b3bf113ad96e1303e7d1fcf0e0dff4734/charcuterie-produkte.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010106",
+      "name": "Fleisch",
+      "slug": "supermarkt/lebensmittel/fleisch",
+      "visible": true,
+      "title": "Fleisch ausgezeichneter Qualität aus Ihrer Migros: einfach gut",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/03d32c0880d7a9ea6e58971966032e65ac442b58/fleisch.jpg",
+        "stack": "https://image.migros.ch/{stack}/03d32c0880d7a9ea6e58971966032e65ac442b58/fleisch.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/31702195ec9d38aecefe80349eb347f79d56c750/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/31702195ec9d38aecefe80349eb347f79d56c750/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "online_relevant": [
+    {
+      "code": "MGB",
+      "name": "Migros Genossenschafts-Bund"
+    }
+  ],
+  "links": {
+    "migros_ch": {
+      "url": "https://www.migros.ch/en/product/231013056000?context=instore",
+      "name": "In-store assortment",
+      "canonical": "https://www.migros.ch/en/product/231013056000?context=instore",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/231013056000",
+      "name": "Migipedia",
+      "canonical": "https://www.migros.ch/en/product/231013056000?context=instore",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "has_safety_sheet": false,
+  "m_check2": {
+    "carbon_footprint": {
+      "image": {
+        "original": "https://image.migros.ch/original/6137c42cbff331738ddeafb4f91efb06075417b3.svg",
+        "stack": "https://image.migros.ch/{stack}/6137c42cbff331738ddeafb4f91efb06075417b3.svg"
+      },
+      "ground_and_sea_cargo": {
+        "kg_co2": 7.599,
+        "kg_co2_range": "4.8 - 9.9 kg CO₂eq / kg",
+        "co2_in_car_km": 42,
+        "rating": 2,
+        "production_in_percent": 97,
+        "packaging_in_percent": 2,
+        "transport_in_percent": 0
+      }
+    },
+    "animal_welfare": {
+      "rating": 5,
+      "label": "Animal welfare",
+      "image": {
+        "original": "https://image.migros.ch/original/5717f598b081409c70bd598219d9bb2cc5d14bb1.svg",
+        "stack": "https://image.migros.ch/{stack}/5717f598b081409c70bd598219d9bb2cc5d14bb1.svg"
+      }
+    }
+  },
+  "receipt_text": "Bio Lyoner",
+  "package": {
+    "content": 1000,
+    "content_unit_code": "g",
+    "content_unit": "Gram",
+    "net_weight": 1,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogram",
+    "type": "KG",
+    "portions_per_package": "1",
+    "brutto_weight": 1,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 0.912,
+    "brutto_volume_unit_code": "cdm",
+    "height": 24,
+    "length": 2,
+    "width": 19,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100
+  },
+  "package_information": {
+    "tu": {
+      "gtins": [
+        "7613404019153"
+      ],
+      "brutto_weight": 1,
+      "brutto_weight_unit_code": "kg",
+      "number_of_base_units": 1
+    },
+    "kg": {
+      "gtins": [
+        "2163409000007",
+        "7613404019160"
+      ],
+      "brutto_weight": 1,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.912,
+      "brutto_volume_unit_code": "cdm",
+      "height": 24,
+      "length": 2,
+      "width": 19,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    }
+  },
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "price": {
+    "valid_from": "2018-02-27T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 3.7,
+      "quantity": 100,
+      "unit": "g",
+      "varying_quantity": true,
+      "display_quantity": "100 g"
+    },
+    "base": {
+      "price": 3.7,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "features": [
+    {
+      "label_code": "acxMISOform",
+      "label": "Form",
+      "values": [
+        {
+          "value": "trimmed"
+        }
+      ],
+      "category_code": "ecxMISOCLAwuerstefleischgefluegelsonstigetierebearbeitetverarbeitetfleischgefluegelsonstigetierelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOcugebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "erxMISOcugebindeartkunststoffverpackung",
+          "value": "Kunststoff-Verpackung"
+        }
+      ],
+      "category_code": "ecxMISOCLAwuerstefleischgefluegelsonstigetierebearbeitetverarbeitetfleischgefluegelsonstigetierelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOproduktionsanspruch",
+      "label": "Produktionsverfahren",
+      "values": [
+        {
+          "value_code": "erxMISOproduktionsanspruchausderregion",
+          "value": "Aus der Region"
+        },
+        {
+          "value_code": "erxMISOproduktionsanspruchbioproduktionschweiz",
+          "value": "Bio-Produktion Schweiz"
+        },
+        {
+          "value_code": "erxMISOproduktionsanspruchgekocht",
+          "value": "Gekocht"
+        },
+        {
+          "value_code": "erxMISOproduktionsanspruchschweizerfleisch",
+          "value": "Schweizer Fleisch"
+        }
+      ],
+      "category_code": "ecxMISOCLAwuerstefleischgefluegelsonstigetierebearbeitetverarbeitetfleischgefluegelsonstigetierelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOzubereitungsverfahren",
+      "label": "Hinweise für die Zubereitung",
+      "values": [
+        {
+          "value_code": "erxMISOzubereitungsverfahrenverzehrfertig",
+          "value": "verzehrfertig"
+        }
+      ],
+      "category_code": "ecxMISOCLAwuerstefleischgefluegelsonstigetierebearbeitetverarbeitetfleischgefluegelsonstigetierelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOprodukttypischesmerkmal",
+      "label": "Produkttypisches Merkmal",
+      "values": [
+        {
+          "value": "cooked"
+        }
+      ],
+      "category_code": "ecxMISOCLAwuerstefleischgefluegelsonstigetierebearbeitetverarbeitetfleischgefluegelsonstigetierelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOzusaetzlicheeigenschaft",
+      "label": "Zusätzliche Eigenschaft",
+      "values": [
+        {
+          "value_code": "erxMISOzusaetzlicheeigenschaftnature",
+          "value": "natural"
+        }
+      ],
+      "category_code": "ecxMISOCLAwuerstefleischgefluegelsonstigetierebearbeitetverarbeitetfleischgefluegelsonstigetierelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/e1dd81aa61114bcf4da6166343d1c5a6d45773e3/migros-bio-lyoner.jpg",
+    "stack": "https://image.migros.ch/{stack}/e1dd81aa61114bcf4da6166343d1c5a6d45773e3/migros-bio-lyoner.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/ef38f6818d300a295a8906d8b60cf0e0fca925ff/migros-bio-lyoner.png",
+    "stack": "https://image.migros.ch/{stack}/ef38f6818d300a295a8906d8b60cf0e0fca925ff/migros-bio-lyoner.png"
+  },
+  "additional_images": [
+    {
+      "original": "https://image.migros.ch/original/5e13518cef37f08214676e23fcbdf725bc39213c.jpg",
+      "stack": "https://image.migros.ch/{stack}/5e13518cef37f08214676e23fcbdf725bc39213c.jpg"
+    }
+  ],
+  "internal_features": [
+    {
+      "label_code": "MAPI_EXPORTABLE",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_EXPORTABLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Normalposition"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZFRP",
+          "value": "Frische Beschaffung"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "ZFRP"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "70124",
+          "value": "BIO"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LIFECYCLE",
+      "values": [
+        {
+          "value_code": "D",
+          "value": "Detailhandelsartikel"
+        }
+      ],
+      "category_code": "MAPI_LIFECYCLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_STORAGE_CONDITIONS",
+      "values": [
+        {
+          "value_code": "02",
+          "value": "refrigerated"
+        }
+      ],
+      "category_code": "MAPI_STORAGE_CONDITIONS",
+      "top_fact": false
+    },
+    {
+      "label_code": "acxCommonarticlecocompensated",
+      "label": "Artikel Co2 kompensiert",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false
+    },
+    {
+      "label_code": "acxCommonmesswertcompensation",
+      "label": "CO2-Wert Kompensation",
+      "values": [
+        {
+          "value_code": "NUMERIC_7.599",
+          "value": "7.599",
+          "numeric_value": 7.599
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false,
+      "unit_code": "5d71456e-a520-4294-9ddb-add78f63ce83",
+      "unit": "Equivalence per kilogram",
+      "unit_symbol": "eq / kg"
+    },
+    {
+      "label_code": "acxCommonoutputmcheckclimatedeclaration",
+      "label": "Auslobung M-Check Klimadeklaration",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Yes",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false
+    }
+  ],
+  "recipe_ingredient_ids": [
+    "10000"
+  ],
+  "regional_availability": {
+    "gmaa": {
+      "probability": 0
+    },
+    "gmbs": {
+      "probability": 0
+    },
+    "gmge": {
+      "probability": 0
+    },
+    "gmlu": {
+      "probability": 32
+    },
+    "gmnf": {
+      "probability": 0
+    },
+    "gmos": {
+      "probability": 0
+    },
+    "gmti": {
+      "probability": 0
+    },
+    "gmvd": {
+      "probability": 0
+    },
+    "gmvs": {
+      "probability": 0
+    },
+    "gmzh": {
+      "probability": 0
+    }
+  },
+  "ratings": {
+    "count_all": 2,
+    "average_all": 5
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "updated_at": "2023-08-17T07:27:18+0200",
+  "sap_created_at": "2018-02-06T18:00:00+0100",
+  "online_shop_relevant": false,
+  "base_unit": "KG",
+  "co2_compensation": {
+    "kg_co2": 7.599,
+    "kg_co2_compensation": 7.599,
+    "is_compensated": false,
+    "mcheck_enabled": true
+  },
+  "views": [
+    "all",
+    "browse",
+    "browseallretailers"
+  ]
+}

@@ -1,0 +1,491 @@
+{
+  "id": "500584200000",
+  "language": "en",
+  "name": "Weichspüler Florence Flasche",
+  "names": {
+    "short_name": "Weichspüler Florence Flasche"
+  },
+  "slug": "weichspueler-florence-flasche",
+  "slugs": {
+    "de": "weichspueler-florence-flasche",
+    "fr": "assouplissant-florence-15l-b",
+    "it": "ammorbidente-florence-15l-b",
+    "en": "weichspueler-florence-flasche"
+  },
+  "type": "00",
+  "boss_number": "150126758080",
+  "data_source": "SAP-X11",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03",
+    "distribution_center": [
+      {
+        "center_id": "1000",
+        "center_name": "Migros Verteilzentrum Suhr",
+        "status_description": "product.status.distribution_center."
+      },
+      {
+        "center_id": "1001",
+        "center_name": "Migros Verteilzentrum Neuendorf",
+        "status_description": "product.status.distribution_center."
+      },
+      {
+        "center_id": "1020",
+        "center_name": "Regionallager Basel",
+        "status_description": "product.status.distribution_center."
+      },
+      {
+        "center_id": "1030",
+        "center_name": "Regionallager Aare",
+        "status_description": "product.status.distribution_center."
+      },
+      {
+        "center_id": "1040",
+        "center_name": "Entrepôt régional Genève",
+        "status_description": "product.status.distribution_center."
+      },
+      {
+        "center_id": "1060",
+        "center_name": "Entrepôt régional Vaud",
+        "status_description": "product.status.distribution_center."
+      },
+      {
+        "center_id": "1070",
+        "center_name": "Regionallager Luzern",
+        "status_description": "product.status.distribution_center."
+      },
+      {
+        "center_id": "1080",
+        "center_name": "Entrepôt régional Neuchâtel /",
+        "status_description": "product.status.distribution_center."
+      },
+      {
+        "center_id": "1090",
+        "center_name": "Regionallager Ostschweiz",
+        "status_description": "product.status.distribution_center."
+      },
+      {
+        "center_id": "1120",
+        "center_name": "Magazzino regionale Ticino",
+        "status_description": "product.status.distribution_center."
+      },
+      {
+        "center_id": "1130",
+        "center_name": "Entrepôt régional Valais",
+        "status_description": "product.status.distribution_center."
+      },
+      {
+        "center_id": "1150",
+        "center_name": "Regionallager Zürich",
+        "status_description": "product.status.distribution_center."
+      }
+    ]
+  },
+  "tags": [
+    "source-pex",
+    "near-non-food",
+    "migipedia",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7617300727020"
+  ],
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarket"
+  },
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "brand": {
+    "id": "272",
+    "name": "Exelia",
+    "slug": "exelia"
+  },
+  "categories": [
+    {
+      "code": "BeSS_0104011001",
+      "name": "Special",
+      "slug": "supermarkt/haushalt-reinigung/waschen-reinigen-pflege/sonstiges/special",
+      "visible": true,
+      "parent_code": "BeSS_01040110",
+      "level": 5
+    },
+    {
+      "code": "BeSS_01040110",
+      "name": "Sonstiges",
+      "slug": "supermarkt/haushalt-reinigung/waschen-reinigen-pflege/sonstiges",
+      "visible": true,
+      "parent_code": "BeSS_010401",
+      "level": 4
+    },
+    {
+      "code": "BeSS_010401",
+      "name": "Waschen, Reinigen & Pflege",
+      "slug": "supermarkt/haushalt-reinigung/waschen-reinigen-pflege",
+      "visible": true,
+      "parent_code": "BeSS_0104",
+      "image": {
+        "original": "https://image.migros.ch/original/37d8921589f88cd40b1c580b957a6a414e1fe1d1/waschen-reinigen-pflege.jpg",
+        "stack": "https://image.migros.ch/{stack}/37d8921589f88cd40b1c580b957a6a414e1fe1d1/waschen-reinigen-pflege.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0104",
+      "name": "Haushalt & Reinigung",
+      "slug": "supermarkt/haushalt-reinigung",
+      "visible": true,
+      "title": "Reinigung mit der Migros – Reiniger für Haushalt und Garten",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png",
+        "stack": "https://image.migros.ch/{stack}/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "online_relevant": [
+    {
+      "code": "MGB",
+      "name": "Migros Genossenschafts-Bund"
+    }
+  ],
+  "links": {
+    "migros_ch": {
+      "url": "https://www.migros.ch/en/product/500584200000?context=instore",
+      "name": "In-store assortment",
+      "canonical": "https://www.migros.ch/en/product/500584200000?context=instore",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/500584200000",
+      "name": "Migipedia",
+      "canonical": "https://www.migros.ch/en/product/500584200000?context=instore",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "m_check2": {},
+  "receipt_text": "Exelia Florence 1.5l F",
+  "package": {
+    "net_weight": 1.537,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "brutto_weight": 1.608,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 3.403,
+    "brutto_volume_unit_code": "cdm",
+    "height": 27.2,
+    "length": 9,
+    "width": 13.9,
+    "unit_dimension": "cm"
+  },
+  "package_information": {
+    "tu": {
+      "gtins": [
+        "7617300727037"
+      ],
+      "brutto_weight": 13.1,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 31.117,
+      "brutto_volume_unit_code": "cdm",
+      "height": 29,
+      "length": 37,
+      "width": 29,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 8
+    },
+    "cu": {
+      "gtins": [
+        "7617300727020"
+      ],
+      "brutto_weight": 1.608,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 3.403,
+      "brutto_volume_unit_code": "cdm",
+      "height": 27.2,
+      "length": 9,
+      "width": 13.9,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "lu": {
+      "height": 160,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 320
+    }
+  },
+  "vat": {
+    "id": 1,
+    "percentage": 7.7
+  },
+  "price": {
+    "valid_from": "2018-01-01T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 6.5,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false
+    }
+  },
+  "image": {
+    "original": "https://image.migros.ch/original/ee7269dcc6e9eb225fcce98d10c27d9b0de13e88/weichspueler-florence-flasche.jpg",
+    "stack": "https://image.migros.ch/{stack}/ee7269dcc6e9eb225fcce98d10c27d9b0de13e88/weichspueler-florence-flasche.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/8d1460584ff31c71be318f31c64d07782f159048/weichspueler-florence-flasche.png",
+    "stack": "https://image.migros.ch/{stack}/8d1460584ff31c71be318f31c64d07782f159048/weichspueler-florence-flasche.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Standard item"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "ZHKS"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUSTOMS_POSITION",
+      "values": [
+        {
+          "value": "3402.2000"
+        }
+      ],
+      "category_code": "MAPI_CUSTOMS_POSITION",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RISK_CLASS",
+      "values": [
+        {
+          "value_code": "2",
+          "value": "2 (medium)"
+        }
+      ],
+      "category_code": "MAPI_RISK_CLASS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_QUALITY_CHECK",
+      "values": [
+        {
+          "value_code": "00",
+          "value": "No Quality Control"
+        }
+      ],
+      "category_code": "MAPI_QUALITY_CHECK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZHKS",
+          "value": "HKS Standardartikel"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "S",
+          "value": "Sellout"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "50191",
+          "value": "SE WASCHMITTEL"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LIFECYCLE",
+      "values": [
+        {
+          "value_code": "S",
+          "value": "Sellout"
+        }
+      ],
+      "category_code": "MAPI_LIFECYCLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Yes",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_EXPORTABLE",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_EXPORTABLE",
+      "top_fact": false
+    }
+  ],
+  "regional_availability": {
+    "gmaa": {
+      "probability": 0
+    },
+    "gmbs": {
+      "probability": 0
+    },
+    "gmge": {
+      "probability": 0
+    },
+    "gmlu": {
+      "probability": 0
+    },
+    "gmnf": {
+      "probability": 0
+    },
+    "gmos": {
+      "probability": 0
+    },
+    "gmti": {
+      "probability": 0
+    },
+    "gmvd": {
+      "probability": 0
+    },
+    "gmvs": {
+      "probability": 0
+    },
+    "gmzh": {
+      "probability": 0
+    }
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "updated_at": "2023-08-11T09:25:50+0200",
+  "sap_created_at": "2013-03-07T00:00:00+0100",
+  "base_unit": "CU",
+  "views": [
+    "all",
+    "browse",
+    "browseallretailers"
+  ]
+}

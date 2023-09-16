@@ -1,0 +1,844 @@
+{
+  "id": "160916500000",
+  "language": "en",
+  "name": "Crème d'Or Caramel",
+  "names": {
+    "short_name": "Crème d'Or Caramel"
+  },
+  "slug": "creme-dor-caramel-160916500000",
+  "slugs": {
+    "de": "creme-dor-caramel-160916500000",
+    "fr": "creme-dor-caramel-160916500000",
+    "it": "creme-dor-caramello-160916500000",
+    "en": "creme-dor-caramel-160916500000"
+  },
+  "type": "00",
+  "boss_number": "010518010605",
+  "data_source": "SAP-X11",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03"
+  },
+  "tags": [
+    "source-p4m",
+    "migipedia",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613312402313"
+  ],
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarket"
+  },
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "brand": {
+    "id": "037",
+    "name": "Crème d'or",
+    "slug": "creme-dor",
+    "image": {
+      "original": "https://image.migros.ch/original/d1ca0b950430306971616da0c605e3a608a969a4/creme-dor.jpg",
+      "stack": "https://image.migros.ch/{stack}/d1ca0b950430306971616da0c605e3a608a969a4/creme-dor.jpg"
+    }
+  },
+  "labels": [
+    {
+      "id": "L79",
+      "name": "Nutri-Score",
+      "slug": "nutri-score"
+    },
+    {
+      "id": "L53",
+      "name": "Swissness",
+      "slug": "swissness",
+      "image": {
+        "original": "https://image.migros.ch/original/d771bba2f6b08ba42970ea0243c6f8c5a8832f15/swissness.jpg",
+        "stack": "https://image.migros.ch/{stack}/d771bba2f6b08ba42970ea0243c6f8c5a8832f15/swissness.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_01011507",
+      "name": "Glacé & Süssspeisen",
+      "slug": "supermarkt/lebensmittel/tiefkuehlprodukte/glace-suessspeisen",
+      "visible": true,
+      "title": "Sommer und Sonne &ndash; noch schöner mit Glacés von der Migros",
+      "parent_code": "BeSS_010115",
+      "image": {
+        "original": "https://image.migros.ch/original/7bdaa2df1262b11cfd6fc23b22ad4daf5e034702/glace-suessspeisen.jpg",
+        "stack": "https://image.migros.ch/{stack}/7bdaa2df1262b11cfd6fc23b22ad4daf5e034702/glace-suessspeisen.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010115",
+      "name": "Tiefkühlprodukte",
+      "slug": "supermarkt/lebensmittel/tiefkuehlprodukte",
+      "visible": true,
+      "title": "Tiefkühlprodukte aus Ihrer Migros: schnell etwas Feines auf Ihren Tisch",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/b8e389701dd44ecdd5fbc95db5eed9b0a8c4a03d/tiefkuehlprodukte.jpg",
+        "stack": "https://image.migros.ch/{stack}/b8e389701dd44ecdd5fbc95db5eed9b0a8c4a03d/tiefkuehlprodukte.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/31702195ec9d38aecefe80349eb347f79d56c750/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/31702195ec9d38aecefe80349eb347f79d56c750/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "online_relevant": [
+    {
+      "code": "MGB",
+      "name": "Migros Genossenschafts-Bund"
+    }
+  ],
+  "links": {
+    "migros_ch": {
+      "url": "https://www.migros.ch/en/product/160916500000?context=instore",
+      "name": "In-store assortment",
+      "canonical": "https://www.migros.ch/en/product/160916500000?context=instore",
+      "type": "info",
+      "purchasable": false
+    },
+    "migros_online": {
+      "url": "https://www.migros.ch/en/product/160916500000?context=online",
+      "mo_product_id": "10586419",
+      "name": "Online-shop assortment",
+      "canonical": "https://www.migros.ch/en/product/160916500000?context=instore",
+      "type": "shop",
+      "purchasable": true,
+      "one_catalog_id": 100124816
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/160916500000",
+      "name": "Migipedia",
+      "canonical": "https://www.migros.ch/en/product/160916500000?context=instore",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "has_safety_sheet": false,
+  "m_check2": {},
+  "receipt_text": "Crème d'Or Caram 170ml",
+  "package": {
+    "content": 170,
+    "content_unit_code": "ml",
+    "content_unit": "Millilitre",
+    "net_weight": 0.095,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogram",
+    "type": "Cup",
+    "portions_per_package": "1",
+    "precision": "exact",
+    "brutto_weight": 0.108,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 0.416,
+    "brutto_volume_unit_code": "cdm",
+    "height": 5.5,
+    "length": 10.8,
+    "width": 7,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "170 ml"
+  },
+  "package_information": {
+    "tu": {
+      "gtins": [
+        "7613312402320"
+      ],
+      "brutto_weight": 1.393,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 6.359,
+      "brutto_volume_unit_code": "cdm",
+      "height": 16.5,
+      "length": 23.5,
+      "width": 16.4,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 12
+    },
+    "cu": {
+      "gtins": [
+        "7613312402313"
+      ],
+      "brutto_weight": 0.108,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.416,
+      "brutto_volume_unit_code": "cdm",
+      "height": 5.5,
+      "length": 10.8,
+      "width": 7,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "lu": {
+      "brutto_weight": 300.814,
+      "brutto_weight_unit_code": "kg",
+      "length": 120,
+      "width": 80,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 2376
+    }
+  },
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "price": {
+    "valid_from": "2023-01-18T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 3.35,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "170 ml"
+    },
+    "base": {
+      "price": 1.97,
+      "quantity": 100,
+      "unit": "ML"
+    }
+  },
+  "image": {
+    "original": "https://image.migros.ch/original/3bf3c5d69f6ca7a2a05f3082249ccfe1816655f6/creme-dor-caramel.jpg",
+    "stack": "https://image.migros.ch/{stack}/3bf3c5d69f6ca7a2a05f3082249ccfe1816655f6/creme-dor-caramel.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/ea7e5abc87723c2468b51c60cc6430c422b4f6aa/creme-dor-caramel.png",
+    "stack": "https://image.migros.ch/{stack}/ea7e5abc87723c2468b51c60cc6430c422b4f6aa/creme-dor-caramel.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_EXPORTABLE",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Yes",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MAPI_EXPORTABLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Normalposition"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "HAWA"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "30220",
+          "value": "PREMIUM CUPS"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_KUBE_TUKA",
+      "values": [
+        {
+          "value_code": "BLANK",
+          "value": "KUBE und TUKA nicht zugelassen"
+        }
+      ],
+      "category_code": "MAPI_KUBE_TUKA",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LIFECYCLE",
+      "values": [
+        {
+          "value_code": "D",
+          "value": "Detailhandelsartikel"
+        }
+      ],
+      "category_code": "MAPI_LIFECYCLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_STORAGE_CONDITIONS",
+      "values": [
+        {
+          "value_code": "03",
+          "value": "frozen"
+        }
+      ],
+      "category_code": "MAPI_STORAGE_CONDITIONS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_MULTIPACK",
+      "values": [
+        {
+          "value_code": "0",
+          "value": "No pack expression"
+        }
+      ],
+      "category_code": "MAPI_MULTIPACK",
+      "top_fact": false
+    }
+  ],
+  "declarations": {
+    "declaration_number": "Q_1604593689671335",
+    "tags": [
+      "source-qim"
+    ],
+    "gtins": [
+      "7613312402313"
+    ],
+    "valid_from": "2023-01-26T01:00:00+0100",
+    "product_details": {
+      "package": {
+        "type": "Cup",
+        "number_of_portions": "1",
+        "number_of_portions_operator": "="
+      },
+      "net_filled_quantity": {
+        "value": "170 ml",
+        "numeric_value": 170,
+        "unit": "ml"
+      }
+    },
+    "ingredients_information": {
+      "ingredients_text": "whole <strong>milk</strong> 32%, <strong>cream</strong> 25%, sugar, glucose-fructose syrup, condensed <strong>milk</strong>, skimmed <strong>milk</strong> powder, glucose, <strong>butter</strong>, <strong>egg</strong> yolk (free range), inulin, <strong>milk</strong> protein, rice flour, rice starch, natural flavourings, caramel sugar, table salt.",
+      "allergens_information": {
+        "allergens": [
+          {
+            "code": "ALLG_MILCH",
+            "label": "Milk and products thereof",
+            "contamination_code": "VORHANDEN",
+            "contamination_label": "contains"
+          },
+          {
+            "code": "ALLG_EIER",
+            "label": "Eggs and products thereof",
+            "contamination_code": "VORHANDEN",
+            "contamination_label": "contains"
+          }
+        ]
+      }
+    },
+    "nutrition_facts": {
+      "nutri_score": {
+        "value": "D",
+        "image": {
+          "original": "https://image.migros.ch/original/531f7e8addf101c23747ad251d46265c2b762625.png",
+          "stack": "https://image.migros.ch/{stack}/531f7e8addf101c23747ad251d46265c2b762625.png"
+        }
+      },
+      "reference_sizes": {
+        "standard": {
+          "base": {
+            "quantity": {
+              "value": "100 g",
+              "numeric_value": 100,
+              "unit": "g"
+            }
+          },
+          "nutrients": [
+            {
+              "code": "NUT_ENERGY",
+              "name": "Energy",
+              "operator": "=",
+              "pictogram_name": "Energy",
+              "category": "BIG9",
+              "quantity": {
+                "value": "1135 kJ",
+                "numeric_value": 1135,
+                "unit": "kJ",
+                "alternate": {
+                  "value": "271 kcal",
+                  "numeric_value": 271,
+                  "unit": "kcal"
+                }
+              },
+              "rda": {
+                "percent": 0,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_FAT",
+              "name": "Fat",
+              "operator": "=",
+              "pictogram_name": "Fat",
+              "category": "BIG9",
+              "quantity": {
+                "value": "12 g",
+                "numeric_value": 12,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 17,
+                "operator": "="
+              },
+              "rating": {
+                "value": 1,
+                "text": "medium",
+                "icon": {
+                  "original": "https://image.migros.ch/original/b84b389195e426a9e6b4cd66f2c79b1a049809da.svg",
+                  "stack": "https://image.migros.ch/{stack}/b84b389195e426a9e6b4cd66f2c79b1a049809da.svg"
+                },
+                "hex_color": "#e8a800"
+              }
+            },
+            {
+              "code": "NUT_SATURATED_FATTY_ACIDS",
+              "name": "of which saturates",
+              "operator": "=",
+              "pictogram_name": "saturated fatty acids",
+              "category": "BIG9",
+              "quantity": {
+                "value": "7.1 g",
+                "numeric_value": 7.1,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 36,
+                "operator": "="
+              },
+              "rating": {
+                "value": 2,
+                "text": "high",
+                "icon": {
+                  "original": "https://image.migros.ch/original/9aa833abc7cb7207238c3e98a1253eeb7bceee1f.svg",
+                  "stack": "https://image.migros.ch/{stack}/9aa833abc7cb7207238c3e98a1253eeb7bceee1f.svg"
+                },
+                "hex_color": "#cc0000"
+              }
+            },
+            {
+              "code": "NUT_CARBOHYDRATES",
+              "name": "Carbohydrate",
+              "operator": "=",
+              "category": "BIG9",
+              "quantity": {
+                "value": "36 g",
+                "numeric_value": 36,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 14,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_SUGAR",
+              "name": "of which sugars",
+              "operator": "=",
+              "pictogram_name": "Sugar",
+              "category": "BIG9",
+              "quantity": {
+                "value": "31 g",
+                "numeric_value": 31,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 34,
+                "operator": "="
+              },
+              "rating": {
+                "value": 2,
+                "text": "high",
+                "icon": {
+                  "original": "https://image.migros.ch/original/9aa833abc7cb7207238c3e98a1253eeb7bceee1f.svg",
+                  "stack": "https://image.migros.ch/{stack}/9aa833abc7cb7207238c3e98a1253eeb7bceee1f.svg"
+                },
+                "hex_color": "#cc0000"
+              }
+            },
+            {
+              "code": "NUT_FIBER",
+              "name": "Fibre",
+              "operator": "<",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0.5 g",
+                "numeric_value": 0.5,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 0,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_PROTEIN",
+              "name": "Protein",
+              "operator": "=",
+              "category": "BIG9",
+              "quantity": {
+                "value": "4.4 g",
+                "numeric_value": 4.4,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 9,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_SALT",
+              "name": "Salt",
+              "operator": "=",
+              "pictogram_name": "Salt",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0.18 g",
+                "numeric_value": 0.18,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 3,
+                "operator": "="
+              },
+              "rating": {
+                "value": 0,
+                "text": "low",
+                "icon": {
+                  "original": "https://image.migros.ch/original/a2b5e2562a4fedbbdec99c1932ec57c46c49cde4.svg",
+                  "stack": "https://image.migros.ch/{stack}/a2b5e2562a4fedbbdec99c1932ec57c46c49cde4.svg"
+                },
+                "hex_color": "#069800"
+              }
+            }
+          ]
+        },
+        "portion": {
+          "base": {
+            "quantity": {
+              "value": "95 g",
+              "numeric_value": 95,
+              "unit": "g"
+            }
+          },
+          "nutrients": [
+            {
+              "code": "NUT_ENERGY",
+              "name": "Energy",
+              "operator": "=",
+              "pictogram_name": "Energy",
+              "category": "BIG9",
+              "quantity": {
+                "value": "1060 kJ",
+                "numeric_value": 1060,
+                "unit": "kJ",
+                "alternate": {
+                  "value": "253 kcal",
+                  "numeric_value": 253,
+                  "unit": "kcal"
+                }
+              },
+              "rda": {
+                "percent": 0,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_FAT",
+              "name": "Fat",
+              "operator": "=",
+              "pictogram_name": "Fat",
+              "category": "BIG9",
+              "quantity": {
+                "value": "11 g",
+                "numeric_value": 11,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 16,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_SATURATED_FATTY_ACIDS",
+              "name": "of which saturates",
+              "operator": "=",
+              "pictogram_name": "saturated fatty acids",
+              "category": "BIG9",
+              "quantity": {
+                "value": "6.8 g",
+                "numeric_value": 6.8,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 34,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_CARBOHYDRATES",
+              "name": "Carbohydrate",
+              "operator": "=",
+              "category": "BIG9",
+              "quantity": {
+                "value": "34 g",
+                "numeric_value": 34,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 13,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_SUGAR",
+              "name": "of which sugars",
+              "operator": "=",
+              "pictogram_name": "Sugar",
+              "category": "BIG9",
+              "quantity": {
+                "value": "29 g",
+                "numeric_value": 29,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 32,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_FIBER",
+              "name": "Fibre",
+              "operator": "<",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0.5 g",
+                "numeric_value": 0.5,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 0,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_PROTEIN",
+              "name": "Protein",
+              "operator": "=",
+              "category": "BIG9",
+              "quantity": {
+                "value": "4.2 g",
+                "numeric_value": 4.2,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 8,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_SALT",
+              "name": "Salt",
+              "operator": "=",
+              "pictogram_name": "Salt",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0.17 g",
+                "numeric_value": 0.17,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 3,
+                "operator": "="
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "recipe_ingredient_ids": [
+    "10000"
+  ],
+  "regional_availability": {
+    "gmaa": {
+      "probability": 99
+    },
+    "gmbs": {
+      "probability": 98
+    },
+    "gmge": {
+      "probability": 79
+    },
+    "gmlu": {
+      "probability": 98
+    },
+    "gmnf": {
+      "probability": 100
+    },
+    "gmos": {
+      "probability": 98
+    },
+    "gmti": {
+      "probability": 32
+    },
+    "gmvd": {
+      "probability": 100
+    },
+    "gmvs": {
+      "probability": 100
+    },
+    "gmzh": {
+      "probability": 91
+    }
+  },
+  "ratings": {
+    "count_all": 21,
+    "average_all": 4.619047619048
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "updated_at": "2023-08-17T11:57:27+0200",
+  "sap_created_at": "2022-12-11T18:00:00+0100",
+  "online_shop_relevant": false,
+  "base_unit": "CU",
+  "origins": {
+    "producing_country": "Switzerland"
+  },
+  "views": [
+    "all",
+    "browse",
+    "browseallretailers"
+  ]
+}

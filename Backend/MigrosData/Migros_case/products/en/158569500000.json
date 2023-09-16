@@ -1,0 +1,728 @@
+{
+  "id": "158569500000",
+  "language": "en",
+  "name": "Thai Kitchen Fischsauce",
+  "names": {
+    "short_name": "Thai Kitchen Fischsauce"
+  },
+  "slug": "thai-kitchen-fischsauce",
+  "slugs": {
+    "de": "thai-kitchen-fischsauce",
+    "fr": "thai-kitchen-sauce-de-poisson",
+    "it": "thai-kitchen-salsa-di-pesce",
+    "en": "thai-kitchen-fischsauce"
+  },
+  "type": "00",
+  "boss_number": "011111180605",
+  "description": {
+    "text": "<p>Fischsauce ist das wohl wichtigste Würzmittel in der thailändischen Küche, das im Allgemeinen als die Sojasauce von Südostasien bekannt ist.</p><p>Fischsauce ist eine dünne, bernsteinfarbene, klare Flüssigkeit mit einem salzigen Geschmack, die aus gegorenem Pökelfisch hergestellt wird (für unsere Fischsauce werden Sardellen verwendet). Fischsauce kann anstelle von Salz oder Sojasauce benutzt werden um nahezu jedes Gericht , insbesondere Wok-Gerichte, abzuschmecken. Ihr eigenes, würziges Aroma wird milder beim Kochen und beim Hinzufügen zu Speisen.</p><p>Am Anfang kann es etwas dauern, bis man sich an ihren Geruch und Geschmack gewöhnt hat. Aber wenn man erst einmal ihren einmaligen und komplexen Wohlgeschmack erkannt hat, möchte man sie nie wieder gegen Salz oder Sojasauce eintauschen. Erst das besondere Aroma der Fischsauce macht thailändisches Essen richtig authentisch.</p>",
+    "source": "P4M"
+  },
+  "data_source": "SAP-X11",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03"
+  },
+  "tags": [
+    "source-p4m",
+    "migipedia",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "5021047104433",
+    "7610200309860"
+  ],
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarket"
+  },
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "brand": {
+    "id": "186",
+    "name": "Thai Kitchen",
+    "slug": "thai-kitchen"
+  },
+  "categories": [
+    {
+      "code": "BeSS_0101142002",
+      "name": "Thailand",
+      "slug": "supermarkt/lebensmittel/pasta-zutaten-konserven/aus-aller-welt/thailand",
+      "visible": true,
+      "parent_code": "BeSS_01011420",
+      "image": {
+        "original": "https://image.migros.ch/original/65014c80d6c163294345eb025a08fb6f4890c5d7/thailand.jpg",
+        "stack": "https://image.migros.ch/{stack}/65014c80d6c163294345eb025a08fb6f4890c5d7/thailand.jpg"
+      },
+      "level": 5
+    },
+    {
+      "code": "BeSS_01011420",
+      "name": "Aus aller Welt",
+      "slug": "supermarkt/lebensmittel/pasta-zutaten-konserven/aus-aller-welt",
+      "visible": true,
+      "title": "Ausländische Lebensmittel &ndash; eine kulinarische Weltreise in Ihrer Migros",
+      "parent_code": "BeSS_010114",
+      "image": {
+        "original": "https://image.migros.ch/original/43332c270cb0fd2c865d207763897cad78829166/aus-aller-welt.jpg",
+        "stack": "https://image.migros.ch/{stack}/43332c270cb0fd2c865d207763897cad78829166/aus-aller-welt.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010114",
+      "name": "Pasta, Zutaten & Konserven",
+      "slug": "supermarkt/lebensmittel/pasta-zutaten-konserven",
+      "visible": true,
+      "title": "Pasta aus Ihrer Migros: alles rund um Teigwaren",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/6d0964bbb34b8e041ba4d74fc0c90b149907f46a/pasta-zutaten-konserven.jpg",
+        "stack": "https://image.migros.ch/{stack}/6d0964bbb34b8e041ba4d74fc0c90b149907f46a/pasta-zutaten-konserven.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/31702195ec9d38aecefe80349eb347f79d56c750/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/31702195ec9d38aecefe80349eb347f79d56c750/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "online_relevant": [
+    {
+      "code": "MGB",
+      "name": "Migros Genossenschafts-Bund"
+    },
+    {
+      "code": "MO",
+      "name": "Migros Online"
+    }
+  ],
+  "links": {
+    "migros_ch": {
+      "url": "https://www.migros.ch/en/product/158569500000?context=instore",
+      "name": "In-store assortment",
+      "canonical": "https://www.migros.ch/en/product/158569500000?context=instore",
+      "type": "info",
+      "purchasable": false
+    },
+    "migros_online": {
+      "url": "https://www.migros.ch/en/product/158569500000?context=online",
+      "mo_product_id": "9027",
+      "name": "Online-shop assortment",
+      "canonical": "https://www.migros.ch/en/product/158569500000?context=instore",
+      "type": "shop",
+      "purchasable": true,
+      "one_catalog_id": 100001003
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/158569500000",
+      "name": "Migipedia",
+      "canonical": "https://www.migros.ch/en/product/158569500000?context=instore",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "has_safety_sheet": false,
+  "m_check2": {},
+  "receipt_text": "Fischsauce",
+  "package": {
+    "content": 200,
+    "content_unit_code": "ml",
+    "content_unit": "Millilitre",
+    "net_weight": 0.2,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogram",
+    "type": "CU",
+    "portions_per_package": "1",
+    "brutto_weight": 0.497,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 0.562,
+    "brutto_volume_unit_code": "cdm",
+    "height": 16.7,
+    "length": 5.8,
+    "width": 5.8,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "200ml"
+  },
+  "package_information": {
+    "tu": {
+      "gtins": [
+        "5021047204430",
+        "7615900004145"
+      ],
+      "brutto_weight": 5.76,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 10.542,
+      "brutto_volume_unit_code": "cdm",
+      "height": 20.4,
+      "length": 26.1,
+      "width": 19.8,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 12
+    },
+    "cu": {
+      "gtins": [
+        "5021047104433",
+        "7610200309860"
+      ],
+      "brutto_weight": 0.497,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.562,
+      "brutto_volume_unit_code": "cdm",
+      "height": 16.7,
+      "length": 5.8,
+      "width": 5.8,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "lu": {
+      "brutto_weight": 824.6,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 537.6,
+      "brutto_volume_unit_code": "cdm",
+      "height": 163.2,
+      "length": 120,
+      "width": 80,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1632
+    }
+  },
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "price": {
+    "valid_from": "2023-05-09T00:00:00+0200",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 3,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "200ml"
+    },
+    "base": {
+      "price": 1.5,
+      "quantity": 100,
+      "unit": "ML"
+    }
+  },
+  "features": [
+    {
+      "label_code": "acxMISOcugebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "erxMISOcugebindeartflasche",
+          "value": "Bottle"
+        }
+      ],
+      "category_code": "ecxMISOCLAsaucenaufstrichedipswuerzsaucengewuerzekonservierungsstoffeextraktelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOartvonsaucedip",
+      "label": "Art von Sauce/Dip",
+      "values": [
+        {
+          "value_code": "erxMISOartvonsaucedipfischsauce",
+          "value": "Fischsauce"
+        }
+      ],
+      "category_code": "ecxMISOCLAsaucenaufstrichedipswuerzsaucengewuerzekonservierungsstoffeextraktelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOzubereitungsverfahren",
+      "label": "Hinweise für die Zubereitung",
+      "values": [
+        {
+          "value_code": "erxMISOzubereitungsverfahrenverzehrfertig",
+          "value": "verzehrfertig"
+        }
+      ],
+      "category_code": "ecxMISOCLAsaucenaufstrichedipswuerzsaucengewuerzekonservierungsstoffeextraktelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/b7563d3640eb23a0546deaa0879558bdbcdc3462/thai-kitchen-fischsauce.jpg",
+    "stack": "https://image.migros.ch/{stack}/b7563d3640eb23a0546deaa0879558bdbcdc3462/thai-kitchen-fischsauce.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/c6e73d7734eadcc803ad092076ef15754339ea18/thai-kitchen-fischsauce.png",
+    "stack": "https://image.migros.ch/{stack}/c6e73d7734eadcc803ad092076ef15754339ea18/thai-kitchen-fischsauce.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_EXPORTABLE",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_EXPORTABLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Normalposition"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "HAWA"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "11171",
+          "value": "THAILAND"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_KUBE_TUKA",
+      "values": [
+        {
+          "value_code": "BLANK",
+          "value": "KUBE und TUKA nicht zugelassen"
+        }
+      ],
+      "category_code": "MAPI_KUBE_TUKA",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LIFECYCLE",
+      "values": [
+        {
+          "value_code": "D",
+          "value": "Detailhandelsartikel"
+        }
+      ],
+      "category_code": "MAPI_LIFECYCLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_STORAGE_CONDITIONS",
+      "values": [
+        {
+          "value_code": "01",
+          "value": "normal"
+        }
+      ],
+      "category_code": "MAPI_STORAGE_CONDITIONS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_MULTIPACK",
+      "values": [
+        {
+          "value_code": "0",
+          "value": "No pack expression"
+        }
+      ],
+      "category_code": "MAPI_MULTIPACK",
+      "top_fact": false
+    },
+    {
+      "label_code": "acxCommonarticlecocompensated",
+      "label": "Artikel Co2 kompensiert",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false
+    },
+    {
+      "label_code": "acxCommonmesswertcompensation",
+      "label": "CO2-Wert Kompensation",
+      "values": [
+        {
+          "value_code": "NUMERIC_1.74",
+          "value": "1.74",
+          "numeric_value": 1.74
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false,
+      "unit_code": "5d71456e-a520-4294-9ddb-add78f63ce83",
+      "unit": "Equivalence per kilogram",
+      "unit_symbol": "eq / kg"
+    },
+    {
+      "label_code": "acxCommonoutputmcheckclimatedeclaration",
+      "label": "Auslobung M-Check Klimadeklaration",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false
+    }
+  ],
+  "declarations": {
+    "declaration_number": "Q_2121841432604866",
+    "tags": [
+      "source-qim"
+    ],
+    "gtins": [
+      "5021047104433"
+    ],
+    "valid_from": "2018-07-18T00:00:00+0200",
+    "product_details": {
+      "net_filled_quantity": {
+        "value": "200 ml",
+        "numeric_value": 200,
+        "unit": "ml"
+      },
+      "net_weight": {
+        "value": "200 Gramm",
+        "numeric_value": 200,
+        "unit": "Gramm"
+      }
+    },
+    "distributor": {
+      "name": "Ethno & Company AG",
+      "address": "Lindstrasse 39, 8400 Winterthur"
+    },
+    "ingredients_information": {
+      "additives_information": {
+        "declaration_obligatory": {
+          "code": "NON",
+          "label": "Contains no declaration obligatory additives depending on target market. (For Germany: Does not contain additives that are mandatory to declare on the menu acc. to §9 ZZulV.) "
+        }
+      },
+      "allergens_information": {
+        "allergens": [
+          {
+            "code": "ALLG_FISCH",
+            "label": "Fish and their derivatives",
+            "contamination_code": "VORHANDEN",
+            "contamination_label": "contains"
+          }
+        ]
+      }
+    },
+    "nutrition_facts": {
+      "reference_sizes": {
+        "standard": {
+          "base": {
+            "quantity": {
+              "value": "100 ml",
+              "numeric_value": 100,
+              "unit": "ml"
+            }
+          },
+          "nutrients": [
+            {
+              "code": "NUT_ENERGY",
+              "name": "Energy",
+              "operator": "~",
+              "pictogram_name": "Energy",
+              "category": "BIG9",
+              "quantity": {
+                "value": "339 kJ",
+                "numeric_value": 339,
+                "unit": "kJ",
+                "alternate": {
+                  "value": "80 kcal",
+                  "numeric_value": 80,
+                  "unit": "kcal"
+                }
+              }
+            },
+            {
+              "code": "NUT_FAT",
+              "name": "Fat",
+              "operator": "~",
+              "pictogram_name": "Fat",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0 g",
+                "numeric_value": 0,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_SATURATED_FATTY_ACIDS",
+              "name": "of which saturates",
+              "operator": "~",
+              "pictogram_name": "saturated fatty acids",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0 g",
+                "numeric_value": 0,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_CARBOHYDRATES",
+              "name": "Carbohydrate",
+              "operator": "~",
+              "category": "BIG9",
+              "quantity": {
+                "value": "5.8 g",
+                "numeric_value": 5.8,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_SUGAR",
+              "name": "of which sugars",
+              "operator": "~",
+              "pictogram_name": "Sugar",
+              "category": "BIG9",
+              "quantity": {
+                "value": "4.5 g",
+                "numeric_value": 4.5,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_PROTEIN",
+              "name": "Protein",
+              "operator": "~",
+              "category": "BIG9",
+              "quantity": {
+                "value": "13.9 g",
+                "numeric_value": 13.9,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_SALT",
+              "name": "Salt",
+              "operator": "~",
+              "pictogram_name": "Salt",
+              "category": "BIG9",
+              "quantity": {
+                "value": "24.7 g",
+                "numeric_value": 24.7,
+                "unit": "g"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "recipe_ingredient_ids": [
+    "17337"
+  ],
+  "regional_availability": {
+    "gmaa": {
+      "probability": 54
+    },
+    "gmbs": {
+      "probability": 50
+    },
+    "gmge": {
+      "probability": 63
+    },
+    "gmlu": {
+      "probability": 39
+    },
+    "gmnf": {
+      "probability": 49
+    },
+    "gmos": {
+      "probability": 52
+    },
+    "gmti": {
+      "probability": 35
+    },
+    "gmvd": {
+      "probability": 51
+    },
+    "gmvs": {
+      "probability": 41
+    },
+    "gmzh": {
+      "probability": 71
+    }
+  },
+  "ratings": {
+    "count_all": 17,
+    "average_all": 4.3125
+  },
+  "related_products": {
+    "purchase_recommendations": {
+      "product_ids": [
+        "158570000000",
+        "158575900000",
+        "158569700000",
+        "158575600000",
+        "158575800000"
+      ]
+    }
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "updated_at": "2023-08-17T11:55:57+0200",
+  "sap_created_at": "2001-10-04T19:00:00+0200",
+  "online_shop_relevant": false,
+  "base_unit": "CU",
+  "co2_compensation": {
+    "kg_co2": 1.74,
+    "kg_co2_compensation": 1.74,
+    "is_compensated": false,
+    "mcheck_enabled": false
+  },
+  "origins": {
+    "producing_country": "Thailand"
+  },
+  "views": [
+    "all",
+    "browse",
+    "browseallretailers"
+  ]
+}

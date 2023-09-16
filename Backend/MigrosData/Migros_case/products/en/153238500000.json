@@ -1,0 +1,908 @@
+{
+  "id": "153238500000",
+  "language": "en",
+  "name": "Agnesi Sugo all'aglio",
+  "names": {
+    "short_name": "Agnesi Sugo all'aglio"
+  },
+  "slug": "agnesi-sugo-allaglio",
+  "slugs": {
+    "de": "agnesi-sugo-allaglio",
+    "fr": "agnesi-sugo-allaglio",
+    "it": "agnesi-sugo-allaglio",
+    "en": "agnesi-sugo-allaglio"
+  },
+  "type": "00",
+  "boss_number": "011011270505",
+  "data_source": "SAP-X11",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03"
+  },
+  "tags": [
+    "source-p4m",
+    "migipedia",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "8001200047651"
+  ],
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarket"
+  },
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "brand": {
+    "id": "003",
+    "name": "Agnesi",
+    "slug": "agnesi"
+  },
+  "categories": [
+    {
+      "code": "BeSS_0101140905",
+      "name": "Pasta-Saucen",
+      "slug": "supermarkt/lebensmittel/pasta-zutaten-konserven/suppen-saucen-bouillon/pasta-saucen",
+      "visible": true,
+      "title": "Pasta-Saucen in Ihrer Migros kaufen",
+      "parent_code": "BeSS_01011409",
+      "image": {
+        "original": "https://image.migros.ch/original/8c324048ff97ff7bb21775d23d1f3c23c13c2388/pasta-saucen.jpg",
+        "stack": "https://image.migros.ch/{stack}/8c324048ff97ff7bb21775d23d1f3c23c13c2388/pasta-saucen.jpg"
+      },
+      "level": 5
+    },
+    {
+      "code": "BeSS_01011409",
+      "name": "Suppen, Saucen & Bouillon",
+      "slug": "supermarkt/lebensmittel/pasta-zutaten-konserven/suppen-saucen-bouillon",
+      "visible": true,
+      "title": "Bouillon in Ihrer Migros kaufen",
+      "parent_code": "BeSS_010114",
+      "image": {
+        "original": "https://image.migros.ch/original/ba6c260479751c9dbebd56a16470ff4af7db7203/suppen-saucen-bouillon.jpg",
+        "stack": "https://image.migros.ch/{stack}/ba6c260479751c9dbebd56a16470ff4af7db7203/suppen-saucen-bouillon.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010114",
+      "name": "Pasta, Zutaten & Konserven",
+      "slug": "supermarkt/lebensmittel/pasta-zutaten-konserven",
+      "visible": true,
+      "title": "Pasta aus Ihrer Migros: alles rund um Teigwaren",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/6d0964bbb34b8e041ba4d74fc0c90b149907f46a/pasta-zutaten-konserven.jpg",
+        "stack": "https://image.migros.ch/{stack}/6d0964bbb34b8e041ba4d74fc0c90b149907f46a/pasta-zutaten-konserven.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/31702195ec9d38aecefe80349eb347f79d56c750/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/31702195ec9d38aecefe80349eb347f79d56c750/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "online_relevant": [
+    {
+      "code": "MGB",
+      "name": "Migros Genossenschafts-Bund"
+    },
+    {
+      "code": "MO",
+      "name": "Migros Online"
+    }
+  ],
+  "links": {
+    "migros_ch": {
+      "url": "https://www.migros.ch/en/product/153238500000?context=instore",
+      "name": "In-store assortment",
+      "canonical": "https://www.migros.ch/en/product/153238500000?context=instore",
+      "type": "info",
+      "purchasable": false
+    },
+    "migros_online": {
+      "url": "https://www.migros.ch/en/product/153238500000?context=online",
+      "mo_product_id": "5152661",
+      "name": "Online-shop assortment",
+      "canonical": "https://www.migros.ch/en/product/153238500000?context=instore",
+      "type": "shop",
+      "purchasable": true,
+      "one_catalog_id": 100029410
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/153238500000",
+      "name": "Migipedia",
+      "canonical": "https://www.migros.ch/en/product/153238500000?context=instore",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "has_safety_sheet": false,
+  "m_check2": {},
+  "receipt_text": "Agnesi Knoblauch Sauce",
+  "package": {
+    "content": 400,
+    "content_unit_code": "g",
+    "content_unit": "Gram",
+    "net_weight": 0.4,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogram",
+    "type": "Glas",
+    "portions_per_package": "4",
+    "precision": "exact",
+    "brutto_weight": 0.655,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 0.799,
+    "brutto_volume_unit_code": "cdm",
+    "height": 14.2,
+    "length": 7.5,
+    "width": 7.5,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "400g"
+  },
+  "package_information": {
+    "tu": {
+      "gtins": [
+        "8001200047668"
+      ],
+      "brutto_weight": 8,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 10.518,
+      "brutto_volume_unit_code": "cdm",
+      "height": 14.3,
+      "length": 31.3,
+      "width": 23.5,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 12
+    },
+    "cu": {
+      "gtins": [
+        "8001200047651"
+      ],
+      "brutto_weight": 0.655,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.799,
+      "brutto_volume_unit_code": "cdm",
+      "height": 14.2,
+      "length": 7.5,
+      "width": 7.5,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "lu": {
+      "brutto_weight": 889,
+      "brutto_weight_unit_code": "kg",
+      "length": 120,
+      "width": 80,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1296
+    }
+  },
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "price": {
+    "valid_from": "2023-01-02T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 3.6,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "400g"
+    },
+    "base": {
+      "price": 0.9,
+      "quantity": 100,
+      "unit": "G"
+    }
+  },
+  "features": [
+    {
+      "label_code": "acxMISOcugebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "erxMISOcugebindeartglas",
+          "value": "Glas"
+        }
+      ],
+      "category_code": "ecxMISOCLAsaucenaufstrichedipswuerzsaucengewuerzekonservierungsstoffeextraktelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOartvonsaucedip",
+      "label": "Art von Sauce/Dip",
+      "values": [
+        {
+          "value_code": "erxMISOartvonsaucediptomatensauce",
+          "value": "Tomatensauce"
+        }
+      ],
+      "category_code": "ecxMISOCLAsaucenaufstrichedipswuerzsaucengewuerzekonservierungsstoffeextraktelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOsaucensortezumkochen",
+      "label": "Saucensorte - zum Kochen",
+      "values": [
+        {
+          "value": "all'aglio"
+        }
+      ],
+      "category_code": "ecxMISOCLAsaucenaufstrichedipswuerzsaucengewuerzekonservierungsstoffeextraktelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOzubereitungsverfahren",
+      "label": "Hinweise für die Zubereitung",
+      "values": [
+        {
+          "value_code": "erxMISOzubereitungsverfahrenzumkochengeeignet",
+          "value": "zum kochen geeignet"
+        }
+      ],
+      "category_code": "ecxMISOCLAsaucenaufstrichedipswuerzsaucengewuerzekonservierungsstoffeextraktelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOvorgeseheneverwendungdersauce",
+      "label": "Vorgesehene Verwendung der Sauce",
+      "values": [
+        {
+          "value_code": "erxMISOvorgeseheneverwendungdersauceitalienischekueche",
+          "value": "Italienische Küche"
+        }
+      ],
+      "category_code": "ecxMISOCLAsaucenaufstrichedipswuerzsaucengewuerzekonservierungsstoffeextraktelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/2589b36386fe2d42ca7e764dda90e3deae0ea007/agnesi-sugo-allaglio.jpg",
+    "stack": "https://image.migros.ch/{stack}/2589b36386fe2d42ca7e764dda90e3deae0ea007/agnesi-sugo-allaglio.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/518371994376bf4005701898a8ba114c557ffb2b/agnesi-sugo-allaglio.png",
+    "stack": "https://image.migros.ch/{stack}/518371994376bf4005701898a8ba114c557ffb2b/agnesi-sugo-allaglio.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_EXPORTABLE",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_EXPORTABLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Normalposition"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "HAWA"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "10133",
+          "value": "PREM. SAUCE PASTA"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LIFECYCLE",
+      "values": [
+        {
+          "value_code": "D",
+          "value": "Detailhandelsartikel"
+        }
+      ],
+      "category_code": "MAPI_LIFECYCLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUSTOMS_POSITION",
+      "values": [
+        {
+          "value": "2103.2000"
+        }
+      ],
+      "category_code": "MAPI_CUSTOMS_POSITION",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_STORAGE_CONDITIONS",
+      "values": [
+        {
+          "value_code": "01",
+          "value": "normal"
+        }
+      ],
+      "category_code": "MAPI_STORAGE_CONDITIONS",
+      "top_fact": false
+    },
+    {
+      "label_code": "acxCommonarticlecocompensated",
+      "label": "Artikel Co2 kompensiert",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false
+    },
+    {
+      "label_code": "acxCommonmesswertcompensation",
+      "label": "CO2-Wert Kompensation",
+      "values": [
+        {
+          "value_code": "NUMERIC_2.393",
+          "value": "2.393",
+          "numeric_value": 2.393
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false,
+      "unit_code": "5d71456e-a520-4294-9ddb-add78f63ce83",
+      "unit": "Equivalence per kilogram",
+      "unit_symbol": "eq / kg"
+    },
+    {
+      "label_code": "acxCommonoutputmcheckclimatedeclaration",
+      "label": "Auslobung M-Check Klimadeklaration",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false
+    }
+  ],
+  "declarations": {
+    "declaration_number": "8814411472334",
+    "tags": [
+      "source-pim"
+    ],
+    "product_name": "Agnesi Knoblauch Sauce***",
+    "valid_from": "2018-06-07T08:14:02+0200",
+    "product_details": {
+      "regulated_description": "Tomatensauce mit Knoblauch",
+      "package": {
+        "type": "Glas",
+        "number_of_portions": "4",
+        "number_of_portions_operator": "="
+      }
+    },
+    "general_information": [
+      {
+        "label": "Obligatorische Zusatzangaben",
+        "values": [
+          "-"
+        ]
+      },
+      {
+        "label": "Aufbewarungs- und Verpackungshinweise",
+        "values": [
+          "Pasteurisiert. Kühl und trocken aufbewahren. Nach dem Öffnen im Kühlschrank lagern und rasch konsumieren."
+        ]
+      },
+      {
+        "label": "Haltbarkeit",
+        "values": [
+          "Mindestens haltbar bis:"
+        ]
+      }
+    ],
+    "ingredients_information": {
+      "ingredients_text": "Tomatenpulpe 65 % (mit Säureregulator: Citronensäure), Tomatenpüree 26 %, Zwiebeln 3 %, Knoblauch 1.8 %, Sonnenblumenöl, Erbsenfasern, Kochsalz, Basilikum 0.3 %, Oregano, schwarzer Pfeffer 0.02 %, Säureregulator: Citronensäure."
+    },
+    "nutrition_facts": {
+      "reference_sizes": {
+        "standard": {
+          "base": {
+            "description": "enthalten",
+            "quantity": {
+              "value": "100 g",
+              "numeric_value": 100,
+              "unit": "g"
+            }
+          },
+          "nutrients": [
+            {
+              "code": "NUT_ENERGY",
+              "name": "Energy",
+              "operator": "=",
+              "pictogram_name": "Energy",
+              "category": "BIG9",
+              "quantity": {
+                "value": "181 kJ",
+                "numeric_value": 181,
+                "unit": "kJ",
+                "alternate": {
+                  "value": "43 kcal",
+                  "numeric_value": 43,
+                  "unit": "kcal"
+                }
+              },
+              "rda": {
+                "percent": 2,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_FAT",
+              "name": "Fat",
+              "operator": "=",
+              "pictogram_name": "Fat",
+              "category": "BIG9",
+              "quantity": {
+                "value": "1.6 g",
+                "numeric_value": 1.6,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 2,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_SATURATED_FATTY_ACIDS",
+              "name": "of which saturates",
+              "operator": "=",
+              "pictogram_name": "saturated fatty acids",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0.2 g",
+                "numeric_value": 0.2,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 1,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_CARBOHYDRATES",
+              "name": "Carbohydrate",
+              "operator": "=",
+              "category": "BIG9",
+              "quantity": {
+                "value": "4.9 g",
+                "numeric_value": 4.9,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 2,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_SUGAR",
+              "name": "of which sugars",
+              "operator": "=",
+              "pictogram_name": "Sugar",
+              "category": "BIG9",
+              "quantity": {
+                "value": "3.4 g",
+                "numeric_value": 3.4,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 4,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_FIBER",
+              "name": "Fibre",
+              "operator": "=",
+              "category": "BIG9",
+              "quantity": {
+                "value": "2.1 g",
+                "numeric_value": 2.1,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_PROTEIN",
+              "name": "Protein",
+              "operator": "=",
+              "category": "BIG9",
+              "quantity": {
+                "value": "1.3 g",
+                "numeric_value": 1.3,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 3,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_SALT",
+              "name": "Salt",
+              "operator": "=",
+              "pictogram_name": "Salt",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0.80 g",
+                "numeric_value": 0.8,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 13,
+                "operator": "="
+              }
+            }
+          ]
+        },
+        "portion": {
+          "base": {
+            "description": "1 Portion",
+            "quantity": {
+              "value": "100 g",
+              "numeric_value": 100,
+              "unit": "g"
+            }
+          },
+          "nutrients": [
+            {
+              "code": "NUT_ENERGY",
+              "name": "Energy",
+              "operator": "=",
+              "pictogram_name": "Energy",
+              "category": "BIG9",
+              "quantity": {
+                "value": "181 kJ",
+                "numeric_value": 181,
+                "unit": "kJ",
+                "alternate": {
+                  "value": "43 kcal",
+                  "numeric_value": 43,
+                  "unit": "kcal"
+                }
+              },
+              "rda": {
+                "percent": 2,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_FAT",
+              "name": "Fat",
+              "operator": "=",
+              "pictogram_name": "Fat",
+              "category": "BIG9",
+              "quantity": {
+                "value": "1.6 g",
+                "numeric_value": 1.6,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 2,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_SATURATED_FATTY_ACIDS",
+              "name": "of which saturates",
+              "operator": "=",
+              "pictogram_name": "saturated fatty acids",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0.2 g",
+                "numeric_value": 0.2,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 1,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_CARBOHYDRATES",
+              "name": "Carbohydrate",
+              "operator": "=",
+              "category": "BIG9",
+              "quantity": {
+                "value": "4.9 g",
+                "numeric_value": 4.9,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 2,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_SUGAR",
+              "name": "of which sugars",
+              "operator": "=",
+              "pictogram_name": "Sugar",
+              "category": "BIG9",
+              "quantity": {
+                "value": "3.4 g",
+                "numeric_value": 3.4,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 4,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_FIBER",
+              "name": "Fibre",
+              "operator": "=",
+              "category": "BIG9",
+              "quantity": {
+                "value": "2.1 g",
+                "numeric_value": 2.1,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_PROTEIN",
+              "name": "Protein",
+              "operator": "=",
+              "category": "BIG9",
+              "quantity": {
+                "value": "1.3 g",
+                "numeric_value": 1.3,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 3,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_SALT",
+              "name": "Salt",
+              "operator": "=",
+              "pictogram_name": "Salt",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0.80 g",
+                "numeric_value": 0.8,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 13,
+                "operator": "="
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "recipe_ingredient_ids": [
+    "10000"
+  ],
+  "regional_availability": {
+    "gmaa": {
+      "probability": 70
+    },
+    "gmbs": {
+      "probability": 86
+    },
+    "gmge": {
+      "probability": 32
+    },
+    "gmlu": {
+      "probability": 69
+    },
+    "gmnf": {
+      "probability": 12
+    },
+    "gmos": {
+      "probability": 60
+    },
+    "gmti": {
+      "probability": 13
+    },
+    "gmvd": {
+      "probability": 14
+    },
+    "gmvs": {
+      "probability": 26
+    },
+    "gmzh": {
+      "probability": 73
+    }
+  },
+  "ratings": {
+    "count_all": 18,
+    "average_all": 4.166666666667
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "updated_at": "2023-08-17T11:53:46+0200",
+  "sap_created_at": "2018-02-28T18:00:00+0100",
+  "online_shop_relevant": false,
+  "base_unit": "CU",
+  "co2_compensation": {
+    "kg_co2": 2.393,
+    "kg_co2_compensation": 2.393,
+    "is_compensated": false,
+    "mcheck_enabled": false
+  },
+  "origins": {
+    "producing_country": "Elaboré en Italie"
+  },
+  "views": [
+    "all",
+    "browse",
+    "browseallretailers"
+  ]
+}

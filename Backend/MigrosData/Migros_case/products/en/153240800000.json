@@ -1,0 +1,545 @@
+{
+  "id": "153240800000",
+  "language": "en",
+  "name": "Star Ragù con polpette",
+  "names": {
+    "short_name": "Star Ragù con polpette"
+  },
+  "slug": "star-ragu-con-polpette",
+  "slugs": {
+    "de": "star-ragu-con-polpette",
+    "fr": "star-ragu-con-polpette",
+    "it": "star-ragu-con-polpette",
+    "en": "star-ragu-con-polpette"
+  },
+  "type": "00",
+  "boss_number": "011011271005",
+  "data_source": "SAP-X11",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03"
+  },
+  "tags": [
+    "source-p4m",
+    "migipedia",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "8000050024669"
+  ],
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarket"
+  },
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "brand": {
+    "id": "GM1",
+    "name": "Star",
+    "slug": "star"
+  },
+  "categories": [
+    {
+      "code": "BeSS_0101140905",
+      "name": "Pasta-Saucen",
+      "slug": "supermarkt/lebensmittel/pasta-zutaten-konserven/suppen-saucen-bouillon/pasta-saucen",
+      "visible": true,
+      "title": "Pasta-Saucen in Ihrer Migros kaufen",
+      "parent_code": "BeSS_01011409",
+      "image": {
+        "original": "https://image.migros.ch/original/8c324048ff97ff7bb21775d23d1f3c23c13c2388/pasta-saucen.jpg",
+        "stack": "https://image.migros.ch/{stack}/8c324048ff97ff7bb21775d23d1f3c23c13c2388/pasta-saucen.jpg"
+      },
+      "level": 5
+    },
+    {
+      "code": "BeSS_01011409",
+      "name": "Suppen, Saucen & Bouillon",
+      "slug": "supermarkt/lebensmittel/pasta-zutaten-konserven/suppen-saucen-bouillon",
+      "visible": true,
+      "title": "Bouillon in Ihrer Migros kaufen",
+      "parent_code": "BeSS_010114",
+      "image": {
+        "original": "https://image.migros.ch/original/ba6c260479751c9dbebd56a16470ff4af7db7203/suppen-saucen-bouillon.jpg",
+        "stack": "https://image.migros.ch/{stack}/ba6c260479751c9dbebd56a16470ff4af7db7203/suppen-saucen-bouillon.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010114",
+      "name": "Pasta, Zutaten & Konserven",
+      "slug": "supermarkt/lebensmittel/pasta-zutaten-konserven",
+      "visible": true,
+      "title": "Pasta aus Ihrer Migros: alles rund um Teigwaren",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/6d0964bbb34b8e041ba4d74fc0c90b149907f46a/pasta-zutaten-konserven.jpg",
+        "stack": "https://image.migros.ch/{stack}/6d0964bbb34b8e041ba4d74fc0c90b149907f46a/pasta-zutaten-konserven.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/31702195ec9d38aecefe80349eb347f79d56c750/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/31702195ec9d38aecefe80349eb347f79d56c750/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "online_relevant": [
+    {
+      "code": "MGB",
+      "name": "Migros Genossenschafts-Bund"
+    },
+    {
+      "code": "MO",
+      "name": "Migros Online"
+    }
+  ],
+  "links": {
+    "migros_ch": {
+      "url": "https://www.migros.ch/en/product/153240800000?context=instore",
+      "name": "In-store assortment",
+      "canonical": "https://www.migros.ch/en/product/153240800000?context=instore",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/153240800000",
+      "name": "Migipedia",
+      "canonical": "https://www.migros.ch/en/product/153240800000?context=instore",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "has_safety_sheet": false,
+  "m_check2": {
+    "carbon_footprint": {
+      "image": {
+        "original": "https://image.migros.ch/original/3647ce79a496ca6d707e072f7e3f61ecc313e54b.svg",
+        "stack": "https://image.migros.ch/{stack}/3647ce79a496ca6d707e072f7e3f61ecc313e54b.svg"
+      },
+      "ground_and_sea_cargo": {
+        "kg_co2": 2.99,
+        "kg_co2_range": "2 - 4.7 kg CO₂eq / kg",
+        "co2_in_car_km": 16,
+        "rating": 3,
+        "production_in_percent": 92,
+        "packaging_in_percent": 6,
+        "transport_in_percent": 2
+      }
+    }
+  },
+  "receipt_text": "Star Ragù con polpette",
+  "package": {
+    "content": 360,
+    "content_unit_code": "g",
+    "content_unit": "Gram",
+    "net_weight": 0.36,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogram",
+    "type": "CU",
+    "portions_per_package": "1",
+    "brutto_weight": 0.58,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 0.799,
+    "brutto_volume_unit_code": "cdm",
+    "height": 14.2,
+    "length": 7.5,
+    "width": 7.5,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "360g"
+  },
+  "package_information": {
+    "tu": {
+      "gtins": [
+        "8000050224663"
+      ],
+      "brutto_weight": 3.55,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 5.139,
+      "brutto_volume_unit_code": "cdm",
+      "height": 14.2,
+      "length": 23.5,
+      "width": 15.4,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 6
+    },
+    "cu": {
+      "gtins": [
+        "8000050024669"
+      ],
+      "brutto_weight": 0.58,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.799,
+      "brutto_volume_unit_code": "cdm",
+      "height": 14.2,
+      "length": 7.5,
+      "width": 7.5,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "lu": {
+      "brutto_weight": 646.25,
+      "brutto_weight_unit_code": "kg",
+      "length": 120,
+      "width": 80,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1050
+    }
+  },
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "price": {
+    "valid_from": "2023-01-16T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 4.2,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "360g"
+    },
+    "base": {
+      "price": 1.17,
+      "quantity": 100,
+      "unit": "G"
+    }
+  },
+  "image": {
+    "original": "https://image.migros.ch/original/48bb775a014feb0d7901ed3f4578cc97810cf72c/star-ragu-con-polpette.jpg",
+    "stack": "https://image.migros.ch/{stack}/48bb775a014feb0d7901ed3f4578cc97810cf72c/star-ragu-con-polpette.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/3940028332bdf9e3f01660db7a7b5359c5116512/star-ragu-con-polpette.png",
+    "stack": "https://image.migros.ch/{stack}/3940028332bdf9e3f01660db7a7b5359c5116512/star-ragu-con-polpette.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_EXPORTABLE",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_EXPORTABLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Normalposition"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "HAWA"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "10134",
+          "value": "STAND.SAUCE PASTA"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_KUBE_TUKA",
+      "values": [
+        {
+          "value_code": "BLANK",
+          "value": "KUBE und TUKA nicht zugelassen"
+        }
+      ],
+      "category_code": "MAPI_KUBE_TUKA",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LIFECYCLE",
+      "values": [
+        {
+          "value_code": "D",
+          "value": "Detailhandelsartikel"
+        }
+      ],
+      "category_code": "MAPI_LIFECYCLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_STORAGE_CONDITIONS",
+      "values": [
+        {
+          "value_code": "01",
+          "value": "normal"
+        }
+      ],
+      "category_code": "MAPI_STORAGE_CONDITIONS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_MULTIPACK",
+      "values": [
+        {
+          "value_code": "0",
+          "value": "No pack expression"
+        }
+      ],
+      "category_code": "MAPI_MULTIPACK",
+      "top_fact": false
+    },
+    {
+      "label_code": "acxCommonarticlecocompensated",
+      "label": "Artikel Co2 kompensiert",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false
+    },
+    {
+      "label_code": "acxCommonmesswertcompensation",
+      "label": "CO2-Wert Kompensation",
+      "values": [
+        {
+          "value_code": "NUMERIC_2.99",
+          "value": "2.99",
+          "numeric_value": 2.99
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false,
+      "unit_code": "5d71456e-a520-4294-9ddb-add78f63ce83",
+      "unit": "Equivalence per kilogram",
+      "unit_symbol": "eq / kg"
+    },
+    {
+      "label_code": "acxCommonoutputmcheckclimatedeclaration",
+      "label": "Auslobung M-Check Klimadeklaration",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Yes",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false
+    }
+  ],
+  "declarations": {
+    "declaration_number": "Q_7158455557047700",
+    "tags": [
+      "source-qim"
+    ],
+    "gtins": [
+      "8000050024669"
+    ],
+    "valid_from": "2018-10-18T00:00:00+0200",
+    "product_details": {
+      "net_filled_quantity": {
+        "value": "360 g",
+        "numeric_value": 360,
+        "unit": "g"
+      },
+      "net_weight": {
+        "value": "360 Gramm",
+        "numeric_value": 360,
+        "unit": "Gramm"
+      }
+    }
+  },
+  "recipe_ingredient_ids": [
+    "10000"
+  ],
+  "regional_availability": {
+    "gmaa": {
+      "probability": 0
+    },
+    "gmbs": {
+      "probability": 0
+    },
+    "gmge": {
+      "probability": 0
+    },
+    "gmlu": {
+      "probability": 0
+    },
+    "gmnf": {
+      "probability": 0
+    },
+    "gmos": {
+      "probability": 0
+    },
+    "gmti": {
+      "probability": 90
+    },
+    "gmvd": {
+      "probability": 0
+    },
+    "gmvs": {
+      "probability": 0
+    },
+    "gmzh": {
+      "probability": 0
+    }
+  },
+  "ratings": {
+    "count_all": 6,
+    "average_all": 4.833333333333
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "updated_at": "2023-08-15T07:31:09+0200",
+  "sap_created_at": "2020-01-21T18:00:00+0100",
+  "online_shop_relevant": false,
+  "base_unit": "CU",
+  "co2_compensation": {
+    "kg_co2": 2.99,
+    "kg_co2_compensation": 2.99,
+    "is_compensated": false,
+    "mcheck_enabled": true
+  },
+  "origins": {},
+  "views": [
+    "all",
+    "browse",
+    "browseallretailers"
+  ]
+}

@@ -1,0 +1,927 @@
+{
+  "id": "230534300000",
+  "language": "en",
+  "name": "Bauernwurst 2 Stück",
+  "names": {
+    "short_name": "Bauernwurst 2 Stück"
+  },
+  "slug": "bauernwurst-2-stueck",
+  "slugs": {
+    "de": "bauernwurst-2-stueck",
+    "fr": "saucisse-paysanne",
+    "it": "saucisse-paysanne",
+    "en": "bauernwurst-2-stueck"
+  },
+  "type": "00",
+  "boss_number": "040114500570",
+  "data_source": "SAP-X11",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "80"
+  },
+  "tags": [
+    "source-p4m",
+    "migipedia",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7610200014313"
+  ],
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarket"
+  },
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "labels": [
+    {
+      "id": "L53",
+      "name": "Swissness",
+      "slug": "swissness",
+      "image": {
+        "original": "https://image.migros.ch/original/d771bba2f6b08ba42970ea0243c6f8c5a8832f15/swissness.jpg",
+        "stack": "https://image.migros.ch/{stack}/d771bba2f6b08ba42970ea0243c6f8c5a8832f15/swissness.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_0101061201",
+      "name": "Wurstwaren geräucht",
+      "slug": "supermarkt/lebensmittel/fleisch/wurstwaren/wurstwaren-geraeucht",
+      "visible": true,
+      "parent_code": "BeSS_01010612",
+      "image": {
+        "original": "https://image.migros.ch/original/cc2c20c3e3f9ae3aea3f23baaf87ec6d7c335fdb/wurstwaren-geraeucht.jpg",
+        "stack": "https://image.migros.ch/{stack}/cc2c20c3e3f9ae3aea3f23baaf87ec6d7c335fdb/wurstwaren-geraeucht.jpg"
+      },
+      "level": 5
+    },
+    {
+      "code": "BeSS_01010612",
+      "name": "Wurstwaren",
+      "slug": "supermarkt/lebensmittel/fleisch/wurstwaren",
+      "visible": true,
+      "title": "Trockenfleisch und Schinken jetzt in Ihrer Migros",
+      "parent_code": "BeSS_010106",
+      "image": {
+        "original": "https://image.migros.ch/original/9522a8f1486af9dc86cfb8a9195c906a242ab2b7/wurstwaren.jpg",
+        "stack": "https://image.migros.ch/{stack}/9522a8f1486af9dc86cfb8a9195c906a242ab2b7/wurstwaren.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010106",
+      "name": "Fleisch",
+      "slug": "supermarkt/lebensmittel/fleisch",
+      "visible": true,
+      "title": "Fleisch ausgezeichneter Qualität aus Ihrer Migros: einfach gut",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/03d32c0880d7a9ea6e58971966032e65ac442b58/fleisch.jpg",
+        "stack": "https://image.migros.ch/{stack}/03d32c0880d7a9ea6e58971966032e65ac442b58/fleisch.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/31702195ec9d38aecefe80349eb347f79d56c750/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/31702195ec9d38aecefe80349eb347f79d56c750/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "online_relevant": [
+    {
+      "code": "MGB",
+      "name": "Migros Genossenschafts-Bund"
+    }
+  ],
+  "links": {
+    "migros_ch": {
+      "url": "https://www.migros.ch/en/product/230534300000?context=instore",
+      "name": "In-store assortment",
+      "canonical": "https://www.migros.ch/en/product/230534300000?context=instore",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/230534300000",
+      "name": "Migipedia",
+      "canonical": "https://www.migros.ch/en/product/230534300000?context=instore",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "has_safety_sheet": false,
+  "m_check2": {
+    "carbon_footprint": {
+      "image": {
+        "original": "https://image.migros.ch/original/6137c42cbff331738ddeafb4f91efb06075417b3.svg",
+        "stack": "https://image.migros.ch/{stack}/6137c42cbff331738ddeafb4f91efb06075417b3.svg"
+      },
+      "ground_and_sea_cargo": {
+        "kg_co2": 7.733,
+        "kg_co2_range": "4.8 - 9.9 kg CO₂eq / kg",
+        "co2_in_car_km": 43,
+        "rating": 2,
+        "production_in_percent": 95.6937799,
+        "packaging_in_percent": 2.237165395,
+        "transport_in_percent": 2.069054701
+      }
+    },
+    "animal_welfare": {
+      "rating": 3,
+      "label": "Animal welfare",
+      "image": {
+        "original": "https://image.migros.ch/original/02f56762a6d67ea0470f50e5e8cc4d96d84791f0.svg",
+        "stack": "https://image.migros.ch/{stack}/02f56762a6d67ea0470f50e5e8cc4d96d84791f0.svg"
+      }
+    }
+  },
+  "receipt_text": "Bauernwurst",
+  "package": {
+    "content": 270,
+    "content_unit_code": "g",
+    "content_unit": "Gram",
+    "net_weight": 0.27,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogram",
+    "type": "CU",
+    "portions_per_package": "1",
+    "brutto_weight": 0.27,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 810,
+    "brutto_volume_unit_code": "ccm",
+    "height": 22.5,
+    "length": 4.8,
+    "width": 7.5,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "270g"
+  },
+  "package_information": {
+    "tu": {
+      "gtins": [
+        "7617027143912"
+      ],
+      "brutto_weight": 1.35,
+      "brutto_weight_unit_code": "kg",
+      "number_of_base_units": 5
+    },
+    "cu": {
+      "gtins": [
+        "7610200014313"
+      ],
+      "brutto_weight": 0.27,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 810,
+      "brutto_volume_unit_code": "ccm",
+      "height": 22.5,
+      "length": 4.8,
+      "width": 7.5,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    }
+  },
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "price": {
+    "valid_from": "2019-11-25T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 6.6,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "270g"
+    },
+    "base": {
+      "price": 2.44,
+      "quantity": 100,
+      "unit": "G"
+    }
+  },
+  "features": [
+    {
+      "label_code": "acxMISOform",
+      "label": "Form",
+      "values": [
+        {
+          "value": "Portion"
+        }
+      ],
+      "category_code": "ecxMISOCLAwuerstefleischgefluegelsonstigetierebearbeitetverarbeitetfleischgefluegelsonstigetierelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOcugebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "erxMISOcugebindeartkunststoffverpackung",
+          "value": "Kunststoff-Verpackung"
+        }
+      ],
+      "category_code": "ecxMISOCLAwuerstefleischgefluegelsonstigetierebearbeitetverarbeitetfleischgefluegelsonstigetierelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOprodukttypischesmerkmal",
+      "label": "Produkttypisches Merkmal",
+      "values": [
+        {
+          "value": "cooked"
+        }
+      ],
+      "category_code": "ecxMISOCLAwuerstefleischgefluegelsonstigetierebearbeitetverarbeitetfleischgefluegelsonstigetierelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOzusaetzlicheeigenschaft",
+      "label": "Zusätzliche Eigenschaft",
+      "values": [
+        {
+          "value_code": "erxMISOzusaetzlicheeigenschaftgeraeuchert",
+          "value": "smoked"
+        }
+      ],
+      "category_code": "ecxMISOCLAwuerstefleischgefluegelsonstigetierebearbeitetverarbeitetfleischgefluegelsonstigetierelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/1f4868bf400dc575624eed4f5d3ab104b05664ce/bauernwurst-2-stueck.jpg",
+    "stack": "https://image.migros.ch/{stack}/1f4868bf400dc575624eed4f5d3ab104b05664ce/bauernwurst-2-stueck.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/d2f080164acb22ded8a0eea8129ae81eb28ea509/bauernwurst-2-stueck.png",
+    "stack": "https://image.migros.ch/{stack}/d2f080164acb22ded8a0eea8129ae81eb28ea509/bauernwurst-2-stueck.png"
+  },
+  "additional_images": [
+    {
+      "original": "https://image.migros.ch/original/723465c4302e7af94924e6ff12d9df6ce02baccf.jpg",
+      "stack": "https://image.migros.ch/{stack}/723465c4302e7af94924e6ff12d9df6ce02baccf.jpg"
+    }
+  ],
+  "internal_features": [
+    {
+      "label_code": "MAPI_EXPORTABLE",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_EXPORTABLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Normalposition"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZFRP",
+          "value": "Frische Beschaffung"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "ZFRP"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "71222",
+          "value": "BRUEHWUERSTE GERAEUC"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LIFECYCLE",
+      "values": [
+        {
+          "value_code": "D",
+          "value": "Detailhandelsartikel"
+        }
+      ],
+      "category_code": "MAPI_LIFECYCLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_STORAGE_CONDITIONS",
+      "values": [
+        {
+          "value_code": "02",
+          "value": "refrigerated"
+        }
+      ],
+      "category_code": "MAPI_STORAGE_CONDITIONS",
+      "top_fact": false
+    },
+    {
+      "label_code": "acxCommonarticlecocompensated",
+      "label": "Artikel Co2 kompensiert",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false
+    },
+    {
+      "label_code": "acxCommonmesswertcompensation",
+      "label": "CO2-Wert Kompensation",
+      "values": [
+        {
+          "value_code": "NUMERIC_7.733",
+          "value": "7.733",
+          "numeric_value": 7.733
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false,
+      "unit_code": "5d71456e-a520-4294-9ddb-add78f63ce83",
+      "unit": "Equivalence per kilogram",
+      "unit_symbol": "eq / kg"
+    },
+    {
+      "label_code": "acxCommonoutputmcheckclimatedeclaration",
+      "label": "Auslobung M-Check Klimadeklaration",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Yes",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false
+    }
+  ],
+  "declarations": {
+    "declaration_number": "8797830667726",
+    "tags": [
+      "source-pim"
+    ],
+    "product_name": "Berner Bauernwurst",
+    "gtins": [
+      "7610200014313"
+    ],
+    "valid_from": "2011-08-04T10:07:25+0200",
+    "product_details": {
+      "regulated_description": "Fleischerzeugnis gekocht"
+    },
+    "general_information": [
+      {
+        "label": "Obligatorische Zusatzangaben",
+        "values": [
+          "-"
+        ]
+      },
+      {
+        "label": "Aufbewarungs- und Verpackungshinweise",
+        "values": [
+          "Gekühlt aufbewahren! *"
+        ]
+      },
+      {
+        "label": "Haltbarkeit",
+        "values": [
+          "Verkaufen bis: Verbrauchen bis:"
+        ]
+      }
+    ],
+    "ingredients_information": {
+      "ingredients_text": "Schweinefleisch, Rindfleisch, Speck, Schwarten, Wasser, Nitritpökelsalz (Kochsalz, Konservierungsstoff: E 250), Rotwein, Gewürze (enthalten Soja), Stabilisator: E 450, Antioxidationsmittel: Ascorbinsäure und E 301, Säuerungsmittel: Citronensäure und E 575, Geschmacksverstärker: Mononatriumglutamat. \nHülle: Schweinedarm",
+      "allergens_information": {
+        "allergens": [
+          {
+            "code": "ALLG_SOJA",
+            "label": "Sojabohnen",
+            "contamination_code": "VORHANDEN",
+            "contamination_label": "vorhanden"
+          }
+        ]
+      }
+    },
+    "nutrition_facts": {
+      "reference_sizes": {
+        "standard": {
+          "base": {
+            "description": "enthalten",
+            "quantity": {
+              "value": "100 g",
+              "numeric_value": 100,
+              "unit": "g"
+            }
+          },
+          "nutrients": [
+            {
+              "code": "NUT_ENERGY",
+              "name": "Energy",
+              "operator": "=",
+              "pictogram_name": "Energy",
+              "category": "BIG9",
+              "quantity": {
+                "value": "1170 kJ",
+                "numeric_value": 1170,
+                "unit": "kJ",
+                "alternate": {
+                  "value": "282 kcal",
+                  "numeric_value": 282,
+                  "unit": "kcal"
+                }
+              },
+              "rda": {
+                "percent": 14,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_FAT",
+              "name": "Fat",
+              "operator": "=",
+              "pictogram_name": "Fat",
+              "category": "BIG9",
+              "quantity": {
+                "value": "24 g",
+                "numeric_value": 24,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 34,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_SATURATED_FATTY_ACIDS",
+              "name": "of which saturates",
+              "operator": "=",
+              "pictogram_name": "saturated fatty acids",
+              "category": "BIG9",
+              "quantity": {
+                "value": "9 g",
+                "numeric_value": 9,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 45,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_CARBOHYDRATES",
+              "name": "Carbohydrate",
+              "operator": "<",
+              "category": "BIG9",
+              "quantity": {
+                "value": "1 g",
+                "numeric_value": 1,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 0.5,
+                "operator": "<"
+              }
+            },
+            {
+              "code": "NUT_SUGAR",
+              "name": "of which sugars",
+              "operator": "<",
+              "pictogram_name": "Sugar",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0.5 g",
+                "numeric_value": 0.5,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 0.5,
+                "operator": "<"
+              }
+            },
+            {
+              "code": "NUT_FIBER",
+              "name": "Fibre",
+              "operator": "<",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0.5 g",
+                "numeric_value": 0.5,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_PROTEIN",
+              "name": "Protein",
+              "operator": "=",
+              "category": "BIG9",
+              "quantity": {
+                "value": "16 g",
+                "numeric_value": 16,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 32,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_SALT",
+              "name": "Salt",
+              "operator": "=",
+              "pictogram_name": "Salt",
+              "category": "BIG9",
+              "quantity": {
+                "value": "1.9 g",
+                "numeric_value": 1.9,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 32,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_SODIUM",
+              "name": "Sodium",
+              "operator": "=",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0.7 g",
+                "numeric_value": 0.7,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 29,
+                "operator": "="
+              }
+            }
+          ]
+        },
+        "portion": {
+          "base": {
+            "description": "1 Portion enthält",
+            "quantity": {
+              "value": "50 g",
+              "numeric_value": 50,
+              "unit": "g"
+            }
+          },
+          "nutrients": [
+            {
+              "code": "NUT_ENERGY",
+              "name": "Energy",
+              "operator": "=",
+              "pictogram_name": "Energy",
+              "category": "BIG9",
+              "quantity": {
+                "value": "580 kJ",
+                "numeric_value": 580,
+                "unit": "kJ",
+                "alternate": {
+                  "value": "141 kcal",
+                  "numeric_value": 141,
+                  "unit": "kcal"
+                }
+              },
+              "rda": {
+                "percent": 7,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_FAT",
+              "name": "Fat",
+              "operator": "=",
+              "pictogram_name": "Fat",
+              "category": "BIG9",
+              "quantity": {
+                "value": "12 g",
+                "numeric_value": 12,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 17,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_SATURATED_FATTY_ACIDS",
+              "name": "of which saturates",
+              "operator": "=",
+              "pictogram_name": "saturated fatty acids",
+              "category": "BIG9",
+              "quantity": {
+                "value": "4.5 g",
+                "numeric_value": 4.5,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 23,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_CARBOHYDRATES",
+              "name": "Carbohydrate",
+              "operator": "<",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0.5 g",
+                "numeric_value": 0.5,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 0.5,
+                "operator": "<"
+              }
+            },
+            {
+              "code": "NUT_SUGAR",
+              "name": "of which sugars",
+              "operator": "<",
+              "pictogram_name": "Sugar",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0.5 g",
+                "numeric_value": 0.5,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 0.5,
+                "operator": "<"
+              }
+            },
+            {
+              "code": "NUT_FIBER",
+              "name": "Fibre",
+              "operator": "<",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0.5 g",
+                "numeric_value": 0.5,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_PROTEIN",
+              "name": "Protein",
+              "operator": "=",
+              "category": "BIG9",
+              "quantity": {
+                "value": "8 g",
+                "numeric_value": 8,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 16,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_SALT",
+              "name": "Salt",
+              "operator": "=",
+              "pictogram_name": "Salt",
+              "category": "BIG9",
+              "quantity": {
+                "value": "1 g",
+                "numeric_value": 1,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 17,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_SODIUM",
+              "name": "Sodium",
+              "operator": "=",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0.4 g",
+                "numeric_value": 0.4,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 17,
+                "operator": "="
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "recipe_ingredient_ids": [
+    "10000"
+  ],
+  "regional_availability": {
+    "gmaa": {
+      "probability": 0
+    },
+    "gmbs": {
+      "probability": 0
+    },
+    "gmge": {
+      "probability": 0
+    },
+    "gmlu": {
+      "probability": 54
+    },
+    "gmnf": {
+      "probability": 0
+    },
+    "gmos": {
+      "probability": 0
+    },
+    "gmti": {
+      "probability": 0
+    },
+    "gmvd": {
+      "probability": 0
+    },
+    "gmvs": {
+      "probability": 0
+    },
+    "gmzh": {
+      "probability": 0
+    }
+  },
+  "ratings": {
+    "count_all": 7,
+    "average_all": 4.142857142857
+  },
+  "related_products": {
+    "purchase_recommendations": {
+      "product_ids": [
+        "230540200000",
+        "230534600000",
+        "230535200000",
+        "230539800000"
+      ]
+    }
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "updated_at": "2023-08-17T07:27:10+0200",
+  "sap_created_at": "2006-11-14T18:00:00+0100",
+  "online_shop_relevant": false,
+  "base_unit": "CU",
+  "co2_compensation": {
+    "kg_co2": 7.733,
+    "kg_co2_compensation": 7.733,
+    "is_compensated": false,
+    "mcheck_enabled": true
+  },
+  "origins": {
+    "producing_country": "Hergestellt in der Schweiz aus Schweizer Fleisch*"
+  },
+  "views": [
+    "all",
+    "browse",
+    "browseallretailers"
+  ]
+}

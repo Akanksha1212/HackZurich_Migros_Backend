@@ -1,0 +1,862 @@
+{
+  "id": "231505070000",
+  "language": "en",
+  "name": "Bauernschinken",
+  "names": {
+    "short_name": "Bauernschinken"
+  },
+  "slug": "bauernschinken-231505070000",
+  "slugs": {
+    "de": "bauernschinken-231505070000",
+    "fr": "jambon-campagne",
+    "it": "jambon-campagne",
+    "en": "bauernschinken-231505070000"
+  },
+  "type": "00",
+  "boss_number": "040114501510",
+  "description": {
+    "text": "<p><strong>Aus der Region - Wyl&auml;nder Bauernschinken</strong></p><p>Bauernschinken ger&auml;uchert, gekocht. Hergestellt in der Schweiz mit Schweizer Fleisch. Gek&uuml;hlt aufbewahren bei max. + 5°C.</p><p>Zertifiziert: ProCert<br /> </p>",
+    "source": "P4M"
+  },
+  "data_source": "SAP-X11",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "80"
+  },
+  "tags": [
+    "source-p4m",
+    "migipedia",
+    "filter-aus-der-region",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "2114469000001",
+    "7617027148672"
+  ],
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarket"
+  },
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "labels": [
+    {
+      "id": "L53",
+      "name": "Swissness",
+      "slug": "swissness",
+      "image": {
+        "original": "https://image.migros.ch/original/d771bba2f6b08ba42970ea0243c6f8c5a8832f15/swissness.jpg",
+        "stack": "https://image.migros.ch/{stack}/d771bba2f6b08ba42970ea0243c6f8c5a8832f15/swissness.jpg"
+      }
+    },
+    {
+      "id": "L28",
+      "name": "Aus der Region. Für die Region.",
+      "slug": "aus-der-region-fuer-die-region",
+      "links": {
+        "homepage": {
+          "url": "https://aus-der-region.migros.ch/aus-der-region/de.html",
+          "name": "Homepage",
+          "type": "info",
+          "purchasable": false
+        }
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_0101061308",
+      "name": "Kochschinken gekühlt",
+      "slug": "supermarkt/lebensmittel/fleisch/trockenfleisch-schinken/kochschinken-gekuehlt",
+      "visible": true,
+      "title": "Kochschinken in Ihrer Migros kaufen",
+      "parent_code": "BeSS_01010613",
+      "image": {
+        "original": "https://image.migros.ch/original/e2722429bbd296c2297ade970bfe7ef0ad5af39f/kochschinken-gekuehlt.jpg",
+        "stack": "https://image.migros.ch/{stack}/e2722429bbd296c2297ade970bfe7ef0ad5af39f/kochschinken-gekuehlt.jpg"
+      },
+      "level": 5
+    },
+    {
+      "code": "BeSS_01010613",
+      "name": "Trockenfleisch & Schinken",
+      "slug": "supermarkt/lebensmittel/fleisch/trockenfleisch-schinken",
+      "visible": true,
+      "title": "Trockenfleisch und Schinken jetzt in Ihrer Migros",
+      "parent_code": "BeSS_010106",
+      "image": {
+        "original": "https://image.migros.ch/original/fb1b1b39874192c39bf5b11367b2c8d2d47d48a6/trockenfleisch-schinken.jpg",
+        "stack": "https://image.migros.ch/{stack}/fb1b1b39874192c39bf5b11367b2c8d2d47d48a6/trockenfleisch-schinken.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010106",
+      "name": "Fleisch",
+      "slug": "supermarkt/lebensmittel/fleisch",
+      "visible": true,
+      "title": "Fleisch ausgezeichneter Qualität aus Ihrer Migros: einfach gut",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/03d32c0880d7a9ea6e58971966032e65ac442b58/fleisch.jpg",
+        "stack": "https://image.migros.ch/{stack}/03d32c0880d7a9ea6e58971966032e65ac442b58/fleisch.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/31702195ec9d38aecefe80349eb347f79d56c750/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/31702195ec9d38aecefe80349eb347f79d56c750/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "online_relevant": [
+    {
+      "code": "MGB",
+      "name": "Migros Genossenschafts-Bund"
+    }
+  ],
+  "links": {
+    "migros_ch": {
+      "url": "https://www.migros.ch/en/product/231505070000?context=instore",
+      "name": "In-store assortment",
+      "canonical": "https://www.migros.ch/en/product/231505070000?context=instore",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/231505070000",
+      "name": "Migipedia",
+      "canonical": "https://www.migros.ch/en/product/231505070000?context=instore",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "has_safety_sheet": false,
+  "m_check2": {
+    "carbon_footprint": {
+      "image": {
+        "original": "https://image.migros.ch/original/6137c42cbff331738ddeafb4f91efb06075417b3.svg",
+        "stack": "https://image.migros.ch/{stack}/6137c42cbff331738ddeafb4f91efb06075417b3.svg"
+      },
+      "ground_and_sea_cargo": {
+        "kg_co2": 7.599,
+        "kg_co2_range": "4.8 - 9.9 kg CO₂eq / kg",
+        "co2_in_car_km": 42,
+        "rating": 2,
+        "production_in_percent": 97,
+        "packaging_in_percent": 2,
+        "transport_in_percent": 0
+      }
+    },
+    "animal_welfare": {
+      "rating": 3,
+      "label": "Animal welfare",
+      "image": {
+        "original": "https://image.migros.ch/original/02f56762a6d67ea0470f50e5e8cc4d96d84791f0.svg",
+        "stack": "https://image.migros.ch/{stack}/02f56762a6d67ea0470f50e5e8cc4d96d84791f0.svg"
+      }
+    }
+  },
+  "receipt_text": "Bauernschinken",
+  "package": {
+    "content": 1000,
+    "content_unit_code": "g",
+    "content_unit": "Gram",
+    "net_weight": 1,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogram",
+    "type": "KG",
+    "portions_per_package": "1",
+    "brutto_weight": 1,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 679.875,
+    "brutto_volume_unit_code": "ccm",
+    "height": 18.5,
+    "length": 3.5,
+    "width": 10.5,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "average_min": 0.145,
+    "average_min_unit_code": "kg",
+    "average_max": 0.18,
+    "average_max_unit_code": "kg"
+  },
+  "package_information": {
+    "tu": {
+      "gtins": [
+        "7617027148665"
+      ],
+      "brutto_weight": 1,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 31.92,
+      "brutto_volume_unit_code": "cdm",
+      "height": 13.3,
+      "length": 60,
+      "width": 40,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "kg": {
+      "gtins": [
+        "2114469000001",
+        "7617027148672"
+      ],
+      "brutto_weight": 1,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 679.875,
+      "brutto_volume_unit_code": "ccm",
+      "height": 18.5,
+      "length": 3.5,
+      "width": 10.5,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    }
+  },
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "price": {
+    "valid_from": "2023-06-19T00:00:00+0200",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "source": "PriceRepository",
+    "no_price_hint": "Current daily price"
+  },
+  "features": [
+    {
+      "label_code": "acxMISOform",
+      "label": "Form",
+      "values": [
+        {
+          "value": "trimmed"
+        }
+      ],
+      "category_code": "ecxMISOCLAwuerstefleischgefluegelsonstigetierebearbeitetverarbeitetfleischgefluegelsonstigetierelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOteilstueck",
+      "label": "Teilstück",
+      "values": [
+        {
+          "value_code": "erxMISOteilstueckstotzen",
+          "value": "Leg"
+        }
+      ],
+      "category_code": "ecxMISOCLAwuerstefleischgefluegelsonstigetierebearbeitetverarbeitetfleischgefluegelsonstigetierelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOcugebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "erxMISOcugebindeartkunststoffverpackung",
+          "value": "Kunststoff-Verpackung"
+        }
+      ],
+      "category_code": "ecxMISOCLAwuerstefleischgefluegelsonstigetierebearbeitetverarbeitetfleischgefluegelsonstigetierelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOproduktionsanspruch",
+      "label": "Produktionsverfahren",
+      "values": [
+        {
+          "value_code": "erxMISOproduktionsanspruchausderregion",
+          "value": "Aus der Region"
+        },
+        {
+          "value_code": "erxMISOproduktionsanspruchgekocht",
+          "value": "Gekocht"
+        },
+        {
+          "value_code": "erxMISOproduktionsanspruchgeraeuchert",
+          "value": "Geräuchert"
+        }
+      ],
+      "category_code": "ecxMISOCLAwuerstefleischgefluegelsonstigetierebearbeitetverarbeitetfleischgefluegelsonstigetierelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOzubereitungsverfahren",
+      "label": "Hinweise für die Zubereitung",
+      "values": [
+        {
+          "value_code": "erxMISOzubereitungsverfahrenverzehrfertig",
+          "value": "verzehrfertig"
+        }
+      ],
+      "category_code": "ecxMISOCLAwuerstefleischgefluegelsonstigetierebearbeitetverarbeitetfleischgefluegelsonstigetierelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOprodukttypischesmerkmal",
+      "label": "Produkttypisches Merkmal",
+      "values": [
+        {
+          "value": "cooked"
+        }
+      ],
+      "category_code": "ecxMISOCLAwuerstefleischgefluegelsonstigetierebearbeitetverarbeitetfleischgefluegelsonstigetierelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOzusaetzlicheeigenschaft",
+      "label": "Zusätzliche Eigenschaft",
+      "values": [
+        {
+          "value_code": "erxMISOzusaetzlicheeigenschaftgeraeuchert",
+          "value": "smoked"
+        }
+      ],
+      "category_code": "ecxMISOCLAwuerstefleischgefluegelsonstigetierebearbeitetverarbeitetfleischgefluegelsonstigetierelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/46aeafedf11defac8b3c87c9c9475e2956526ad8/bauernschinken.jpg",
+    "stack": "https://image.migros.ch/{stack}/46aeafedf11defac8b3c87c9c9475e2956526ad8/bauernschinken.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/e3bac3247ef24b75f531a93426350c066a97a4a1/bauernschinken.png",
+    "stack": "https://image.migros.ch/{stack}/e3bac3247ef24b75f531a93426350c066a97a4a1/bauernschinken.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_EXPORTABLE",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_EXPORTABLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Normalposition"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZFRP",
+          "value": "Frische Beschaffung"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "ZFRP"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "71224",
+          "value": "SCHINKENPRODUKTE"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LIFECYCLE",
+      "values": [
+        {
+          "value_code": "D",
+          "value": "Detailhandelsartikel"
+        }
+      ],
+      "category_code": "MAPI_LIFECYCLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_STORAGE_CONDITIONS",
+      "values": [
+        {
+          "value_code": "02",
+          "value": "refrigerated"
+        }
+      ],
+      "category_code": "MAPI_STORAGE_CONDITIONS",
+      "top_fact": false
+    },
+    {
+      "label_code": "acxMISOamigosmaximalgewicht",
+      "label": "Maximal-Gewicht",
+      "values": [
+        {
+          "value_code": "NUMERIC_180",
+          "value": "180",
+          "numeric_value": 180
+        }
+      ],
+      "category_code": "ecxMISOCLAwuerstefleischgefluegelsonstigetierebearbeitetverarbeitetfleischgefluegelsonstigetierelebensmittelgetraenkealle",
+      "top_fact": false,
+      "unit_code": "450a3d52-a066-4786-9744-4a7daa8339f7",
+      "unit": "g",
+      "unit_symbol": "g"
+    },
+    {
+      "label_code": "acxMISOamigosminimalgewicht",
+      "label": "Minimal-Gewicht",
+      "values": [
+        {
+          "value_code": "NUMERIC_145",
+          "value": "145",
+          "numeric_value": 145
+        }
+      ],
+      "category_code": "ecxMISOCLAwuerstefleischgefluegelsonstigetierebearbeitetverarbeitetfleischgefluegelsonstigetierelebensmittelgetraenkealle",
+      "top_fact": false,
+      "unit_code": "450a3d52-a066-4786-9744-4a7daa8339f7",
+      "unit": "g",
+      "unit_symbol": "g"
+    },
+    {
+      "label_code": "acxCommonarticlecocompensated",
+      "label": "Artikel Co2 kompensiert",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false
+    },
+    {
+      "label_code": "acxCommonmesswertcompensation",
+      "label": "CO2-Wert Kompensation",
+      "values": [
+        {
+          "value_code": "NUMERIC_7.599",
+          "value": "7.599",
+          "numeric_value": 7.599
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false,
+      "unit_code": "5d71456e-a520-4294-9ddb-add78f63ce83",
+      "unit": "Equivalence per kilogram",
+      "unit_symbol": "eq / kg"
+    },
+    {
+      "label_code": "acxCommonoutputmcheckclimatedeclaration",
+      "label": "Auslobung M-Check Klimadeklaration",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Yes",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false
+    }
+  ],
+  "declarations": {
+    "declaration_number": "Q_2121841432625688",
+    "tags": [
+      "source-qim"
+    ],
+    "gtins": [
+      "2114469000001"
+    ],
+    "valid_from": "2023-03-28T11:31:00+0200",
+    "product_details": {
+      "net_filled_quantity": {
+        "value": "220 g",
+        "numeric_value": 220,
+        "unit": "g"
+      },
+      "net_weight": {
+        "value": "220 Gramm",
+        "numeric_value": 220,
+        "unit": "Gramm"
+      }
+    },
+    "distributor": {
+      "name": "Herbert Ospelt Anstalt",
+      "address": "Schaanerstrasse 799487 Bendern FL"
+    },
+    "ingredients_information": {
+      "additives_information": {
+        "declaration_obligatory": {
+          "code": "CAO",
+          "label": "With antioxidant"
+        },
+        "additives": [
+          {
+            "code": "ZSG002",
+            "label": "antioxidant",
+            "containment_code": "CONTAINS",
+            "containment_label": "Contains"
+          },
+          {
+            "code": "ZSG001",
+            "label": "preservative",
+            "containment_code": "CONTAINS",
+            "containment_label": "Contains"
+          }
+        ]
+      }
+    },
+    "nutrition_facts": {
+      "reference_sizes": {
+        "standard": {
+          "base": {
+            "quantity": {
+              "value": "100 g",
+              "numeric_value": 100,
+              "unit": "g"
+            }
+          },
+          "nutrients": [
+            {
+              "code": "NUT_ENERGY",
+              "name": "Energy",
+              "operator": "~",
+              "pictogram_name": "Energy",
+              "category": "BIG9",
+              "quantity": {
+                "value": "720.00000 kJ",
+                "numeric_value": 720,
+                "unit": "kJ",
+                "alternate": {
+                  "value": "172.00000 kcal",
+                  "numeric_value": 172,
+                  "unit": "kcal"
+                }
+              }
+            },
+            {
+              "code": "NUT_FAT",
+              "name": "Fat",
+              "operator": "~",
+              "pictogram_name": "Fat",
+              "category": "BIG9",
+              "quantity": {
+                "value": "10.00000 g",
+                "numeric_value": 10,
+                "unit": "g"
+              },
+              "rating": {
+                "value": 1,
+                "text": "medium",
+                "icon": {
+                  "original": "https://image.migros.ch/original/b84b389195e426a9e6b4cd66f2c79b1a049809da.svg",
+                  "stack": "https://image.migros.ch/{stack}/b84b389195e426a9e6b4cd66f2c79b1a049809da.svg"
+                },
+                "hex_color": "#e8a800"
+              }
+            },
+            {
+              "code": "NUT_SATURATED_FATTY_ACIDS",
+              "name": "of which saturates",
+              "operator": "~",
+              "pictogram_name": "saturated fatty acids",
+              "category": "BIG9",
+              "quantity": {
+                "value": "3.80000 g",
+                "numeric_value": 3.8,
+                "unit": "g"
+              },
+              "rating": {
+                "value": 1,
+                "text": "medium",
+                "icon": {
+                  "original": "https://image.migros.ch/original/b84b389195e426a9e6b4cd66f2c79b1a049809da.svg",
+                  "stack": "https://image.migros.ch/{stack}/b84b389195e426a9e6b4cd66f2c79b1a049809da.svg"
+                },
+                "hex_color": "#e8a800"
+              }
+            },
+            {
+              "code": "NUT_CARBOHYDRATES",
+              "name": "Carbohydrate",
+              "operator": "~",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0.60000 g",
+                "numeric_value": 0.6,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_SUGAR",
+              "name": "of which sugars",
+              "operator": "<",
+              "pictogram_name": "Sugar",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0.50000 g",
+                "numeric_value": 0.5,
+                "unit": "g"
+              },
+              "rating": {
+                "value": 0,
+                "text": "low",
+                "icon": {
+                  "original": "https://image.migros.ch/original/a2b5e2562a4fedbbdec99c1932ec57c46c49cde4.svg",
+                  "stack": "https://image.migros.ch/{stack}/a2b5e2562a4fedbbdec99c1932ec57c46c49cde4.svg"
+                },
+                "hex_color": "#069800"
+              }
+            },
+            {
+              "code": "NUT_FIBER",
+              "name": "Fibre",
+              "operator": "<",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0.50000 g",
+                "numeric_value": 0.5,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_PROTEIN",
+              "name": "Protein",
+              "operator": "~",
+              "category": "BIG9",
+              "quantity": {
+                "value": "20.00000 g",
+                "numeric_value": 20,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_SALT",
+              "name": "Salt",
+              "operator": "~",
+              "pictogram_name": "Salt",
+              "category": "BIG9",
+              "quantity": {
+                "value": "1.50000 g",
+                "numeric_value": 1.5,
+                "unit": "g"
+              },
+              "rating": {
+                "value": 1,
+                "text": "medium",
+                "icon": {
+                  "original": "https://image.migros.ch/original/b84b389195e426a9e6b4cd66f2c79b1a049809da.svg",
+                  "stack": "https://image.migros.ch/{stack}/b84b389195e426a9e6b4cd66f2c79b1a049809da.svg"
+                },
+                "hex_color": "#e8a800"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "recipe_ingredient_ids": [
+    "10000"
+  ],
+  "regional_availability": {
+    "gmaa": {
+      "probability": 0
+    },
+    "gmbs": {
+      "probability": 0
+    },
+    "gmge": {
+      "probability": 0
+    },
+    "gmlu": {
+      "probability": 0
+    },
+    "gmnf": {
+      "probability": 0
+    },
+    "gmos": {
+      "probability": 0
+    },
+    "gmti": {
+      "probability": 0
+    },
+    "gmvd": {
+      "probability": 0
+    },
+    "gmvs": {
+      "probability": 0
+    },
+    "gmzh": {
+      "probability": 12
+    }
+  },
+  "ratings": {
+    "count_all": 10,
+    "average_all": 4.6
+  },
+  "related_products": {
+    "purchase_recommendations": {
+      "product_ids": [
+        "231505071000",
+        "231505072000",
+        "231507181000",
+        "231505881910",
+        "233600111200"
+      ]
+    }
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "updated_at": "2023-08-17T07:27:28+0200",
+  "sap_created_at": "2006-11-14T18:00:00+0100",
+  "online_shop_relevant": false,
+  "base_unit": "KG",
+  "co2_compensation": {
+    "kg_co2": 7.599,
+    "kg_co2_compensation": 7.599,
+    "is_compensated": false,
+    "mcheck_enabled": true
+  },
+  "origins": {
+    "producing_country": "Liechtenstein"
+  },
+  "views": [
+    "all",
+    "browse",
+    "browseallretailers"
+  ]
+}

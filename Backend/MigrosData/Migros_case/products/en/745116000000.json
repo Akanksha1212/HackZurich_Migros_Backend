@@ -1,0 +1,584 @@
+{
+  "id": "745116000000",
+  "language": "en",
+  "name": "RVB MINI MANDALAS 4FACH SORT",
+  "names": {
+    "short_name": "RVB MINI MANDALAS 4FACH SORT"
+  },
+  "slug": "rvb-mini-mandalas-4fach-sort",
+  "slugs": {
+    "de": "ravensburger-disney-mandala-designer",
+    "fr": "ravensburger-disney-mandala-designer",
+    "it": "ravensburger-disney-mandala-designer",
+    "en": "rvb-mini-mandalas-4fach-sort"
+  },
+  "type": "00",
+  "boss_number": "130861351005",
+  "data_source": "SAP-X12",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03",
+    "distribution_center": [
+      {
+        "center_id": "1001",
+        "center_name": "Migros Verteilzentrum Neuendorf",
+        "status_code": "03",
+        "status_description": "active"
+      }
+    ]
+  },
+  "tags": [
+    "source-pex",
+    "migipedia",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "4005556299461",
+    "4005556299836",
+    "4005556299263",
+    "4005556299485",
+    "4005556299782",
+    "4005556299409",
+    "4005556299867",
+    "4005556299492",
+    "4005556299799",
+    "4005556299454",
+    "4005556299478",
+    "4005556299560",
+    "4005556299447",
+    "4005556299546",
+    "4005556299430",
+    "4005556297214",
+    "4005556298396",
+    "4005556297252",
+    "4005556297245",
+    "4005556297351",
+    "4005556297344",
+    "4005556297467",
+    "4005556299805",
+    "4005556297573",
+    "4005556297580",
+    "4005556298082",
+    "4005556298570",
+    "4005556299881",
+    "4005556299652",
+    "4005556297047",
+    "4005556297146",
+    "4005556297658",
+    "4005556297665",
+    "4005556290253",
+    "4005556285204"
+  ],
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarket"
+  },
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "brand": {
+    "id": "MIA",
+    "name": "Ravensburger",
+    "slug": "ravensburger"
+  },
+  "categories": [
+    {
+      "code": "BeSS_01071211",
+      "name": "Sonstige Spielwaren",
+      "slug": "supermarkt/baby-kinder/spielwaren/sonstige-spielwaren",
+      "visible": true,
+      "parent_code": "BeSS_010712",
+      "image": {
+        "original": "https://image.migros.ch/original/5f66a379684e580c7373e5f5f3880cd866cd1baa/sonstige-spielwaren.jpg",
+        "stack": "https://image.migros.ch/{stack}/5f66a379684e580c7373e5f5f3880cd866cd1baa/sonstige-spielwaren.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010712",
+      "name": "Spielwaren",
+      "slug": "supermarkt/baby-kinder/spielwaren",
+      "visible": true,
+      "title": "Daran haben Kinder Freude: Spielwaren aus der Migros",
+      "parent_code": "BeSS_0107",
+      "image": {
+        "original": "https://image.migros.ch/original/44a2aeebd38216c32a1d9bbfc94664e575d085c1/spielwaren.jpg",
+        "stack": "https://image.migros.ch/{stack}/44a2aeebd38216c32a1d9bbfc94664e575d085c1/spielwaren.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0107",
+      "name": "Baby & Kinder",
+      "slug": "supermarkt/baby-kinder",
+      "visible": true,
+      "title": "Babyartikel: Alles rund ums Baby in Ihrer Migros kaufen",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/dc6e5e45f414e657061e049a69de80177f40ca98/baby-kinder.jpg",
+        "stack": "https://image.migros.ch/{stack}/dc6e5e45f414e657061e049a69de80177f40ca98/baby-kinder.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "online_relevant": [
+    {
+      "code": "MGB",
+      "name": "Migros Genossenschafts-Bund"
+    }
+  ],
+  "links": {
+    "migros_ch": {
+      "url": "https://www.migros.ch/en/product/745116000000?context=instore",
+      "name": "In-store assortment",
+      "canonical": "https://www.migros.ch/en/product/745116000000?context=instore",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/745116000000",
+      "name": "Migipedia",
+      "canonical": "https://www.migros.ch/en/product/745116000000?context=instore",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "receipt_text": "Rvb Mandala Designer",
+  "package": {
+    "content": 1,
+    "content_unit_code": "st",
+    "content_unit": "Stück",
+    "brutto_weight": 0.182,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 1.998,
+    "brutto_volume_unit_code": "cdm",
+    "height": 14,
+    "length": 3,
+    "width": 14,
+    "unit_dimension": "cm",
+    "price_comparison_content": 1,
+    "size": "1 Stk."
+  },
+  "package_information": {
+    "cu": {
+      "gtins": [
+        "4005556299836",
+        "4005556299263",
+        "4005556299485",
+        "4005556299782",
+        "4005556299409",
+        "4005556299867",
+        "4005556299461",
+        "4005556299492",
+        "4005556299799",
+        "4005556299454",
+        "4005556299478",
+        "4005556299560",
+        "4005556299447",
+        "4005556299546",
+        "4005556299430",
+        "4005556297214",
+        "4005556298396",
+        "4005556297252",
+        "4005556297245",
+        "4005556297351",
+        "4005556297344",
+        "4005556297467",
+        "4005556299805",
+        "4005556297573",
+        "4005556297580",
+        "4005556298082",
+        "4005556298570",
+        "4005556299881",
+        "4005556299652",
+        "4005556297047",
+        "4005556297146",
+        "4005556297658",
+        "4005556297665",
+        "4005556290253",
+        "4005556285204"
+      ],
+      "brutto_weight": 0.182,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 1.998,
+      "brutto_volume_unit_code": "cdm",
+      "height": 14,
+      "length": 3,
+      "width": 14,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "tuv": {
+      "brutto_weight": 0.65,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 2.94,
+      "brutto_volume_unit_code": "cdm",
+      "height": 15,
+      "length": 28,
+      "width": 7,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 4
+    },
+    "tue": {
+      "number_of_base_units": 4
+    },
+    "lu": {
+      "number_of_base_units": 1300
+    },
+    "lge": {
+      "number_of_base_units": 144
+    }
+  },
+  "vat": {
+    "id": 1,
+    "percentage": 7.7
+  },
+  "price": {
+    "valid_from": "2022-03-14T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 12.95,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "1 Stk."
+    },
+    "base": {
+      "price": 12.95,
+      "quantity": 1,
+      "unit": "st"
+    }
+  },
+  "image": {
+    "original": "https://image.migros.ch/original/70ed3b1e3c0431b54a2422e8604fa499eee9b18f/rvb-mini-mandalas-4fach-sort.jpg",
+    "stack": "https://image.migros.ch/{stack}/70ed3b1e3c0431b54a2422e8604fa499eee9b18f/rvb-mini-mandalas-4fach-sort.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/4528041557cf758c7abcbb77fa7db19525d0c175/rvb-mini-mandalas-4fach-sort.png",
+    "stack": "https://image.migros.ch/{stack}/4528041557cf758c7abcbb77fa7db19525d0c175/rvb-mini-mandalas-4fach-sort.png"
+  },
+  "additional_images": [
+    {
+      "original": "https://image.migros.ch/original/3e00083268a1584d2bdfa33134ccae45e453af5e.jpg",
+      "stack": "https://image.migros.ch/{stack}/3e00083268a1584d2bdfa33134ccae45e453af5e.jpg"
+    },
+    {
+      "original": "https://image.migros.ch/original/8da724a5721fe263f371d2d26ac5e36d2acf58fd.jpg",
+      "stack": "https://image.migros.ch/{stack}/8da724a5721fe263f371d2d26ac5e36d2acf58fd.jpg"
+    },
+    {
+      "original": "https://image.migros.ch/original/9c6049b84d07bae27562668ef8b7e7eab641dffe.jpg",
+      "stack": "https://image.migros.ch/{stack}/9c6049b84d07bae27562668ef8b7e7eab641dffe.jpg"
+    }
+  ],
+  "internal_features": [
+    {
+      "label_code": "miso_amigos_anzeige",
+      "label": "Display aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_nein",
+          "value": "nein"
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "MAPI_RETURNABLE",
+      "label": "Return",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "true",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MAPI_RETURNABLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_MAX_ORDER_QUANTITY",
+      "values": [
+        {
+          "value_code": "NUMERIC_7777777",
+          "value": "7777777",
+          "numeric_value": 7777777
+        }
+      ],
+      "category_code": "MAPI_MAX_ORDER_QUANTITY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_EXCLUDE_FROM_COMPARISON_ENGINES",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "false",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_EXCLUDE_FROM_COMPARISON_ENGINES",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LOGISTIC_CLASS",
+      "values": [
+        {
+          "value_code": "7",
+          "value": "VMI"
+        }
+      ],
+      "category_code": "MAPI_LOGISTIC_CLASS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Standard item"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "HART"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RISK_CLASS",
+      "values": [
+        {
+          "value_code": "2",
+          "value": "2 (medium)"
+        }
+      ],
+      "category_code": "MAPI_RISK_CLASS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_QUALITY_CHECK",
+      "values": [
+        {
+          "value_code": "00",
+          "value": "No Quality Control"
+        }
+      ],
+      "category_code": "MAPI_QUALITY_CHECK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_KUBE_TUKA",
+      "values": [
+        {
+          "value_code": "BLANK",
+          "value": "KUBE und TUKA nicht zugelassen"
+        }
+      ],
+      "category_code": "MAPI_KUBE_TUKA",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HART",
+          "value": "Hartwaren Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "H",
+          "value": "Hartwaren"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "61238",
+          "value": "GESTALTEN"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_EXPORTABLE",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_EXPORTABLE",
+      "top_fact": false
+    }
+  ],
+  "regional_availability": {
+    "gmaa": {
+      "probability": 15
+    },
+    "gmbs": {
+      "probability": 12
+    },
+    "gmge": {
+      "probability": 16
+    },
+    "gmlu": {
+      "probability": 10
+    },
+    "gmnf": {
+      "probability": 14
+    },
+    "gmos": {
+      "probability": 11
+    },
+    "gmti": {
+      "probability": 16
+    },
+    "gmvd": {
+      "probability": 16
+    },
+    "gmvs": {
+      "probability": 19
+    },
+    "gmzh": {
+      "probability": 14
+    }
+  },
+  "ratings": {
+    "count_all": 1,
+    "average_all": 4
+  },
+  "quantity_on_stock": 136,
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "updated_at": "2023-08-16T07:49:33+0200",
+  "sap_created_at": "2005-03-18T00:00:00+0100",
+  "online_shop_relevant": false,
+  "base_unit": "CU",
+  "origins": {
+    "producing_country": "China"
+  },
+  "views": [
+    "all",
+    "browse",
+    "browseallretailers"
+  ]
+}

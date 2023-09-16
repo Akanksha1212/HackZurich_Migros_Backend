@@ -1,0 +1,591 @@
+{
+  "id": "107142200000",
+  "language": "en",
+  "name": "Bertschi Bio FT Instant",
+  "names": {
+    "short_name": "Bertschi Bio FT Instant"
+  },
+  "slug": "bertschi-bio-ft-instant",
+  "slugs": {
+    "de": "bertschi-bio-ft-instant",
+    "fr": "bertschi-bio-ft-instant",
+    "it": "bertschi-bio-ft-instant",
+    "en": "bertschi-bio-ft-instant"
+  },
+  "type": "00",
+  "boss_number": "010310305610",
+  "data_source": "SAP-X11",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03"
+  },
+  "tags": [
+    "source-p4m",
+    "migipedia",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7611101301052",
+    "7613312373422"
+  ],
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarket"
+  },
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "brand": {
+    "id": "D26",
+    "name": "Bertschi",
+    "slug": "bertschi"
+  },
+  "labels": [
+    {
+      "id": "L52",
+      "name": "Third-party organic food",
+      "slug": "third-party-organic-food"
+    },
+    {
+      "id": "L04",
+      "name": "FAIRTRADE MAX HAVELAAR",
+      "slug": "fairtrade-max-havelaar",
+      "links": {
+        "homepage": {
+          "url": "https://www.maxhavelaar.ch",
+          "name": "Homepage",
+          "type": "info",
+          "purchasable": false
+        }
+      },
+      "image": {
+        "original": "https://image.migros.ch/original/265a73c5b01a16e1bcf8481e8f771eaa30f8212b/fairtrade-max-havelaar.jpg",
+        "stack": "https://image.migros.ch/{stack}/265a73c5b01a16e1bcf8481e8f771eaa30f8212b/fairtrade-max-havelaar.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_0101100103",
+      "name": "Instantkaffee",
+      "slug": "supermarkt/lebensmittel/getraenke-heiss-kalt/kaffee/instantkaffee",
+      "visible": true,
+      "parent_code": "BeSS_01011001",
+      "image": {
+        "original": "https://image.migros.ch/original/fe833ff86d480b3bb07f35488f2197e5c5b4867e/instantkaffee.jpg",
+        "stack": "https://image.migros.ch/{stack}/fe833ff86d480b3bb07f35488f2197e5c5b4867e/instantkaffee.jpg"
+      },
+      "level": 5
+    },
+    {
+      "code": "BeSS_01011001",
+      "name": "Kaffee",
+      "slug": "supermarkt/lebensmittel/getraenke-heiss-kalt/kaffee",
+      "visible": true,
+      "title": "Das schwarze Gold der Geniesser: Kaffee bei der Migros",
+      "parent_code": "BeSS_010110",
+      "image": {
+        "original": "https://image.migros.ch/original/878a8a7f86cd333586f7c8d78869200554182233/kaffee.jpg",
+        "stack": "https://image.migros.ch/{stack}/878a8a7f86cd333586f7c8d78869200554182233/kaffee.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010110",
+      "name": "Getränke heiss & kalt",
+      "slug": "supermarkt/lebensmittel/getraenke-heiss-kalt",
+      "visible": true,
+      "title": "Getränke aus der Migros löschen auch Ihren Durst",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/d04d95fbc2e1b4ada4783d2976d37a962a0318a1/getraenke-heiss-kalt.jpg",
+        "stack": "https://image.migros.ch/{stack}/d04d95fbc2e1b4ada4783d2976d37a962a0318a1/getraenke-heiss-kalt.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/31702195ec9d38aecefe80349eb347f79d56c750/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/31702195ec9d38aecefe80349eb347f79d56c750/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "online_relevant": [
+    {
+      "code": "MGB",
+      "name": "Migros Genossenschafts-Bund"
+    }
+  ],
+  "links": {
+    "migros_ch": {
+      "url": "https://www.migros.ch/en/product/107142200000?context=instore",
+      "name": "In-store assortment",
+      "canonical": "https://www.migros.ch/en/product/107142200000?context=instore",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/107142200000",
+      "name": "Migipedia",
+      "canonical": "https://www.migros.ch/en/product/107142200000?context=instore",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "has_safety_sheet": false,
+  "m_check2": {},
+  "receipt_text": "Bertschi BioFT Instant",
+  "package": {
+    "content": 100,
+    "content_unit_code": "g",
+    "content_unit": "Gram",
+    "net_weight": 0.1,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogram",
+    "type": "CU",
+    "portions_per_package": "1",
+    "brutto_weight": 0.37,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 0.843,
+    "brutto_volume_unit_code": "cdm",
+    "height": 15.4,
+    "length": 7.4,
+    "width": 7.4,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "100g"
+  },
+  "package_information": {
+    "tu": {
+      "gtins": [
+        "7611101999907"
+      ],
+      "brutto_weight": 2.3,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 6.528,
+      "brutto_volume_unit_code": "cdm",
+      "height": 17,
+      "length": 24,
+      "width": 16,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 6
+    },
+    "cu": {
+      "gtins": [
+        "7611101301052",
+        "7613312373422"
+      ],
+      "brutto_weight": 0.37,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.843,
+      "brutto_volume_unit_code": "cdm",
+      "height": 15.4,
+      "length": 7.4,
+      "width": 7.4,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "lu": {
+      "brutto_weight": 480.4,
+      "brutto_weight_unit_code": "kg",
+      "length": 120,
+      "width": 80,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1188
+    }
+  },
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "price": {
+    "valid_from": "2023-08-15T00:00:00+0200",
+    "valid_to": "2023-08-21T23:59:59+0200",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 6.5,
+      "original_price": 8.1,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "100g"
+    },
+    "base": {
+      "price": 6.5,
+      "quantity": 100,
+      "unit": "G"
+    },
+    "discount": {
+      "id": "2035614",
+      "region": "national",
+      "start_date": "2023-08-15T00:00:00+0200",
+      "end_date": "2023-08-21T23:59:59+0200",
+      "publication_date": "2023-08-13T00:00:00+0200",
+      "discount_amount": "20%",
+      "discount_regions": [
+        "national"
+      ],
+      "reference_product_id": "107156800000",
+      "discount_type": "aktion",
+      "discount_type_id": "005",
+      "discount_type_label": "GRAB Angebot CHF beim Kauf ab X Stueck",
+      "organisation": "02",
+      "cooperative": "mgb",
+      "conditions": {
+        "minimum_pieces": {
+          "value": 2,
+          "prefix": "ab"
+        }
+      },
+      "reduction": {
+        "relative": false,
+        "amount": 20
+      },
+      "location_planning_type": "01",
+      "reduction_type_id": "01",
+      "special_advertisement": false,
+      "description": "Alle Instant-Kaffees",
+      "discount_hint": "<strong style=\"color:#ff6600;\">ab 2 </strong><strong style=\"color:#ff6600;\">Stück, </strong>(ohne Nescafé und Starbucks), z.B. Cafino Voncoré, 200 g, <strong>5.60 </strong>statt 6.95, Angebot gilt nur vom 15.8. bis 21.8.2023, solange Vorrat.",
+      "high_performer": false,
+      "collective_discount": true,
+      "instead_of": "statt",
+      "price": 6.5,
+      "original_price": 8.1,
+      "disclaimer": "Gültigkeit siehe Angebots-Detailseite.\r\nBei allen Angeboten sind M-Budget und bereits reduzierte Artikel ausgenommen.\r\nBei Aktionen können bei der Verrechnung auf dem Kassabon Rundungsdifferenzen zu Gunsten des Kunden entstehen.",
+      "source": "PriceRepository",
+      "boss_number": "010310306605",
+      "discount_role_id": "2000000002",
+      "discount_role_label": "M: Wochenangebot Typ I",
+      "last_imported": "2023-08-14T04:48:06+0200"
+    },
+    "discount_hint": "<strong style=\"color:#ff6600;\">ab 2 </strong><strong style=\"color:#ff6600;\">Stück, </strong>Angebot gilt nur vom 15.8. bis 21.8.2023, solange Vorrat."
+  },
+  "image": {
+    "original": "https://image.migros.ch/original/198d7d03423cc73946de796502b1a2a0f851c1f7/bertschi-bio-ft-instant.jpg",
+    "stack": "https://image.migros.ch/{stack}/198d7d03423cc73946de796502b1a2a0f851c1f7/bertschi-bio-ft-instant.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/d67e96eceda39488b6a74cd6267c06351f634d9a/bertschi-bio-ft-instant.png",
+    "stack": "https://image.migros.ch/{stack}/d67e96eceda39488b6a74cd6267c06351f634d9a/bertschi-bio-ft-instant.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_EXPORTABLE",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_EXPORTABLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Normalposition"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "HAWA"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "10385",
+          "value": "PURE INSTANT COFFEE"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_KUBE_TUKA",
+      "values": [
+        {
+          "value_code": "BLANK",
+          "value": "KUBE und TUKA nicht zugelassen"
+        }
+      ],
+      "category_code": "MAPI_KUBE_TUKA",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LIFECYCLE",
+      "values": [
+        {
+          "value_code": "D",
+          "value": "Detailhandelsartikel"
+        }
+      ],
+      "category_code": "MAPI_LIFECYCLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_STORAGE_CONDITIONS",
+      "values": [
+        {
+          "value_code": "01",
+          "value": "normal"
+        }
+      ],
+      "category_code": "MAPI_STORAGE_CONDITIONS",
+      "top_fact": false
+    },
+    {
+      "label_code": "acxCommonarticlecocompensated",
+      "label": "Artikel Co2 kompensiert",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false
+    },
+    {
+      "label_code": "acxCommonmesswertcompensation",
+      "label": "CO2-Wert Kompensation",
+      "values": [
+        {
+          "value_code": "NUMERIC_19.813",
+          "value": "19.813",
+          "numeric_value": 19.813
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false,
+      "unit_code": "5d71456e-a520-4294-9ddb-add78f63ce83",
+      "unit": "Equivalence per kilogram",
+      "unit_symbol": "eq / kg"
+    },
+    {
+      "label_code": "acxCommonoutputmcheckclimatedeclaration",
+      "label": "Auslobung M-Check Klimadeklaration",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false
+    }
+  ],
+  "declarations": {
+    "declaration_number": "Q_1604593688674364",
+    "tags": [
+      "source-qim"
+    ],
+    "gtins": [
+      "7613312373422"
+    ],
+    "valid_from": "2021-12-27T16:47:00+0100",
+    "product_details": {
+      "net_filled_quantity": {
+        "value": "100 g",
+        "numeric_value": 100,
+        "unit": "g"
+      }
+    },
+    "distributor": {
+      "name": "Multi-Extrakt AG,",
+      "address": "3550 Langnau i.E"
+    },
+    "general_information": [
+      {
+        "label": "Cooling information/storage information",
+        "values": [
+          "Store in a dry place. Keep away from heat."
+        ]
+      }
+    ]
+  },
+  "recipe_ingredient_ids": [
+    "14759"
+  ],
+  "regional_availability": {
+    "gmaa": {
+      "probability": 0
+    },
+    "gmbs": {
+      "probability": 43
+    },
+    "gmge": {
+      "probability": 0
+    },
+    "gmlu": {
+      "probability": 0
+    },
+    "gmnf": {
+      "probability": 0
+    },
+    "gmos": {
+      "probability": 0
+    },
+    "gmti": {
+      "probability": 0
+    },
+    "gmvd": {
+      "probability": 0
+    },
+    "gmvs": {
+      "probability": 0
+    },
+    "gmzh": {
+      "probability": 44
+    }
+  },
+  "ratings": {
+    "count_all": 6,
+    "average_all": 4.333333333333
+  },
+  "reindex_date": "2023-08-21T23:59:59+0200",
+  "updated_at": "2023-08-15T04:04:37+0200",
+  "sap_created_at": "2021-11-25T18:00:00+0100",
+  "online_shop_relevant": false,
+  "base_unit": "CU",
+  "co2_compensation": {
+    "kg_co2": 19.813,
+    "kg_co2_compensation": 19.813,
+    "is_compensated": false,
+    "mcheck_enabled": false
+  },
+  "origins": {},
+  "views": [
+    "all",
+    "browse",
+    "browseallretailers"
+  ]
+}

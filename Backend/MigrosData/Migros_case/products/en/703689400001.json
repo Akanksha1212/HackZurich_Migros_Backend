@@ -1,0 +1,486 @@
+{
+  "id": "703689400001",
+  "language": "en",
+  "name": "Cup",
+  "names": {
+    "short_name": "Cup"
+  },
+  "slug": "cup-703689400001",
+  "slugs": {
+    "de": "tasse-703689400001",
+    "fr": "tasse-703689400001",
+    "it": "tazza-703689400001",
+    "en": "cup-703689400001"
+  },
+  "type": "02",
+  "boss_number": "150524640505",
+  "data_source": "SAP-X12",
+  "status": {
+    "id": "currently-not-available",
+    "seasonal": true,
+    "pim_status": "88",
+    "distribution_center": [
+      {
+        "center_id": "1001",
+        "center_name": "Migros Verteilzentrum Neuendorf",
+        "status_code": "05",
+        "status_description": "external procurement blocked"
+      }
+    ],
+    "description": "Currently with limited availability. Seasonal item."
+  },
+  "tags": [
+    "source-pex",
+    "near-non-food",
+    "migipedia",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": true,
+  "base_product_id": "703689400000",
+  "gtins": [
+    "7613434670911"
+  ],
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarket"
+  },
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "brand": {
+    "id": "NF1",
+    "name": "Cucina & Tavola",
+    "slug": "cucina-tavola",
+    "image": {
+      "original": "https://image.migros.ch/original/98f3334a95177b479cd8ad916857b64af5b1c64d/cucina-tavola.jpg",
+      "stack": "https://image.migros.ch/{stack}/98f3334a95177b479cd8ad916857b64af5b1c64d/cucina-tavola.jpg"
+    }
+  },
+  "categories": [
+    {
+      "code": "BeSS_01041002",
+      "name": "Geschirr",
+      "slug": "supermarkt/haushalt-reinigung/tisch/geschirr",
+      "visible": true,
+      "title": "Stilsicherer Genuss: Geschirr bei der Migros",
+      "parent_code": "BeSS_010410",
+      "image": {
+        "original": "https://image.migros.ch/original/92335b29a221769754f8757ba1c0dbf24dfb3147/geschirr.jpg",
+        "stack": "https://image.migros.ch/{stack}/92335b29a221769754f8757ba1c0dbf24dfb3147/geschirr.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010410",
+      "name": "Tisch",
+      "slug": "supermarkt/haushalt-reinigung/tisch",
+      "visible": true,
+      "title": "Tisch decken mit Produkten aus Ihrer Migros",
+      "parent_code": "BeSS_0104",
+      "image": {
+        "original": "https://image.migros.ch/original/2bccc9b2a47748f865201d77ef5e68a030effcaf/tisch.jpg",
+        "stack": "https://image.migros.ch/{stack}/2bccc9b2a47748f865201d77ef5e68a030effcaf/tisch.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0104",
+      "name": "Haushalt & Reinigung",
+      "slug": "supermarkt/haushalt-reinigung",
+      "visible": true,
+      "title": "Reinigung mit der Migros – Reiniger für Haushalt und Garten",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png",
+        "stack": "https://image.migros.ch/{stack}/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "online_relevant": [
+    {
+      "code": "MGB",
+      "name": "Migros Genossenschafts-Bund"
+    }
+  ],
+  "galaxus_relevant": false,
+  "links": {
+    "migros_ch": {
+      "url": "https://www.migros.ch/en/product/703689400001?context=instore",
+      "name": "In-store assortment",
+      "canonical": "https://www.migros.ch/en/product/703689400001?context=instore",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/703689400001",
+      "name": "Migipedia",
+      "canonical": "https://www.migros.ch/en/product/703689400001?context=instore",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "m_check2": {},
+  "warranty_months": 24,
+  "receipt_text": "Tasse",
+  "package": {
+    "content": 1,
+    "content_unit_code": "cu",
+    "net_weight": 0.35,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "brutto_weight": 0.4,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 0.972,
+    "brutto_volume_unit_code": "cdm",
+    "height": 12,
+    "length": 9,
+    "width": 9,
+    "unit_dimension": "cm"
+  },
+  "package_information": {
+    "cu": {
+      "gtins": [
+        "7613434670911"
+      ],
+      "brutto_weight": 0.4,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.972,
+      "brutto_volume_unit_code": "cdm",
+      "height": 12,
+      "length": 9,
+      "width": 9,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "tuv": {
+      "brutto_weight": 1.82,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 4.86,
+      "brutto_volume_unit_code": "cdm",
+      "height": 9,
+      "length": 27,
+      "width": 20,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 6
+    },
+    "tue": {
+      "brutto_weight": 2.4,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 5.4,
+      "brutto_volume_unit_code": "cdm",
+      "height": 10,
+      "length": 27,
+      "width": 20,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 6
+    },
+    "lu": {
+      "number_of_base_units": 1
+    }
+  },
+  "vat": {
+    "id": 1,
+    "percentage": 7.7
+  },
+  "price": {
+    "valid_from": "2022-01-19T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 5.95,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "1 piece"
+    }
+  },
+  "image": {
+    "original": "https://image.migros.ch/original/591c83973e3173244724c6302524e1793da12706/cup.jpg",
+    "stack": "https://image.migros.ch/{stack}/591c83973e3173244724c6302524e1793da12706/cup.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/3037d69b4462db4d117d3ec400d6fb6e8efaaf98/cup.png",
+    "stack": "https://image.migros.ch/{stack}/3037d69b4462db4d117d3ec400d6fb6e8efaaf98/cup.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+      "values": [
+        {
+          "value_code": "55",
+          "value": "Versandart Paket"
+        }
+      ],
+      "category_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LOGISTIC_CLASS",
+      "values": [
+        {
+          "value_code": "1",
+          "value": "Lager"
+        }
+      ],
+      "category_code": "MAPI_LOGISTIC_CLASS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Standard item"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "HART"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUSTOMS_POSITION",
+      "values": [
+        {
+          "value": "69111019000"
+        }
+      ],
+      "category_code": "MAPI_CUSTOMS_POSITION",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RISK_CLASS",
+      "values": [
+        {
+          "value_code": "2",
+          "value": "2 (medium)"
+        }
+      ],
+      "category_code": "MAPI_RISK_CLASS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_QUALITY_CHECK",
+      "values": [
+        {
+          "value_code": "02",
+          "value": "FRI (Final Random Inspection)"
+        }
+      ],
+      "category_code": "MAPI_QUALITY_CHECK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_KUBE_TUKA",
+      "values": [
+        {
+          "value_code": "BLANK",
+          "value": "KUBE und TUKA nicht zugelassen"
+        }
+      ],
+      "category_code": "MAPI_KUBE_TUKA",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HART",
+          "value": "Hartwaren Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "H",
+          "value": "Hartwaren"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "60679",
+          "value": "GESCHIRR/GLASGESCHIRR"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_EXPORTABLE",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Yes",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MAPI_EXPORTABLE",
+      "top_fact": false
+    }
+  ],
+  "recipe_ingredient_ids": [
+    "10000"
+  ],
+  "regional_availability": {
+    "gmaa": {
+      "probability": 0
+    },
+    "gmbs": {
+      "probability": 0
+    },
+    "gmge": {
+      "probability": 0
+    },
+    "gmlu": {
+      "probability": 0
+    },
+    "gmnf": {
+      "probability": 0
+    },
+    "gmos": {
+      "probability": 0
+    },
+    "gmti": {
+      "probability": 0
+    },
+    "gmvd": {
+      "probability": 0
+    },
+    "gmvs": {
+      "probability": 0
+    },
+    "gmzh": {
+      "probability": 0
+    }
+  },
+  "ratings": {
+    "count_all": 4,
+    "average_all": 5
+  },
+  "quantity_on_stock": 0,
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "updated_at": "2023-07-15T08:17:30+0200",
+  "sap_created_at": "2021-12-10T00:00:00+0100",
+  "online_shop_relevant": true,
+  "base_unit": "CU",
+  "origins": {
+    "producing_country": "China"
+  },
+  "views": [
+    "all",
+    "browse",
+    "browseallretailers"
+  ]
+}

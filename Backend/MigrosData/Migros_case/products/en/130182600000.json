@@ -1,0 +1,827 @@
+{
+  "id": "130182600000",
+  "language": "en",
+  "name": "Garofalo Ravioli Ricotta Spinat",
+  "names": {
+    "short_name": "Garofalo Ravioli Ricotta Spinat"
+  },
+  "slug": "garofalo-ravioli-ricotta-spinat-130182600000",
+  "slugs": {
+    "de": "garofalo-ravioli-ricotta-spinat-130182600000",
+    "fr": "garofalo-ravioli-ricotta-epinards-130182600000",
+    "it": "garofalo-ravioli-ricotta-spinaci-130182600000",
+    "en": "garofalo-ravioli-ricotta-spinat-130182600000"
+  },
+  "type": "00",
+  "boss_number": "020630168015",
+  "description": {
+    "text": "Ravioli gef&uuml;llt mit Ricotta und Spinat",
+    "source": "P4M"
+  },
+  "data_source": "SAP-X11",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "80"
+  },
+  "tags": [
+    "source-p4m",
+    "migipedia",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "8000139929472"
+  ],
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarket"
+  },
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "brand": {
+    "id": "168",
+    "name": "Garofalo",
+    "slug": "garofalo"
+  },
+  "categories": [
+    {
+      "code": "BeSS_0101130205",
+      "name": "Pasta",
+      "slug": "supermarkt/lebensmittel/fertiggerichte-menues-snacks/fertige-pizzen-menues-snacks/pasta",
+      "visible": true,
+      "parent_code": "BeSS_01011302",
+      "image": {
+        "original": "https://image.migros.ch/original/4f261118576a72d35e95acc829d5f7d93cabcec3/pasta.jpg",
+        "stack": "https://image.migros.ch/{stack}/4f261118576a72d35e95acc829d5f7d93cabcec3/pasta.jpg"
+      },
+      "level": 5
+    },
+    {
+      "code": "BeSS_01011302",
+      "name": "Fertige Pizzen, Menüs & Snacks",
+      "slug": "supermarkt/lebensmittel/fertiggerichte-menues-snacks/fertige-pizzen-menues-snacks",
+      "visible": true,
+      "title": "Feine Fertiggerichte aus Ihrer Migros!",
+      "parent_code": "BeSS_010113",
+      "image": {
+        "original": "https://image.migros.ch/original/42e5bb4c89bb5c242b19cb892a15a11af19d4964/fertige-pizzen-menues-snacks.jpg",
+        "stack": "https://image.migros.ch/{stack}/42e5bb4c89bb5c242b19cb892a15a11af19d4964/fertige-pizzen-menues-snacks.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010113",
+      "name": "Fertiggerichte, Menüs & Snacks",
+      "slug": "supermarkt/lebensmittel/fertiggerichte-menues-snacks",
+      "visible": true,
+      "title": "Fertige Pizzen, Menüs und Snacks &ndash; schnell und lecker von der Migros",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/6770b6c8fbbd2689aece359ffeda93b90c58dd09/fertiggerichte-menues-snacks.jpg",
+        "stack": "https://image.migros.ch/{stack}/6770b6c8fbbd2689aece359ffeda93b90c58dd09/fertiggerichte-menues-snacks.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/31702195ec9d38aecefe80349eb347f79d56c750/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/31702195ec9d38aecefe80349eb347f79d56c750/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "online_relevant": [
+    {
+      "code": "MGB",
+      "name": "Migros Genossenschafts-Bund"
+    },
+    {
+      "code": "MO",
+      "name": "Migros Online"
+    }
+  ],
+  "links": {
+    "migros_ch": {
+      "url": "https://www.migros.ch/en/product/130182600000?context=instore",
+      "name": "In-store assortment",
+      "canonical": "https://www.migros.ch/en/product/130182600000?context=instore",
+      "type": "info",
+      "purchasable": false
+    },
+    "migros_online": {
+      "url": "https://www.migros.ch/en/product/130182600000?context=online",
+      "mo_product_id": "4981410",
+      "name": "Online-shop assortment",
+      "canonical": "https://www.migros.ch/en/product/130182600000?context=instore",
+      "type": "shop",
+      "purchasable": true,
+      "one_catalog_id": 100000015
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/130182600000",
+      "name": "Migipedia",
+      "canonical": "https://www.migros.ch/en/product/130182600000?context=instore",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "has_safety_sheet": false,
+  "m_check2": {},
+  "receipt_text": "Garofalo Ric.Spin",
+  "package": {
+    "content": 500,
+    "content_unit_code": "g",
+    "content_unit": "Gram",
+    "net_weight": 0.5,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogram",
+    "type": "CU",
+    "portions_per_package": "1",
+    "brutto_weight": 0.5,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 3.739,
+    "brutto_volume_unit_code": "cdm",
+    "height": 6.5,
+    "length": 29.5,
+    "width": 19.5,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "500g"
+  },
+  "package_information": {
+    "tu": {
+      "gtins": [
+        "7613269915973"
+      ],
+      "brutto_weight": 4,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 31.92,
+      "brutto_volume_unit_code": "cdm",
+      "height": 13.3,
+      "length": 60,
+      "width": 40,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 8
+    },
+    "cu": {
+      "gtins": [
+        "8000139929472"
+      ],
+      "brutto_weight": 0.5,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 3.739,
+      "brutto_volume_unit_code": "cdm",
+      "height": 6.5,
+      "length": 29.5,
+      "width": 19.5,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    }
+  },
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "price": {
+    "valid_from": "2023-08-15T00:00:00+0200",
+    "valid_to": "2023-08-21T23:59:59+0200",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 9.75,
+      "original_price": 13,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "500g"
+    },
+    "base": {
+      "price": 1.95,
+      "quantity": 100,
+      "unit": "G"
+    },
+    "discount": {
+      "id": "1912685",
+      "region": "national",
+      "start_date": "2023-08-15T00:00:00+0200",
+      "end_date": "2023-08-21T23:59:59+0200",
+      "publication_date": "2023-08-13T00:00:00+0200",
+      "discount_amount": "25%",
+      "discount_regions": [
+        "national",
+        "gmaa",
+        "gmbs",
+        "gmge",
+        "gmlu",
+        "gmnf",
+        "gmos",
+        "gmti",
+        "gmvd",
+        "gmvs",
+        "gmzh"
+      ],
+      "reference_product_id": "130182600000",
+      "discount_type": "aktion",
+      "discount_type_id": "002",
+      "discount_type_label": "SE Sellout",
+      "organisation": "03",
+      "cooperative": "mgb",
+      "reduction": {
+        "relative": false,
+        "amount": 25
+      },
+      "location_planning_type": "01",
+      "reduction_type_id": "01",
+      "special_advertisement": false,
+      "advertisement_type_id": "2",
+      "description": "Garofalo Frische Pasta",
+      "discount_hint": "Ravioli Ricotta e Spinaci oder Tortellini Prosciutto crudo, in Sonderpackung, z.B. Ravioli, 500 g, Angebot gilt nur vom 15.8. bis 21.8.2023, solange Vorrat.",
+      "high_performer": false,
+      "collective_discount": true,
+      "instead_of": "statt",
+      "price": 9.75,
+      "original_price": 13,
+      "disclaimer": "Gültigkeit siehe Angebots-Detailseite.\r\nBei allen Angeboten sind M-Budget und bereits reduzierte Artikel ausgenommen.\r\nBei Aktionen können bei der Verrechnung auf dem Kassabon Rundungsdifferenzen zu Gunsten des Kunden entstehen.",
+      "source": "PriceRepository",
+      "boss_number": "020630168015",
+      "discount_role_id": "2000000002",
+      "discount_role_label": "M: Wochenangebot Typ I",
+      "last_imported": "2023-08-14T05:15:21+0200"
+    },
+    "discount_hint": "Angebot gilt nur vom 15.8. bis 21.8.2023, solange Vorrat."
+  },
+  "features": [
+    {
+      "label_code": "acxMISOgefuellt",
+      "label": "Gefüllt",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Yes",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "ecxMISOCLAteigwarennudelnbearbeiteteverarbeitetenahrungsmittellebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOcugebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "erxMISOcugebindeartbeutelsack",
+          "value": "Beutel/Sack"
+        }
+      ],
+      "category_code": "ecxMISOCLAteigwarennudelnbearbeiteteverarbeitetenahrungsmittellebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOartvonverwendetemei",
+      "label": "Art von verwendetem Ei",
+      "values": [
+        {
+          "value_code": "erxMISOartvonverwendetemeifreilandhaltung",
+          "value": "Freilandhaltung"
+        }
+      ],
+      "category_code": "ecxMISOCLAteigwarennudelnbearbeiteteverarbeitetenahrungsmittellebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOartvonteigwarennudeln",
+      "label": "Art von Teigwaren/Nudeln",
+      "values": [
+        {
+          "value": "Ravioli"
+        }
+      ],
+      "category_code": "ecxMISOCLAteigwarennudelnbearbeiteteverarbeitetenahrungsmittellebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOzubereitungsverfahren",
+      "label": "Hinweise für die Zubereitung",
+      "values": [
+        {
+          "value_code": "erxMISOzubereitungsverfahrenkochen",
+          "value": "kochen"
+        }
+      ],
+      "category_code": "ecxMISOCLAteigwarennudelnbearbeiteteverarbeitetenahrungsmittellebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/bd3a5f6e86dbb0def60aba1e4f3aeb616b45a137/garofalo-ravioli-ricotta-spinat.jpg",
+    "stack": "https://image.migros.ch/{stack}/bd3a5f6e86dbb0def60aba1e4f3aeb616b45a137/garofalo-ravioli-ricotta-spinat.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/b62db9f19eb05efdee10fd6ccf0b92d7a649825a/garofalo-ravioli-ricotta-spinat.png",
+    "stack": "https://image.migros.ch/{stack}/b62db9f19eb05efdee10fd6ccf0b92d7a649825a/garofalo-ravioli-ricotta-spinat.png"
+  },
+  "additional_images": [
+    {
+      "original": "https://image.migros.ch/original/eaa867847fa511ee5f23d057e9a74fd6ce8e2436.jpg",
+      "stack": "https://image.migros.ch/{stack}/eaa867847fa511ee5f23d057e9a74fd6ce8e2436.jpg"
+    }
+  ],
+  "internal_features": [
+    {
+      "label_code": "MAPI_RETURNABLE",
+      "label": "Return",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "true",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MAPI_RETURNABLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_EXPORTABLE",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_EXPORTABLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Normalposition"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZFRP",
+          "value": "Frische Beschaffung"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "ZFRP"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "71160",
+          "value": "SELLOUT"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LIFECYCLE",
+      "values": [
+        {
+          "value_code": "S",
+          "value": "Sellout"
+        }
+      ],
+      "category_code": "MAPI_LIFECYCLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_STORAGE_CONDITIONS",
+      "values": [
+        {
+          "value_code": "02",
+          "value": "refrigerated"
+        }
+      ],
+      "category_code": "MAPI_STORAGE_CONDITIONS",
+      "top_fact": false
+    },
+    {
+      "label_code": "acxCommonarticlecocompensated",
+      "label": "Artikel Co2 kompensiert",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false
+    },
+    {
+      "label_code": "acxCommonmesswertcompensation",
+      "label": "CO2-Wert Kompensation",
+      "values": [
+        {
+          "value_code": "NUMERIC_1.733",
+          "value": "1.733",
+          "numeric_value": 1.733
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false,
+      "unit_code": "5d71456e-a520-4294-9ddb-add78f63ce83",
+      "unit": "Equivalence per kilogram",
+      "unit_symbol": "eq / kg"
+    },
+    {
+      "label_code": "acxCommonoutputmcheckclimatedeclaration",
+      "label": "Auslobung M-Check Klimadeklaration",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false
+    }
+  ],
+  "declarations": {
+    "declaration_number": "Q_2121841432612601",
+    "tags": [
+      "source-qim"
+    ],
+    "gtins": [
+      "8000139929472"
+    ],
+    "valid_from": "2021-03-30T00:00:00+0200",
+    "product_details": {
+      "net_filled_quantity": {
+        "value": "0.5 kg",
+        "numeric_value": 0.5,
+        "unit": "kg"
+      }
+    },
+    "distributor": {
+      "name": "Pastinella Orior Menu AG",
+      "address": "Industriestrasse 40, CH-5036 Oberentfelden"
+    },
+    "ingredients_information": {
+      "allergens_information": {
+        "trace_allergens_text": "May contain: Crustaceans, Fish, Soya, Nuts",
+        "allergens": [
+          {
+            "code": "ALLG_EIER",
+            "label": "Eggs and their derivatives",
+            "contamination_code": "VORHANDEN",
+            "contamination_label": "contains"
+          },
+          {
+            "code": "ALLG_GLUTEN",
+            "label": "Cereal grains containing gluten and its derivatives",
+            "contamination_code": "VORHANDEN",
+            "contamination_label": "contains"
+          },
+          {
+            "code": "ALLG_MILCH",
+            "label": "Milk and its derivatives",
+            "contamination_code": "VORHANDEN",
+            "contamination_label": "contains"
+          }
+        ]
+      }
+    },
+    "nutrition_facts": {
+      "reference_sizes": {
+        "standard": {
+          "base": {
+            "quantity": {
+              "value": "100 g",
+              "numeric_value": 100,
+              "unit": "g"
+            }
+          },
+          "nutrients": [
+            {
+              "code": "NUT_ENERGY",
+              "name": "Energy",
+              "operator": "=",
+              "pictogram_name": "Energy",
+              "category": "BIG9",
+              "quantity": {
+                "value": "985 kJ",
+                "numeric_value": 985,
+                "unit": "kJ",
+                "alternate": {
+                  "value": "234 kcal",
+                  "numeric_value": 234,
+                  "unit": "kcal"
+                }
+              }
+            },
+            {
+              "code": "NUT_FAT",
+              "name": "Fat",
+              "operator": "~",
+              "pictogram_name": "Fat",
+              "category": "BIG9",
+              "quantity": {
+                "value": "7.20 g",
+                "numeric_value": 7.2,
+                "unit": "g"
+              },
+              "rating": {
+                "value": 1,
+                "text": "medium",
+                "icon": {
+                  "original": "https://image.migros.ch/original/b84b389195e426a9e6b4cd66f2c79b1a049809da.svg",
+                  "stack": "https://image.migros.ch/{stack}/b84b389195e426a9e6b4cd66f2c79b1a049809da.svg"
+                },
+                "hex_color": "#e8a800"
+              }
+            },
+            {
+              "code": "NUT_SATURATED_FATTY_ACIDS",
+              "name": "of which saturates",
+              "operator": "~",
+              "pictogram_name": "saturated fatty acids",
+              "category": "BIG9",
+              "quantity": {
+                "value": "4.00 g",
+                "numeric_value": 4,
+                "unit": "g"
+              },
+              "rating": {
+                "value": 1,
+                "text": "medium",
+                "icon": {
+                  "original": "https://image.migros.ch/original/b84b389195e426a9e6b4cd66f2c79b1a049809da.svg",
+                  "stack": "https://image.migros.ch/{stack}/b84b389195e426a9e6b4cd66f2c79b1a049809da.svg"
+                },
+                "hex_color": "#e8a800"
+              }
+            },
+            {
+              "code": "NUT_CARBOHYDRATES",
+              "name": "Carbohydrate",
+              "operator": "~",
+              "category": "BIG9",
+              "quantity": {
+                "value": "32.00 g",
+                "numeric_value": 32,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_SUGAR",
+              "name": "of which sugars",
+              "operator": "~",
+              "pictogram_name": "Sugar",
+              "category": "BIG9",
+              "quantity": {
+                "value": "2.00 g",
+                "numeric_value": 2,
+                "unit": "g"
+              },
+              "rating": {
+                "value": 0,
+                "text": "low",
+                "icon": {
+                  "original": "https://image.migros.ch/original/a2b5e2562a4fedbbdec99c1932ec57c46c49cde4.svg",
+                  "stack": "https://image.migros.ch/{stack}/a2b5e2562a4fedbbdec99c1932ec57c46c49cde4.svg"
+                },
+                "hex_color": "#069800"
+              }
+            },
+            {
+              "code": "NUT_FIBER",
+              "name": "Fibre",
+              "operator": "~",
+              "category": "BIG9",
+              "quantity": {
+                "value": "1.70 g",
+                "numeric_value": 1.7,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_PROTEIN",
+              "name": "Protein",
+              "operator": "~",
+              "category": "BIG9",
+              "quantity": {
+                "value": "9.50 g",
+                "numeric_value": 9.5,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_SALT",
+              "name": "Salt",
+              "operator": "~",
+              "pictogram_name": "Salt",
+              "category": "BIG9",
+              "quantity": {
+                "value": "1.20 g",
+                "numeric_value": 1.2,
+                "unit": "g"
+              },
+              "rating": {
+                "value": 1,
+                "text": "medium",
+                "icon": {
+                  "original": "https://image.migros.ch/original/b84b389195e426a9e6b4cd66f2c79b1a049809da.svg",
+                  "stack": "https://image.migros.ch/{stack}/b84b389195e426a9e6b4cd66f2c79b1a049809da.svg"
+                },
+                "hex_color": "#e8a800"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "recipe_ingredient_ids": [
+    "10000"
+  ],
+  "regional_availability": {
+    "gmaa": {
+      "probability": 94
+    },
+    "gmbs": {
+      "probability": 93
+    },
+    "gmge": {
+      "probability": 68
+    },
+    "gmlu": {
+      "probability": 98
+    },
+    "gmnf": {
+      "probability": 86
+    },
+    "gmos": {
+      "probability": 92
+    },
+    "gmti": {
+      "probability": 81
+    },
+    "gmvd": {
+      "probability": 93
+    },
+    "gmvs": {
+      "probability": 52
+    },
+    "gmzh": {
+      "probability": 86
+    }
+  },
+  "ratings": {
+    "count_all": 21,
+    "average_all": 4.52380952381
+  },
+  "reindex_date": "2023-08-21T23:59:59+0200",
+  "updated_at": "2023-08-17T11:49:44+0200",
+  "sap_created_at": "2017-07-24T19:00:00+0200",
+  "online_shop_relevant": false,
+  "base_unit": "CU",
+  "co2_compensation": {
+    "kg_co2": 1.733,
+    "kg_co2_compensation": 1.733,
+    "is_compensated": false,
+    "mcheck_enabled": false
+  },
+  "origins": {
+    "producing_country": "Italy"
+  },
+  "views": [
+    "all",
+    "browse",
+    "browseallretailers"
+  ]
+}

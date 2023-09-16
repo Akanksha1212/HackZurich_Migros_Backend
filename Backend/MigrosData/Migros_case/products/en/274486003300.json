@@ -1,0 +1,761 @@
+{
+  "id": "274486003300",
+  "language": "en",
+  "name": "Migros Bio Kartoffeln festkoch.",
+  "names": {
+    "short_name": "Migros Bio Kartoffeln festkoch."
+  },
+  "slug": "migros-bio-kartoffeln-festkoch-274486003300",
+  "slugs": {
+    "de": "migros-bio-kartoffeln-festkoch-274486003300",
+    "fr": "migros-bio-pommes-de-terres-fermes-274486003300",
+    "it": "migros-bio-patate-resistente-274486003300",
+    "en": "migros-bio-kartoffeln-festkoch-274486003300"
+  },
+  "type": "00",
+  "boss_number": "050115228005",
+  "description": {
+    "text": "<p>Festkochend (grüne Linie)</p><p>Da sie auch bei längerem Kochen nicht zerfallen, sind festkochende Kartoffeln ideal für Gerichte, die eine feste Form benötigen, etwa Kartoffelsalat, Salzkartoffeln oder Gschwellti.</p>",
+    "source": "P4M"
+  },
+  "data_source": "SAP-X11",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "80"
+  },
+  "tags": [
+    "source-p4m",
+    "migipedia",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613269055341"
+  ],
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarket"
+  },
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "brand": {
+    "id": "E28",
+    "name": "Migros Bio",
+    "slug": "migros-bio"
+  },
+  "labels": [
+    {
+      "id": "L73",
+      "name": "Bio Knospe",
+      "slug": "bio-knospe"
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_0101190205",
+      "name": "Lagergemüse",
+      "slug": "supermarkt/lebensmittel/fruechte-gemuese/gemuese/lagergemuese",
+      "visible": true,
+      "title": "Für den Winter: Kartoffeln und Lagergemüse von der Migros",
+      "parent_code": "BeSS_01011902",
+      "level": 5
+    },
+    {
+      "code": "BeSS_01011902",
+      "name": "Gemüse",
+      "slug": "supermarkt/lebensmittel/fruechte-gemuese/gemuese",
+      "visible": true,
+      "title": "Mit Gem&uuml;se von der Migros jeden Tag gesund essen",
+      "parent_code": "BeSS_010119",
+      "level": 4
+    },
+    {
+      "code": "BeSS_010119",
+      "name": "Früchte & Gemüse",
+      "slug": "supermarkt/lebensmittel/fruechte-gemuese",
+      "visible": true,
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/f839060a505bba25c0f37585edb558c003c50479/fruechte-gemuese.jpg",
+        "stack": "https://image.migros.ch/{stack}/f839060a505bba25c0f37585edb558c003c50479/fruechte-gemuese.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/31702195ec9d38aecefe80349eb347f79d56c750/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/31702195ec9d38aecefe80349eb347f79d56c750/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "online_relevant": [
+    {
+      "code": "MGB",
+      "name": "Migros Genossenschafts-Bund"
+    },
+    {
+      "code": "MO",
+      "name": "Migros Online"
+    }
+  ],
+  "links": {
+    "migros_ch": {
+      "url": "https://www.migros.ch/en/product/274486003300?context=instore",
+      "name": "In-store assortment",
+      "canonical": "https://www.migros.ch/en/product/274486003300?context=instore",
+      "type": "info",
+      "purchasable": false
+    },
+    "migros_online": {
+      "url": "https://www.migros.ch/en/product/274486003300?context=online",
+      "mo_product_id": "69778",
+      "name": "Online-shop assortment",
+      "canonical": "https://www.migros.ch/en/product/274486003300?context=instore",
+      "type": "shop",
+      "purchasable": true,
+      "one_catalog_id": 100058263
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/274486003300",
+      "name": "Migipedia",
+      "canonical": "https://www.migros.ch/en/product/274486003300?context=instore",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "has_safety_sheet": false,
+  "m_check2": {
+    "carbon_footprint": {
+      "image": {
+        "original": "https://image.migros.ch/original/3cb33aa7d90d7331f458860ae78688a0923b5993.svg",
+        "stack": "https://image.migros.ch/{stack}/3cb33aa7d90d7331f458860ae78688a0923b5993.svg"
+      },
+      "ground_and_sea_cargo": {
+        "kg_co2": 0.194,
+        "kg_co2_range": "0 - 0.9 kg CO₂eq / kg",
+        "co2_in_car_km": 1,
+        "rating": 5,
+        "production_in_percent": 52,
+        "packaging_in_percent": 24,
+        "transport_in_percent": 24
+      }
+    }
+  },
+  "receipt_text": "Bio Kart.festkochend",
+  "package": {
+    "content": 2000,
+    "content_unit_code": "g",
+    "content_unit": "Gram",
+    "net_weight": 2,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogram",
+    "type": "CU",
+    "portions_per_package": "1",
+    "brutto_weight": 2,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 0.001,
+    "brutto_volume_unit_code": "m3",
+    "height": 10,
+    "length": 10,
+    "width": 10,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "2kg",
+    "average_min_unit_code": "kg",
+    "average_max_unit_code": "kg"
+  },
+  "package_information": {
+    "tu": {
+      "gtins": [
+        "7613269055358"
+      ],
+      "brutto_weight": 2,
+      "brutto_weight_unit_code": "kg",
+      "number_of_base_units": 1
+    },
+    "cu": {
+      "gtins": [
+        "7613269055341"
+      ],
+      "brutto_weight": 2,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.001,
+      "brutto_volume_unit_code": "m3",
+      "height": 10,
+      "length": 10,
+      "width": 10,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    }
+  },
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "price": {
+    "valid_from": "2023-02-08T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "source": "PriceRepository",
+    "no_price_hint": "Current daily price"
+  },
+  "features": [
+    {
+      "label_code": "acxMISOsaisonbis",
+      "label": "Saison bis",
+      "values": [
+        {
+          "value": "Mai"
+        }
+      ],
+      "category_code": "ecxMISOCLAblattgemuesefrischesgemuesegemueselebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOsaisonvon",
+      "label": "Saison von",
+      "values": [
+        {
+          "value": "März"
+        }
+      ],
+      "category_code": "ecxMISOCLAblattgemuesefrischesgemuesegemueselebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOcugebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "erxMISOcugebindeartbeutel",
+          "value": "Beutel"
+        }
+      ],
+      "category_code": "ecxMISOCLAblattgemuesefrischesgemuesegemueselebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOlagerungzuhause",
+      "label": "Lagerung zu Hause",
+      "values": [
+        {
+          "value_code": "erxMISOlagerungzuhausekuehllagernjedochnichtimkuehlschrank",
+          "value": "kühl lagern, jedoch nicht im Kühlschrank"
+        }
+      ],
+      "category_code": "ecxMISOCLAblattgemuesefrischesgemuesegemueselebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOproduktionsanspruch",
+      "label": "Produktionsverfahren",
+      "values": [
+        {
+          "value_code": "erxMISOproduktionsanspruchbioproduktion",
+          "value": "Bio-Produktion"
+        }
+      ],
+      "category_code": "ecxMISOCLAblattgemuesefrischesgemuesegemueselebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/f36c11f4c63967b2a3f893dc978689939e6880c2/migros-bio-kartoffeln-festkoch.jpg",
+    "stack": "https://image.migros.ch/{stack}/f36c11f4c63967b2a3f893dc978689939e6880c2/migros-bio-kartoffeln-festkoch.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/f36babbb054e2edf32c117a11c883d8ecf0d4270/migros-bio-kartoffeln-festkoch.png",
+    "stack": "https://image.migros.ch/{stack}/f36babbb054e2edf32c117a11c883d8ecf0d4270/migros-bio-kartoffeln-festkoch.png"
+  },
+  "additional_images": [
+    {
+      "original": "https://image.migros.ch/original/efaf40dc1b969bc07d73645afd44e7e817426714.jpg",
+      "stack": "https://image.migros.ch/{stack}/efaf40dc1b969bc07d73645afd44e7e817426714.jpg"
+    }
+  ],
+  "internal_features": [
+    {
+      "label_code": "MAPI_EXPORTABLE",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_EXPORTABLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Normalposition"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZFRP",
+          "value": "Frische Beschaffung"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "ZFRP"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "71367",
+          "value": "SELLOUT / PROMOTIONE"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "2_SAP_015",
+          "value": "2"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_KUBE_TUKA",
+      "values": [
+        {
+          "value_code": "BLANK",
+          "value": "KUBE und TUKA nicht zugelassen"
+        }
+      ],
+      "category_code": "MAPI_KUBE_TUKA",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LIFECYCLE",
+      "values": [
+        {
+          "value_code": "S",
+          "value": "Sellout"
+        }
+      ],
+      "category_code": "MAPI_LIFECYCLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_STORAGE_CONDITIONS",
+      "values": [
+        {
+          "value_code": "02",
+          "value": "refrigerated"
+        }
+      ],
+      "category_code": "MAPI_STORAGE_CONDITIONS",
+      "top_fact": false
+    },
+    {
+      "label_code": "acxCommonarticlecocompensated",
+      "label": "Artikel Co2 kompensiert",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false
+    },
+    {
+      "label_code": "acxCommonmesswertcompensation",
+      "label": "CO2-Wert Kompensation",
+      "values": [
+        {
+          "value_code": "NUMERIC_0.194",
+          "value": "0.194",
+          "numeric_value": 0.194
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false,
+      "unit_code": "5d71456e-a520-4294-9ddb-add78f63ce83",
+      "unit": "Equivalence per kilogram",
+      "unit_symbol": "eq / kg"
+    },
+    {
+      "label_code": "acxCommonoutputmcheckclimatedeclaration",
+      "label": "Auslobung M-Check Klimadeklaration",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Yes",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false
+    }
+  ],
+  "declarations": {
+    "declaration_number": "8810761674190",
+    "tags": [
+      "source-pim"
+    ],
+    "product_name": "SE BIO KART.FESTK.TT 2KG",
+    "valid_from": "2017-08-24T16:20:00+0200",
+    "product_details": {
+      "regulated_description": "Kartoffeln Bio, zum Gekochtessen"
+    },
+    "general_information": [
+      {
+        "label": "Obligatorische Zusatzangaben",
+        "values": [
+          "-"
+        ]
+      },
+      {
+        "label": "Aufbewarungs- und Verpackungshinweise",
+        "values": [
+          "-"
+        ]
+      },
+      {
+        "label": "Haltbarkeit",
+        "values": [
+          "-"
+        ]
+      }
+    ],
+    "nutrition_facts": {
+      "reference_sizes": {
+        "standard": {
+          "base": {
+            "description": "enthalten",
+            "quantity": {
+              "value": "100 g",
+              "numeric_value": 100,
+              "unit": "g"
+            }
+          },
+          "nutrients": [
+            {
+              "code": "NUT_ENERGY",
+              "name": "Energy",
+              "operator": "=",
+              "pictogram_name": "Energy",
+              "category": "BIG9",
+              "quantity": {
+                "value": "320 kJ",
+                "numeric_value": 320,
+                "unit": "kJ",
+                "alternate": {
+                  "value": "76 kcal",
+                  "numeric_value": 76,
+                  "unit": "kcal"
+                }
+              },
+              "rda": {
+                "percent": 4,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_FAT",
+              "name": "Fat",
+              "operator": "=",
+              "pictogram_name": "Fat",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0.1 g",
+                "numeric_value": 0.1,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_SATURATED_FATTY_ACIDS",
+              "name": "of which saturates",
+              "operator": "=",
+              "pictogram_name": "saturated fatty acids",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0 g",
+                "numeric_value": 0,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_CARBOHYDRATES",
+              "name": "Carbohydrate",
+              "operator": "=",
+              "category": "BIG9",
+              "quantity": {
+                "value": "16 g",
+                "numeric_value": 16,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 6,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_SUGAR",
+              "name": "of which sugars",
+              "operator": "=",
+              "pictogram_name": "Sugar",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0.7 g",
+                "numeric_value": 0.7,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 1,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_FIBER",
+              "name": "Fibre",
+              "operator": "=",
+              "category": "BIG9",
+              "quantity": {
+                "value": "2 g",
+                "numeric_value": 2,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_PROTEIN",
+              "name": "Protein",
+              "operator": "=",
+              "category": "BIG9",
+              "quantity": {
+                "value": "2 g",
+                "numeric_value": 2,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 4,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_SALT",
+              "name": "Salt",
+              "operator": "=",
+              "pictogram_name": "Salt",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0 g",
+                "numeric_value": 0,
+                "unit": "g"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "recipe_ingredient_ids": [
+    "16643",
+    "16647",
+    "86160",
+    "201132"
+  ],
+  "regional_availability": {
+    "gmaa": {
+      "probability": 0
+    },
+    "gmbs": {
+      "probability": 0
+    },
+    "gmge": {
+      "probability": 0
+    },
+    "gmlu": {
+      "probability": 0
+    },
+    "gmnf": {
+      "probability": 0
+    },
+    "gmos": {
+      "probability": 0
+    },
+    "gmti": {
+      "probability": 0
+    },
+    "gmvd": {
+      "probability": 0
+    },
+    "gmvs": {
+      "probability": 0
+    },
+    "gmzh": {
+      "probability": 0
+    }
+  },
+  "ratings": {
+    "count_all": 16,
+    "average_all": 4.6875
+  },
+  "related_products": {
+    "purchase_recommendations": {
+      "product_ids": [
+        "277180308400",
+        "277107908600",
+        "277080102200"
+      ]
+    }
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "updated_at": "2023-08-17T11:58:13+0200",
+  "sap_created_at": "2011-10-30T19:00:00+0100",
+  "online_shop_relevant": false,
+  "base_unit": "CU",
+  "co2_compensation": {
+    "kg_co2": 0.194,
+    "kg_co2_compensation": 0.194,
+    "is_compensated": false,
+    "mcheck_enabled": true
+  },
+  "origins": {
+    "producing_country": "-"
+  },
+  "views": [
+    "all",
+    "browse",
+    "browseallretailers"
+  ]
+}

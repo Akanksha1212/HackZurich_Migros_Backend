@@ -1,0 +1,802 @@
+{
+  "id": "210502700000",
+  "language": "en",
+  "name": "Migros Bio Camembert",
+  "names": {
+    "short_name": "Migros Bio Camembert"
+  },
+  "slug": "migros-bio-camembert",
+  "slugs": {
+    "de": "migros-bio-camembert",
+    "fr": "migros-bio-camembert",
+    "it": "migros-bio-camembert",
+    "en": "migros-bio-camembert"
+  },
+  "type": "00",
+  "boss_number": "030413505515",
+  "data_source": "SAP-X11",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "80"
+  },
+  "tags": [
+    "source-p4m",
+    "migipedia",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7617027906753",
+    "7623186135866"
+  ],
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarket"
+  },
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "brand": {
+    "id": "E28",
+    "name": "Migros Bio",
+    "slug": "migros-bio"
+  },
+  "labels": [
+    {
+      "id": "L53",
+      "name": "Swissness",
+      "slug": "swissness",
+      "image": {
+        "original": "https://image.migros.ch/original/d771bba2f6b08ba42970ea0243c6f8c5a8832f15/swissness.jpg",
+        "stack": "https://image.migros.ch/{stack}/d771bba2f6b08ba42970ea0243c6f8c5a8832f15/swissness.jpg"
+      }
+    },
+    {
+      "id": "L02",
+      "name": "Migros Organic Guidelines",
+      "slug": "migros-organic-guidelines",
+      "links": {
+        "homepage": {
+          "url": "https://bio.migros.ch/de.html",
+          "name": "Homepage",
+          "type": "info",
+          "purchasable": false
+        }
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_0101040102",
+      "name": "Weichkäse",
+      "slug": "supermarkt/lebensmittel/milchprodukte-eier/kaese/weichkaese",
+      "visible": true,
+      "title": "Weichkäse in Ihrer Migros kaufen",
+      "parent_code": "BeSS_01010401",
+      "image": {
+        "original": "https://image.migros.ch/original/4d105c4f60cc22e82253968cb8e20efc43ea656b/weichkaese.jpg",
+        "stack": "https://image.migros.ch/{stack}/4d105c4f60cc22e82253968cb8e20efc43ea656b/weichkaese.jpg"
+      },
+      "level": 5
+    },
+    {
+      "code": "BeSS_01010401",
+      "name": "Käse",
+      "slug": "supermarkt/lebensmittel/milchprodukte-eier/kaese",
+      "visible": true,
+      "title": "Käse von Ihrer Migros &ndash; macht Appetit auf mehr",
+      "parent_code": "BeSS_010104",
+      "image": {
+        "original": "https://image.migros.ch/original/646fe55be4ff2b665a94cc87a29c69d00106a19e/kaese.jpg",
+        "stack": "https://image.migros.ch/{stack}/646fe55be4ff2b665a94cc87a29c69d00106a19e/kaese.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010104",
+      "name": "Milchprodukte & Eier",
+      "slug": "supermarkt/lebensmittel/milchprodukte-eier",
+      "visible": true,
+      "title": "Milchprodukte und Eier –",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/6b1ea6c2d41c3ccb21bf05c8dc342f7f55d83deb/milchprodukte-eier.jpg",
+        "stack": "https://image.migros.ch/{stack}/6b1ea6c2d41c3ccb21bf05c8dc342f7f55d83deb/milchprodukte-eier.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/31702195ec9d38aecefe80349eb347f79d56c750/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/31702195ec9d38aecefe80349eb347f79d56c750/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "online_relevant": [
+    {
+      "code": "MGB",
+      "name": "Migros Genossenschafts-Bund"
+    },
+    {
+      "code": "MO",
+      "name": "Migros Online"
+    }
+  ],
+  "links": {
+    "migros_ch": {
+      "url": "https://www.migros.ch/en/product/210502700000?context=instore",
+      "name": "In-store assortment",
+      "canonical": "https://www.migros.ch/en/product/210502700000?context=instore",
+      "type": "info",
+      "purchasable": false
+    },
+    "migros_online": {
+      "url": "https://www.migros.ch/en/product/210502700000?context=online",
+      "mo_product_id": "6589065",
+      "name": "Online-shop assortment",
+      "canonical": "https://www.migros.ch/en/product/210502700000?context=instore",
+      "type": "shop",
+      "purchasable": true,
+      "one_catalog_id": 100003850
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/210502700000",
+      "name": "Migipedia",
+      "canonical": "https://www.migros.ch/en/product/210502700000?context=instore",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "has_safety_sheet": false,
+  "m_check2": {
+    "carbon_footprint": {
+      "image": {
+        "original": "https://image.migros.ch/original/6137c42cbff331738ddeafb4f91efb06075417b3.svg",
+        "stack": "https://image.migros.ch/{stack}/6137c42cbff331738ddeafb4f91efb06075417b3.svg"
+      },
+      "ground_and_sea_cargo": {
+        "kg_co2": 6.85,
+        "kg_co2_range": "4.8 - 9.9 kg CO₂eq / kg",
+        "co2_in_car_km": 38,
+        "rating": 2,
+        "production_in_percent": 97.01,
+        "packaging_in_percent": 0.46,
+        "transport_in_percent": 2.52
+      }
+    },
+    "animal_welfare": {
+      "rating": 4,
+      "label": "Animal welfare",
+      "image": {
+        "original": "https://image.migros.ch/original/58bd3042b45c82e79d3a18e05d0b73cc1abda5fb.svg",
+        "stack": "https://image.migros.ch/{stack}/58bd3042b45c82e79d3a18e05d0b73cc1abda5fb.svg"
+      }
+    }
+  },
+  "receipt_text": "Bio Camembert",
+  "package": {
+    "content": 125,
+    "content_unit_code": "g",
+    "content_unit": "Gram",
+    "net_weight": 0.125,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogram",
+    "type": "CU",
+    "portions_per_package": "1",
+    "brutto_weight": 0.125,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 0.219,
+    "brutto_volume_unit_code": "cdm",
+    "height": 5.6,
+    "length": 3.4,
+    "width": 11.5,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "125g"
+  },
+  "package_information": {
+    "tu": {
+      "gtins": [
+        "7617027906760",
+        "7623186135873"
+      ],
+      "brutto_weight": 0.75,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 63.84,
+      "brutto_volume_unit_code": "cdm",
+      "height": 26.6,
+      "length": 60,
+      "width": 40,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 6
+    },
+    "cu": {
+      "gtins": [
+        "7617027906753",
+        "7623186135866"
+      ],
+      "brutto_weight": 0.125,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.219,
+      "brutto_volume_unit_code": "cdm",
+      "height": 5.6,
+      "length": 3.4,
+      "width": 11.5,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "lu": {
+      "number_of_base_units": 4032
+    }
+  },
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "price": {
+    "valid_from": "2023-03-21T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 3.35,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "125g"
+    },
+    "base": {
+      "price": 2.68,
+      "quantity": 100,
+      "unit": "G"
+    }
+  },
+  "features": [
+    {
+      "label_code": "acxMISOkaesetyp",
+      "label": "Käsetyp",
+      "values": [
+        {
+          "value": "Soft cheese"
+        }
+      ],
+      "category_code": "ecxMISOCLAkaesemilchbutterrahmkaeseeierersatzproduktelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOcugebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "erxMISOcugebindeartkunststoffverpackung",
+          "value": "Kunststoff-Verpackung"
+        }
+      ],
+      "category_code": "ecxMISOCLAkaesemilchbutterrahmkaeseeierersatzproduktelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOproduktionsanspruch",
+      "label": "Produktionsverfahren",
+      "values": [
+        {
+          "value_code": "erxMISOproduktionsanspruchbioproduktion",
+          "value": "Bio-Produktion"
+        }
+      ],
+      "category_code": "ecxMISOCLAkaesemilchbutterrahmkaeseeierersatzproduktelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/a1f8e93121a393f0597934721ddf5ba08da5459b/migros-bio-camembert.jpg",
+    "stack": "https://image.migros.ch/{stack}/a1f8e93121a393f0597934721ddf5ba08da5459b/migros-bio-camembert.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/f4f2dfe25160ea4ad1c51bccc5c4b52eb18a2022/migros-bio-camembert.png",
+    "stack": "https://image.migros.ch/{stack}/f4f2dfe25160ea4ad1c51bccc5c4b52eb18a2022/migros-bio-camembert.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_RETURNABLE",
+      "label": "Return",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "true",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MAPI_RETURNABLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_EXPORTABLE",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_EXPORTABLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Normalposition"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZFRP",
+          "value": "Frische Beschaffung"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "ZFRP"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "70123",
+          "value": "BIO / ALNATURA"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LIFECYCLE",
+      "values": [
+        {
+          "value_code": "D",
+          "value": "Detailhandelsartikel"
+        }
+      ],
+      "category_code": "MAPI_LIFECYCLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_STORAGE_CONDITIONS",
+      "values": [
+        {
+          "value_code": "02",
+          "value": "refrigerated"
+        }
+      ],
+      "category_code": "MAPI_STORAGE_CONDITIONS",
+      "top_fact": false
+    },
+    {
+      "label_code": "acxCommonarticlecocompensated",
+      "label": "Artikel Co2 kompensiert",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false
+    },
+    {
+      "label_code": "acxCommonmesswertcompensation",
+      "label": "CO2-Wert Kompensation",
+      "values": [
+        {
+          "value_code": "NUMERIC_6.85",
+          "value": "6.85",
+          "numeric_value": 6.85
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false,
+      "unit_code": "5d71456e-a520-4294-9ddb-add78f63ce83",
+      "unit": "Equivalence per kilogram",
+      "unit_symbol": "eq / kg"
+    },
+    {
+      "label_code": "acxCommonoutputmcheckclimatedeclaration",
+      "label": "Auslobung M-Check Klimadeklaration",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Yes",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false
+    }
+  ],
+  "declarations": {
+    "declaration_number": "Q_3199848991595636",
+    "tags": [
+      "source-qim"
+    ],
+    "gtins": [
+      "7617027906753"
+    ],
+    "valid_from": "2021-09-23T00:00:00+0200",
+    "product_details": {
+      "certification": "CH BIO-006",
+      "net_filled_quantity": {
+        "value": "125 g",
+        "numeric_value": 125,
+        "unit": "g"
+      }
+    },
+    "distributor": {
+      "name": "Lactalis Suisse SA / Baer SA",
+      "address": "Bahnhofstrasse 67, 6403 Küssnacht am Rigi"
+    },
+    "ingredients_information": {
+      "allergens_information": {
+        "allergens": [
+          {
+            "code": "ALLG_MILCH",
+            "label": "Milk and its derivatives",
+            "contamination_code": "VORHANDEN",
+            "contamination_label": "contains"
+          }
+        ]
+      }
+    },
+    "nutrition_facts": {
+      "reference_sizes": {
+        "standard": {
+          "base": {
+            "quantity": {
+              "value": "100 g",
+              "numeric_value": 100,
+              "unit": "g"
+            }
+          },
+          "nutrients": [
+            {
+              "code": "NUT_ENERGY",
+              "name": "Energy",
+              "operator": "=",
+              "pictogram_name": "Energy",
+              "category": "BIG9",
+              "quantity": {
+                "value": "1345 kJ",
+                "numeric_value": 1345,
+                "unit": "kJ",
+                "alternate": {
+                  "value": "325 kcal",
+                  "numeric_value": 325,
+                  "unit": "kcal"
+                }
+              }
+            },
+            {
+              "code": "NUT_FAT",
+              "name": "Fat",
+              "operator": "=",
+              "pictogram_name": "Fat",
+              "category": "BIG9",
+              "quantity": {
+                "value": "29 g",
+                "numeric_value": 29,
+                "unit": "g"
+              },
+              "rating": {
+                "value": 2,
+                "text": "high",
+                "icon": {
+                  "original": "https://image.migros.ch/original/9aa833abc7cb7207238c3e98a1253eeb7bceee1f.svg",
+                  "stack": "https://image.migros.ch/{stack}/9aa833abc7cb7207238c3e98a1253eeb7bceee1f.svg"
+                },
+                "hex_color": "#cc0000"
+              }
+            },
+            {
+              "code": "NUT_SATURATED_FATTY_ACIDS",
+              "name": "of which saturates",
+              "operator": "=",
+              "pictogram_name": "saturated fatty acids",
+              "category": "BIG9",
+              "quantity": {
+                "value": "17 g",
+                "numeric_value": 17,
+                "unit": "g"
+              },
+              "rating": {
+                "value": 2,
+                "text": "high",
+                "icon": {
+                  "original": "https://image.migros.ch/original/9aa833abc7cb7207238c3e98a1253eeb7bceee1f.svg",
+                  "stack": "https://image.migros.ch/{stack}/9aa833abc7cb7207238c3e98a1253eeb7bceee1f.svg"
+                },
+                "hex_color": "#cc0000"
+              }
+            },
+            {
+              "code": "NUT_CARBOHYDRATES",
+              "name": "Carbohydrate",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0.5 g",
+                "numeric_value": 0.5,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_SUGAR",
+              "name": "of which sugars",
+              "pictogram_name": "Sugar",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0.5 g",
+                "numeric_value": 0.5,
+                "unit": "g"
+              },
+              "rating": {
+                "value": 0,
+                "text": "low",
+                "icon": {
+                  "original": "https://image.migros.ch/original/a2b5e2562a4fedbbdec99c1932ec57c46c49cde4.svg",
+                  "stack": "https://image.migros.ch/{stack}/a2b5e2562a4fedbbdec99c1932ec57c46c49cde4.svg"
+                },
+                "hex_color": "#069800"
+              }
+            },
+            {
+              "code": "NUT_STARCH",
+              "name": "of which starch",
+              "operator": "=",
+              "category": "SONSTIGE",
+              "quantity": {
+                "value": "0.0 g",
+                "numeric_value": 0,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_FIBER",
+              "name": "Fibre",
+              "operator": "=",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0.0 g",
+                "numeric_value": 0,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_PROTEIN",
+              "name": "Protein",
+              "operator": "=",
+              "category": "BIG9",
+              "quantity": {
+                "value": "16 g",
+                "numeric_value": 16,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_SALT",
+              "name": "Salt",
+              "operator": "=",
+              "pictogram_name": "Salt",
+              "category": "BIG9",
+              "quantity": {
+                "value": "1.6 g",
+                "numeric_value": 1.6,
+                "unit": "g"
+              },
+              "rating": {
+                "value": 2,
+                "text": "high",
+                "icon": {
+                  "original": "https://image.migros.ch/original/9aa833abc7cb7207238c3e98a1253eeb7bceee1f.svg",
+                  "stack": "https://image.migros.ch/{stack}/9aa833abc7cb7207238c3e98a1253eeb7bceee1f.svg"
+                },
+                "hex_color": "#cc0000"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "recipe_ingredient_ids": [
+    "16859",
+    "17032",
+    "66095",
+    "86453"
+  ],
+  "regional_availability": {
+    "gmaa": {
+      "probability": 86
+    },
+    "gmbs": {
+      "probability": 93
+    },
+    "gmge": {
+      "probability": 50
+    },
+    "gmlu": {
+      "probability": 75
+    },
+    "gmnf": {
+      "probability": 24
+    },
+    "gmos": {
+      "probability": 52
+    },
+    "gmti": {
+      "probability": 61
+    },
+    "gmvd": {
+      "probability": 42
+    },
+    "gmvs": {
+      "probability": 44
+    },
+    "gmzh": {
+      "probability": 87
+    }
+  },
+  "ratings": {
+    "count_all": 23,
+    "average_all": 4.869565217391
+  },
+  "related_products": {
+    "purchase_recommendations": {
+      "product_ids": [
+        "210510900000",
+        "210521200000",
+        "212378700000",
+        "212378824000",
+        "212580200000"
+      ]
+    }
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "updated_at": "2023-08-17T11:56:17+0200",
+  "sap_created_at": "2010-04-26T19:00:00+0200",
+  "online_shop_relevant": false,
+  "base_unit": "CU",
+  "co2_compensation": {
+    "kg_co2": 6.85,
+    "kg_co2_compensation": 6.85,
+    "is_compensated": false,
+    "mcheck_enabled": true
+  },
+  "origins": {},
+  "views": [
+    "all",
+    "browse",
+    "browseallretailers"
+  ]
+}

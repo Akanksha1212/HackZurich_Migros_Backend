@@ -1,0 +1,865 @@
+{
+  "id": "251200301000",
+  "language": "en",
+  "name": "M-Classic ASC Lachsfilets",
+  "names": {
+    "short_name": "M-Classic ASC Lachsfilets"
+  },
+  "slug": "m-classic-asc-lachsfilets",
+  "slugs": {
+    "de": "m-classic-asc-lachsfilets",
+    "fr": "m-classic-asc-filet-de-saumon-251200301000",
+    "it": "m-classic-asc-filetto-di-salmone-251200301000",
+    "en": "m-classic-asc-lachsfilets"
+  },
+  "type": "00",
+  "boss_number": "040414368020",
+  "data_source": "SAP-X11",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "80"
+  },
+  "tags": [
+    "source-p4m",
+    "migipedia",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613269894254"
+  ],
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarket"
+  },
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "brand": {
+    "id": "068",
+    "name": "M-Classic",
+    "slug": "m-classic",
+    "links": {
+      "homepage": {
+        "url": "https://m-classic.migros.ch/de.html",
+        "name": "Homepage",
+        "type": "info",
+        "purchasable": false
+      }
+    }
+  },
+  "labels": [
+    {
+      "id": "L36",
+      "name": "ASC",
+      "slug": "asc",
+      "links": {
+        "homepage": {
+          "url": "https://www.migros.ch/de/nachhaltigkeit/nachhaltige-produkte/unsere-fortschritte/tierische-produkte/fisch.html",
+          "name": "Homepage",
+          "type": "info",
+          "purchasable": false
+        }
+      },
+      "image": {
+        "original": "https://image.migros.ch/original/a1b4e0bfd235d06d7d235c892c8b9ab50bef61a7/asc.jpg",
+        "stack": "https://image.migros.ch/{stack}/a1b4e0bfd235d06d7d235c892c8b9ab50bef61a7/asc.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_01010701",
+      "name": "Frischfisch",
+      "slug": "supermarkt/lebensmittel/fisch-meeresfruechte/frischfisch",
+      "visible": true,
+      "title": "Fisch und Fischfilets günstig bei der Migros",
+      "parent_code": "BeSS_010107",
+      "image": {
+        "original": "https://image.migros.ch/original/221ea04a3c5ff0e5fc5051d972cdc608d6ef91d8/frischfisch.jpg",
+        "stack": "https://image.migros.ch/{stack}/221ea04a3c5ff0e5fc5051d972cdc608d6ef91d8/frischfisch.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010107",
+      "name": "Fisch & Meeresfrüchte",
+      "slug": "supermarkt/lebensmittel/fisch-meeresfruechte",
+      "visible": true,
+      "title": "Frische Fische – natürlich aus Ihrer Migros",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/ec75a7d58e38e50543a63ffef79d21bc22d60668/fisch-meeresfruechte.jpg",
+        "stack": "https://image.migros.ch/{stack}/ec75a7d58e38e50543a63ffef79d21bc22d60668/fisch-meeresfruechte.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/31702195ec9d38aecefe80349eb347f79d56c750/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/31702195ec9d38aecefe80349eb347f79d56c750/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "online_relevant": [
+    {
+      "code": "MGB",
+      "name": "Migros Genossenschafts-Bund"
+    },
+    {
+      "code": "MO",
+      "name": "Migros Online"
+    }
+  ],
+  "links": {
+    "migros_ch": {
+      "url": "https://www.migros.ch/en/product/251200301000?context=instore",
+      "name": "In-store assortment",
+      "canonical": "https://www.migros.ch/en/product/251200301000?context=instore",
+      "type": "info",
+      "purchasable": false
+    },
+    "migros_online": {
+      "url": "https://www.migros.ch/en/product/251200301000?context=online",
+      "mo_product_id": "4860397",
+      "name": "Online-shop assortment",
+      "canonical": "https://www.migros.ch/en/product/251200301000?context=instore",
+      "type": "shop",
+      "purchasable": true,
+      "one_catalog_id": 100026134
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/251200301000",
+      "name": "Migipedia",
+      "canonical": "https://www.migros.ch/en/product/251200301000?context=instore",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "has_safety_sheet": false,
+  "m_check2": {},
+  "receipt_text": "MClass ASC Lachsfilets",
+  "package": {
+    "content": 380,
+    "content_unit_code": "g",
+    "content_unit": "Gram",
+    "net_weight": 0.38,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogram",
+    "type": "CU",
+    "portions_per_package": "1",
+    "brutto_weight": 0.38,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 0.864,
+    "brutto_volume_unit_code": "cdm",
+    "height": 4,
+    "length": 18,
+    "width": 12,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "380g"
+  },
+  "package_information": {
+    "tu": {
+      "gtins": [
+        "7613269894261"
+      ],
+      "brutto_weight": 2.28,
+      "brutto_weight_unit_code": "kg",
+      "number_of_base_units": 6
+    },
+    "cu": {
+      "gtins": [
+        "7613269894254"
+      ],
+      "brutto_weight": 0.38,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.864,
+      "brutto_volume_unit_code": "cdm",
+      "height": 4,
+      "length": 18,
+      "width": 12,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    }
+  },
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "price": {
+    "valid_from": "2023-07-04T00:00:00+0200",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "source": "PriceRepository",
+    "no_price_hint": "Current daily price"
+  },
+  "features": [
+    {
+      "label_code": "acxMISOhaut",
+      "label": "Haut",
+      "values": [
+        {
+          "value_code": "erxMISOhautohnehaut",
+          "value": "ohne Haut"
+        }
+      ],
+      "category_code": "ecxMISOCLAfischbearbeitetverarbeitetfischmeeresfruechtelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOgraeten",
+      "label": "Gräten",
+      "values": [
+        {
+          "value": "ohne Gräten"
+        }
+      ],
+      "category_code": "ecxMISOCLAfischbearbeitetverarbeitetfischmeeresfruechtelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOfischform",
+      "label": "Fischform",
+      "values": [
+        {
+          "value_code": "erxMISOfischformfilet",
+          "value": "Fillet"
+        }
+      ],
+      "category_code": "ecxMISOCLAfischbearbeitetverarbeitetfischmeeresfruechtelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOcugebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "erxMISOcugebindeartkunststoffverpackung",
+          "value": "Kunststoff-Verpackung"
+        }
+      ],
+      "category_code": "ecxMISOCLAfischbearbeitetverarbeitetfischmeeresfruechtelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOfischformbearbeitet",
+      "label": "Fischform bearbeitet",
+      "values": [
+        {
+          "value": "raw"
+        }
+      ],
+      "category_code": "ecxMISOCLAfischbearbeitetverarbeitetfischmeeresfruechtelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOproduktionsanspruch",
+      "label": "Produktionsverfahren",
+      "values": [
+        {
+          "value_code": "erxMISOproduktionsanspruchnachhaltigefischzucht",
+          "value": "Nachhaltige Fischzucht"
+        }
+      ],
+      "category_code": "ecxMISOCLAfischbearbeitetverarbeitetfischmeeresfruechtelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOsuessodersalzwasser",
+      "label": "Süss- oder Salzwasser",
+      "values": [
+        {
+          "value": "Salzwasser"
+        }
+      ],
+      "category_code": "ecxMISOCLAfischbearbeitetverarbeitetfischmeeresfruechtelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOzubereitungsverfahren",
+      "label": "Hinweise für die Zubereitung",
+      "values": [
+        {
+          "value_code": "erxMISOzubereitungsverfahrenbraten",
+          "value": "braten"
+        },
+        {
+          "value_code": "erxMISOzubereitungsverfahrengrillieren",
+          "value": "grillieren"
+        }
+      ],
+      "category_code": "ecxMISOCLAfischbearbeitetverarbeitetfischmeeresfruechtelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOzumrohverzehrgeeignet",
+      "label": "Zum Rohverzehr geeignet",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "ecxMISOCLAfischbearbeitetverarbeitetfischmeeresfruechtelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOanzahlentnehmbarereinzelportionen",
+      "label": "Anzahl entnehmbarer Einzeleinheiten",
+      "values": [
+        {
+          "value_code": "NUMERIC_0",
+          "value": "0",
+          "numeric_value": 0
+        }
+      ],
+      "category_code": "ecxMISOCLAfischbearbeitetverarbeitetfischmeeresfruechtelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/e12e1a24887b759b1da1ee4c552f9365939e9d54/m-classic-asc-lachsfilets.jpg",
+    "stack": "https://image.migros.ch/{stack}/e12e1a24887b759b1da1ee4c552f9365939e9d54/m-classic-asc-lachsfilets.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/77cc797c4a67216fdbb7d2a6cd2f5a24a708c266/m-classic-asc-lachsfilets.png",
+    "stack": "https://image.migros.ch/{stack}/77cc797c4a67216fdbb7d2a6cd2f5a24a708c266/m-classic-asc-lachsfilets.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_EXPORTABLE",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_EXPORTABLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Normalposition"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZFRP",
+          "value": "Frische Beschaffung"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "ZFRP"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "71320",
+          "value": "SELLOUT/PROMOTIONEN"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LIFECYCLE",
+      "values": [
+        {
+          "value_code": "S",
+          "value": "Sellout"
+        }
+      ],
+      "category_code": "MAPI_LIFECYCLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_STORAGE_CONDITIONS",
+      "values": [
+        {
+          "value_code": "02",
+          "value": "refrigerated"
+        }
+      ],
+      "category_code": "MAPI_STORAGE_CONDITIONS",
+      "top_fact": false
+    },
+    {
+      "label_code": "acxCommonarticlecocompensated",
+      "label": "Artikel Co2 kompensiert",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false
+    },
+    {
+      "label_code": "acxCommonfischhaltungvonfisch",
+      "label": "Haltung von Fisch",
+      "values": [
+        {
+          "value": "Aquaculture"
+        }
+      ],
+      "category_code": "ecxCommonCLAfisch",
+      "top_fact": false
+    },
+    {
+      "label_code": "acxCommonfischzonenmanagement",
+      "label": "Zonenmanagement",
+      "values": [
+        {
+          "value_code": "NUMERIC_6.8",
+          "value": "6.8",
+          "numeric_value": 6.8
+        }
+      ],
+      "category_code": "ecxCommonCLAfisch",
+      "top_fact": false
+    },
+    {
+      "label_code": "acxCommonmesswertcompensation",
+      "label": "CO2-Wert Kompensation",
+      "values": [
+        {
+          "value_code": "NUMERIC_5.083",
+          "value": "5.083",
+          "numeric_value": 5.083
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false,
+      "unit_code": "5d71456e-a520-4294-9ddb-add78f63ce83",
+      "unit": "Equivalence per kilogram",
+      "unit_symbol": "eq / kg"
+    },
+    {
+      "label_code": "acxCommonoutputmcheckclimatedeclaration",
+      "label": "Auslobung M-Check Klimadeklaration",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false
+    }
+  ],
+  "declarations": {
+    "declaration_number": "Q_2121841432629341",
+    "tags": [
+      "source-qim"
+    ],
+    "gtins": [
+      "7613269894254"
+    ],
+    "valid_from": "2023-04-10T00:00:00+0200",
+    "product_details": {
+      "net_filled_quantity": {
+        "value": "380 g",
+        "numeric_value": 380,
+        "unit": "g"
+      }
+    },
+    "general_information": [
+      {
+        "label": "Cooling information/storage information",
+        "values": [
+          "Store in a cool place at max. +2 °C."
+        ]
+      }
+    ],
+    "ingredients_information": {
+      "allergens_information": {
+        "allergens": [
+          {
+            "code": "ALLG_FISCH",
+            "label": "Fish and products thereof",
+            "contamination_code": "VORHANDEN",
+            "contamination_label": "contains"
+          }
+        ]
+      }
+    },
+    "nutrition_facts": {
+      "reference_sizes": {
+        "standard": {
+          "base": {
+            "quantity": {
+              "value": "100 g",
+              "numeric_value": 100,
+              "unit": "g"
+            }
+          },
+          "nutrients": [
+            {
+              "code": "NUT_ENERGY",
+              "name": "Energy",
+              "operator": "=",
+              "pictogram_name": "Energy",
+              "category": "BIG9",
+              "quantity": {
+                "value": "747 kJ",
+                "numeric_value": 747,
+                "unit": "kJ",
+                "alternate": {
+                  "value": "179 kcal",
+                  "numeric_value": 179,
+                  "unit": "kcal"
+                }
+              },
+              "rda": {
+                "percent": 9,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_FAT",
+              "name": "Fat",
+              "operator": "=",
+              "pictogram_name": "Fat",
+              "category": "BIG9",
+              "quantity": {
+                "value": "11 g",
+                "numeric_value": 11,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 16,
+                "operator": "="
+              },
+              "rating": {
+                "value": 1,
+                "text": "medium",
+                "icon": {
+                  "original": "https://image.migros.ch/original/b84b389195e426a9e6b4cd66f2c79b1a049809da.svg",
+                  "stack": "https://image.migros.ch/{stack}/b84b389195e426a9e6b4cd66f2c79b1a049809da.svg"
+                },
+                "hex_color": "#e8a800"
+              }
+            },
+            {
+              "code": "NUT_SATURATED_FATTY_ACIDS",
+              "name": "of which saturates",
+              "operator": "=",
+              "pictogram_name": "saturated fatty acids",
+              "category": "BIG9",
+              "quantity": {
+                "value": "2.4 g",
+                "numeric_value": 2.4,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 12,
+                "operator": "="
+              },
+              "rating": {
+                "value": 1,
+                "text": "medium",
+                "icon": {
+                  "original": "https://image.migros.ch/original/b84b389195e426a9e6b4cd66f2c79b1a049809da.svg",
+                  "stack": "https://image.migros.ch/{stack}/b84b389195e426a9e6b4cd66f2c79b1a049809da.svg"
+                },
+                "hex_color": "#e8a800"
+              }
+            },
+            {
+              "code": "NUT_CARBOHYDRATES",
+              "name": "Carbohydrate",
+              "operator": "=",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0 g",
+                "numeric_value": 0,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 0,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_SUGAR",
+              "name": "of which sugars",
+              "operator": "=",
+              "pictogram_name": "Sugar",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0 g",
+                "numeric_value": 0,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 0,
+                "operator": "="
+              },
+              "rating": {
+                "value": 0,
+                "text": "low",
+                "icon": {
+                  "original": "https://image.migros.ch/original/a2b5e2562a4fedbbdec99c1932ec57c46c49cde4.svg",
+                  "stack": "https://image.migros.ch/{stack}/a2b5e2562a4fedbbdec99c1932ec57c46c49cde4.svg"
+                },
+                "hex_color": "#069800"
+              }
+            },
+            {
+              "code": "NUT_FIBER",
+              "name": "Fibre",
+              "operator": "=",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0 g",
+                "numeric_value": 0,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_PROTEIN",
+              "name": "Protein",
+              "operator": "=",
+              "category": "BIG9",
+              "quantity": {
+                "value": "20 g",
+                "numeric_value": 20,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 40,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_SALT",
+              "name": "Salt",
+              "operator": "=",
+              "pictogram_name": "Salt",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0.10 g",
+                "numeric_value": 0.1,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 2,
+                "operator": "="
+              },
+              "rating": {
+                "value": 0,
+                "text": "low",
+                "icon": {
+                  "original": "https://image.migros.ch/original/a2b5e2562a4fedbbdec99c1932ec57c46c49cde4.svg",
+                  "stack": "https://image.migros.ch/{stack}/a2b5e2562a4fedbbdec99c1932ec57c46c49cde4.svg"
+                },
+                "hex_color": "#069800"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "recipe_ingredient_ids": [
+    "15181"
+  ],
+  "regional_availability": {
+    "gmaa": {
+      "probability": 99
+    },
+    "gmbs": {
+      "probability": 0
+    },
+    "gmge": {
+      "probability": 0
+    },
+    "gmlu": {
+      "probability": 0
+    },
+    "gmnf": {
+      "probability": 0
+    },
+    "gmos": {
+      "probability": 0
+    },
+    "gmti": {
+      "probability": 0
+    },
+    "gmvd": {
+      "probability": 0
+    },
+    "gmvs": {
+      "probability": 0
+    },
+    "gmzh": {
+      "probability": 0
+    }
+  },
+  "ratings": {
+    "count_all": 64,
+    "average_all": 4.375
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "updated_at": "2023-08-17T12:00:52+0200",
+  "sap_created_at": "2017-05-31T19:00:00+0200",
+  "online_shop_relevant": false,
+  "base_unit": "CU",
+  "co2_compensation": {
+    "kg_co2": 5.083,
+    "kg_co2_compensation": 5.083,
+    "is_compensated": false,
+    "mcheck_enabled": false
+  },
+  "origins": {},
+  "views": [
+    "all",
+    "browse",
+    "browseallretailers"
+  ]
+}

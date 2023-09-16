@@ -1,0 +1,604 @@
+{
+  "id": "707608000000",
+  "language": "en",
+  "name": "PFEIFEN-ZÜNDHÖLZER 55MM 5STK",
+  "names": {
+    "short_name": "PFEIFEN-ZÜNDHÖLZER 55MM 5STK"
+  },
+  "slug": "pfeifen-zuendhoelzer-55mm-5stk",
+  "slugs": {
+    "de": "zuendhoelzer-707608000000",
+    "fr": "allumettes-707608000000",
+    "it": "fiammiferi-707608000000",
+    "en": "pfeifen-zuendhoelzer-55mm-5stk"
+  },
+  "type": "00",
+  "boss_number": "150323387005",
+  "description": {
+    "text": "5 Schachteln &agrave; 60 H&ouml;lzern",
+    "source": "PEX"
+  },
+  "data_source": "SAP-X12",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03",
+    "distribution_center": [
+      {
+        "center_id": "1001",
+        "center_name": "Migros Verteilzentrum Neuendorf",
+        "status_code": "03",
+        "status_description": "active"
+      }
+    ]
+  },
+  "tags": [
+    "source-pex",
+    "near-non-food",
+    "migipedia",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613294679116"
+  ],
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarket"
+  },
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "brand": {
+    "id": "MDB",
+    "name": "Migros Ambiance",
+    "slug": "migros-ambiance"
+  },
+  "labels": [
+    {
+      "id": "L09",
+      "name": "FSC",
+      "slug": "fsc"
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_01040801",
+      "name": "Kerzen & Düfte / Kerzenhalter & Zubehör",
+      "slug": "supermarkt/haushalt-reinigung/party-dekoration/kerzen-duefte-kerzenhalter-zubehoer",
+      "visible": true,
+      "parent_code": "BeSS_010408",
+      "image": {
+        "original": "https://image.migros.ch/original/560cc8758f7210182ee20511ebb1c86beeac7042/kerzen-duefte-kerzenhalter-zubehoer.jpg",
+        "stack": "https://image.migros.ch/{stack}/560cc8758f7210182ee20511ebb1c86beeac7042/kerzen-duefte-kerzenhalter-zubehoer.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010408",
+      "name": "Party & Dekoration",
+      "slug": "supermarkt/haushalt-reinigung/party-dekoration",
+      "visible": true,
+      "title": "Dekorationen aus Ihrer Migros geben jeder Party ein schönes Ambiente.",
+      "parent_code": "BeSS_0104",
+      "image": {
+        "original": "https://image.migros.ch/original/bc5ef65d76b03e73e42d267cfeb6ee2bae2332af/party-dekoration.jpg",
+        "stack": "https://image.migros.ch/{stack}/bc5ef65d76b03e73e42d267cfeb6ee2bae2332af/party-dekoration.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0104",
+      "name": "Haushalt & Reinigung",
+      "slug": "supermarkt/haushalt-reinigung",
+      "visible": true,
+      "title": "Reinigung mit der Migros – Reiniger für Haushalt und Garten",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png",
+        "stack": "https://image.migros.ch/{stack}/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "online_relevant": [
+    {
+      "code": "MGB",
+      "name": "Migros Genossenschafts-Bund"
+    }
+  ],
+  "galaxus_relevant": false,
+  "links": {
+    "migros_ch": {
+      "url": "https://www.migros.ch/en/product/707608000000?context=instore",
+      "name": "In-store assortment",
+      "canonical": "https://www.migros.ch/en/product/707608000000?context=instore",
+      "type": "info",
+      "purchasable": false
+    },
+    "migros_online": {
+      "url": "https://www.migros.ch/en/product/707608000000?context=online",
+      "mo_product_id": "220145",
+      "name": "Online-shop assortment",
+      "canonical": "https://www.migros.ch/en/product/707608000000?context=instore",
+      "type": "shop",
+      "purchasable": true,
+      "one_catalog_id": 100037967
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/707608000000",
+      "name": "Migipedia",
+      "canonical": "https://www.migros.ch/en/product/707608000000?context=instore",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "receipt_text": "Zündhölzer 55mm",
+  "package": {
+    "content": 300,
+    "content_unit_code": "st",
+    "content_unit": "Stück",
+    "net_weight": 0.085,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "brutto_weight": 0.09,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 0.31,
+    "brutto_volume_unit_code": "cdm",
+    "height": 5.4,
+    "length": 8.2,
+    "width": 7,
+    "unit_dimension": "cm",
+    "price_comparison_content": 1,
+    "size": "300 Stk."
+  },
+  "package_information": {
+    "cu": {
+      "gtins": [
+        "7613294679116"
+      ],
+      "brutto_weight": 0.09,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.31,
+      "brutto_volume_unit_code": "cdm",
+      "height": 5.4,
+      "length": 8.2,
+      "width": 7,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "tuv": {
+      "brutto_weight": 0.87,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 3.136,
+      "brutto_volume_unit_code": "cdm",
+      "height": 14,
+      "length": 28,
+      "width": 8,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 10
+    },
+    "tue": {
+      "brutto_weight": 0.895,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 3.259,
+      "brutto_volume_unit_code": "cdm",
+      "height": 8.3,
+      "length": 26.8,
+      "width": 14,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 10
+    },
+    "lu": {
+      "number_of_base_units": 2400
+    },
+    "lge": {
+      "number_of_base_units": 400
+    }
+  },
+  "vat": {
+    "id": 1,
+    "percentage": 7.7
+  },
+  "price": {
+    "valid_from": "2018-01-30T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 2.5,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "300 Stk."
+    },
+    "base": {
+      "price": 0.01,
+      "quantity": 1,
+      "unit": "st"
+    }
+  },
+  "features": [
+    {
+      "label_code": "miso_holzart",
+      "label": "Wood type",
+      "values": [
+        {
+          "value_code": "MISO_holzart_Espe",
+          "value": "Espe"
+        }
+      ],
+      "category_code": "MISO_CLA_Haushalt_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "miso_holzherkunft",
+      "label": "Origin of wood",
+      "values": [
+        {
+          "value_code": "MISO_holzherkunftsland_schweden",
+          "value": "Schweden"
+        }
+      ],
+      "category_code": "MISO_CLA_Haushalt_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "miso_holz_wissenschaftlicher_name",
+      "label": "Scientific name of wood",
+      "values": [
+        {
+          "value_code": "MISO_holz_wissenschaftlicher_name_link",
+          "value": "Kann unter www.holzdeklaration.ch abgefragt werden."
+        }
+      ],
+      "category_code": "MISO_CLA_Haushalt_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "miso_inhaltsmenge",
+      "label": "Content quantity",
+      "values": [
+        {
+          "value_code": "NUMERIC_60",
+          "value": "60 Stk.",
+          "numeric_value": 60
+        }
+      ],
+      "category_code": "MISO_CLA_HaushaltAcc_Haushalt_Alle",
+      "top_fact": false,
+      "unit_code": "Stk.",
+      "unit": "Stück",
+      "unit_symbol": "Stk.",
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "miso_laenge",
+      "label": "Length",
+      "values": [
+        {
+          "value_code": "NUMERIC_55",
+          "value": "55 mm",
+          "numeric_value": 55
+        }
+      ],
+      "category_code": "MISO_CLA_HaushaltAcc_Haushalt_Alle",
+      "top_fact": false,
+      "unit_code": "mm",
+      "unit": "Millimeter",
+      "unit_symbol": "mm",
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "miso_material",
+      "label": "Material",
+      "values": [
+        {
+          "value_code": "MISO_material_holz",
+          "value": "Holz"
+        }
+      ],
+      "category_code": "MISO_CLA_HaushaltAcc_Haushalt_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/9e0bb4ba469c12ecebf44f23bcc9f5fd7df7ef61/pfeifen-zuendhoelzer-55mm-5stk.jpg",
+    "stack": "https://image.migros.ch/{stack}/9e0bb4ba469c12ecebf44f23bcc9f5fd7df7ef61/pfeifen-zuendhoelzer-55mm-5stk.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/b54e91fb642553d3bec8e671a30bec3332cf7466/pfeifen-zuendhoelzer-55mm-5stk.png",
+    "stack": "https://image.migros.ch/{stack}/b54e91fb642553d3bec8e671a30bec3332cf7466/pfeifen-zuendhoelzer-55mm-5stk.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "miso_amigos_anzeige",
+      "label": "Display aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "ja"
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "miso_amigos_sortierung",
+      "label": "aMigos sorting",
+      "values": [
+        {
+          "value": "210"
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+      "values": [
+        {
+          "value_code": "55",
+          "value": "Versandart Paket"
+        }
+      ],
+      "category_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LOGISTIC_CLASS",
+      "values": [
+        {
+          "value_code": "7",
+          "value": "VMI"
+        }
+      ],
+      "category_code": "MAPI_LOGISTIC_CLASS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Standard item"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "HART"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUSTOMS_POSITION",
+      "values": [
+        {
+          "value": "36050000000"
+        }
+      ],
+      "category_code": "MAPI_CUSTOMS_POSITION",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_KUBE_TUKA",
+      "values": [
+        {
+          "value_code": "BLANK",
+          "value": "KUBE und TUKA nicht zugelassen"
+        }
+      ],
+      "category_code": "MAPI_KUBE_TUKA",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HART",
+          "value": "Hartwaren Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "H",
+          "value": "Hartwaren"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "53552",
+          "value": "STREICHHOELZER"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_EXPORTABLE",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_EXPORTABLE",
+      "top_fact": false
+    }
+  ],
+  "regional_availability": {
+    "gmaa": {
+      "probability": 62
+    },
+    "gmbs": {
+      "probability": 74
+    },
+    "gmge": {
+      "probability": 50
+    },
+    "gmlu": {
+      "probability": 47
+    },
+    "gmnf": {
+      "probability": 56
+    },
+    "gmos": {
+      "probability": 50
+    },
+    "gmti": {
+      "probability": 48
+    },
+    "gmvd": {
+      "probability": 44
+    },
+    "gmvs": {
+      "probability": 52
+    },
+    "gmzh": {
+      "probability": 65
+    }
+  },
+  "ratings": {
+    "count_all": 12,
+    "average_all": 4.166666666667
+  },
+  "quantity_on_stock": 30020,
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "updated_at": "2023-08-17T12:05:18+0200",
+  "sap_created_at": "2012-10-11T00:00:00+0200",
+  "online_shop_relevant": true,
+  "base_unit": "CU",
+  "origins": {
+    "producing_country": "Sweden"
+  },
+  "views": [
+    "all",
+    "browse",
+    "browseallretailers"
+  ]
+}

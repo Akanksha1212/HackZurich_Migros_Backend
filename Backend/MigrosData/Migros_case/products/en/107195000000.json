@@ -1,0 +1,656 @@
+{
+  "id": "107195000000",
+  "language": "en",
+  "name": "Starbucks® Blonde® Espresso Roast Bohnen 450g",
+  "names": {
+    "short_name": "Starbucks® Blonde® Espresso Roast Bohnen 450g"
+  },
+  "slug": "starbucks-blonde-espresso-roast-bohnen-450g",
+  "slugs": {
+    "de": "starbucks-blonde-espresso-roast-bohnen-450g",
+    "fr": "starbucks-blonde-espresso-roast-grains-450g",
+    "it": "starbucks-blonde-espresso-roast-chicci-450g",
+    "en": "starbucks-blonde-espresso-roast-bohnen-450g"
+  },
+  "type": "00",
+  "boss_number": "010310301610",
+  "description": {
+    "text": "Samtige und s&uuml;sse Note",
+    "source": "P4M"
+  },
+  "data_source": "SAP-X11",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03"
+  },
+  "tags": [
+    "source-p4m",
+    "migipedia",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613037204797"
+  ],
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarket"
+  },
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "brand": {
+    "id": "C86",
+    "name": "Starbucks",
+    "slug": "starbucks"
+  },
+  "categories": [
+    {
+      "code": "BeSS_0101100101",
+      "name": "Kaffeebohnen",
+      "slug": "supermarkt/lebensmittel/getraenke-heiss-kalt/kaffee/kaffeebohnen",
+      "visible": true,
+      "title": "Kaffeepulver und Bohnenkaffee in Ihrer Migros kaufen",
+      "parent_code": "BeSS_01011001",
+      "image": {
+        "original": "https://image.migros.ch/original/996dd8c4ef6c855f8356a1aa348b5f6ace27cd46/kaffeebohnen.jpg",
+        "stack": "https://image.migros.ch/{stack}/996dd8c4ef6c855f8356a1aa348b5f6ace27cd46/kaffeebohnen.jpg"
+      },
+      "level": 5
+    },
+    {
+      "code": "BeSS_01011001",
+      "name": "Kaffee",
+      "slug": "supermarkt/lebensmittel/getraenke-heiss-kalt/kaffee",
+      "visible": true,
+      "title": "Das schwarze Gold der Geniesser: Kaffee bei der Migros",
+      "parent_code": "BeSS_010110",
+      "image": {
+        "original": "https://image.migros.ch/original/878a8a7f86cd333586f7c8d78869200554182233/kaffee.jpg",
+        "stack": "https://image.migros.ch/{stack}/878a8a7f86cd333586f7c8d78869200554182233/kaffee.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010110",
+      "name": "Getränke heiss & kalt",
+      "slug": "supermarkt/lebensmittel/getraenke-heiss-kalt",
+      "visible": true,
+      "title": "Getränke aus der Migros löschen auch Ihren Durst",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/d04d95fbc2e1b4ada4783d2976d37a962a0318a1/getraenke-heiss-kalt.jpg",
+        "stack": "https://image.migros.ch/{stack}/d04d95fbc2e1b4ada4783d2976d37a962a0318a1/getraenke-heiss-kalt.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/31702195ec9d38aecefe80349eb347f79d56c750/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/31702195ec9d38aecefe80349eb347f79d56c750/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "online_relevant": [
+    {
+      "code": "MGB",
+      "name": "Migros Genossenschafts-Bund"
+    }
+  ],
+  "links": {
+    "migros_ch": {
+      "url": "https://www.migros.ch/en/product/107195000000?context=instore",
+      "name": "In-store assortment",
+      "canonical": "https://www.migros.ch/en/product/107195000000?context=instore",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/107195000000",
+      "name": "Migipedia",
+      "canonical": "https://www.migros.ch/en/product/107195000000?context=instore",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "has_safety_sheet": false,
+  "m_check2": {},
+  "receipt_text": "Starbucks Blonde 450g",
+  "package": {
+    "content": 450,
+    "content_unit_code": "g",
+    "content_unit": "Gram",
+    "net_weight": 0.45,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogram",
+    "type": "CU",
+    "portions_per_package": "1",
+    "brutto_weight": 0.47,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 2.376,
+    "brutto_volume_unit_code": "cdm",
+    "height": 22,
+    "length": 9,
+    "width": 12,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "450g"
+  },
+  "package_information": {
+    "tu": {
+      "gtins": [
+        "7613037204803"
+      ],
+      "brutto_weight": 2.1,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 11.694,
+      "brutto_volume_unit_code": "cdm",
+      "height": 22.5,
+      "length": 38.5,
+      "width": 13.5,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 4
+    },
+    "cu": {
+      "gtins": [
+        "7613037204797"
+      ],
+      "brutto_weight": 0.47,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 2.376,
+      "brutto_volume_unit_code": "cdm",
+      "height": 22,
+      "length": 9,
+      "width": 12,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "lu": {
+      "brutto_weight": 214,
+      "brutto_weight_unit_code": "kg",
+      "length": 120,
+      "width": 80,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 360
+    }
+  },
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "price": {
+    "valid_from": "2022-02-22T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 9.95,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "450g"
+    },
+    "base": {
+      "price": 2.21,
+      "quantity": 100,
+      "unit": "G"
+    }
+  },
+  "features": [
+    {
+      "label_code": "acxMISOcugebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "erxMISOcugebindeartbeutelsack",
+          "value": "Beutel/Sack"
+        }
+      ],
+      "category_code": "ecxMISOCLAkaffeeersatzproduktegetraenkelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOentkoffeiniert",
+      "label": "Entkoffeiniert",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "ecxMISOCLAkaffeeersatzproduktegetraenkelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOkaffeeroestung",
+      "label": "Kaffeeröstung",
+      "values": [
+        {
+          "value_code": "erxMISOkaffeeroestunghellgeroestet",
+          "value": "hell geröstet"
+        }
+      ],
+      "category_code": "ecxMISOCLAkaffeeersatzproduktegetraenkelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISObotanischesorte",
+      "label": "Botanische Sorte",
+      "values": [
+        {
+          "value_code": "erxMISObotanischesortearabica",
+          "value": "Arabica"
+        }
+      ],
+      "category_code": "ecxMISOCLAkaffeeersatzproduktegetraenkelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOsortedeskaffees",
+      "label": "Sorte des Kaffees",
+      "values": [
+        {
+          "value_code": "erxMISOsortedeskaffeesroestkaffee",
+          "value": "Röstkaffee"
+        }
+      ],
+      "category_code": "ecxMISOCLAkaffeeersatzproduktegetraenkelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOformbeschaffenheitdeskaffees",
+      "label": "Form/Beschaffenheit des Kaffees",
+      "values": [
+        {
+          "value_code": "erxMISOformbeschaffenheitdeskaffeeskaffeebohnen",
+          "value": "Kaffeebohnen"
+        }
+      ],
+      "category_code": "ecxMISOCLAkaffeeersatzproduktegetraenkelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOmoeglichevewendungsmengeintassen",
+      "label": "Mögliche Vewendungsmenge in Tassen",
+      "values": [
+        {
+          "value": "0"
+        }
+      ],
+      "category_code": "ecxMISOCLAkaffeeersatzproduktegetraenkelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/c7429be73c48789d5ef35d01d4f67aee1349a9be/starbucks-blonde-espresso-roast-bohnen-450g.jpg",
+    "stack": "https://image.migros.ch/{stack}/c7429be73c48789d5ef35d01d4f67aee1349a9be/starbucks-blonde-espresso-roast-bohnen-450g.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/96cb45ac12ced6c35a6be6c5760103274f3b4c15/starbucks-blonde-espresso-roast-bohnen-450g.png",
+    "stack": "https://image.migros.ch/{stack}/96cb45ac12ced6c35a6be6c5760103274f3b4c15/starbucks-blonde-espresso-roast-bohnen-450g.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_EXPORTABLE",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_EXPORTABLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Normalposition"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "HAWA"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "10381",
+          "value": "ROAESTED COF.BEAN"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LIFECYCLE",
+      "values": [
+        {
+          "value_code": "D",
+          "value": "Detailhandelsartikel"
+        }
+      ],
+      "category_code": "MAPI_LIFECYCLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_STORAGE_CONDITIONS",
+      "values": [
+        {
+          "value_code": "01",
+          "value": "normal"
+        }
+      ],
+      "category_code": "MAPI_STORAGE_CONDITIONS",
+      "top_fact": false
+    },
+    {
+      "label_code": "acxCommonarticlecocompensated",
+      "label": "Artikel Co2 kompensiert",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false
+    },
+    {
+      "label_code": "acxCommonmesswertcompensation",
+      "label": "CO2-Wert Kompensation",
+      "values": [
+        {
+          "value_code": "NUMERIC_8.623",
+          "value": "8.623",
+          "numeric_value": 8.623
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false,
+      "unit_code": "5d71456e-a520-4294-9ddb-add78f63ce83",
+      "unit": "Equivalence per kilogram",
+      "unit_symbol": "eq / kg"
+    },
+    {
+      "label_code": "acxCommonoutputmcheckclimatedeclaration",
+      "label": "Auslobung M-Check Klimadeklaration",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false
+    }
+  ],
+  "declarations": {
+    "declaration_number": "Q_1604593688082282",
+    "tags": [
+      "source-qim"
+    ],
+    "gtins": [
+      "7613037204797"
+    ],
+    "valid_from": "2023-04-17T00:00:00+0200",
+    "product_details": {
+      "regulated_description": "Whole bean 100% Arabica coffee",
+      "product_description": "Nearly five decades of sourcing, blending and roastin brought us here: a second espresso that's boldly mellow. This special blend of beans from Latin America was carefully roasted to coax out sweet, vibrant notes. Soft and balanced, it pairs well with milk, making classic espresso drinks extra smooth without a roasty edge.",
+      "net_filled_quantity": {
+        "value": "450 g",
+        "numeric_value": 450,
+        "unit": "g"
+      },
+      "net_weight": {
+        "value": "450 Gramm",
+        "numeric_value": 450,
+        "unit": "Gramm"
+      }
+    },
+    "preparation": {
+      "information": "Grind beans for your brewing method. Use filtered water."
+    },
+    "distributor": {
+      "name": "Nestlé Suisse S.A.",
+      "address": "CP 2222, 1800 Vevey"
+    },
+    "general_information": [
+      {
+        "label": "Consumer storage instructions",
+        "values": [
+          "Store in an air tight, opaque container at room temperature. Use within 1 week of opening."
+        ]
+      }
+    ],
+    "ingredients_information": {
+      "additives_information": {
+        "declaration_obligatory": {
+          "code": "ATM",
+          "label": "Packaged under protective atmosphere"
+        }
+      },
+      "allergens_information": {
+        "allergens": [
+          {
+            "code": "ALLG_NA",
+            "label": "Does not contain any allergenic ingredients that require labelling",
+            "contamination_code": "VORHANDEN",
+            "contamination_label": "contains"
+          }
+        ]
+      }
+    }
+  },
+  "recipe_ingredient_ids": [
+    "14706",
+    "14707"
+  ],
+  "regional_availability": {
+    "gmaa": {
+      "probability": 36
+    },
+    "gmbs": {
+      "probability": 60
+    },
+    "gmge": {
+      "probability": 42
+    },
+    "gmlu": {
+      "probability": 34
+    },
+    "gmnf": {
+      "probability": 12
+    },
+    "gmos": {
+      "probability": 30
+    },
+    "gmti": {
+      "probability": 16
+    },
+    "gmvd": {
+      "probability": 12
+    },
+    "gmvs": {
+      "probability": 30
+    },
+    "gmzh": {
+      "probability": 48
+    }
+  },
+  "ratings": {
+    "count_all": 9,
+    "average_all": 4.222222222222
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "updated_at": "2023-08-11T07:35:10+0200",
+  "sap_created_at": "2021-05-04T19:00:00+0200",
+  "online_shop_relevant": false,
+  "base_unit": "CU",
+  "co2_compensation": {
+    "kg_co2": 8.623,
+    "kg_co2_compensation": 8.623,
+    "is_compensated": false,
+    "mcheck_enabled": false
+  },
+  "origins": {
+    "producing_country": "Portugal"
+  },
+  "views": [
+    "all",
+    "browse",
+    "browseallretailers"
+  ]
+}

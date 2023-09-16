@@ -1,0 +1,466 @@
+{
+  "id": "500290600000",
+  "language": "en",
+  "name": "Omino Bianco Cand. Delicata Marsiglia",
+  "names": {
+    "short_name": "Omino Bianco Cand. Delicata Marsiglia"
+  },
+  "slug": "omino-bianco-cand-delicata-marsiglia",
+  "slugs": {
+    "de": "omino-bianco-cand-delicata-marsiglia",
+    "fr": "omino-bianco-cand-delicata-marsiglia",
+    "it": "omino-bianco-cand-delicata-marsiglia",
+    "en": "omino-bianco-cand-delicata-marsiglia"
+  },
+  "type": "00",
+  "boss_number": "150126754910",
+  "data_source": "SAP-X11",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03",
+    "distribution_center": [
+      {
+        "center_id": "1000",
+        "center_name": "Migros Verteilzentrum Suhr",
+        "status_description": "product.status.distribution_center."
+      },
+      {
+        "center_id": "1001",
+        "center_name": "Migros Verteilzentrum Neuendorf",
+        "status_description": "product.status.distribution_center."
+      },
+      {
+        "center_id": "1120",
+        "center_name": "Magazzino regionale Ticino",
+        "status_description": "product.status.distribution_center."
+      }
+    ]
+  },
+  "tags": [
+    "source-pex",
+    "near-non-food",
+    "migipedia",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "8003650019752"
+  ],
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarket"
+  },
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "brand": {
+    "id": "A65",
+    "name": "Omino Bianco",
+    "slug": "omino-bianco"
+  },
+  "categories": [
+    {
+      "code": "BeSS_01040101",
+      "name": "Waschmittel",
+      "slug": "supermarkt/haushalt-reinigung/waschen-reinigen-pflege/waschmittel",
+      "visible": true,
+      "title": "Waschmittel bei der Migros: Porentief rein und duftig fein",
+      "parent_code": "BeSS_010401",
+      "image": {
+        "original": "https://image.migros.ch/original/5375aa4df371ff3df3f9db75583d9d1137053eaf/waschmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/5375aa4df371ff3df3f9db75583d9d1137053eaf/waschmittel.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010401",
+      "name": "Waschen, Reinigen & Pflege",
+      "slug": "supermarkt/haushalt-reinigung/waschen-reinigen-pflege",
+      "visible": true,
+      "parent_code": "BeSS_0104",
+      "image": {
+        "original": "https://image.migros.ch/original/37d8921589f88cd40b1c580b957a6a414e1fe1d1/waschen-reinigen-pflege.jpg",
+        "stack": "https://image.migros.ch/{stack}/37d8921589f88cd40b1c580b957a6a414e1fe1d1/waschen-reinigen-pflege.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0104",
+      "name": "Haushalt & Reinigung",
+      "slug": "supermarkt/haushalt-reinigung",
+      "visible": true,
+      "title": "Reinigung mit der Migros – Reiniger für Haushalt und Garten",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png",
+        "stack": "https://image.migros.ch/{stack}/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "online_relevant": [
+    {
+      "code": "MGB",
+      "name": "Migros Genossenschafts-Bund"
+    }
+  ],
+  "links": {
+    "migros_ch": {
+      "url": "https://www.migros.ch/en/product/500290600000?context=instore",
+      "name": "In-store assortment",
+      "canonical": "https://www.migros.ch/en/product/500290600000?context=instore",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/500290600000",
+      "name": "Migipedia",
+      "canonical": "https://www.migros.ch/en/product/500290600000?context=instore",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "m_check2": {},
+  "receipt_text": "Omino Candeggina",
+  "package": {
+    "content": 2,
+    "content_unit_code": "l",
+    "content_unit": "Liter",
+    "net_weight": 2,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "brutto_weight": 2.25,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 4.128,
+    "brutto_volume_unit_code": "cdm",
+    "height": 31.5,
+    "length": 7.8,
+    "width": 16.8,
+    "unit_dimension": "cm",
+    "price_comparison_content": 1,
+    "size": "2l"
+  },
+  "package_information": {
+    "tu": {
+      "gtins": [
+        "8003650019769"
+      ],
+      "brutto_weight": 13.498,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 29.353,
+      "brutto_volume_unit_code": "cdm",
+      "height": 33.4,
+      "length": 25.4,
+      "width": 34.6,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 6
+    },
+    "cu": {
+      "gtins": [
+        "8003650019752"
+      ],
+      "brutto_weight": 2.25,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 4.128,
+      "brutto_volume_unit_code": "cdm",
+      "height": 31.5,
+      "length": 7.8,
+      "width": 16.8,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "lu": {
+      "brutto_weight": 388.366,
+      "brutto_weight_unit_code": "kg",
+      "height": 120,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 180
+    },
+    "lge": {
+      "number_of_base_units": 60
+    },
+    "kar": {
+      "number_of_base_units": 1
+    }
+  },
+  "vat": {
+    "id": 1,
+    "percentage": 7.7
+  },
+  "price": {
+    "valid_from": "2023-04-20T00:00:00+0200",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 5.7,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "2l"
+    },
+    "base": {
+      "price": 2.85,
+      "quantity": 1,
+      "unit": "L"
+    }
+  },
+  "image": {
+    "original": "https://image.migros.ch/original/eaf6539a4ff1020efdaad2163e4881970c2b751d/omino-bianco-cand-delicata-marsiglia.jpg",
+    "stack": "https://image.migros.ch/{stack}/eaf6539a4ff1020efdaad2163e4881970c2b751d/omino-bianco-cand-delicata-marsiglia.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/b83dd6d504c92c0d026d8b1ca90eb371ea843625/omino-bianco-cand-delicata-marsiglia.png",
+    "stack": "https://image.migros.ch/{stack}/b83dd6d504c92c0d026d8b1ca90eb371ea843625/omino-bianco-cand-delicata-marsiglia.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Standard item"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "ZHKS"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUSTOMS_POSITION",
+      "values": [
+        {
+          "value": "3402.2000"
+        }
+      ],
+      "category_code": "MAPI_CUSTOMS_POSITION",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RISK_CLASS",
+      "values": [
+        {
+          "value_code": "1",
+          "value": "1 (high)"
+        }
+      ],
+      "category_code": "MAPI_RISK_CLASS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_QUALITY_CHECK",
+      "values": [
+        {
+          "value_code": "00",
+          "value": "No Quality Control"
+        }
+      ],
+      "category_code": "MAPI_QUALITY_CHECK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZHKS",
+          "value": "HKS Standardartikel"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "H",
+          "value": "HKS Standard"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "50497",
+          "value": "REG. WASCHEN"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LIFECYCLE",
+      "values": [
+        {
+          "value_code": "N",
+          "value": "Neuheit"
+        }
+      ],
+      "category_code": "MAPI_LIFECYCLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_EXPORTABLE",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Yes",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MAPI_EXPORTABLE",
+      "top_fact": false
+    }
+  ],
+  "regional_availability": {
+    "gmaa": {
+      "probability": 0
+    },
+    "gmbs": {
+      "probability": 0
+    },
+    "gmge": {
+      "probability": 0
+    },
+    "gmlu": {
+      "probability": 0
+    },
+    "gmnf": {
+      "probability": 0
+    },
+    "gmos": {
+      "probability": 0
+    },
+    "gmti": {
+      "probability": 90
+    },
+    "gmvd": {
+      "probability": 0
+    },
+    "gmvs": {
+      "probability": 0
+    },
+    "gmzh": {
+      "probability": 0
+    }
+  },
+  "ratings": {
+    "count_all": 1,
+    "average_all": 5
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "updated_at": "2023-08-09T23:00:44+0200",
+  "sap_created_at": "2023-04-19T00:00:00+0200",
+  "base_unit": "CU",
+  "views": [
+    "all",
+    "browse",
+    "browseallretailers"
+  ]
+}

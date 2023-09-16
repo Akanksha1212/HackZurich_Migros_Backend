@@ -1,0 +1,768 @@
+{
+  "id": "107166300000",
+  "language": "en",
+  "name": "Nescafé Gold de Luxe Glas 200g",
+  "names": {
+    "short_name": "Nescafé Gold de Luxe Glas 200g"
+  },
+  "slug": "nescafe-gold-de-luxe-glas-200g",
+  "slugs": {
+    "de": "nescafe-gold-de-luxe-glas-200g",
+    "fr": "nescafe-gold-de-luxe-vase-200g",
+    "it": "nescafe-gold-de-luxe-vaso-200g",
+    "en": "nescafe-gold-de-luxe-glas-200g"
+  },
+  "type": "00",
+  "boss_number": "010310305610",
+  "description": {
+    "text": "NESCAFÉ GOLD De Luxe l&auml;sst Sie aufs Neue entdecken, wie reichhaltig ein Aroma sein kann: eine Verbindung von sorgf&auml;ltig ausgew&auml;hlten Arabicas und Robustas, um Ihnen einen Kaffee von vollmundigem und subtilem Aroma zu bieten.",
+    "source": "P4M"
+  },
+  "data_source": "SAP-X11",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03"
+  },
+  "tags": [
+    "source-p4m",
+    "migipedia",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613035909014",
+    "7610100022302"
+  ],
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarket"
+  },
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "brand": {
+    "id": "401",
+    "name": "Nescafé",
+    "slug": "nescafe"
+  },
+  "categories": [
+    {
+      "code": "BeSS_0101100103",
+      "name": "Instantkaffee",
+      "slug": "supermarkt/lebensmittel/getraenke-heiss-kalt/kaffee/instantkaffee",
+      "visible": true,
+      "parent_code": "BeSS_01011001",
+      "image": {
+        "original": "https://image.migros.ch/original/fe833ff86d480b3bb07f35488f2197e5c5b4867e/instantkaffee.jpg",
+        "stack": "https://image.migros.ch/{stack}/fe833ff86d480b3bb07f35488f2197e5c5b4867e/instantkaffee.jpg"
+      },
+      "level": 5
+    },
+    {
+      "code": "BeSS_01011001",
+      "name": "Kaffee",
+      "slug": "supermarkt/lebensmittel/getraenke-heiss-kalt/kaffee",
+      "visible": true,
+      "title": "Das schwarze Gold der Geniesser: Kaffee bei der Migros",
+      "parent_code": "BeSS_010110",
+      "image": {
+        "original": "https://image.migros.ch/original/878a8a7f86cd333586f7c8d78869200554182233/kaffee.jpg",
+        "stack": "https://image.migros.ch/{stack}/878a8a7f86cd333586f7c8d78869200554182233/kaffee.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010110",
+      "name": "Getränke heiss & kalt",
+      "slug": "supermarkt/lebensmittel/getraenke-heiss-kalt",
+      "visible": true,
+      "title": "Getränke aus der Migros löschen auch Ihren Durst",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/d04d95fbc2e1b4ada4783d2976d37a962a0318a1/getraenke-heiss-kalt.jpg",
+        "stack": "https://image.migros.ch/{stack}/d04d95fbc2e1b4ada4783d2976d37a962a0318a1/getraenke-heiss-kalt.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/31702195ec9d38aecefe80349eb347f79d56c750/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/31702195ec9d38aecefe80349eb347f79d56c750/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "online_relevant": [
+    {
+      "code": "MGB",
+      "name": "Migros Genossenschafts-Bund"
+    },
+    {
+      "code": "MO",
+      "name": "Migros Online"
+    }
+  ],
+  "links": {
+    "migros_ch": {
+      "url": "https://www.migros.ch/en/product/107166300000?context=instore",
+      "name": "In-store assortment",
+      "canonical": "https://www.migros.ch/en/product/107166300000?context=instore",
+      "type": "info",
+      "purchasable": false
+    },
+    "migros_online": {
+      "url": "https://www.migros.ch/en/product/107166300000?context=online",
+      "mo_product_id": "9714",
+      "name": "Online-shop assortment",
+      "canonical": "https://www.migros.ch/en/product/107166300000?context=instore",
+      "type": "shop",
+      "purchasable": true,
+      "one_catalog_id": 100001192
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/107166300000",
+      "name": "Migipedia",
+      "canonical": "https://www.migros.ch/en/product/107166300000?context=instore",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "has_safety_sheet": false,
+  "m_check2": {},
+  "receipt_text": "Nescafé de Luxe 200g",
+  "package": {
+    "content": 200,
+    "content_unit_code": "g",
+    "content_unit": "Gram",
+    "net_weight": 0.2,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogram",
+    "type": "CU",
+    "portions_per_package": "1",
+    "brutto_weight": 0.676,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 1.358,
+    "brutto_volume_unit_code": "cdm",
+    "height": 18.8,
+    "length": 8.5,
+    "width": 8.5,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "200g"
+  },
+  "package_information": {
+    "tu": {
+      "gtins": [
+        "7613030051299",
+        "7613032923921",
+        "7613033125409",
+        "7613034814197",
+        "7613035909021"
+      ],
+      "brutto_weight": 4.25,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 10.521,
+      "brutto_volume_unit_code": "cdm",
+      "height": 18.7,
+      "length": 29,
+      "width": 19.4,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 6
+    },
+    "cu": {
+      "gtins": [
+        "7610100022302",
+        "7613035909014"
+      ],
+      "brutto_weight": 0.676,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 1.358,
+      "brutto_volume_unit_code": "cdm",
+      "height": 18.8,
+      "length": 8.5,
+      "width": 8.5,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "lu": {
+      "brutto_weight": 353,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 897.6,
+      "brutto_volume_unit_code": "cdm",
+      "height": 93.5,
+      "length": 120,
+      "width": 80,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 480
+    }
+  },
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "price": {
+    "valid_from": "2023-02-07T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 13.95,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "200g"
+    },
+    "base": {
+      "price": 6.98,
+      "quantity": 100,
+      "unit": "G"
+    }
+  },
+  "features": [
+    {
+      "label_code": "acxMISOinstant",
+      "label": "Instant",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Yes",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "ecxMISOCLAkaffeeersatzproduktegetraenkelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOstaerkebis",
+      "label": "Stärke (1-10)",
+      "values": [
+        {
+          "value_code": "NUMERIC_7",
+          "value": "7",
+          "numeric_value": 7
+        }
+      ],
+      "category_code": "ecxMISOCLAkaffeeersatzproduktegetraenkelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOintensitaet",
+      "label": "Intensität",
+      "values": [
+        {
+          "value_code": "erxMISOintensitaetausgewogen",
+          "value": "ausgewogen"
+        },
+        {
+          "value_code": "erxMISOintensitaetkraeftig",
+          "value": "kräftig"
+        }
+      ],
+      "category_code": "ecxMISOCLAkaffeeersatzproduktegetraenkelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOroestaromen",
+      "label": "Röstaromen",
+      "values": [
+        {
+          "value_code": "erxMISOroestaromenbrotkruste",
+          "value": "Brotkruste"
+        },
+        {
+          "value_code": "erxMISOroestaromentoast",
+          "value": "Toast"
+        }
+      ],
+      "category_code": "ecxMISOCLAkaffeeersatzproduktegetraenkelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOcugebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "erxMISOcugebindeartglastiegel",
+          "value": "Glastiegel"
+        }
+      ],
+      "category_code": "ecxMISOCLAkaffeeersatzproduktegetraenkelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOtassengroesse",
+      "label": "Tassengrösse",
+      "values": [
+        {
+          "value_code": "erxMISOtassengroesselungo",
+          "value": "Lungo"
+        },
+        {
+          "value_code": "erxMISOtassengroesselungo120ml",
+          "value": "Lungo (120ml)"
+        }
+      ],
+      "category_code": "ecxMISOCLAkaffeeersatzproduktegetraenkelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISObotanischesorte",
+      "label": "Botanische Sorte",
+      "values": [
+        {
+          "value_code": "erxMISObotanischesortearabica",
+          "value": "Arabica"
+        }
+      ],
+      "category_code": "ecxMISOCLAkaffeeersatzproduktegetraenkelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOsortedeskaffees",
+      "label": "Sorte des Kaffees",
+      "values": [
+        {
+          "value_code": "erxMISOsortedeskaffeesschwarzerkaffee",
+          "value": "schwarzer Kaffee"
+        }
+      ],
+      "category_code": "ecxMISOCLAkaffeeersatzproduktegetraenkelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOwiederverschliessbar",
+      "label": "Wiederverschliessbar",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Yes",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "ecxMISOCLAkaffeeersatzproduktegetraenkelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOzubereitungsverfahren",
+      "label": "Hinweise für die Zubereitung",
+      "values": [
+        {
+          "value_code": "erxMISOzubereitungsverfahrenheisseswasserhinzugeben",
+          "value": "heisses Wasser hinzugeben"
+        }
+      ],
+      "category_code": "ecxMISOCLAkaffeeersatzproduktegetraenkelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOformbeschaffenheitdeskaffees",
+      "label": "Form/Beschaffenheit des Kaffees",
+      "values": [
+        {
+          "value_code": "erxMISOformbeschaffenheitdeskaffeesgranulat",
+          "value": "Granulat"
+        }
+      ],
+      "category_code": "ecxMISOCLAkaffeeersatzproduktegetraenkelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOmoeglichevewendungsmengeintassen",
+      "label": "Mögliche Vewendungsmenge in Tassen",
+      "values": [
+        {
+          "value": "100"
+        }
+      ],
+      "category_code": "ecxMISOCLAkaffeeersatzproduktegetraenkelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/ac0096a3ed015cbc2bce99c305f0b4cc4723137d/nescafe-gold-de-luxe-glas-200g.jpg",
+    "stack": "https://image.migros.ch/{stack}/ac0096a3ed015cbc2bce99c305f0b4cc4723137d/nescafe-gold-de-luxe-glas-200g.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/f35cfba5eb18236144581c0e78ee2bd975dda5a6/nescafe-gold-de-luxe-glas-200g.png",
+    "stack": "https://image.migros.ch/{stack}/f35cfba5eb18236144581c0e78ee2bd975dda5a6/nescafe-gold-de-luxe-glas-200g.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_EXPORTABLE",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_EXPORTABLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Normalposition"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "HAWA"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "10385",
+          "value": "PURE INSTANT COFFEE"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LIFECYCLE",
+      "values": [
+        {
+          "value_code": "D",
+          "value": "Detailhandelsartikel"
+        }
+      ],
+      "category_code": "MAPI_LIFECYCLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_STORAGE_CONDITIONS",
+      "values": [
+        {
+          "value_code": "01",
+          "value": "normal"
+        }
+      ],
+      "category_code": "MAPI_STORAGE_CONDITIONS",
+      "top_fact": false
+    },
+    {
+      "label_code": "acxCommonarticlecocompensated",
+      "label": "Artikel Co2 kompensiert",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false
+    },
+    {
+      "label_code": "acxCommonmesswertcompensation",
+      "label": "CO2-Wert Kompensation",
+      "values": [
+        {
+          "value_code": "NUMERIC_19.813",
+          "value": "19.813",
+          "numeric_value": 19.813
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false,
+      "unit_code": "5d71456e-a520-4294-9ddb-add78f63ce83",
+      "unit": "Equivalence per kilogram",
+      "unit_symbol": "eq / kg"
+    },
+    {
+      "label_code": "acxCommonoutputmcheckclimatedeclaration",
+      "label": "Auslobung M-Check Klimadeklaration",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false
+    }
+  ],
+  "declarations": {
+    "declaration_number": "Q_4126190772520011",
+    "tags": [
+      "source-qim"
+    ],
+    "gtins": [
+      "7613035909014"
+    ],
+    "valid_from": "2023-04-05T00:00:00+0200",
+    "product_details": {
+      "regulated_description": "Soluble coffee with finely ground roasted coffee",
+      "product_description": "Enjoy Nescafé Gold De Luxe, incomparably creamy and aromatic (intensity 7). Aroma: We source our coffee responsibly by supporting coffee farmers to grow and produce high quality beans. Our Arabica beans are then roasted until they acquire their distinctive golden colour, which gives your coffee its incomparable aromatic personality and creaminess. Contents: Nescafé Gold De Luxe 200g, 100% instant coffee. Made from light roasted Arabicas and dark roasted Robusta. Our coffee beans are grown responsibly and according to sustainable agricultural methods. Storage: Thanks to an aroma-protecting lid, the screw-top glass preserves the taste and quality of the coffee right down to the last spoonful.",
+      "net_filled_quantity": {
+        "value": "200 g",
+        "numeric_value": 200,
+        "unit": "g"
+      },
+      "net_weight": {
+        "value": "200 Gramm",
+        "numeric_value": 200,
+        "unit": "Gramm"
+      }
+    },
+    "preparation": {
+      "information": "Add 2 tsp per cup, 150 ml hot (not boiling) water, stir and enjoy."
+    },
+    "distributor": {
+      "name": "Nestlé Suisse S.A.",
+      "address": "CP 2222, 1800 Vevey"
+    },
+    "general_information": [
+      {
+        "label": "Consumer storage instructions",
+        "values": [
+          "Store in a cool dry place."
+        ]
+      }
+    ],
+    "ingredients_information": {
+      "ingredients_text": "Ingredients: soluble coffee, ground roasted coffee (3%) .",
+      "additives_information": {
+        "declaration_obligatory": {
+          "code": "ATM",
+          "label": "Packaged under protective atmosphere"
+        }
+      },
+      "allergens_information": {
+        "allergens": [
+          {
+            "code": "ALLG_NA",
+            "label": "Does not contain any allergenic ingredients that require labelling",
+            "contamination_code": "VORHANDEN",
+            "contamination_label": "contains"
+          }
+        ]
+      }
+    }
+  },
+  "recipe_ingredient_ids": [
+    "14759"
+  ],
+  "regional_availability": {
+    "gmaa": {
+      "probability": 100
+    },
+    "gmbs": {
+      "probability": 98
+    },
+    "gmge": {
+      "probability": 87
+    },
+    "gmlu": {
+      "probability": 98
+    },
+    "gmnf": {
+      "probability": 100
+    },
+    "gmos": {
+      "probability": 97
+    },
+    "gmti": {
+      "probability": 16
+    },
+    "gmvd": {
+      "probability": 98
+    },
+    "gmvs": {
+      "probability": 100
+    },
+    "gmzh": {
+      "probability": 93
+    }
+  },
+  "ratings": {
+    "count_all": 19,
+    "average_all": 4.166666666667
+  },
+  "related_products": {
+    "purchase_recommendations": {
+      "product_ids": [
+        "107166400000"
+      ]
+    }
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "updated_at": "2023-08-17T11:46:13+0200",
+  "sap_created_at": "2010-07-22T19:00:00+0200",
+  "online_shop_relevant": false,
+  "base_unit": "CU",
+  "co2_compensation": {
+    "kg_co2": 19.813,
+    "kg_co2_compensation": 19.813,
+    "is_compensated": false,
+    "mcheck_enabled": false
+  },
+  "origins": {
+    "producing_country": "Switzerland"
+  },
+  "views": [
+    "all",
+    "browse",
+    "browseallretailers"
+  ]
+}

@@ -1,0 +1,755 @@
+{
+  "id": "130524500000",
+  "language": "en",
+  "name": "Meica Curryking",
+  "names": {
+    "short_name": "Meica Curryking"
+  },
+  "slug": "meica-curryking",
+  "slugs": {
+    "de": "meica-curryking-130524500000",
+    "fr": "meica-curryking-130524500000",
+    "it": "meica-curryking-130524500000",
+    "en": "meica-curryking"
+  },
+  "type": "00",
+  "boss_number": "020630202005",
+  "description": {
+    "text": "Curry King bringt die beliebtesten Fast Food Snacks nach Hause – als Currywurst, Frikadellen in Currysauce und Pulled Pork Snack. Eine unkomplizierte, schnell zubereitete Mahlzeit, fix und fertig mit Currypulver und Holzpiekser zum stilechten Geniessen.",
+    "source": "P4M"
+  },
+  "data_source": "SAP-X11",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "80"
+  },
+  "tags": [
+    "source-p4m",
+    "migipedia",
+    "migrolino-data",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "4000503830001",
+    "4000503280004"
+  ],
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarket"
+  },
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "brand": {
+    "id": "K70",
+    "name": "Meica",
+    "slug": "meica"
+  },
+  "categories": [
+    {
+      "code": "BeSS_0101130202",
+      "name": "Snacks",
+      "slug": "supermarkt/lebensmittel/fertiggerichte-menues-snacks/fertige-pizzen-menues-snacks/snacks",
+      "visible": true,
+      "parent_code": "BeSS_01011302",
+      "level": 5
+    },
+    {
+      "code": "BeSS_01011302",
+      "name": "Fertige Pizzen, Menüs & Snacks",
+      "slug": "supermarkt/lebensmittel/fertiggerichte-menues-snacks/fertige-pizzen-menues-snacks",
+      "visible": true,
+      "title": "Feine Fertiggerichte aus Ihrer Migros!",
+      "parent_code": "BeSS_010113",
+      "image": {
+        "original": "https://image.migros.ch/original/42e5bb4c89bb5c242b19cb892a15a11af19d4964/fertige-pizzen-menues-snacks.jpg",
+        "stack": "https://image.migros.ch/{stack}/42e5bb4c89bb5c242b19cb892a15a11af19d4964/fertige-pizzen-menues-snacks.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010113",
+      "name": "Fertiggerichte, Menüs & Snacks",
+      "slug": "supermarkt/lebensmittel/fertiggerichte-menues-snacks",
+      "visible": true,
+      "title": "Fertige Pizzen, Menüs und Snacks &ndash; schnell und lecker von der Migros",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/6770b6c8fbbd2689aece359ffeda93b90c58dd09/fertiggerichte-menues-snacks.jpg",
+        "stack": "https://image.migros.ch/{stack}/6770b6c8fbbd2689aece359ffeda93b90c58dd09/fertiggerichte-menues-snacks.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/31702195ec9d38aecefe80349eb347f79d56c750/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/31702195ec9d38aecefe80349eb347f79d56c750/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "online_relevant": [
+    {
+      "code": "MGB",
+      "name": "Migros Genossenschafts-Bund"
+    },
+    {
+      "code": "MO",
+      "name": "Migros Online"
+    }
+  ],
+  "links": {
+    "migros_ch": {
+      "url": "https://www.migros.ch/en/product/130524500000?context=instore",
+      "name": "In-store assortment",
+      "canonical": "https://www.migros.ch/en/product/130524500000?context=instore",
+      "type": "info",
+      "purchasable": false
+    },
+    "migros_online": {
+      "url": "https://www.migros.ch/en/product/130524500000?context=online",
+      "mo_product_id": "130391",
+      "name": "Online-shop assortment",
+      "canonical": "https://www.migros.ch/en/product/130524500000?context=instore",
+      "type": "shop",
+      "purchasable": true,
+      "one_catalog_id": 100024980
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/130524500000",
+      "name": "Migipedia",
+      "canonical": "https://www.migros.ch/en/product/130524500000?context=instore",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "has_safety_sheet": false,
+  "m_check2": {},
+  "receipt_text": "Meica Curryking",
+  "package": {
+    "content": 220,
+    "content_unit_code": "g",
+    "content_unit": "Gram",
+    "net_weight": 0.22,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogram",
+    "type": "CU",
+    "portions_per_package": "1",
+    "brutto_weight": 0.24,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 0.71,
+    "brutto_volume_unit_code": "cdm",
+    "height": 11.6,
+    "length": 3.6,
+    "width": 17,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "220g"
+  },
+  "package_information": {
+    "tu": {
+      "gtins": [
+        "7641079002781"
+      ],
+      "brutto_weight": 0.48,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 15.96,
+      "brutto_volume_unit_code": "cdm",
+      "height": 13.3,
+      "length": 40,
+      "width": 30,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 2
+    },
+    "cu": {
+      "gtins": [
+        "4000503280004",
+        "4000503830001"
+      ],
+      "brutto_weight": 0.24,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.71,
+      "brutto_volume_unit_code": "cdm",
+      "height": 11.6,
+      "length": 3.6,
+      "width": 17,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    }
+  },
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "price": {
+    "valid_from": "2022-08-02T00:00:00+0200",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 4.95,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "220g"
+    },
+    "base": {
+      "price": 2.25,
+      "quantity": 100,
+      "unit": "G"
+    }
+  },
+  "features": [
+    {
+      "label_code": "acxMISOcugebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "erxMISOcugebindeartkunststoffverpackung",
+          "value": "Kunststoff-Verpackung"
+        }
+      ],
+      "category_code": "ecxMISOCLAwuerstefleischgefluegelsonstigetierebearbeitetverarbeitetfleischgefluegelsonstigetierelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOproduktionsanspruch",
+      "label": "Produktionsverfahren",
+      "values": [
+        {
+          "value_code": "erxMISOproduktionsanspruchfreivongeschmacksverstaerkendenzusatzstoffengesetz",
+          "value": "Frei von geschmacksverstärkenden Zusatzstoffen laut Gesetz"
+        }
+      ],
+      "category_code": "ecxMISOCLAwuerstefleischgefluegelsonstigetierebearbeitetverarbeitetfleischgefluegelsonstigetierelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOzubereitungsverfahren",
+      "label": "Hinweise für die Zubereitung",
+      "values": [
+        {
+          "value_code": "erxMISOzubereitungsverfahrenindermikrowelleerhitzen",
+          "value": "in der Mikrowelle erhitzen"
+        },
+        {
+          "value_code": "erxMISOzubereitungsverfahrenwasserbad",
+          "value": "Wasserbad"
+        }
+      ],
+      "category_code": "ecxMISOCLAwuerstefleischgefluegelsonstigetierebearbeitetverarbeitetfleischgefluegelsonstigetierelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/e3054d1f95d3132a4adce7feee068d20356d811e/meica-curryking.jpg",
+    "stack": "https://image.migros.ch/{stack}/e3054d1f95d3132a4adce7feee068d20356d811e/meica-curryking.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/1b2312d10938b10a3dc8c575ddcc4b9823a5725f/meica-curryking.png",
+    "stack": "https://image.migros.ch/{stack}/1b2312d10938b10a3dc8c575ddcc4b9823a5725f/meica-curryking.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_EXPORTABLE",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_EXPORTABLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Normalposition"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZFRP",
+          "value": "Frische Beschaffung"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "ZFRP"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "71180",
+          "value": "SNACKS / APERO"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "7",
+          "value": "Convenience"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LIFECYCLE",
+      "values": [
+        {
+          "value_code": "D",
+          "value": "Detailhandelsartikel"
+        }
+      ],
+      "category_code": "MAPI_LIFECYCLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_STORAGE_CONDITIONS",
+      "values": [
+        {
+          "value_code": "02",
+          "value": "gekühlt"
+        }
+      ],
+      "category_code": "MAPI_STORAGE_CONDITIONS",
+      "top_fact": false
+    },
+    {
+      "label_code": "acxCommonarticlecocompensated",
+      "label": "Artikel Co2 kompensiert",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false
+    },
+    {
+      "label_code": "acxCommonmesswertcompensation",
+      "label": "CO2-Wert Kompensation",
+      "values": [
+        {
+          "value_code": "NUMERIC_7.653",
+          "value": "7.653",
+          "numeric_value": 7.653
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false,
+      "unit_code": "5d71456e-a520-4294-9ddb-add78f63ce83",
+      "unit": "Equivalence per kilogram",
+      "unit_symbol": "eq / kg"
+    },
+    {
+      "label_code": "acxCommonoutputmcheckclimatedeclaration",
+      "label": "Auslobung M-Check Klimadeklaration",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false
+    }
+  ],
+  "declarations": {
+    "declaration_number": "Q_1604593688185939",
+    "tags": [
+      "source-qim"
+    ],
+    "gtins": [
+      "4000503830001"
+    ],
+    "valid_from": "2020-06-25T23:59:00+0200",
+    "product_details": {
+      "net_filled_quantity": {
+        "value": "220 g",
+        "numeric_value": 220,
+        "unit": "g"
+      },
+      "net_weight": {
+        "value": "220 Gramm",
+        "numeric_value": 220,
+        "unit": "Gramm"
+      }
+    },
+    "distributor": {
+      "name": "FFF Fresh & Frozen Food AG",
+      "address": "Industriestrasse 32, CH-5210 Wohlen"
+    },
+    "general_information": [
+      {
+        "label": "Percentage of alcohol by volume [%]",
+        "values": [
+          "0"
+        ]
+      }
+    ],
+    "ingredients_information": {
+      "allergens_information": {
+        "trace_allergens_text": "May contain: Milk, Mustard",
+        "allergens": [
+          {
+            "code": "ALLG_SELLERI",
+            "label": "Celery and its derivatives",
+            "contamination_code": "VORHANDEN",
+            "contamination_label": "contains"
+          }
+        ]
+      }
+    },
+    "nutrition_facts": {
+      "reference_sizes": {
+        "standard": {
+          "base": {
+            "quantity": {
+              "value": "100 g",
+              "numeric_value": 100,
+              "unit": "g"
+            }
+          },
+          "nutrients": [
+            {
+              "code": "NUT_ENERGY",
+              "name": "Energy",
+              "operator": "~",
+              "pictogram_name": "Energy",
+              "category": "BIG9",
+              "quantity": {
+                "value": "895 kJ",
+                "numeric_value": 895,
+                "unit": "kJ",
+                "alternate": {
+                  "value": "215 kcal",
+                  "numeric_value": 215,
+                  "unit": "kcal"
+                }
+              }
+            },
+            {
+              "code": "NUT_FAT",
+              "name": "Fat",
+              "operator": "~",
+              "pictogram_name": "Fat",
+              "category": "BIG9",
+              "quantity": {
+                "value": "15 g",
+                "numeric_value": 15,
+                "unit": "g"
+              },
+              "rating": {
+                "value": 1,
+                "text": "medium",
+                "icon": {
+                  "original": "https://image.migros.ch/original/b84b389195e426a9e6b4cd66f2c79b1a049809da.svg",
+                  "stack": "https://image.migros.ch/{stack}/b84b389195e426a9e6b4cd66f2c79b1a049809da.svg"
+                },
+                "hex_color": "#e8a800"
+              }
+            },
+            {
+              "code": "NUT_SATURATED_FATTY_ACIDS",
+              "name": "of which saturates",
+              "operator": "~",
+              "pictogram_name": "saturated fatty acids",
+              "category": "BIG9",
+              "quantity": {
+                "value": "5.5 g",
+                "numeric_value": 5.5,
+                "unit": "g"
+              },
+              "rating": {
+                "value": 2,
+                "text": "high",
+                "icon": {
+                  "original": "https://image.migros.ch/original/9aa833abc7cb7207238c3e98a1253eeb7bceee1f.svg",
+                  "stack": "https://image.migros.ch/{stack}/9aa833abc7cb7207238c3e98a1253eeb7bceee1f.svg"
+                },
+                "hex_color": "#cc0000"
+              }
+            },
+            {
+              "code": "NUT_CARBOHYDRATES",
+              "name": "Carbohydrate",
+              "operator": "~",
+              "category": "BIG9",
+              "quantity": {
+                "value": "12 g",
+                "numeric_value": 12,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_SUGAR",
+              "name": "of which sugars",
+              "operator": "~",
+              "pictogram_name": "Sugar",
+              "category": "BIG9",
+              "quantity": {
+                "value": "12 g",
+                "numeric_value": 12,
+                "unit": "g"
+              },
+              "rating": {
+                "value": 1,
+                "text": "medium",
+                "icon": {
+                  "original": "https://image.migros.ch/original/b84b389195e426a9e6b4cd66f2c79b1a049809da.svg",
+                  "stack": "https://image.migros.ch/{stack}/b84b389195e426a9e6b4cd66f2c79b1a049809da.svg"
+                },
+                "hex_color": "#e8a800"
+              }
+            },
+            {
+              "code": "NUT_FIBER",
+              "name": "Fibre",
+              "operator": "~",
+              "category": "BIG9",
+              "quantity": {
+                "value": "1 g",
+                "numeric_value": 1,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_PROTEIN",
+              "name": "Protein",
+              "operator": "~",
+              "category": "BIG9",
+              "quantity": {
+                "value": "8 g",
+                "numeric_value": 8,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_SALT",
+              "name": "Salt",
+              "operator": "~",
+              "pictogram_name": "Salt",
+              "category": "BIG9",
+              "quantity": {
+                "value": "1.6 g",
+                "numeric_value": 1.6,
+                "unit": "g"
+              },
+              "rating": {
+                "value": 2,
+                "text": "high",
+                "icon": {
+                  "original": "https://image.migros.ch/original/9aa833abc7cb7207238c3e98a1253eeb7bceee1f.svg",
+                  "stack": "https://image.migros.ch/{stack}/9aa833abc7cb7207238c3e98a1253eeb7bceee1f.svg"
+                },
+                "hex_color": "#cc0000"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "recipe_ingredient_ids": [
+    "10000"
+  ],
+  "regional_availability": {
+    "gmaa": {
+      "probability": 85
+    },
+    "gmbs": {
+      "probability": 71
+    },
+    "gmge": {
+      "probability": 0
+    },
+    "gmlu": {
+      "probability": 71
+    },
+    "gmnf": {
+      "probability": 0
+    },
+    "gmos": {
+      "probability": 54
+    },
+    "gmti": {
+      "probability": 0
+    },
+    "gmvd": {
+      "probability": 0
+    },
+    "gmvs": {
+      "probability": 0
+    },
+    "gmzh": {
+      "probability": 79
+    }
+  },
+  "ratings": {
+    "count_all": 43,
+    "average_all": 3.21875
+  },
+  "related_products": {
+    "purchase_recommendations": {
+      "product_ids": [
+        "130524900000",
+        "130524800000",
+        "130525500000",
+        "130528100000"
+      ]
+    }
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "updated_at": "2023-08-17T11:50:27+0200",
+  "sap_created_at": "2008-08-17T19:00:00+0200",
+  "online_shop_relevant": false,
+  "base_unit": "CU",
+  "co2_compensation": {
+    "kg_co2": 7.653,
+    "kg_co2_compensation": 7.653,
+    "is_compensated": false,
+    "mcheck_enabled": false
+  },
+  "origins": {
+    "producing_country": "Germany"
+  },
+  "views": [
+    "all",
+    "browse",
+    "browseallretailers"
+  ]
+}

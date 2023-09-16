@@ -1,0 +1,547 @@
+{
+  "id": "702312100020",
+  "language": "en",
+  "name": "AL BIALETTI 9 TASSEN SCHWARZ MOKA EXP.",
+  "names": {
+    "short_name": "AL BIALETTI 9 TASSEN SCHWARZ MOKA EXP."
+  },
+  "slug": "al-bialetti-9-tassen-schwarz-moka-exp-schwarz",
+  "slugs": {
+    "de": "kaffeemaschine-schwarz-702312100020",
+    "fr": "machine-a-cafe-noir-702312100020",
+    "it": "macchina-caffe-nero-702312100020",
+    "en": "al-bialetti-9-tassen-schwarz-moka-exp-schwarz"
+  },
+  "type": "02",
+  "boss_number": "150410681505",
+  "description": {
+    "text": "Für 9 Tasse",
+    "source": "PEX"
+  },
+  "data_source": "SAP-X12",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03",
+    "distribution_center": [
+      {
+        "center_id": "1001",
+        "center_name": "Migros Verteilzentrum Neuendorf",
+        "status_code": "06",
+        "status_description": "marked for deletion"
+      }
+    ]
+  },
+  "tags": [
+    "source-pex",
+    "near-non-food",
+    "migipedia",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": true,
+  "base_product_id": "702312100000",
+  "gtins": [
+    "7613294300362"
+  ],
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarket"
+  },
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "brand": {
+    "id": "J83",
+    "name": "Bialetti",
+    "slug": "bialetti",
+    "image": {
+      "original": "https://image.migros.ch/original/97f32e7a58c8962521f1084932608faef6742c11/bialetti.jpg",
+      "stack": "https://image.migros.ch/{stack}/97f32e7a58c8962521f1084932608faef6742c11/bialetti.jpg"
+    }
+  },
+  "categories": [
+    {
+      "code": "BeSS_01040913",
+      "name": "Küchenhelfer",
+      "slug": "supermarkt/haushalt-reinigung/kueche/kuechenhelfer",
+      "visible": true,
+      "parent_code": "BeSS_010409",
+      "image": {
+        "original": "https://image.migros.ch/original/cfc453ec893d5f184af86172c54c9573c1f8506a/kuechenhelfer.jpg",
+        "stack": "https://image.migros.ch/{stack}/cfc453ec893d5f184af86172c54c9573c1f8506a/kuechenhelfer.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010409",
+      "name": "Küche",
+      "slug": "supermarkt/haushalt-reinigung/kueche",
+      "visible": true,
+      "title": "Artikel für die Küche aus Ihrer Migros – gut & günstig!",
+      "parent_code": "BeSS_0104",
+      "image": {
+        "original": "https://image.migros.ch/original/348db2a4f0a106c51fead471f0e04513c18d7249/kueche.jpg",
+        "stack": "https://image.migros.ch/{stack}/348db2a4f0a106c51fead471f0e04513c18d7249/kueche.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0104",
+      "name": "Haushalt & Reinigung",
+      "slug": "supermarkt/haushalt-reinigung",
+      "visible": true,
+      "title": "Reinigung mit der Migros – Reiniger für Haushalt und Garten",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png",
+        "stack": "https://image.migros.ch/{stack}/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "online_relevant": [
+    {
+      "code": "MGB",
+      "name": "Migros Genossenschafts-Bund"
+    }
+  ],
+  "links": {
+    "migros_ch": {
+      "url": "https://www.migros.ch/en/product/702312100020?context=instore",
+      "name": "In-store assortment",
+      "canonical": "https://www.migros.ch/en/product/702312100020?context=instore",
+      "type": "info",
+      "purchasable": false
+    },
+    "mservice": {
+      "url": "https://www.migros-service.ch/de/p/70231210002012/bialetti-kaffeemaschine",
+      "name": "Migros-Service",
+      "canonical": "https://www.migros.ch/en/product/702312100020?context=instore",
+      "type": "shop",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/702312100020",
+      "name": "Migipedia",
+      "canonical": "https://www.migros.ch/en/product/702312100020?context=instore",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "receipt_text": "Bialetti Moka Express",
+  "package": {
+    "content": 1,
+    "content_unit_code": "st",
+    "content_unit": "Stück",
+    "brutto_weight": 0.9,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 5.293,
+    "brutto_volume_unit_code": "cdm",
+    "height": 25.5,
+    "length": 12,
+    "width": 19.8,
+    "unit_dimension": "cm",
+    "price_comparison_content": 1,
+    "size": "1 Stk."
+  },
+  "package_information": {
+    "cu": {
+      "gtins": [
+        "7613294300362"
+      ],
+      "brutto_weight": 0.9,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 5.293,
+      "brutto_volume_unit_code": "cdm",
+      "height": 25.5,
+      "length": 12,
+      "width": 19.8,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "tuv": {
+      "brutto_weight": 3.6,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 27.675,
+      "brutto_volume_unit_code": "cdm",
+      "height": 27,
+      "length": 41,
+      "width": 25,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 4
+    },
+    "tue": {
+      "number_of_base_units": 4
+    },
+    "lu": {
+      "number_of_base_units": 144
+    },
+    "lge": {
+      "number_of_base_units": 24
+    }
+  },
+  "vat": {
+    "id": 1,
+    "percentage": 7.7
+  },
+  "price": {
+    "valid_from": "2018-08-15T00:00:00+0200",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 49.95,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "1 Stk."
+    },
+    "base": {
+      "price": 49.95,
+      "quantity": 1,
+      "unit": "st"
+    }
+  },
+  "attributes": {
+    "color": {
+      "code": "FH03-20",
+      "name": "Farbe",
+      "value": "Schwarz",
+      "hex_color": "#000000"
+    }
+  },
+  "image": {
+    "original": "https://image.migros.ch/original/55fa291be93c2e2f7e0510b358ccf8f8fb89c5e0/al-bialetti-9-tassen-schwarz-moka-exp.jpg",
+    "stack": "https://image.migros.ch/{stack}/55fa291be93c2e2f7e0510b358ccf8f8fb89c5e0/al-bialetti-9-tassen-schwarz-moka-exp.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/1f9d1ffc96a6a6477368d766c175956604432dea/al-bialetti-9-tassen-schwarz-moka-exp.png",
+    "stack": "https://image.migros.ch/{stack}/1f9d1ffc96a6a6477368d766c175956604432dea/al-bialetti-9-tassen-schwarz-moka-exp.png"
+  },
+  "additional_images": [
+    {
+      "original": "https://image.migros.ch/original/7d725478f4b3aeb49c38b3467dba0bf050eb0819.jpg",
+      "stack": "https://image.migros.ch/{stack}/7d725478f4b3aeb49c38b3467dba0bf050eb0819.jpg"
+    }
+  ],
+  "internal_features": [
+    {
+      "label_code": "MAPI_RETURNABLE",
+      "label": "Return",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "true",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MAPI_RETURNABLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_MAX_ORDER_QUANTITY",
+      "values": [
+        {
+          "value_code": "NUMERIC_22222222",
+          "value": "22222222",
+          "numeric_value": 22222222
+        }
+      ],
+      "category_code": "MAPI_MAX_ORDER_QUANTITY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_EXCLUDE_FROM_COMPARISON_ENGINES",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "false",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_EXCLUDE_FROM_COMPARISON_ENGINES",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+      "values": [
+        {
+          "value_code": "55",
+          "value": "Versandart Paket"
+        }
+      ],
+      "category_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LOGISTIC_CLASS",
+      "values": [
+        {
+          "value_code": "1",
+          "value": "Lager"
+        }
+      ],
+      "category_code": "MAPI_LOGISTIC_CLASS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Standard item"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "HART"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RISK_CLASS",
+      "values": [
+        {
+          "value_code": "1",
+          "value": "1 (high)"
+        }
+      ],
+      "category_code": "MAPI_RISK_CLASS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_QUALITY_CHECK",
+      "values": [
+        {
+          "value_code": "00",
+          "value": "No Quality Control"
+        }
+      ],
+      "category_code": "MAPI_QUALITY_CHECK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_KUBE_TUKA",
+      "values": [
+        {
+          "value_code": "BLANK",
+          "value": "KUBE und TUKA nicht zugelassen"
+        }
+      ],
+      "category_code": "MAPI_KUBE_TUKA",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HART",
+          "value": "Hartwaren Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "H",
+          "value": "Hartwaren"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "61117",
+          "value": "KAFFEE"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_EXPORTABLE",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_EXPORTABLE",
+      "top_fact": false
+    }
+  ],
+  "recipe_ingredient_ids": [
+    "10000"
+  ],
+  "regional_availability": {
+    "gmaa": {
+      "probability": 7
+    },
+    "gmbs": {
+      "probability": 38
+    },
+    "gmge": {
+      "probability": 13
+    },
+    "gmlu": {
+      "probability": 20
+    },
+    "gmnf": {
+      "probability": 6
+    },
+    "gmos": {
+      "probability": 18
+    },
+    "gmti": {
+      "probability": 3
+    },
+    "gmvd": {
+      "probability": 25
+    },
+    "gmvs": {
+      "probability": 33
+    },
+    "gmzh": {
+      "probability": 5
+    }
+  },
+  "colors": [
+    {
+      "label": "Schwarz",
+      "hex": "#000000",
+      "group": "Schwarz",
+      "group_hex": "#000000"
+    },
+    {
+      "label": "Schwarz",
+      "hex": "#000000",
+      "group": "Schwarz",
+      "group_hex": "#000000"
+    }
+  ],
+  "ratings": {
+    "count_all": 13,
+    "average_all": 4.230769230769
+  },
+  "quantity_on_stock": 4932,
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "updated_at": "2023-08-17T07:43:37+0200",
+  "sap_created_at": "2012-06-07T00:00:00+0200",
+  "online_shop_relevant": true,
+  "base_unit": "CU",
+  "origins": {
+    "producing_country": "Italy"
+  },
+  "views": [
+    "all",
+    "browse",
+    "browseallretailers"
+  ]
+}

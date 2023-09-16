@@ -1,0 +1,765 @@
+{
+  "id": "746112300000",
+  "language": "en",
+  "name": "PLAY-DOH KNETWERT (60 JAHRE PLAY-DOH)",
+  "names": {
+    "short_name": "PLAY-DOH KNETWERT (60 JAHRE PLAY-DOH)"
+  },
+  "slug": "play-doh-knetwert-60-jahre-play-doh",
+  "slugs": {
+    "de": "60-jahre-knetwerk",
+    "fr": "60-ans-le-serpentin",
+    "it": "60-ans-le-serpentin",
+    "en": "play-doh-knetwert-60-jahre-play-doh"
+  },
+  "type": "00",
+  "product_type": "Modelieren",
+  "boss_number": "130861350505",
+  "description": {
+    "text": "Das Play-Doh Knetwerk: Dieser bekannte und beliebte Klassiker enthält 2 Dosen Play-Doh Knete für kunstvolle Knetkreationen.",
+    "source": "PEX"
+  },
+  "data_source": "SAP-X12",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03",
+    "distribution_center": [
+      {
+        "center_id": "1001",
+        "center_name": "Migros Verteilzentrum Neuendorf",
+        "status_code": "03",
+        "status_description": "active"
+      }
+    ]
+  },
+  "tags": [
+    "source-pex",
+    "migipedia",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "5010994952334"
+  ],
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarket"
+  },
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": true,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": true,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": true,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": true,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": [
+        "P3"
+      ]
+    },
+    "micasa": {
+      "orderable": true,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": true,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "brand": {
+    "id": "MHK",
+    "name": "Play-Doh",
+    "slug": "play-doh",
+    "image": {
+      "original": "https://image.migros.ch/original/fe8a67acbeebfb3cfe214cc00f08ab3a73a2ee8b/play-doh.jpg",
+      "stack": "https://image.migros.ch/{stack}/fe8a67acbeebfb3cfe214cc00f08ab3a73a2ee8b/play-doh.jpg"
+    }
+  },
+  "categories": [
+    {
+      "code": "BeSS_01071211",
+      "name": "Sonstige Spielwaren",
+      "slug": "supermarkt/baby-kinder/spielwaren/sonstige-spielwaren",
+      "visible": true,
+      "parent_code": "BeSS_010712",
+      "image": {
+        "original": "https://image.migros.ch/original/5f66a379684e580c7373e5f5f3880cd866cd1baa/sonstige-spielwaren.jpg",
+        "stack": "https://image.migros.ch/{stack}/5f66a379684e580c7373e5f5f3880cd866cd1baa/sonstige-spielwaren.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010712",
+      "name": "Spielwaren",
+      "slug": "supermarkt/baby-kinder/spielwaren",
+      "visible": true,
+      "title": "Daran haben Kinder Freude: Spielwaren aus der Migros",
+      "parent_code": "BeSS_0107",
+      "image": {
+        "original": "https://image.migros.ch/original/44a2aeebd38216c32a1d9bbfc94664e575d085c1/spielwaren.jpg",
+        "stack": "https://image.migros.ch/{stack}/44a2aeebd38216c32a1d9bbfc94664e575d085c1/spielwaren.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0107",
+      "name": "Baby & Kinder",
+      "slug": "supermarkt/baby-kinder",
+      "visible": true,
+      "title": "Babyartikel: Alles rund ums Baby in Ihrer Migros kaufen",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/dc6e5e45f414e657061e049a69de80177f40ca98/baby-kinder.jpg",
+        "stack": "https://image.migros.ch/{stack}/dc6e5e45f414e657061e049a69de80177f40ca98/baby-kinder.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "MEL_SHOP_CAT_BastelnMalenKreativ_Spielwaren_GamingSpielwaren",
+        "name": "Basteln, Malen & Kreativ",
+        "slug": "melectronics/gaming-spielwaren/spielwaren/basteln-malen-kreativ",
+        "visible": true,
+        "parent_code": "MEL_SHOP_CAT_Spielwaren_GamingSpielwaren",
+        "level": 4
+      },
+      {
+        "code": "MEL_SHOP_CAT_Spielwaren_GamingSpielwaren",
+        "name": "Spielwaren",
+        "slug": "melectronics/gaming-spielwaren/spielwaren",
+        "visible": true,
+        "parent_code": "MEL_SHOP_CAT_GamingSpielwaren",
+        "level": 3
+      },
+      {
+        "code": "MEL_SHOP_CAT_GamingSpielwaren",
+        "name": "Gaming & Spielwaren",
+        "slug": "melectronics/gaming-spielwaren",
+        "visible": true,
+        "parent_code": "BeSS_04",
+        "level": 2
+      },
+      {
+        "code": "BeSS_04",
+        "name": "melectronics",
+        "slug": "melectronics",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "online_relevant": [
+    {
+      "code": "MGB",
+      "name": "Migros Genossenschafts-Bund"
+    }
+  ],
+  "links": {
+    "migros_ch": {
+      "url": "https://www.migros.ch/en/product/746112300000?context=instore",
+      "name": "In-store assortment",
+      "canonical": "https://www.migros.ch/en/product/746112300000?context=instore",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/746112300000",
+      "name": "Migipedia",
+      "canonical": "https://www.migros.ch/en/product/746112300000?context=instore",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "warranty_months": 24,
+  "receipt_text": "Play-Doh Knetwerk",
+  "package": {
+    "content": 1,
+    "content_unit_code": "st",
+    "content_unit": "Stück",
+    "brutto_weight": 0.451,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 0.598,
+    "brutto_volume_unit_code": "cdm",
+    "height": 15.9,
+    "length": 7.9,
+    "width": 19.1,
+    "unit_dimension": "cm",
+    "price_comparison_content": 1,
+    "size": "1 Stk."
+  },
+  "package_information": {
+    "cu": {
+      "gtins": [
+        "5010994952334"
+      ],
+      "brutto_weight": 0.451,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.598,
+      "brutto_volume_unit_code": "cdm",
+      "height": 15.9,
+      "length": 7.9,
+      "width": 19.1,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "tuv": {
+      "brutto_weight": 1.52,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 8.5,
+      "brutto_volume_unit_code": "cdm",
+      "height": 20,
+      "length": 25,
+      "width": 17,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 3
+    },
+    "tue": {
+      "number_of_base_units": 3
+    },
+    "lu": {
+      "number_of_base_units": 114
+    },
+    "lge": {
+      "number_of_base_units": 57
+    }
+  },
+  "vat": {
+    "id": 1,
+    "percentage": 7.7
+  },
+  "price": {
+    "valid_from": "2018-02-05T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 11.9,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "1 Stk."
+    },
+    "base": {
+      "price": 11.9,
+      "quantity": 1,
+      "unit": "st"
+    }
+  },
+  "features": [
+    {
+      "label_code": "mel_spielwaren_kategorie",
+      "label": "Themenwelt",
+      "values": [
+        {
+          "value_code": "MEL_spielwaren_kategorie_kneten",
+          "value": "Kneten"
+        }
+      ],
+      "category_code": "MEL_CLA_BastelnMalenKreativ_Spielwaren_Alle",
+      "top_fact": true,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "mel_spielwaren_warnhinweis",
+      "label": "Warnhinweis",
+      "values": [
+        {
+          "value_code": "MEL_spielwaren_hinweis_nicht_geeignet_fuer_kinder_unter_3_jahren",
+          "value": "Nicht geeignet für Kinder unter 3 Jahren"
+        }
+      ],
+      "category_code": "MEL_CLA_Spielwaren_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "mel_alter_von_j",
+      "label": "Alter ab (Jahren)",
+      "values": [
+        {
+          "value_code": "NUMERIC_3",
+          "value": "3",
+          "numeric_value": 3
+        }
+      ],
+      "category_code": "MEL_CLA_Spielwaren_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "mel_spielwaren_lizenz",
+      "label": "Lizenz",
+      "values": [
+        {
+          "value_code": "MEL_spielwaren_lizenz_PlayDoh",
+          "value": "Play Doh"
+        }
+      ],
+      "category_code": "MEL_CLA_Spielwaren_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "mel_länge",
+      "label": "Länge",
+      "values": [
+        {
+          "value_code": "NUMERIC_7.9",
+          "value": "7.9 cm",
+          "numeric_value": 7.9
+        }
+      ],
+      "category_code": "MEL_CLA_Spielwaren_Alle",
+      "top_fact": false,
+      "unit_code": "cm",
+      "unit": "Zentimeter",
+      "unit_symbol": "cm",
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "mel_breite",
+      "label": "Breite",
+      "values": [
+        {
+          "value_code": "NUMERIC_1.9",
+          "value": "1.9 cm",
+          "numeric_value": 1.9
+        }
+      ],
+      "category_code": "MEL_CLA_Alle",
+      "top_fact": false,
+      "unit_code": "cm",
+      "unit": "Zentimeter",
+      "unit_symbol": "cm",
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "mel_hoehe",
+      "label": "Höhe",
+      "values": [
+        {
+          "value_code": "NUMERIC_1.6",
+          "value": "1.6 cm",
+          "numeric_value": 1.6
+        }
+      ],
+      "category_code": "MEL_CLA_Alle",
+      "top_fact": false,
+      "unit_code": "cm",
+      "unit": "Zentimeter",
+      "unit_symbol": "cm",
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "mel_farbe",
+      "label": "Farbe",
+      "values": [
+        {
+          "value": "Mehrfarbig"
+        }
+      ],
+      "category_code": "MEL_CLA_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "mel_primaerfarbe",
+      "label": "Primärfarbe",
+      "values": [
+        {
+          "value_code": "MEL_primaerfarbe_schwarz",
+          "value": "Schwarz"
+        }
+      ],
+      "category_code": "MEL_CLA_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "mel_m-garantie_m-garantie",
+      "label": "M-Garantie",
+      "values": [
+        {
+          "value_code": "MEL_M-Garantie_2Jahre",
+          "value": "2 Jahre"
+        }
+      ],
+      "category_code": "MEL_CLA_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "mel_mpn",
+      "label": "MPN - Hersteller Artikelnummer",
+      "values": [
+        {
+          "value": "B5554EU4"
+        }
+      ],
+      "category_code": "MEL_CLA_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/f378743cb83d867ae1a8b04fd697db464a99bc33/play-doh-knetwert-60-jahre-play-doh.jpg",
+    "stack": "https://image.migros.ch/{stack}/f378743cb83d867ae1a8b04fd697db464a99bc33/play-doh-knetwert-60-jahre-play-doh.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/bb9984accf261baa2352d9649afac17671ce2358/play-doh-knetwert-60-jahre-play-doh.png",
+    "stack": "https://image.migros.ch/{stack}/bb9984accf261baa2352d9649afac17671ce2358/play-doh-knetwert-60-jahre-play-doh.png"
+  },
+  "additional_images": [
+    {
+      "original": "https://image.migros.ch/original/b1d553a14c415c66cb5a80da02d57f6ed90ccf11.jpg",
+      "stack": "https://image.migros.ch/{stack}/b1d553a14c415c66cb5a80da02d57f6ed90ccf11.jpg"
+    }
+  ],
+  "internal_features": [
+    {
+      "label_code": "mel_alltronproductid",
+      "label": "Alltron Product ID",
+      "values": [
+        {
+          "value": "479513"
+        }
+      ],
+      "category_code": "MEL_CLA_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "MAPI_RETURNABLE",
+      "label": "Return",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "true",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MAPI_RETURNABLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_MAX_ORDER_QUANTITY",
+      "values": [
+        {
+          "value_code": "NUMERIC_3",
+          "value": "3",
+          "numeric_value": 3
+        }
+      ],
+      "category_code": "MAPI_MAX_ORDER_QUANTITY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_EXCLUDE_FROM_COMPARISON_ENGINES",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "false",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_EXCLUDE_FROM_COMPARISON_ENGINES",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+      "values": [
+        {
+          "value_code": "55",
+          "value": "Versandart Paket"
+        }
+      ],
+      "category_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LOGISTIC_CLASS",
+      "values": [
+        {
+          "value_code": "7",
+          "value": "VMI"
+        }
+      ],
+      "category_code": "MAPI_LOGISTIC_CLASS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Standard item"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "HART"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRESENTATION",
+      "values": [
+        {
+          "value_code": "L",
+          "value": "liegend"
+        }
+      ],
+      "category_code": "MAPI_PRESENTATION",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RISK_CLASS",
+      "values": [
+        {
+          "value_code": "2",
+          "value": "2 (medium)"
+        }
+      ],
+      "category_code": "MAPI_RISK_CLASS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_QUALITY_CHECK",
+      "values": [
+        {
+          "value_code": "00",
+          "value": "No Quality Control"
+        }
+      ],
+      "category_code": "MAPI_QUALITY_CHECK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_KUBE_TUKA",
+      "values": [
+        {
+          "value_code": "BLANK",
+          "value": "KUBE und TUKA nicht zugelassen"
+        }
+      ],
+      "category_code": "MAPI_KUBE_TUKA",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HART",
+          "value": "Hartwaren Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "H",
+          "value": "Hartwaren"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "61237",
+          "value": "MODELLIEREN"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_MPN",
+      "values": [
+        {
+          "value": "B5554EU4"
+        }
+      ],
+      "category_code": "MAPI_MPN",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_EXPORTABLE",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_EXPORTABLE",
+      "top_fact": false
+    }
+  ],
+  "regional_availability": {
+    "gmaa": {
+      "probability": 15
+    },
+    "gmbs": {
+      "probability": 12
+    },
+    "gmge": {
+      "probability": 16
+    },
+    "gmlu": {
+      "probability": 10
+    },
+    "gmnf": {
+      "probability": 14
+    },
+    "gmos": {
+      "probability": 11
+    },
+    "gmti": {
+      "probability": 13
+    },
+    "gmvd": {
+      "probability": 16
+    },
+    "gmvs": {
+      "probability": 19
+    },
+    "gmzh": {
+      "probability": 14
+    }
+  },
+  "ratings": {
+    "count_all": 4,
+    "average_all": 5
+  },
+  "quantity_on_stock": 201,
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "updated_at": "2023-08-10T19:11:16+0200",
+  "sap_created_at": "2016-04-11T00:00:00+0200",
+  "services": {
+    "logistics": [
+      {
+        "code": "MEL_LOGISTIK_FILIALE_POSTPAKET_GRATIS"
+      },
+      {
+        "code": "MEL_LOGISTIK_POSTPAKET_GRATIS"
+      }
+    ],
+    "others": []
+  },
+  "online_shop_relevant": true,
+  "base_unit": "CU",
+  "origins": {
+    "producing_country": "China"
+  },
+  "views": [
+    "all",
+    "browse",
+    "browseallretailers"
+  ]
+}

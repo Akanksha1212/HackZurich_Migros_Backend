@@ -1,0 +1,537 @@
+{
+  "id": "702103400100",
+  "language": "en",
+  "name": "CO2-Austauschzylinder SODASTREAM",
+  "names": {
+    "short_name": "CO2-Austauschzylinder SODASTREAM"
+  },
+  "slug": "co2-austauschzylinder-sodastream",
+  "slugs": {
+    "de": "co2-austauschzylinder-sodastream",
+    "fr": "cylindre-de-co2-pour-rechange-sodastream",
+    "it": "cilindro-co2-per-sostituzione-sodastream",
+    "en": "co2-austauschzylinder-sodastream"
+  },
+  "type": "02",
+  "boss_number": "150410680505",
+  "description": {
+    "text": "Die Füllung ist erhältlich in grösseren Migros-Filialen.\n\nMietvorauszahlungs-Zylinder, nicht zum Verkauf / Eigentum der Soda-Club Co2 LTD. Wird für die Verwendung in Trinkwassersprudler vermietet. Dieser Zylinder darf nur von Soda-Club/Soda Stream gewartet und nachgefüllt werden.",
+    "source": "PEX"
+  },
+  "short_description": "Mit einem 60L Zylinder sprudeln Sie bis zu 60L sprudelndes Wasser, je nach Kohlensäuregehalt und Art des verwendetet Trinkwassersprudlers.",
+  "data_source": "SAP-X12",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03",
+    "distribution_center": [
+      {
+        "center_id": "1001",
+        "center_name": "Migros Verteilzentrum Neuendorf",
+        "status_code": "03",
+        "status_description": "active"
+      }
+    ]
+  },
+  "tags": [
+    "source-pex",
+    "near-non-food",
+    "migipedia",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": true,
+  "base_product_id": "702103400000",
+  "gtins": [
+    "7290002793311",
+    "7290005809071"
+  ],
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarket"
+  },
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "brand": {
+    "id": "MIR",
+    "name": "Soda Stream",
+    "slug": "soda-stream",
+    "image": {
+      "original": "https://image.migros.ch/original/39cc27cff1808fda3d030dde47aa73295e9e1956/soda-stream.jpg",
+      "stack": "https://image.migros.ch/{stack}/39cc27cff1808fda3d030dde47aa73295e9e1956/soda-stream.jpg"
+    }
+  },
+  "categories": [
+    {
+      "code": "BeSS_01040911",
+      "name": "Wasseraufbereiter",
+      "slug": "supermarkt/haushalt-reinigung/kueche/wasseraufbereiter",
+      "visible": true,
+      "parent_code": "BeSS_010409",
+      "level": 4
+    },
+    {
+      "code": "BeSS_010409",
+      "name": "Küche",
+      "slug": "supermarkt/haushalt-reinigung/kueche",
+      "visible": true,
+      "title": "Artikel für die Küche aus Ihrer Migros – gut & günstig!",
+      "parent_code": "BeSS_0104",
+      "image": {
+        "original": "https://image.migros.ch/original/348db2a4f0a106c51fead471f0e04513c18d7249/kueche.jpg",
+        "stack": "https://image.migros.ch/{stack}/348db2a4f0a106c51fead471f0e04513c18d7249/kueche.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0104",
+      "name": "Haushalt & Reinigung",
+      "slug": "supermarkt/haushalt-reinigung",
+      "visible": true,
+      "title": "Reinigung mit der Migros – Reiniger für Haushalt und Garten",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png",
+        "stack": "https://image.migros.ch/{stack}/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "online_relevant": [
+    {
+      "code": "MGB",
+      "name": "Migros Genossenschafts-Bund"
+    }
+  ],
+  "galaxus_relevant": false,
+  "links": {
+    "migros_ch": {
+      "url": "https://www.migros.ch/en/product/702103400100?context=instore",
+      "name": "In-store assortment",
+      "canonical": "https://www.migros.ch/en/product/702103400100?context=instore",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/702103400100",
+      "name": "Migipedia",
+      "canonical": "https://www.migros.ch/en/product/702103400100?context=instore",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "receipt_text": "Austauschzylinder",
+  "package": {
+    "content": 1,
+    "content_unit_code": "st",
+    "content_unit": "Stück",
+    "net_weight": 1.102,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "brutto_weight": 1.208,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 1.314,
+    "brutto_volume_unit_code": "cdm",
+    "height": 36.5,
+    "length": 6,
+    "width": 6,
+    "unit_dimension": "cm",
+    "price_comparison_content": 1,
+    "size": "1 Stk."
+  },
+  "package_information": {
+    "cu": {
+      "gtins": [
+        "7290005809071",
+        "7290002793311"
+      ],
+      "brutto_weight": 1.208,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 1.314,
+      "brutto_volume_unit_code": "cdm",
+      "height": 36.5,
+      "length": 6,
+      "width": 6,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "tuv": {
+      "brutto_weight": 24.9,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 28.12,
+      "brutto_volume_unit_code": "cdm",
+      "height": 38,
+      "length": 37,
+      "width": 20,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 18
+    },
+    "tue": {
+      "brutto_weight": 21.744,
+      "brutto_weight_unit_code": "kg",
+      "number_of_base_units": 18
+    },
+    "lu": {
+      "brutto_weight": 782.784,
+      "brutto_weight_unit_code": "kg",
+      "height": 132,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 648
+    },
+    "lge": {
+      "number_of_base_units": 216
+    },
+    "moq": {
+      "number_of_base_units": 648
+    }
+  },
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "price": {
+    "valid_from": "2020-03-30T00:00:00+0200",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 17.8,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "1 Stk."
+    },
+    "base": {
+      "price": 17.8,
+      "quantity": 1,
+      "unit": "st"
+    }
+  },
+  "image": {
+    "original": "https://image.migros.ch/original/eadd938d04847d215f31c0d254c191d9a0e8c932/co2-austauschzylinder-sodastream.jpg",
+    "stack": "https://image.migros.ch/{stack}/eadd938d04847d215f31c0d254c191d9a0e8c932/co2-austauschzylinder-sodastream.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/bb69fc9bb6879907479574c72c01ab027198c6ad/co2-austauschzylinder-sodastream.png",
+    "stack": "https://image.migros.ch/{stack}/bb69fc9bb6879907479574c72c01ab027198c6ad/co2-austauschzylinder-sodastream.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "miso_amigos_anzeige",
+      "label": "Display aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_nein",
+          "value": "nein"
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "MAPI_RETURNABLE",
+      "label": "Return",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "true",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MAPI_RETURNABLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_MAX_ORDER_QUANTITY",
+      "values": [
+        {
+          "value_code": "NUMERIC_99999",
+          "value": "99999",
+          "numeric_value": 99999
+        }
+      ],
+      "category_code": "MAPI_MAX_ORDER_QUANTITY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_EXCLUDE_FROM_COMPARISON_ENGINES",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "false",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_EXCLUDE_FROM_COMPARISON_ENGINES",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+      "values": [
+        {
+          "value_code": "55",
+          "value": "Versandart Paket"
+        }
+      ],
+      "category_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LOGISTIC_CLASS",
+      "values": [
+        {
+          "value_code": "7",
+          "value": "VMI"
+        }
+      ],
+      "category_code": "MAPI_LOGISTIC_CLASS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Standard item"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "HART"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RISK_CLASS",
+      "values": [
+        {
+          "value_code": "3",
+          "value": "3 (low)"
+        }
+      ],
+      "category_code": "MAPI_RISK_CLASS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_KUBE_TUKA",
+      "values": [
+        {
+          "value_code": "BLANK",
+          "value": "KUBE und TUKA nicht zugelassen"
+        }
+      ],
+      "category_code": "MAPI_KUBE_TUKA",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HART",
+          "value": "Hartwaren Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "H",
+          "value": "Hartwaren"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "61115",
+          "value": "WASSERAUFBEREITUNG"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_3",
+          "value": "3",
+          "numeric_value": 3
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_EXPORTABLE",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_EXPORTABLE",
+      "top_fact": false
+    }
+  ],
+  "recipe_ingredient_ids": [
+    "10000"
+  ],
+  "regional_availability": {
+    "gmaa": {
+      "probability": 97
+    },
+    "gmbs": {
+      "probability": 98
+    },
+    "gmge": {
+      "probability": 79
+    },
+    "gmlu": {
+      "probability": 97
+    },
+    "gmnf": {
+      "probability": 86
+    },
+    "gmos": {
+      "probability": 93
+    },
+    "gmti": {
+      "probability": 97
+    },
+    "gmvd": {
+      "probability": 100
+    },
+    "gmvs": {
+      "probability": 96
+    },
+    "gmzh": {
+      "probability": 90
+    }
+  },
+  "ratings": {
+    "count_all": 19,
+    "average_all": 4.157894736842
+  },
+  "related_products": {
+    "reference_recommendations": {
+      "product_ids": [
+        "703152800000",
+        "703244700000",
+        "702103300100",
+        "702145900000"
+      ]
+    }
+  },
+  "quantity_on_stock": 4572,
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "updated_at": "2023-08-17T07:43:33+0200",
+  "sap_created_at": "1999-06-28T00:00:00+0200",
+  "online_shop_relevant": true,
+  "base_unit": "CU",
+  "origins": {
+    "producing_country": "Israel"
+  },
+  "views": [
+    "all",
+    "browse",
+    "browseallretailers"
+  ]
+}

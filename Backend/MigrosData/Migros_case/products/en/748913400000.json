@@ -1,0 +1,683 @@
+{
+  "id": "748913400000",
+  "language": "en",
+  "name": "FUNDELS PLAY & LEARN LEARN ENGLISH",
+  "names": {
+    "short_name": "FUNDELS PLAY & LEARN LEARN ENGLISH"
+  },
+  "slug": "fundels-play-learn-learn-english",
+  "slugs": {
+    "de": "fundels-englisch-lernen",
+    "fr": "fundels-apprendre-langlais",
+    "it": "fundels-lern-english",
+    "en": "fundels-play-learn-learn-english"
+  },
+  "type": "00",
+  "product_type": "Lernspiel",
+  "boss_number": "130861450505",
+  "description": {
+    "text": "Lege ein Bild und finde das englische Wort dazu",
+    "source": "PEX"
+  },
+  "data_source": "SAP-X12",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03",
+    "distribution_center": [
+      {
+        "center_id": "1001",
+        "center_name": "Migros Verteilzentrum Neuendorf",
+        "status_code": "03",
+        "status_description": "active"
+      }
+    ]
+  },
+  "tags": [
+    "source-pex",
+    "migipedia",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "5411068901195",
+    "5411068901379"
+  ],
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarket"
+  },
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": true,
+      "reservable": true,
+      "stock_request": true,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": true,
+      "reservable": true,
+      "stock_request": true,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": true,
+      "reservable": true,
+      "stock_request": true,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": true,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": [
+        "P3"
+      ]
+    },
+    "micasa": {
+      "orderable": true,
+      "reservable": true,
+      "stock_request": true,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": true,
+      "reservable": true,
+      "stock_request": true,
+      "visible": true,
+      "exclude_cross_channel": []
+    }
+  },
+  "categories": [
+    {
+      "code": "BeSS_01071205",
+      "name": "Spiele & Puzzle",
+      "slug": "supermarkt/baby-kinder/spielwaren/spiele-puzzle",
+      "visible": true,
+      "title": "Günstige Spiele und Puzzles bei der Migros",
+      "parent_code": "BeSS_010712",
+      "image": {
+        "original": "https://image.migros.ch/original/132a266944d13fabe52bbb9bbf4878ecb79076a2/spiele-puzzle.jpg",
+        "stack": "https://image.migros.ch/{stack}/132a266944d13fabe52bbb9bbf4878ecb79076a2/spiele-puzzle.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010712",
+      "name": "Spielwaren",
+      "slug": "supermarkt/baby-kinder/spielwaren",
+      "visible": true,
+      "title": "Daran haben Kinder Freude: Spielwaren aus der Migros",
+      "parent_code": "BeSS_0107",
+      "image": {
+        "original": "https://image.migros.ch/original/44a2aeebd38216c32a1d9bbfc94664e575d085c1/spielwaren.jpg",
+        "stack": "https://image.migros.ch/{stack}/44a2aeebd38216c32a1d9bbfc94664e575d085c1/spielwaren.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0107",
+      "name": "Baby & Kinder",
+      "slug": "supermarkt/baby-kinder",
+      "visible": true,
+      "title": "Babyartikel: Alles rund ums Baby in Ihrer Migros kaufen",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/dc6e5e45f414e657061e049a69de80177f40ca98/baby-kinder.jpg",
+        "stack": "https://image.migros.ch/{stack}/dc6e5e45f414e657061e049a69de80177f40ca98/baby-kinder.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "MEL_SHOP_CAT_SpielePuzzle_Spielwaren_GamingSpielwaren",
+        "name": "Spiele & Puzzle",
+        "slug": "melectronics/gaming-spielwaren/spielwaren/spiele-puzzle",
+        "visible": true,
+        "parent_code": "MEL_SHOP_CAT_Spielwaren_GamingSpielwaren",
+        "level": 4
+      },
+      {
+        "code": "MEL_SHOP_CAT_Spielwaren_GamingSpielwaren",
+        "name": "Spielwaren",
+        "slug": "melectronics/gaming-spielwaren/spielwaren",
+        "visible": true,
+        "parent_code": "MEL_SHOP_CAT_GamingSpielwaren",
+        "level": 3
+      },
+      {
+        "code": "MEL_SHOP_CAT_GamingSpielwaren",
+        "name": "Gaming & Spielwaren",
+        "slug": "melectronics/gaming-spielwaren",
+        "visible": true,
+        "parent_code": "BeSS_04",
+        "level": 2
+      },
+      {
+        "code": "BeSS_04",
+        "name": "melectronics",
+        "slug": "melectronics",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "online_relevant": [
+    {
+      "code": "MGB",
+      "name": "Migros Genossenschafts-Bund"
+    }
+  ],
+  "links": {
+    "melectronics": {
+      "url": "https://www.melectronics.ch/de/p/748913400000/fundels-englisch-lernen",
+      "name": "melectronics",
+      "canonical": "https://www.migros.ch/en/product/748913400000?context=instore",
+      "type": "shop",
+      "purchasable": true
+    },
+    "migros_ch": {
+      "url": "https://www.migros.ch/en/product/748913400000?context=instore",
+      "name": "In-store assortment",
+      "canonical": "https://www.migros.ch/en/product/748913400000?context=instore",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/748913400000",
+      "name": "Migipedia",
+      "canonical": "https://www.migros.ch/en/product/748913400000?context=instore",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "warranty_months": 24,
+  "receipt_text": "Fundels Learn English",
+  "package": {
+    "content": 1,
+    "content_unit_code": "st",
+    "content_unit": "Stück",
+    "brutto_weight": 0.095,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 0.67,
+    "brutto_volume_unit_code": "cdm",
+    "height": 17,
+    "length": 8.8,
+    "width": 17.7,
+    "unit_dimension": "cm",
+    "price_comparison_content": 1,
+    "size": "1 Stk."
+  },
+  "package_information": {
+    "cu": {
+      "gtins": [
+        "5411068901195",
+        "5411068901379"
+      ],
+      "brutto_weight": 0.095,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.67,
+      "brutto_volume_unit_code": "cdm",
+      "height": 17,
+      "length": 8.8,
+      "width": 17.7,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "tuv": {
+      "brutto_weight": 1.06,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 1.62,
+      "brutto_volume_unit_code": "cdm",
+      "height": 9,
+      "length": 18,
+      "width": 10,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 12
+    },
+    "tue": {
+      "number_of_base_units": 12
+    },
+    "lu": {
+      "number_of_base_units": 864
+    },
+    "lge": {
+      "number_of_base_units": 432
+    }
+  },
+  "vat": {
+    "id": 1,
+    "percentage": 7.7
+  },
+  "price": {
+    "valid_from": "2022-01-01T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 6.5,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "1 Stk."
+    },
+    "base": {
+      "price": 6.5,
+      "quantity": 1,
+      "unit": "st"
+    }
+  },
+  "features": [
+    {
+      "label_code": "mel_spielwaren_kategorie",
+      "label": "Themenwelt",
+      "values": [
+        {
+          "value_code": "MEL_spielwaren_kategorie_karten_wuerfel_reisespiele",
+          "value": "Karten-/Würfel-/Reisespiele"
+        }
+      ],
+      "category_code": "MEL_CLA_SpielePuzzle_Spielwaren_Alle",
+      "top_fact": true,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "mel_spielwaren_warnhinweis",
+      "label": "Warnhinweis",
+      "values": [
+        {
+          "value_code": "MEL_spielwaren_hinweis_nicht_geeignet_fuer_kinder_unter_3_jahren",
+          "value": "Nicht geeignet für Kinder unter 3 Jahren"
+        }
+      ],
+      "category_code": "MEL_CLA_Spielwaren_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "mel_alter_von_j",
+      "label": "Alter ab (Jahren)",
+      "values": [
+        {
+          "value_code": "NUMERIC_6",
+          "value": "6",
+          "numeric_value": 6
+        }
+      ],
+      "category_code": "MEL_CLA_Spielwaren_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "mel_länge",
+      "label": "Länge",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2 cm",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MEL_CLA_Spielwaren_Alle",
+      "top_fact": false,
+      "unit_code": "cm",
+      "unit": "Zentimeter",
+      "unit_symbol": "cm",
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "mel_breite",
+      "label": "Breite",
+      "values": [
+        {
+          "value_code": "NUMERIC_5.7",
+          "value": "5.7 cm",
+          "numeric_value": 5.7
+        }
+      ],
+      "category_code": "MEL_CLA_Alle",
+      "top_fact": false,
+      "unit_code": "cm",
+      "unit": "Zentimeter",
+      "unit_symbol": "cm",
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "mel_hoehe",
+      "label": "Höhe",
+      "values": [
+        {
+          "value_code": "NUMERIC_9",
+          "value": "9 cm",
+          "numeric_value": 9
+        }
+      ],
+      "category_code": "MEL_CLA_Alle",
+      "top_fact": false,
+      "unit_code": "cm",
+      "unit": "Zentimeter",
+      "unit_symbol": "cm",
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "mel_m-garantie_m-garantie",
+      "label": "M-Garantie",
+      "values": [
+        {
+          "value_code": "MEL_M-Garantie_2Jahre",
+          "value": "2 Jahre"
+        }
+      ],
+      "category_code": "MEL_CLA_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/591741dee4141a8f0b2089191df8984d7c7b97e7/fundels-play-learn-learn-english.jpg",
+    "stack": "https://image.migros.ch/{stack}/591741dee4141a8f0b2089191df8984d7c7b97e7/fundels-play-learn-learn-english.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/8335cbd08718f7aa27a0f3f332e388b09f722878/fundels-play-learn-learn-english.png",
+    "stack": "https://image.migros.ch/{stack}/8335cbd08718f7aa27a0f3f332e388b09f722878/fundels-play-learn-learn-english.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_RETURNABLE",
+      "label": "Return",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "true",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MAPI_RETURNABLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_MAX_ORDER_QUANTITY",
+      "values": [
+        {
+          "value_code": "NUMERIC_3",
+          "value": "3",
+          "numeric_value": 3
+        }
+      ],
+      "category_code": "MAPI_MAX_ORDER_QUANTITY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_EXCLUDE_FROM_COMPARISON_ENGINES",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "false",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_EXCLUDE_FROM_COMPARISON_ENGINES",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+      "values": [
+        {
+          "value_code": "55",
+          "value": "Versandart Paket"
+        }
+      ],
+      "category_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LOGISTIC_CLASS",
+      "values": [
+        {
+          "value_code": "1",
+          "value": "Lager"
+        }
+      ],
+      "category_code": "MAPI_LOGISTIC_CLASS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Standard item"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "HART"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRESENTATION",
+      "values": [
+        {
+          "value_code": "L",
+          "value": "liegend"
+        }
+      ],
+      "category_code": "MAPI_PRESENTATION",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RISK_CLASS",
+      "values": [
+        {
+          "value_code": "2",
+          "value": "2 (medium)"
+        }
+      ],
+      "category_code": "MAPI_RISK_CLASS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_QUALITY_CHECK",
+      "values": [
+        {
+          "value_code": "00",
+          "value": "No Quality Control"
+        }
+      ],
+      "category_code": "MAPI_QUALITY_CHECK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_KUBE_TUKA",
+      "values": [
+        {
+          "value_code": "BLANK",
+          "value": "KUBE und TUKA nicht zugelassen"
+        }
+      ],
+      "category_code": "MAPI_KUBE_TUKA",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HART",
+          "value": "Hartwaren Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "H",
+          "value": "Hartwaren"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "61246",
+          "value": "KINDERSPIELE"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_EXPORTABLE",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_EXPORTABLE",
+      "top_fact": false
+    }
+  ],
+  "regional_availability": {
+    "gmaa": {
+      "probability": 17
+    },
+    "gmbs": {
+      "probability": 12
+    },
+    "gmge": {
+      "probability": 11
+    },
+    "gmlu": {
+      "probability": 10
+    },
+    "gmnf": {
+      "probability": 14
+    },
+    "gmos": {
+      "probability": 16
+    },
+    "gmti": {
+      "probability": 13
+    },
+    "gmvd": {
+      "probability": 14
+    },
+    "gmvs": {
+      "probability": 19
+    },
+    "gmzh": {
+      "probability": 12
+    }
+  },
+  "ratings": {
+    "count_all": 1,
+    "average_all": 3
+  },
+  "quantity_on_stock": 913,
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "updated_at": "2023-08-16T14:41:37+0200",
+  "sap_created_at": "2016-10-21T00:00:00+0200",
+  "services": {
+    "logistics": [
+      {
+        "code": "MEL_LOGISTIK_FILIALE_POSTPAKET_GRATIS"
+      },
+      {
+        "code": "MEL_LOGISTIK_POSTPAKET_GRATIS"
+      }
+    ],
+    "others": []
+  },
+  "online_shop_relevant": true,
+  "base_unit": "CU",
+  "origins": {
+    "producing_country": "Belgium"
+  },
+  "views": [
+    "all",
+    "browse",
+    "browseallretailers"
+  ]
+}

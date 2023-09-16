@@ -1,0 +1,867 @@
+{
+  "id": "220222085000",
+  "language": "en",
+  "name": "M-Budget Rindsvoressen",
+  "names": {
+    "short_name": "M-Budget Rindsvoressen"
+  },
+  "slug": "m-budget-rindsvoressen",
+  "slugs": {
+    "de": "m-budget-rindsvoressen",
+    "fr": "m-budget-ragout-de-boeuf",
+    "it": "m-budget-spezzatino-di-manzo",
+    "en": "m-budget-rindsvoressen"
+  },
+  "type": "00",
+  "boss_number": "040214526005",
+  "data_source": "SAP-X11",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "80"
+  },
+  "tags": [
+    "source-p4m",
+    "migipedia",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "2185346000001",
+    "7617027749756"
+  ],
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarket"
+  },
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "brand": {
+    "id": "N26",
+    "name": "M-Budget",
+    "slug": "m-budget",
+    "links": {
+      "homepage": {
+        "url": "https://m-budget.migros.ch/de.html",
+        "name": "Homepage",
+        "type": "info",
+        "purchasable": false
+      }
+    },
+    "image": {
+      "original": "https://image.migros.ch/original/16521d4e21b0df0edd8627d960293cef47fc1263/m-budget.jpg",
+      "stack": "https://image.migros.ch/{stack}/16521d4e21b0df0edd8627d960293cef47fc1263/m-budget.jpg"
+    }
+  },
+  "labels": [
+    {
+      "id": "L53",
+      "name": "Swissness",
+      "slug": "swissness",
+      "image": {
+        "original": "https://image.migros.ch/original/d771bba2f6b08ba42970ea0243c6f8c5a8832f15/swissness.jpg",
+        "stack": "https://image.migros.ch/{stack}/d771bba2f6b08ba42970ea0243c6f8c5a8832f15/swissness.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_01010601",
+      "name": "Rind",
+      "slug": "supermarkt/lebensmittel/fleisch/rind",
+      "visible": true,
+      "title": "Rindfleisch in Ihrer Migros kaufen",
+      "parent_code": "BeSS_010106",
+      "image": {
+        "original": "https://image.migros.ch/original/3575d7aabd57d912d581aaa6dafd3319f7a22fbc/rind.jpg",
+        "stack": "https://image.migros.ch/{stack}/3575d7aabd57d912d581aaa6dafd3319f7a22fbc/rind.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010106",
+      "name": "Fleisch",
+      "slug": "supermarkt/lebensmittel/fleisch",
+      "visible": true,
+      "title": "Fleisch ausgezeichneter Qualität aus Ihrer Migros: einfach gut",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/03d32c0880d7a9ea6e58971966032e65ac442b58/fleisch.jpg",
+        "stack": "https://image.migros.ch/{stack}/03d32c0880d7a9ea6e58971966032e65ac442b58/fleisch.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/31702195ec9d38aecefe80349eb347f79d56c750/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/31702195ec9d38aecefe80349eb347f79d56c750/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "online_relevant": [
+    {
+      "code": "MGB",
+      "name": "Migros Genossenschafts-Bund"
+    }
+  ],
+  "links": {
+    "migros_ch": {
+      "url": "https://www.migros.ch/en/product/220222085000?context=instore",
+      "name": "In-store assortment",
+      "canonical": "https://www.migros.ch/en/product/220222085000?context=instore",
+      "type": "info",
+      "purchasable": false
+    },
+    "migros_online": {
+      "url": "https://www.migros.ch/en/product/220222085000?context=online",
+      "mo_product_id": "152843",
+      "name": "Online-shop assortment",
+      "canonical": "https://www.migros.ch/en/product/220222085000?context=instore",
+      "type": "shop",
+      "purchasable": true,
+      "one_catalog_id": 100027535
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/220222085000",
+      "name": "Migipedia",
+      "canonical": "https://www.migros.ch/en/product/220222085000?context=instore",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "has_safety_sheet": false,
+  "m_check2": {
+    "carbon_footprint": {
+      "image": {
+        "original": "https://image.migros.ch/original/3e5cee492451bdf61aaed46537f4e5c8eb9a9b98.svg",
+        "stack": "https://image.migros.ch/{stack}/3e5cee492451bdf61aaed46537f4e5c8eb9a9b98.svg"
+      },
+      "ground_and_sea_cargo": {
+        "kg_co2": 23.769,
+        "kg_co2_range": "≥10 kg CO₂eq / kg",
+        "co2_in_car_km": 132,
+        "rating": 1,
+        "production_in_percent": 99,
+        "packaging_in_percent": 1,
+        "transport_in_percent": 0
+      }
+    },
+    "animal_welfare": {
+      "rating": 3,
+      "label": "Animal welfare",
+      "image": {
+        "original": "https://image.migros.ch/original/02f56762a6d67ea0470f50e5e8cc4d96d84791f0.svg",
+        "stack": "https://image.migros.ch/{stack}/02f56762a6d67ea0470f50e5e8cc4d96d84791f0.svg"
+      }
+    }
+  },
+  "receipt_text": "MBud Rindsvoressen",
+  "package": {
+    "content": 1000,
+    "content_unit_code": "g",
+    "content_unit": "Gram",
+    "net_weight": 1,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogram",
+    "type": "KG",
+    "portions_per_package": "1",
+    "brutto_weight": 1,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 1.008,
+    "brutto_volume_unit_code": "cdm",
+    "height": 4,
+    "length": 18,
+    "width": 14,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "average_min": 0.35,
+    "average_min_unit_code": "kg",
+    "average_max": 0.45,
+    "average_max_unit_code": "kg"
+  },
+  "package_information": {
+    "tu": {
+      "gtins": [
+        "7617027749749"
+      ],
+      "brutto_weight": 1,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 21.12,
+      "brutto_volume_unit_code": "cdm",
+      "height": 8.8,
+      "length": 60,
+      "width": 40,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "kg": {
+      "gtins": [
+        "2185346000001",
+        "7617027749756"
+      ],
+      "brutto_weight": 1,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 1.008,
+      "brutto_volume_unit_code": "cdm",
+      "height": 4,
+      "length": 18,
+      "width": 14,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    }
+  },
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "price": {
+    "valid_from": "2023-05-02T00:00:00+0200",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 2,
+      "quantity": 100,
+      "unit": "g",
+      "varying_quantity": true,
+      "display_quantity": "100 g"
+    },
+    "estimated_piece_weight": 400,
+    "estimated_piece_price": 8,
+    "base": {
+      "price": 2,
+      "quantity": 100,
+      "unit": "G"
+    }
+  },
+  "features": [
+    {
+      "label_code": "acxMISOteilstueck",
+      "label": "Teilstück",
+      "values": [
+        {
+          "value_code": "erxMISOteilstueckhals",
+          "value": "Neck"
+        },
+        {
+          "value_code": "erxMISOteilstueckschulter",
+          "value": "Shoulder"
+        }
+      ],
+      "category_code": "ecxMISOCLAfleischgefluegelsonstigetierebearbeitetverarbeitetfleischgefluegelsonstigetierelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOfleischform",
+      "label": "Fleischform bearbeitet",
+      "values": [
+        {
+          "value_code": "erxMISOfleischformgewuerfelt",
+          "value": "gewürfelt"
+        }
+      ],
+      "category_code": "ecxMISOCLAfleischgefluegelsonstigetierebearbeitetverarbeitetfleischgefluegelsonstigetierelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOcugebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "erxMISOcugebindeartkunststoffverpackung",
+          "value": "Kunststoff-Verpackung"
+        }
+      ],
+      "category_code": "ecxMISOCLAfleischgefluegelsonstigetierebearbeitetverarbeitetfleischgefluegelsonstigetierelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOhygienehinweise",
+      "label": "Hygienehinweise",
+      "values": [
+        {
+          "value": "Rohes Fleisch nicht in Kontakt mit anderen Lebensmitteln bringen. Geschirr und Hände gründlich reinigen. Fleisch immer gut durchgekocht/gebraten servieren."
+        }
+      ],
+      "category_code": "ecxMISOCLAfleischgefluegelsonstigetierebearbeitetverarbeitetfleischgefluegelsonstigetierelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOzubereitungsverfahren",
+      "label": "Hinweise für die Zubereitung",
+      "values": [
+        {
+          "value_code": "erxMISOzubereitungsverfahrenkochen",
+          "value": "kochen"
+        },
+        {
+          "value_code": "erxMISOzubereitungsverfahrenschmoren",
+          "value": "schmoren"
+        }
+      ],
+      "category_code": "ecxMISOCLAfleischgefluegelsonstigetierebearbeitetverarbeitetfleischgefluegelsonstigetierelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOzusaetzlicheeigenschaft",
+      "label": "Zusätzliche Eigenschaft",
+      "values": [
+        {
+          "value_code": "erxMISOzusaetzlicheeigenschaftnature",
+          "value": "natural"
+        }
+      ],
+      "category_code": "ecxMISOCLAfleischgefluegelsonstigetierebearbeitetverarbeitetfleischgefluegelsonstigetierelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/01e6a1f0c27312f0afadd4cf5f8b73c4035dfa0c/m-budget-rindsvoressen.jpg",
+    "stack": "https://image.migros.ch/{stack}/01e6a1f0c27312f0afadd4cf5f8b73c4035dfa0c/m-budget-rindsvoressen.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/024ad3fda1bf96d5e870e7072f79ae080a6c7657/m-budget-rindsvoressen.png",
+    "stack": "https://image.migros.ch/{stack}/024ad3fda1bf96d5e870e7072f79ae080a6c7657/m-budget-rindsvoressen.png"
+  },
+  "additional_images": [
+    {
+      "original": "https://image.migros.ch/original/99ab30566b055611ffe2cf36d36e861b303e4cac.jpg",
+      "stack": "https://image.migros.ch/{stack}/99ab30566b055611ffe2cf36d36e861b303e4cac.jpg"
+    }
+  ],
+  "internal_features": [
+    {
+      "label_code": "MAPI_EXPORTABLE",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_EXPORTABLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Normalposition"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZFRP",
+          "value": "Frische Beschaffung"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "ZFRP"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "70191",
+          "value": "M-BUDGET"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LIFECYCLE",
+      "values": [
+        {
+          "value_code": "D",
+          "value": "Detailhandelsartikel"
+        }
+      ],
+      "category_code": "MAPI_LIFECYCLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_3",
+          "value": "3",
+          "numeric_value": 3
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_STORAGE_CONDITIONS",
+      "values": [
+        {
+          "value_code": "02",
+          "value": "refrigerated"
+        }
+      ],
+      "category_code": "MAPI_STORAGE_CONDITIONS",
+      "top_fact": false
+    },
+    {
+      "label_code": "acxMISOamigosmaximalgewicht",
+      "label": "Maximal-Gewicht",
+      "values": [
+        {
+          "value_code": "NUMERIC_550",
+          "value": "550",
+          "numeric_value": 550
+        }
+      ],
+      "category_code": "ecxMISOCLAfleischgefluegelsonstigetierebearbeitetverarbeitetfleischgefluegelsonstigetierelebensmittelgetraenkealle",
+      "top_fact": false,
+      "unit_code": "450a3d52-a066-4786-9744-4a7daa8339f7",
+      "unit": "g",
+      "unit_symbol": "g"
+    },
+    {
+      "label_code": "acxMISOamigosminimalgewicht",
+      "label": "Minimal-Gewicht",
+      "values": [
+        {
+          "value_code": "NUMERIC_450",
+          "value": "450",
+          "numeric_value": 450
+        }
+      ],
+      "category_code": "ecxMISOCLAfleischgefluegelsonstigetierebearbeitetverarbeitetfleischgefluegelsonstigetierelebensmittelgetraenkealle",
+      "top_fact": false,
+      "unit_code": "450a3d52-a066-4786-9744-4a7daa8339f7",
+      "unit": "g",
+      "unit_symbol": "g"
+    },
+    {
+      "label_code": "acxCommonarticlecocompensated",
+      "label": "Artikel Co2 kompensiert",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false
+    },
+    {
+      "label_code": "acxCommonmesswertcompensation",
+      "label": "CO2-Wert Kompensation",
+      "values": [
+        {
+          "value_code": "NUMERIC_23.769",
+          "value": "23.769",
+          "numeric_value": 23.769
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false,
+      "unit_code": "5d71456e-a520-4294-9ddb-add78f63ce83",
+      "unit": "Equivalence per kilogram",
+      "unit_symbol": "eq / kg"
+    },
+    {
+      "label_code": "acxCommonoutputmcheckclimatedeclaration",
+      "label": "Auslobung M-Check Klimadeklaration",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Yes",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false
+    }
+  ],
+  "declarations": {
+    "declaration_number": "Q_1604593687839830",
+    "tags": [
+      "source-qim"
+    ],
+    "gtins": [
+      "7617027749756"
+    ],
+    "valid_from": "2022-07-06T00:00:00+0200",
+    "product_details": {
+      "net_filled_quantity": {
+        "value": "1000 g",
+        "numeric_value": 1000,
+        "unit": "g"
+      }
+    },
+    "general_information": [
+      {
+        "label": "Cooling information/storage information",
+        "values": [
+          "Store refrigerated at max. 5 °C."
+        ]
+      }
+    ],
+    "nutrition_facts": {
+      "reference_sizes": {
+        "standard": {
+          "base": {
+            "quantity": {
+              "value": "100 g",
+              "numeric_value": 100,
+              "unit": "g"
+            }
+          },
+          "nutrients": [
+            {
+              "code": "NUT_ENERGY",
+              "name": "Energy",
+              "operator": "=",
+              "pictogram_name": "Energy",
+              "category": "BIG9",
+              "quantity": {
+                "value": "534 kJ",
+                "numeric_value": 534,
+                "unit": "kJ",
+                "alternate": {
+                  "value": "127 kcal",
+                  "numeric_value": 127,
+                  "unit": "kcal"
+                }
+              },
+              "rda": {
+                "percent": 6,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_FAT",
+              "name": "Fat",
+              "operator": "=",
+              "pictogram_name": "Fat",
+              "category": "BIG9",
+              "quantity": {
+                "value": "5.0 g",
+                "numeric_value": 5,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 7,
+                "operator": "="
+              },
+              "rating": {
+                "value": 1,
+                "text": "medium",
+                "icon": {
+                  "original": "https://image.migros.ch/original/b84b389195e426a9e6b4cd66f2c79b1a049809da.svg",
+                  "stack": "https://image.migros.ch/{stack}/b84b389195e426a9e6b4cd66f2c79b1a049809da.svg"
+                },
+                "hex_color": "#e8a800"
+              }
+            },
+            {
+              "code": "NUT_SATURATED_FATTY_ACIDS",
+              "name": "of which saturates",
+              "operator": "=",
+              "pictogram_name": "saturated fatty acids",
+              "category": "BIG9",
+              "quantity": {
+                "value": "2.0 g",
+                "numeric_value": 2,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 10,
+                "operator": "="
+              },
+              "rating": {
+                "value": 1,
+                "text": "medium",
+                "icon": {
+                  "original": "https://image.migros.ch/original/b84b389195e426a9e6b4cd66f2c79b1a049809da.svg",
+                  "stack": "https://image.migros.ch/{stack}/b84b389195e426a9e6b4cd66f2c79b1a049809da.svg"
+                },
+                "hex_color": "#e8a800"
+              }
+            },
+            {
+              "code": "NUT_CARBOHYDRATES",
+              "name": "Carbohydrate",
+              "operator": "=",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0.5 g",
+                "numeric_value": 0.5,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 0.5,
+                "operator": "<"
+              }
+            },
+            {
+              "code": "NUT_SUGAR",
+              "name": "of which sugars",
+              "operator": "=",
+              "pictogram_name": "Sugar",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0.5 g",
+                "numeric_value": 0.5,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 1,
+                "operator": "="
+              },
+              "rating": {
+                "value": 0,
+                "text": "low",
+                "icon": {
+                  "original": "https://image.migros.ch/original/a2b5e2562a4fedbbdec99c1932ec57c46c49cde4.svg",
+                  "stack": "https://image.migros.ch/{stack}/a2b5e2562a4fedbbdec99c1932ec57c46c49cde4.svg"
+                },
+                "hex_color": "#069800"
+              }
+            },
+            {
+              "code": "NUT_FIBER",
+              "name": "Fibre",
+              "operator": "=",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0 g",
+                "numeric_value": 0,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_PROTEIN",
+              "name": "Protein",
+              "operator": "=",
+              "category": "BIG9",
+              "quantity": {
+                "value": "20 g",
+                "numeric_value": 20,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 40,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_SALT",
+              "name": "Salt",
+              "operator": "=",
+              "pictogram_name": "Salt",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0.10 g",
+                "numeric_value": 0.1,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 2,
+                "operator": "="
+              },
+              "rating": {
+                "value": 0,
+                "text": "low",
+                "icon": {
+                  "original": "https://image.migros.ch/original/a2b5e2562a4fedbbdec99c1932ec57c46c49cde4.svg",
+                  "stack": "https://image.migros.ch/{stack}/a2b5e2562a4fedbbdec99c1932ec57c46c49cde4.svg"
+                },
+                "hex_color": "#069800"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "recipe_ingredient_ids": [
+    "15466"
+  ],
+  "regional_availability": {
+    "gmaa": {
+      "probability": 79
+    },
+    "gmbs": {
+      "probability": 40
+    },
+    "gmge": {
+      "probability": 68
+    },
+    "gmlu": {
+      "probability": 78
+    },
+    "gmnf": {
+      "probability": 51
+    },
+    "gmos": {
+      "probability": 63
+    },
+    "gmti": {
+      "probability": 97
+    },
+    "gmvd": {
+      "probability": 89
+    },
+    "gmvs": {
+      "probability": 70
+    },
+    "gmzh": {
+      "probability": 49
+    }
+  },
+  "ratings": {
+    "count_all": 65,
+    "average_all": 3.59375
+  },
+  "related_products": {
+    "purchase_recommendations": {
+      "product_ids": [
+        "220622085000",
+        "220650085000",
+        "220250085000",
+        "220655085000",
+        "220624085000"
+      ]
+    }
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "updated_at": "2023-08-17T11:57:37+0200",
+  "sap_created_at": "2008-07-17T19:00:00+0200",
+  "online_shop_relevant": false,
+  "base_unit": "KG",
+  "co2_compensation": {
+    "kg_co2": 23.769,
+    "kg_co2_compensation": 23.769,
+    "is_compensated": false,
+    "mcheck_enabled": true
+  },
+  "origins": {},
+  "views": [
+    "all",
+    "browse",
+    "browseallretailers"
+  ]
+}

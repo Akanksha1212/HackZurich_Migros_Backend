@@ -1,0 +1,587 @@
+{
+  "id": "500420800000",
+  "language": "en",
+  "name": "Smacchia e Sgrassa 2x1",
+  "names": {
+    "short_name": "Smacchia e Sgrassa 2x1"
+  },
+  "slug": "smacchia-e-sgrassa-2x1",
+  "slugs": {
+    "de": "smacchia-e-sgrassa-2x1",
+    "fr": "smacchia-e-sgrassa-2x1",
+    "it": "smacchia-e-sgrassa-2x1",
+    "en": "smacchia-e-sgrassa-2x1"
+  },
+  "type": "00",
+  "boss_number": "150126754910",
+  "data_source": "SAP-X11",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03",
+    "distribution_center": [
+      {
+        "center_id": "1000",
+        "center_name": "Migros Verteilzentrum Suhr",
+        "status_description": "product.status.distribution_center."
+      },
+      {
+        "center_id": "1001",
+        "center_name": "Migros Verteilzentrum Neuendorf",
+        "status_description": "product.status.distribution_center."
+      },
+      {
+        "center_id": "1120",
+        "center_name": "Magazzino regionale Ticino",
+        "status_description": "product.status.distribution_center."
+      }
+    ]
+  },
+  "tags": [
+    "source-pex",
+    "near-non-food",
+    "migipedia",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "8004060381033",
+    "8004060111050",
+    "8004060021182"
+  ],
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarket"
+  },
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "brand": {
+    "id": "A65",
+    "name": "Omino Bianco",
+    "slug": "omino-bianco"
+  },
+  "categories": [
+    {
+      "code": "BeSS_01040101",
+      "name": "Waschmittel",
+      "slug": "supermarkt/haushalt-reinigung/waschen-reinigen-pflege/waschmittel",
+      "visible": true,
+      "title": "Waschmittel bei der Migros: Porentief rein und duftig fein",
+      "parent_code": "BeSS_010401",
+      "image": {
+        "original": "https://image.migros.ch/original/5375aa4df371ff3df3f9db75583d9d1137053eaf/waschmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/5375aa4df371ff3df3f9db75583d9d1137053eaf/waschmittel.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010401",
+      "name": "Waschen, Reinigen & Pflege",
+      "slug": "supermarkt/haushalt-reinigung/waschen-reinigen-pflege",
+      "visible": true,
+      "parent_code": "BeSS_0104",
+      "image": {
+        "original": "https://image.migros.ch/original/37d8921589f88cd40b1c580b957a6a414e1fe1d1/waschen-reinigen-pflege.jpg",
+        "stack": "https://image.migros.ch/{stack}/37d8921589f88cd40b1c580b957a6a414e1fe1d1/waschen-reinigen-pflege.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0104",
+      "name": "Haushalt & Reinigung",
+      "slug": "supermarkt/haushalt-reinigung",
+      "visible": true,
+      "title": "Reinigung mit der Migros – Reiniger für Haushalt und Garten",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png",
+        "stack": "https://image.migros.ch/{stack}/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "online_relevant": [
+    {
+      "code": "MGB",
+      "name": "Migros Genossenschafts-Bund"
+    }
+  ],
+  "links": {
+    "migros_ch": {
+      "url": "https://www.migros.ch/en/product/500420800000?context=instore",
+      "name": "In-store assortment",
+      "canonical": "https://www.migros.ch/en/product/500420800000?context=instore",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/500420800000",
+      "name": "Migipedia",
+      "canonical": "https://www.migros.ch/en/product/500420800000?context=instore",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "m_check2": {},
+  "receipt_text": "Omino Smacc. Schiuma",
+  "package": {
+    "content": 500,
+    "content_unit_code": "ml",
+    "content_unit": "Mililiter",
+    "net_weight": 0.5,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "brutto_weight": 0.56,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 2.863,
+    "brutto_volume_unit_code": "cdm",
+    "height": 24.7,
+    "length": 5,
+    "width": 11,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "500ml"
+  },
+  "package_information": {
+    "tu": {
+      "gtins": [
+        "8004060981066",
+        "8004060991195",
+        "8004060951045"
+      ],
+      "brutto_weight": 7.2,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 18.816,
+      "brutto_volume_unit_code": "cdm",
+      "height": 28,
+      "length": 32,
+      "width": 21,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 12
+    },
+    "cu": {
+      "gtins": [
+        "8004060111050",
+        "8004060021182",
+        "8004060381033"
+      ],
+      "brutto_weight": 0.56,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 2.863,
+      "brutto_volume_unit_code": "cdm",
+      "height": 24.7,
+      "length": 5,
+      "width": 11,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "lu": {
+      "height": 80,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 432
+    },
+    "lge": {
+      "number_of_base_units": 144
+    },
+    "kar": {
+      "number_of_base_units": 1
+    }
+  },
+  "vat": {
+    "id": 1,
+    "percentage": 7.7
+  },
+  "price": {
+    "valid_from": "2018-01-01T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 8.3,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "500ml"
+    },
+    "base": {
+      "price": 1.66,
+      "quantity": 100,
+      "unit": "ml"
+    }
+  },
+  "features": [
+    {
+      "label_code": "CHEMICALS_WARNING",
+      "label": "Warning",
+      "values": [
+        {
+          "value": "Always read label and product information before use."
+        }
+      ],
+      "category_code": "CHEMICALS_WARNING",
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/b86997aeb05c1e809170ccf3ee14b7eccd07d83a/smacchia-e-sgrassa-2x1.jpg",
+    "stack": "https://image.migros.ch/{stack}/b86997aeb05c1e809170ccf3ee14b7eccd07d83a/smacchia-e-sgrassa-2x1.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/b0341d49a64f5e7c6a929bf2eabfa47dd45eef2e/smacchia-e-sgrassa-2x1.png",
+    "stack": "https://image.migros.ch/{stack}/b0341d49a64f5e7c6a929bf2eabfa47dd45eef2e/smacchia-e-sgrassa-2x1.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Standard item"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "ZHKS"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUSTOMS_POSITION",
+      "values": [
+        {
+          "value": "3402.2000"
+        }
+      ],
+      "category_code": "MAPI_CUSTOMS_POSITION",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RISK_CLASS",
+      "values": [
+        {
+          "value_code": "1",
+          "value": "1 (high)"
+        }
+      ],
+      "category_code": "MAPI_RISK_CLASS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_QUALITY_CHECK",
+      "values": [
+        {
+          "value_code": "00",
+          "value": "No Quality Control"
+        }
+      ],
+      "category_code": "MAPI_QUALITY_CHECK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZHKS",
+          "value": "HKS Standardartikel"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "H",
+          "value": "HKS Standard"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "50497",
+          "value": "REG. WASCHEN"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LIFECYCLE",
+      "values": [
+        {
+          "value_code": "D",
+          "value": "Detailhandelsartikel"
+        }
+      ],
+      "category_code": "MAPI_LIFECYCLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_EXPORTABLE",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_EXPORTABLE",
+      "top_fact": false
+    }
+  ],
+  "chemicals_declaration": {
+    "release_date": "2016-06-01T10:09:52+0200",
+    "supplier_id": "0010000875",
+    "supplier_description": "Bolton Swiss SA",
+    "hazard_statements": [
+      {
+        "code": "H315",
+        "label": "Causes skin irritation."
+      },
+      {
+        "code": "H318",
+        "label": "Causes serious eye damage."
+      }
+    ],
+    "precautionary_statements": [
+      {
+        "code": "P101",
+        "label": "If medical advice is needed, have product container or label at hand."
+      },
+      {
+        "code": "P102",
+        "label": "Keep out of reach of children."
+      },
+      {
+        "code": "P260",
+        "label": "Do not breathe dust/fume/gas/mist/vapours/spray."
+      },
+      {
+        "code": "P271",
+        "label": "Use only outdoors or in a well-ventilated area."
+      },
+      {
+        "code": "P280",
+        "label": "Wear protective gloves / protective clothing / eye protection / face protection."
+      },
+      {
+        "code": "P302_352",
+        "label": "IF ON SKIN: Wash with plenty of soap and water."
+      },
+      {
+        "code": "P305_351_338",
+        "label": "IF IN EYES: Rinse cautiously with water for several minutes. Remove contact lenses, if present and easy to do. Continue rinsing."
+      },
+      {
+        "code": "P310",
+        "label": "Immediately call a POISON CENTER or doctor/physician."
+      }
+    ],
+    "signal_word": {
+      "code": "SW01",
+      "label": "Danger"
+    },
+    "cpid_number": "252501-68",
+    "biozid_number_ch": "",
+    "poison_cabinet": false,
+    "hazard_pictograms": [
+      {
+        "code": "GHS05",
+        "description": "corrosivity",
+        "original": "https://image.migros.ch/original/b9b6d67492a097fcc99d628551e84904ab689e51/GHS05.jpg",
+        "stack": "https://image.migros.ch/{stack}/b9b6d67492a097fcc99d628551e84904ab689e51/GHS05.jpg"
+      }
+    ],
+    "cleaning_agents": [
+      {
+        "concentration": {
+          "code": "RMK05",
+          "label": "less than 5%"
+        },
+        "group": {
+          "code": "RMS04",
+          "label": "nonionic surfactants"
+        }
+      },
+      {
+        "concentration": {
+          "code": "RMK05",
+          "label": "less than 5%"
+        },
+        "group": {
+          "code": "RMS11",
+          "label": "EDTA (CAS no. 60-00-4) and their salts"
+        }
+      }
+    ],
+    "extra_cleaning_agents": [
+      {
+        "group": {
+          "code": "RMW04",
+          "label": "fragrances"
+        }
+      }
+    ],
+    "declaration_required_ingredients": [
+      {
+        "name": "Oxirane, 2-methyl-, polymer with oxirane, mono(2-propylheptyl) ether",
+        "cas_number": "166736-08-9"
+      },
+      {
+        "name": "ethanolamine",
+        "cas_number": "141-43-5"
+      }
+    ]
+  },
+  "regional_availability": {
+    "gmaa": {
+      "probability": 0
+    },
+    "gmbs": {
+      "probability": 0
+    },
+    "gmge": {
+      "probability": 0
+    },
+    "gmlu": {
+      "probability": 0
+    },
+    "gmnf": {
+      "probability": 0
+    },
+    "gmos": {
+      "probability": 0
+    },
+    "gmti": {
+      "probability": 100
+    },
+    "gmvd": {
+      "probability": 0
+    },
+    "gmvs": {
+      "probability": 0
+    },
+    "gmzh": {
+      "probability": 0
+    }
+  },
+  "ratings": {
+    "count_all": 1,
+    "average_all": 5
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "updated_at": "2023-08-14T17:02:18+0200",
+  "sap_created_at": "2005-11-14T00:00:00+0100",
+  "base_unit": "CU",
+  "views": [
+    "all",
+    "browse",
+    "browseallretailers"
+  ]
+}

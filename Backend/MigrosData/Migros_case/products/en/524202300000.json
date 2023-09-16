@@ -1,0 +1,523 @@
+{
+  "id": "524202300000",
+  "language": "en",
+  "name": "Sante Shampoo Glanz",
+  "names": {
+    "short_name": "Sante Shampoo Glanz"
+  },
+  "slug": "sante-shampoo-glanz",
+  "slugs": {
+    "de": "sante-shampoo-glanz",
+    "fr": "sante-shampoo-brillant",
+    "it": "sante-shampoo-lucido",
+    "en": "sante-shampoo-glanz"
+  },
+  "type": "00",
+  "boss_number": "090121679630",
+  "short_description": "Glanz Shamoo mit Bio-Birkenblatt und pflanzliches Protein",
+  "data_source": "SAP-X11",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03"
+  },
+  "tags": [
+    "source-pex",
+    "near-non-food",
+    "migipedia",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "4025089084754"
+  ],
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarket"
+  },
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "brand": {
+    "id": "E66",
+    "name": "Sante",
+    "slug": "sante"
+  },
+  "labels": [
+    {
+      "id": "L41",
+      "name": "Naturkosmetik",
+      "slug": "naturkosmetik"
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_01110603",
+      "name": "Haarpflege",
+      "slug": "supermarkt/beauty/naturkosmetik/haarpflege",
+      "visible": true,
+      "parent_code": "BeSS_011106",
+      "level": 4
+    },
+    {
+      "code": "BeSS_011106",
+      "name": "Naturkosmetik",
+      "slug": "supermarkt/beauty/naturkosmetik",
+      "visible": true,
+      "parent_code": "BeSS_0111",
+      "level": 3
+    },
+    {
+      "code": "BeSS_0111",
+      "name": "Beauty",
+      "slug": "supermarkt/beauty",
+      "visible": true,
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/293925170bd129344f9259c67a15e903f881bef8/beauty.jpg",
+        "stack": "https://image.migros.ch/{stack}/293925170bd129344f9259c67a15e903f881bef8/beauty.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "BeSS_01110101",
+        "name": "Haarpflege",
+        "slug": "supermarkt/beauty/haare/haarpflege",
+        "visible": true,
+        "parent_code": "BeSS_011101",
+        "level": 4
+      },
+      {
+        "code": "BeSS_011101",
+        "name": "Haare",
+        "slug": "supermarkt/beauty/haare",
+        "visible": true,
+        "parent_code": "BeSS_0111",
+        "level": 3
+      },
+      {
+        "code": "BeSS_0111",
+        "name": "Beauty",
+        "slug": "supermarkt/beauty",
+        "visible": true,
+        "parent_code": "BeSS_01",
+        "image": {
+          "original": "https://image.migros.ch/original/293925170bd129344f9259c67a15e903f881bef8/beauty.jpg",
+          "stack": "https://image.migros.ch/{stack}/293925170bd129344f9259c67a15e903f881bef8/beauty.jpg"
+        },
+        "level": 2
+      },
+      {
+        "code": "BeSS_01",
+        "name": "Supermarkt",
+        "slug": "supermarkt",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "online_relevant": [
+    {
+      "code": "MGB",
+      "name": "Migros Genossenschafts-Bund"
+    }
+  ],
+  "galaxus_relevant": false,
+  "links": {
+    "migros_ch": {
+      "url": "https://www.migros.ch/en/product/524202300000?context=instore",
+      "name": "In-store assortment",
+      "canonical": "https://www.migros.ch/en/product/524202300000?context=instore",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/524202300000",
+      "name": "Migipedia",
+      "canonical": "https://www.migros.ch/en/product/524202300000?context=instore",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "receipt_text": "Sante Shampoo 250ml",
+  "package": {
+    "content": 250,
+    "content_unit_code": "ml",
+    "content_unit": "Mililiter",
+    "net_weight": 0.25,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "brutto_weight": 0.281,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 0.484,
+    "brutto_volume_unit_code": "cdm",
+    "height": 14.4,
+    "length": 5.8,
+    "width": 5.8,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "250ml"
+  },
+  "package_information": {
+    "tu": {
+      "gtins": [
+        "4025089481829"
+      ],
+      "brutto_weight": 1.127,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 2.05,
+      "brutto_volume_unit_code": "cdm",
+      "height": 14.6,
+      "length": 6,
+      "width": 23.4,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 4
+    },
+    "cu": {
+      "gtins": [
+        "4025089084754"
+      ],
+      "brutto_weight": 0.281,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.484,
+      "brutto_volume_unit_code": "cdm",
+      "height": 14.4,
+      "length": 5.8,
+      "width": 5.8,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "lu": {
+      "brutto_weight_unit_code": "kg",
+      "number_of_base_units": 1568
+    },
+    "lge": {
+      "number_of_base_units": 224
+    },
+    "kar": {
+      "number_of_base_units": 1
+    }
+  },
+  "vat": {
+    "id": 1,
+    "percentage": 7.7
+  },
+  "price": {
+    "valid_from": "2020-12-18T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 6.8,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "250ml"
+    },
+    "base": {
+      "price": 2.72,
+      "quantity": 100,
+      "unit": "ml"
+    }
+  },
+  "features": [
+    {
+      "label_code": "MAPI_VEGETARIANISM",
+      "label": "Vegetarianism",
+      "values": [
+        {
+          "value_code": "MAPI_VEGETARIANISM_vegan",
+          "value": "Vegan"
+        },
+        {
+          "value_code": "MAPI_VEGETARIANISM_vegetarisch",
+          "value": "Vegetarian"
+        }
+      ],
+      "category_code": "MAPI_VEGETARIANISM",
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/0262d5504317c39c9ca1c170e0eae9f0658460d6/sante-shampoo-glanz.jpg",
+    "stack": "https://image.migros.ch/{stack}/0262d5504317c39c9ca1c170e0eae9f0658460d6/sante-shampoo-glanz.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/15e9f4a8ae5faad161c7289bb798a9a354eb8c72/sante-shampoo-glanz.png",
+    "stack": "https://image.migros.ch/{stack}/15e9f4a8ae5faad161c7289bb798a9a354eb8c72/sante-shampoo-glanz.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Standard item"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "ZHKS"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RISK_CLASS",
+      "values": [
+        {
+          "value_code": "2",
+          "value": "2 (medium)"
+        }
+      ],
+      "category_code": "MAPI_RISK_CLASS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_QUALITY_CHECK",
+      "values": [
+        {
+          "value_code": "00",
+          "value": "No Quality Control"
+        }
+      ],
+      "category_code": "MAPI_QUALITY_CHECK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZHKS",
+          "value": "HKS Standardartikel"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "H",
+          "value": "HKS Standard"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "50464",
+          "value": "NATURKOSMETIK HAARE"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LIFECYCLE",
+      "values": [
+        {
+          "value_code": "D",
+          "value": "Detailhandelsartikel"
+        }
+      ],
+      "category_code": "MAPI_LIFECYCLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_EXPORTABLE",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_EXPORTABLE",
+      "top_fact": false
+    }
+  ],
+  "declarations": {
+    "declaration_number": "Q_1604593687823647",
+    "tags": [
+      "source-qim"
+    ],
+    "gtins": [
+      "4025089084754"
+    ],
+    "valid_from": "2022-11-21T00:00:00+0100",
+    "product_details": {
+      "net_filled_quantity": {
+        "value": "250 ml",
+        "numeric_value": 250,
+        "unit": "ml"
+      }
+    },
+    "distributor": {
+      "name": "LOGOCOS Naturkosmetik AG",
+      "address": "Kräuterwiese, 31020, Salzhemmendorf, Deutschland"
+    },
+    "ingredients_information": {
+      "substances_information": {
+        "origins": [
+          "Various"
+        ]
+      }
+    }
+  },
+  "regional_availability": {
+    "gmaa": {
+      "probability": 18
+    },
+    "gmbs": {
+      "probability": 14
+    },
+    "gmge": {
+      "probability": 13
+    },
+    "gmlu": {
+      "probability": 17
+    },
+    "gmnf": {
+      "probability": 8
+    },
+    "gmos": {
+      "probability": 13
+    },
+    "gmti": {
+      "probability": 28
+    },
+    "gmvd": {
+      "probability": 11
+    },
+    "gmvs": {
+      "probability": 22
+    },
+    "gmzh": {
+      "probability": 19
+    }
+  },
+  "ratings": {
+    "count_all": 3,
+    "average_all": 4.666666666667
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "updated_at": "2023-08-17T07:39:30+0200",
+  "sap_created_at": "2020-12-18T00:00:00+0100",
+  "base_unit": "CU",
+  "origins": {
+    "producing_country": "Germany"
+  },
+  "views": [
+    "all",
+    "browse",
+    "browseallretailers"
+  ]
+}

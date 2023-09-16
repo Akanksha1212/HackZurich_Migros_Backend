@@ -1,0 +1,861 @@
+{
+  "id": "110405400000",
+  "language": "en",
+  "name": "Haselnuss-Lebkuchen",
+  "names": {
+    "short_name": "Haselnuss-Lebkuchen"
+  },
+  "slug": "haselnuss-lebkuchen",
+  "slugs": {
+    "de": "haselnuss-lebkuchen",
+    "fr": "pain-epices-noisettes",
+    "it": "panpepato-nocciole-110405400000",
+    "en": "haselnuss-lebkuchen"
+  },
+  "type": "00",
+  "boss_number": "020212225460",
+  "data_source": "SAP-X11",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "80"
+  },
+  "tags": [
+    "source-p4m",
+    "migipedia",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7610200018366"
+  ],
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarket"
+  },
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "categories": [
+    {
+      "code": "BeSS_0101030806",
+      "name": "Festartikel",
+      "slug": "supermarkt/lebensmittel/baeckerei-confiserie-backen/konditorei-patisserie/festartikel",
+      "visible": true,
+      "parent_code": "BeSS_01010308",
+      "image": {
+        "original": "https://image.migros.ch/original/cd5332ff525d072195442b70909c4d937f78b1ae/festartikel.jpg",
+        "stack": "https://image.migros.ch/{stack}/cd5332ff525d072195442b70909c4d937f78b1ae/festartikel.jpg"
+      },
+      "level": 5
+    },
+    {
+      "code": "BeSS_01010308",
+      "name": "Konditorei & Patisserie",
+      "slug": "supermarkt/lebensmittel/baeckerei-confiserie-backen/konditorei-patisserie",
+      "visible": true,
+      "title": "Patisserie und Confiserie &ndash; Süssgebäck von der Migros",
+      "parent_code": "BeSS_010103",
+      "image": {
+        "original": "https://image.migros.ch/original/5834059568306b4b7aff5592bb33b063fb80d224/konditorei-patisserie.jpg",
+        "stack": "https://image.migros.ch/{stack}/5834059568306b4b7aff5592bb33b063fb80d224/konditorei-patisserie.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010103",
+      "name": "Bäckerei, Confiserie & Backen",
+      "slug": "supermarkt/lebensmittel/baeckerei-confiserie-backen",
+      "visible": true,
+      "title": "Backen macht Freude! Alle Zutaten finden Sie in Ihrer Migros",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/04b41cd6f4daedf3061a2a37617d48e992760b35/baeckerei-confiserie-backen.jpg",
+        "stack": "https://image.migros.ch/{stack}/04b41cd6f4daedf3061a2a37617d48e992760b35/baeckerei-confiserie-backen.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/31702195ec9d38aecefe80349eb347f79d56c750/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/31702195ec9d38aecefe80349eb347f79d56c750/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "online_relevant": [
+    {
+      "code": "MGB",
+      "name": "Migros Genossenschafts-Bund"
+    },
+    {
+      "code": "MO",
+      "name": "Migros Online"
+    }
+  ],
+  "links": {
+    "migros_ch": {
+      "url": "https://www.migros.ch/en/product/110405400000?context=instore",
+      "name": "In-store assortment",
+      "canonical": "https://www.migros.ch/en/product/110405400000?context=instore",
+      "type": "info",
+      "purchasable": false
+    },
+    "migros_online": {
+      "url": "https://www.migros.ch/en/product/110405400000?context=online",
+      "mo_product_id": "215628",
+      "name": "Online-shop assortment",
+      "canonical": "https://www.migros.ch/en/product/110405400000?context=instore",
+      "type": "shop",
+      "purchasable": true,
+      "one_catalog_id": 100034958
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/110405400000",
+      "name": "Migipedia",
+      "canonical": "https://www.migros.ch/en/product/110405400000?context=instore",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "has_safety_sheet": false,
+  "m_check2": {
+    "carbon_footprint": {
+      "image": {
+        "original": "https://image.migros.ch/original/3647ce79a496ca6d707e072f7e3f61ecc313e54b.svg",
+        "stack": "https://image.migros.ch/{stack}/3647ce79a496ca6d707e072f7e3f61ecc313e54b.svg"
+      },
+      "ground_and_sea_cargo": {
+        "kg_co2": 2.12,
+        "kg_co2_range": "2 - 4.7 kg CO₂eq / kg",
+        "co2_in_car_km": 11,
+        "rating": 3,
+        "production_in_percent": 89,
+        "packaging_in_percent": 8,
+        "transport_in_percent": 3
+      }
+    }
+  },
+  "receipt_text": "Haselnuss-Lebkuchen",
+  "package": {
+    "content": 130,
+    "content_unit_code": "g",
+    "content_unit": "Gram",
+    "net_weight": 0.13,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogram",
+    "type": "Package",
+    "portions_per_package": "3",
+    "precision": "approximate",
+    "brutto_weight": 0.14,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 970299,
+    "brutto_volume_unit_code": "ccm",
+    "height": 10,
+    "length": 10,
+    "width": 10,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "130g"
+  },
+  "package_information": {
+    "tu": {
+      "gtins": [
+        "7616700047394"
+      ],
+      "brutto_weight": 7,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 31.92,
+      "brutto_volume_unit_code": "cdm",
+      "height": 13.3,
+      "length": 60,
+      "width": 40,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 50
+    },
+    "cu": {
+      "gtins": [
+        "7610200018366"
+      ],
+      "brutto_weight": 0.14,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 970299,
+      "brutto_volume_unit_code": "ccm",
+      "height": 10,
+      "length": 10,
+      "width": 10,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    }
+  },
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "price": {
+    "valid_from": "2023-03-07T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 3.15,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "130g"
+    },
+    "base": {
+      "price": 2.42,
+      "quantity": 100,
+      "unit": "G"
+    }
+  },
+  "image": {
+    "original": "https://image.migros.ch/original/84b3190f6faf667e9e73481ab6c14c8ed352b926/haselnuss-lebkuchen.jpg",
+    "stack": "https://image.migros.ch/{stack}/84b3190f6faf667e9e73481ab6c14c8ed352b926/haselnuss-lebkuchen.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/d93bb562f1e9a4e50f4bde2dd424f1663f8df12b/haselnuss-lebkuchen.png",
+    "stack": "https://image.migros.ch/{stack}/d93bb562f1e9a4e50f4bde2dd424f1663f8df12b/haselnuss-lebkuchen.png"
+  },
+  "additional_images": [
+    {
+      "original": "https://image.migros.ch/original/a48762f221e2aa435218cb07f1a90eb2db812be3.jpg",
+      "stack": "https://image.migros.ch/{stack}/a48762f221e2aa435218cb07f1a90eb2db812be3.jpg"
+    }
+  ],
+  "internal_features": [
+    {
+      "label_code": "MAPI_EXPORTABLE",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_EXPORTABLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Normalposition"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZFRP",
+          "value": "Frische Beschaffung"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "ZFRP"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "70398",
+          "value": "CHRISTMAS"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "8",
+          "value": "Backwaren"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LIFECYCLE",
+      "values": [
+        {
+          "value_code": "D",
+          "value": "Detailhandelsartikel"
+        }
+      ],
+      "category_code": "MAPI_LIFECYCLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_STORAGE_CONDITIONS",
+      "values": [
+        {
+          "value_code": "01",
+          "value": "normal"
+        }
+      ],
+      "category_code": "MAPI_STORAGE_CONDITIONS",
+      "top_fact": false
+    },
+    {
+      "label_code": "acxCommonarticlecocompensated",
+      "label": "Artikel Co2 kompensiert",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false
+    },
+    {
+      "label_code": "acxCommonmesswertcompensation",
+      "label": "CO2-Wert Kompensation",
+      "values": [
+        {
+          "value_code": "NUMERIC_2.12",
+          "value": "2.12",
+          "numeric_value": 2.12
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false,
+      "unit_code": "5d71456e-a520-4294-9ddb-add78f63ce83",
+      "unit": "Equivalence per kilogram",
+      "unit_symbol": "eq / kg"
+    },
+    {
+      "label_code": "acxCommonoutputmcheckclimatedeclaration",
+      "label": "Auslobung M-Check Klimadeklaration",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Yes",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false
+    }
+  ],
+  "declarations": {
+    "declaration_number": "Q_2121841432607476",
+    "tags": [
+      "source-qim"
+    ],
+    "gtins": [
+      "7610200018366"
+    ],
+    "valid_from": "2022-05-04T00:00:00+0200",
+    "product_details": {
+      "package": {
+        "type": "Package",
+        "number_of_portions": "3",
+        "number_of_portions_operator": "≈"
+      },
+      "net_filled_quantity": {
+        "value": "130 g",
+        "numeric_value": 130,
+        "unit": "g"
+      }
+    },
+    "general_information": [
+      {
+        "label": "Warning and other mandatory information",
+        "values": [
+          "In spite of careful processing, this product may contain shell fragments."
+        ]
+      }
+    ],
+    "ingredients_information": {
+      "ingredients_text": "<strong>hazelnuts</strong> 44%, sugar, invert sugar syrup, <strong>wheat</strong> flour, candied orange zests 6% (orange peels, glucose-fructose syrup, sugar, acid: citric acid), candied lemon zests 5% (lemon peel, glucose-fructose syrup, sugar, acid: citric acid), humectants: glycerol and sorbitol, spices, <strong>egg</strong> white powder (Barn), raising agents: sodium carbonates and diphosphates, <strong>wheat</strong> protein, <strong>wheat</strong> starch, <strong>barley</strong> malt flour.",
+      "allergens_information": {
+        "trace_allergens_text": "May contain: soy, milk, other nuts, sesame, sulphites.",
+        "allergens": [
+          {
+            "code": "ALLG_EIER",
+            "label": "Eggs and products thereof",
+            "contamination_code": "VORHANDEN",
+            "contamination_label": "contains"
+          },
+          {
+            "code": "ALLG_GLUTEN",
+            "label": "Cereals containing gluten and products thereof",
+            "contamination_code": "VORHANDEN",
+            "contamination_label": "contains"
+          },
+          {
+            "code": "ALLG_HASELNU",
+            "label": "Hazelnuts and products thereof",
+            "contamination_code": "VORHANDEN",
+            "contamination_label": "contains"
+          }
+        ]
+      }
+    },
+    "nutrition_facts": {
+      "reference_sizes": {
+        "standard": {
+          "base": {
+            "quantity": {
+              "value": "100 g",
+              "numeric_value": 100,
+              "unit": "g"
+            }
+          },
+          "nutrients": [
+            {
+              "code": "NUT_ENERGY",
+              "name": "Energy",
+              "operator": "=",
+              "pictogram_name": "Energy",
+              "category": "BIG9",
+              "quantity": {
+                "value": "1990 kJ",
+                "numeric_value": 1990,
+                "unit": "kJ",
+                "alternate": {
+                  "value": "477 kcal",
+                  "numeric_value": 477,
+                  "unit": "kcal"
+                }
+              },
+              "rda": {
+                "percent": 24,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_FAT",
+              "name": "Fat",
+              "operator": "=",
+              "pictogram_name": "Fat",
+              "category": "BIG9",
+              "quantity": {
+                "value": "27 g",
+                "numeric_value": 27,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 39,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_SATURATED_FATTY_ACIDS",
+              "name": "of which saturates",
+              "operator": "=",
+              "pictogram_name": "saturated fatty acids",
+              "category": "BIG9",
+              "quantity": {
+                "value": "2 g",
+                "numeric_value": 2,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 10,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_CARBOHYDRATES",
+              "name": "Carbohydrate",
+              "operator": "=",
+              "category": "BIG9",
+              "quantity": {
+                "value": "49 g",
+                "numeric_value": 49,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 19,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_SUGAR",
+              "name": "of which sugars",
+              "operator": "=",
+              "pictogram_name": "Sugar",
+              "category": "BIG9",
+              "quantity": {
+                "value": "39 g",
+                "numeric_value": 39,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 43,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_FIBER",
+              "name": "Fibre",
+              "operator": "=",
+              "category": "BIG9",
+              "quantity": {
+                "value": "5.2 g",
+                "numeric_value": 5.2,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_PROTEIN",
+              "name": "Protein",
+              "operator": "=",
+              "category": "BIG9",
+              "quantity": {
+                "value": "8.2 g",
+                "numeric_value": 8.2,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 16,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_SALT",
+              "name": "Salt",
+              "operator": "=",
+              "pictogram_name": "Salt",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0.22 g",
+                "numeric_value": 0.22,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 4,
+                "operator": "="
+              }
+            }
+          ]
+        },
+        "portion": {
+          "base": {
+            "quantity": {
+              "value": "50 g",
+              "numeric_value": 50,
+              "unit": "g"
+            }
+          },
+          "nutrients": [
+            {
+              "code": "NUT_ENERGY",
+              "name": "Energy",
+              "operator": "=",
+              "pictogram_name": "Energy",
+              "category": "BIG9",
+              "quantity": {
+                "value": "968 kJ",
+                "numeric_value": 968,
+                "unit": "kJ",
+                "alternate": {
+                  "value": "232 kcal",
+                  "numeric_value": 232,
+                  "unit": "kcal"
+                }
+              },
+              "rda": {
+                "percent": 12,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_FAT",
+              "name": "Fat",
+              "operator": "=",
+              "pictogram_name": "Fat",
+              "category": "BIG9",
+              "quantity": {
+                "value": "13 g",
+                "numeric_value": 13,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 19,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_SATURATED_FATTY_ACIDS",
+              "name": "of which saturates",
+              "operator": "=",
+              "pictogram_name": "saturated fatty acids",
+              "category": "BIG9",
+              "quantity": {
+                "value": "1 g",
+                "numeric_value": 1,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 5,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_CARBOHYDRATES",
+              "name": "Carbohydrate",
+              "operator": "=",
+              "category": "BIG9",
+              "quantity": {
+                "value": "24 g",
+                "numeric_value": 24,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 9,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_SUGAR",
+              "name": "of which sugars",
+              "operator": "=",
+              "pictogram_name": "Sugar",
+              "category": "BIG9",
+              "quantity": {
+                "value": "19 g",
+                "numeric_value": 19,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 21,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_FIBER",
+              "name": "Fibre",
+              "operator": "=",
+              "category": "BIG9",
+              "quantity": {
+                "value": "2.6 g",
+                "numeric_value": 2.6,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_PROTEIN",
+              "name": "Protein",
+              "operator": "=",
+              "category": "BIG9",
+              "quantity": {
+                "value": "4.1 g",
+                "numeric_value": 4.1,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 8,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_SALT",
+              "name": "Salt",
+              "operator": "=",
+              "pictogram_name": "Salt",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0.11 g",
+                "numeric_value": 0.11,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 2,
+                "operator": "="
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "recipe_ingredient_ids": [
+    "10000"
+  ],
+  "regional_availability": {
+    "gmaa": {
+      "probability": 22
+    },
+    "gmbs": {
+      "probability": 0
+    },
+    "gmge": {
+      "probability": 0
+    },
+    "gmlu": {
+      "probability": 0
+    },
+    "gmnf": {
+      "probability": 0
+    },
+    "gmos": {
+      "probability": 0
+    },
+    "gmti": {
+      "probability": 0
+    },
+    "gmvd": {
+      "probability": 0
+    },
+    "gmvs": {
+      "probability": 0
+    },
+    "gmzh": {
+      "probability": 0
+    }
+  },
+  "ratings": {
+    "count_all": 11,
+    "average_all": 4.727272727273
+  },
+  "related_products": {
+    "purchase_recommendations": {
+      "product_ids": [
+        "110406500000",
+        "110430300000",
+        "110410800000",
+        "110410200000",
+        "110440000000"
+      ]
+    }
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "updated_at": "2023-08-17T11:50:48+0200",
+  "sap_created_at": "2006-11-14T18:00:00+0100",
+  "online_shop_relevant": false,
+  "base_unit": "CU",
+  "co2_compensation": {
+    "kg_co2": 2.12,
+    "kg_co2_compensation": 2.12,
+    "is_compensated": false,
+    "mcheck_enabled": true
+  },
+  "origins": {
+    "producing_country": "Switzerland"
+  },
+  "views": [
+    "all",
+    "browse",
+    "browseallretailers"
+  ]
+}

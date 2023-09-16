@@ -1,0 +1,577 @@
+{
+  "id": "720516100012",
+  "language": "en",
+  "name": "UNIV-BOX TRANSP",
+  "names": {
+    "short_name": "UNIV-BOX TRANSP"
+  },
+  "slug": "univ-box-transp",
+  "slugs": {
+    "de": "universalbox-a4",
+    "fr": "casier-universel",
+    "it": "contenitore-universale",
+    "en": "univ-box-transp"
+  },
+  "type": "02",
+  "boss_number": "150626961020",
+  "description": {
+    "text": "Ideal f&uuml;r die Ablage mit H&auml;ngemappen",
+    "source": "PEX"
+  },
+  "data_source": "SAP-X12",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03",
+    "distribution_center": [
+      {
+        "center_id": "1001",
+        "center_name": "Migros Verteilzentrum Neuendorf",
+        "status_code": "03",
+        "status_description": "active"
+      }
+    ]
+  },
+  "tags": [
+    "source-pex",
+    "near-non-food",
+    "migipedia",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": true,
+  "base_product_id": "720516100000",
+  "gtins": [
+    "7610859082831",
+    "7617026901919",
+    "7610859218988"
+  ],
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarket"
+  },
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "brand": {
+    "id": "MID",
+    "name": "Rotho",
+    "slug": "rotho-MID"
+  },
+  "labels": [
+    {
+      "id": "L53",
+      "name": "Swissness",
+      "slug": "swissness",
+      "image": {
+        "original": "https://image.migros.ch/original/d771bba2f6b08ba42970ea0243c6f8c5a8832f15/swissness.jpg",
+        "stack": "https://image.migros.ch/{stack}/d771bba2f6b08ba42970ea0243c6f8c5a8832f15/swissness.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_01051804",
+      "name": "Archivierung",
+      "slug": "supermarkt/papeterie-bueromaterial/ordnen-organisieren-BeSS_010518/archivierung",
+      "visible": true,
+      "parent_code": "BeSS_010518",
+      "level": 4
+    },
+    {
+      "code": "BeSS_010518",
+      "name": "Ordnen & Organisieren",
+      "slug": "supermarkt/papeterie-bueromaterial/ordnen-organisieren-BeSS_010518",
+      "visible": true,
+      "parent_code": "BeSS_0105",
+      "level": 3
+    },
+    {
+      "code": "BeSS_0105",
+      "name": "Papeterie & Büromaterial",
+      "slug": "supermarkt/papeterie-bueromaterial",
+      "visible": true,
+      "title": "Papeterie und Büromaterialien sind immer in Ihrer Migros zu finden",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/6b764b62482953963a5ab3263b9bd3a69cbf436a/papeterie-bueromaterial.jpg",
+        "stack": "https://image.migros.ch/{stack}/6b764b62482953963a5ab3263b9bd3a69cbf436a/papeterie-bueromaterial.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "online_relevant": [
+    {
+      "code": "MGB",
+      "name": "Migros Genossenschafts-Bund"
+    }
+  ],
+  "links": {
+    "migros_ch": {
+      "url": "https://www.migros.ch/en/product/720516100012?context=instore",
+      "name": "In-store assortment",
+      "canonical": "https://www.migros.ch/en/product/720516100012?context=instore",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/720516100012",
+      "name": "Migipedia",
+      "canonical": "https://www.migros.ch/en/product/720516100012?context=instore",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "receipt_text": "Universalbox Quadra",
+  "package": {
+    "content": 1,
+    "content_unit_code": "st",
+    "content_unit": "Stück",
+    "net_weight": 0.686,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "brutto_weight": 0.688,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 14.98,
+    "brutto_volume_unit_code": "cdm",
+    "height": 27,
+    "length": 36.5,
+    "width": 15.2,
+    "unit_dimension": "cm",
+    "price_comparison_content": 1,
+    "size": "1 Stk."
+  },
+  "package_information": {
+    "cu": {
+      "gtins": [
+        "7610859082831",
+        "7617026901919",
+        "7610859218988"
+      ],
+      "brutto_weight": 0.688,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 14.98,
+      "brutto_volume_unit_code": "cdm",
+      "height": 27,
+      "length": 36.5,
+      "width": 15.2,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "tuv": {
+      "gtins": [
+        "7612583096832"
+      ],
+      "brutto_weight": 2.5,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 61.705,
+      "brutto_volume_unit_code": "cdm",
+      "height": 35,
+      "length": 41,
+      "width": 43,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 2
+    },
+    "tue": {
+      "brutto_weight": 2.852,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 68.8,
+      "brutto_volume_unit_code": "cdm",
+      "height": 38.8,
+      "length": 62,
+      "width": 28.6,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 2
+    },
+    "lu": {
+      "number_of_base_units": 80
+    },
+    "lge": {
+      "number_of_base_units": 16
+    }
+  },
+  "vat": {
+    "id": 1,
+    "percentage": 7.7
+  },
+  "price": {
+    "valid_from": "2022-07-01T00:00:00+0200",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 10.95,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "1 Stk."
+    },
+    "base": {
+      "price": 10.95,
+      "quantity": 1,
+      "unit": "st"
+    }
+  },
+  "features": [
+    {
+      "label_code": "miso_anzahl",
+      "label": "Number",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1 Stk.",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MISO_CLA_OrdnungOrganisation_Papeterie_Haushalt_Alle",
+      "top_fact": false,
+      "unit_code": "Stk.",
+      "unit": "Stück",
+      "unit_symbol": "Stk.",
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "miso_masse_groesse",
+      "label": "Dimensions/size",
+      "values": [
+        {
+          "value": "37.5 x 15.5 x 28 cm "
+        }
+      ],
+      "category_code": "MISO_CLA_OrdnungOrganisation_Papeterie_Haushalt_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "miso_material",
+      "label": "Material",
+      "values": [
+        {
+          "value_code": "MISO_material_polystyrol",
+          "value": "Polystyrol"
+        }
+      ],
+      "category_code": "MISO_CLA_OrdnungOrganisation_Papeterie_Haushalt_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/5dc971d8f2a7144f2a608058ceac7204e0fd4ee3/univ-box-transp.jpg",
+    "stack": "https://image.migros.ch/{stack}/5dc971d8f2a7144f2a608058ceac7204e0fd4ee3/univ-box-transp.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/16340a1d54556feb9ab204f6791833ee455d3885/univ-box-transp.png",
+    "stack": "https://image.migros.ch/{stack}/16340a1d54556feb9ab204f6791833ee455d3885/univ-box-transp.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_RETURNABLE",
+      "label": "Return",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "true",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MAPI_RETURNABLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_MAX_ORDER_QUANTITY",
+      "values": [
+        {
+          "value_code": "NUMERIC_99999",
+          "value": "99999",
+          "numeric_value": 99999
+        }
+      ],
+      "category_code": "MAPI_MAX_ORDER_QUANTITY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_EXCLUDE_FROM_COMPARISON_ENGINES",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "false",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_EXCLUDE_FROM_COMPARISON_ENGINES",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+      "values": [
+        {
+          "value_code": "55",
+          "value": "Versandart Paket"
+        }
+      ],
+      "category_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LOGISTIC_CLASS",
+      "values": [
+        {
+          "value_code": "7",
+          "value": "VMI"
+        }
+      ],
+      "category_code": "MAPI_LOGISTIC_CLASS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Standard item"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "HART"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUSTOMS_POSITION",
+      "values": [
+        {
+          "value": "00039261600"
+        }
+      ],
+      "category_code": "MAPI_CUSTOMS_POSITION",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RISK_CLASS",
+      "values": [
+        {
+          "value_code": "3",
+          "value": "3 (low)"
+        }
+      ],
+      "category_code": "MAPI_RISK_CLASS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_KUBE_TUKA",
+      "values": [
+        {
+          "value_code": "BLANK",
+          "value": "KUBE und TUKA nicht zugelassen"
+        }
+      ],
+      "category_code": "MAPI_KUBE_TUKA",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HART",
+          "value": "Hartwaren Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "H",
+          "value": "Hartwaren"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "50993",
+          "value": "ABLAGEN"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_EXPORTABLE",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Yes",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MAPI_EXPORTABLE",
+      "top_fact": false
+    }
+  ],
+  "regional_availability": {
+    "gmaa": {
+      "probability": 28
+    },
+    "gmbs": {
+      "probability": 45
+    },
+    "gmge": {
+      "probability": 21
+    },
+    "gmlu": {
+      "probability": 19
+    },
+    "gmnf": {
+      "probability": 37
+    },
+    "gmos": {
+      "probability": 28
+    },
+    "gmti": {
+      "probability": 39
+    },
+    "gmvd": {
+      "probability": 26
+    },
+    "gmvs": {
+      "probability": 30
+    },
+    "gmzh": {
+      "probability": 34
+    }
+  },
+  "related_products": {
+    "reference_recommendations": {
+      "product_ids": [
+        "720513200000",
+        "721612700060",
+        "721612700040",
+        "721612700039",
+        "720513400000"
+      ]
+    }
+  },
+  "quantity_on_stock": 1578,
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "updated_at": "2023-08-17T07:46:10+0200",
+  "sap_created_at": "1999-06-04T00:00:00+0200",
+  "base_unit": "CU",
+  "origins": {
+    "producing_country": "Switzerland"
+  },
+  "views": [
+    "all",
+    "browse",
+    "browseallretailers"
+  ]
+}

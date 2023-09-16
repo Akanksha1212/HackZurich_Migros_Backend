@@ -1,0 +1,864 @@
+{
+  "id": "130923100000",
+  "language": "en",
+  "name": "Garden Gourmet Vegetarian Balls",
+  "names": {
+    "short_name": "Garden Gourmet Vegetarian Balls"
+  },
+  "slug": "garden-gourmet-vegetarian-balls",
+  "slugs": {
+    "de": "garden-gourmet-vegetarian-balls",
+    "fr": "garden-gourmet-vegetarian-balls",
+    "it": "garden-gourmet-vegetarian-balls",
+    "en": "garden-gourmet-vegetarian-balls"
+  },
+  "type": "00",
+  "boss_number": "020630311005",
+  "data_source": "SAP-X11",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "80"
+  },
+  "tags": [
+    "source-p4m",
+    "migipedia",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613039417195"
+  ],
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarket"
+  },
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "brand": {
+    "id": "BO4",
+    "name": "Garden Gourmet",
+    "slug": "garden-gourmet"
+  },
+  "labels": [
+    {
+      "id": "L79",
+      "name": "Nutri-Score",
+      "slug": "nutri-score"
+    },
+    {
+      "id": "L89",
+      "name": "Plant Based",
+      "slug": "plant-based"
+    },
+    {
+      "id": "L58",
+      "name": "V-vegetarisch",
+      "slug": "v-vegetarisch",
+      "image": {
+        "original": "https://image.migros.ch/original/7d8431afdd3f163932da1e3b874e7764940e4494/v-vegetarisch.jpg",
+        "stack": "https://image.migros.ch/{stack}/7d8431afdd3f163932da1e3b874e7764940e4494/v-vegetarisch.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_01011303",
+      "name": "Fleischersatz & Vegetarische Spezialitäten",
+      "slug": "supermarkt/lebensmittel/fertiggerichte-menues-snacks/fleischersatz-vegetarische-spezialitaeten",
+      "visible": true,
+      "parent_code": "BeSS_010113",
+      "level": 4
+    },
+    {
+      "code": "BeSS_010113",
+      "name": "Fertiggerichte, Menüs & Snacks",
+      "slug": "supermarkt/lebensmittel/fertiggerichte-menues-snacks",
+      "visible": true,
+      "title": "Fertige Pizzen, Menüs und Snacks &ndash; schnell und lecker von der Migros",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/6770b6c8fbbd2689aece359ffeda93b90c58dd09/fertiggerichte-menues-snacks.jpg",
+        "stack": "https://image.migros.ch/{stack}/6770b6c8fbbd2689aece359ffeda93b90c58dd09/fertiggerichte-menues-snacks.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/31702195ec9d38aecefe80349eb347f79d56c750/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/31702195ec9d38aecefe80349eb347f79d56c750/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "online_relevant": [
+    {
+      "code": "MGB",
+      "name": "Migros Genossenschafts-Bund"
+    },
+    {
+      "code": "MO",
+      "name": "Migros Online"
+    }
+  ],
+  "links": {
+    "migros_ch": {
+      "url": "https://www.migros.ch/en/product/130923100000?context=instore",
+      "name": "In-store assortment",
+      "canonical": "https://www.migros.ch/en/product/130923100000?context=instore",
+      "type": "info",
+      "purchasable": false
+    },
+    "migros_online": {
+      "url": "https://www.migros.ch/en/product/130923100000?context=online",
+      "mo_product_id": "6707261",
+      "name": "Online-shop assortment",
+      "canonical": "https://www.migros.ch/en/product/130923100000?context=instore",
+      "type": "shop",
+      "purchasable": true,
+      "one_catalog_id": 100027627
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/130923100000",
+      "name": "Migipedia",
+      "canonical": "https://www.migros.ch/en/product/130923100000?context=instore",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "has_safety_sheet": false,
+  "m_check2": {},
+  "receipt_text": "Garden Gourmet Balls",
+  "package": {
+    "content": 200,
+    "content_unit_code": "g",
+    "content_unit": "Gram",
+    "net_weight": 0.2,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogram",
+    "portions_per_package": "3 APPROXIMATELY",
+    "brutto_weight": 0.214,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 0.974,
+    "brutto_volume_unit_code": "cdm",
+    "height": 3.8,
+    "length": 13.7,
+    "width": 18.7,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "200g"
+  },
+  "package_information": {
+    "tu": {
+      "gtins": [
+        "7613404702611"
+      ],
+      "brutto_weight": 0.428,
+      "brutto_weight_unit_code": "kg",
+      "number_of_base_units": 2
+    },
+    "cu": {
+      "gtins": [
+        "7613039417195"
+      ],
+      "brutto_weight": 0.214,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.974,
+      "brutto_volume_unit_code": "cdm",
+      "height": 3.8,
+      "length": 13.7,
+      "width": 18.7,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    }
+  },
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "price": {
+    "valid_from": "2021-09-21T00:00:00+0200",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 4.95,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "200g"
+    },
+    "base": {
+      "price": 2.48,
+      "quantity": 100,
+      "unit": "G"
+    }
+  },
+  "features": [
+    {
+      "label_code": "MAPI_VEGETARIANISM",
+      "label": "Vegetarianism",
+      "values": [
+        {
+          "value_code": "MAPI_VEGETARIANISM_vegetarisch",
+          "value": "vegetarian"
+        }
+      ],
+      "category_code": "MAPI_VEGETARIANISM",
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/b2c3b3d775613e5ceceee788e0be49cab4eb0c7c/garden-gourmet-vegetarian-balls.jpg",
+    "stack": "https://image.migros.ch/{stack}/b2c3b3d775613e5ceceee788e0be49cab4eb0c7c/garden-gourmet-vegetarian-balls.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/0cd708157f0944d0aa9b10698ebbb845f8320127/garden-gourmet-vegetarian-balls.png",
+    "stack": "https://image.migros.ch/{stack}/0cd708157f0944d0aa9b10698ebbb845f8320127/garden-gourmet-vegetarian-balls.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_EXPORTABLE",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_EXPORTABLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Normalposition"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZFRP",
+          "value": "Frische Beschaffung"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "ZFRP"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "71205",
+          "value": "MEAT SUBSTITUTE, CLA"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LIFECYCLE",
+      "values": [
+        {
+          "value_code": "D",
+          "value": "Detailhandelsartikel"
+        }
+      ],
+      "category_code": "MAPI_LIFECYCLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_STORAGE_CONDITIONS",
+      "values": [
+        {
+          "value_code": "02",
+          "value": "refrigerated"
+        }
+      ],
+      "category_code": "MAPI_STORAGE_CONDITIONS",
+      "top_fact": false
+    },
+    {
+      "label_code": "acxCommonarticlecocompensated",
+      "label": "Artikel Co2 kompensiert",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false
+    },
+    {
+      "label_code": "acxCommonmesswertcompensation",
+      "label": "CO2-Wert Kompensation",
+      "values": [
+        {
+          "value_code": "NUMERIC_1.39",
+          "value": "1.39",
+          "numeric_value": 1.39
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false,
+      "unit_code": "5d71456e-a520-4294-9ddb-add78f63ce83",
+      "unit": "Equivalence per kilogram",
+      "unit_symbol": "eq / kg"
+    },
+    {
+      "label_code": "acxCommonoutputmcheckclimatedeclaration",
+      "label": "Auslobung M-Check Klimadeklaration",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false
+    }
+  ],
+  "declarations": {
+    "declaration_number": "Q_1604593688444721",
+    "tags": [
+      "source-qim"
+    ],
+    "gtins": [
+      "7613039417195"
+    ],
+    "valid_from": "2023-04-06T00:00:00+0200",
+    "product_details": {
+      "regulated_description": "Vegetarian product made from wheat and soya proteins",
+      "product_description": "Hearty seasoned and bite-sized portions, these are the vegetarian Garden Gourmet balls, ideal for veggie finger food - also very popular with kids. Small, round, irresistible - and disappeared with a bite.Made with high quality ingredients you know.Rich in protein & fibre.",
+      "package": {
+        "number_of_portions": "3 APPROXIMATELY"
+      },
+      "net_filled_quantity": {
+        "value": "200 g",
+        "numeric_value": 200,
+        "unit": "g"
+      },
+      "net_weight": {
+        "value": "200 Gramm",
+        "numeric_value": 200,
+        "unit": "Gramm"
+      }
+    },
+    "preparation": {
+      "information": "Stove 4 min. At medium heat with a little oil, turn after half of the cooking time. Oven (180°C) 6-8 min. Turn after half of the cooking time."
+    },
+    "distributor": {
+      "name": "Nestlé Suisse S.A.",
+      "address": "CP 2222, 1800 Vevey"
+    },
+    "general_information": [
+      {
+        "label": "Consumer storage instructions",
+        "values": [
+          "Store in a cool place at max. + 5°C. Thawed product, do not refreeze. Limited shelf life after opening."
+        ]
+      }
+    ],
+    "ingredients_information": {
+      "ingredients_text": "rehydrated SOYA protein 54%, rehydrated WHEAT protein 17%, mayonnaise (sunflower, vinegar, EGG yolk, MUSTARD, iodised salt, sugar), vegetable oils in varying amounts 4.5% (rapeseed, sunflower), EGG white powder, vinegar, yeast extract, bread crumbs (WHEAT flour, salt, yeast, rapeseed oil, paprika extract), corn starch, salt, dried onion, citric fibres, spices (paprika, all spice, white pepper, coriander, rosemary), BARLEY malt extract, beetroot powder, spice extracts. May contain: SESAME, CELERY.",
+      "additives_information": {
+        "declaration_obligatory": {
+          "code": "ATM",
+          "label": "Packaged under protective atmosphere"
+        }
+      },
+      "allergens_information": {
+        "trace_allergens_text": "May contain: Celery, Sesame seeds",
+        "allergens": [
+          {
+            "code": "ALLG_GLUTEN",
+            "label": "Cereal grains containing gluten and its derivatives",
+            "contamination_code": "VORHANDEN",
+            "contamination_label": "contains"
+          },
+          {
+            "code": "UW",
+            "label": "Wheat and their derivatives",
+            "contamination_code": "VORHANDEN",
+            "contamination_label": "contains"
+          },
+          {
+            "code": "ALLG_SOJA",
+            "label": "Soybean and its derivatives",
+            "contamination_code": "VORHANDEN",
+            "contamination_label": "contains"
+          },
+          {
+            "code": "ALLG_EIER",
+            "label": "Eggs and their derivatives",
+            "contamination_code": "VORHANDEN",
+            "contamination_label": "contains"
+          },
+          {
+            "code": "ALLG_SENF",
+            "label": "Mustard and its derivatives",
+            "contamination_code": "VORHANDEN",
+            "contamination_label": "contains"
+          }
+        ]
+      }
+    },
+    "nutrition_facts": {
+      "serving_size_description": "70 gram",
+      "reference_sizes": {
+        "standard": {
+          "base": {
+            "quantity": {
+              "value": "100 g",
+              "numeric_value": 100,
+              "unit": "g"
+            }
+          },
+          "nutrients": [
+            {
+              "code": "NUT_ENERGY",
+              "name": "Energy",
+              "operator": "~",
+              "pictogram_name": "Energy",
+              "category": "BIG9",
+              "quantity": {
+                "value": "836 kJ",
+                "numeric_value": 836,
+                "unit": "kJ",
+                "alternate": {
+                  "value": "201 kcal",
+                  "numeric_value": 201,
+                  "unit": "kcal"
+                }
+              }
+            },
+            {
+              "code": "NUT_FAT",
+              "name": "Fat",
+              "operator": "~",
+              "pictogram_name": "Fat",
+              "category": "BIG9",
+              "quantity": {
+                "value": "10 g",
+                "numeric_value": 10,
+                "unit": "g"
+              },
+              "rating": {
+                "value": 1,
+                "text": "medium",
+                "icon": {
+                  "original": "https://image.migros.ch/original/b84b389195e426a9e6b4cd66f2c79b1a049809da.svg",
+                  "stack": "https://image.migros.ch/{stack}/b84b389195e426a9e6b4cd66f2c79b1a049809da.svg"
+                },
+                "hex_color": "#e8a800"
+              }
+            },
+            {
+              "code": "NUT_SATURATED_FATTY_ACIDS",
+              "name": "of which saturates",
+              "operator": "~",
+              "pictogram_name": "saturated fatty acids",
+              "category": "BIG9",
+              "quantity": {
+                "value": "1.1 g",
+                "numeric_value": 1.1,
+                "unit": "g"
+              },
+              "rating": {
+                "value": 0,
+                "text": "low",
+                "icon": {
+                  "original": "https://image.migros.ch/original/a2b5e2562a4fedbbdec99c1932ec57c46c49cde4.svg",
+                  "stack": "https://image.migros.ch/{stack}/a2b5e2562a4fedbbdec99c1932ec57c46c49cde4.svg"
+                },
+                "hex_color": "#069800"
+              }
+            },
+            {
+              "code": "NUT_CARBOHYDRATES",
+              "name": "Carbohydrate",
+              "operator": "~",
+              "category": "BIG9",
+              "quantity": {
+                "value": "2 g",
+                "numeric_value": 2,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_SUGAR",
+              "name": "of which sugars",
+              "operator": "~",
+              "pictogram_name": "Sugar",
+              "category": "BIG9",
+              "quantity": {
+                "value": "2 g",
+                "numeric_value": 2,
+                "unit": "g"
+              },
+              "rating": {
+                "value": 0,
+                "text": "low",
+                "icon": {
+                  "original": "https://image.migros.ch/original/a2b5e2562a4fedbbdec99c1932ec57c46c49cde4.svg",
+                  "stack": "https://image.migros.ch/{stack}/a2b5e2562a4fedbbdec99c1932ec57c46c49cde4.svg"
+                },
+                "hex_color": "#069800"
+              }
+            },
+            {
+              "code": "NUT_FIBER",
+              "name": "Fibre",
+              "operator": "~",
+              "category": "BIG9",
+              "quantity": {
+                "value": "7.3 g",
+                "numeric_value": 7.3,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_PROTEIN",
+              "name": "Protein",
+              "operator": "~",
+              "category": "BIG9",
+              "quantity": {
+                "value": "22 g",
+                "numeric_value": 22,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_SALT",
+              "name": "Salt",
+              "operator": "~",
+              "pictogram_name": "Salt",
+              "category": "BIG9",
+              "quantity": {
+                "value": "1.4 g",
+                "numeric_value": 1.4,
+                "unit": "g"
+              },
+              "rating": {
+                "value": 1,
+                "text": "medium",
+                "icon": {
+                  "original": "https://image.migros.ch/original/b84b389195e426a9e6b4cd66f2c79b1a049809da.svg",
+                  "stack": "https://image.migros.ch/{stack}/b84b389195e426a9e6b4cd66f2c79b1a049809da.svg"
+                },
+                "hex_color": "#e8a800"
+              }
+            }
+          ]
+        },
+        "portion": {
+          "nutrients": [
+            {
+              "code": "NUT_ENERGY",
+              "name": "Energy",
+              "operator": "~",
+              "pictogram_name": "Energy",
+              "category": "BIG9",
+              "quantity": {
+                "value": "585 kJ",
+                "numeric_value": 585,
+                "unit": "kJ",
+                "alternate": {
+                  "value": "141 kcal",
+                  "numeric_value": 141,
+                  "unit": "kcal"
+                }
+              },
+              "rda": {
+                "percent": 7,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_FAT",
+              "name": "Fat",
+              "operator": "~",
+              "pictogram_name": "Fat",
+              "category": "BIG9",
+              "quantity": {
+                "value": "7 g",
+                "numeric_value": 7,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 10,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_SATURATED_FATTY_ACIDS",
+              "name": "of which saturates",
+              "operator": "~",
+              "pictogram_name": "saturated fatty acids",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0.8 g",
+                "numeric_value": 0.8,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 4,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_CARBOHYDRATES",
+              "name": "Carbohydrate",
+              "operator": "~",
+              "category": "BIG9",
+              "quantity": {
+                "value": "1.4 g",
+                "numeric_value": 1.4,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 1,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_SUGAR",
+              "name": "of which sugars",
+              "operator": "~",
+              "pictogram_name": "Sugar",
+              "category": "BIG9",
+              "quantity": {
+                "value": "1.4 g",
+                "numeric_value": 1.4,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 2,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_FIBER",
+              "name": "Fibre",
+              "operator": "~",
+              "category": "BIG9",
+              "quantity": {
+                "value": "5.1 g",
+                "numeric_value": 5.1,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_PROTEIN",
+              "name": "Protein",
+              "operator": "~",
+              "category": "BIG9",
+              "quantity": {
+                "value": "15 g",
+                "numeric_value": 15,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 30,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_SALT",
+              "name": "Salt",
+              "operator": "~",
+              "pictogram_name": "Salt",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0.98 g",
+                "numeric_value": 0.98,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 16,
+                "operator": "="
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "recipe_ingredient_ids": [
+    "10000"
+  ],
+  "regional_availability": {
+    "gmaa": {
+      "probability": 10
+    },
+    "gmbs": {
+      "probability": 5
+    },
+    "gmge": {
+      "probability": 8
+    },
+    "gmlu": {
+      "probability": 5
+    },
+    "gmnf": {
+      "probability": 10
+    },
+    "gmos": {
+      "probability": 7
+    },
+    "gmti": {
+      "probability": 16
+    },
+    "gmvd": {
+      "probability": 9
+    },
+    "gmvs": {
+      "probability": 15
+    },
+    "gmzh": {
+      "probability": 15
+    }
+  },
+  "ratings": {
+    "count_all": 12,
+    "average_all": 4.333333333333
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "updated_at": "2023-08-17T11:51:48+0200",
+  "sap_created_at": "2021-09-09T19:00:00+0200",
+  "online_shop_relevant": false,
+  "base_unit": "CU",
+  "co2_compensation": {
+    "kg_co2": 1.39,
+    "kg_co2_compensation": 1.39,
+    "is_compensated": false,
+    "mcheck_enabled": false
+  },
+  "origins": {
+    "producing_country": "Czech Republic"
+  },
+  "views": [
+    "all",
+    "browse",
+    "browseallretailers"
+  ]
+}

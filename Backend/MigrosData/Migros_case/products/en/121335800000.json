@@ -1,0 +1,455 @@
+{
+  "id": "121335800000",
+  "language": "en",
+  "name": "Somersby Wild Berries",
+  "names": {
+    "short_name": "Somersby Wild Berries"
+  },
+  "slug": "somersby-wild-berries-121335800000",
+  "slugs": {
+    "de": "somersby-wild-berries-121335800000",
+    "fr": "somersby-wild-berries-121335800000",
+    "it": "somersby-wild-berries-121335800000",
+    "en": "somersby-wild-berries-121335800000"
+  },
+  "type": "00",
+  "boss_number": "010710381605",
+  "data_source": "SAP-X11",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03"
+  },
+  "tags": [
+    "source-p4m",
+    "migipedia",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7612900346312"
+  ],
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarket"
+  },
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "brand": {
+    "id": "DZ1",
+    "name": "Sommersby",
+    "slug": "sommersby"
+  },
+  "categories": [
+    {
+      "code": "BeSS_01011008",
+      "name": "Apéro-Getränke",
+      "slug": "supermarkt/lebensmittel/getraenke-heiss-kalt/apero-getraenke",
+      "visible": true,
+      "parent_code": "BeSS_010110",
+      "image": {
+        "original": "https://image.migros.ch/original/4a3f4c1b330eb545aae12d80ba193eafcc4028d4/apero-getraenke.jpg",
+        "stack": "https://image.migros.ch/{stack}/4a3f4c1b330eb545aae12d80ba193eafcc4028d4/apero-getraenke.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010110",
+      "name": "Getränke heiss & kalt",
+      "slug": "supermarkt/lebensmittel/getraenke-heiss-kalt",
+      "visible": true,
+      "title": "Getränke aus der Migros löschen auch Ihren Durst",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/d04d95fbc2e1b4ada4783d2976d37a962a0318a1/getraenke-heiss-kalt.jpg",
+        "stack": "https://image.migros.ch/{stack}/d04d95fbc2e1b4ada4783d2976d37a962a0318a1/getraenke-heiss-kalt.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/31702195ec9d38aecefe80349eb347f79d56c750/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/31702195ec9d38aecefe80349eb347f79d56c750/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "online_relevant": [
+    {
+      "code": "MGB",
+      "name": "Migros Genossenschafts-Bund"
+    }
+  ],
+  "links": {
+    "migros_ch": {
+      "url": "https://www.migros.ch/en/product/121335800000?context=instore",
+      "name": "In-store assortment",
+      "canonical": "https://www.migros.ch/en/product/121335800000?context=instore",
+      "type": "info",
+      "purchasable": false
+    },
+    "migros_online": {
+      "url": "https://www.migros.ch/en/product/121335800000?context=online",
+      "mo_product_id": "10497789",
+      "name": "Online-shop assortment",
+      "canonical": "https://www.migros.ch/en/product/121335800000?context=instore",
+      "type": "shop",
+      "purchasable": true,
+      "one_catalog_id": 100123341
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/121335800000",
+      "name": "Migipedia",
+      "canonical": "https://www.migros.ch/en/product/121335800000?context=instore",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "has_safety_sheet": false,
+  "m_check2": {},
+  "receipt_text": "Somersby Wild Berries",
+  "package": {
+    "content": 2000,
+    "content_unit_code": "ml",
+    "content_unit": "Millilitre",
+    "net_weight": 2,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogram",
+    "type": "CU",
+    "portions_per_package": "1",
+    "brutto_weight": 2.069,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 2.945,
+    "brutto_volume_unit_code": "cdm",
+    "height": 16.9,
+    "length": 13.2,
+    "width": 13.2,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "4 x 500ml"
+  },
+  "package_information": {
+    "tu": {
+      "gtins": [
+        "7612900346305"
+      ],
+      "brutto_weight": 12.414,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 18.948,
+      "brutto_volume_unit_code": "cdm",
+      "height": 17.2,
+      "length": 40.8,
+      "width": 27,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 6
+    },
+    "cu": {
+      "gtins": [
+        "7612900346312"
+      ],
+      "brutto_weight": 2.069,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 2.945,
+      "brutto_volume_unit_code": "cdm",
+      "height": 16.9,
+      "length": 13.2,
+      "width": 13.2,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "lu": {
+      "brutto_weight": 807.082,
+      "brutto_weight_unit_code": "kg",
+      "length": 120,
+      "width": 80,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 378
+    }
+  },
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "price": {
+    "valid_from": "2022-12-19T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 11.5,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "4 x 500ml"
+    },
+    "base": {
+      "price": 0.58,
+      "quantity": 100,
+      "unit": "ML"
+    }
+  },
+  "image": {
+    "original": "https://image.migros.ch/original/f115f2abdf47c8d49c1fdaf548f7812b780c292b/somersby-wild-berries.jpg",
+    "stack": "https://image.migros.ch/{stack}/f115f2abdf47c8d49c1fdaf548f7812b780c292b/somersby-wild-berries.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/03a59055270bbdf684bcb03ef8f317a755f07968/somersby-wild-berries.png",
+    "stack": "https://image.migros.ch/{stack}/03a59055270bbdf684bcb03ef8f317a755f07968/somersby-wild-berries.png"
+  },
+  "additional_images": [
+    {
+      "original": "https://image.migros.ch/original/3e0eecb3ceb05fce2f2716fcec2454d150432305.jpg",
+      "stack": "https://image.migros.ch/{stack}/3e0eecb3ceb05fce2f2716fcec2454d150432305.jpg"
+    }
+  ],
+  "internal_features": [
+    {
+      "label_code": "MAPI_EXPORTABLE",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_EXPORTABLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Normalposition"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "HAWA"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "10722",
+          "value": "APERITIF/MIXED DRINK"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LIFECYCLE",
+      "values": [
+        {
+          "value_code": "D",
+          "value": "Detailhandelsartikel"
+        }
+      ],
+      "category_code": "MAPI_LIFECYCLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_STORAGE_CONDITIONS",
+      "values": [
+        {
+          "value_code": "01",
+          "value": "normal"
+        }
+      ],
+      "category_code": "MAPI_STORAGE_CONDITIONS",
+      "top_fact": false
+    }
+  ],
+  "declarations": {
+    "declaration_number": "Q_1604593689892549",
+    "tags": [
+      "source-qim"
+    ],
+    "gtins": [
+      "7612900346312"
+    ],
+    "valid_from": "2023-04-30T00:00:00+0200"
+  },
+  "recipe_ingredient_ids": [
+    "19510489"
+  ],
+  "regional_availability": {
+    "gmaa": {
+      "probability": 92
+    },
+    "gmbs": {
+      "probability": 95
+    },
+    "gmge": {
+      "probability": 47
+    },
+    "gmlu": {
+      "probability": 85
+    },
+    "gmnf": {
+      "probability": 98
+    },
+    "gmos": {
+      "probability": 84
+    },
+    "gmti": {
+      "probability": 77
+    },
+    "gmvd": {
+      "probability": 75
+    },
+    "gmvs": {
+      "probability": 93
+    },
+    "gmzh": {
+      "probability": 89
+    }
+  },
+  "ratings": {
+    "count_all": 14,
+    "average_all": 4.5
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "updated_at": "2023-08-17T11:48:06+0200",
+  "sap_created_at": "2022-12-12T18:00:00+0100",
+  "online_shop_relevant": false,
+  "base_unit": "CU",
+  "origins": {},
+  "views": [
+    "all",
+    "browse",
+    "browseallretailers"
+  ]
+}

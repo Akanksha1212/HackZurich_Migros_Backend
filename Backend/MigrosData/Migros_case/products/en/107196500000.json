@@ -1,0 +1,794 @@
+{
+  "id": "107196500000",
+  "language": "en",
+  "name": "Starbucks White Mocha",
+  "names": {
+    "short_name": "Starbucks White Mocha"
+  },
+  "slug": "starbucks-white-mocha",
+  "slugs": {
+    "de": "starbucks-white-mocha",
+    "fr": "starbucks-white-mocha",
+    "it": "starbucks-white-mocha",
+    "en": "starbucks-white-mocha"
+  },
+  "type": "00",
+  "boss_number": "010310306610",
+  "data_source": "SAP-X11",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03"
+  },
+  "tags": [
+    "source-p4m",
+    "migipedia",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "8445290224637"
+  ],
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarket"
+  },
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "brand": {
+    "id": "C86",
+    "name": "Starbucks",
+    "slug": "starbucks"
+  },
+  "categories": [
+    {
+      "code": "BeSS_0101100103",
+      "name": "Instantkaffee",
+      "slug": "supermarkt/lebensmittel/getraenke-heiss-kalt/kaffee/instantkaffee",
+      "visible": true,
+      "parent_code": "BeSS_01011001",
+      "image": {
+        "original": "https://image.migros.ch/original/fe833ff86d480b3bb07f35488f2197e5c5b4867e/instantkaffee.jpg",
+        "stack": "https://image.migros.ch/{stack}/fe833ff86d480b3bb07f35488f2197e5c5b4867e/instantkaffee.jpg"
+      },
+      "level": 5
+    },
+    {
+      "code": "BeSS_01011001",
+      "name": "Kaffee",
+      "slug": "supermarkt/lebensmittel/getraenke-heiss-kalt/kaffee",
+      "visible": true,
+      "title": "Das schwarze Gold der Geniesser: Kaffee bei der Migros",
+      "parent_code": "BeSS_010110",
+      "image": {
+        "original": "https://image.migros.ch/original/878a8a7f86cd333586f7c8d78869200554182233/kaffee.jpg",
+        "stack": "https://image.migros.ch/{stack}/878a8a7f86cd333586f7c8d78869200554182233/kaffee.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010110",
+      "name": "Getränke heiss & kalt",
+      "slug": "supermarkt/lebensmittel/getraenke-heiss-kalt",
+      "visible": true,
+      "title": "Getränke aus der Migros löschen auch Ihren Durst",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/d04d95fbc2e1b4ada4783d2976d37a962a0318a1/getraenke-heiss-kalt.jpg",
+        "stack": "https://image.migros.ch/{stack}/d04d95fbc2e1b4ada4783d2976d37a962a0318a1/getraenke-heiss-kalt.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/31702195ec9d38aecefe80349eb347f79d56c750/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/31702195ec9d38aecefe80349eb347f79d56c750/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "online_relevant": [
+    {
+      "code": "MGB",
+      "name": "Migros Genossenschafts-Bund"
+    }
+  ],
+  "links": {
+    "migros_ch": {
+      "url": "https://www.migros.ch/en/product/107196500000?context=instore",
+      "name": "In-store assortment",
+      "canonical": "https://www.migros.ch/en/product/107196500000?context=instore",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/107196500000",
+      "name": "Migipedia",
+      "canonical": "https://www.migros.ch/en/product/107196500000?context=instore",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "has_safety_sheet": false,
+  "m_check2": {},
+  "receipt_text": "Starbucks White Mocha",
+  "package": {
+    "content": 120,
+    "content_unit_code": "g",
+    "content_unit": "Gram",
+    "net_weight": 0.12,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogram",
+    "portions_per_package": "5",
+    "brutto_weight": 0.145,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 0.707,
+    "brutto_volume_unit_code": "cdm",
+    "height": 14.5,
+    "length": 7.5,
+    "width": 6.5,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "5 x 24g"
+  },
+  "package_information": {
+    "tu": {
+      "gtins": [
+        "8445290224620",
+        "8445290290670"
+      ],
+      "brutto_weight": 0.97,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 4.917,
+      "brutto_volume_unit_code": "cdm",
+      "height": 14.8,
+      "length": 23.9,
+      "width": 13.9,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 6
+    },
+    "cu": {
+      "gtins": [
+        "8445290224637"
+      ],
+      "brutto_weight": 0.145,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.707,
+      "brutto_volume_unit_code": "cdm",
+      "height": 14.5,
+      "length": 7.5,
+      "width": 6.5,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "lu": {
+      "brutto_weight": 215.12,
+      "brutto_weight_unit_code": "kg",
+      "length": 120,
+      "width": 80,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1176
+    }
+  },
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "price": {
+    "valid_from": "2023-01-10T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 5.5,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "5 x 24g"
+    },
+    "base": {
+      "price": 4.58,
+      "quantity": 100,
+      "unit": "G"
+    }
+  },
+  "image": {
+    "original": "https://image.migros.ch/original/270bff8365b7914690d8da523eae7bb894589a13/starbucks-white-mocha.jpg",
+    "stack": "https://image.migros.ch/{stack}/270bff8365b7914690d8da523eae7bb894589a13/starbucks-white-mocha.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/5c503162fb44dc56d0fbcfc58f4de1cdd3bd674e/starbucks-white-mocha.png",
+    "stack": "https://image.migros.ch/{stack}/5c503162fb44dc56d0fbcfc58f4de1cdd3bd674e/starbucks-white-mocha.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_EXPORTABLE",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_EXPORTABLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Normalposition"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "HAWA"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "10386",
+          "value": "INST. COFF. W.ADDIT."
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LIFECYCLE",
+      "values": [
+        {
+          "value_code": "D",
+          "value": "Detailhandelsartikel"
+        }
+      ],
+      "category_code": "MAPI_LIFECYCLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_STORAGE_CONDITIONS",
+      "values": [
+        {
+          "value_code": "01",
+          "value": "normal"
+        }
+      ],
+      "category_code": "MAPI_STORAGE_CONDITIONS",
+      "top_fact": false
+    }
+  ],
+  "declarations": {
+    "declaration_number": "Q_1604593689269733",
+    "tags": [
+      "source-qim"
+    ],
+    "gtins": [
+      "8445290224637"
+    ],
+    "valid_from": "2023-03-21T00:00:00+0100",
+    "product_details": {
+      "regulated_description": "Instant coffee beverage. White chocolate taste",
+      "product_description": "Inspired by the classic Starbucks White Mocha, we've crafted this indulgent & rich beverage for you to prepare at home using the same high quality 100% Arabica beans as our coffeehouses. Expertly blended together with dairy milk and our indulgent white mocha flavour, it is topped with a soft layer of foam for you to enjoy deliciously familiar Starbucks beverage.",
+      "package": {
+        "number_of_portions": "5"
+      },
+      "net_filled_quantity": {
+        "value": "120 g",
+        "numeric_value": 120,
+        "unit": "g"
+      },
+      "net_weight": {
+        "value": "120 Gramm",
+        "numeric_value": 120,
+        "unit": "Gramm"
+      }
+    },
+    "preparation": {
+      "information": "1. Pour 1 packet of Starbucks® White Mocha into your cup.2. Add 180 ml of hot water. Let the boiling water stand for 30 seconds before using. The optimum temperature is 85°C.3. Stir, get comfortable and enjoy your coffee."
+    },
+    "distributor": {
+      "name": "Nestlé Suisse S.A.",
+      "address": "CP 2222, 1800 Vevey"
+    },
+    "general_information": [
+      {
+        "label": "Consumer storage instructions",
+        "values": [
+          "Store in a cool, dry place."
+        ]
+      }
+    ],
+    "ingredients_information": {
+      "ingredients_text": "Ingredients: sugar, whole MILK powder (35,2%), semi-skimmed MILK powder (10,3%), instant coffee (6.1%), glucose syrup, LACTOSE, natural flavouring, stabilisers (potassium phosphate, sodium citrate), roast and ground coffee (0,1%).",
+      "additives_information": {
+        "declaration_obligatory": {
+          "code": "ATM",
+          "label": "Packaged under protective atmosphere"
+        },
+        "additives": [
+          {
+            "code": "ZSG019",
+            "label": "stabilizer",
+            "containment_code": "CONTAINS",
+            "containment_label": "Contains"
+          }
+        ]
+      },
+      "allergens_information": {
+        "allergens": [
+          {
+            "code": "ALLG_MILCH",
+            "label": "Milk and its derivatives",
+            "contamination_code": "VORHANDEN",
+            "contamination_label": "contains"
+          }
+        ]
+      }
+    },
+    "nutrition_facts": {
+      "serving_size_description": "24 gram",
+      "reference_sizes": {
+        "standard": {
+          "base": {
+            "quantity": {
+              "value": "100 ml",
+              "numeric_value": 100,
+              "unit": "ml"
+            }
+          },
+          "nutrients": [
+            {
+              "code": "NUT_ENERGY",
+              "name": "Energy",
+              "operator": "~",
+              "pictogram_name": "Energy",
+              "category": "BIG9",
+              "quantity": {
+                "value": "214 kJ",
+                "numeric_value": 214,
+                "unit": "kJ",
+                "alternate": {
+                  "value": "51 kcal",
+                  "numeric_value": 51,
+                  "unit": "kcal"
+                }
+              }
+            },
+            {
+              "code": "NUT_FAT",
+              "name": "Fat",
+              "operator": "~",
+              "pictogram_name": "Fat",
+              "category": "BIG9",
+              "quantity": {
+                "value": "1.2 g",
+                "numeric_value": 1.2,
+                "unit": "g"
+              },
+              "rating": {
+                "value": 1,
+                "text": "medium",
+                "icon": {
+                  "original": "https://image.migros.ch/original/b84b389195e426a9e6b4cd66f2c79b1a049809da.svg",
+                  "stack": "https://image.migros.ch/{stack}/b84b389195e426a9e6b4cd66f2c79b1a049809da.svg"
+                },
+                "hex_color": "#e8a800"
+              }
+            },
+            {
+              "code": "NUT_SATURATED_FATTY_ACIDS",
+              "name": "of which saturates",
+              "operator": "~",
+              "pictogram_name": "saturated fatty acids",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0.7 g",
+                "numeric_value": 0.7,
+                "unit": "g"
+              },
+              "rating": {
+                "value": 2,
+                "text": "high",
+                "icon": {
+                  "original": "https://image.migros.ch/original/9aa833abc7cb7207238c3e98a1253eeb7bceee1f.svg",
+                  "stack": "https://image.migros.ch/{stack}/9aa833abc7cb7207238c3e98a1253eeb7bceee1f.svg"
+                },
+                "hex_color": "#cc0000"
+              }
+            },
+            {
+              "code": "NUT_CARBOHYDRATES",
+              "name": "Carbohydrate",
+              "operator": "~",
+              "category": "BIG9",
+              "quantity": {
+                "value": "8.1 g",
+                "numeric_value": 8.1,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_SUGAR",
+              "name": "of which sugars",
+              "operator": "~",
+              "pictogram_name": "Sugar",
+              "category": "BIG9",
+              "quantity": {
+                "value": "7.6 g",
+                "numeric_value": 7.6,
+                "unit": "g"
+              },
+              "rating": {
+                "value": 2,
+                "text": "high",
+                "icon": {
+                  "original": "https://image.migros.ch/original/9aa833abc7cb7207238c3e98a1253eeb7bceee1f.svg",
+                  "stack": "https://image.migros.ch/{stack}/9aa833abc7cb7207238c3e98a1253eeb7bceee1f.svg"
+                },
+                "hex_color": "#cc0000"
+              }
+            },
+            {
+              "code": "NUT_FIBER",
+              "name": "Fibre",
+              "operator": "~",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0.3 g",
+                "numeric_value": 0.3,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_PROTEIN",
+              "name": "Protein",
+              "operator": "~",
+              "category": "BIG9",
+              "quantity": {
+                "value": "1.7 g",
+                "numeric_value": 1.7,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_SALT",
+              "name": "Salt",
+              "operator": "~",
+              "pictogram_name": "Salt",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0.09 g",
+                "numeric_value": 0.09,
+                "unit": "g"
+              },
+              "rating": {
+                "value": 1,
+                "text": "medium",
+                "icon": {
+                  "original": "https://image.migros.ch/original/b84b389195e426a9e6b4cd66f2c79b1a049809da.svg",
+                  "stack": "https://image.migros.ch/{stack}/b84b389195e426a9e6b4cd66f2c79b1a049809da.svg"
+                },
+                "hex_color": "#e8a800"
+              }
+            }
+          ]
+        },
+        "portion": {
+          "nutrients": [
+            {
+              "code": "NUT_ENERGY",
+              "name": "Energy",
+              "operator": "~",
+              "pictogram_name": "Energy",
+              "category": "BIG9",
+              "quantity": {
+                "value": "414 kJ",
+                "numeric_value": 414,
+                "unit": "kJ",
+                "alternate": {
+                  "value": "98 kcal",
+                  "numeric_value": 98,
+                  "unit": "kcal"
+                }
+              },
+              "rda": {
+                "percent": 5,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_FAT",
+              "name": "Fat",
+              "operator": "~",
+              "pictogram_name": "Fat",
+              "category": "BIG9",
+              "quantity": {
+                "value": "2.3 g",
+                "numeric_value": 2.3,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 3,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_SATURATED_FATTY_ACIDS",
+              "name": "of which saturates",
+              "operator": "~",
+              "pictogram_name": "saturated fatty acids",
+              "category": "BIG9",
+              "quantity": {
+                "value": "1.4 g",
+                "numeric_value": 1.4,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 7,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_CARBOHYDRATES",
+              "name": "Carbohydrate",
+              "operator": "~",
+              "category": "BIG9",
+              "quantity": {
+                "value": "15.7 g",
+                "numeric_value": 15.7,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 6,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_SUGAR",
+              "name": "of which sugars",
+              "operator": "~",
+              "pictogram_name": "Sugar",
+              "category": "BIG9",
+              "quantity": {
+                "value": "14.9 g",
+                "numeric_value": 14.9,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 17,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_FIBER",
+              "name": "Fibre",
+              "operator": "~",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0.5 g",
+                "numeric_value": 0.5,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_PROTEIN",
+              "name": "Protein",
+              "operator": "~",
+              "category": "BIG9",
+              "quantity": {
+                "value": "3.3 g",
+                "numeric_value": 3.3,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 7,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_SALT",
+              "name": "Salt",
+              "operator": "~",
+              "pictogram_name": "Salt",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0.17 g",
+                "numeric_value": 0.17,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 3,
+                "operator": "="
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "recipe_ingredient_ids": [
+    "10000"
+  ],
+  "regional_availability": {
+    "gmaa": {
+      "probability": 66
+    },
+    "gmbs": {
+      "probability": 45
+    },
+    "gmge": {
+      "probability": 39
+    },
+    "gmlu": {
+      "probability": 69
+    },
+    "gmnf": {
+      "probability": 31
+    },
+    "gmos": {
+      "probability": 57
+    },
+    "gmti": {
+      "probability": 19
+    },
+    "gmvd": {
+      "probability": 49
+    },
+    "gmvs": {
+      "probability": 67
+    },
+    "gmzh": {
+      "probability": 65
+    }
+  },
+  "ratings": {
+    "count_all": 8,
+    "average_all": 4.75
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "updated_at": "2023-08-17T07:16:55+0200",
+  "sap_created_at": "2022-08-11T19:00:00+0200",
+  "online_shop_relevant": false,
+  "base_unit": "CU",
+  "origins": {
+    "producing_country": "Great Britain"
+  },
+  "views": [
+    "all",
+    "browse",
+    "browseallretailers"
+  ]
+}

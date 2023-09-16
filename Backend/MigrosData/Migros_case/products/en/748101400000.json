@@ -1,0 +1,547 @@
+{
+  "id": "748101400000",
+  "language": "en",
+  "name": "PLAYMOBIL 71207 FEUERWEHRMÄNNER",
+  "names": {
+    "short_name": "PLAYMOBIL 71207 FEUERWEHRMÄNNER"
+  },
+  "slug": "playmobil-71207-feuerwehrmaenner",
+  "slugs": {
+    "de": "playmobil-71207-feuerwehrmaenner",
+    "fr": "playmobil-71207-pompiers",
+    "it": "playmobil-71207-pompieri-in-azione",
+    "en": "playmobil-71207-feuerwehrmaenner"
+  },
+  "type": "00",
+  "boss_number": "130861400520",
+  "data_source": "SAP-X12",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03"
+  },
+  "tags": [
+    "source-pex",
+    "migipedia",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "4008789712073"
+  ],
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarket"
+  },
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": true,
+      "exclude_cross_channel": []
+    }
+  },
+  "brand": {
+    "id": "MHL",
+    "name": "PLAYMOBIL®",
+    "slug": "playmobil",
+    "image": {
+      "original": "https://image.migros.ch/original/cb605e96b7eebbcd0b2c0835c4ed1355be750ad9/playmobil.jpg",
+      "stack": "https://image.migros.ch/{stack}/cb605e96b7eebbcd0b2c0835c4ed1355be750ad9/playmobil.jpg"
+    }
+  },
+  "categories": [
+    {
+      "code": "BeSS_01071208",
+      "name": "Puppen & Plüsch",
+      "slug": "supermarkt/baby-kinder/spielwaren/puppen-pluesch",
+      "visible": true,
+      "title": "Puppen und Zubehör preisgünstig bei der Migros",
+      "parent_code": "BeSS_010712",
+      "level": 4
+    },
+    {
+      "code": "BeSS_010712",
+      "name": "Spielwaren",
+      "slug": "supermarkt/baby-kinder/spielwaren",
+      "visible": true,
+      "title": "Daran haben Kinder Freude: Spielwaren aus der Migros",
+      "parent_code": "BeSS_0107",
+      "image": {
+        "original": "https://image.migros.ch/original/44a2aeebd38216c32a1d9bbfc94664e575d085c1/spielwaren.jpg",
+        "stack": "https://image.migros.ch/{stack}/44a2aeebd38216c32a1d9bbfc94664e575d085c1/spielwaren.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0107",
+      "name": "Baby & Kinder",
+      "slug": "supermarkt/baby-kinder",
+      "visible": true,
+      "title": "Babyartikel: Alles rund ums Baby in Ihrer Migros kaufen",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/dc6e5e45f414e657061e049a69de80177f40ca98/baby-kinder.jpg",
+        "stack": "https://image.migros.ch/{stack}/dc6e5e45f414e657061e049a69de80177f40ca98/baby-kinder.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "MEL_SHOP_CAT_Playmobil_Spielwaren_GamingSpielwaren",
+        "name": "Playmobil",
+        "slug": "melectronics/gaming-spielwaren/spielwaren/playmobil",
+        "visible": true,
+        "parent_code": "MEL_SHOP_CAT_Spielwaren_GamingSpielwaren",
+        "level": 4
+      },
+      {
+        "code": "MEL_SHOP_CAT_Spielwaren_GamingSpielwaren",
+        "name": "Spielwaren",
+        "slug": "melectronics/gaming-spielwaren/spielwaren",
+        "visible": true,
+        "parent_code": "MEL_SHOP_CAT_GamingSpielwaren",
+        "level": 3
+      },
+      {
+        "code": "MEL_SHOP_CAT_GamingSpielwaren",
+        "name": "Gaming & Spielwaren",
+        "slug": "melectronics/gaming-spielwaren",
+        "visible": true,
+        "parent_code": "BeSS_04",
+        "level": 2
+      },
+      {
+        "code": "BeSS_04",
+        "name": "melectronics",
+        "slug": "melectronics",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "links": {
+    "melectronics": {
+      "url": "https://www.melectronics.ch/de/p/748101400000/playmobil-playmobil-71207-feuerwehrmaenner",
+      "name": "melectronics",
+      "canonical": "https://www.migros.ch/en/product/748101400000?context=instore",
+      "type": "shop",
+      "purchasable": false
+    },
+    "migros_ch": {
+      "url": "https://www.migros.ch/en/product/748101400000?context=instore",
+      "name": "In-store assortment",
+      "canonical": "https://www.migros.ch/en/product/748101400000?context=instore",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/748101400000",
+      "name": "Migipedia",
+      "canonical": "https://www.migros.ch/en/product/748101400000?context=instore",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "receipt_text": "Playmobil 71207",
+  "package": {
+    "brutto_weight": 72.5,
+    "brutto_weight_unit_code": "g",
+    "brutto_volume": 0.968,
+    "brutto_volume_unit_code": "cdm",
+    "height": 15,
+    "length": 4.3,
+    "width": 15,
+    "unit_dimension": "cm"
+  },
+  "package_information": {
+    "cu": {
+      "gtins": [
+        "4008789712073"
+      ],
+      "brutto_weight": 72.5,
+      "brutto_weight_unit_code": "g",
+      "brutto_volume": 0.968,
+      "brutto_volume_unit_code": "cdm",
+      "height": 15,
+      "length": 4.3,
+      "width": 15,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "tuv": {
+      "number_of_base_units": 6
+    },
+    "tue": {
+      "number_of_base_units": 6
+    },
+    "lu": {
+      "number_of_base_units": 1800
+    }
+  },
+  "vat": {
+    "id": 1,
+    "percentage": 7.7
+  },
+  "price": {
+    "valid_from": "2023-03-01T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 6.9,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false
+    }
+  },
+  "features": [
+    {
+      "label_code": "mel_spielwaren_kategorie",
+      "label": "Themenwelt",
+      "values": [
+        {
+          "value_code": "MEL_spielwaren_thema_Playmo-Friends",
+          "value": "Playmo-Friends"
+        }
+      ],
+      "category_code": "MEL_CLA_Playmobil_Spielwaren_Alle",
+      "top_fact": true,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/b3622d33b950a5aeb91d7c1e0c7080ccd6592071/playmobil-71207-feuerwehrmaenner.jpg",
+    "stack": "https://image.migros.ch/{stack}/b3622d33b950a5aeb91d7c1e0c7080ccd6592071/playmobil-71207-feuerwehrmaenner.jpg"
+  },
+  "additional_images": [
+    {
+      "original": "https://image.migros.ch/original/53c004080d0bafd7717a294c77918f0c2f88386e.jpg",
+      "stack": "https://image.migros.ch/{stack}/53c004080d0bafd7717a294c77918f0c2f88386e.jpg"
+    },
+    {
+      "original": "https://image.migros.ch/original/c830c6b071ac13ed31a81a64a432a49f37eaf48a.jpg",
+      "stack": "https://image.migros.ch/{stack}/c830c6b071ac13ed31a81a64a432a49f37eaf48a.jpg"
+    }
+  ],
+  "internal_features": [
+    {
+      "label_code": "MAPI_RETURNABLE",
+      "label": "Return",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "true",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MAPI_RETURNABLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_MAX_ORDER_QUANTITY",
+      "values": [
+        {
+          "value_code": "NUMERIC_3",
+          "value": "3",
+          "numeric_value": 3
+        }
+      ],
+      "category_code": "MAPI_MAX_ORDER_QUANTITY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_EXCLUDE_FROM_COMPARISON_ENGINES",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "false",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_EXCLUDE_FROM_COMPARISON_ENGINES",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+      "values": [
+        {
+          "value_code": "55",
+          "value": "Versandart Paket"
+        }
+      ],
+      "category_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LOGISTIC_CLASS",
+      "values": [
+        {
+          "value_code": "1",
+          "value": "Lager"
+        }
+      ],
+      "category_code": "MAPI_LOGISTIC_CLASS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Standard item"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "HART"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRESENTATION",
+      "values": [
+        {
+          "value_code": "L",
+          "value": "liegend"
+        }
+      ],
+      "category_code": "MAPI_PRESENTATION",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RISK_CLASS",
+      "values": [
+        {
+          "value_code": "1",
+          "value": "1 (high)"
+        }
+      ],
+      "category_code": "MAPI_RISK_CLASS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_QUALITY_CHECK",
+      "values": [
+        {
+          "value_code": "00",
+          "value": "No Quality Control"
+        }
+      ],
+      "category_code": "MAPI_QUALITY_CHECK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_KUBE_TUKA",
+      "values": [
+        {
+          "value_code": "BLANK",
+          "value": "KUBE und TUKA nicht zugelassen"
+        }
+      ],
+      "category_code": "MAPI_KUBE_TUKA",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HART",
+          "value": "Hartwaren Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "H",
+          "value": "Hartwaren"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "61241",
+          "value": "PLAYMOBIL"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_EXPORTABLE",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_EXPORTABLE",
+      "top_fact": false
+    }
+  ],
+  "regional_availability": {
+    "gmaa": {
+      "probability": 26
+    },
+    "gmbs": {
+      "probability": 24
+    },
+    "gmge": {
+      "probability": 28
+    },
+    "gmlu": {
+      "probability": 17
+    },
+    "gmnf": {
+      "probability": 35
+    },
+    "gmos": {
+      "probability": 26
+    },
+    "gmti": {
+      "probability": 13
+    },
+    "gmvd": {
+      "probability": 23
+    },
+    "gmvs": {
+      "probability": 33
+    },
+    "gmzh": {
+      "probability": 28
+    }
+  },
+  "quantity_on_stock": 162,
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "updated_at": "2023-08-07T07:47:04+0200",
+  "sap_created_at": "2023-02-14T00:00:00+0100",
+  "services": {
+    "logistics": [
+      {
+        "code": "MEL_LOGISTIK_FILIALE_POSTPAKET_GRATIS"
+      },
+      {
+        "code": "MEL_LOGISTIK_POSTPAKET_GRATIS"
+      }
+    ],
+    "others": []
+  },
+  "online_shop_relevant": true,
+  "base_unit": "CU",
+  "origins": {
+    "producing_country": "Tunisia"
+  },
+  "views": [
+    "all",
+    "browse",
+    "browseallretailers"
+  ]
+}

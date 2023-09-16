@@ -1,0 +1,657 @@
+{
+  "id": "160405700000",
+  "language": "en",
+  "name": "MILK'IS 10/540ML",
+  "names": {
+    "short_name": "MILK'IS 10/540ML"
+  },
+  "slug": "milkis-10540ml",
+  "slugs": {
+    "de": "milkis",
+    "fr": "milkis",
+    "it": "milkis",
+    "en": "milkis-10540ml"
+  },
+  "type": "00",
+  "boss_number": "010518001605",
+  "data_source": "SAP-X11",
+  "status": {
+    "id": "available",
+    "seasonal": true,
+    "pim_status": "03"
+  },
+  "tags": [
+    "source-p4m",
+    "migipedia",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7617400042528"
+  ],
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarket"
+  },
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "labels": [
+    {
+      "id": "L53",
+      "name": "Swissness",
+      "slug": "swissness",
+      "image": {
+        "original": "https://image.migros.ch/original/d771bba2f6b08ba42970ea0243c6f8c5a8832f15/swissness.jpg",
+        "stack": "https://image.migros.ch/{stack}/d771bba2f6b08ba42970ea0243c6f8c5a8832f15/swissness.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_01011507",
+      "name": "Glacé & Süssspeisen",
+      "slug": "supermarkt/lebensmittel/tiefkuehlprodukte/glace-suessspeisen",
+      "visible": true,
+      "title": "Sommer und Sonne &ndash; noch schöner mit Glacés von der Migros",
+      "parent_code": "BeSS_010115",
+      "image": {
+        "original": "https://image.migros.ch/original/7bdaa2df1262b11cfd6fc23b22ad4daf5e034702/glace-suessspeisen.jpg",
+        "stack": "https://image.migros.ch/{stack}/7bdaa2df1262b11cfd6fc23b22ad4daf5e034702/glace-suessspeisen.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010115",
+      "name": "Tiefkühlprodukte",
+      "slug": "supermarkt/lebensmittel/tiefkuehlprodukte",
+      "visible": true,
+      "title": "Tiefkühlprodukte aus Ihrer Migros: schnell etwas Feines auf Ihren Tisch",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/b8e389701dd44ecdd5fbc95db5eed9b0a8c4a03d/tiefkuehlprodukte.jpg",
+        "stack": "https://image.migros.ch/{stack}/b8e389701dd44ecdd5fbc95db5eed9b0a8c4a03d/tiefkuehlprodukte.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/31702195ec9d38aecefe80349eb347f79d56c750/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/31702195ec9d38aecefe80349eb347f79d56c750/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "online_relevant": [
+    {
+      "code": "MGB",
+      "name": "Migros Genossenschafts-Bund"
+    },
+    {
+      "code": "MO",
+      "name": "Migros Online"
+    }
+  ],
+  "links": {
+    "migros_ch": {
+      "url": "https://www.migros.ch/en/product/160405700000?context=instore",
+      "name": "In-store assortment",
+      "canonical": "https://www.migros.ch/en/product/160405700000?context=instore",
+      "type": "info",
+      "purchasable": false
+    },
+    "migros_online": {
+      "url": "https://www.migros.ch/en/product/160405700000?context=online",
+      "mo_product_id": "211166",
+      "name": "Online-shop assortment",
+      "canonical": "https://www.migros.ch/en/product/160405700000?context=instore",
+      "type": "shop",
+      "purchasable": true,
+      "one_catalog_id": 100033415
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/160405700000",
+      "name": "Migipedia",
+      "canonical": "https://www.migros.ch/en/product/160405700000?context=instore",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "has_safety_sheet": false,
+  "m_check2": {
+    "carbon_footprint": {
+      "image": {
+        "original": "https://image.migros.ch/original/0a2093a1718156b317e9aac46d5c2589cfde38b7.svg",
+        "stack": "https://image.migros.ch/{stack}/0a2093a1718156b317e9aac46d5c2589cfde38b7.svg"
+      },
+      "ground_and_sea_cargo": {
+        "kg_co2": 1.285,
+        "kg_co2_range": "1 - 1.9 kg CO₂eq / kg",
+        "co2_in_car_km": 7,
+        "rating": 4,
+        "production_in_percent": 84,
+        "packaging_in_percent": 13,
+        "transport_in_percent": 2
+      }
+    }
+  },
+  "receipt_text": "Milk'is",
+  "package": {
+    "content": 540,
+    "content_unit_code": "ml",
+    "content_unit": "Millilitre",
+    "net_weight": 0.4,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogram",
+    "type": "Package",
+    "portions_per_package": "10",
+    "precision": "exact",
+    "brutto_weight": 0.445,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 2.261,
+    "brutto_volume_unit_code": "cdm",
+    "height": 17.1,
+    "length": 7.1,
+    "width": 19.2,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "10 x 54ml"
+  },
+  "package_information": {
+    "tu": {
+      "gtins": [
+        "7624200006650"
+      ],
+      "brutto_weight": 4.095,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 20.358,
+      "brutto_volume_unit_code": "cdm",
+      "height": 18,
+      "length": 39,
+      "width": 29,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 8
+    },
+    "cu": {
+      "gtins": [
+        "7617400042528"
+      ],
+      "brutto_weight": 0.445,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 2.261,
+      "brutto_volume_unit_code": "cdm",
+      "height": 17.1,
+      "length": 7.1,
+      "width": 19.2,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "lu": {
+      "brutto_weight": 319.84,
+      "brutto_weight_unit_code": "kg",
+      "height": 180,
+      "number_of_base_units": 576
+    }
+  },
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "price": {
+    "valid_from": "2023-01-02T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 6.2,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "10 x 54ml"
+    },
+    "base": {
+      "price": 1.15,
+      "quantity": 100,
+      "unit": "ML"
+    }
+  },
+  "features": [
+    {
+      "label_code": "acxMISOsaisonal",
+      "label": "Saisonal",
+      "values": [
+        {
+          "value_code": "erxMISOsaisonalaktuellessaisonprodukt",
+          "value": "Seasonal product"
+        }
+      ],
+      "category_code": "ecxMISOCLAdessertsdessertsaucengarnierungenbearbeiteteverarbeitetenahrungsmittellebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOcugebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "erxMISOcugebindeartkartonschachtel",
+          "value": "Cardboard box"
+        }
+      ],
+      "category_code": "ecxMISOCLAdessertsdessertsaucengarnierungenbearbeiteteverarbeitetenahrungsmittellebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOartvondessert",
+      "label": "Art von Dessert",
+      "values": [
+        {
+          "value": "﻿Ice cream lollipop"
+        }
+      ],
+      "category_code": "ecxMISOCLAdessertsdessertsaucengarnierungenbearbeiteteverarbeitetenahrungsmittellebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOproduktionsanspruch",
+      "label": "Produktionsverfahren",
+      "values": [
+        {
+          "value_code": "erxMISOproduktionsanspruchmitnatuerlichenaromen",
+          "value": "Mit natürlichen Aromen"
+        }
+      ],
+      "category_code": "ecxMISOCLAdessertsdessertsaucengarnierungenbearbeiteteverarbeitetenahrungsmittellebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOartvonspeiseeisglace",
+      "label": "Art von Speiseeis/Glace",
+      "values": [
+        {
+          "value_code": "erxMISOartvonspeiseeisglacemilchglace",
+          "value": "Milchglace"
+        }
+      ],
+      "category_code": "ecxMISOCLAdessertsdessertsaucengarnierungenbearbeiteteverarbeitetenahrungsmittellebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOanzahlentnehmbarereinzelportionen",
+      "label": "Anzahl entnehmbarer Einzeleinheiten",
+      "values": [
+        {
+          "value_code": "NUMERIC_10",
+          "value": "10",
+          "numeric_value": 10
+        }
+      ],
+      "category_code": "ecxMISOCLAdessertsdessertsaucengarnierungenbearbeiteteverarbeitetenahrungsmittellebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/2f29def3448b269b8e64455cae8d43944c4e6705/milkis-10540ml.jpg",
+    "stack": "https://image.migros.ch/{stack}/2f29def3448b269b8e64455cae8d43944c4e6705/milkis-10540ml.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/8dbdde301d411ea0304ad0e92291689b8d5cb881/milkis-10540ml.png",
+    "stack": "https://image.migros.ch/{stack}/8dbdde301d411ea0304ad0e92291689b8d5cb881/milkis-10540ml.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_RETURNABLE",
+      "label": "Return",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "true",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MAPI_RETURNABLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_EXPORTABLE",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_EXPORTABLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Normalposition"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "HAWA"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "30202",
+          "value": "CHILDREN POPSICLES"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LIFECYCLE",
+      "values": [
+        {
+          "value_code": "D",
+          "value": "Detailhandelsartikel"
+        }
+      ],
+      "category_code": "MAPI_LIFECYCLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_STORAGE_CONDITIONS",
+      "values": [
+        {
+          "value_code": "03",
+          "value": "frozen"
+        }
+      ],
+      "category_code": "MAPI_STORAGE_CONDITIONS",
+      "top_fact": false
+    },
+    {
+      "label_code": "acxCommonarticlecocompensated",
+      "label": "Artikel Co2 kompensiert",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false
+    },
+    {
+      "label_code": "acxCommonmesswertcompensation",
+      "label": "CO2-Wert Kompensation",
+      "values": [
+        {
+          "value_code": "NUMERIC_1.285",
+          "value": "1.285",
+          "numeric_value": 1.285
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false,
+      "unit_code": "5d71456e-a520-4294-9ddb-add78f63ce83",
+      "unit": "Equivalence per kilogram",
+      "unit_symbol": "eq / kg"
+    },
+    {
+      "label_code": "acxCommonoutputmcheckclimatedeclaration",
+      "label": "Auslobung M-Check Klimadeklaration",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Yes",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false
+    }
+  ],
+  "declarations": {
+    "declaration_number": "Q_1604593688139728",
+    "tags": [
+      "source-qim"
+    ],
+    "gtins": [
+      "7617400042528"
+    ],
+    "valid_from": "2022-01-05T01:00:00+0100",
+    "product_details": {
+      "package": {
+        "type": "Package",
+        "number_of_portions": "10",
+        "number_of_portions_operator": "="
+      },
+      "net_filled_quantity": {
+        "value": "540 ml",
+        "numeric_value": 540,
+        "unit": "ml"
+      }
+    },
+    "ingredients_information": {
+      "ingredients_text": "whole <strong>milk</strong> 68%, sugar, cocoa butter, skimmed <strong>milk</strong> powder, glucose-fructose syrup, cocoa mass, <strong>milk</strong> mineral concentrate, concentrated <strong>butter</strong>, <strong>cream</strong>, emulsifiers: E 471, E 476 and E 322, stabilisers: locust bean gum and guar gum, natural flavourings.",
+      "allergens_information": {
+        "trace_allergens_text": "May contain: almonds and hazelnuts.",
+        "allergens": [
+          {
+            "code": "ALLG_MILCH",
+            "label": "Milk and products thereof",
+            "contamination_code": "VORHANDEN",
+            "contamination_label": "contains"
+          }
+        ]
+      }
+    }
+  },
+  "recipe_ingredient_ids": [
+    "10000"
+  ],
+  "regional_availability": {
+    "gmaa": {
+      "probability": 18
+    },
+    "gmbs": {
+      "probability": 17
+    },
+    "gmge": {
+      "probability": 26
+    },
+    "gmlu": {
+      "probability": 10
+    },
+    "gmnf": {
+      "probability": 39
+    },
+    "gmos": {
+      "probability": 30
+    },
+    "gmti": {
+      "probability": 35
+    },
+    "gmvd": {
+      "probability": 32
+    },
+    "gmvs": {
+      "probability": 41
+    },
+    "gmzh": {
+      "probability": 21
+    }
+  },
+  "logistical_information": {
+    "frozen": true,
+    "frozen_pictogram": {
+      "original": "https://image.migros.ch/original/794fd761d3ea67c03dd52d31034af5854283fc33.svg",
+      "stack": "https://image.migros.ch/{stack}/794fd761d3ea67c03dd52d31034af5854283fc33.svg"
+    }
+  },
+  "ratings": {
+    "count_all": 17,
+    "average_all": 3.875
+  },
+  "related_products": {
+    "purchase_recommendations": {
+      "product_ids": [
+        "160561200000",
+        "160562400000",
+        "160565800000",
+        "160561400000",
+        "160561600000"
+      ]
+    }
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "updated_at": "2023-08-17T11:57:15+0200",
+  "sap_created_at": "2001-10-04T19:00:00+0200",
+  "online_shop_relevant": false,
+  "base_unit": "CU",
+  "co2_compensation": {
+    "kg_co2": 1.285,
+    "kg_co2_compensation": 1.285,
+    "is_compensated": false,
+    "mcheck_enabled": true
+  },
+  "origins": {
+    "producing_country": "Switzerland"
+  },
+  "views": [
+    "all",
+    "browse",
+    "browseallretailers"
+  ]
+}

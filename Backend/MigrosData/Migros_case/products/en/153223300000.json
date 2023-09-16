@@ -1,0 +1,758 @@
+{
+  "id": "153223300000",
+  "language": "en",
+  "name": "Agnesi Pesto Rosso",
+  "names": {
+    "short_name": "Agnesi Pesto Rosso"
+  },
+  "slug": "agnesi-pesto-rosso",
+  "slugs": {
+    "de": "agnesi-pesto-rosso",
+    "fr": "agnesi-pesto-rosso",
+    "it": "agnesi-pesto-rosso",
+    "en": "agnesi-pesto-rosso"
+  },
+  "type": "00",
+  "boss_number": "011011270510",
+  "data_source": "SAP-X11",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03"
+  },
+  "tags": [
+    "source-p4m",
+    "migipedia",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "80525493",
+    "8001200038215"
+  ],
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarket"
+  },
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "brand": {
+    "id": "003",
+    "name": "Agnesi",
+    "slug": "agnesi"
+  },
+  "categories": [
+    {
+      "code": "BeSS_0101140905",
+      "name": "Pasta-Saucen",
+      "slug": "supermarkt/lebensmittel/pasta-zutaten-konserven/suppen-saucen-bouillon/pasta-saucen",
+      "visible": true,
+      "title": "Pasta-Saucen in Ihrer Migros kaufen",
+      "parent_code": "BeSS_01011409",
+      "image": {
+        "original": "https://image.migros.ch/original/8c324048ff97ff7bb21775d23d1f3c23c13c2388/pasta-saucen.jpg",
+        "stack": "https://image.migros.ch/{stack}/8c324048ff97ff7bb21775d23d1f3c23c13c2388/pasta-saucen.jpg"
+      },
+      "level": 5
+    },
+    {
+      "code": "BeSS_01011409",
+      "name": "Suppen, Saucen & Bouillon",
+      "slug": "supermarkt/lebensmittel/pasta-zutaten-konserven/suppen-saucen-bouillon",
+      "visible": true,
+      "title": "Bouillon in Ihrer Migros kaufen",
+      "parent_code": "BeSS_010114",
+      "image": {
+        "original": "https://image.migros.ch/original/ba6c260479751c9dbebd56a16470ff4af7db7203/suppen-saucen-bouillon.jpg",
+        "stack": "https://image.migros.ch/{stack}/ba6c260479751c9dbebd56a16470ff4af7db7203/suppen-saucen-bouillon.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010114",
+      "name": "Pasta, Zutaten & Konserven",
+      "slug": "supermarkt/lebensmittel/pasta-zutaten-konserven",
+      "visible": true,
+      "title": "Pasta aus Ihrer Migros: alles rund um Teigwaren",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/6d0964bbb34b8e041ba4d74fc0c90b149907f46a/pasta-zutaten-konserven.jpg",
+        "stack": "https://image.migros.ch/{stack}/6d0964bbb34b8e041ba4d74fc0c90b149907f46a/pasta-zutaten-konserven.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/31702195ec9d38aecefe80349eb347f79d56c750/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/31702195ec9d38aecefe80349eb347f79d56c750/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "online_relevant": [
+    {
+      "code": "MGB",
+      "name": "Migros Genossenschafts-Bund"
+    },
+    {
+      "code": "MO",
+      "name": "Migros Online"
+    }
+  ],
+  "links": {
+    "migros_ch": {
+      "url": "https://www.migros.ch/en/product/153223300000?context=instore",
+      "name": "In-store assortment",
+      "canonical": "https://www.migros.ch/en/product/153223300000?context=instore",
+      "type": "info",
+      "purchasable": false
+    },
+    "migros_online": {
+      "url": "https://www.migros.ch/en/product/153223300000?context=online",
+      "mo_product_id": "4961600",
+      "name": "Online-shop assortment",
+      "canonical": "https://www.migros.ch/en/product/153223300000?context=instore",
+      "type": "shop",
+      "purchasable": true,
+      "one_catalog_id": 100047554
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/153223300000",
+      "name": "Migipedia",
+      "canonical": "https://www.migros.ch/en/product/153223300000?context=instore",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "has_safety_sheet": false,
+  "m_check2": {},
+  "receipt_text": "Agnesi Pesto Rosso",
+  "package": {
+    "content": 185,
+    "content_unit_code": "g",
+    "content_unit": "Gram",
+    "net_weight": 0.185,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogram",
+    "type": "CU",
+    "portions_per_package": "1",
+    "brutto_weight": 0.321,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 0.413,
+    "brutto_volume_unit_code": "cdm",
+    "height": 8.3,
+    "length": 6.3,
+    "width": 7.9,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "185g"
+  },
+  "package_information": {
+    "tu": {
+      "gtins": [
+        "8001200038307"
+      ],
+      "brutto_weight": 3.98,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 5.838,
+      "brutto_volume_unit_code": "cdm",
+      "height": 8.9,
+      "length": 32.8,
+      "width": 20,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 12
+    },
+    "cu": {
+      "gtins": [
+        "8001200038215",
+        "80525493"
+      ],
+      "brutto_weight": 0.321,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.413,
+      "brutto_volume_unit_code": "cdm",
+      "height": 8.3,
+      "length": 6.3,
+      "width": 7.9,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "lu": {
+      "brutto_weight": 627,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 854.4,
+      "brutto_volume_unit_code": "cdm",
+      "height": 89,
+      "length": 120,
+      "width": 80,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1680
+    }
+  },
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "price": {
+    "valid_from": "2023-07-18T00:00:00+0200",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 3.8,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "185g"
+    },
+    "base": {
+      "price": 2.05,
+      "quantity": 100,
+      "unit": "G"
+    }
+  },
+  "features": [
+    {
+      "label_code": "acxMISOcugebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "erxMISOcugebindeartglas",
+          "value": "Glas"
+        }
+      ],
+      "category_code": "ecxMISOCLAsaucenaufstrichedipswuerzsaucengewuerzekonservierungsstoffeextraktelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOartvonsaucedip",
+      "label": "Art von Sauce/Dip",
+      "values": [
+        {
+          "value_code": "erxMISOartvonsaucedippesto",
+          "value": "Pesto"
+        }
+      ],
+      "category_code": "ecxMISOCLAsaucenaufstrichedipswuerzsaucengewuerzekonservierungsstoffeextraktelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOvorgeseheneverwendungdersauce",
+      "label": "Vorgesehene Verwendung der Sauce",
+      "values": [
+        {
+          "value_code": "erxMISOvorgeseheneverwendungdersauceteigwaren",
+          "value": "Teigwaren"
+        }
+      ],
+      "category_code": "ecxMISOCLAsaucenaufstrichedipswuerzsaucengewuerzekonservierungsstoffeextraktelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/4f442c3924fa4cd7a350addfd4102cd306840c38/agnesi-pesto-rosso.jpg",
+    "stack": "https://image.migros.ch/{stack}/4f442c3924fa4cd7a350addfd4102cd306840c38/agnesi-pesto-rosso.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/576f211b084be91cdd88ef5ac9132609fd55c01c/agnesi-pesto-rosso.png",
+    "stack": "https://image.migros.ch/{stack}/576f211b084be91cdd88ef5ac9132609fd55c01c/agnesi-pesto-rosso.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_RETURNABLE",
+      "label": "Return",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "true",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MAPI_RETURNABLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_EXPORTABLE",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_EXPORTABLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Normalposition"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "HAWA"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "10133",
+          "value": "PREM. SAUCE PASTA"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LIFECYCLE",
+      "values": [
+        {
+          "value_code": "D",
+          "value": "Detailhandelsartikel"
+        }
+      ],
+      "category_code": "MAPI_LIFECYCLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUSTOMS_POSITION",
+      "values": [
+        {
+          "value": "2103.9000"
+        }
+      ],
+      "category_code": "MAPI_CUSTOMS_POSITION",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_STORAGE_CONDITIONS",
+      "values": [
+        {
+          "value_code": "01",
+          "value": "normal"
+        }
+      ],
+      "category_code": "MAPI_STORAGE_CONDITIONS",
+      "top_fact": false
+    },
+    {
+      "label_code": "acxCommonarticlecocompensated",
+      "label": "Artikel Co2 kompensiert",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false
+    },
+    {
+      "label_code": "acxCommonmesswertcompensation",
+      "label": "CO2-Wert Kompensation",
+      "values": [
+        {
+          "value_code": "NUMERIC_2.393",
+          "value": "2.393",
+          "numeric_value": 2.393
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false,
+      "unit_code": "5d71456e-a520-4294-9ddb-add78f63ce83",
+      "unit": "Equivalence per kilogram",
+      "unit_symbol": "eq / kg"
+    },
+    {
+      "label_code": "acxCommonoutputmcheckclimatedeclaration",
+      "label": "Auslobung M-Check Klimadeklaration",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false
+    }
+  ],
+  "declarations": {
+    "declaration_number": "Q_2121841432603860",
+    "tags": [
+      "source-qim"
+    ],
+    "gtins": [
+      "80525493"
+    ],
+    "valid_from": "2021-09-02T00:00:00+0200",
+    "product_details": {
+      "net_filled_quantity": {
+        "value": "185 g",
+        "numeric_value": 185,
+        "unit": "g"
+      }
+    },
+    "ingredients_information": {
+      "ingredients_text": "Rehydrated dried tomatoes [(dried tomatoes, water, salt, apple cider vinegar, antioxidant: ascorbic acid) (40.5%)], olive oil (25%), water, sunflower oil, dextrose, basil (1%), oregano (0.2%), thyme (0.2%), marjoram (0.2%), garlic, salt, chili pepper."
+    },
+    "nutrition_facts": {
+      "reference_sizes": {
+        "standard": {
+          "base": {
+            "quantity": {
+              "value": "100 g",
+              "numeric_value": 100,
+              "unit": "g"
+            }
+          },
+          "nutrients": [
+            {
+              "code": "NUT_ENERGY",
+              "name": "Energy",
+              "operator": "~",
+              "pictogram_name": "Energy",
+              "category": "BIG9",
+              "quantity": {
+                "value": "1489 kJ",
+                "numeric_value": 1489,
+                "unit": "kJ",
+                "alternate": {
+                  "value": "361 kcal",
+                  "numeric_value": 361,
+                  "unit": "kcal"
+                }
+              }
+            },
+            {
+              "code": "NUT_FAT",
+              "name": "Fat",
+              "operator": "~",
+              "pictogram_name": "Fat",
+              "category": "BIG9",
+              "quantity": {
+                "value": "35 g",
+                "numeric_value": 35,
+                "unit": "g"
+              },
+              "rating": {
+                "value": 2,
+                "text": "high",
+                "icon": {
+                  "original": "https://image.migros.ch/original/9aa833abc7cb7207238c3e98a1253eeb7bceee1f.svg",
+                  "stack": "https://image.migros.ch/{stack}/9aa833abc7cb7207238c3e98a1253eeb7bceee1f.svg"
+                },
+                "hex_color": "#cc0000"
+              }
+            },
+            {
+              "code": "NUT_SATURATED_FATTY_ACIDS",
+              "name": "of which saturates",
+              "operator": "~",
+              "pictogram_name": "saturated fatty acids",
+              "category": "BIG9",
+              "quantity": {
+                "value": "5.2 g",
+                "numeric_value": 5.2,
+                "unit": "g"
+              },
+              "rating": {
+                "value": 2,
+                "text": "high",
+                "icon": {
+                  "original": "https://image.migros.ch/original/9aa833abc7cb7207238c3e98a1253eeb7bceee1f.svg",
+                  "stack": "https://image.migros.ch/{stack}/9aa833abc7cb7207238c3e98a1253eeb7bceee1f.svg"
+                },
+                "hex_color": "#cc0000"
+              }
+            },
+            {
+              "code": "NUT_CARBOHYDRATES",
+              "name": "Carbohydrate",
+              "operator": "~",
+              "category": "BIG9",
+              "quantity": {
+                "value": "9.1 g",
+                "numeric_value": 9.1,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_SUGAR",
+              "name": "of which sugars",
+              "operator": "~",
+              "pictogram_name": "Sugar",
+              "category": "BIG9",
+              "quantity": {
+                "value": "8.2 g",
+                "numeric_value": 8.2,
+                "unit": "g"
+              },
+              "rating": {
+                "value": 1,
+                "text": "medium",
+                "icon": {
+                  "original": "https://image.migros.ch/original/b84b389195e426a9e6b4cd66f2c79b1a049809da.svg",
+                  "stack": "https://image.migros.ch/{stack}/b84b389195e426a9e6b4cd66f2c79b1a049809da.svg"
+                },
+                "hex_color": "#e8a800"
+              }
+            },
+            {
+              "code": "NUT_FIBER",
+              "name": "Fibre",
+              "operator": "~",
+              "category": "BIG9",
+              "quantity": {
+                "value": "2.3 g",
+                "numeric_value": 2.3,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_PROTEIN",
+              "name": "Protein",
+              "operator": "~",
+              "category": "BIG9",
+              "quantity": {
+                "value": "1.2 g",
+                "numeric_value": 1.2,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_SALT",
+              "name": "Salt",
+              "operator": "~",
+              "pictogram_name": "Salt",
+              "category": "BIG9",
+              "quantity": {
+                "value": "1.7 g",
+                "numeric_value": 1.7,
+                "unit": "g"
+              },
+              "rating": {
+                "value": 2,
+                "text": "high",
+                "icon": {
+                  "original": "https://image.migros.ch/original/9aa833abc7cb7207238c3e98a1253eeb7bceee1f.svg",
+                  "stack": "https://image.migros.ch/{stack}/9aa833abc7cb7207238c3e98a1253eeb7bceee1f.svg"
+                },
+                "hex_color": "#cc0000"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "recipe_ingredient_ids": [
+    "15052",
+    "18675732"
+  ],
+  "regional_availability": {
+    "gmaa": {
+      "probability": 70
+    },
+    "gmbs": {
+      "probability": 83
+    },
+    "gmge": {
+      "probability": 63
+    },
+    "gmlu": {
+      "probability": 69
+    },
+    "gmnf": {
+      "probability": 56
+    },
+    "gmos": {
+      "probability": 59
+    },
+    "gmti": {
+      "probability": 35
+    },
+    "gmvd": {
+      "probability": 63
+    },
+    "gmvs": {
+      "probability": 56
+    },
+    "gmzh": {
+      "probability": 79
+    }
+  },
+  "ratings": {
+    "count_all": 19,
+    "average_all": 3.157894736842
+  },
+  "related_products": {
+    "purchase_recommendations": {
+      "product_ids": [
+        "153225800000",
+        "153223400000",
+        "153225700000",
+        "153237000000",
+        "153237300000"
+      ]
+    }
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "updated_at": "2023-08-17T11:53:34+0200",
+  "sap_created_at": "2004-01-28T18:00:00+0100",
+  "online_shop_relevant": false,
+  "base_unit": "CU",
+  "co2_compensation": {
+    "kg_co2": 2.393,
+    "kg_co2_compensation": 2.393,
+    "is_compensated": false,
+    "mcheck_enabled": false
+  },
+  "origins": {},
+  "views": [
+    "all",
+    "browse",
+    "browseallretailers"
+  ]
+}

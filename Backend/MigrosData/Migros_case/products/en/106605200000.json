@@ -1,0 +1,877 @@
+{
+  "id": "106605200000",
+  "language": "en",
+  "name": "Thomy Thomynaise light",
+  "names": {
+    "short_name": "Thomy Thomynaise light"
+  },
+  "slug": "thomy-thomynaise-light",
+  "slugs": {
+    "de": "thomy-thomynaise-light",
+    "fr": "thomy-thomynaise-light",
+    "it": "thomy-thomynaise-light",
+    "en": "thomy-thomynaise-light"
+  },
+  "type": "00",
+  "boss_number": "011011291005",
+  "description": {
+    "text": "100% köstlich, 60% leichter. Eier aus rückverfolgbarer Freilandhaltung.",
+    "source": "P4M"
+  },
+  "data_source": "SAP-X11",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03"
+  },
+  "tags": [
+    "source-p4m",
+    "migipedia",
+    "migrolino-data",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613287530158",
+    "7610100034923",
+    "7617027869546"
+  ],
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarket"
+  },
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "brand": {
+    "id": "402",
+    "name": "Thomy",
+    "slug": "thomy"
+  },
+  "categories": [
+    {
+      "code": "BeSS_0101140909",
+      "name": "Mayonnaise",
+      "slug": "supermarkt/lebensmittel/pasta-zutaten-konserven/suppen-saucen-bouillon/mayonnaise",
+      "visible": true,
+      "parent_code": "BeSS_01011409",
+      "image": {
+        "original": "https://image.migros.ch/original/3f9a4466cbafda192d161d5e8a428eb767ca0a0f/mayonnaise.jpg",
+        "stack": "https://image.migros.ch/{stack}/3f9a4466cbafda192d161d5e8a428eb767ca0a0f/mayonnaise.jpg"
+      },
+      "level": 5
+    },
+    {
+      "code": "BeSS_01011409",
+      "name": "Suppen, Saucen & Bouillon",
+      "slug": "supermarkt/lebensmittel/pasta-zutaten-konserven/suppen-saucen-bouillon",
+      "visible": true,
+      "title": "Bouillon in Ihrer Migros kaufen",
+      "parent_code": "BeSS_010114",
+      "image": {
+        "original": "https://image.migros.ch/original/ba6c260479751c9dbebd56a16470ff4af7db7203/suppen-saucen-bouillon.jpg",
+        "stack": "https://image.migros.ch/{stack}/ba6c260479751c9dbebd56a16470ff4af7db7203/suppen-saucen-bouillon.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010114",
+      "name": "Pasta, Zutaten & Konserven",
+      "slug": "supermarkt/lebensmittel/pasta-zutaten-konserven",
+      "visible": true,
+      "title": "Pasta aus Ihrer Migros: alles rund um Teigwaren",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/6d0964bbb34b8e041ba4d74fc0c90b149907f46a/pasta-zutaten-konserven.jpg",
+        "stack": "https://image.migros.ch/{stack}/6d0964bbb34b8e041ba4d74fc0c90b149907f46a/pasta-zutaten-konserven.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/31702195ec9d38aecefe80349eb347f79d56c750/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/31702195ec9d38aecefe80349eb347f79d56c750/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "online_relevant": [
+    {
+      "code": "MGB",
+      "name": "Migros Genossenschafts-Bund"
+    },
+    {
+      "code": "MO",
+      "name": "Migros Online"
+    }
+  ],
+  "links": {
+    "migros_ch": {
+      "url": "https://www.migros.ch/en/product/106605200000?context=instore",
+      "name": "In-store assortment",
+      "canonical": "https://www.migros.ch/en/product/106605200000?context=instore",
+      "type": "info",
+      "purchasable": false
+    },
+    "migros_online": {
+      "url": "https://www.migros.ch/en/product/106605200000?context=online",
+      "mo_product_id": "9780",
+      "name": "Online-shop assortment",
+      "canonical": "https://www.migros.ch/en/product/106605200000?context=instore",
+      "type": "shop",
+      "purchasable": true,
+      "one_catalog_id": 100001219
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/106605200000",
+      "name": "Migipedia",
+      "canonical": "https://www.migros.ch/en/product/106605200000?context=instore",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "has_safety_sheet": false,
+  "m_check2": {},
+  "receipt_text": "Thomynaise light",
+  "package": {
+    "content": 280,
+    "content_unit_code": "g",
+    "content_unit": "Gram",
+    "net_weight": 0.28,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogram",
+    "portions_per_package": "18",
+    "brutto_weight": 0.302,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 0.86,
+    "brutto_volume_unit_code": "cdm",
+    "height": 21.4,
+    "length": 4.9,
+    "width": 8.2,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "280g"
+  },
+  "package_information": {
+    "tu": {
+      "gtins": [
+        "7610100534928",
+        "7613032793319",
+        "7613287530165"
+      ],
+      "brutto_weight": 6.34,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 14.455,
+      "brutto_volume_unit_code": "cdm",
+      "height": 22.4,
+      "length": 29.2,
+      "width": 22.1,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 20
+    },
+    "cu": {
+      "gtins": [
+        "7610100034923",
+        "7613287530158",
+        "7617027869546"
+      ],
+      "brutto_weight": 0.302,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.86,
+      "brutto_volume_unit_code": "cdm",
+      "height": 21.4,
+      "length": 4.9,
+      "width": 8.2,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "lu": {
+      "brutto_weight": 518,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 1420.8,
+      "brutto_volume_unit_code": "cdm",
+      "height": 134.4,
+      "length": 120,
+      "width": 80,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1560
+    }
+  },
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "price": {
+    "valid_from": "2022-03-22T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 2.95,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "280g"
+    },
+    "base": {
+      "price": 1.05,
+      "quantity": 100,
+      "unit": "G"
+    }
+  },
+  "features": [
+    {
+      "label_code": "acxMISOcugebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "erxMISOcugebindearttube",
+          "value": "Tube"
+        }
+      ],
+      "category_code": "ecxMISOCLAsaucenaufstrichedipswuerzsaucengewuerzekonservierungsstoffeextraktelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOartvonsaucedip",
+      "label": "Art von Sauce/Dip",
+      "values": [
+        {
+          "value_code": "erxMISOartvonsaucedipmayonnaise",
+          "value": "Mayonnaise"
+        }
+      ],
+      "category_code": "ecxMISOCLAsaucenaufstrichedipswuerzsaucengewuerzekonservierungsstoffeextraktelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOartvonmayonnaise",
+      "label": "Art von Mayonnaise",
+      "values": [
+        {
+          "value": "A la Francaise"
+        }
+      ],
+      "category_code": "ecxMISOCLAsaucenaufstrichedipswuerzsaucengewuerzekonservierungsstoffeextraktelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/483645579a9982bd0d1cd39a011f160c0e3bb135/thomy-thomynaise-light.jpg",
+    "stack": "https://image.migros.ch/{stack}/483645579a9982bd0d1cd39a011f160c0e3bb135/thomy-thomynaise-light.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/449c1f1c3d87b9d950e952eb76f4080f38c06503/thomy-thomynaise-light.png",
+    "stack": "https://image.migros.ch/{stack}/449c1f1c3d87b9d950e952eb76f4080f38c06503/thomy-thomynaise-light.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_EXPORTABLE",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_EXPORTABLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Normalposition"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "HAWA"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "10143",
+          "value": "MAYONNAISE"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LIFECYCLE",
+      "values": [
+        {
+          "value_code": "D",
+          "value": "Detailhandelsartikel"
+        }
+      ],
+      "category_code": "MAPI_LIFECYCLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_STORAGE_CONDITIONS",
+      "values": [
+        {
+          "value_code": "01",
+          "value": "normal"
+        }
+      ],
+      "category_code": "MAPI_STORAGE_CONDITIONS",
+      "top_fact": false
+    },
+    {
+      "label_code": "acxCommonarticlecocompensated",
+      "label": "Artikel Co2 kompensiert",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false
+    },
+    {
+      "label_code": "acxCommonmesswertcompensation",
+      "label": "CO2-Wert Kompensation",
+      "values": [
+        {
+          "value_code": "NUMERIC_2.86",
+          "value": "2.86",
+          "numeric_value": 2.86
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false,
+      "unit_code": "5d71456e-a520-4294-9ddb-add78f63ce83",
+      "unit": "Equivalence per kilogram",
+      "unit_symbol": "eq / kg"
+    },
+    {
+      "label_code": "acxCommonoutputmcheckclimatedeclaration",
+      "label": "Auslobung M-Check Klimadeklaration",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false
+    }
+  ],
+  "declarations": {
+    "declaration_number": "Q_1604593689339809",
+    "tags": [
+      "source-qim"
+    ],
+    "gtins": [
+      "7613287530158"
+    ],
+    "valid_from": "2023-04-30T00:00:00+0200",
+    "product_details": {
+      "regulated_description": "Fat-reduced mayonnaise.",
+      "product_description": "You want it light? All right! The THOMY Thomynaise Light contains 60% less fat than conventional mayonnaise and is 100% delicious. Therefore, it is suitable for a calorie-conscious diet and is ideal for those who are looking for light enjoyment, but do not want to give up the taste of their favorite mayo. This is how it tastes best! THOMY's Thomynaise Light is the light icing on the cake of simply everything: with hard-boiled eggs, fresh bread, potato salad, on burgers, French fries, grilled steak and fish, salad as well as crunchy vegetables. What's inside? At THOMY, we place great value on natural ingredients. All our mayonnaises are produced in Basel, Switzerland.",
+      "package": {
+        "number_of_portions": "18"
+      },
+      "net_filled_quantity": {
+        "value": "280 g",
+        "numeric_value": 280,
+        "unit": "g"
+      }
+    },
+    "distributor": {
+      "name": "Nestlé Suisse S.A.",
+      "address": "CP 2222, 1800 Vevey"
+    },
+    "general_information": [
+      {
+        "label": "Consumer storage instructions",
+        "values": [
+          "Once opened, keep refrigerated"
+        ]
+      }
+    ],
+    "ingredients_information": {
+      "allergens_information": {
+        "allergens": [
+          {
+            "code": "ALLG_SENF",
+            "label": "Mustard and its derivatives",
+            "contamination_code": "VORHANDEN",
+            "contamination_label": "contains"
+          },
+          {
+            "code": "ALLG_EIER",
+            "label": "Eggs and their derivatives",
+            "contamination_code": "VORHANDEN",
+            "contamination_label": "contains"
+          }
+        ]
+      }
+    },
+    "nutrition_facts": {
+      "serving_size_description": "15 g",
+      "reference_sizes": {
+        "standard": {
+          "base": {
+            "quantity": {
+              "value": "100 g",
+              "numeric_value": 100,
+              "unit": "g"
+            }
+          },
+          "nutrients": [
+            {
+              "code": "NUT_ENERGY",
+              "name": "Energy",
+              "operator": "~",
+              "pictogram_name": "Energy",
+              "category": "BIG9",
+              "quantity": {
+                "value": "1259 kJ",
+                "numeric_value": 1259,
+                "unit": "kJ",
+                "alternate": {
+                  "value": "306 kcal",
+                  "numeric_value": 306,
+                  "unit": "kcal"
+                }
+              }
+            },
+            {
+              "code": "NUT_FAT",
+              "name": "Fat",
+              "operator": "~",
+              "pictogram_name": "Fat",
+              "category": "BIG9",
+              "quantity": {
+                "value": "31.5 g",
+                "numeric_value": 31.5,
+                "unit": "g"
+              },
+              "rating": {
+                "value": 2,
+                "text": "high",
+                "icon": {
+                  "original": "https://image.migros.ch/original/9aa833abc7cb7207238c3e98a1253eeb7bceee1f.svg",
+                  "stack": "https://image.migros.ch/{stack}/9aa833abc7cb7207238c3e98a1253eeb7bceee1f.svg"
+                },
+                "hex_color": "#cc0000"
+              }
+            },
+            {
+              "code": "NUT_SATURATED_FATTY_ACIDS",
+              "name": "of which saturates",
+              "operator": "~",
+              "pictogram_name": "saturated fatty acids",
+              "category": "BIG9",
+              "quantity": {
+                "value": "2.6 g",
+                "numeric_value": 2.6,
+                "unit": "g"
+              },
+              "rating": {
+                "value": 1,
+                "text": "medium",
+                "icon": {
+                  "original": "https://image.migros.ch/original/b84b389195e426a9e6b4cd66f2c79b1a049809da.svg",
+                  "stack": "https://image.migros.ch/{stack}/b84b389195e426a9e6b4cd66f2c79b1a049809da.svg"
+                },
+                "hex_color": "#e8a800"
+              }
+            },
+            {
+              "code": "NUT_CARBOHYDRATES",
+              "name": "Carbohydrate",
+              "operator": "~",
+              "category": "BIG9",
+              "quantity": {
+                "value": "4.5 g",
+                "numeric_value": 4.5,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_SUGAR",
+              "name": "of which sugars",
+              "operator": "~",
+              "pictogram_name": "Sugar",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0.7 g",
+                "numeric_value": 0.7,
+                "unit": "g"
+              },
+              "rating": {
+                "value": 0,
+                "text": "low",
+                "icon": {
+                  "original": "https://image.migros.ch/original/a2b5e2562a4fedbbdec99c1932ec57c46c49cde4.svg",
+                  "stack": "https://image.migros.ch/{stack}/a2b5e2562a4fedbbdec99c1932ec57c46c49cde4.svg"
+                },
+                "hex_color": "#069800"
+              }
+            },
+            {
+              "code": "NUT_FIBER",
+              "name": "Fibre",
+              "operator": "~",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0.1 g",
+                "numeric_value": 0.1,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_PROTEIN",
+              "name": "Protein",
+              "operator": "~",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0.7 g",
+                "numeric_value": 0.7,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_SALT",
+              "name": "Salt",
+              "operator": "~",
+              "pictogram_name": "Salt",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0.99 g",
+                "numeric_value": 0.99,
+                "unit": "g"
+              },
+              "rating": {
+                "value": 1,
+                "text": "medium",
+                "icon": {
+                  "original": "https://image.migros.ch/original/b84b389195e426a9e6b4cd66f2c79b1a049809da.svg",
+                  "stack": "https://image.migros.ch/{stack}/b84b389195e426a9e6b4cd66f2c79b1a049809da.svg"
+                },
+                "hex_color": "#e8a800"
+              }
+            }
+          ]
+        },
+        "portion": {
+          "nutrients": [
+            {
+              "code": "NUT_ENERGY",
+              "name": "Energy",
+              "operator": "~",
+              "pictogram_name": "Energy",
+              "category": "BIG9",
+              "quantity": {
+                "value": "189 kJ",
+                "numeric_value": 189,
+                "unit": "kJ",
+                "alternate": {
+                  "value": "46 kcal",
+                  "numeric_value": 46,
+                  "unit": "kcal"
+                }
+              }
+            },
+            {
+              "code": "NUT_FAT",
+              "name": "Fat",
+              "operator": "~",
+              "pictogram_name": "Fat",
+              "category": "BIG9",
+              "quantity": {
+                "value": "4.7 g",
+                "numeric_value": 4.7,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_SATURATED_FATTY_ACIDS",
+              "name": "of which saturates",
+              "operator": "~",
+              "pictogram_name": "saturated fatty acids",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0.4 g",
+                "numeric_value": 0.4,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_CARBOHYDRATES",
+              "name": "Carbohydrate",
+              "operator": "~",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0.7 g",
+                "numeric_value": 0.7,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_SUGAR",
+              "name": "of which sugars",
+              "operator": "~",
+              "pictogram_name": "Sugar",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0.1 g",
+                "numeric_value": 0.1,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_FIBER",
+              "name": "Fibre",
+              "operator": "~",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0 g",
+                "numeric_value": 0,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_PROTEIN",
+              "name": "Protein",
+              "operator": "~",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0.1 g",
+                "numeric_value": 0.1,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_SALT",
+              "name": "Salt",
+              "operator": "~",
+              "pictogram_name": "Salt",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0.15 g",
+                "numeric_value": 0.15,
+                "unit": "g"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "recipe_ingredient_ids": [
+    "10000"
+  ],
+  "regional_availability": {
+    "gmaa": {
+      "probability": 100
+    },
+    "gmbs": {
+      "probability": 100
+    },
+    "gmge": {
+      "probability": 89
+    },
+    "gmlu": {
+      "probability": 98
+    },
+    "gmnf": {
+      "probability": 100
+    },
+    "gmos": {
+      "probability": 98
+    },
+    "gmti": {
+      "probability": 100
+    },
+    "gmvd": {
+      "probability": 100
+    },
+    "gmvs": {
+      "probability": 100
+    },
+    "gmzh": {
+      "probability": 98
+    }
+  },
+  "ratings": {
+    "count_all": 111,
+    "average_all": 4.654205607477
+  },
+  "related_products": {
+    "purchase_recommendations": {
+      "product_ids": [
+        "106430000000",
+        "106605700000",
+        "106605300000",
+        "106605600000",
+        "106617100000"
+      ]
+    }
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "updated_at": "2023-08-17T11:44:03+0200",
+  "sap_created_at": "2009-09-27T19:00:00+0200",
+  "online_shop_relevant": false,
+  "base_unit": "CU",
+  "co2_compensation": {
+    "kg_co2": 2.86,
+    "kg_co2_compensation": 2.86,
+    "is_compensated": false,
+    "mcheck_enabled": false
+  },
+  "origins": {
+    "producing_country": "Switzerland"
+  },
+  "views": [
+    "all",
+    "browse",
+    "browseallretailers"
+  ]
+}

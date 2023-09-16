@@ -1,0 +1,841 @@
+{
+  "id": "101001200000",
+  "language": "en",
+  "name": "M-Classic Erfrischungsbonbons",
+  "names": {
+    "short_name": "M-Classic Erfrischungsbonbons"
+  },
+  "slug": "m-classic-erfrischungsbonbons",
+  "slugs": {
+    "de": "m-classic-erfrischungsbonbons",
+    "fr": "m-classic-bonbons-rafraichissants",
+    "it": "m-classic-caramella-rinfresco",
+    "en": "m-classic-erfrischungsbonbons"
+  },
+  "type": "00",
+  "boss_number": "010110082115",
+  "data_source": "SAP-X11",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03"
+  },
+  "tags": [
+    "source-pex",
+    "migipedia",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613312261507"
+  ],
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarket"
+  },
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "brand": {
+    "id": "068",
+    "name": "M-Classic",
+    "slug": "m-classic",
+    "links": {
+      "homepage": {
+        "url": "https://m-classic.migros.ch/de.html",
+        "name": "Homepage",
+        "type": "info",
+        "purchasable": false
+      }
+    }
+  },
+  "labels": [
+    {
+      "id": "L76",
+      "name": "No added sugar",
+      "slug": "no-added-sugar"
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_01010818",
+      "name": "Bonbons & Kaugummi",
+      "slug": "supermarkt/lebensmittel/suessigkeiten/bonbons-kaugummi",
+      "visible": true,
+      "title": "Süss, bunt und lecker: Bonbons und Kaugummis bei Ihrer Migros",
+      "parent_code": "BeSS_010108",
+      "image": {
+        "original": "https://image.migros.ch/original/6dfd207eab7f03685494677dd26a13e3f2bbe815/bonbons-kaugummi.jpg",
+        "stack": "https://image.migros.ch/{stack}/6dfd207eab7f03685494677dd26a13e3f2bbe815/bonbons-kaugummi.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010108",
+      "name": "Süssigkeiten",
+      "slug": "supermarkt/lebensmittel/suessigkeiten",
+      "visible": true,
+      "title": "Süssigkeiten aus Ihrer Migros: für Naschkatzen und Schleckmäuler",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/a9c80f4e896b5ebdd3b7ebbee11f956c8ff157cf/suessigkeiten.jpg",
+        "stack": "https://image.migros.ch/{stack}/a9c80f4e896b5ebdd3b7ebbee11f956c8ff157cf/suessigkeiten.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/31702195ec9d38aecefe80349eb347f79d56c750/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/31702195ec9d38aecefe80349eb347f79d56c750/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "online_relevant": [
+    {
+      "code": "MGB",
+      "name": "Migros Genossenschafts-Bund"
+    },
+    {
+      "code": "MO",
+      "name": "Migros Online"
+    }
+  ],
+  "links": {
+    "migros_ch": {
+      "url": "https://www.migros.ch/en/product/101001200000?context=instore",
+      "name": "In-store assortment",
+      "canonical": "https://www.migros.ch/en/product/101001200000?context=instore",
+      "type": "info",
+      "purchasable": false
+    },
+    "migros_online": {
+      "url": "https://www.migros.ch/en/product/101001200000?context=online",
+      "mo_product_id": "4965422",
+      "name": "Online-shop assortment",
+      "canonical": "https://www.migros.ch/en/product/101001200000?context=instore",
+      "type": "shop",
+      "purchasable": true,
+      "one_catalog_id": 100048342
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/101001200000",
+      "name": "Migipedia",
+      "canonical": "https://www.migros.ch/en/product/101001200000?context=instore",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "m_check2": {
+    "carbon_footprint": {
+      "image": {
+        "original": "https://image.migros.ch/original/0a2093a1718156b317e9aac46d5c2589cfde38b7.svg",
+        "stack": "https://image.migros.ch/{stack}/0a2093a1718156b317e9aac46d5c2589cfde38b7.svg"
+      },
+      "ground_and_sea_cargo": {
+        "kg_co2": 1.71,
+        "kg_co2_range": "1 - 1.9 kg CO₂eq / kg",
+        "co2_in_car_km": 9,
+        "rating": 4,
+        "production_in_percent": 83.72,
+        "packaging_in_percent": 6.15,
+        "transport_in_percent": 10.13
+      }
+    }
+  },
+  "receipt_text": "MClass Erfrischungsb.",
+  "package": {
+    "content": 125,
+    "content_unit_code": "g",
+    "content_unit": "Gramm",
+    "net_weight": 0.125,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "type": "Package",
+    "portions_per_package": "5",
+    "precision": "exact",
+    "brutto_weight": 0.139,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 0.78,
+    "brutto_volume_unit_code": "cdm",
+    "height": 20,
+    "length": 3,
+    "width": 13,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "125g"
+  },
+  "package_information": {
+    "tu": {
+      "gtins": [
+        "7613312261514"
+      ],
+      "brutto_weight": 2.038,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 11.4,
+      "brutto_volume_unit_code": "cdm",
+      "height": 12,
+      "length": 38,
+      "width": 25,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 14
+    },
+    "cu": {
+      "gtins": [
+        "7613312261507"
+      ],
+      "brutto_weight": 0.139,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.78,
+      "brutto_volume_unit_code": "cdm",
+      "height": 20,
+      "length": 3,
+      "width": 13,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "lu": {
+      "brutto_weight": 226.762,
+      "brutto_weight_unit_code": "kg",
+      "length": 120,
+      "width": 80,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1386
+    }
+  },
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "price": {
+    "valid_from": "2023-01-02T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 1.95,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "125g"
+    },
+    "base": {
+      "price": 1.56,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "image": {
+    "original": "https://image.migros.ch/original/3efee5a24d5d83efadeca9e38566c84a1a4090ff/m-classic-erfrischungsbonbons.jpg",
+    "stack": "https://image.migros.ch/{stack}/3efee5a24d5d83efadeca9e38566c84a1a4090ff/m-classic-erfrischungsbonbons.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/009740636b56ee382987ae296a64cae0b0c20042/m-classic-erfrischungsbonbons.png",
+    "stack": "https://image.migros.ch/{stack}/009740636b56ee382987ae296a64cae0b0c20042/m-classic-erfrischungsbonbons.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Standard item"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "HAWA"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "11213",
+          "value": "ERFRISCHUNG MINT BTL"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LIFECYCLE",
+      "values": [
+        {
+          "value_code": "D",
+          "value": "Detailhandelsartikel"
+        }
+      ],
+      "category_code": "MAPI_LIFECYCLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_EXPORTABLE",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_EXPORTABLE",
+      "top_fact": false
+    }
+  ],
+  "declarations": {
+    "declaration_number": "Q_9848587924507685",
+    "tags": [
+      "source-qim"
+    ],
+    "gtins": [
+      "7613312261507"
+    ],
+    "valid_from": "2022-03-28T17:23:00+0200",
+    "product_details": {
+      "package": {
+        "type": "Package",
+        "number_of_portions": "5",
+        "number_of_portions_operator": "="
+      },
+      "net_filled_quantity": {
+        "value": "125 g",
+        "numeric_value": 125,
+        "unit": "g"
+      }
+    },
+    "distributor": {
+      "name": "Migros-Genossenschafts-Bund",
+      "address": "CH-8031 Zürich"
+    },
+    "general_information": [
+      {
+        "label": "Cooling information/storage information",
+        "values": [
+          "Store in a cool, dry place."
+        ]
+      },
+      {
+        "label": "Warning and other mandatory information",
+        "values": [
+          "Excessive consumption may produce laxative effects."
+        ]
+      }
+    ],
+    "nutrition_facts": {
+      "reference_sizes": {
+        "standard": {
+          "base": {
+            "quantity": {
+              "value": "100 g",
+              "numeric_value": 100,
+              "unit": "g"
+            }
+          },
+          "nutrients": [
+            {
+              "code": "NUT_ENERGY",
+              "name": "Energy",
+              "operator": "=",
+              "pictogram_name": "Energy",
+              "category": "BIG9",
+              "quantity": {
+                "value": "970 kJ",
+                "numeric_value": 970,
+                "unit": "kJ",
+                "alternate": {
+                  "value": "233 kcal",
+                  "numeric_value": 233,
+                  "unit": "kcal"
+                }
+              }
+            },
+            {
+              "code": "NUT_FAT",
+              "name": "Fat",
+              "operator": "=",
+              "pictogram_name": "Fat",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0 g",
+                "numeric_value": 0,
+                "unit": "g"
+              },
+              "rating": {
+                "value": 0,
+                "text": "low",
+                "icon": {
+                  "original": "https://image.migros.ch/original/a2b5e2562a4fedbbdec99c1932ec57c46c49cde4.svg",
+                  "stack": "https://image.migros.ch/{stack}/a2b5e2562a4fedbbdec99c1932ec57c46c49cde4.svg"
+                },
+                "hex_color": "#069800"
+              }
+            },
+            {
+              "code": "NUT_SATURATED_FATTY_ACIDS",
+              "name": "of which saturates",
+              "operator": "=",
+              "pictogram_name": "saturated fatty acids",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0 g",
+                "numeric_value": 0,
+                "unit": "g"
+              },
+              "rating": {
+                "value": 0,
+                "text": "low",
+                "icon": {
+                  "original": "https://image.migros.ch/original/a2b5e2562a4fedbbdec99c1932ec57c46c49cde4.svg",
+                  "stack": "https://image.migros.ch/{stack}/a2b5e2562a4fedbbdec99c1932ec57c46c49cde4.svg"
+                },
+                "hex_color": "#069800"
+              }
+            },
+            {
+              "code": "NUT_CARBOHYDRATES",
+              "name": "Carbohydrate",
+              "operator": "=",
+              "category": "BIG9",
+              "quantity": {
+                "value": "97 g",
+                "numeric_value": 97,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_SUGAR",
+              "name": "of which sugars",
+              "operator": "<",
+              "pictogram_name": "Sugar",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0.5 g",
+                "numeric_value": 0.5,
+                "unit": "g"
+              },
+              "rating": {
+                "value": 0,
+                "text": "low",
+                "icon": {
+                  "original": "https://image.migros.ch/original/a2b5e2562a4fedbbdec99c1932ec57c46c49cde4.svg",
+                  "stack": "https://image.migros.ch/{stack}/a2b5e2562a4fedbbdec99c1932ec57c46c49cde4.svg"
+                },
+                "hex_color": "#069800"
+              }
+            },
+            {
+              "code": "NUT_POLYHYDRIC_ALCOHOLS",
+              "name": "of which polyvalents alcohols",
+              "operator": "=",
+              "category": "SONSTIGE",
+              "quantity": {
+                "value": "97 g",
+                "numeric_value": 97,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_FIBER",
+              "name": "Fibre",
+              "operator": "=",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0 g",
+                "numeric_value": 0,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_PROTEIN",
+              "name": "Protein",
+              "operator": "=",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0 g",
+                "numeric_value": 0,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_SALT",
+              "name": "Salt",
+              "operator": "=",
+              "pictogram_name": "Salt",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0 g",
+                "numeric_value": 0,
+                "unit": "g"
+              },
+              "rating": {
+                "value": 0,
+                "text": "low",
+                "icon": {
+                  "original": "https://image.migros.ch/original/a2b5e2562a4fedbbdec99c1932ec57c46c49cde4.svg",
+                  "stack": "https://image.migros.ch/{stack}/a2b5e2562a4fedbbdec99c1932ec57c46c49cde4.svg"
+                },
+                "hex_color": "#069800"
+              }
+            },
+            {
+              "code": "NUT_VITAMIN_C",
+              "name": "Vitamin C",
+              "operator": "=",
+              "category": "VITAMINE",
+              "quantity": {
+                "value": "400 mg",
+                "numeric_value": 400,
+                "unit": "mg"
+              },
+              "rda": {
+                "percent": 500,
+                "operator": "="
+              }
+            }
+          ]
+        },
+        "portion": {
+          "base": {
+            "operator": "≈",
+            "quantity": {
+              "value": "25 g",
+              "numeric_value": 25,
+              "unit": "g"
+            }
+          },
+          "nutrients": [
+            {
+              "code": "NUT_ENERGY",
+              "name": "Energy",
+              "operator": "=",
+              "pictogram_name": "Energy",
+              "category": "BIG9",
+              "quantity": {
+                "value": "240 kJ",
+                "numeric_value": 240,
+                "unit": "kJ",
+                "alternate": {
+                  "value": "58 kcal",
+                  "numeric_value": 58,
+                  "unit": "kcal"
+                }
+              },
+              "rda": {
+                "percent": 3,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_FAT",
+              "name": "Fat",
+              "operator": "=",
+              "pictogram_name": "Fat",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0 g",
+                "numeric_value": 0,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 0,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_SATURATED_FATTY_ACIDS",
+              "name": "of which saturates",
+              "operator": "=",
+              "pictogram_name": "saturated fatty acids",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0 g",
+                "numeric_value": 0,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 0,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_CARBOHYDRATES",
+              "name": "Carbohydrate",
+              "operator": "=",
+              "category": "BIG9",
+              "quantity": {
+                "value": "24 g",
+                "numeric_value": 24,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 9,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_SUGAR",
+              "name": "of which sugars",
+              "operator": "<",
+              "pictogram_name": "Sugar",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0.5 g",
+                "numeric_value": 0.5,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 5,
+                "operator": "<"
+              }
+            },
+            {
+              "code": "NUT_POLYHYDRIC_ALCOHOLS",
+              "name": "of which polyvalents alcohols",
+              "operator": "=",
+              "category": "SONSTIGE",
+              "quantity": {
+                "value": "24 g",
+                "numeric_value": 24,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_FIBER",
+              "name": "Fibre",
+              "operator": "=",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0 g",
+                "numeric_value": 0,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_PROTEIN",
+              "name": "Protein",
+              "operator": "=",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0 g",
+                "numeric_value": 0,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 0,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_SALT",
+              "name": "Salt",
+              "operator": "=",
+              "pictogram_name": "Salt",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0 g",
+                "numeric_value": 0,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 0,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_VITAMIN_C",
+              "name": "Vitamin C",
+              "operator": "=",
+              "category": "VITAMINE",
+              "quantity": {
+                "value": "100 mg",
+                "numeric_value": 100,
+                "unit": "mg"
+              },
+              "rda": {
+                "percent": 125,
+                "operator": "="
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "recipe_ingredient_ids": [
+    "10000"
+  ],
+  "regional_availability": {
+    "gmaa": {
+      "probability": 42
+    },
+    "gmbs": {
+      "probability": 64
+    },
+    "gmge": {
+      "probability": 71
+    },
+    "gmlu": {
+      "probability": 34
+    },
+    "gmnf": {
+      "probability": 94
+    },
+    "gmos": {
+      "probability": 41
+    },
+    "gmti": {
+      "probability": 100
+    },
+    "gmvd": {
+      "probability": 82
+    },
+    "gmvs": {
+      "probability": 96
+    },
+    "gmzh": {
+      "probability": 51
+    }
+  },
+  "ratings": {
+    "count_all": 20,
+    "average_all": 4.7
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "updated_at": "2023-08-17T11:39:06+0200",
+  "sap_created_at": "2019-05-14T00:00:00+0200",
+  "base_unit": "CU",
+  "views": [
+    "all",
+    "browse",
+    "browseallretailers"
+  ]
+}

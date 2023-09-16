@@ -1,0 +1,807 @@
+{
+  "id": "106661700000",
+  "language": "en",
+  "name": "Bull's Eye Dark Beer",
+  "names": {
+    "short_name": "Bull's Eye Dark Beer"
+  },
+  "slug": "bulls-eye-dark-beer",
+  "slugs": {
+    "de": "bulls-eye-dark-beer",
+    "fr": "bulls-eye-dark-beer",
+    "it": "bulls-eye-dark-beer",
+    "en": "bulls-eye-dark-beer"
+  },
+  "type": "00",
+  "boss_number": "011011291506",
+  "description": {
+    "text": "<p><strong>BULL'S EYE DARK BEER</strong></p><p>Pikante Dunkelbeir BBQ Sauce mir Bier und Raucharoma</p>",
+    "source": "P4M"
+  },
+  "data_source": "SAP-X11",
+  "status": {
+    "id": "available",
+    "seasonal": true,
+    "pim_status": "03"
+  },
+  "tags": [
+    "source-p4m",
+    "migipedia",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "8715700208671"
+  ],
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarket"
+  },
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "brand": {
+    "id": "CN7",
+    "name": "Bull's Eye",
+    "slug": "bulls-eye"
+  },
+  "categories": [
+    {
+      "code": "BeSS_0101140903",
+      "name": "Saucen",
+      "slug": "supermarkt/lebensmittel/pasta-zutaten-konserven/suppen-saucen-bouillon/saucen",
+      "visible": true,
+      "title": "Saucen in Ihrer Migros kaufen",
+      "parent_code": "BeSS_01011409",
+      "image": {
+        "original": "https://image.migros.ch/original/5f4a24947eb25bd307d66043e6d0d15ed0226e51/saucen.jpg",
+        "stack": "https://image.migros.ch/{stack}/5f4a24947eb25bd307d66043e6d0d15ed0226e51/saucen.jpg"
+      },
+      "level": 5
+    },
+    {
+      "code": "BeSS_01011409",
+      "name": "Suppen, Saucen & Bouillon",
+      "slug": "supermarkt/lebensmittel/pasta-zutaten-konserven/suppen-saucen-bouillon",
+      "visible": true,
+      "title": "Bouillon in Ihrer Migros kaufen",
+      "parent_code": "BeSS_010114",
+      "image": {
+        "original": "https://image.migros.ch/original/ba6c260479751c9dbebd56a16470ff4af7db7203/suppen-saucen-bouillon.jpg",
+        "stack": "https://image.migros.ch/{stack}/ba6c260479751c9dbebd56a16470ff4af7db7203/suppen-saucen-bouillon.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010114",
+      "name": "Pasta, Zutaten & Konserven",
+      "slug": "supermarkt/lebensmittel/pasta-zutaten-konserven",
+      "visible": true,
+      "title": "Pasta aus Ihrer Migros: alles rund um Teigwaren",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/6d0964bbb34b8e041ba4d74fc0c90b149907f46a/pasta-zutaten-konserven.jpg",
+        "stack": "https://image.migros.ch/{stack}/6d0964bbb34b8e041ba4d74fc0c90b149907f46a/pasta-zutaten-konserven.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/31702195ec9d38aecefe80349eb347f79d56c750/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/31702195ec9d38aecefe80349eb347f79d56c750/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "online_relevant": [
+    {
+      "code": "MGB",
+      "name": "Migros Genossenschafts-Bund"
+    }
+  ],
+  "links": {
+    "migros_ch": {
+      "url": "https://www.migros.ch/en/product/106661700000?context=instore",
+      "name": "In-store assortment",
+      "canonical": "https://www.migros.ch/en/product/106661700000?context=instore",
+      "type": "info",
+      "purchasable": false
+    },
+    "migros_online": {
+      "url": "https://www.migros.ch/en/product/106661700000?context=online",
+      "mo_product_id": "10402878",
+      "name": "Online-shop assortment",
+      "canonical": "https://www.migros.ch/en/product/106661700000?context=instore",
+      "type": "shop",
+      "purchasable": true,
+      "one_catalog_id": 100049985
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/106661700000",
+      "name": "Migipedia",
+      "canonical": "https://www.migros.ch/en/product/106661700000?context=instore",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "has_safety_sheet": false,
+  "m_check2": {
+    "carbon_footprint": {
+      "image": {
+        "original": "https://image.migros.ch/original/0a2093a1718156b317e9aac46d5c2589cfde38b7.svg",
+        "stack": "https://image.migros.ch/{stack}/0a2093a1718156b317e9aac46d5c2589cfde38b7.svg"
+      },
+      "ground_and_sea_cargo": {
+        "kg_co2": 1.75,
+        "kg_co2_range": "1 - 1.9 kg CO₂eq / kg",
+        "co2_in_car_km": 9,
+        "rating": 4,
+        "production_in_percent": 87,
+        "packaging_in_percent": 10,
+        "transport_in_percent": 3
+      }
+    }
+  },
+  "receipt_text": "Bull's Eye Dark Beer",
+  "package": {
+    "content": 360,
+    "content_unit_code": "g",
+    "content_unit": "Gram",
+    "net_weight": 0.36,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogram",
+    "type": "CU",
+    "portions_per_package": "1",
+    "brutto_weight": 0.389,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 0.642,
+    "brutto_volume_unit_code": "cdm",
+    "height": 17.8,
+    "length": 4.4,
+    "width": 8.2,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "300ml"
+  },
+  "package_information": {
+    "tu": {
+      "gtins": [
+        "8715700208541"
+      ],
+      "brutto_weight": 2.366,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 4.189,
+      "brutto_volume_unit_code": "cdm",
+      "height": 17.9,
+      "length": 26.9,
+      "width": 8.7,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 6
+    },
+    "cu": {
+      "gtins": [
+        "8715700208671"
+      ],
+      "brutto_weight": 0.389,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.642,
+      "brutto_volume_unit_code": "cdm",
+      "height": 17.8,
+      "length": 4.4,
+      "width": 8.2,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "lu": {
+      "brutto_weight": 578.644,
+      "brutto_weight_unit_code": "kg",
+      "length": 120,
+      "width": 80,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1404
+    }
+  },
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "price": {
+    "valid_from": "2023-02-08T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 4.95,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "300ml"
+    },
+    "base": {
+      "price": 1.38,
+      "quantity": 100,
+      "unit": "G"
+    }
+  },
+  "features": [
+    {
+      "label_code": "acxMISOcugebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "erxMISOcugebindeartflasche",
+          "value": "Bottle"
+        }
+      ],
+      "category_code": "ecxMISOCLAsaucenaufstrichedipswuerzsaucengewuerzekonservierungsstoffeextraktelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOzubereitungsverfahren",
+      "label": "Hinweise für die Zubereitung",
+      "values": [
+        {
+          "value_code": "erxMISOzubereitungsverfahrenverzehrfertig",
+          "value": "verzehrfertig"
+        },
+        {
+          "value_code": "erxMISOzubereitungsverfahrenzumwuerzengeeignet",
+          "value": "zum würzen geeignet"
+        }
+      ],
+      "category_code": "ecxMISOCLAsaucenaufstrichedipswuerzsaucengewuerzekonservierungsstoffeextraktelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOvorgeseheneverwendungdersauce",
+      "label": "Vorgesehene Verwendung der Sauce",
+      "values": [
+        {
+          "value_code": "erxMISOvorgeseheneverwendungdersauceburger",
+          "value": "Burger"
+        },
+        {
+          "value_code": "erxMISOvorgeseheneverwendungdersaucedip",
+          "value": "Dip"
+        },
+        {
+          "value_code": "erxMISOvorgeseheneverwendungdersaucefleischgerichte",
+          "value": "Fleischgerichte"
+        },
+        {
+          "value_code": "erxMISOvorgeseheneverwendungdersaucegefluegelgerichte",
+          "value": "Geflügelgerichte"
+        },
+        {
+          "value_code": "erxMISOvorgeseheneverwendungdersaucesteak",
+          "value": "Steak"
+        }
+      ],
+      "category_code": "ecxMISOCLAsaucenaufstrichedipswuerzsaucengewuerzekonservierungsstoffeextraktelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/cbe0cc6822373bd9c060c23af5c70dd4295035b4/bulls-eye-dark-beer.jpg",
+    "stack": "https://image.migros.ch/{stack}/cbe0cc6822373bd9c060c23af5c70dd4295035b4/bulls-eye-dark-beer.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/984e8a116ffade4b9abaeed3b4aff67d21775201/bulls-eye-dark-beer.png",
+    "stack": "https://image.migros.ch/{stack}/984e8a116ffade4b9abaeed3b4aff67d21775201/bulls-eye-dark-beer.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_RETURNABLE",
+      "label": "Return",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "true",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MAPI_RETURNABLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_EXPORTABLE",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_EXPORTABLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Yes",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Normalposition"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "HAWA"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "10144",
+          "value": "KALTSAUCEN/GRILL/FON"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_KUBE_TUKA",
+      "values": [
+        {
+          "value_code": "BLANK",
+          "value": "KUBE und TUKA nicht zugelassen"
+        }
+      ],
+      "category_code": "MAPI_KUBE_TUKA",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LIFECYCLE",
+      "values": [
+        {
+          "value_code": "D",
+          "value": "Detailhandelsartikel"
+        }
+      ],
+      "category_code": "MAPI_LIFECYCLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_STORAGE_CONDITIONS",
+      "values": [
+        {
+          "value_code": "01",
+          "value": "normal"
+        }
+      ],
+      "category_code": "MAPI_STORAGE_CONDITIONS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_MULTIPACK",
+      "values": [
+        {
+          "value_code": "0",
+          "value": "No pack expression"
+        }
+      ],
+      "category_code": "MAPI_MULTIPACK",
+      "top_fact": false
+    },
+    {
+      "label_code": "acxCommonarticlecocompensated",
+      "label": "Artikel Co2 kompensiert",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false
+    },
+    {
+      "label_code": "acxCommonmesswertcompensation",
+      "label": "CO2-Wert Kompensation",
+      "values": [
+        {
+          "value_code": "NUMERIC_1.75",
+          "value": "1.75",
+          "numeric_value": 1.75
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false,
+      "unit_code": "5d71456e-a520-4294-9ddb-add78f63ce83",
+      "unit": "Equivalence per kilogram",
+      "unit_symbol": "eq / kg"
+    },
+    {
+      "label_code": "acxCommonoutputmcheckclimatedeclaration",
+      "label": "Auslobung M-Check Klimadeklaration",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Yes",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false
+    }
+  ],
+  "declarations": {
+    "declaration_number": "Q_104690623699",
+    "tags": [
+      "source-qim"
+    ],
+    "gtins": [
+      "8715700208671"
+    ],
+    "valid_from": "2019-08-15T00:00:00+0200",
+    "product_details": {
+      "net_filled_quantity": {
+        "value": "300 ml",
+        "numeric_value": 300,
+        "unit": "ml"
+      }
+    },
+    "distributor": {
+      "name": "HAECKY IMPORT AG",
+      "address": "Duggingerstrasse 15, CH-4153, Reinach"
+    },
+    "general_information": [
+      {
+        "label": "Percentage of alcohol by volume [%]",
+        "values": [
+          "0"
+        ]
+      }
+    ],
+    "ingredients_information": {
+      "allergens_information": {
+        "allergens": [
+          {
+            "code": "ALLG_SENF",
+            "label": "Mustard and its derivatives",
+            "contamination_code": "VORHANDEN",
+            "contamination_label": "contains"
+          },
+          {
+            "code": "ALLG_GLUTEN",
+            "label": "Cereal grains containing gluten and its derivatives",
+            "contamination_code": "VORHANDEN",
+            "contamination_label": "contains"
+          }
+        ]
+      }
+    },
+    "nutrition_facts": {
+      "reference_sizes": {
+        "standard": {
+          "base": {
+            "quantity": {
+              "value": "100 g",
+              "numeric_value": 100,
+              "unit": "g"
+            }
+          },
+          "nutrients": [
+            {
+              "code": "NUT_ENERGY",
+              "name": "Energy",
+              "operator": "=",
+              "pictogram_name": "Energy",
+              "category": "BIG9",
+              "quantity": {
+                "value": "855 kJ",
+                "numeric_value": 855,
+                "unit": "kJ",
+                "alternate": {
+                  "value": "204 kcal",
+                  "numeric_value": 204,
+                  "unit": "kcal"
+                }
+              }
+            },
+            {
+              "code": "NUT_FAT",
+              "name": "Fat",
+              "operator": "=",
+              "pictogram_name": "Fat",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0.4 g",
+                "numeric_value": 0.4,
+                "unit": "g"
+              },
+              "rating": {
+                "value": 0,
+                "text": "low",
+                "icon": {
+                  "original": "https://image.migros.ch/original/a2b5e2562a4fedbbdec99c1932ec57c46c49cde4.svg",
+                  "stack": "https://image.migros.ch/{stack}/a2b5e2562a4fedbbdec99c1932ec57c46c49cde4.svg"
+                },
+                "hex_color": "#069800"
+              }
+            },
+            {
+              "code": "NUT_SATURATED_FATTY_ACIDS",
+              "name": "of which saturates",
+              "operator": "=",
+              "pictogram_name": "saturated fatty acids",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0 g",
+                "numeric_value": 0,
+                "unit": "g"
+              },
+              "rating": {
+                "value": 0,
+                "text": "low",
+                "icon": {
+                  "original": "https://image.migros.ch/original/a2b5e2562a4fedbbdec99c1932ec57c46c49cde4.svg",
+                  "stack": "https://image.migros.ch/{stack}/a2b5e2562a4fedbbdec99c1932ec57c46c49cde4.svg"
+                },
+                "hex_color": "#069800"
+              }
+            },
+            {
+              "code": "NUT_CARBOHYDRATES",
+              "name": "Carbohydrate",
+              "operator": "=",
+              "category": "BIG9",
+              "quantity": {
+                "value": "46 g",
+                "numeric_value": 46,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_SUGAR",
+              "name": "of which sugars",
+              "operator": "=",
+              "pictogram_name": "Sugar",
+              "category": "BIG9",
+              "quantity": {
+                "value": "42 g",
+                "numeric_value": 42,
+                "unit": "g"
+              },
+              "rating": {
+                "value": 2,
+                "text": "high",
+                "icon": {
+                  "original": "https://image.migros.ch/original/9aa833abc7cb7207238c3e98a1253eeb7bceee1f.svg",
+                  "stack": "https://image.migros.ch/{stack}/9aa833abc7cb7207238c3e98a1253eeb7bceee1f.svg"
+                },
+                "hex_color": "#cc0000"
+              }
+            },
+            {
+              "code": "NUT_FIBER",
+              "name": "Fibre",
+              "operator": "=",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0 g",
+                "numeric_value": 0,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_PROTEIN",
+              "name": "Protein",
+              "operator": "=",
+              "category": "BIG9",
+              "quantity": {
+                "value": "1.1 g",
+                "numeric_value": 1.1,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_SALT",
+              "name": "Salt",
+              "operator": "=",
+              "pictogram_name": "Salt",
+              "category": "BIG9",
+              "quantity": {
+                "value": "3 g",
+                "numeric_value": 3,
+                "unit": "g"
+              },
+              "rating": {
+                "value": 2,
+                "text": "high",
+                "icon": {
+                  "original": "https://image.migros.ch/original/9aa833abc7cb7207238c3e98a1253eeb7bceee1f.svg",
+                  "stack": "https://image.migros.ch/{stack}/9aa833abc7cb7207238c3e98a1253eeb7bceee1f.svg"
+                },
+                "hex_color": "#cc0000"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "recipe_ingredient_ids": [
+    "10000"
+  ],
+  "regional_availability": {
+    "gmaa": {
+      "probability": 50
+    },
+    "gmbs": {
+      "probability": 62
+    },
+    "gmge": {
+      "probability": 55
+    },
+    "gmlu": {
+      "probability": 37
+    },
+    "gmnf": {
+      "probability": 39
+    },
+    "gmos": {
+      "probability": 43
+    },
+    "gmti": {
+      "probability": 28
+    },
+    "gmvd": {
+      "probability": 46
+    },
+    "gmvs": {
+      "probability": 30
+    },
+    "gmzh": {
+      "probability": 53
+    }
+  },
+  "ratings": {
+    "count_all": 5,
+    "average_all": 3.6
+  },
+  "reindex_date": "2023-08-20T00:00:00+0200",
+  "updated_at": "2023-08-17T11:44:20+0200",
+  "sap_created_at": "2018-12-16T18:00:00+0100",
+  "online_shop_relevant": false,
+  "base_unit": "CU",
+  "co2_compensation": {
+    "kg_co2": 1.75,
+    "kg_co2_compensation": 1.75,
+    "is_compensated": false,
+    "mcheck_enabled": true
+  },
+  "origins": {
+    "producing_country": "Poland"
+  },
+  "views": [
+    "all",
+    "browse",
+    "browseallretailers"
+  ]
+}

@@ -1,0 +1,869 @@
+{
+  "id": "115027000000",
+  "language": "en",
+  "name": "M-Classic Kuchenteig im Block",
+  "names": {
+    "short_name": "M-Classic Kuchenteig im Block"
+  },
+  "slug": "m-classic-kuchenteig-im-block",
+  "slugs": {
+    "de": "m-classic-kuchenteig-im-block",
+    "fr": "m-classic-pate-a-gateau-brisee",
+    "it": "m-classic-pasta-per-crostate",
+    "en": "m-classic-kuchenteig-im-block"
+  },
+  "type": "00",
+  "boss_number": "020212230510",
+  "description": {
+    "text": "Kuchenteig im Block",
+    "source": "P4M"
+  },
+  "data_source": "SAP-X11",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "80"
+  },
+  "tags": [
+    "source-p4m",
+    "migipedia",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613404201206"
+  ],
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarket"
+  },
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "brand": {
+    "id": "068",
+    "name": "M-Classic",
+    "slug": "m-classic",
+    "links": {
+      "homepage": {
+        "url": "https://m-classic.migros.ch/de.html",
+        "name": "Homepage",
+        "type": "info",
+        "purchasable": false
+      }
+    }
+  },
+  "labels": [
+    {
+      "id": "L57",
+      "name": "V-vegan",
+      "slug": "v-vegan",
+      "image": {
+        "original": "https://image.migros.ch/original/9d3e0f9b6c46972be8c5310f3fbc6b417d52acc1/v-vegan.jpg",
+        "stack": "https://image.migros.ch/{stack}/9d3e0f9b6c46972be8c5310f3fbc6b417d52acc1/v-vegan.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_0101030905",
+      "name": "Kuchenteig",
+      "slug": "supermarkt/lebensmittel/baeckerei-confiserie-backen/backzutaten/kuchenteig",
+      "visible": true,
+      "parent_code": "BeSS_01010309",
+      "image": {
+        "original": "https://image.migros.ch/original/3ce411c01d341cb47e2a830d447081def7ab17d3/kuchenteig.jpg",
+        "stack": "https://image.migros.ch/{stack}/3ce411c01d341cb47e2a830d447081def7ab17d3/kuchenteig.jpg"
+      },
+      "level": 5
+    },
+    {
+      "code": "BeSS_01010309",
+      "name": "Backzutaten",
+      "slug": "supermarkt/lebensmittel/baeckerei-confiserie-backen/backzutaten",
+      "visible": true,
+      "title": "Backzutaten von der Migros &ndash; Feines für den Ofen",
+      "parent_code": "BeSS_010103",
+      "image": {
+        "original": "https://image.migros.ch/original/01ae24f34647902a0f4a1ce49b92b099fa298fbb/backzutaten.jpg",
+        "stack": "https://image.migros.ch/{stack}/01ae24f34647902a0f4a1ce49b92b099fa298fbb/backzutaten.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010103",
+      "name": "Bäckerei, Confiserie & Backen",
+      "slug": "supermarkt/lebensmittel/baeckerei-confiserie-backen",
+      "visible": true,
+      "title": "Backen macht Freude! Alle Zutaten finden Sie in Ihrer Migros",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/04b41cd6f4daedf3061a2a37617d48e992760b35/baeckerei-confiserie-backen.jpg",
+        "stack": "https://image.migros.ch/{stack}/04b41cd6f4daedf3061a2a37617d48e992760b35/baeckerei-confiserie-backen.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/31702195ec9d38aecefe80349eb347f79d56c750/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/31702195ec9d38aecefe80349eb347f79d56c750/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "online_relevant": [
+    {
+      "code": "MGB",
+      "name": "Migros Genossenschafts-Bund"
+    },
+    {
+      "code": "MO",
+      "name": "Migros Online"
+    }
+  ],
+  "links": {
+    "migros_ch": {
+      "url": "https://www.migros.ch/en/product/115027000000?context=instore",
+      "name": "In-store assortment",
+      "canonical": "https://www.migros.ch/en/product/115027000000?context=instore",
+      "type": "info",
+      "purchasable": false
+    },
+    "migros_online": {
+      "url": "https://www.migros.ch/en/product/115027000000?context=online",
+      "mo_product_id": "4946655",
+      "name": "Online-shop assortment",
+      "canonical": "https://www.migros.ch/en/product/115027000000?context=instore",
+      "type": "shop",
+      "purchasable": true,
+      "one_catalog_id": 100043676
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/115027000000",
+      "name": "Migipedia",
+      "canonical": "https://www.migros.ch/en/product/115027000000?context=instore",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "has_safety_sheet": false,
+  "m_check2": {
+    "carbon_footprint": {
+      "image": {
+        "original": "https://image.migros.ch/original/0a2093a1718156b317e9aac46d5c2589cfde38b7.svg",
+        "stack": "https://image.migros.ch/{stack}/0a2093a1718156b317e9aac46d5c2589cfde38b7.svg"
+      },
+      "ground_and_sea_cargo": {
+        "kg_co2": 1.41,
+        "kg_co2_range": "1 - 1.9 kg CO₂eq / kg",
+        "co2_in_car_km": 7,
+        "rating": 4,
+        "production_in_percent": 83,
+        "packaging_in_percent": 12,
+        "transport_in_percent": 4
+      }
+    }
+  },
+  "receipt_text": "MClass Kuchenteig",
+  "package": {
+    "content": 500,
+    "content_unit_code": "g",
+    "content_unit": "Gram",
+    "net_weight": 0.5,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogram",
+    "type": "CU",
+    "portions_per_package": "1",
+    "brutto_weight": 0.5,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 0.755,
+    "brutto_volume_unit_code": "cdm",
+    "height": 21.5,
+    "length": 2.7,
+    "width": 13,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "500g"
+  },
+  "package_information": {
+    "tu": {
+      "gtins": [
+        "7613404201213"
+      ],
+      "brutto_weight": 6,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 15.96,
+      "brutto_volume_unit_code": "cdm",
+      "height": 13.3,
+      "length": 40,
+      "width": 30,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 12
+    },
+    "cu": {
+      "gtins": [
+        "7613404201206"
+      ],
+      "brutto_weight": 0.5,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.755,
+      "brutto_volume_unit_code": "cdm",
+      "height": 21.5,
+      "length": 2.7,
+      "width": 13,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    }
+  },
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "price": {
+    "valid_from": "2022-06-21T00:00:00+0200",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 2,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "500g"
+    },
+    "base": {
+      "price": 0.4,
+      "quantity": 100,
+      "unit": "G"
+    }
+  },
+  "features": [
+    {
+      "label_code": "MAPI_VEGETARIANISM",
+      "label": "Vegetarianism",
+      "values": [
+        {
+          "value_code": "MAPI_VEGETARIANISM_vegan",
+          "value": "vegan"
+        }
+      ],
+      "category_code": "MAPI_VEGETARIANISM",
+      "top_fact": false
+    },
+    {
+      "label_code": "acxMISOteige",
+      "label": "Teige",
+      "values": [
+        {
+          "value": "Block"
+        }
+      ],
+      "category_code": "ecxMISOCLAbackkochmischungenzutatenbrotbackwarenlebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/aaf16fbfc98ad111234d6ff80d91f378035da624/m-classic-kuchenteig-im-block.jpg",
+    "stack": "https://image.migros.ch/{stack}/aaf16fbfc98ad111234d6ff80d91f378035da624/m-classic-kuchenteig-im-block.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/17e21f2359fa5481f2a8c88f28bcdb798a301055/m-classic-kuchenteig-im-block.png",
+    "stack": "https://image.migros.ch/{stack}/17e21f2359fa5481f2a8c88f28bcdb798a301055/m-classic-kuchenteig-im-block.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_EXPORTABLE",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_EXPORTABLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Normalposition"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZFRP",
+          "value": "Frische Beschaffung"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "ZFRP"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "71100",
+          "value": "KUCHENTEIG"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LIFECYCLE",
+      "values": [
+        {
+          "value_code": "D",
+          "value": "Detailhandelsartikel"
+        }
+      ],
+      "category_code": "MAPI_LIFECYCLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_STORAGE_CONDITIONS",
+      "values": [
+        {
+          "value_code": "02",
+          "value": "refrigerated"
+        }
+      ],
+      "category_code": "MAPI_STORAGE_CONDITIONS",
+      "top_fact": false
+    },
+    {
+      "label_code": "acxCommonarticlecocompensated",
+      "label": "Artikel Co2 kompensiert",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false
+    },
+    {
+      "label_code": "acxCommonmesswertcompensation",
+      "label": "CO2-Wert Kompensation",
+      "values": [
+        {
+          "value_code": "NUMERIC_1.41",
+          "value": "1.41",
+          "numeric_value": 1.41
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false,
+      "unit_code": "5d71456e-a520-4294-9ddb-add78f63ce83",
+      "unit": "Equivalence per kilogram",
+      "unit_symbol": "eq / kg"
+    },
+    {
+      "label_code": "acxCommonoutputmcheckclimatedeclaration",
+      "label": "Auslobung M-Check Klimadeklaration",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Yes",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false
+    }
+  ],
+  "declarations": {
+    "declaration_number": "Q_15458240548326349",
+    "tags": [
+      "source-qim"
+    ],
+    "gtins": [
+      "7613404201206"
+    ],
+    "valid_from": "2021-11-11T01:00:00+0100",
+    "product_details": {
+      "net_filled_quantity": {
+        "value": "500 g",
+        "numeric_value": 500,
+        "unit": "g"
+      }
+    },
+    "general_information": [
+      {
+        "label": "Cooling information/storage information",
+        "values": [
+          "Store refrigerated at max. 5 °C."
+        ]
+      }
+    ],
+    "ingredients_information": {
+      "ingredients_text": "<strong>wheat</strong> flour, salted vegetable margarine (rapeseed oil, hydrogenated rapeseed oil, water, olive oil, table salt, emulsifier: mono- and diglycerides of fatty acids, acid: citric acid), water, iodized table salt, preservative: potassium sorbate, acid: citric acid.",
+      "allergens_information": {
+        "trace_allergens_text": "May contain: eggs, soybeans, milk, nuts, sesame.",
+        "allergens": [
+          {
+            "code": "ALLG_GLUTEN",
+            "label": "Cereals containing gluten and products thereof",
+            "contamination_code": "VORHANDEN",
+            "contamination_label": "contains"
+          }
+        ]
+      }
+    },
+    "nutrition_facts": {
+      "reference_sizes": {
+        "standard": {
+          "base": {
+            "quantity": {
+              "value": "100 g",
+              "numeric_value": 100,
+              "unit": "g"
+            }
+          },
+          "nutrients": [
+            {
+              "code": "NUT_ENERGY",
+              "name": "Energy",
+              "operator": "=",
+              "pictogram_name": "Energy",
+              "category": "BIG9",
+              "quantity": {
+                "value": "1480 kJ",
+                "numeric_value": 1480,
+                "unit": "kJ",
+                "alternate": {
+                  "value": "354 kcal",
+                  "numeric_value": 354,
+                  "unit": "kcal"
+                }
+              },
+              "rda": {
+                "percent": 18,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_FAT",
+              "name": "Fat",
+              "operator": "=",
+              "pictogram_name": "Fat",
+              "category": "BIG9",
+              "quantity": {
+                "value": "19 g",
+                "numeric_value": 19,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 27,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_SATURATED_FATTY_ACIDS",
+              "name": "of which saturates",
+              "operator": "=",
+              "pictogram_name": "saturated fatty acids",
+              "category": "BIG9",
+              "quantity": {
+                "value": "14 g",
+                "numeric_value": 14,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 70,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_CARBOHYDRATES",
+              "name": "Carbohydrate",
+              "operator": "=",
+              "category": "BIG9",
+              "quantity": {
+                "value": "39 g",
+                "numeric_value": 39,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 15,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_SUGAR",
+              "name": "of which sugars",
+              "operator": "=",
+              "pictogram_name": "Sugar",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0.5 g",
+                "numeric_value": 0.5,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 1,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_FIBER",
+              "name": "Fibre",
+              "operator": "=",
+              "category": "BIG9",
+              "quantity": {
+                "value": "1.1 g",
+                "numeric_value": 1.1,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_PROTEIN",
+              "name": "Protein",
+              "operator": "=",
+              "category": "BIG9",
+              "quantity": {
+                "value": "6.2 g",
+                "numeric_value": 6.2,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 12,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_SALT",
+              "name": "Salt",
+              "operator": "=",
+              "pictogram_name": "Salt",
+              "category": "BIG9",
+              "quantity": {
+                "value": "1 g",
+                "numeric_value": 1,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 17,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_ENERGY",
+              "name": "Energy",
+              "operator": "=",
+              "pictogram_name": "Energy",
+              "category": "BIG9",
+              "quantity": {
+                "value": "1480 kJ",
+                "numeric_value": 1480,
+                "unit": "kJ",
+                "alternate": {
+                  "value": "354 kcal",
+                  "numeric_value": 354,
+                  "unit": "kcal"
+                }
+              },
+              "rda": {
+                "percent": 18,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_FAT",
+              "name": "Fat",
+              "operator": "=",
+              "pictogram_name": "Fat",
+              "category": "BIG9",
+              "quantity": {
+                "value": "19 g",
+                "numeric_value": 19,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 27,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_SATURATED_FATTY_ACIDS",
+              "name": "of which saturates",
+              "operator": "=",
+              "pictogram_name": "saturated fatty acids",
+              "category": "BIG9",
+              "quantity": {
+                "value": "14 g",
+                "numeric_value": 14,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 70,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_CARBOHYDRATES",
+              "name": "Carbohydrate",
+              "operator": "=",
+              "category": "BIG9",
+              "quantity": {
+                "value": "39 g",
+                "numeric_value": 39,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 15,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_SUGAR",
+              "name": "of which sugars",
+              "operator": "=",
+              "pictogram_name": "Sugar",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0.5 g",
+                "numeric_value": 0.5,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 1,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_FIBER",
+              "name": "Fibre",
+              "operator": "=",
+              "category": "BIG9",
+              "quantity": {
+                "value": "1.1 g",
+                "numeric_value": 1.1,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_PROTEIN",
+              "name": "Protein",
+              "operator": "=",
+              "category": "BIG9",
+              "quantity": {
+                "value": "6.2 g",
+                "numeric_value": 6.2,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 12,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_SALT",
+              "name": "Salt",
+              "operator": "=",
+              "pictogram_name": "Salt",
+              "category": "BIG9",
+              "quantity": {
+                "value": "1 g",
+                "numeric_value": 1,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 17,
+                "operator": "="
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "recipe_ingredient_ids": [
+    "15653"
+  ],
+  "regional_availability": {
+    "gmaa": {
+      "probability": 83
+    },
+    "gmbs": {
+      "probability": 71
+    },
+    "gmge": {
+      "probability": 66
+    },
+    "gmlu": {
+      "probability": 68
+    },
+    "gmnf": {
+      "probability": 71
+    },
+    "gmos": {
+      "probability": 57
+    },
+    "gmti": {
+      "probability": 19
+    },
+    "gmvd": {
+      "probability": 82
+    },
+    "gmvs": {
+      "probability": 70
+    },
+    "gmzh": {
+      "probability": 42
+    }
+  },
+  "ratings": {
+    "count_all": 45,
+    "average_all": 4.636363636364
+  },
+  "related_products": {
+    "purchase_recommendations": {
+      "product_ids": [
+        "115027100000",
+        "115027200000",
+        "115090700000",
+        "115090500000"
+      ]
+    }
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "updated_at": "2023-08-17T11:52:45+0200",
+  "sap_created_at": "2012-07-26T19:00:00+0200",
+  "online_shop_relevant": false,
+  "base_unit": "CU",
+  "co2_compensation": {
+    "kg_co2": 1.41,
+    "kg_co2_compensation": 1.41,
+    "is_compensated": false,
+    "mcheck_enabled": true
+  },
+  "origins": {
+    "producing_country": "Switzerland"
+  },
+  "views": [
+    "all",
+    "browse",
+    "browseallretailers"
+  ]
+}

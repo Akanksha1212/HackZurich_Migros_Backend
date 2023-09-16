@@ -1,0 +1,705 @@
+{
+  "id": "706540300092",
+  "language": "en",
+  "name": "MIOBRILL STAUBTUECHER 2STK BUNT",
+  "names": {
+    "short_name": "MIOBRILL STAUBTUECHER 2STK BUNT"
+  },
+  "slug": "miobrill-staubtuecher-2stk-bunt",
+  "slugs": {
+    "de": "staubtuecher",
+    "fr": "chiffons-a-poussiere",
+    "it": "strofinacci-per-la-polvere",
+    "en": "miobrill-staubtuecher-2stk-bunt"
+  },
+  "type": "02",
+  "boss_number": "150223300515",
+  "description": {
+    "text": "-Dank Acryl-Anteil und Rippenmuster auch ohne chemische Zus&auml;tze staubanziehend und staubbindend",
+    "source": "PEX"
+  },
+  "data_source": "SAP-X12",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03",
+    "distribution_center": [
+      {
+        "center_id": "1001",
+        "center_name": "Migros Verteilzentrum Neuendorf",
+        "status_code": "03",
+        "status_description": "active"
+      }
+    ]
+  },
+  "tags": [
+    "source-pex",
+    "near-non-food",
+    "migipedia",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": true,
+  "base_product_id": "706540300000",
+  "gtins": [
+    "7617026621992",
+    "7613294757982"
+  ],
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarket"
+  },
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "brand": {
+    "id": "MGF",
+    "name": "Miobrill",
+    "slug": "miobrill"
+  },
+  "labels": [
+    {
+      "id": "L42",
+      "name": "Oekotex 100",
+      "slug": "oekotex-100",
+      "image": {
+        "original": "https://image.migros.ch/original/3b0cd94eecbdd4ae05845be77de53846f7fa86ca/oekotex-100.jpg",
+        "stack": "https://image.migros.ch/{stack}/3b0cd94eecbdd4ae05845be77de53846f7fa86ca/oekotex-100.jpg"
+      }
+    },
+    {
+      "id": "L70",
+      "name": "GRS",
+      "slug": "grs",
+      "image": {
+        "original": "https://image.migros.ch/original/e1a28daec1847a689a7f8c84fc2aad5177e7ef19/grs.jpg",
+        "stack": "https://image.migros.ch/{stack}/e1a28daec1847a689a7f8c84fc2aad5177e7ef19/grs.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_0104200102",
+      "name": "Baumwolle",
+      "slug": "supermarkt/haushalt-reinigung/reinigungsutensilien/reinigungstuecher/baumwolle",
+      "visible": true,
+      "parent_code": "BeSS_01042001",
+      "level": 5
+    },
+    {
+      "code": "BeSS_01042001",
+      "name": "Reinigungstücher",
+      "slug": "supermarkt/haushalt-reinigung/reinigungsutensilien/reinigungstuecher",
+      "visible": true,
+      "parent_code": "BeSS_010420",
+      "level": 4
+    },
+    {
+      "code": "BeSS_010420",
+      "name": "Reinigungsutensilien",
+      "slug": "supermarkt/haushalt-reinigung/reinigungsutensilien",
+      "visible": true,
+      "parent_code": "BeSS_0104",
+      "level": 3
+    },
+    {
+      "code": "BeSS_0104",
+      "name": "Haushalt & Reinigung",
+      "slug": "supermarkt/haushalt-reinigung",
+      "visible": true,
+      "title": "Reinigung mit der Migros – Reiniger für Haushalt und Garten",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png",
+        "stack": "https://image.migros.ch/{stack}/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "online_relevant": [
+    {
+      "code": "MGB",
+      "name": "Migros Genossenschafts-Bund"
+    }
+  ],
+  "galaxus_relevant": false,
+  "links": {
+    "migros_ch": {
+      "url": "https://www.migros.ch/en/product/706540300092?context=instore",
+      "name": "In-store assortment",
+      "canonical": "https://www.migros.ch/en/product/706540300092?context=instore",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/706540300092",
+      "name": "Migipedia",
+      "canonical": "https://www.migros.ch/en/product/706540300092?context=instore",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "receipt_text": "Miobrill Staubtücher",
+  "package": {
+    "content": 2,
+    "content_unit_code": "st",
+    "content_unit": "Stück",
+    "net_weight": 0.045,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "brutto_weight": 0.048,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 0.483,
+    "brutto_volume_unit_code": "cdm",
+    "height": 21.5,
+    "length": 2,
+    "width": 14,
+    "unit_dimension": "cm",
+    "price_comparison_content": 1,
+    "size": "2 Stk."
+  },
+  "package_information": {
+    "cu": {
+      "gtins": [
+        "7617026621992",
+        "7613294757982"
+      ],
+      "brutto_weight": 0.048,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.483,
+      "brutto_volume_unit_code": "cdm",
+      "height": 21.5,
+      "length": 2,
+      "width": 14,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "tuv": {
+      "brutto_weight": 0.76,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 6.174,
+      "brutto_volume_unit_code": "cdm",
+      "height": 14,
+      "length": 21,
+      "width": 21,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 15
+    },
+    "tue": {
+      "brutto_weight": 0.815,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.001,
+      "brutto_volume_unit_code": "ccm",
+      "height": 21,
+      "length": 60,
+      "width": 40,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 15
+    },
+    "lu": {
+      "number_of_base_units": 1440
+    },
+    "lge": {
+      "number_of_base_units": 360
+    }
+  },
+  "vat": {
+    "id": 1,
+    "percentage": 7.7
+  },
+  "price": {
+    "valid_from": "2018-01-30T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 2.6,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "2 Stk."
+    },
+    "base": {
+      "price": 1.3,
+      "quantity": 1,
+      "unit": "st"
+    }
+  },
+  "features": [
+    {
+      "label_code": "miso_farbe",
+      "label": "Color",
+      "values": [
+        {
+          "value_code": "MISO_farbe_blau",
+          "value": "blau"
+        },
+        {
+          "value_code": "MISO_farbe_gelb",
+          "value": "gelb"
+        },
+        {
+          "value_code": "MISO_farbe_gruen",
+          "value": "grün"
+        },
+        {
+          "value_code": "MISO_farbe_weiss",
+          "value": "weiss"
+        }
+      ],
+      "category_code": "MISO_CLA_Reinigungshilfen_Verbrauch_Haushalt_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "miso_waschhinweis",
+      "label": "Washing instructions",
+      "values": [
+        {
+          "image": {
+            "code": "MISO_bleichen_nicht_erlaubt",
+            "description": "Bleichen nicht erlaubt",
+            "original": "https://image.migros.ch/original/fa26e68fc80b2538297c670585b4608ab8d061a5/bleichen-nicht-erlaubt.jpg",
+            "stack": "https://image.migros.ch/{stack}/fa26e68fc80b2538297c670585b4608ab8d061a5/bleichen-nicht-erlaubt.jpg"
+          },
+          "value_code": "MISO_bleichen_nicht_erlaubt",
+          "value": "Bleichen nicht erlaubt"
+        },
+        {
+          "image": {
+            "code": "MISO_nicht_buegeln",
+            "description": "Nicht bügeln",
+            "original": "https://image.migros.ch/original/e8075c97f20c7bf45051be2d16b1b4e5a9ed29b4/nicht-buegeln.jpg",
+            "stack": "https://image.migros.ch/{stack}/e8075c97f20c7bf45051be2d16b1b4e5a9ed29b4/nicht-buegeln.jpg"
+          },
+          "value_code": "MISO_nicht_buegeln",
+          "value": "Nicht bügeln"
+        },
+        {
+          "image": {
+            "code": "MISO_reinigung_nicht_chemisch",
+            "description": "Reinigung nicht chemisch",
+            "original": "https://image.migros.ch/original/da9f67cb9607c90830e1a123799fb95c208c1580/reinigung-nicht-chemisch.jpg",
+            "stack": "https://image.migros.ch/{stack}/da9f67cb9607c90830e1a123799fb95c208c1580/reinigung-nicht-chemisch.jpg"
+          },
+          "value_code": "MISO_reinigung_nicht_chemisch",
+          "value": "Reinigung nicht chemisch"
+        },
+        {
+          "image": {
+            "code": "MISO_trockner_niedrige_temperatur",
+            "description": "Trockner niedrige Temperatur\t",
+            "original": "https://image.migros.ch/original/dd114841ba7940a62cf1b0c1c6ca065090b5c866/trockner-niedrige-temperatur.jpg",
+            "stack": "https://image.migros.ch/{stack}/dd114841ba7940a62cf1b0c1c6ca065090b5c866/trockner-niedrige-temperatur.jpg"
+          },
+          "value_code": "MISO_trockner_niedrige_temperatur",
+          "value": "Trockner niedrige Temperatur\t"
+        },
+        {
+          "image": {
+            "code": "MISO_60grad",
+            "description": "60°",
+            "original": "https://image.migros.ch/original/ed6c8cd12ec9ec2c80068d43ff19edf257a672c6/60.jpg",
+            "stack": "https://image.migros.ch/{stack}/ed6c8cd12ec9ec2c80068d43ff19edf257a672c6/60.jpg"
+          },
+          "value_code": "MISO_60grad",
+          "value": "60°"
+        }
+      ],
+      "category_code": "MISO_CLA_Reinigungshilfen_Verbrauch_Haushalt_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "miso_material",
+      "label": "Material",
+      "values": [
+        {
+          "value_code": "MISO_material_acryl",
+          "value": "Acryl"
+        },
+        {
+          "value_code": "MISO_material_baumwolle",
+          "value": "Baumwolle"
+        },
+        {
+          "value_code": "MISO_material_synthetic",
+          "value": "Synthetic"
+        }
+      ],
+      "category_code": "MISO_CLA_Reinigungshilfen_Verbrauch_Haushalt_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "miso_anwendungsbereich",
+      "label": "Area of application",
+      "values": [
+        {
+          "value_code": "MISO_trocken",
+          "value": "trocken"
+        }
+      ],
+      "category_code": "MISO_CLA_Reinigungshilfen_Verbrauch_Haushalt_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "miso_anzahl",
+      "label": "Number",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2 Stk.",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MISO_CLA_Reinigungshilfen_Verbrauch_Haushalt_Alle",
+      "top_fact": false,
+      "unit_code": "Stk.",
+      "unit": "Stück",
+      "unit_symbol": "Stk.",
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "miso_masse_groesse",
+      "label": "Dimensions/size",
+      "values": [
+        {
+          "value": "38 cm x 40 cm"
+        }
+      ],
+      "category_code": "MISO_CLA_Reinigungshilfen_Verbrauch_Haushalt_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/e08a6532b37f9479eae56618600e048facb66d84/miobrill-staubtuecher-2stk-bunt.jpg",
+    "stack": "https://image.migros.ch/{stack}/e08a6532b37f9479eae56618600e048facb66d84/miobrill-staubtuecher-2stk-bunt.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/04a46f31f46dea2c427021ea61f5b6448a596ea5/miobrill-staubtuecher-2stk-bunt.png",
+    "stack": "https://image.migros.ch/{stack}/04a46f31f46dea2c427021ea61f5b6448a596ea5/miobrill-staubtuecher-2stk-bunt.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_RETURNABLE",
+      "label": "Return",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "true",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MAPI_RETURNABLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_MAX_ORDER_QUANTITY",
+      "values": [
+        {
+          "value_code": "NUMERIC_99999",
+          "value": "99999",
+          "numeric_value": 99999
+        }
+      ],
+      "category_code": "MAPI_MAX_ORDER_QUANTITY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_EXCLUDE_FROM_COMPARISON_ENGINES",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "false",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_EXCLUDE_FROM_COMPARISON_ENGINES",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+      "values": [
+        {
+          "value_code": "55",
+          "value": "Versandart Paket"
+        }
+      ],
+      "category_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LOGISTIC_CLASS",
+      "values": [
+        {
+          "value_code": "7",
+          "value": "VMI"
+        }
+      ],
+      "category_code": "MAPI_LOGISTIC_CLASS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Standard item"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "HART"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUSTOMS_POSITION",
+      "values": [
+        {
+          "value": "63070900000"
+        }
+      ],
+      "category_code": "MAPI_CUSTOMS_POSITION",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RISK_CLASS",
+      "values": [
+        {
+          "value_code": "3",
+          "value": "3 (low)"
+        }
+      ],
+      "category_code": "MAPI_RISK_CLASS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_KUBE_TUKA",
+      "values": [
+        {
+          "value_code": "BLANK",
+          "value": "KUBE und TUKA nicht zugelassen"
+        }
+      ],
+      "category_code": "MAPI_KUBE_TUKA",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HART",
+          "value": "Hartwaren Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "H",
+          "value": "Hartwaren"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "50777",
+          "value": "TUECHER"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_EXPORTABLE",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Yes",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MAPI_EXPORTABLE",
+      "top_fact": false
+    }
+  ],
+  "recipe_ingredient_ids": [
+    "10000"
+  ],
+  "regional_availability": {
+    "gmaa": {
+      "probability": 23
+    },
+    "gmbs": {
+      "probability": 28
+    },
+    "gmge": {
+      "probability": 21
+    },
+    "gmlu": {
+      "probability": 19
+    },
+    "gmnf": {
+      "probability": 14
+    },
+    "gmos": {
+      "probability": 23
+    },
+    "gmti": {
+      "probability": 16
+    },
+    "gmvd": {
+      "probability": 23
+    },
+    "gmvs": {
+      "probability": 22
+    },
+    "gmzh": {
+      "probability": 31
+    }
+  },
+  "colors": [
+    {
+      "label": "blau",
+      "hex": "#0000FF",
+      "group": "Blau",
+      "group_hex": "#0000FF"
+    },
+    {
+      "label": "grün",
+      "hex": "#008000",
+      "group": "Grün",
+      "group_hex": "#008000"
+    }
+  ],
+  "ratings": {
+    "count_all": 4,
+    "average_all": 3.75
+  },
+  "quantity_on_stock": 2831,
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "updated_at": "2023-08-15T07:56:41+0200",
+  "sap_created_at": "2000-04-06T00:00:00+0200",
+  "base_unit": "CU",
+  "views": [
+    "all",
+    "browse",
+    "browseallretailers"
+  ]
+}

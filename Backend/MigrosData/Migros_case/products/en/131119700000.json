@@ -1,0 +1,661 @@
+{
+  "id": "131119700000",
+  "language": "en",
+  "name": "Anna's Best Asian Mix",
+  "names": {
+    "short_name": "Anna's Best Asian Mix"
+  },
+  "slug": "annas-best-asian-mix",
+  "slugs": {
+    "de": "annas-best-asian-mix",
+    "fr": "annas-best-melange-asiatique",
+    "it": "annas-best-mix-asiatico",
+    "en": "annas-best-asian-mix"
+  },
+  "type": "00",
+  "boss_number": "020630531505",
+  "data_source": "SAP-X11",
+  "status": {
+    "id": "available",
+    "seasonal": true,
+    "pim_status": "80"
+  },
+  "tags": [
+    "source-p4m",
+    "migipedia",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613269835653"
+  ],
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarket"
+  },
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "brand": {
+    "id": "007",
+    "name": "Anna's Best",
+    "slug": "annas-best",
+    "links": {
+      "homepage": {
+        "url": "https://annasbest.migros.ch/de.html",
+        "name": "Homepage",
+        "type": "info",
+        "purchasable": false
+      }
+    }
+  },
+  "labels": [
+    {
+      "id": "L79",
+      "name": "Nutri-Score",
+      "slug": "nutri-score"
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_0101190203",
+      "name": "Salate",
+      "slug": "supermarkt/lebensmittel/fruechte-gemuese/gemuese/salate",
+      "visible": true,
+      "title": "Salate und Salatgemüse in Ihrer Migros kaufen",
+      "parent_code": "BeSS_01011902",
+      "level": 5
+    },
+    {
+      "code": "BeSS_01011902",
+      "name": "Gemüse",
+      "slug": "supermarkt/lebensmittel/fruechte-gemuese/gemuese",
+      "visible": true,
+      "title": "Mit Gem&uuml;se von der Migros jeden Tag gesund essen",
+      "parent_code": "BeSS_010119",
+      "level": 4
+    },
+    {
+      "code": "BeSS_010119",
+      "name": "Früchte & Gemüse",
+      "slug": "supermarkt/lebensmittel/fruechte-gemuese",
+      "visible": true,
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/f839060a505bba25c0f37585edb558c003c50479/fruechte-gemuese.jpg",
+        "stack": "https://image.migros.ch/{stack}/f839060a505bba25c0f37585edb558c003c50479/fruechte-gemuese.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/31702195ec9d38aecefe80349eb347f79d56c750/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/31702195ec9d38aecefe80349eb347f79d56c750/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "online_relevant": [
+    {
+      "code": "MGB",
+      "name": "Migros Genossenschafts-Bund"
+    },
+    {
+      "code": "MO",
+      "name": "Migros Online"
+    }
+  ],
+  "links": {
+    "migros_ch": {
+      "url": "https://www.migros.ch/en/product/131119700000?context=instore",
+      "name": "In-store assortment",
+      "canonical": "https://www.migros.ch/en/product/131119700000?context=instore",
+      "type": "info",
+      "purchasable": false
+    },
+    "migros_online": {
+      "url": "https://www.migros.ch/en/product/131119700000?context=online",
+      "mo_product_id": "3745441",
+      "name": "Online-shop assortment",
+      "canonical": "https://www.migros.ch/en/product/131119700000?context=instore",
+      "type": "shop",
+      "purchasable": true,
+      "one_catalog_id": 100013550
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/131119700000",
+      "name": "Migipedia",
+      "canonical": "https://www.migros.ch/en/product/131119700000?context=instore",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "has_safety_sheet": false,
+  "m_check2": {
+    "carbon_footprint": {
+      "image": {
+        "original": "https://image.migros.ch/original/3cb33aa7d90d7331f458860ae78688a0923b5993.svg",
+        "stack": "https://image.migros.ch/{stack}/3cb33aa7d90d7331f458860ae78688a0923b5993.svg"
+      },
+      "ground_and_sea_cargo": {
+        "kg_co2": 0.48,
+        "kg_co2_range": "0 - 0.9 kg CO₂eq / kg",
+        "co2_in_car_km": 2,
+        "rating": 5,
+        "production_in_percent": 48,
+        "packaging_in_percent": 36,
+        "transport_in_percent": 16
+      }
+    }
+  },
+  "receipt_text": "Asian Mix",
+  "package": {
+    "content": 250,
+    "content_unit_code": "g",
+    "content_unit": "Gram",
+    "net_weight": 0.25,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogram",
+    "type": "CU",
+    "portions_per_package": "1",
+    "brutto_weight": 0.251,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 1.617,
+    "brutto_volume_unit_code": "cdm",
+    "height": 21,
+    "length": 5,
+    "width": 15.4,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "250g"
+  },
+  "package_information": {
+    "tu": {
+      "gtins": [
+        "7613269835660"
+      ],
+      "brutto_weight": 1.004,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 15.96,
+      "brutto_volume_unit_code": "cdm",
+      "height": 13.3,
+      "length": 40,
+      "width": 30,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 4
+    },
+    "cu": {
+      "gtins": [
+        "7613269835653"
+      ],
+      "brutto_weight": 0.251,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 1.617,
+      "brutto_volume_unit_code": "cdm",
+      "height": 21,
+      "length": 5,
+      "width": 15.4,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    }
+  },
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "price": {
+    "valid_from": "2018-03-29T00:00:00+0200",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 2.9,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "250g"
+    },
+    "base": {
+      "price": 1.16,
+      "quantity": 100,
+      "unit": "G"
+    }
+  },
+  "features": [
+    {
+      "label_code": "acxMISOsorte",
+      "label": "Sorte",
+      "values": [
+        {
+          "value_code": "erxMISOsortechinakohl",
+          "value": "Chinakohl"
+        },
+        {
+          "value_code": "erxMISOsortekarotten",
+          "value": "Karotten"
+        },
+        {
+          "value_code": "erxMISOsortelauch",
+          "value": "Lauch"
+        },
+        {
+          "value_code": "erxMISOsortepeperonigelb",
+          "value": "Peperoni gelb"
+        },
+        {
+          "value_code": "erxMISOsortepeperonirot",
+          "value": "Peperoni rot"
+        }
+      ],
+      "category_code": "ecxMISOCLAbearbeiteteshaltbaresgemuesegemueselebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOsaisonbis",
+      "label": "Saison bis",
+      "values": [
+        {
+          "value": "September"
+        }
+      ],
+      "category_code": "ecxMISOCLAbearbeiteteshaltbaresgemuesegemueselebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOsaisonvon",
+      "label": "Saison von",
+      "values": [
+        {
+          "value": "March"
+        }
+      ],
+      "category_code": "ecxMISOCLAbearbeiteteshaltbaresgemuesegemueselebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOcugebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "erxMISOcugebindeartbeutel",
+          "value": "Beutel"
+        }
+      ],
+      "category_code": "ecxMISOCLAbearbeiteteshaltbaresgemuesegemueselebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOproduktionsanspruch",
+      "label": "Produktionsverfahren",
+      "values": [
+        {
+          "value_code": "erxMISOproduktionsanspruchgeruestet",
+          "value": "Gerüstet"
+        },
+        {
+          "value_code": "erxMISOproduktionsanspruchgewaschen",
+          "value": "Gewaschen"
+        }
+      ],
+      "category_code": "ecxMISOCLAbearbeiteteshaltbaresgemuesegemueselebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOwiederverschliessbar",
+      "label": "Wiederverschliessbar",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "ecxMISOCLAbearbeiteteshaltbaresgemuesegemueselebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOzubereitungsverfahren",
+      "label": "Hinweise für die Zubereitung",
+      "values": [
+        {
+          "value_code": "erxMISOzubereitungsverfahrenzumkochengeeignet",
+          "value": "zum kochen geeignet"
+        }
+      ],
+      "category_code": "ecxMISOCLAbearbeiteteshaltbaresgemuesegemueselebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOformbeschaffenheitvongemuese",
+      "label": "Form/Beschaffenheit",
+      "values": [
+        {
+          "value_code": "erxMISOformbeschaffenheitvongemuesegeschnitten",
+          "value": "cut"
+        }
+      ],
+      "category_code": "ecxMISOCLAbearbeiteteshaltbaresgemuesegemueselebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/b9fd98c3f759ded17f6d5a68ddd16764dacd68a5/annas-best-asian-mix.jpg",
+    "stack": "https://image.migros.ch/{stack}/b9fd98c3f759ded17f6d5a68ddd16764dacd68a5/annas-best-asian-mix.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/1e61d88b023630858423aa4fc898d28d6a82ab1f/annas-best-asian-mix.png",
+    "stack": "https://image.migros.ch/{stack}/1e61d88b023630858423aa4fc898d28d6a82ab1f/annas-best-asian-mix.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_EXPORTABLE",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_EXPORTABLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Normalposition"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZFRP",
+          "value": "Frische Beschaffung"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "ZFRP"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "70568",
+          "value": "VEGETABLES"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LIFECYCLE",
+      "values": [
+        {
+          "value_code": "N",
+          "value": "Neuheit"
+        }
+      ],
+      "category_code": "MAPI_LIFECYCLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_STORAGE_CONDITIONS",
+      "values": [
+        {
+          "value_code": "02",
+          "value": "refrigerated"
+        }
+      ],
+      "category_code": "MAPI_STORAGE_CONDITIONS",
+      "top_fact": false
+    },
+    {
+      "label_code": "acxMISOsorten",
+      "label": "Sorten",
+      "values": [
+        {
+          "value_code": "erxMISOCLAbearbeiteteshaltbaresGemueseGemueseLebensmittelGetraenkeAlle",
+          "value": "bearbeitetes haltbares Gemuese"
+        }
+      ],
+      "category_code": "ecxMISOCLAbearbeiteteshaltbaresgemuesegemueselebensmittelgetraenkealle",
+      "top_fact": false
+    },
+    {
+      "label_code": "acxCommonarticlecocompensated",
+      "label": "Artikel Co2 kompensiert",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false
+    },
+    {
+      "label_code": "acxCommonmesswertcompensation",
+      "label": "CO2-Wert Kompensation",
+      "values": [
+        {
+          "value_code": "NUMERIC_0.48",
+          "value": "0.48",
+          "numeric_value": 0.48
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false,
+      "unit_code": "5d71456e-a520-4294-9ddb-add78f63ce83",
+      "unit": "Equivalence per kilogram",
+      "unit_symbol": "eq / kg"
+    },
+    {
+      "label_code": "acxCommonoutputmcheckclimatedeclaration",
+      "label": "Auslobung M-Check Klimadeklaration",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Yes",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false
+    }
+  ],
+  "declarations": {
+    "tags": [
+      "source-qim"
+    ],
+    "gtins": [
+      "7613269835653"
+    ]
+  },
+  "recipe_ingredient_ids": [
+    "19483223",
+    "19508043"
+  ],
+  "regional_availability": {
+    "gmaa": {
+      "probability": 12
+    },
+    "gmbs": {
+      "probability": 19
+    },
+    "gmge": {
+      "probability": 26
+    },
+    "gmlu": {
+      "probability": 27
+    },
+    "gmnf": {
+      "probability": 10
+    },
+    "gmos": {
+      "probability": 12
+    },
+    "gmti": {
+      "probability": 16
+    },
+    "gmvd": {
+      "probability": 19
+    },
+    "gmvs": {
+      "probability": 15
+    },
+    "gmzh": {
+      "probability": 31
+    }
+  },
+  "ratings": {
+    "count_all": 16,
+    "average_all": 4.25
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "updated_at": "2023-08-17T11:52:32+0200",
+  "sap_created_at": "2017-01-04T18:00:00+0100",
+  "online_shop_relevant": false,
+  "base_unit": "CU",
+  "co2_compensation": {
+    "kg_co2": 0.48,
+    "kg_co2_compensation": 0.48,
+    "is_compensated": false,
+    "mcheck_enabled": true
+  },
+  "views": [
+    "all",
+    "browse",
+    "browseallretailers"
+  ]
+}

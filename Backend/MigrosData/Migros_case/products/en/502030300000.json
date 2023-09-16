@@ -1,0 +1,598 @@
+{
+  "id": "502030300000",
+  "language": "en",
+  "name": "Xpert Aufkleber Entferner",
+  "names": {
+    "short_name": "Xpert Aufkleber Entferner"
+  },
+  "slug": "xpert-aufkleber-entferner",
+  "slugs": {
+    "de": "xpert-aufkleber-entferner",
+    "fr": "xpert-elimine-autocollants",
+    "it": "xpert-antiadesivo",
+    "en": "xpert-aufkleber-entferner"
+  },
+  "type": "00",
+  "boss_number": "150126803540",
+  "description": {
+    "text": "Aufkleber Entferner\nWirkt schnell & gr&uuml;ndlich",
+    "source": "PEX"
+  },
+  "data_source": "SAP-X11",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03",
+    "distribution_center": [
+      {
+        "center_id": "1000",
+        "center_name": "Migros Verteilzentrum Suhr",
+        "status_description": "product.status.distribution_center."
+      },
+      {
+        "center_id": "1001",
+        "center_name": "Migros Verteilzentrum Neuendorf",
+        "status_description": "product.status.distribution_center."
+      },
+      {
+        "center_id": "1040",
+        "center_name": "Entrepôt régional Genève",
+        "status_description": "product.status.distribution_center."
+      },
+      {
+        "center_id": "1150",
+        "center_name": "Regionallager Zürich",
+        "status_description": "product.status.distribution_center."
+      }
+    ]
+  },
+  "tags": [
+    "source-pex",
+    "near-non-food",
+    "migipedia",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613312132913"
+  ],
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarket"
+  },
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "brand": {
+    "id": "151",
+    "name": "Potz",
+    "slug": "potz"
+  },
+  "categories": [
+    {
+      "code": "BeSS_0104010607",
+      "name": "Spezialreiniger",
+      "slug": "supermarkt/haushalt-reinigung/waschen-reinigen-pflege/reinigungsmittel/spezialreiniger",
+      "visible": true,
+      "parent_code": "BeSS_01040106",
+      "image": {
+        "original": "https://image.migros.ch/original/410e40680ef3921d35368015e63f4a45794320eb/spezialreiniger.jpg",
+        "stack": "https://image.migros.ch/{stack}/410e40680ef3921d35368015e63f4a45794320eb/spezialreiniger.jpg"
+      },
+      "level": 5
+    },
+    {
+      "code": "BeSS_01040106",
+      "name": "Reinigungsmittel",
+      "slug": "supermarkt/haushalt-reinigung/waschen-reinigen-pflege/reinigungsmittel",
+      "visible": true,
+      "title": "Putzmittel bei der Migros: Und alles glänzt!",
+      "parent_code": "BeSS_010401",
+      "image": {
+        "original": "https://image.migros.ch/original/8ae8cde85bbe4352f65f30c350b6bc7562eae30e/reinigungsmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/8ae8cde85bbe4352f65f30c350b6bc7562eae30e/reinigungsmittel.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010401",
+      "name": "Waschen, Reinigen & Pflege",
+      "slug": "supermarkt/haushalt-reinigung/waschen-reinigen-pflege",
+      "visible": true,
+      "parent_code": "BeSS_0104",
+      "image": {
+        "original": "https://image.migros.ch/original/37d8921589f88cd40b1c580b957a6a414e1fe1d1/waschen-reinigen-pflege.jpg",
+        "stack": "https://image.migros.ch/{stack}/37d8921589f88cd40b1c580b957a6a414e1fe1d1/waschen-reinigen-pflege.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0104",
+      "name": "Haushalt & Reinigung",
+      "slug": "supermarkt/haushalt-reinigung",
+      "visible": true,
+      "title": "Reinigung mit der Migros – Reiniger für Haushalt und Garten",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png",
+        "stack": "https://image.migros.ch/{stack}/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "online_relevant": [
+    {
+      "code": "MGB",
+      "name": "Migros Genossenschafts-Bund"
+    }
+  ],
+  "galaxus_relevant": false,
+  "links": {
+    "migros_ch": {
+      "url": "https://www.migros.ch/en/product/502030300000?context=instore",
+      "name": "In-store assortment",
+      "canonical": "https://www.migros.ch/en/product/502030300000?context=instore",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/502030300000",
+      "name": "Migipedia",
+      "canonical": "https://www.migros.ch/en/product/502030300000?context=instore",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "m_check2": {},
+  "receipt_text": "Potz Aufkleber Entf.",
+  "package": {
+    "content": 250,
+    "content_unit_code": "ml",
+    "content_unit": "Mililiter",
+    "net_weight": 0.25,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "brutto_weight": 0.255,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 0.5,
+    "brutto_volume_unit_code": "cdm",
+    "height": 13.9,
+    "length": 6,
+    "width": 6,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "250ml"
+  },
+  "package_information": {
+    "tu": {
+      "gtins": [
+        "7613312132920"
+      ],
+      "brutto_weight": 3.6,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 8,
+      "brutto_volume_unit_code": "cdm",
+      "height": 16,
+      "length": 25,
+      "width": 20,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 12
+    },
+    "cu": {
+      "gtins": [
+        "7613312132913"
+      ],
+      "brutto_weight": 0.255,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.5,
+      "brutto_volume_unit_code": "cdm",
+      "height": 13.9,
+      "length": 6,
+      "width": 6,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "lu": {
+      "number_of_base_units": 2160
+    },
+    "lge": {
+      "number_of_base_units": 216
+    },
+    "kar": {
+      "number_of_base_units": 1
+    }
+  },
+  "vat": {
+    "id": 1,
+    "percentage": 7.7
+  },
+  "price": {
+    "valid_from": "2022-05-01T00:00:00+0200",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 6.95,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "250ml"
+    },
+    "base": {
+      "price": 2.78,
+      "quantity": 100,
+      "unit": "ml"
+    }
+  },
+  "features": [
+    {
+      "label_code": "miso_gefahrenhinweise",
+      "label": "Hazard warnings",
+      "values": [
+        {
+          "value": "Darf nicht in die Hände von Kindern gelangen."
+        }
+      ],
+      "category_code": "MISO_CLA_WaschenPapierReinigen_Haushalt_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "miso_anwendbarkeit_beschaffenheit_form",
+      "label": "Form",
+      "values": [
+        {
+          "value_code": "MISO_fluessig",
+          "value": "flüssig"
+        }
+      ],
+      "category_code": "MISO_CLA_Reinigungsmittel_WaschenPapierReinigen_Haushalt_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "miso_geeignet_fuer",
+      "label": "Suitable for",
+      "values": [
+        {
+          "value_code": "MISO_glas_und_spiegel",
+          "value": "Glas und Spiegel"
+        },
+        {
+          "value_code": "MISO_glaskeramik",
+          "value": "Glaskeramik"
+        }
+      ],
+      "category_code": "MISO_CLA_Reinigungsmittel_WaschenPapierReinigen_Haushalt_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "miso_nicht_geeignet_fuer",
+      "label": "Not suitable for",
+      "values": [
+        {
+          "value_code": "MISO_empfindliche_oberflaechen",
+          "value": "Empfindliche Oberflächen"
+        }
+      ],
+      "category_code": "MISO_CLA_Reinigungsmittel_WaschenPapierReinigen_Haushalt_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "CHEMICALS_WARNING",
+      "label": "Warning",
+      "values": [
+        {
+          "value": "Always read label and product information before use."
+        }
+      ],
+      "category_code": "CHEMICALS_WARNING",
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/57e334ee4105d032d8c0ca6d437cd28824b27d7a/xpert-aufkleber-entferner.jpg",
+    "stack": "https://image.migros.ch/{stack}/57e334ee4105d032d8c0ca6d437cd28824b27d7a/xpert-aufkleber-entferner.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/d189d88d05935c4b3ce793458bd69d9d8d5c5c74/xpert-aufkleber-entferner.png",
+    "stack": "https://image.migros.ch/{stack}/d189d88d05935c4b3ce793458bd69d9d8d5c5c74/xpert-aufkleber-entferner.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Standard item"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "ZHKS"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUSTOMS_POSITION",
+      "values": [
+        {
+          "value": "34022090000"
+        }
+      ],
+      "category_code": "MAPI_CUSTOMS_POSITION",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RISK_CLASS",
+      "values": [
+        {
+          "value_code": "2",
+          "value": "2 (medium)"
+        }
+      ],
+      "category_code": "MAPI_RISK_CLASS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_QUALITY_CHECK",
+      "values": [
+        {
+          "value_code": "00",
+          "value": "No Quality Control"
+        }
+      ],
+      "category_code": "MAPI_QUALITY_CHECK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZHKS",
+          "value": "HKS Standardartikel"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "H",
+          "value": "HKS Standard"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "50313",
+          "value": "SPEZIALREINIGER"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LIFECYCLE",
+      "values": [
+        {
+          "value_code": "D",
+          "value": "Detailhandelsartikel"
+        }
+      ],
+      "category_code": "MAPI_LIFECYCLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_EXPORTABLE",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Yes",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MAPI_EXPORTABLE",
+      "top_fact": false
+    }
+  ],
+  "chemicals_declaration": {
+    "release_date": "2018-03-16T16:05:56+0100",
+    "supplier_id": "0010028574",
+    "supplier_description": "AVT GmbH",
+    "precautionary_statements": [
+      {
+        "code": "P102",
+        "label": "Keep out of reach of children."
+      }
+    ],
+    "eu_hazard_statements": [
+      {
+        "code": "EUH066",
+        "label": "Repeated exposure may cause skin dryness or cracking."
+      }
+    ],
+    "cpid_number": "602486-41 (MGB-20180316)",
+    "chem_voc_concentration": 94.9,
+    "poison_cabinet": false,
+    "cleaning_agents": [
+      {
+        "concentration": {
+          "code": "RMK31",
+          "label": "30% and over"
+        },
+        "group": {
+          "code": "RMS10",
+          "label": "aliphatic carbohydrates"
+        }
+      },
+      {
+        "concentration": {
+          "code": "RMK05",
+          "label": "less than 5%"
+        },
+        "group": {
+          "code": "RMS04",
+          "label": "nonionic surfactants"
+        }
+      }
+    ]
+  },
+  "regional_availability": {
+    "gmaa": {
+      "probability": 26
+    },
+    "gmbs": {
+      "probability": 26
+    },
+    "gmge": {
+      "probability": 21
+    },
+    "gmlu": {
+      "probability": 22
+    },
+    "gmnf": {
+      "probability": 20
+    },
+    "gmos": {
+      "probability": 20
+    },
+    "gmti": {
+      "probability": 13
+    },
+    "gmvd": {
+      "probability": 23
+    },
+    "gmvs": {
+      "probability": 22
+    },
+    "gmzh": {
+      "probability": 28
+    }
+  },
+  "ratings": {
+    "count_all": 13,
+    "average_all": 3.769230769231
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "updated_at": "2023-08-17T07:36:01+0200",
+  "sap_created_at": "2017-02-21T00:00:00+0100",
+  "base_unit": "CU",
+  "views": [
+    "all",
+    "browse",
+    "browseallretailers"
+  ]
+}

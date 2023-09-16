@@ -1,0 +1,736 @@
+{
+  "id": "703002300000",
+  "language": "en",
+  "name": "TEA SPOON PRIMO",
+  "names": {
+    "short_name": "TEA SPOON PRIMO"
+  },
+  "slug": "tea-spoon-primo",
+  "slugs": {
+    "de": "primo-kaffeeloeffel",
+    "fr": "primo-cuillere-a-cafe",
+    "it": "primo-cucchiaino-da-te",
+    "en": "tea-spoon-primo"
+  },
+  "type": "00",
+  "boss_number": "150523020505",
+  "description": {
+    "text": "Das klassische Besteck Primo bietet zeitlose Eleganz. Dieses Modell ist die ideale Wahl f&uuml;r die hohen Anforderungen im t&auml;glichen Gebrauch.",
+    "source": "PEX"
+  },
+  "data_source": "SAP-X12",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03",
+    "distribution_center": [
+      {
+        "center_id": "1001",
+        "center_name": "Migros Verteilzentrum Neuendorf",
+        "status_code": "03",
+        "status_description": "active"
+      }
+    ]
+  },
+  "tags": [
+    "source-pex",
+    "near-non-food",
+    "migipedia",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": true,
+  "base_product_id": "400900000471PIMSAM",
+  "gtins": [
+    "7617028799866"
+  ],
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarket"
+  },
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "brand": {
+    "id": "NF1",
+    "name": "Cucina & Tavola",
+    "slug": "cucina-tavola",
+    "image": {
+      "original": "https://image.migros.ch/original/98f3334a95177b479cd8ad916857b64af5b1c64d/cucina-tavola.jpg",
+      "stack": "https://image.migros.ch/{stack}/98f3334a95177b479cd8ad916857b64af5b1c64d/cucina-tavola.jpg"
+    }
+  },
+  "categories": [
+    {
+      "code": "BeSS_01041001",
+      "name": "Besteck",
+      "slug": "supermarkt/haushalt-reinigung/tisch/besteck",
+      "visible": true,
+      "parent_code": "BeSS_010410",
+      "image": {
+        "original": "https://image.migros.ch/original/878a79c5f7a4486d1b009beed9d7096b83f8bf6d/besteck.jpg",
+        "stack": "https://image.migros.ch/{stack}/878a79c5f7a4486d1b009beed9d7096b83f8bf6d/besteck.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010410",
+      "name": "Tisch",
+      "slug": "supermarkt/haushalt-reinigung/tisch",
+      "visible": true,
+      "title": "Tisch decken mit Produkten aus Ihrer Migros",
+      "parent_code": "BeSS_0104",
+      "image": {
+        "original": "https://image.migros.ch/original/2bccc9b2a47748f865201d77ef5e68a030effcaf/tisch.jpg",
+        "stack": "https://image.migros.ch/{stack}/2bccc9b2a47748f865201d77ef5e68a030effcaf/tisch.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0104",
+      "name": "Haushalt & Reinigung",
+      "slug": "supermarkt/haushalt-reinigung",
+      "visible": true,
+      "title": "Reinigung mit der Migros – Reiniger für Haushalt und Garten",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png",
+        "stack": "https://image.migros.ch/{stack}/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "online_relevant": [
+    {
+      "code": "MGB",
+      "name": "Migros Genossenschafts-Bund"
+    },
+    {
+      "code": "MO",
+      "name": "Migros Online"
+    }
+  ],
+  "galaxus_relevant": false,
+  "links": {
+    "migros_ch": {
+      "url": "https://www.migros.ch/en/product/703002300000?context=instore",
+      "name": "In-store assortment",
+      "canonical": "https://www.migros.ch/en/product/703002300000?context=instore",
+      "type": "info",
+      "purchasable": false
+    },
+    "migros_online": {
+      "url": "https://www.migros.ch/en/product/703002300000?context=online",
+      "mo_product_id": "5023097",
+      "name": "Online-shop assortment",
+      "canonical": "https://www.migros.ch/en/product/703002300000?context=instore",
+      "type": "shop",
+      "purchasable": true,
+      "one_catalog_id": 100004218
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/703002300000",
+      "name": "Migipedia",
+      "canonical": "https://www.migros.ch/en/product/703002300000?context=instore",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "m_check2": {
+    "carbon_footprint": {
+      "image": {
+        "original": "https://image.migros.ch/original/6137c42cbff331738ddeafb4f91efb06075417b3.svg",
+        "stack": "https://image.migros.ch/{stack}/6137c42cbff331738ddeafb4f91efb06075417b3.svg"
+      },
+      "ground_and_sea_cargo": {
+        "kg_co2": 7.59,
+        "kg_co2_range": "4.8 - 9.9 kg CO₂eq / kg",
+        "co2_in_car_km": 42,
+        "rating": 2,
+        "production_in_percent": 97,
+        "packaging_in_percent": 2,
+        "transport_in_percent": 1
+      }
+    }
+  },
+  "receipt_text": "Primo Kaffeelöffel",
+  "package": {
+    "content": 1,
+    "content_unit_code": "st",
+    "content_unit": "Stück",
+    "net_weight": 0.022,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "brutto_weight": 0.022,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 69.44,
+    "brutto_volume_unit_code": "ccm",
+    "height": 1.8,
+    "length": 13.9,
+    "width": 3,
+    "unit_dimension": "cm",
+    "price_comparison_content": 1,
+    "size": "1 Stk."
+  },
+  "package_information": {
+    "cu": {
+      "gtins": [
+        "7617028799866"
+      ],
+      "brutto_weight": 0.022,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 69.44,
+      "brutto_volume_unit_code": "ccm",
+      "height": 1.8,
+      "length": 13.9,
+      "width": 3,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "tuv": {
+      "brutto_weight": 0.16,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.135,
+      "brutto_volume_unit_code": "cdm",
+      "height": 3,
+      "length": 15,
+      "width": 3,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 6
+    },
+    "tue": {
+      "brutto_weight": 0.145,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.001,
+      "brutto_volume_unit_code": "ccm",
+      "height": 3,
+      "length": 15,
+      "width": 3.5,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 6
+    },
+    "lu": {
+      "number_of_base_units": 7200
+    },
+    "lge": {
+      "number_of_base_units": 360
+    },
+    "moq": {
+      "number_of_base_units": 300
+    }
+  },
+  "vat": {
+    "id": 1,
+    "percentage": 7.7
+  },
+  "price": {
+    "valid_from": "2023-08-08T00:00:00+0200",
+    "valid_to": "2023-08-21T23:59:59+0200",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 0.7,
+      "original_price": 0.95,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "1 Stk."
+    },
+    "base": {
+      "price": 0.7,
+      "quantity": 1,
+      "unit": "ST"
+    },
+    "discount": {
+      "id": "1914212",
+      "region": "national",
+      "start_date": "2023-08-08T00:00:00+0200",
+      "end_date": "2023-08-21T23:59:59+0200",
+      "publication_date": "2023-08-06T00:00:00+0200",
+      "discount_amount": "30%",
+      "discount_regions": [
+        "national"
+      ],
+      "reference_product_id": "703047300003",
+      "discount_type": "aktion",
+      "discount_type_id": "001",
+      "discount_type_label": "SA Sonderangebot",
+      "organisation": "09",
+      "cooperative": "mgb",
+      "reduction": {
+        "relative": false,
+        "amount": 30
+      },
+      "location_planning_type": "01",
+      "reduction_type_id": "01",
+      "special_advertisement": false,
+      "advertisement_type_id": "2",
+      "description": "Gesamtes Cucina & Tavola Essbesteck-Sortiment",
+      "discount_hint": "z.B. Nero Tafelmesser, pro Stück, <strong>3.45 </strong>statt 4.95, Angebot gilt nur vom 8.8. bis 21.8.2023, solange Vorrat.",
+      "high_performer": false,
+      "collective_discount": true,
+      "instead_of": "statt",
+      "price": 0.7,
+      "original_price": 0.95,
+      "disclaimer": "Gültigkeit siehe Angebots-Detailseite.\r\nBei allen Angeboten sind M-Budget und bereits reduzierte Artikel ausgenommen.\r\nBei Aktionen können bei der Verrechnung auf dem Kassabon Rundungsdifferenzen zu Gunsten des Kunden entstehen.",
+      "source": "PriceRepository",
+      "boss_number": "150523020570",
+      "discount_role_id": "2000000002",
+      "discount_role_label": "M: Wochenangebot Typ I",
+      "last_imported": "2023-08-14T06:00:10+0200"
+    },
+    "discount_hint": "Angebot gilt nur vom 8.8. bis 21.8.2023, solange Vorrat."
+  },
+  "features": [
+    {
+      "label_code": "miso_material",
+      "label": "Material",
+      "values": [
+        {
+          "value_code": "MISO_material_chrom_nickel_stahl_18_10",
+          "value": "Chrom-Nickel-Stahl 18/10"
+        }
+      ],
+      "category_code": "MISO_CLA_Bestecke_Tisch_Haushalt_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "miso_spuelmaschinentauglich",
+      "label": "Dishwasher-safe",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Yes",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MISO_CLA_Bestecke_Tisch_Haushalt_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "miso_rostfrei",
+      "label": "Stainless",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Yes",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MISO_CLA_Bestecke_Tisch_Haushalt_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "miso_laenge",
+      "label": "Length",
+      "values": [
+        {
+          "value_code": "NUMERIC_13.8",
+          "value": "13.8 cm",
+          "numeric_value": 13.8
+        }
+      ],
+      "category_code": "MISO_CLA_Tisch_Haushalt_Alle",
+      "top_fact": false,
+      "unit_code": "cm",
+      "unit": "Zentimeter",
+      "unit_symbol": "cm",
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "miso_farbe",
+      "label": "Color",
+      "values": [
+        {
+          "value_code": "MISO_farbe_silber",
+          "value": "silber"
+        }
+      ],
+      "category_code": "MISO_CLA_Tisch_Haushalt_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "miso_fuer_lebensmittel_geeignet",
+      "label": "suitable for food products",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Yes",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MISO_CLA_Tisch_Haushalt_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "miso_besonderes",
+      "label": "Special",
+      "values": [
+        {
+          "value": "Robuster und rostfreier Edelstahl Elite 18/10 Chromnickelstahl"
+        }
+      ],
+      "category_code": "MISO_CLA_Haushalt_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/bf97c38fe48a8b1f9c3b2662360c081eb48c7615/tea-spoon-primo.jpg",
+    "stack": "https://image.migros.ch/{stack}/bf97c38fe48a8b1f9c3b2662360c081eb48c7615/tea-spoon-primo.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/2c51ac5154b1890f5f191210e8e6afeb1cd908aa/tea-spoon-primo.png",
+    "stack": "https://image.migros.ch/{stack}/2c51ac5154b1890f5f191210e8e6afeb1cd908aa/tea-spoon-primo.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_RETURNABLE",
+      "label": "Return",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "true",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MAPI_RETURNABLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_MAX_ORDER_QUANTITY",
+      "values": [
+        {
+          "value_code": "NUMERIC_22222222",
+          "value": "22222222",
+          "numeric_value": 22222222
+        }
+      ],
+      "category_code": "MAPI_MAX_ORDER_QUANTITY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_EXCLUDE_FROM_COMPARISON_ENGINES",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "false",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_EXCLUDE_FROM_COMPARISON_ENGINES",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+      "values": [
+        {
+          "value_code": "55",
+          "value": "Versandart Paket"
+        }
+      ],
+      "category_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LOGISTIC_CLASS",
+      "values": [
+        {
+          "value_code": "7",
+          "value": "VMI"
+        }
+      ],
+      "category_code": "MAPI_LOGISTIC_CLASS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Standard item"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "HART"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUSTOMS_POSITION",
+      "values": [
+        {
+          "value": "82152000000"
+        }
+      ],
+      "category_code": "MAPI_CUSTOMS_POSITION",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RISK_CLASS",
+      "values": [
+        {
+          "value_code": "2",
+          "value": "2 (medium)"
+        }
+      ],
+      "category_code": "MAPI_RISK_CLASS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_QUALITY_CHECK",
+      "values": [
+        {
+          "value_code": "00",
+          "value": "No Quality Control"
+        }
+      ],
+      "category_code": "MAPI_QUALITY_CHECK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_KUBE_TUKA",
+      "values": [
+        {
+          "value_code": "X",
+          "value": "KUBE und TUKA zugelassen"
+        }
+      ],
+      "category_code": "MAPI_KUBE_TUKA",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HART",
+          "value": "Hartwaren Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "H",
+          "value": "Hartwaren"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "50949",
+          "value": "SERIEN 1-16"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_EXPORTABLE",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Yes",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MAPI_EXPORTABLE",
+      "top_fact": false
+    }
+  ],
+  "recipe_ingredient_ids": [
+    "67527"
+  ],
+  "regional_availability": {
+    "gmaa": {
+      "probability": 86
+    },
+    "gmbs": {
+      "probability": 79
+    },
+    "gmge": {
+      "probability": 63
+    },
+    "gmlu": {
+      "probability": 39
+    },
+    "gmnf": {
+      "probability": 47
+    },
+    "gmos": {
+      "probability": 62
+    },
+    "gmti": {
+      "probability": 16
+    },
+    "gmvd": {
+      "probability": 75
+    },
+    "gmvs": {
+      "probability": 74
+    },
+    "gmzh": {
+      "probability": 60
+    }
+  },
+  "colors": [
+    {
+      "label": "silber",
+      "hex": "#CFD5D5",
+      "group": "Silberfarben",
+      "group_hex": "#CFD5D5"
+    }
+  ],
+  "ratings": {
+    "count_all": 23,
+    "average_all": 4.5
+  },
+  "related_products": {
+    "reference_recommendations": {
+      "product_ids": [
+        "700159000004",
+        "700159000005",
+        "700159000002",
+        "700159000007",
+        "700159000006",
+        "700159000003",
+        "700159000001",
+        "502030300000",
+        "700359800000"
+      ]
+    }
+  },
+  "quantity_on_stock": 31458,
+  "reindex_date": "2023-08-21T23:59:59+0200",
+  "updated_at": "2023-08-17T12:04:40+0200",
+  "sap_created_at": "1992-07-08T00:00:00+0200",
+  "online_shop_relevant": true,
+  "base_unit": "CU",
+  "origins": {
+    "producing_country": "China"
+  },
+  "views": [
+    "all",
+    "browse",
+    "browseallretailers"
+  ]
+}

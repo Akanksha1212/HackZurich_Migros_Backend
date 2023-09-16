@@ -1,0 +1,745 @@
+{
+  "id": "158589400000",
+  "language": "en",
+  "name": "Saitaku Panko Breadcrumbs",
+  "names": {
+    "short_name": "Saitaku Panko Breadcrumbs"
+  },
+  "slug": "saitaku-panko-breadcrumbs",
+  "slugs": {
+    "de": "saitaku-panko-breadcrumbs",
+    "fr": "saitaku-panko-breadcrumbs",
+    "it": "saitaku-panko-breadcrumbs",
+    "en": "saitaku-panko-breadcrumbs"
+  },
+  "type": "00",
+  "boss_number": "011111181110",
+  "description": {
+    "text": "Paniermehl",
+    "source": "P4M"
+  },
+  "data_source": "SAP-X11",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03"
+  },
+  "tags": [
+    "source-p4m",
+    "migipedia",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "5060194790939"
+  ],
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarket"
+  },
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "brand": {
+    "id": "252",
+    "name": "Saitaku",
+    "slug": "saitaku"
+  },
+  "categories": [
+    {
+      "code": "BeSS_0101142004",
+      "name": "Japan",
+      "slug": "supermarkt/lebensmittel/pasta-zutaten-konserven/aus-aller-welt/japan",
+      "visible": true,
+      "parent_code": "BeSS_01011420",
+      "image": {
+        "original": "https://image.migros.ch/original/94a0361d4d9beb4f7659c8b6dfd41cc0b00ed043/japan.jpg",
+        "stack": "https://image.migros.ch/{stack}/94a0361d4d9beb4f7659c8b6dfd41cc0b00ed043/japan.jpg"
+      },
+      "level": 5
+    },
+    {
+      "code": "BeSS_01011420",
+      "name": "Aus aller Welt",
+      "slug": "supermarkt/lebensmittel/pasta-zutaten-konserven/aus-aller-welt",
+      "visible": true,
+      "title": "Ausländische Lebensmittel &ndash; eine kulinarische Weltreise in Ihrer Migros",
+      "parent_code": "BeSS_010114",
+      "image": {
+        "original": "https://image.migros.ch/original/43332c270cb0fd2c865d207763897cad78829166/aus-aller-welt.jpg",
+        "stack": "https://image.migros.ch/{stack}/43332c270cb0fd2c865d207763897cad78829166/aus-aller-welt.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010114",
+      "name": "Pasta, Zutaten & Konserven",
+      "slug": "supermarkt/lebensmittel/pasta-zutaten-konserven",
+      "visible": true,
+      "title": "Pasta aus Ihrer Migros: alles rund um Teigwaren",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/6d0964bbb34b8e041ba4d74fc0c90b149907f46a/pasta-zutaten-konserven.jpg",
+        "stack": "https://image.migros.ch/{stack}/6d0964bbb34b8e041ba4d74fc0c90b149907f46a/pasta-zutaten-konserven.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/31702195ec9d38aecefe80349eb347f79d56c750/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/31702195ec9d38aecefe80349eb347f79d56c750/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "online_relevant": [
+    {
+      "code": "MGB",
+      "name": "Migros Genossenschafts-Bund"
+    },
+    {
+      "code": "MO",
+      "name": "Migros Online"
+    }
+  ],
+  "links": {
+    "migros_ch": {
+      "url": "https://www.migros.ch/en/product/158589400000?context=instore",
+      "name": "In-store assortment",
+      "canonical": "https://www.migros.ch/en/product/158589400000?context=instore",
+      "type": "info",
+      "purchasable": false
+    },
+    "migros_online": {
+      "url": "https://www.migros.ch/en/product/158589400000?context=online",
+      "mo_product_id": "4355635",
+      "name": "Online-shop assortment",
+      "canonical": "https://www.migros.ch/en/product/158589400000?context=instore",
+      "type": "shop",
+      "purchasable": true,
+      "one_catalog_id": 100028483
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/158589400000",
+      "name": "Migipedia",
+      "canonical": "https://www.migros.ch/en/product/158589400000?context=instore",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "has_safety_sheet": false,
+  "m_check2": {},
+  "receipt_text": "Saitaku Panko Breadcr.",
+  "package": {
+    "content": 150,
+    "content_unit_code": "g",
+    "content_unit": "Gram",
+    "net_weight": 0.15,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogram",
+    "type": "CU",
+    "portions_per_package": "1",
+    "brutto_weight": 0.159,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 0.833,
+    "brutto_volume_unit_code": "cdm",
+    "height": 17,
+    "length": 3.5,
+    "width": 14,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "150g"
+  },
+  "package_information": {
+    "tu": {
+      "gtins": [
+        "5060194791264"
+      ],
+      "brutto_weight": 1.1,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 6.655,
+      "brutto_volume_unit_code": "cdm",
+      "height": 20.2,
+      "length": 23.2,
+      "width": 14.2,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 6
+    },
+    "cu": {
+      "gtins": [
+        "5060194790939"
+      ],
+      "brutto_weight": 0.159,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.833,
+      "brutto_volume_unit_code": "cdm",
+      "height": 17,
+      "length": 3.5,
+      "width": 14,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "lu": {
+      "brutto_weight": 168,
+      "brutto_weight_unit_code": "kg",
+      "length": 120,
+      "width": 80,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 780
+    }
+  },
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "price": {
+    "valid_from": "2021-06-29T00:00:00+0200",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 2.75,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "150g"
+    },
+    "base": {
+      "price": 1.83,
+      "quantity": 100,
+      "unit": "G"
+    }
+  },
+  "features": [
+    {
+      "label_code": "MAPI_VEGETARIANISM",
+      "label": "Vegetarianism",
+      "values": [
+        {
+          "value_code": "MAPI_VEGETARIANISM_vegan",
+          "value": "Vegan"
+        }
+      ],
+      "category_code": "MAPI_VEGETARIANISM",
+      "top_fact": false
+    },
+    {
+      "label_code": "acxMISOcugebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "erxMISOcugebindeartbeutelsack",
+          "value": "Beutel/Sack"
+        }
+      ],
+      "category_code": "ecxMISOCLAgetreidemehlgetreidehuelsenfruchtproduktelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/1ca4daf48f5df58ab6ef3b5c4431ec8b66585dd5/saitaku-panko-breadcrumbs.jpg",
+    "stack": "https://image.migros.ch/{stack}/1ca4daf48f5df58ab6ef3b5c4431ec8b66585dd5/saitaku-panko-breadcrumbs.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/0eef49bf90b711b1c278031e216664ccc7a4b575/saitaku-panko-breadcrumbs.png",
+    "stack": "https://image.migros.ch/{stack}/0eef49bf90b711b1c278031e216664ccc7a4b575/saitaku-panko-breadcrumbs.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_EXPORTABLE",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_EXPORTABLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Normalposition"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "HAWA"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "11172",
+          "value": "JAPAN"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_KUBE_TUKA",
+      "values": [
+        {
+          "value_code": "BLANK",
+          "value": "KUBE und TUKA nicht zugelassen"
+        }
+      ],
+      "category_code": "MAPI_KUBE_TUKA",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LIFECYCLE",
+      "values": [
+        {
+          "value_code": "D",
+          "value": "Detailhandelsartikel"
+        }
+      ],
+      "category_code": "MAPI_LIFECYCLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_STORAGE_CONDITIONS",
+      "values": [
+        {
+          "value_code": "01",
+          "value": "normal"
+        }
+      ],
+      "category_code": "MAPI_STORAGE_CONDITIONS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_MULTIPACK",
+      "values": [
+        {
+          "value_code": "0",
+          "value": "No pack expression"
+        }
+      ],
+      "category_code": "MAPI_MULTIPACK",
+      "top_fact": false
+    },
+    {
+      "label_code": "acxCommonarticlecocompensated",
+      "label": "Artikel Co2 kompensiert",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false
+    },
+    {
+      "label_code": "acxCommonmesswertcompensation",
+      "label": "CO2-Wert Kompensation",
+      "values": [
+        {
+          "value_code": "NUMERIC_0.983",
+          "value": "0.983",
+          "numeric_value": 0.983
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false,
+      "unit_code": "5d71456e-a520-4294-9ddb-add78f63ce83",
+      "unit": "Equivalence per kilogram",
+      "unit_symbol": "eq / kg"
+    },
+    {
+      "label_code": "acxCommonoutputmcheckclimatedeclaration",
+      "label": "Auslobung M-Check Klimadeklaration",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false
+    }
+  ],
+  "declarations": {
+    "declaration_number": "Q_8124675716796895",
+    "tags": [
+      "source-qim"
+    ],
+    "gtins": [
+      "5060194790939"
+    ],
+    "valid_from": "2018-07-18T00:00:00+0200",
+    "product_details": {
+      "regulated_description": "Breadcrumbs",
+      "net_filled_quantity": {
+        "value": "150 g",
+        "numeric_value": 150,
+        "unit": "g"
+      },
+      "net_weight": {
+        "value": "150 Gramm",
+        "numeric_value": 150,
+        "unit": "Gramm"
+      }
+    },
+    "preparation": {
+      "information": "How to cook Tonkatsu:#Ingredients#600g of chicken breast (beaten and flattened)#plain flour#salt and pepper for season#2 eggs#150g panko#oil#1. Season meat with salt and pepper.#2. Dip the meat in flour and then in beaten eggs. Coat with panko.#3. Heat oil in a deep pan and shallow fry meat till golden brown. Turn meat and cook other side. When finished, drain meat on paper towels. Serve with tonkatsu sauce, rice and vegetables."
+    },
+    "distributor": {
+      "name": "Ethno & Company AG",
+      "address": "Lindstrasse 39, 8400 Winterthur"
+    },
+    "general_information": [
+      {
+        "label": "Consumer storage instructions",
+        "values": [
+          "Store in a cool dry place."
+        ]
+      }
+    ],
+    "ingredients_information": {
+      "ingredients_text": "Ingredients: WHEAT flour 97% (CN), sugar, salt, yeast.",
+      "additives_information": {
+        "declaration_obligatory": {
+          "code": "NON",
+          "label": "Contains no declaration obligatory additives depending on target market. (For Germany: Does not contain additives that are mandatory to declare on the menu acc. to §9 ZZulV.) "
+        }
+      },
+      "allergens_information": {
+        "allergens": [
+          {
+            "code": "UW",
+            "label": "Wheat and their derivatives",
+            "contamination_code": "VORHANDEN",
+            "contamination_label": "contains"
+          }
+        ]
+      }
+    },
+    "nutrition_facts": {
+      "reference_sizes": {
+        "standard": {
+          "base": {
+            "quantity": {
+              "value": "100 g",
+              "numeric_value": 100,
+              "unit": "g"
+            }
+          },
+          "nutrients": [
+            {
+              "code": "NUT_ENERGY",
+              "name": "Energy",
+              "operator": "~",
+              "pictogram_name": "Energy",
+              "category": "BIG9",
+              "quantity": {
+                "value": "1569 kJ",
+                "numeric_value": 1569,
+                "unit": "kJ",
+                "alternate": {
+                  "value": "375 kcal",
+                  "numeric_value": 375,
+                  "unit": "kcal"
+                }
+              }
+            },
+            {
+              "code": "NUT_FAT",
+              "name": "Fat",
+              "operator": "~",
+              "pictogram_name": "Fat",
+              "category": "BIG9",
+              "quantity": {
+                "value": "1.6 g",
+                "numeric_value": 1.6,
+                "unit": "g"
+              },
+              "rating": {
+                "value": 0,
+                "text": "low",
+                "icon": {
+                  "original": "https://image.migros.ch/original/a2b5e2562a4fedbbdec99c1932ec57c46c49cde4.svg",
+                  "stack": "https://image.migros.ch/{stack}/a2b5e2562a4fedbbdec99c1932ec57c46c49cde4.svg"
+                },
+                "hex_color": "#069800"
+              }
+            },
+            {
+              "code": "NUT_SATURATED_FATTY_ACIDS",
+              "name": "of which saturates",
+              "operator": "<",
+              "pictogram_name": "saturated fatty acids",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0.5 g",
+                "numeric_value": 0.5,
+                "unit": "g"
+              },
+              "rating": {
+                "value": 0,
+                "text": "low",
+                "icon": {
+                  "original": "https://image.migros.ch/original/a2b5e2562a4fedbbdec99c1932ec57c46c49cde4.svg",
+                  "stack": "https://image.migros.ch/{stack}/a2b5e2562a4fedbbdec99c1932ec57c46c49cde4.svg"
+                },
+                "hex_color": "#069800"
+              }
+            },
+            {
+              "code": "NUT_CARBOHYDRATES",
+              "name": "Carbohydrate",
+              "operator": "~",
+              "category": "BIG9",
+              "quantity": {
+                "value": "77 g",
+                "numeric_value": 77,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_SUGAR",
+              "name": "of which sugars",
+              "operator": "~",
+              "pictogram_name": "Sugar",
+              "category": "BIG9",
+              "quantity": {
+                "value": "4.6 g",
+                "numeric_value": 4.6,
+                "unit": "g"
+              },
+              "rating": {
+                "value": 0,
+                "text": "low",
+                "icon": {
+                  "original": "https://image.migros.ch/original/a2b5e2562a4fedbbdec99c1932ec57c46c49cde4.svg",
+                  "stack": "https://image.migros.ch/{stack}/a2b5e2562a4fedbbdec99c1932ec57c46c49cde4.svg"
+                },
+                "hex_color": "#069800"
+              }
+            },
+            {
+              "code": "NUT_PROTEIN",
+              "name": "Protein",
+              "operator": "~",
+              "category": "BIG9",
+              "quantity": {
+                "value": "11 g",
+                "numeric_value": 11,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_SALT",
+              "name": "Salt",
+              "operator": "~",
+              "pictogram_name": "Salt",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0.8 g",
+                "numeric_value": 0.8,
+                "unit": "g"
+              },
+              "rating": {
+                "value": 1,
+                "text": "medium",
+                "icon": {
+                  "original": "https://image.migros.ch/original/b84b389195e426a9e6b4cd66f2c79b1a049809da.svg",
+                  "stack": "https://image.migros.ch/{stack}/b84b389195e426a9e6b4cd66f2c79b1a049809da.svg"
+                },
+                "hex_color": "#e8a800"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "recipe_ingredient_ids": [
+    "15675",
+    "17608975"
+  ],
+  "regional_availability": {
+    "gmaa": {
+      "probability": 34
+    },
+    "gmbs": {
+      "probability": 38
+    },
+    "gmge": {
+      "probability": 37
+    },
+    "gmlu": {
+      "probability": 34
+    },
+    "gmnf": {
+      "probability": 12
+    },
+    "gmos": {
+      "probability": 36
+    },
+    "gmti": {
+      "probability": 35
+    },
+    "gmvd": {
+      "probability": 23
+    },
+    "gmvs": {
+      "probability": 26
+    },
+    "gmzh": {
+      "probability": 42
+    }
+  },
+  "ratings": {
+    "count_all": 29,
+    "average_all": 4.724137931034
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "updated_at": "2023-08-17T11:56:08+0200",
+  "sap_created_at": "2018-04-10T19:00:00+0200",
+  "online_shop_relevant": false,
+  "base_unit": "CU",
+  "co2_compensation": {
+    "kg_co2": 0.983,
+    "kg_co2_compensation": 0.983,
+    "is_compensated": false,
+    "mcheck_enabled": false
+  },
+  "origins": {
+    "producing_country": "Korea, Republic of"
+  },
+  "views": [
+    "all",
+    "browse",
+    "browseallretailers"
+  ]
+}

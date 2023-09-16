@@ -1,0 +1,680 @@
+{
+  "id": "106205500000",
+  "language": "en",
+  "name": "Alnatura Curry",
+  "names": {
+    "short_name": "Alnatura Curry"
+  },
+  "slug": "alnatura-curry",
+  "slugs": {
+    "de": "alnatura-curry",
+    "fr": "alnatura-curry",
+    "it": "alnatura-curry",
+    "en": "alnatura-curry"
+  },
+  "type": "00",
+  "boss_number": "011011365505",
+  "description": {
+    "text": "<p>Bio-Qualit&auml;t<br>leichte Sch&auml;rfe<br>mit Kurkuma, Senfsaat und Koriander</p>Ingwer und Chili sorgen f&uuml;r die Sch&auml;rfe</p><p>Eine mittelscharfe Curry-Gew&uuml;rzmischung mit Kurkuma, gemahlener Senfsaat und Koriander</p>Ingwer und Chili sorgen f&uuml;r die leichte Sch&auml;rfe. Das Alnatura Curry mittelscharf passt zu vielem, besonders aber zu Gerichten mit Kokosmilch. Alle Gew&uuml;rze f&uuml;r die Currymischung stammen aus biologischer Landwirtschaft.</p><p>Vor Sonnenlicht sch&uuml;tzen und trocken lagern.</p>",
+    "source": "P4M"
+  },
+  "data_source": "SAP-X11",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03"
+  },
+  "tags": [
+    "source-p4m",
+    "migipedia",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "4104420028265",
+    "7613312096048"
+  ],
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarket"
+  },
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "brand": {
+    "id": "D06",
+    "name": "Alnatura",
+    "slug": "alnatura",
+    "links": {
+      "homepage": {
+        "url": "https://www.migros.ch/de/einkaufen/migros-marken-und-labels/alnatura.html",
+        "name": "Homepage",
+        "type": "info",
+        "purchasable": false
+      }
+    },
+    "image": {
+      "original": "https://image.migros.ch/original/2c0deb7a67525727ed8213ce2b42bc8a6eb35567/alnatura.jpg",
+      "stack": "https://image.migros.ch/{stack}/2c0deb7a67525727ed8213ce2b42bc8a6eb35567/alnatura.jpg"
+    }
+  },
+  "labels": [
+    {
+      "id": "L52",
+      "name": "Third-party organic food",
+      "slug": "third-party-organic-food"
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_01011421",
+      "name": "Gewürze & Kräuter",
+      "slug": "supermarkt/lebensmittel/pasta-zutaten-konserven/gewuerze-kraeuter",
+      "visible": true,
+      "title": "Bringen Aroma in die Küche: Gewürze aus der Migros",
+      "parent_code": "BeSS_010114",
+      "image": {
+        "original": "https://image.migros.ch/original/f0d065249de87fcef23af3a2e3e6442b877e1b67/gewuerze-kraeuter.jpg",
+        "stack": "https://image.migros.ch/{stack}/f0d065249de87fcef23af3a2e3e6442b877e1b67/gewuerze-kraeuter.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010114",
+      "name": "Pasta, Zutaten & Konserven",
+      "slug": "supermarkt/lebensmittel/pasta-zutaten-konserven",
+      "visible": true,
+      "title": "Pasta aus Ihrer Migros: alles rund um Teigwaren",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/6d0964bbb34b8e041ba4d74fc0c90b149907f46a/pasta-zutaten-konserven.jpg",
+        "stack": "https://image.migros.ch/{stack}/6d0964bbb34b8e041ba4d74fc0c90b149907f46a/pasta-zutaten-konserven.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/31702195ec9d38aecefe80349eb347f79d56c750/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/31702195ec9d38aecefe80349eb347f79d56c750/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "ALNA_CAT_Gewuerze_WuerzenundGewuerze_BeilagenundZutaten",
+        "name": "Gewürze",
+        "slug": "alnatura/beilagen-und-zutaten/wuerzen-und-gewuerze/gewuerze",
+        "visible": true,
+        "parent_code": "ALNA_CAT_WuerzenundGewuerze_BeilagenundZutaten",
+        "level": 4
+      },
+      {
+        "code": "ALNA_CAT_WuerzenundGewuerze_BeilagenundZutaten",
+        "name": "Würzen und Gewürze",
+        "slug": "alnatura/beilagen-und-zutaten/wuerzen-und-gewuerze",
+        "visible": true,
+        "parent_code": "ALNA_CAT_BeilagenundZutaten",
+        "level": 3
+      },
+      {
+        "code": "ALNA_CAT_BeilagenundZutaten",
+        "name": "Beilagen und Zutaten",
+        "slug": "alnatura/beilagen-und-zutaten",
+        "visible": true,
+        "parent_code": "BeSS_97",
+        "level": 2
+      },
+      {
+        "code": "BeSS_97",
+        "name": "Alnatura",
+        "slug": "alnatura",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "online_relevant": [
+    {
+      "code": "MGB",
+      "name": "Migros Genossenschafts-Bund"
+    },
+    {
+      "code": "MO",
+      "name": "Migros Online"
+    }
+  ],
+  "links": {
+    "migros_ch": {
+      "url": "https://www.migros.ch/en/product/106205500000?context=instore",
+      "name": "In-store assortment",
+      "canonical": "https://www.migros.ch/en/product/106205500000?context=instore",
+      "type": "info",
+      "purchasable": false
+    },
+    "migros_online": {
+      "url": "https://www.migros.ch/en/product/106205500000?context=online",
+      "mo_product_id": "3290336",
+      "name": "Online-shop assortment",
+      "canonical": "https://www.migros.ch/en/product/106205500000?context=instore",
+      "type": "shop",
+      "purchasable": true,
+      "one_catalog_id": 100026489
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/106205500000",
+      "name": "Migipedia",
+      "canonical": "https://www.migros.ch/en/product/106205500000?context=instore",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "has_safety_sheet": false,
+  "m_check2": {},
+  "receipt_text": "Alnatura Curry 60g",
+  "package": {
+    "content": 60,
+    "content_unit_code": "g",
+    "content_unit": "Gram",
+    "net_weight": 0.06,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogram",
+    "type": "CU",
+    "portions_per_package": "1",
+    "brutto_weight": 0.065,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 0.239,
+    "brutto_volume_unit_code": "cdm",
+    "height": 14,
+    "length": 3,
+    "width": 5.7,
+    "unit_dimension": "cm",
+    "price_comparison_content": 10,
+    "size": "60g"
+  },
+  "package_information": {
+    "tu": {
+      "gtins": [
+        "4104420132979"
+      ],
+      "brutto_weight": 0.536,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 2.352,
+      "brutto_volume_unit_code": "cdm",
+      "height": 15.6,
+      "length": 23.2,
+      "width": 6.5,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 7
+    },
+    "cu": {
+      "gtins": [
+        "4104420028265",
+        "7613312096048"
+      ],
+      "brutto_weight": 0.065,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.239,
+      "brutto_volume_unit_code": "cdm",
+      "height": 14,
+      "length": 3,
+      "width": 5.7,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "lu": {
+      "brutto_weight": 261.376,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.595,
+      "brutto_volume_unit_code": "m3",
+      "height": 108.5,
+      "length": 120,
+      "width": 80,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 3087
+    }
+  },
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "price": {
+    "valid_from": "2022-05-23T00:00:00+0200",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 2.8,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "60g"
+    },
+    "base": {
+      "price": 0.47,
+      "quantity": 10,
+      "unit": "G"
+    }
+  },
+  "features": [
+    {
+      "label_code": "MAPI_VEGETARIANISM",
+      "label": "Vegetarianism",
+      "values": [
+        {
+          "value_code": "MAPI_VEGETARIANISM_vegetarisch",
+          "value": "Vegetarian"
+        },
+        {
+          "value_code": "MAPI_VEGETARIANISM_vegan",
+          "value": "Vegan"
+        }
+      ],
+      "category_code": "MAPI_VEGETARIANISM",
+      "top_fact": false
+    },
+    {
+      "label_code": "acxMISOcugebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "erxMISOcugebindeartbeutel",
+          "value": "Beutel"
+        }
+      ],
+      "category_code": "ecxMISOCLAkraeutergewuerzeextraktegewuerzekonservierungsstoffeextraktelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOproduktionsanspruch",
+      "label": "Produktionsverfahren",
+      "values": [
+        {
+          "value_code": "erxMISOproduktionsanspruchbioproduktion",
+          "value": "Bio-Produktion"
+        }
+      ],
+      "category_code": "ecxMISOCLAkraeutergewuerzeextraktegewuerzekonservierungsstoffeextraktelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOzubereitungsverfahren",
+      "label": "Hinweise für die Zubereitung",
+      "values": [
+        {
+          "value_code": "erxMISOzubereitungsverfahrenzumwuerzengeeignet",
+          "value": "zum würzen geeignet"
+        }
+      ],
+      "category_code": "ecxMISOCLAkraeutergewuerzeextraktegewuerzekonservierungsstoffeextraktelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOformbeschaffenheitvonkraeuterngewuerzen",
+      "label": "Form/Beschaffenheit von Kräutern/Gewürzen",
+      "values": [
+        {
+          "value": "dried "
+        }
+      ],
+      "category_code": "ecxMISOCLAkraeutergewuerzeextraktegewuerzekonservierungsstoffeextraktelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/4ac7da6039fb5c45e60b0aa7cf3e0a25b22245e3/alnatura-curry.jpg",
+    "stack": "https://image.migros.ch/{stack}/4ac7da6039fb5c45e60b0aa7cf3e0a25b22245e3/alnatura-curry.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/97e88bdd0d06cfbb1f489b34bb44138909356b36/alnatura-curry.png",
+    "stack": "https://image.migros.ch/{stack}/97e88bdd0d06cfbb1f489b34bb44138909356b36/alnatura-curry.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_EXPORTABLE",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_EXPORTABLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Normalposition"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "HAWA"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "11014",
+          "value": "ALNATURA SPICES/COND"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LIFECYCLE",
+      "values": [
+        {
+          "value_code": "D",
+          "value": "Detailhandelsartikel"
+        }
+      ],
+      "category_code": "MAPI_LIFECYCLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUSTOMS_POSITION",
+      "values": [
+        {
+          "value": "0910.9100"
+        }
+      ],
+      "category_code": "MAPI_CUSTOMS_POSITION",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_STORAGE_CONDITIONS",
+      "values": [
+        {
+          "value_code": "01",
+          "value": "normal"
+        }
+      ],
+      "category_code": "MAPI_STORAGE_CONDITIONS",
+      "top_fact": false
+    },
+    {
+      "label_code": "acxCommonarticlecocompensated",
+      "label": "Artikel Co2 kompensiert",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false
+    },
+    {
+      "label_code": "acxCommonmesswertcompensation",
+      "label": "CO2-Wert Kompensation",
+      "values": [
+        {
+          "value_code": "NUMERIC_1.023",
+          "value": "1.023",
+          "numeric_value": 1.023
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false,
+      "unit_code": "5d71456e-a520-4294-9ddb-add78f63ce83",
+      "unit": "Equivalence per kilogram",
+      "unit_symbol": "eq / kg"
+    },
+    {
+      "label_code": "acxCommonoutputmcheckclimatedeclaration",
+      "label": "Auslobung M-Check Klimadeklaration",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false
+    }
+  ],
+  "declarations": {
+    "declaration_number": "Q_2121841432599405",
+    "tags": [
+      "source-qim"
+    ],
+    "gtins": [
+      "4104420028265"
+    ],
+    "valid_from": "2023-08-07T00:00:00+0200",
+    "product_details": {
+      "net_filled_quantity": {
+        "value": "60 g",
+        "numeric_value": 60,
+        "unit": "g"
+      },
+      "net_weight": {
+        "value": "60 Gramm",
+        "numeric_value": 60,
+        "unit": "Gramm"
+      }
+    },
+    "distributor": {
+      "name": "Alnatura GmbH",
+      "address": "Mahatma-Gandhi-Straße 7, 64295 Darmstadt"
+    },
+    "ingredients_information": {
+      "allergens_information": {
+        "trace_allergens_text": "May contain: Celery",
+        "allergens": [
+          {
+            "code": "ALLG_SENF",
+            "label": "Mustard and its derivatives",
+            "contamination_code": "VORHANDEN",
+            "contamination_label": "contains"
+          }
+        ]
+      }
+    }
+  },
+  "recipe_ingredient_ids": [
+    "16455"
+  ],
+  "regional_availability": {
+    "gmaa": {
+      "probability": 30
+    },
+    "gmbs": {
+      "probability": 36
+    },
+    "gmge": {
+      "probability": 42
+    },
+    "gmlu": {
+      "probability": 24
+    },
+    "gmnf": {
+      "probability": 12
+    },
+    "gmos": {
+      "probability": 30
+    },
+    "gmti": {
+      "probability": 16
+    },
+    "gmvd": {
+      "probability": 11
+    },
+    "gmvs": {
+      "probability": 30
+    },
+    "gmzh": {
+      "probability": 30
+    }
+  },
+  "ratings": {
+    "count_all": 5,
+    "average_all": 3.8
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "updated_at": "2023-08-17T11:42:08+0200",
+  "sap_created_at": "2016-05-16T19:00:00+0200",
+  "online_shop_relevant": false,
+  "base_unit": "CU",
+  "co2_compensation": {
+    "kg_co2": 1.023,
+    "kg_co2_compensation": 1.023,
+    "is_compensated": false,
+    "mcheck_enabled": false
+  },
+  "origins": {
+    "producing_country": "Germany"
+  },
+  "views": [
+    "all",
+    "browse",
+    "browseallretailers"
+  ]
+}

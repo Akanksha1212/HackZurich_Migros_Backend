@@ -1,0 +1,434 @@
+{
+  "id": "517924400000",
+  "language": "en",
+  "name": "MNY EXP BR SA DUO 04DB",
+  "names": {
+    "short_name": "MNY EXP BR SA DUO 04DB"
+  },
+  "slug": "mny-exp-br-sa-duo-04db",
+  "slugs": {
+    "de": "mny-exp-brow-satin-dbr",
+    "fr": "mny-exp-brow-satin-dbr",
+    "it": "mny-exp-brow-satin-dbr",
+    "en": "mny-exp-br-sa-duo-04db"
+  },
+  "type": "00",
+  "boss_number": "090121644520",
+  "data_source": "SAP-X11",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03"
+  },
+  "tags": [
+    "source-pex",
+    "near-non-food",
+    "migipedia",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "3600531640408",
+    "3600531087401"
+  ],
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarket"
+  },
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "brand": {
+    "id": "644",
+    "name": "Maybelline",
+    "slug": "maybelline",
+    "image": {
+      "original": "https://image.migros.ch/original/2b717cab7e1cc00cf9eb10e5e6051d666e266a41/maybelline.jpg",
+      "stack": "https://image.migros.ch/{stack}/2b717cab7e1cc00cf9eb10e5e6051d666e266a41/maybelline.jpg"
+    }
+  },
+  "categories": [
+    {
+      "code": "BeSS_0111",
+      "name": "Beauty",
+      "slug": "supermarkt/beauty",
+      "visible": true,
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/293925170bd129344f9259c67a15e903f881bef8/beauty.jpg",
+        "stack": "https://image.migros.ch/{stack}/293925170bd129344f9259c67a15e903f881bef8/beauty.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "online_relevant": [
+    {
+      "code": "MGB",
+      "name": "Migros Genossenschafts-Bund"
+    },
+    {
+      "code": "MO",
+      "name": "Migros Online"
+    }
+  ],
+  "links": {
+    "migros_ch": {
+      "url": "https://www.migros.ch/en/product/517924400000?context=instore",
+      "name": "In-store assortment",
+      "canonical": "https://www.migros.ch/en/product/517924400000?context=instore",
+      "type": "info",
+      "purchasable": false
+    },
+    "migros_online": {
+      "url": "https://www.migros.ch/en/product/517924400000?context=online",
+      "mo_product_id": "5036011",
+      "name": "Online-shop assortment",
+      "canonical": "https://www.migros.ch/en/product/517924400000?context=instore",
+      "type": "shop",
+      "purchasable": true,
+      "one_catalog_id": 100005743
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/517924400000",
+      "name": "Migipedia",
+      "canonical": "https://www.migros.ch/en/product/517924400000?context=instore",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "receipt_text": "MNY exp brow satin dbr",
+  "package": {
+    "net_weight": 0.005,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "brutto_weight": 0.008,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 10.368,
+    "brutto_volume_unit_code": "ccm",
+    "height": 0.9,
+    "length": 0.9,
+    "width": 12.8,
+    "unit_dimension": "cm"
+  },
+  "package_information": {
+    "tu": {
+      "gtins": [
+        "3600531087654",
+        "3600531644895"
+      ],
+      "brutto_weight": 0.02,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.056,
+      "brutto_volume_unit_code": "cdm",
+      "height": 1,
+      "length": 14,
+      "width": 4,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 3
+    },
+    "cu": {
+      "gtins": [
+        "3600531087401",
+        "3600531640408"
+      ],
+      "brutto_weight": 0.008,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 10.368,
+      "brutto_volume_unit_code": "ccm",
+      "height": 0.9,
+      "length": 0.9,
+      "width": 12.8,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "lu": {
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 5401.872,
+      "brutto_volume_unit_code": "ccm",
+      "height": 30,
+      "length": 23.3,
+      "width": 13.8,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 32400
+    },
+    "lge": {
+      "number_of_base_units": 5400
+    },
+    "kar": {
+      "number_of_base_units": 1
+    }
+  },
+  "vat": {
+    "id": 1,
+    "percentage": 7.7
+  },
+  "price": {
+    "valid_from": "2023-02-28T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 12.95,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false
+    }
+  },
+  "image": {
+    "original": "https://image.migros.ch/original/0d0a9d933824de90a31d306accffcc88651ab61d/mny-exp-br-sa-duo-04db.jpg",
+    "stack": "https://image.migros.ch/{stack}/0d0a9d933824de90a31d306accffcc88651ab61d/mny-exp-br-sa-duo-04db.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/c45130ddb5804817d47aa86795005f63a458a6eb/mny-exp-br-sa-duo-04db.png",
+    "stack": "https://image.migros.ch/{stack}/c45130ddb5804817d47aa86795005f63a458a6eb/mny-exp-br-sa-duo-04db.png"
+  },
+  "additional_images": [
+    {
+      "original": "https://image.migros.ch/original/321e93acf8f3b4d7f971c1393ea7c7481822ceb8.jpg",
+      "stack": "https://image.migros.ch/{stack}/321e93acf8f3b4d7f971c1393ea7c7481822ceb8.jpg"
+    },
+    {
+      "original": "https://image.migros.ch/original/15c2cc8c184aec4e65c39dc14a9650bf811aff76.jpg",
+      "stack": "https://image.migros.ch/{stack}/15c2cc8c184aec4e65c39dc14a9650bf811aff76.jpg"
+    }
+  ],
+  "internal_features": [
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Standard item"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "ZHKS"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RISK_CLASS",
+      "values": [
+        {
+          "value_code": "1",
+          "value": "1 (high)"
+        }
+      ],
+      "category_code": "MAPI_RISK_CLASS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_QUALITY_CHECK",
+      "values": [
+        {
+          "value_code": "00",
+          "value": "No Quality Control"
+        }
+      ],
+      "category_code": "MAPI_QUALITY_CHECK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZHKS",
+          "value": "HKS Standardartikel"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "H",
+          "value": "HKS Standard"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "50165",
+          "value": ""
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LIFECYCLE",
+      "values": [
+        {
+          "value_code": "D",
+          "value": "Detailhandelsartikel"
+        }
+      ],
+      "category_code": "MAPI_LIFECYCLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_EXPORTABLE",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_EXPORTABLE",
+      "top_fact": false
+    }
+  ],
+  "regional_availability": {
+    "gmaa": {
+      "probability": 88
+    },
+    "gmbs": {
+      "probability": 83
+    },
+    "gmge": {
+      "probability": 61
+    },
+    "gmlu": {
+      "probability": 97
+    },
+    "gmnf": {
+      "probability": 96
+    },
+    "gmos": {
+      "probability": 96
+    },
+    "gmti": {
+      "probability": 87
+    },
+    "gmvd": {
+      "probability": 95
+    },
+    "gmvs": {
+      "probability": 100
+    },
+    "gmzh": {
+      "probability": 81
+    }
+  },
+  "ratings": {
+    "count_all": 2,
+    "average_all": 5
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "updated_at": "2023-08-17T12:04:25+0200",
+  "sap_created_at": "2014-08-05T00:00:00+0200",
+  "base_unit": "CU",
+  "views": [
+    "all",
+    "browse",
+    "browseallretailers"
+  ]
+}

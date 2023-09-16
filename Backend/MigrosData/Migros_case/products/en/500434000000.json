@@ -1,0 +1,732 @@
+{
+  "id": "500434000000",
+  "language": "en",
+  "name": "Super White",
+  "names": {
+    "short_name": "Super White"
+  },
+  "slug": "super-white-500434000000",
+  "slugs": {
+    "de": "super-white-500434000000",
+    "fr": "super-white-500434000000",
+    "it": "super-white-500434000000",
+    "en": "super-white-500434000000"
+  },
+  "type": "00",
+  "boss_number": "150126755515",
+  "description": {
+    "text": "Entfernt Grauschleier. Gebrauchsanweisung beachten.",
+    "source": "PEX"
+  },
+  "data_source": "SAP-X11",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03",
+    "distribution_center": [
+      {
+        "center_id": "1000",
+        "center_name": "Migros Verteilzentrum Suhr",
+        "status_description": "product.status.distribution_center."
+      },
+      {
+        "center_id": "1001",
+        "center_name": "Migros Verteilzentrum Neuendorf",
+        "status_description": "product.status.distribution_center."
+      },
+      {
+        "center_id": "1020",
+        "center_name": "Regionallager Basel",
+        "status_description": "product.status.distribution_center."
+      },
+      {
+        "center_id": "1030",
+        "center_name": "Regionallager Aare",
+        "status_description": "product.status.distribution_center."
+      },
+      {
+        "center_id": "1040",
+        "center_name": "Entrepôt régional Genève",
+        "status_description": "product.status.distribution_center."
+      },
+      {
+        "center_id": "1060",
+        "center_name": "Entrepôt régional Vaud",
+        "status_description": "product.status.distribution_center."
+      },
+      {
+        "center_id": "1070",
+        "center_name": "Regionallager Luzern",
+        "status_description": "product.status.distribution_center."
+      },
+      {
+        "center_id": "1080",
+        "center_name": "Entrepôt régional Neuchâtel /",
+        "status_description": "product.status.distribution_center."
+      },
+      {
+        "center_id": "1090",
+        "center_name": "Regionallager Ostschweiz",
+        "status_description": "product.status.distribution_center."
+      },
+      {
+        "center_id": "1120",
+        "center_name": "Magazzino regionale Ticino",
+        "status_description": "product.status.distribution_center."
+      },
+      {
+        "center_id": "1130",
+        "center_name": "Entrepôt régional Valais",
+        "status_description": "product.status.distribution_center."
+      },
+      {
+        "center_id": "1150",
+        "center_name": "Regionallager Zürich",
+        "status_description": "product.status.distribution_center."
+      }
+    ]
+  },
+  "tags": [
+    "source-pex",
+    "near-non-food",
+    "migipedia",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613269356455"
+  ],
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarket"
+  },
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "brand": {
+    "id": "188",
+    "name": "Total",
+    "slug": "total",
+    "image": {
+      "original": "https://image.migros.ch/original/4cdcf1de6073d82c361b783f7f40dde5d8df352e/total.jpg",
+      "stack": "https://image.migros.ch/{stack}/4cdcf1de6073d82c361b783f7f40dde5d8df352e/total.jpg"
+    }
+  },
+  "categories": [
+    {
+      "code": "BeSS_01040103",
+      "name": "Fleckenentferner",
+      "slug": "supermarkt/haushalt-reinigung/waschen-reinigen-pflege/fleckenentferner",
+      "visible": true,
+      "parent_code": "BeSS_010401",
+      "level": 4
+    },
+    {
+      "code": "BeSS_010401",
+      "name": "Waschen, Reinigen & Pflege",
+      "slug": "supermarkt/haushalt-reinigung/waschen-reinigen-pflege",
+      "visible": true,
+      "parent_code": "BeSS_0104",
+      "image": {
+        "original": "https://image.migros.ch/original/37d8921589f88cd40b1c580b957a6a414e1fe1d1/waschen-reinigen-pflege.jpg",
+        "stack": "https://image.migros.ch/{stack}/37d8921589f88cd40b1c580b957a6a414e1fe1d1/waschen-reinigen-pflege.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0104",
+      "name": "Haushalt & Reinigung",
+      "slug": "supermarkt/haushalt-reinigung",
+      "visible": true,
+      "title": "Reinigung mit der Migros – Reiniger für Haushalt und Garten",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png",
+        "stack": "https://image.migros.ch/{stack}/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "online_relevant": [
+    {
+      "code": "MGB",
+      "name": "Migros Genossenschafts-Bund"
+    },
+    {
+      "code": "MO",
+      "name": "Migros Online"
+    }
+  ],
+  "galaxus_relevant": false,
+  "links": {
+    "migros_ch": {
+      "url": "https://www.migros.ch/en/product/500434000000?context=instore",
+      "name": "In-store assortment",
+      "canonical": "https://www.migros.ch/en/product/500434000000?context=instore",
+      "type": "info",
+      "purchasable": false
+    },
+    "migros_online": {
+      "url": "https://www.migros.ch/en/product/500434000000?context=online",
+      "mo_product_id": "5865179",
+      "name": "Online-shop assortment",
+      "canonical": "https://www.migros.ch/en/product/500434000000?context=instore",
+      "type": "shop",
+      "purchasable": true,
+      "one_catalog_id": 100017408
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/500434000000",
+      "name": "Migipedia",
+      "canonical": "https://www.migros.ch/en/product/500434000000?context=instore",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "m_check2": {
+    "carbon_footprint": {
+      "image": {
+        "original": "https://image.migros.ch/original/3647ce79a496ca6d707e072f7e3f61ecc313e54b.svg",
+        "stack": "https://image.migros.ch/{stack}/3647ce79a496ca6d707e072f7e3f61ecc313e54b.svg"
+      },
+      "ground_and_sea_cargo": {
+        "kg_co2": 3.37,
+        "kg_co2_range": "2 - 4.7 kg CO₂eq / kg",
+        "co2_in_car_km": 18,
+        "rating": 3,
+        "production_in_percent": 92,
+        "packaging_in_percent": 5,
+        "transport_in_percent": 3
+      }
+    }
+  },
+  "receipt_text": "Total Super White",
+  "package": {
+    "content": 2,
+    "content_unit_code": "st",
+    "content_unit": "Stück",
+    "net_weight": 0.08,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "brutto_weight": 0.118,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 0.655,
+    "brutto_volume_unit_code": "cdm",
+    "height": 13.1,
+    "length": 3,
+    "width": 11.3,
+    "unit_dimension": "cm",
+    "price_comparison_content": 1,
+    "size": "2 Stk."
+  },
+  "package_information": {
+    "tu": {
+      "gtins": [
+        "7613269356462"
+      ],
+      "brutto_weight": 0.95,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 4.368,
+      "brutto_volume_unit_code": "cdm",
+      "height": 14,
+      "length": 26,
+      "width": 12,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 8
+    },
+    "cu": {
+      "gtins": [
+        "7613269356455"
+      ],
+      "brutto_weight": 0.118,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.655,
+      "brutto_volume_unit_code": "cdm",
+      "height": 13.1,
+      "length": 3,
+      "width": 11.3,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "lu": {
+      "brutto_weight": 310,
+      "brutto_weight_unit_code": "kg",
+      "height": 160,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 2400
+    },
+    "lge": {
+      "number_of_base_units": 1
+    },
+    "kar": {
+      "number_of_base_units": 1
+    }
+  },
+  "vat": {
+    "id": 1,
+    "percentage": 7.7
+  },
+  "price": {
+    "valid_from": "2022-04-07T00:00:00+0200",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 3.85,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "2 Stk."
+    },
+    "base": {
+      "price": 1.93,
+      "quantity": 1,
+      "unit": "st"
+    }
+  },
+  "features": [
+    {
+      "label_code": "miso_anwendbarkeit_beschaffenheit_form",
+      "label": "Form",
+      "values": [
+        {
+          "value_code": "MISO_pulver",
+          "value": "Pulver"
+        }
+      ],
+      "category_code": "MISO_CLA_Spezialwaschmittel_WaschenPapierReinigen_Haushalt_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "miso_geeignet_fuer",
+      "label": "Suitable for",
+      "values": [
+        {
+          "value_code": "MISO_anwendung_in_waschmaschine",
+          "value": "Anwendung in Waschmaschine"
+        },
+        {
+          "value_code": "MISO_vorhaenge",
+          "value": "Vorhänge"
+        },
+        {
+          "value_code": "MISO_weisses_und_helles",
+          "value": "weisses und helles"
+        },
+        {
+          "value_code": "MISO_farbiges",
+          "value": "Farbiges"
+        },
+        {
+          "value_code": "MISO_textilien",
+          "value": "Textilien"
+        }
+      ],
+      "category_code": "MISO_CLA_Spezialwaschmittel_WaschenPapierReinigen_Haushalt_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "miso_nicht_geeignet_fuer",
+      "label": "Not suitable for",
+      "values": [
+        {
+          "value_code": "MISO_daunen",
+          "value": "Daunen"
+        },
+        {
+          "value_code": "MISO_kaschmir",
+          "value": "Kaschmir"
+        },
+        {
+          "value_code": "MISO_seide",
+          "value": "Seide"
+        },
+        {
+          "value_code": "MISO_wolle",
+          "value": "Wolle"
+        }
+      ],
+      "category_code": "MISO_CLA_Spezialwaschmittel_WaschenPapierReinigen_Haushalt_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "miso_spezielle_eigenschaften",
+      "label": "Special features",
+      "values": [
+        {
+          "value": "Entfernt Vergrauungen, Vergilbungen und löst Kalkpartikel, die sich auf den Textilien ablagern."
+        }
+      ],
+      "category_code": "MISO_CLA_WaschenPapierReinigen_Haushalt_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "miso_oeko_hinweis",
+      "label": "Environmental information",
+      "values": [
+        {
+          "value_code": "MISO_biologisch_gut_abbaubar_OECD_test_302B_ergaenzt_mit_CO2_analytik",
+          "value": "Biologisch gut abbaubar (OECD-Test 302B, ergänzt mit CO2-Analytik)"
+        }
+      ],
+      "category_code": "MISO_CLA_WaschenPapierReinigen_Haushalt_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "miso_gefahrenhinweise",
+      "label": "Hazard warnings",
+      "values": [
+        {
+          "value": "Darf nicht in die Hände von Kindern gelangen"
+        }
+      ],
+      "category_code": "MISO_CLA_WaschenPapierReinigen_Haushalt_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "CHEMICALS_WARNING",
+      "label": "Warning",
+      "values": [
+        {
+          "value": "Always read label and product information before use."
+        }
+      ],
+      "category_code": "CHEMICALS_WARNING",
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/41d93732042f966e6924130cc8be5707c24db3e4/super-white.jpg",
+    "stack": "https://image.migros.ch/{stack}/41d93732042f966e6924130cc8be5707c24db3e4/super-white.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/a65418272568ed2ed2dc5ebc5fcedfb8989930f3/super-white.png",
+    "stack": "https://image.migros.ch/{stack}/a65418272568ed2ed2dc5ebc5fcedfb8989930f3/super-white.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "miso_amigos_anzeige",
+      "label": "Display aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "ja"
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "miso_amigos_sortierung",
+      "label": "aMigos sorting",
+      "values": [
+        {
+          "value": "210"
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Standard item"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "ZHKS"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUSTOMS_POSITION",
+      "values": [
+        {
+          "value": "34022090000"
+        }
+      ],
+      "category_code": "MAPI_CUSTOMS_POSITION",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RISK_CLASS",
+      "values": [
+        {
+          "value_code": "2",
+          "value": "2 (medium)"
+        }
+      ],
+      "category_code": "MAPI_RISK_CLASS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_QUALITY_CHECK",
+      "values": [
+        {
+          "value_code": "00",
+          "value": "No Quality Control"
+        }
+      ],
+      "category_code": "MAPI_QUALITY_CHECK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZHKS",
+          "value": "HKS Standardartikel"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "H",
+          "value": "HKS Standard"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "50499",
+          "value": "FLECKENENTFERNER"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LIFECYCLE",
+      "values": [
+        {
+          "value_code": "D",
+          "value": "Detailhandelsartikel"
+        }
+      ],
+      "category_code": "MAPI_LIFECYCLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_EXPORTABLE",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Yes",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MAPI_EXPORTABLE",
+      "top_fact": false
+    }
+  ],
+  "chemicals_declaration": {
+    "release_date": "2022-10-07T14:43:12+0200",
+    "supplier_id": "0010049509",
+    "supplier_description": "team4innovation GmbH",
+    "hazard_statements": [
+      {
+        "code": "H319",
+        "label": "Causes serious eye irritation."
+      }
+    ],
+    "precautionary_statements": [
+      {
+        "code": "P102",
+        "label": "Keep out of reach of children."
+      },
+      {
+        "code": "P305_351_338",
+        "label": "IF IN EYES: Rinse cautiously with water for several minutes. Remove contact lenses, if present and easy to do. Continue rinsing."
+      },
+      {
+        "code": "P337_313",
+        "label": "If eye irritation persists: Get medical advice/attention."
+      }
+    ],
+    "signal_word": {
+      "code": "SW02",
+      "label": "Warning"
+    },
+    "poison_cabinet": false,
+    "hazard_pictograms": [
+      {
+        "code": "GHS07",
+        "description": "exclamation mark",
+        "original": "https://image.migros.ch/original/09b3c0810d45b7f83a5ad48c5bc38d4d0227615b/GHS07.jpg",
+        "stack": "https://image.migros.ch/{stack}/09b3c0810d45b7f83a5ad48c5bc38d4d0227615b/GHS07.jpg"
+      }
+    ]
+  },
+  "regional_availability": {
+    "gmaa": {
+      "probability": 72
+    },
+    "gmbs": {
+      "probability": 69
+    },
+    "gmge": {
+      "probability": 47
+    },
+    "gmlu": {
+      "probability": 54
+    },
+    "gmnf": {
+      "probability": 33
+    },
+    "gmos": {
+      "probability": 57
+    },
+    "gmti": {
+      "probability": 39
+    },
+    "gmvd": {
+      "probability": 72
+    },
+    "gmvs": {
+      "probability": 59
+    },
+    "gmzh": {
+      "probability": 63
+    }
+  },
+  "ratings": {
+    "count_all": 18,
+    "average_all": 3.833333333333
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "updated_at": "2023-08-17T11:58:52+0200",
+  "sap_created_at": "2013-07-02T00:00:00+0200",
+  "base_unit": "CU",
+  "views": [
+    "all",
+    "browse",
+    "browseallretailers"
+  ]
+}

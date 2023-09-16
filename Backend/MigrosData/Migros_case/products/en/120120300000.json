@@ -1,0 +1,724 @@
+{
+  "id": "120120300000",
+  "language": "en",
+  "name": "Vitamin Well Active",
+  "names": {
+    "short_name": "Vitamin Well Active"
+  },
+  "slug": "vitamin-well-active",
+  "slugs": {
+    "de": "vitamin-well-active",
+    "fr": "vitamin-well-active",
+    "it": "vitamin-well-active",
+    "en": "vitamin-well-active"
+  },
+  "type": "00",
+  "boss_number": "010718520605",
+  "data_source": "SAP-X11",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03"
+  },
+  "tags": [
+    "source-p4m",
+    "migipedia",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7350042719181"
+  ],
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarket"
+  },
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "brand": {
+    "id": "W76",
+    "name": "Vitamin Well",
+    "slug": "vitamin-well"
+  },
+  "categories": [
+    {
+      "code": "BeSS_01011004",
+      "name": "Aromatisiertes Wasser",
+      "slug": "supermarkt/lebensmittel/getraenke-heiss-kalt/aromatisiertes-wasser",
+      "visible": true,
+      "title": "Frisch und fruchtig: Wasser mit Geschmack bei der Migros",
+      "parent_code": "BeSS_010110",
+      "image": {
+        "original": "https://image.migros.ch/original/c030f559ea0519945e8bb2c6c009a16ffb0818f8/aromatisiertes-wasser.jpg",
+        "stack": "https://image.migros.ch/{stack}/c030f559ea0519945e8bb2c6c009a16ffb0818f8/aromatisiertes-wasser.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010110",
+      "name": "Getränke heiss & kalt",
+      "slug": "supermarkt/lebensmittel/getraenke-heiss-kalt",
+      "visible": true,
+      "title": "Getränke aus der Migros löschen auch Ihren Durst",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/d04d95fbc2e1b4ada4783d2976d37a962a0318a1/getraenke-heiss-kalt.jpg",
+        "stack": "https://image.migros.ch/{stack}/d04d95fbc2e1b4ada4783d2976d37a962a0318a1/getraenke-heiss-kalt.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/31702195ec9d38aecefe80349eb347f79d56c750/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/31702195ec9d38aecefe80349eb347f79d56c750/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "online_relevant": [
+    {
+      "code": "MGB",
+      "name": "Migros Genossenschafts-Bund"
+    },
+    {
+      "code": "MO",
+      "name": "Migros Online"
+    }
+  ],
+  "links": {
+    "migros_ch": {
+      "url": "https://www.migros.ch/en/product/120120300000?context=instore",
+      "name": "In-store assortment",
+      "canonical": "https://www.migros.ch/en/product/120120300000?context=instore",
+      "type": "info",
+      "purchasable": false
+    },
+    "migros_online": {
+      "url": "https://www.migros.ch/en/product/120120300000?context=online",
+      "mo_product_id": "7036542",
+      "name": "Online-shop assortment",
+      "canonical": "https://www.migros.ch/en/product/120120300000?context=instore",
+      "type": "shop",
+      "purchasable": true,
+      "one_catalog_id": 100038426
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/120120300000",
+      "name": "Migipedia",
+      "canonical": "https://www.migros.ch/en/product/120120300000?context=instore",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "has_safety_sheet": false,
+  "m_check2": {},
+  "receipt_text": "Vitamin Well Active",
+  "package": {
+    "content": 500,
+    "content_unit_code": "ml",
+    "content_unit": "Millilitre",
+    "net_weight": 0.5,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogram",
+    "type": "CU",
+    "portions_per_package": "1",
+    "brutto_weight": 0.55,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 0.866,
+    "brutto_volume_unit_code": "cdm",
+    "height": 20.5,
+    "length": 6.5,
+    "width": 6.5,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "500ml"
+  },
+  "package_information": {
+    "tu": {
+      "gtins": [
+        "27350042719390"
+      ],
+      "brutto_weight": 6.6,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 10.394,
+      "brutto_volume_unit_code": "cdm",
+      "height": 20.5,
+      "length": 26,
+      "width": 19.5,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 12
+    },
+    "cu": {
+      "gtins": [
+        "7350042719181"
+      ],
+      "brutto_weight": 0.55,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.866,
+      "brutto_volume_unit_code": "cdm",
+      "height": 20.5,
+      "length": 6.5,
+      "width": 6.5,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "lu": {
+      "brutto_weight": 856.6,
+      "brutto_weight_unit_code": "kg",
+      "length": 120,
+      "width": 80,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1512
+    }
+  },
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "price": {
+    "valid_from": "2023-01-16T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 2.25,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "500ml"
+    },
+    "base": {
+      "price": 0.45,
+      "quantity": 100,
+      "unit": "ML"
+    }
+  },
+  "features": [
+    {
+      "label_code": "MAPI_VEGETARIANISM",
+      "label": "Vegetarianism",
+      "values": [
+        {
+          "value_code": "MAPI_VEGETARIANISM_vegetarisch",
+          "value": "Vegetarian"
+        }
+      ],
+      "category_code": "MAPI_VEGETARIANISM",
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/6bfa36c7a3aa30f6d5a8ce444e3cf44d77e2ab34/vitamin-well-active.jpg",
+    "stack": "https://image.migros.ch/{stack}/6bfa36c7a3aa30f6d5a8ce444e3cf44d77e2ab34/vitamin-well-active.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/46ebd727d136a9c20de79f28f5aed10836dbc1b5/vitamin-well-active.png",
+    "stack": "https://image.migros.ch/{stack}/46ebd727d136a9c20de79f28f5aed10836dbc1b5/vitamin-well-active.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_EXPORTABLE",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_EXPORTABLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Normalposition"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "HAWA"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "10780",
+          "value": "NEAR WATER RTD"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_KUBE_TUKA",
+      "values": [
+        {
+          "value_code": "BLANK",
+          "value": "KUBE und TUKA nicht zugelassen"
+        }
+      ],
+      "category_code": "MAPI_KUBE_TUKA",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LIFECYCLE",
+      "values": [
+        {
+          "value_code": "D",
+          "value": "Detailhandelsartikel"
+        }
+      ],
+      "category_code": "MAPI_LIFECYCLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_STORAGE_CONDITIONS",
+      "values": [
+        {
+          "value_code": "01",
+          "value": "normal"
+        }
+      ],
+      "category_code": "MAPI_STORAGE_CONDITIONS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_MULTIPACK",
+      "values": [
+        {
+          "value_code": "0",
+          "value": "No pack expression"
+        }
+      ],
+      "category_code": "MAPI_MULTIPACK",
+      "top_fact": false
+    },
+    {
+      "label_code": "acxCommonarticlecocompensated",
+      "label": "Artikel Co2 kompensiert",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false
+    },
+    {
+      "label_code": "acxCommonmesswertcompensation",
+      "label": "CO2-Wert Kompensation",
+      "values": [
+        {
+          "value_code": "NUMERIC_0.353",
+          "value": "0.353",
+          "numeric_value": 0.353
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false,
+      "unit_code": "5d71456e-a520-4294-9ddb-add78f63ce83",
+      "unit": "Equivalence per kilogram",
+      "unit_symbol": "eq / kg"
+    },
+    {
+      "label_code": "acxCommonoutputmcheckclimatedeclaration",
+      "label": "Auslobung M-Check Klimadeklaration",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false
+    }
+  ],
+  "declarations": {
+    "declaration_number": "Q_1604593688835807",
+    "tags": [
+      "source-qim"
+    ],
+    "gtins": [
+      "7350042719181"
+    ],
+    "valid_from": "2023-04-30T00:00:00+0200",
+    "product_details": {
+      "regulated_description": "Low-calorie, vegan refreshing drink with apple flavour, non-carbonated, with vitamins."
+    },
+    "preparation": {
+      "usage_instructions": "Shake well before opening and serve cool."
+    },
+    "distributor": {
+      "name": "Trivanova GmbH",
+      "address": "Restelbergstrasse 49, 8044 Zürich"
+    },
+    "general_information": [
+      {
+        "label": "Warnings / mandatory notes",
+        "values": [
+          "We recommend a varied diet and a healthy lifestyle."
+        ]
+      },
+      {
+        "label": "Consumer storage instructions",
+        "values": [
+          "Protect from direct sunlight. Store in a dark place at room temperature. After opening, consume the same day."
+        ]
+      }
+    ],
+    "ingredients_information": {
+      "ingredients_text": "Water, fructose, acidity regulators (citric acid, sodium citrate), pomegranate extract, vitamins (E, C, folic acid, B12, biotin), flavourings, colour (caramel)."
+    },
+    "nutrition_facts": {
+      "reference_sizes": {
+        "standard": {
+          "base": {
+            "quantity": {
+              "value": "100 g",
+              "numeric_value": 100,
+              "unit": "g"
+            }
+          },
+          "nutrients": [
+            {
+              "code": "NUT_ENERGY",
+              "name": "Energy",
+              "operator": "=",
+              "pictogram_name": "Energy",
+              "category": "BIG9",
+              "quantity": {
+                "value": "66 kJ",
+                "numeric_value": 66,
+                "unit": "kJ",
+                "alternate": {
+                  "value": "16 kcal",
+                  "numeric_value": 16,
+                  "unit": "kcal"
+                }
+              }
+            },
+            {
+              "code": "NUT_FAT",
+              "name": "Fat",
+              "operator": "=",
+              "pictogram_name": "Fat",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0 g",
+                "numeric_value": 0,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_SATURATED_FATTY_ACIDS",
+              "name": "of which saturates",
+              "operator": "=",
+              "pictogram_name": "saturated fatty acids",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0 g",
+                "numeric_value": 0,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_CARBOHYDRATES",
+              "name": "Carbohydrate",
+              "operator": "=",
+              "category": "BIG9",
+              "quantity": {
+                "value": "3.9 g",
+                "numeric_value": 3.9,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_SUGAR",
+              "name": "of which sugars",
+              "operator": "=",
+              "pictogram_name": "Sugar",
+              "category": "BIG9",
+              "quantity": {
+                "value": "3.9 g",
+                "numeric_value": 3.9,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_FIBER",
+              "name": "Fibre",
+              "operator": "=",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0 g",
+                "numeric_value": 0,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_PROTEIN",
+              "name": "Protein",
+              "operator": "=",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0 g",
+                "numeric_value": 0,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_SALT",
+              "name": "Salt",
+              "operator": "=",
+              "pictogram_name": "Salt",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0.03 g",
+                "numeric_value": 0.03,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_VITAMIN_E",
+              "name": "Vitamin E",
+              "operator": "=",
+              "category": "VITAMINE",
+              "quantity": {
+                "value": "1.2 mg",
+                "numeric_value": 1.2,
+                "unit": "mg"
+              }
+            },
+            {
+              "code": "NUT_VITAMIN_C",
+              "name": "Vitamin C",
+              "operator": "=",
+              "category": "VITAMINE",
+              "quantity": {
+                "value": "11 mg",
+                "numeric_value": 11,
+                "unit": "mg"
+              }
+            },
+            {
+              "code": "NUT_FOLIC_ACID",
+              "name": "folic acid / folate",
+              "operator": "=",
+              "category": "VITAMINE",
+              "quantity": {
+                "value": "15 µg",
+                "numeric_value": 15,
+                "unit": "µg"
+              }
+            },
+            {
+              "code": "NUT_VITAMIN_B12",
+              "name": "Vitamin B12",
+              "operator": "=",
+              "category": "VITAMINE",
+              "quantity": {
+                "value": "0.25 µg",
+                "numeric_value": 0.25,
+                "unit": "µg"
+              }
+            },
+            {
+              "code": "NUT_BIOTIN",
+              "name": "Biotin",
+              "operator": "=",
+              "category": "VITAMINE",
+              "quantity": {
+                "value": "10 µg",
+                "numeric_value": 10,
+                "unit": "µg"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "recipe_ingredient_ids": [
+    "10000"
+  ],
+  "regional_availability": {
+    "gmaa": {
+      "probability": 66
+    },
+    "gmbs": {
+      "probability": 55
+    },
+    "gmge": {
+      "probability": 45
+    },
+    "gmlu": {
+      "probability": 32
+    },
+    "gmnf": {
+      "probability": 55
+    },
+    "gmos": {
+      "probability": 69
+    },
+    "gmti": {
+      "probability": 42
+    },
+    "gmvd": {
+      "probability": 47
+    },
+    "gmvs": {
+      "probability": 56
+    },
+    "gmzh": {
+      "probability": 75
+    }
+  },
+  "ratings": {
+    "count_all": 24,
+    "average_all": 4.416666666667
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "updated_at": "2023-08-17T11:45:47+0200",
+  "sap_created_at": "2022-02-20T18:00:00+0100",
+  "online_shop_relevant": false,
+  "base_unit": "CU",
+  "co2_compensation": {
+    "kg_co2": 0.353,
+    "kg_co2_compensation": 0.353,
+    "is_compensated": false,
+    "mcheck_enabled": false
+  },
+  "origins": {
+    "producing_country": "European Union"
+  },
+  "views": [
+    "all",
+    "browse",
+    "browseallretailers"
+  ]
+}

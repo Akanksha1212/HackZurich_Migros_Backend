@@ -1,0 +1,586 @@
+{
+  "id": "748690400000",
+  "language": "en",
+  "name": "ZURU 5 SURPRISE DINO STRIKE S4 DISPLAY A",
+  "names": {
+    "short_name": "ZURU 5 SURPRISE DINO STRIKE S4 DISPLAY A"
+  },
+  "slug": "zuru-5-surprise-dino-strike-s4-display-a",
+  "slugs": {
+    "de": "zuru-5-surprise-dino-strike-s4",
+    "fr": "zuru-5-surprise-dino-strike-s4",
+    "it": "zuru-5-surprise-dino-strike-s4",
+    "en": "zuru-5-surprise-dino-strike-s4-display-a"
+  },
+  "type": "00",
+  "boss_number": "130861650580",
+  "description": {
+    "text": "Artikel assortiert, Motiv nicht w&auml;hlbar",
+    "source": "PEX"
+  },
+  "data_source": "SAP-X12",
+  "status": {
+    "id": "currently-not-available",
+    "seasonal": false,
+    "pim_status": "88",
+    "distribution_center": [
+      {
+        "center_id": "1001",
+        "center_name": "Migros Verteilzentrum Neuendorf",
+        "status_code": "05",
+        "status_description": "external procurement blocked"
+      }
+    ],
+    "description": "Currently with limited availability."
+  },
+  "tags": [
+    "source-pex",
+    "migipedia",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "4894680019614"
+  ],
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarket"
+  },
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": true,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": true,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": true,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": true,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": true,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": true,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": true,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "categories": [
+    {
+      "code": "BeSS_010712",
+      "name": "Spielwaren",
+      "slug": "supermarkt/baby-kinder/spielwaren",
+      "visible": true,
+      "title": "Daran haben Kinder Freude: Spielwaren aus der Migros",
+      "parent_code": "BeSS_0107",
+      "image": {
+        "original": "https://image.migros.ch/original/44a2aeebd38216c32a1d9bbfc94664e575d085c1/spielwaren.jpg",
+        "stack": "https://image.migros.ch/{stack}/44a2aeebd38216c32a1d9bbfc94664e575d085c1/spielwaren.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0107",
+      "name": "Baby & Kinder",
+      "slug": "supermarkt/baby-kinder",
+      "visible": true,
+      "title": "Babyartikel: Alles rund ums Baby in Ihrer Migros kaufen",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/dc6e5e45f414e657061e049a69de80177f40ca98/baby-kinder.jpg",
+        "stack": "https://image.migros.ch/{stack}/dc6e5e45f414e657061e049a69de80177f40ca98/baby-kinder.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "MEL_SHOP_CAT_RollenspieleActionfiguren_Spielwaren_GamingSpielwaren",
+        "name": "Rollenspiele & Actionfiguren",
+        "slug": "melectronics/gaming-spielwaren/spielwaren/rollenspiele-actionfiguren",
+        "visible": true,
+        "parent_code": "MEL_SHOP_CAT_Spielwaren_GamingSpielwaren",
+        "level": 4
+      },
+      {
+        "code": "MEL_SHOP_CAT_Spielwaren_GamingSpielwaren",
+        "name": "Spielwaren",
+        "slug": "melectronics/gaming-spielwaren/spielwaren",
+        "visible": true,
+        "parent_code": "MEL_SHOP_CAT_GamingSpielwaren",
+        "level": 3
+      },
+      {
+        "code": "MEL_SHOP_CAT_GamingSpielwaren",
+        "name": "Gaming & Spielwaren",
+        "slug": "melectronics/gaming-spielwaren",
+        "visible": true,
+        "parent_code": "BeSS_04",
+        "level": 2
+      },
+      {
+        "code": "BeSS_04",
+        "name": "melectronics",
+        "slug": "melectronics",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "online_relevant": [
+    {
+      "code": "MGB",
+      "name": "Migros Genossenschafts-Bund"
+    }
+  ],
+  "links": {
+    "migros_ch": {
+      "url": "https://www.migros.ch/en/product/748690400000?context=instore",
+      "name": "In-store assortment",
+      "canonical": "https://www.migros.ch/en/product/748690400000?context=instore",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/748690400000",
+      "name": "Migipedia",
+      "canonical": "https://www.migros.ch/en/product/748690400000?context=instore",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "m_check2": {},
+  "warranty_months": 24,
+  "receipt_text": "Zuru 5 Surprise Dino",
+  "package": {
+    "content": 1,
+    "content_unit_code": "st",
+    "content_unit": "Stück",
+    "brutto_weight": 0.095,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 0.125,
+    "brutto_volume_unit_code": "cdm",
+    "height": 5,
+    "length": 5,
+    "width": 5,
+    "unit_dimension": "cm",
+    "price_comparison_content": 1,
+    "size": "1 Stk."
+  },
+  "package_information": {
+    "cu": {
+      "gtins": [
+        "4894680019614"
+      ],
+      "brutto_weight": 0.095,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.125,
+      "brutto_volume_unit_code": "cdm",
+      "height": 5,
+      "length": 5,
+      "width": 5,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "tuv": {
+      "number_of_base_units": 24
+    },
+    "tue": {
+      "number_of_base_units": 24
+    },
+    "lu": {
+      "number_of_base_units": 48
+    }
+  },
+  "vat": {
+    "id": 1,
+    "percentage": 7.7
+  },
+  "price": {
+    "valid_from": "2021-10-11T00:00:00+0200",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 9.9,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "1 Stk."
+    },
+    "base": {
+      "price": 9.9,
+      "quantity": 1,
+      "unit": "st"
+    }
+  },
+  "image": {
+    "original": "https://image.migros.ch/original/986b63d852f3646f890f52e377efa74e2d49088b/zuru-5-surprise-dino-strike-s4-display-a.jpg",
+    "stack": "https://image.migros.ch/{stack}/986b63d852f3646f890f52e377efa74e2d49088b/zuru-5-surprise-dino-strike-s4-display-a.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/1e4961c85d353d19c3f529378088e8c1dcd3f13e/zuru-5-surprise-dino-strike-s4-display-a.png",
+    "stack": "https://image.migros.ch/{stack}/1e4961c85d353d19c3f529378088e8c1dcd3f13e/zuru-5-surprise-dino-strike-s4-display-a.png"
+  },
+  "additional_images": [
+    {
+      "original": "https://image.migros.ch/original/84513573eba4a66abbf183da56b3230383ed6aff.jpg",
+      "stack": "https://image.migros.ch/{stack}/84513573eba4a66abbf183da56b3230383ed6aff.jpg"
+    },
+    {
+      "original": "https://image.migros.ch/original/91889ea94409aa1bc9a48e16c89e367b80baf48c.jpg",
+      "stack": "https://image.migros.ch/{stack}/91889ea94409aa1bc9a48e16c89e367b80baf48c.jpg"
+    },
+    {
+      "original": "https://image.migros.ch/original/6a2af8e170b0f271ec334c8b694280b845ebce9c.jpg",
+      "stack": "https://image.migros.ch/{stack}/6a2af8e170b0f271ec334c8b694280b845ebce9c.jpg"
+    },
+    {
+      "original": "https://image.migros.ch/original/dd7aad24f75b4a673c6334f7b9c4b5a81d457056.jpg",
+      "stack": "https://image.migros.ch/{stack}/dd7aad24f75b4a673c6334f7b9c4b5a81d457056.jpg"
+    },
+    {
+      "original": "https://image.migros.ch/original/42d14d04be045601e03d832e3a946f1557f7b962.jpg",
+      "stack": "https://image.migros.ch/{stack}/42d14d04be045601e03d832e3a946f1557f7b962.jpg"
+    },
+    {
+      "original": "https://image.migros.ch/original/9a32753bef21af7bd760589f61bd2aa199c68999.jpg",
+      "stack": "https://image.migros.ch/{stack}/9a32753bef21af7bd760589f61bd2aa199c68999.jpg"
+    },
+    {
+      "original": "https://image.migros.ch/original/e842426bdc43b9daabcb953b9bcd84785769325a.jpg",
+      "stack": "https://image.migros.ch/{stack}/e842426bdc43b9daabcb953b9bcd84785769325a.jpg"
+    },
+    {
+      "original": "https://image.migros.ch/original/c13a9160cfe440ba6ac89b355ed8e3a0ec90266f.jpg",
+      "stack": "https://image.migros.ch/{stack}/c13a9160cfe440ba6ac89b355ed8e3a0ec90266f.jpg"
+    },
+    {
+      "original": "https://image.migros.ch/original/28df56cb42052d4094810b7351f3557b21db18fa.jpg",
+      "stack": "https://image.migros.ch/{stack}/28df56cb42052d4094810b7351f3557b21db18fa.jpg"
+    },
+    {
+      "original": "https://image.migros.ch/original/e65cc179fcc5222ff0fd94843b8110b0308ec553.jpg",
+      "stack": "https://image.migros.ch/{stack}/e65cc179fcc5222ff0fd94843b8110b0308ec553.jpg"
+    },
+    {
+      "original": "https://image.migros.ch/original/86fd469d7039a2e925b3f1865325ee760ef62d6c.jpg",
+      "stack": "https://image.migros.ch/{stack}/86fd469d7039a2e925b3f1865325ee760ef62d6c.jpg"
+    },
+    {
+      "original": "https://image.migros.ch/original/6835495f68bd806b6f2c6ff9a8439024f552a0fc.jpg",
+      "stack": "https://image.migros.ch/{stack}/6835495f68bd806b6f2c6ff9a8439024f552a0fc.jpg"
+    }
+  ],
+  "internal_features": [
+    {
+      "label_code": "MAPI_RETURNABLE",
+      "label": "Return",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "true",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MAPI_RETURNABLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_MAX_ORDER_QUANTITY",
+      "values": [
+        {
+          "value_code": "NUMERIC_3",
+          "value": "3",
+          "numeric_value": 3
+        }
+      ],
+      "category_code": "MAPI_MAX_ORDER_QUANTITY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_EXCLUDE_FROM_COMPARISON_ENGINES",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "false",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_EXCLUDE_FROM_COMPARISON_ENGINES",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+      "values": [
+        {
+          "value_code": "55",
+          "value": "Versandart Paket"
+        }
+      ],
+      "category_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LOGISTIC_CLASS",
+      "values": [
+        {
+          "value_code": "1",
+          "value": "Lager"
+        }
+      ],
+      "category_code": "MAPI_LOGISTIC_CLASS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Standard item"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "HART"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRESENTATION",
+      "values": [
+        {
+          "value_code": "L",
+          "value": "liegend"
+        }
+      ],
+      "category_code": "MAPI_PRESENTATION",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RISK_CLASS",
+      "values": [
+        {
+          "value_code": "1",
+          "value": "1 (high)"
+        }
+      ],
+      "category_code": "MAPI_RISK_CLASS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_QUALITY_CHECK",
+      "values": [
+        {
+          "value_code": "00",
+          "value": "No Quality Control"
+        }
+      ],
+      "category_code": "MAPI_QUALITY_CHECK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_KUBE_TUKA",
+      "values": [
+        {
+          "value_code": "BLANK",
+          "value": "KUBE und TUKA nicht zugelassen"
+        }
+      ],
+      "category_code": "MAPI_KUBE_TUKA",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HART",
+          "value": "Hartwaren Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "H",
+          "value": "Hartwaren"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "61257",
+          "value": "FAHRZEUGE"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_EXPORTABLE",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_EXPORTABLE",
+      "top_fact": false
+    }
+  ],
+  "regional_availability": {
+    "gmaa": {
+      "probability": 0
+    },
+    "gmbs": {
+      "probability": 0
+    },
+    "gmge": {
+      "probability": 3
+    },
+    "gmlu": {
+      "probability": 5
+    },
+    "gmnf": {
+      "probability": 0
+    },
+    "gmos": {
+      "probability": 0
+    },
+    "gmti": {
+      "probability": 0
+    },
+    "gmvd": {
+      "probability": 0
+    },
+    "gmvs": {
+      "probability": 15
+    },
+    "gmzh": {
+      "probability": 0
+    }
+  },
+  "ratings": {
+    "count_all": 2,
+    "average_all": 4
+  },
+  "quantity_on_stock": 3408,
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "updated_at": "2023-08-16T12:29:05+0200",
+  "sap_created_at": "2021-09-30T00:00:00+0200",
+  "services": {
+    "logistics": [
+      {
+        "code": "MEL_LOGISTIK_FILIALE_POSTPAKET_GRATIS"
+      },
+      {
+        "code": "MEL_LOGISTIK_POSTPAKET_GRATIS"
+      }
+    ],
+    "others": []
+  },
+  "online_shop_relevant": true,
+  "base_unit": "CU",
+  "origins": {
+    "producing_country": "China"
+  },
+  "views": [
+    "all",
+    "browse",
+    "browseallretailers"
+  ]
+}

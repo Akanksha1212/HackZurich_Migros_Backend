@@ -1,0 +1,745 @@
+{
+  "id": "276709101000",
+  "language": "en",
+  "name": "Weisskabis",
+  "names": {
+    "short_name": "Weisskabis"
+  },
+  "slug": "weisskabis",
+  "slugs": {
+    "de": "weisskabis",
+    "fr": "chou-blanc",
+    "it": "cavolo-bianco",
+    "en": "weisskabis"
+  },
+  "type": "00",
+  "boss_number": "050115221505",
+  "description": {
+    "text": "Weisskabis Der Kabis ist ein helles K&ouml;pfchen. Mit seiner Verf&uuml;gbarkeit rund ums Jahr, der Lagerf&auml;higkeit und seiner kulinarischen Vielseitigkeit hat er sich in den meisten K&uuml;chenkulturen rund um den Globus unentbehrlich gemacht. Bereits im 8. Jahrhundert wurden diverse Kabissorten in Europa angebaut. Die popul&auml;rsten sind Weiss- und Rotkabis.Roher Kabis kann bl&auml;hen. Mit K&uuml;mmel oder Wacholderbeeren gegart, ist er am bek&ouml;mmlichsten f&uuml;r den Bauch. Eingelegt bzw. milchsauer vergoren, hat sich der Weisse weltweit einen Namen gemacht – im Elsass gibt es zu Ehren des Sauerkrauts gar eine Route de la Choucroute. Weisskabis liefert Vitamin C und Nahrungsfasern, was ihn im Winter als Rohkost attraktiv macht. Gegart ist er jedoch leichter verdaulich.",
+    "source": "P4M"
+  },
+  "data_source": "SAP-X11",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "80"
+  },
+  "tags": [
+    "source-p4m",
+    "migipedia",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "2124386000008",
+    "7617027557245"
+  ],
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarket"
+  },
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "brand": {
+    "id": "S10",
+    "name": "Migros Fresca",
+    "slug": "migros-fresca",
+    "image": {
+      "original": "https://image.migros.ch/original/d169433eae86571fe4796efc52300f787084eaa4/migros-fresca.jpg",
+      "stack": "https://image.migros.ch/{stack}/d169433eae86571fe4796efc52300f787084eaa4/migros-fresca.jpg"
+    }
+  },
+  "categories": [
+    {
+      "code": "BeSS_0101190205",
+      "name": "Lagergemüse",
+      "slug": "supermarkt/lebensmittel/fruechte-gemuese/gemuese/lagergemuese",
+      "visible": true,
+      "title": "Für den Winter: Kartoffeln und Lagergemüse von der Migros",
+      "parent_code": "BeSS_01011902",
+      "level": 5
+    },
+    {
+      "code": "BeSS_01011902",
+      "name": "Gemüse",
+      "slug": "supermarkt/lebensmittel/fruechte-gemuese/gemuese",
+      "visible": true,
+      "title": "Mit Gem&uuml;se von der Migros jeden Tag gesund essen",
+      "parent_code": "BeSS_010119",
+      "level": 4
+    },
+    {
+      "code": "BeSS_010119",
+      "name": "Früchte & Gemüse",
+      "slug": "supermarkt/lebensmittel/fruechte-gemuese",
+      "visible": true,
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/f839060a505bba25c0f37585edb558c003c50479/fruechte-gemuese.jpg",
+        "stack": "https://image.migros.ch/{stack}/f839060a505bba25c0f37585edb558c003c50479/fruechte-gemuese.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/31702195ec9d38aecefe80349eb347f79d56c750/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/31702195ec9d38aecefe80349eb347f79d56c750/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "online_relevant": [
+    {
+      "code": "MGB",
+      "name": "Migros Genossenschafts-Bund"
+    }
+  ],
+  "links": {
+    "migros_ch": {
+      "url": "https://www.migros.ch/en/product/276709101000?context=instore",
+      "name": "In-store assortment",
+      "canonical": "https://www.migros.ch/en/product/276709101000?context=instore",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/276709101000",
+      "name": "Migipedia",
+      "canonical": "https://www.migros.ch/en/product/276709101000?context=instore",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "has_safety_sheet": false,
+  "m_check2": {
+    "carbon_footprint": {
+      "image": {
+        "original": "https://image.migros.ch/original/3cb33aa7d90d7331f458860ae78688a0923b5993.svg",
+        "stack": "https://image.migros.ch/{stack}/3cb33aa7d90d7331f458860ae78688a0923b5993.svg"
+      },
+      "ground_and_sea_cargo": {
+        "kg_co2": 0.329,
+        "kg_co2_range": "0 - 0.9 kg CO₂eq / kg",
+        "co2_in_car_km": 1,
+        "rating": 5,
+        "production_in_percent": 86,
+        "packaging_in_percent": 0,
+        "transport_in_percent": 14
+      }
+    }
+  },
+  "receipt_text": "Weisskabis",
+  "package": {
+    "content": 1000,
+    "content_unit_code": "g",
+    "content_unit": "Gram",
+    "net_weight": 1,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogram",
+    "type": "KG",
+    "portions_per_package": "1",
+    "brutto_weight": 1,
+    "brutto_weight_unit_code": "kg",
+    "price_comparison_content": 100,
+    "average_min": 0.5,
+    "average_min_unit_code": "kg",
+    "average_max": 0.9,
+    "average_max_unit_code": "kg"
+  },
+  "package_information": {
+    "tu": {
+      "gtins": [
+        "7617027401838"
+      ],
+      "brutto_weight": 1,
+      "brutto_weight_unit_code": "kg",
+      "number_of_base_units": 1
+    },
+    "kg": {
+      "gtins": [
+        "2124386000008",
+        "7617027557245"
+      ],
+      "brutto_weight": 1,
+      "brutto_weight_unit_code": "kg",
+      "number_of_base_units": 1
+    }
+  },
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "price": {
+    "valid_from": "2023-06-27T00:00:00+0200",
+    "valid_to": "2023-09-25T23:59:59+0200",
+    "source": "PriceRepository",
+    "no_price_hint": "Current daily price"
+  },
+  "features": [
+    {
+      "label_code": "acxMISOsaisonbis",
+      "label": "Saison bis",
+      "values": [
+        {
+          "value": "Mai"
+        }
+      ],
+      "category_code": "ecxMISOCLAblattgemuesefrischesgemuesegemueselebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOsaisonvon",
+      "label": "Saison von",
+      "values": [
+        {
+          "value": "September"
+        }
+      ],
+      "category_code": "ecxMISOCLAblattgemuesefrischesgemuesegemueselebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOcugebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "erxMISOcugebindeartunverpackt",
+          "value": "Unverpackt"
+        }
+      ],
+      "category_code": "ecxMISOCLAblattgemuesefrischesgemuesegemueselebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOlagerungzuhause",
+      "label": "Lagerung zu Hause",
+      "values": [
+        {
+          "value_code": "erxMISOlagerungzuhausegekuehltaufbewahrenlagern",
+          "value": "gekühlt aufbewahren/lagern"
+        }
+      ],
+      "category_code": "ecxMISOCLAblattgemuesefrischesgemuesegemueselebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/15ce6027bdba23cef210a82d425a625e18b3a6e4/weisskabis.jpg",
+    "stack": "https://image.migros.ch/{stack}/15ce6027bdba23cef210a82d425a625e18b3a6e4/weisskabis.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/01bbe858e42a45d8d8d2ee0ed708f8763e4327b8/weisskabis.png",
+    "stack": "https://image.migros.ch/{stack}/01bbe858e42a45d8d8d2ee0ed708f8763e4327b8/weisskabis.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_EXPORTABLE",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_EXPORTABLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Normalposition"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZFRP",
+          "value": "Frische Beschaffung"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "ZFRP"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "71366",
+          "value": "CABBAGE"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LIFECYCLE",
+      "values": [
+        {
+          "value_code": "D",
+          "value": "Detailhandelsartikel"
+        }
+      ],
+      "category_code": "MAPI_LIFECYCLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_STORAGE_CONDITIONS",
+      "values": [
+        {
+          "value_code": "01",
+          "value": "normal"
+        }
+      ],
+      "category_code": "MAPI_STORAGE_CONDITIONS",
+      "top_fact": false
+    },
+    {
+      "label_code": "acxMISOsorten",
+      "label": "Sorten",
+      "values": [
+        {
+          "value_code": "erxMISOCLABlattgemuesefrischesGemueseGemueseLebensmittelGetraenkeAlle",
+          "value": "blattgemuese frisches Gemuese"
+        }
+      ],
+      "category_code": "ecxMISOCLAblattgemuesefrischesgemuesegemueselebensmittelgetraenkealle",
+      "top_fact": false
+    },
+    {
+      "label_code": "acxMISOamigosmaximalgewicht",
+      "label": "Maximal-Gewicht",
+      "values": [
+        {
+          "value_code": "NUMERIC_1300",
+          "value": "1300",
+          "numeric_value": 1300
+        }
+      ],
+      "category_code": "ecxMISOCLAblattgemuesefrischesgemuesegemueselebensmittelgetraenkealle",
+      "top_fact": false,
+      "unit_code": "450a3d52-a066-4786-9744-4a7daa8339f7",
+      "unit": "g",
+      "unit_symbol": "g"
+    },
+    {
+      "label_code": "acxMISOamigosminimalgewicht",
+      "label": "Minimal-Gewicht",
+      "values": [
+        {
+          "value_code": "NUMERIC_1000",
+          "value": "1000",
+          "numeric_value": 1000
+        }
+      ],
+      "category_code": "ecxMISOCLAblattgemuesefrischesgemuesegemueselebensmittelgetraenkealle",
+      "top_fact": false,
+      "unit_code": "450a3d52-a066-4786-9744-4a7daa8339f7",
+      "unit": "g",
+      "unit_symbol": "g"
+    },
+    {
+      "label_code": "acxCommonarticlecocompensated",
+      "label": "Artikel Co2 kompensiert",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false
+    },
+    {
+      "label_code": "acxCommonmesswertcompensation",
+      "label": "CO2-Wert Kompensation",
+      "values": [
+        {
+          "value_code": "NUMERIC_0.329",
+          "value": "0.329",
+          "numeric_value": 0.329
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false,
+      "unit_code": "5d71456e-a520-4294-9ddb-add78f63ce83",
+      "unit": "Equivalence per kilogram",
+      "unit_symbol": "eq / kg"
+    },
+    {
+      "label_code": "acxCommonoutputmcheckclimatedeclaration",
+      "label": "Auslobung M-Check Klimadeklaration",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Yes",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false
+    }
+  ],
+  "declarations": {
+    "declaration_number": "8828339051982",
+    "tags": [
+      "source-pim"
+    ],
+    "product_name": "WEISSKABIS LOSE",
+    "valid_from": "2022-03-16T14:36:39+0100",
+    "product_details": {
+      "regulated_description": "Weisskohl"
+    },
+    "general_information": [
+      {
+        "label": "Obligatorische Zusatzangaben",
+        "values": [
+          "-"
+        ]
+      },
+      {
+        "label": "Aufbewarungs- und Verpackungshinweise",
+        "values": [
+          "-"
+        ]
+      },
+      {
+        "label": "Haltbarkeit",
+        "values": [
+          "-"
+        ]
+      }
+    ],
+    "ingredients_information": {
+      "ingredients_text": "Weisskabis."
+    },
+    "nutrition_facts": {
+      "reference_sizes": {
+        "standard": {
+          "base": {
+            "description": "enthalten",
+            "quantity": {
+              "value": "100 g",
+              "numeric_value": 100,
+              "unit": "g"
+            }
+          },
+          "nutrients": [
+            {
+              "code": "NUT_ENERGY",
+              "name": "Energy",
+              "operator": "=",
+              "pictogram_name": "Energy",
+              "category": "BIG9",
+              "quantity": {
+                "value": "127 kJ",
+                "numeric_value": 127,
+                "unit": "kJ",
+                "alternate": {
+                  "value": "30 kcal",
+                  "numeric_value": 30,
+                  "unit": "kcal"
+                }
+              },
+              "rda": {
+                "percent": 2,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_FAT",
+              "name": "Fat",
+              "operator": "=",
+              "pictogram_name": "Fat",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0.2 g",
+                "numeric_value": 0.2,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 0.5,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_SATURATED_FATTY_ACIDS",
+              "name": "of which saturates",
+              "operator": "=",
+              "pictogram_name": "saturated fatty acids",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0 g",
+                "numeric_value": 0,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_CARBOHYDRATES",
+              "name": "Carbohydrate",
+              "operator": "=",
+              "category": "BIG9",
+              "quantity": {
+                "value": "4 g",
+                "numeric_value": 4,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 2,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_SUGAR",
+              "name": "of which sugars",
+              "operator": "=",
+              "pictogram_name": "Sugar",
+              "category": "BIG9",
+              "quantity": {
+                "value": "4 g",
+                "numeric_value": 4,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 4,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_FIBER",
+              "name": "Fibre",
+              "operator": "=",
+              "category": "BIG9",
+              "quantity": {
+                "value": "3 g",
+                "numeric_value": 3,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_PROTEIN",
+              "name": "Protein",
+              "operator": "=",
+              "category": "BIG9",
+              "quantity": {
+                "value": "1.5 g",
+                "numeric_value": 1.5,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 3,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_SALT",
+              "name": "Salt",
+              "operator": "=",
+              "pictogram_name": "Salt",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0 g",
+                "numeric_value": 0,
+                "unit": "g"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "recipe_ingredient_ids": [
+    "16307",
+    "441173"
+  ],
+  "regional_availability": {
+    "gmaa": {
+      "probability": 95
+    },
+    "gmbs": {
+      "probability": 100
+    },
+    "gmge": {
+      "probability": 76
+    },
+    "gmlu": {
+      "probability": 80
+    },
+    "gmnf": {
+      "probability": 98
+    },
+    "gmos": {
+      "probability": 98
+    },
+    "gmti": {
+      "probability": 97
+    },
+    "gmvd": {
+      "probability": 88
+    },
+    "gmvs": {
+      "probability": 19
+    },
+    "gmzh": {
+      "probability": 93
+    }
+  },
+  "ratings": {
+    "count_all": 89,
+    "average_all": 4.52808988764
+  },
+  "related_products": {
+    "purchase_recommendations": {
+      "product_ids": [
+        "274502501000",
+        "276710501000",
+        "276713101000",
+        "276709102100",
+        "276709601000"
+      ]
+    }
+  },
+  "reindex_date": "2023-09-25T23:59:59+0200",
+  "updated_at": "2023-08-17T07:29:22+0200",
+  "sap_created_at": "2006-11-14T18:00:00+0100",
+  "online_shop_relevant": false,
+  "base_unit": "KG",
+  "co2_compensation": {
+    "kg_co2": 0.329,
+    "kg_co2_compensation": 0.329,
+    "is_compensated": false,
+    "mcheck_enabled": true
+  },
+  "origins": {
+    "producing_country": "-"
+  },
+  "views": [
+    "all",
+    "browse",
+    "browseallretailers"
+  ]
+}

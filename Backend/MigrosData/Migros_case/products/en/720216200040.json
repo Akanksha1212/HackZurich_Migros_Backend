@@ -1,0 +1,599 @@
+{
+  "id": "720216200040",
+  "language": "en",
+  "name": "CDA KS ERSATZM 0.7MM_blau",
+  "names": {
+    "short_name": "CDA KS ERSATZM 0.7MM_blau"
+  },
+  "slug": "cda-ks-ersatzm-07mm-blau-blau",
+  "slugs": {
+    "de": "goliath-ersatzminen-blau",
+    "fr": "goliath-cartouche-de-rechange-blau",
+    "it": "goliath-cartuccia-di-ricambio-blau",
+    "en": "cda-ks-ersatzm-07mm-blau-blau"
+  },
+  "type": "02",
+  "boss_number": "150626914015",
+  "description": {
+    "text": "Strichst&auml;rke 0.7mm, blau",
+    "source": "PEX"
+  },
+  "data_source": "SAP-X12",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03",
+    "distribution_center": [
+      {
+        "center_id": "1001",
+        "center_name": "Migros Verteilzentrum Neuendorf",
+        "status_code": "03",
+        "status_description": "active"
+      }
+    ]
+  },
+  "tags": [
+    "source-pex",
+    "near-non-food",
+    "migipedia",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": true,
+  "base_product_id": "720216200000",
+  "gtins": [
+    "7610186579998"
+  ],
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarket"
+  },
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "brand": {
+    "id": "MDD",
+    "name": "Caran d' Ache",
+    "slug": "caran-d-ache",
+    "image": {
+      "original": "https://image.migros.ch/original/88cbe5ac7a667fe307a27d961da3b31094a61cbd/caran-d-ache.jpg",
+      "stack": "https://image.migros.ch/{stack}/88cbe5ac7a667fe307a27d961da3b31094a61cbd/caran-d-ache.jpg"
+    }
+  },
+  "categories": [
+    {
+      "code": "BeSS_0105140102",
+      "name": "Kugelschreiber",
+      "slug": "supermarkt/papeterie-bueromaterial/schreiben-notieren/stifte/kugelschreiber",
+      "visible": true,
+      "parent_code": "BeSS_01051401",
+      "level": 5
+    },
+    {
+      "code": "BeSS_01051401",
+      "name": "Stifte",
+      "slug": "supermarkt/papeterie-bueromaterial/schreiben-notieren/stifte",
+      "visible": true,
+      "parent_code": "BeSS_010514",
+      "level": 4
+    },
+    {
+      "code": "BeSS_010514",
+      "name": "Schreiben & Notieren",
+      "slug": "supermarkt/papeterie-bueromaterial/schreiben-notieren",
+      "visible": true,
+      "parent_code": "BeSS_0105",
+      "level": 3
+    },
+    {
+      "code": "BeSS_0105",
+      "name": "Papeterie & Büromaterial",
+      "slug": "supermarkt/papeterie-bueromaterial",
+      "visible": true,
+      "title": "Papeterie und Büromaterialien sind immer in Ihrer Migros zu finden",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/6b764b62482953963a5ab3263b9bd3a69cbf436a/papeterie-bueromaterial.jpg",
+        "stack": "https://image.migros.ch/{stack}/6b764b62482953963a5ab3263b9bd3a69cbf436a/papeterie-bueromaterial.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "online_relevant": [
+    {
+      "code": "MGB",
+      "name": "Migros Genossenschafts-Bund"
+    }
+  ],
+  "links": {
+    "migros_ch": {
+      "url": "https://www.migros.ch/en/product/720216200040?context=instore",
+      "name": "In-store assortment",
+      "canonical": "https://www.migros.ch/en/product/720216200040?context=instore",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/720216200040",
+      "name": "Migipedia",
+      "canonical": "https://www.migros.ch/en/product/720216200040?context=instore",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "receipt_text": "CdA Ersatzpatrone blau",
+  "package": {
+    "content": 1,
+    "content_unit_code": "st",
+    "content_unit": "Stück",
+    "net_weight": 0.13,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "brutto_weight": 0.17,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 0.062,
+    "brutto_volume_unit_code": "cdm",
+    "height": 18.4,
+    "length": 0.6,
+    "width": 6.6,
+    "unit_dimension": "cm",
+    "price_comparison_content": 1,
+    "size": "1 Stk."
+  },
+  "package_information": {
+    "cu": {
+      "gtins": [
+        "7610186579998"
+      ],
+      "brutto_weight": 0.17,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.062,
+      "brutto_volume_unit_code": "cdm",
+      "height": 18.4,
+      "length": 0.6,
+      "width": 6.6,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "tuv": {
+      "brutto_weight": 1.7,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 1.152,
+      "brutto_volume_unit_code": "cdm",
+      "height": 8,
+      "length": 24,
+      "width": 6,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 10
+    },
+    "tue": {
+      "brutto_weight": 1.4,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.001,
+      "brutto_volume_unit_code": "ccm",
+      "height": 0.1,
+      "length": 0.1,
+      "width": 0.1,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 10
+    },
+    "lu": {
+      "brutto_weight": 56,
+      "brutto_weight_unit_code": "kg",
+      "number_of_base_units": 430
+    },
+    "lge": {
+      "number_of_base_units": 570
+    },
+    "moq": {
+      "number_of_base_units": 430
+    }
+  },
+  "vat": {
+    "id": 1,
+    "percentage": 7.7
+  },
+  "price": {
+    "valid_from": "2023-06-26T00:00:00+0200",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 5.8,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "1 Stk."
+    },
+    "base": {
+      "price": 5.8,
+      "quantity": 1,
+      "unit": "ST"
+    }
+  },
+  "features": [
+    {
+      "label_code": "miso_anzahl",
+      "label": "Number",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1 Stk.",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MISO_CLA_Schreibwaren_Papeterie_Haushalt_Alle",
+      "top_fact": false,
+      "unit_code": "Stk.",
+      "unit": "Stück",
+      "unit_symbol": "Stk.",
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "miso_schreibfarbe",
+      "label": "Font color",
+      "values": [
+        {
+          "value_code": "MISO_farbe_blau",
+          "value": "blau"
+        }
+      ],
+      "category_code": "MISO_CLA_Schreibwaren_Papeterie_Haushalt_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "miso_schriftbreite",
+      "label": "Font width",
+      "values": [
+        {
+          "value_code": "MISO_schriftbreite_07mm",
+          "value": "0.7 mm"
+        }
+      ],
+      "category_code": "MISO_CLA_Schreibwaren_Papeterie_Haushalt_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    }
+  ],
+  "attributes": {
+    "color": {
+      "code": "720216200000-A001-00040",
+      "name": "Farbe",
+      "value": "BLAU"
+    }
+  },
+  "image": {
+    "original": "https://image.migros.ch/original/997c69ab76a73100abcf4ed0103c565e8395d9e8/cda-ks-ersatzm-07mm-blau.jpg",
+    "stack": "https://image.migros.ch/{stack}/997c69ab76a73100abcf4ed0103c565e8395d9e8/cda-ks-ersatzm-07mm-blau.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/e660bdf428780aa80d4e4cda7e6b2c0f10d78e18/cda-ks-ersatzm-07mm-blau.png",
+    "stack": "https://image.migros.ch/{stack}/e660bdf428780aa80d4e4cda7e6b2c0f10d78e18/cda-ks-ersatzm-07mm-blau.png"
+  },
+  "additional_images": [
+    {
+      "original": "https://image.migros.ch/original/c4b769fb065147e66d3b3571336a5be75f759feb.jpg",
+      "stack": "https://image.migros.ch/{stack}/c4b769fb065147e66d3b3571336a5be75f759feb.jpg"
+    }
+  ],
+  "internal_features": [
+    {
+      "label_code": "MAPI_RETURNABLE",
+      "label": "Return",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "true",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MAPI_RETURNABLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_MAX_ORDER_QUANTITY",
+      "values": [
+        {
+          "value_code": "NUMERIC_99999",
+          "value": "99999",
+          "numeric_value": 99999
+        }
+      ],
+      "category_code": "MAPI_MAX_ORDER_QUANTITY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_EXCLUDE_FROM_COMPARISON_ENGINES",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "false",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_EXCLUDE_FROM_COMPARISON_ENGINES",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+      "values": [
+        {
+          "value_code": "55",
+          "value": "Versandart Paket"
+        }
+      ],
+      "category_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LOGISTIC_CLASS",
+      "values": [
+        {
+          "value_code": "1",
+          "value": "Lager"
+        }
+      ],
+      "category_code": "MAPI_LOGISTIC_CLASS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Standard item"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "HART"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUSTOMS_POSITION",
+      "values": [
+        {
+          "value": "96086000000"
+        }
+      ],
+      "category_code": "MAPI_CUSTOMS_POSITION",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RISK_CLASS",
+      "values": [
+        {
+          "value_code": "2",
+          "value": "2 (medium)"
+        }
+      ],
+      "category_code": "MAPI_RISK_CLASS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_KUBE_TUKA",
+      "values": [
+        {
+          "value_code": "BLANK",
+          "value": "KUBE und TUKA nicht zugelassen"
+        }
+      ],
+      "category_code": "MAPI_KUBE_TUKA",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HART",
+          "value": "Hartwaren Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "H",
+          "value": "Hartwaren"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "57915",
+          "value": "KUGELSCHREIBER"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_EXPORTABLE",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Yes",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MAPI_EXPORTABLE",
+      "top_fact": false
+    }
+  ],
+  "regional_availability": {
+    "gmaa": {
+      "probability": 88
+    },
+    "gmbs": {
+      "probability": 98
+    },
+    "gmge": {
+      "probability": 68
+    },
+    "gmlu": {
+      "probability": 75
+    },
+    "gmnf": {
+      "probability": 59
+    },
+    "gmos": {
+      "probability": 77
+    },
+    "gmti": {
+      "probability": 81
+    },
+    "gmvd": {
+      "probability": 91
+    },
+    "gmvs": {
+      "probability": 96
+    },
+    "gmzh": {
+      "probability": 78
+    }
+  },
+  "colors": [
+    {
+      "label": "blau",
+      "hex": "#0000FF",
+      "group": "Blau",
+      "group_hex": "#0000FF"
+    }
+  ],
+  "ratings": {
+    "count_all": 9,
+    "average_all": 4.777777777778
+  },
+  "related_products": {
+    "reference_recommendations": {
+      "product_ids": [
+        "720211100040",
+        "720203600040"
+      ]
+    }
+  },
+  "quantity_on_stock": 4420,
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "updated_at": "2023-08-16T07:47:51+0200",
+  "sap_created_at": "2002-09-20T00:00:00+0200",
+  "base_unit": "CU",
+  "origins": {
+    "producing_country": "Switzerland"
+  },
+  "views": [
+    "all",
+    "browse",
+    "browseallretailers"
+  ]
+}

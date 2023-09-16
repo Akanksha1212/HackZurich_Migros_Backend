@@ -1,0 +1,730 @@
+{
+  "id": "165062100000",
+  "language": "en",
+  "name": "Costa MSC Thai Style Wildlachs",
+  "names": {
+    "short_name": "Costa MSC Thai Style Wildlachs"
+  },
+  "slug": "costa-msc-thai-style-wildlachs",
+  "slugs": {
+    "de": "costa-msc-thai-style-wildlachs",
+    "fr": "costa-msc-thai-style-saumon-sauvage",
+    "it": "costa-msc-thai-style-salmone-selvatico",
+    "en": "costa-msc-thai-style-wildlachs"
+  },
+  "type": "00",
+  "boss_number": "010510551610",
+  "data_source": "SAP-X11",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03"
+  },
+  "tags": [
+    "source-p4m",
+    "migipedia",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "4008467055782"
+  ],
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarket"
+  },
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "brand": {
+    "id": "432",
+    "name": "Costa",
+    "slug": "costa"
+  },
+  "labels": [
+    {
+      "id": "L05",
+      "name": "MSC",
+      "slug": "msc",
+      "links": {
+        "homepage": {
+          "url": "https://www.migros.ch/de/nachhaltigkeit/nachhaltige-produkte/unsere-fortschritte/tierische-produkte/fisch.html",
+          "name": "Homepage",
+          "type": "info",
+          "purchasable": false
+        }
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_0101150401",
+      "name": "Fisch & Fischfilets",
+      "slug": "supermarkt/lebensmittel/tiefkuehlprodukte/fisch-meeresfruechte/fisch-fischfilets",
+      "visible": true,
+      "title": "Schlemmen mit gefrorenen Fischfilets aus Meer und See",
+      "parent_code": "BeSS_01011504",
+      "image": {
+        "original": "https://image.migros.ch/original/d036821e661baf374073c3be3d523d85b541e2d4/fisch-fischfilets.jpg",
+        "stack": "https://image.migros.ch/{stack}/d036821e661baf374073c3be3d523d85b541e2d4/fisch-fischfilets.jpg"
+      },
+      "level": 5
+    },
+    {
+      "code": "BeSS_01011504",
+      "name": "Fisch & Meeresfrüchte",
+      "slug": "supermarkt/lebensmittel/tiefkuehlprodukte/fisch-meeresfruechte",
+      "visible": true,
+      "title": "Lecker und empfehlenswert &ndash; Tiefkühlfisch von der Migros",
+      "parent_code": "BeSS_010115",
+      "level": 4
+    },
+    {
+      "code": "BeSS_010115",
+      "name": "Tiefkühlprodukte",
+      "slug": "supermarkt/lebensmittel/tiefkuehlprodukte",
+      "visible": true,
+      "title": "Tiefkühlprodukte aus Ihrer Migros: schnell etwas Feines auf Ihren Tisch",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/b8e389701dd44ecdd5fbc95db5eed9b0a8c4a03d/tiefkuehlprodukte.jpg",
+        "stack": "https://image.migros.ch/{stack}/b8e389701dd44ecdd5fbc95db5eed9b0a8c4a03d/tiefkuehlprodukte.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/31702195ec9d38aecefe80349eb347f79d56c750/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/31702195ec9d38aecefe80349eb347f79d56c750/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "online_relevant": [
+    {
+      "code": "MGB",
+      "name": "Migros Genossenschafts-Bund"
+    },
+    {
+      "code": "MO",
+      "name": "Migros Online"
+    }
+  ],
+  "links": {
+    "migros_ch": {
+      "url": "https://www.migros.ch/en/product/165062100000?context=instore",
+      "name": "In-store assortment",
+      "canonical": "https://www.migros.ch/en/product/165062100000?context=instore",
+      "type": "info",
+      "purchasable": false
+    },
+    "migros_online": {
+      "url": "https://www.migros.ch/en/product/165062100000?context=online",
+      "mo_product_id": "6873459",
+      "name": "Online-shop assortment",
+      "canonical": "https://www.migros.ch/en/product/165062100000?context=instore",
+      "type": "shop",
+      "purchasable": true,
+      "one_catalog_id": 100006394
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/165062100000",
+      "name": "Migipedia",
+      "canonical": "https://www.migros.ch/en/product/165062100000?context=instore",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "has_safety_sheet": false,
+  "m_check2": {},
+  "receipt_text": "MSC Thai Style Lachs",
+  "package": {
+    "content": 600,
+    "content_unit_code": "g",
+    "content_unit": "Gram",
+    "net_weight": 0.6,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogram",
+    "type": "CU",
+    "portions_per_package": "1",
+    "brutto_weight": 0.65,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 3.437,
+    "brutto_volume_unit_code": "cdm",
+    "height": 22.5,
+    "length": 6.7,
+    "width": 22.8,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "600g"
+  },
+  "package_information": {
+    "tu": {
+      "gtins": [
+        "4008467155789"
+      ],
+      "brutto_weight": 5.2,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 21.156,
+      "brutto_volume_unit_code": "cdm",
+      "height": 20.6,
+      "length": 39.5,
+      "width": 26,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 8
+    },
+    "cu": {
+      "gtins": [
+        "4008467055782"
+      ],
+      "brutto_weight": 0.65,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 3.437,
+      "brutto_volume_unit_code": "cdm",
+      "height": 22.5,
+      "length": 6.7,
+      "width": 22.8,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "lu": {
+      "brutto_weight": 399.4,
+      "brutto_weight_unit_code": "kg",
+      "length": 120,
+      "width": 80,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 576
+    }
+  },
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "price": {
+    "valid_from": "2021-10-16T00:00:00+0200",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 6.5,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "600g"
+    },
+    "base": {
+      "price": 1.08,
+      "quantity": 100,
+      "unit": "G"
+    }
+  },
+  "image": {
+    "original": "https://image.migros.ch/original/e2f89c293e62da1b4ef5de7061d9eda151757a09/costa-msc-thai-style-wildlachs.jpg",
+    "stack": "https://image.migros.ch/{stack}/e2f89c293e62da1b4ef5de7061d9eda151757a09/costa-msc-thai-style-wildlachs.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/45a9687441a53c5038eb3e9502da61c4dd3ae22f/costa-msc-thai-style-wildlachs.png",
+    "stack": "https://image.migros.ch/{stack}/45a9687441a53c5038eb3e9502da61c4dd3ae22f/costa-msc-thai-style-wildlachs.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_EXPORTABLE",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_EXPORTABLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Normalposition"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "HAWA"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "30152",
+          "value": "PREPARED FISH"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LIFECYCLE",
+      "values": [
+        {
+          "value_code": "D",
+          "value": "Detailhandelsartikel"
+        }
+      ],
+      "category_code": "MAPI_LIFECYCLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_STORAGE_CONDITIONS",
+      "values": [
+        {
+          "value_code": "03",
+          "value": "tiefgekühlt"
+        }
+      ],
+      "category_code": "MAPI_STORAGE_CONDITIONS",
+      "top_fact": false
+    },
+    {
+      "label_code": "acxCommonarticlecocompensated",
+      "label": "Artikel Co2 kompensiert",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false
+    },
+    {
+      "label_code": "acxCommonmesswertcompensation",
+      "label": "CO2-Wert Kompensation",
+      "values": [
+        {
+          "value_code": "NUMERIC_6.183",
+          "value": "6.183",
+          "numeric_value": 6.183
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false,
+      "unit_code": "5d71456e-a520-4294-9ddb-add78f63ce83",
+      "unit": "Equivalence per kilogram",
+      "unit_symbol": "eq / kg"
+    },
+    {
+      "label_code": "acxCommonoutputmcheckclimatedeclaration",
+      "label": "Auslobung M-Check Klimadeklaration",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false
+    }
+  ],
+  "declarations": {
+    "declaration_number": "Q_1604593688525735",
+    "tags": [
+      "source-qim"
+    ],
+    "gtins": [
+      "4008467055782"
+    ],
+    "valid_from": "2022-03-03T00:00:00+0100",
+    "product_details": {
+      "net_filled_quantity": {
+        "value": "600 g",
+        "numeric_value": 600,
+        "unit": "g"
+      }
+    },
+    "distributor": {
+      "name": "COSTA Meeresspezialitäten GmbH & Co. KG",
+      "address": "Stedinger Str. 25, DE-26723 Emden"
+    },
+    "general_information": [
+      {
+        "label": "Production method for fish and seafood code",
+        "values": [
+          "sea fishing"
+        ]
+      }
+    ],
+    "ingredients_information": {
+      "additives_information": {
+        "declaration_obligatory": {
+          "code": "NON",
+          "label": "Contains no declaration obligatory additives depending on target market. (For Germany: Does not contain additives that are mandatory to declare on the menu acc. to §9 ZZulV.) "
+        },
+        "additives": [
+          {
+            "code": "ZSG015",
+            "label": "modified starch",
+            "containment_code": "CONTAINS",
+            "containment_label": "Contains"
+          }
+        ]
+      },
+      "allergens_information": {
+        "trace_allergens_text": "May contain: Crustaceans, Molluscs",
+        "allergens": [
+          {
+            "code": "UW",
+            "label": "Wheat and their derivatives",
+            "contamination_code": "VORHANDEN",
+            "contamination_label": "contains"
+          },
+          {
+            "code": "ALLG_MILCH",
+            "label": "Milk and its derivatives",
+            "contamination_code": "VORHANDEN",
+            "contamination_label": "contains"
+          },
+          {
+            "code": "ALLG_SOJA",
+            "label": "Soybean and its derivatives",
+            "contamination_code": "VORHANDEN",
+            "contamination_label": "contains"
+          },
+          {
+            "code": "ALLG_FISCH",
+            "label": "Fish and their derivatives",
+            "contamination_code": "VORHANDEN",
+            "contamination_label": "contains"
+          }
+        ]
+      }
+    },
+    "nutrition_facts": {
+      "reference_sizes": {
+        "standard": {
+          "base": {
+            "quantity": {
+              "value": "100 g",
+              "numeric_value": 100,
+              "unit": "g"
+            }
+          },
+          "nutrients": [
+            {
+              "code": "NUT_ENERGY",
+              "name": "Energy",
+              "operator": "~",
+              "pictogram_name": "Energy",
+              "category": "BIG9",
+              "quantity": {
+                "value": "424 kJ",
+                "numeric_value": 424,
+                "unit": "kJ",
+                "alternate": {
+                  "value": "101 kcal",
+                  "numeric_value": 101,
+                  "unit": "kcal"
+                }
+              }
+            },
+            {
+              "code": "NUT_FAT",
+              "name": "Fat",
+              "operator": "~",
+              "pictogram_name": "Fat",
+              "category": "BIG9",
+              "quantity": {
+                "value": "3.4 g",
+                "numeric_value": 3.4,
+                "unit": "g"
+              },
+              "rating": {
+                "value": 1,
+                "text": "medium",
+                "icon": {
+                  "original": "https://image.migros.ch/original/b84b389195e426a9e6b4cd66f2c79b1a049809da.svg",
+                  "stack": "https://image.migros.ch/{stack}/b84b389195e426a9e6b4cd66f2c79b1a049809da.svg"
+                },
+                "hex_color": "#e8a800"
+              }
+            },
+            {
+              "code": "NUT_SATURATED_FATTY_ACIDS",
+              "name": "of which saturates",
+              "operator": "~",
+              "pictogram_name": "saturated fatty acids",
+              "category": "BIG9",
+              "quantity": {
+                "value": "1.5 g",
+                "numeric_value": 1.5,
+                "unit": "g"
+              },
+              "rating": {
+                "value": 0,
+                "text": "low",
+                "icon": {
+                  "original": "https://image.migros.ch/original/a2b5e2562a4fedbbdec99c1932ec57c46c49cde4.svg",
+                  "stack": "https://image.migros.ch/{stack}/a2b5e2562a4fedbbdec99c1932ec57c46c49cde4.svg"
+                },
+                "hex_color": "#069800"
+              }
+            },
+            {
+              "code": "NUT_CARBOHYDRATES",
+              "name": "Carbohydrate",
+              "operator": "~",
+              "category": "BIG9",
+              "quantity": {
+                "value": "10 g",
+                "numeric_value": 10,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_SUGAR",
+              "name": "of which sugars",
+              "operator": "~",
+              "pictogram_name": "Sugar",
+              "category": "BIG9",
+              "quantity": {
+                "value": "2.0 g",
+                "numeric_value": 2,
+                "unit": "g"
+              },
+              "rating": {
+                "value": 0,
+                "text": "low",
+                "icon": {
+                  "original": "https://image.migros.ch/original/a2b5e2562a4fedbbdec99c1932ec57c46c49cde4.svg",
+                  "stack": "https://image.migros.ch/{stack}/a2b5e2562a4fedbbdec99c1932ec57c46c49cde4.svg"
+                },
+                "hex_color": "#069800"
+              }
+            },
+            {
+              "code": "NUT_PROTEIN",
+              "name": "Protein",
+              "operator": "~",
+              "category": "BIG9",
+              "quantity": {
+                "value": "6.8 g",
+                "numeric_value": 6.8,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_SALT",
+              "name": "Salt",
+              "operator": "~",
+              "pictogram_name": "Salt",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0.70 g",
+                "numeric_value": 0.7,
+                "unit": "g"
+              },
+              "rating": {
+                "value": 1,
+                "text": "medium",
+                "icon": {
+                  "original": "https://image.migros.ch/original/b84b389195e426a9e6b4cd66f2c79b1a049809da.svg",
+                  "stack": "https://image.migros.ch/{stack}/b84b389195e426a9e6b4cd66f2c79b1a049809da.svg"
+                },
+                "hex_color": "#e8a800"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "recipe_ingredient_ids": [
+    "10000"
+  ],
+  "regional_availability": {
+    "gmaa": {
+      "probability": 15
+    },
+    "gmbs": {
+      "probability": 36
+    },
+    "gmge": {
+      "probability": 32
+    },
+    "gmlu": {
+      "probability": 19
+    },
+    "gmnf": {
+      "probability": 45
+    },
+    "gmos": {
+      "probability": 22
+    },
+    "gmti": {
+      "probability": 84
+    },
+    "gmvd": {
+      "probability": 40
+    },
+    "gmvs": {
+      "probability": 41
+    },
+    "gmzh": {
+      "probability": 14
+    }
+  },
+  "ratings": {
+    "count_all": 14,
+    "average_all": 3.928571428571
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "updated_at": "2023-08-17T11:53:31+0200",
+  "sap_created_at": "2021-10-11T19:00:00+0200",
+  "online_shop_relevant": false,
+  "base_unit": "CU",
+  "co2_compensation": {
+    "kg_co2": 6.183,
+    "kg_co2_compensation": 6.183,
+    "is_compensated": false,
+    "mcheck_enabled": false
+  },
+  "origins": {
+    "producing_country": "Germany"
+  },
+  "views": [
+    "all",
+    "browse",
+    "browseallretailers"
+  ]
+}

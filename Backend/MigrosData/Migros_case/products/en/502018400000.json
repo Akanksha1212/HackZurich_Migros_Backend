@@ -1,0 +1,713 @@
+{
+  "id": "502018400000",
+  "language": "en",
+  "name": "M-Budget Küchenreiniger",
+  "names": {
+    "short_name": "M-Budget Küchenreiniger"
+  },
+  "slug": "m-budget-kuechenreiniger",
+  "slugs": {
+    "de": "m-budget-kuechenreiniger",
+    "fr": "m-budget-detergent-cuisine",
+    "it": "m-budget-detergente-cucina",
+    "en": "m-budget-kuechenreiniger"
+  },
+  "type": "00",
+  "boss_number": "150126803515",
+  "description": {
+    "text": "Kraftvoll bei Fett, Schmutz und Eingebranntem.",
+    "source": "PEX"
+  },
+  "data_source": "SAP-X11",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03",
+    "distribution_center": [
+      {
+        "center_id": "1000",
+        "center_name": "Migros Verteilzentrum Suhr",
+        "status_description": "product.status.distribution_center."
+      },
+      {
+        "center_id": "1001",
+        "center_name": "Migros Verteilzentrum Neuendorf",
+        "status_description": "product.status.distribution_center."
+      },
+      {
+        "center_id": "1020",
+        "center_name": "Regionallager Basel",
+        "status_description": "product.status.distribution_center."
+      },
+      {
+        "center_id": "1030",
+        "center_name": "Regionallager Aare",
+        "status_description": "product.status.distribution_center."
+      },
+      {
+        "center_id": "1040",
+        "center_name": "Entrepôt régional Genève",
+        "status_description": "product.status.distribution_center."
+      },
+      {
+        "center_id": "1060",
+        "center_name": "Entrepôt régional Vaud",
+        "status_description": "product.status.distribution_center."
+      },
+      {
+        "center_id": "1070",
+        "center_name": "Regionallager Luzern",
+        "status_description": "product.status.distribution_center."
+      },
+      {
+        "center_id": "1080",
+        "center_name": "Entrepôt régional Neuchâtel /",
+        "status_description": "product.status.distribution_center."
+      },
+      {
+        "center_id": "1090",
+        "center_name": "Regionallager Ostschweiz",
+        "status_description": "product.status.distribution_center."
+      },
+      {
+        "center_id": "1120",
+        "center_name": "Magazzino regionale Ticino",
+        "status_description": "product.status.distribution_center."
+      },
+      {
+        "center_id": "1130",
+        "center_name": "Entrepôt régional Valais",
+        "status_description": "product.status.distribution_center."
+      },
+      {
+        "center_id": "1150",
+        "center_name": "Regionallager Zürich",
+        "status_description": "product.status.distribution_center."
+      }
+    ]
+  },
+  "tags": [
+    "source-pex",
+    "near-non-food",
+    "migipedia",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613312311974"
+  ],
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarket"
+  },
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "brand": {
+    "id": "N26",
+    "name": "M-Budget",
+    "slug": "m-budget",
+    "links": {
+      "homepage": {
+        "url": "https://m-budget.migros.ch/de.html",
+        "name": "Homepage",
+        "type": "info",
+        "purchasable": false
+      }
+    },
+    "image": {
+      "original": "https://image.migros.ch/original/16521d4e21b0df0edd8627d960293cef47fc1263/m-budget.jpg",
+      "stack": "https://image.migros.ch/{stack}/16521d4e21b0df0edd8627d960293cef47fc1263/m-budget.jpg"
+    }
+  },
+  "categories": [
+    {
+      "code": "BeSS_0104010607",
+      "name": "Spezialreiniger",
+      "slug": "supermarkt/haushalt-reinigung/waschen-reinigen-pflege/reinigungsmittel/spezialreiniger",
+      "visible": true,
+      "parent_code": "BeSS_01040106",
+      "image": {
+        "original": "https://image.migros.ch/original/410e40680ef3921d35368015e63f4a45794320eb/spezialreiniger.jpg",
+        "stack": "https://image.migros.ch/{stack}/410e40680ef3921d35368015e63f4a45794320eb/spezialreiniger.jpg"
+      },
+      "level": 5
+    },
+    {
+      "code": "BeSS_01040106",
+      "name": "Reinigungsmittel",
+      "slug": "supermarkt/haushalt-reinigung/waschen-reinigen-pflege/reinigungsmittel",
+      "visible": true,
+      "title": "Putzmittel bei der Migros: Und alles glänzt!",
+      "parent_code": "BeSS_010401",
+      "image": {
+        "original": "https://image.migros.ch/original/8ae8cde85bbe4352f65f30c350b6bc7562eae30e/reinigungsmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/8ae8cde85bbe4352f65f30c350b6bc7562eae30e/reinigungsmittel.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010401",
+      "name": "Waschen, Reinigen & Pflege",
+      "slug": "supermarkt/haushalt-reinigung/waschen-reinigen-pflege",
+      "visible": true,
+      "parent_code": "BeSS_0104",
+      "image": {
+        "original": "https://image.migros.ch/original/37d8921589f88cd40b1c580b957a6a414e1fe1d1/waschen-reinigen-pflege.jpg",
+        "stack": "https://image.migros.ch/{stack}/37d8921589f88cd40b1c580b957a6a414e1fe1d1/waschen-reinigen-pflege.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0104",
+      "name": "Haushalt & Reinigung",
+      "slug": "supermarkt/haushalt-reinigung",
+      "visible": true,
+      "title": "Reinigung mit der Migros – Reiniger für Haushalt und Garten",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png",
+        "stack": "https://image.migros.ch/{stack}/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "online_relevant": [
+    {
+      "code": "MGB",
+      "name": "Migros Genossenschafts-Bund"
+    }
+  ],
+  "links": {
+    "migros_ch": {
+      "url": "https://www.migros.ch/en/product/502018400000?context=instore",
+      "name": "In-store assortment",
+      "canonical": "https://www.migros.ch/en/product/502018400000?context=instore",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/502018400000",
+      "name": "Migipedia",
+      "canonical": "https://www.migros.ch/en/product/502018400000?context=instore",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "m_check2": {},
+  "receipt_text": "M-Budget Küchenreinig",
+  "package": {
+    "content": 750,
+    "content_unit_code": "ml",
+    "content_unit": "Mililiter",
+    "net_weight": 0.75,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "brutto_weight": 0.82,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 1.628,
+    "brutto_volume_unit_code": "cdm",
+    "height": 27.2,
+    "length": 6.3,
+    "width": 9.5,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "750ml"
+  },
+  "package_information": {
+    "tu": {
+      "gtins": [
+        "7613312311981"
+      ],
+      "brutto_weight": 9.98,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 23.181,
+      "brutto_volume_unit_code": "cdm",
+      "height": 29.2,
+      "length": 39.3,
+      "width": 20.2,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 12
+    },
+    "cu": {
+      "gtins": [
+        "7613312311974"
+      ],
+      "brutto_weight": 0.82,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 1.628,
+      "brutto_volume_unit_code": "cdm",
+      "height": 27.2,
+      "length": 6.3,
+      "width": 9.5,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "lu": {
+      "number_of_base_units": 720
+    },
+    "lge": {
+      "number_of_base_units": 144
+    },
+    "kar": {
+      "number_of_base_units": 1
+    }
+  },
+  "vat": {
+    "id": 1,
+    "percentage": 7.7
+  },
+  "price": {
+    "valid_from": "2022-12-15T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 1.05,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "750ml"
+    },
+    "base": {
+      "price": 0.14,
+      "quantity": 100,
+      "unit": "ml"
+    }
+  },
+  "features": [
+    {
+      "label_code": "miso_gefahrenhinweise",
+      "label": "Hazard warnings",
+      "values": [
+        {
+          "value": "Darf nicht in die Hände von Kindern gelangen."
+        }
+      ],
+      "category_code": "MISO_CLA_WaschenPapierReinigen_Haushalt_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "miso_anwendbarkeit_beschaffenheit_form",
+      "label": "Form",
+      "values": [
+        {
+          "value_code": "MISO_fluessig",
+          "value": "flüssig"
+        },
+        {
+          "value_code": "MISO_pumpspray",
+          "value": "Pumpspray"
+        }
+      ],
+      "category_code": "MISO_CLA_Reinigungsmittel_WaschenPapierReinigen_Haushalt_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "miso_geeignet_fuer",
+      "label": "Suitable for",
+      "values": [
+        {
+          "value_code": "MISO_entfernen_von_hartnaeckigen_verschmutzungen ",
+          "value": "Entfernen von hartnäckigen Verschmutzungen"
+        },
+        {
+          "value_code": "MISO_kueche\t",
+          "value": "Küche"
+        }
+      ],
+      "category_code": "MISO_CLA_Reinigungsmittel_WaschenPapierReinigen_Haushalt_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "miso_nicht_geeignet_fuer",
+      "label": "Not suitable for",
+      "values": [
+        {
+          "value_code": "MISO_marmor_und_andere_saeureempfindliche_materialien ",
+          "value": "Marmor und andere säureempfindliche Materialien"
+        }
+      ],
+      "category_code": "MISO_CLA_Reinigungsmittel_WaschenPapierReinigen_Haushalt_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "CHEMICALS_WARNING",
+      "label": "Warning",
+      "values": [
+        {
+          "value": "Always read label and product information before use."
+        }
+      ],
+      "category_code": "CHEMICALS_WARNING",
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/515bb518fcf64ec87d68613c3ee2d2a9956e24e2/m-budget-kuechenreiniger.jpg",
+    "stack": "https://image.migros.ch/{stack}/515bb518fcf64ec87d68613c3ee2d2a9956e24e2/m-budget-kuechenreiniger.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/3f72d1793bcfe5df2ee38098163c12765bb9b290/m-budget-kuechenreiniger.png",
+    "stack": "https://image.migros.ch/{stack}/3f72d1793bcfe5df2ee38098163c12765bb9b290/m-budget-kuechenreiniger.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Standard item"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "ZHKS"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUSTOMS_POSITION",
+      "values": [
+        {
+          "value": "34022090000"
+        }
+      ],
+      "category_code": "MAPI_CUSTOMS_POSITION",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RISK_CLASS",
+      "values": [
+        {
+          "value_code": "1",
+          "value": "1 (high)"
+        }
+      ],
+      "category_code": "MAPI_RISK_CLASS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_QUALITY_CHECK",
+      "values": [
+        {
+          "value_code": "00",
+          "value": "No Quality Control"
+        }
+      ],
+      "category_code": "MAPI_QUALITY_CHECK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZHKS",
+          "value": "HKS Standardartikel"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "H",
+          "value": "HKS Standard"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "50313",
+          "value": "SPEZIALREINIGER"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_3",
+          "value": "3",
+          "numeric_value": 3
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LIFECYCLE",
+      "values": [
+        {
+          "value_code": "D",
+          "value": "Detailhandelsartikel"
+        }
+      ],
+      "category_code": "MAPI_LIFECYCLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_EXPORTABLE",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Yes",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MAPI_EXPORTABLE",
+      "top_fact": false
+    }
+  ],
+  "chemicals_declaration": {
+    "release_date": "2023-06-15T15:42:53+0200",
+    "supplier_id": "0010028574",
+    "supplier_description": "AVT GmbH",
+    "hazard_statements": [
+      {
+        "code": "H318",
+        "label": "Causes serious eye damage."
+      },
+      {
+        "code": "H315",
+        "label": "Causes skin irritation."
+      }
+    ],
+    "precautionary_statements": [
+      {
+        "code": "P101",
+        "label": "If medical advice is needed, have product container or label at hand."
+      },
+      {
+        "code": "P102",
+        "label": "Keep out of reach of children."
+      },
+      {
+        "code": "P260",
+        "label": "Do not breathe dust/fume/gas/mist/vapours/spray."
+      },
+      {
+        "code": "P280",
+        "label": "Wear protective gloves / protective clothing / eye protection / face protection."
+      },
+      {
+        "code": "P302_352",
+        "label": "IF ON SKIN: Wash with plenty of soap and water."
+      },
+      {
+        "code": "P310_A",
+        "label": "Immediately call the TOX (Tel. 145) or a doctor."
+      },
+      {
+        "code": "P305_351_338",
+        "label": "IF IN EYES: Rinse cautiously with water for several minutes. Remove contact lenses, if present and easy to do. Continue rinsing."
+      },
+      {
+        "code": "P501_E",
+        "label": "Dispose of this material and its container in accordance with the relevant local regulations."
+      }
+    ],
+    "signal_word": {
+      "code": "SW01",
+      "label": "Danger"
+    },
+    "cpid_number": "MGB Todo",
+    "poison_cabinet": false,
+    "hazard_pictograms": [
+      {
+        "code": "GHS05",
+        "description": "corrosivity",
+        "original": "https://image.migros.ch/original/b9b6d67492a097fcc99d628551e84904ab689e51/GHS05.jpg",
+        "stack": "https://image.migros.ch/{stack}/b9b6d67492a097fcc99d628551e84904ab689e51/GHS05.jpg"
+      },
+      {
+        "code": "GHS07",
+        "description": "exclamation mark",
+        "original": "https://image.migros.ch/original/09b3c0810d45b7f83a5ad48c5bc38d4d0227615b/GHS07.jpg",
+        "stack": "https://image.migros.ch/{stack}/09b3c0810d45b7f83a5ad48c5bc38d4d0227615b/GHS07.jpg"
+      }
+    ],
+    "cleaning_agents": [
+      {
+        "concentration": {
+          "code": "RMK05",
+          "label": "less than 5%"
+        },
+        "group": {
+          "code": "RMS03",
+          "label": "anionic surfactants"
+        }
+      }
+    ],
+    "extra_cleaning_agents": [
+      {
+        "group": {
+          "code": "RMW04",
+          "label": "fragrances"
+        },
+        "name": "Limonene"
+      }
+    ],
+    "declaration_required_ingredients": [
+      {
+        "name": "Benzolsulfonsäure, C10-13-Alkylderivate, Natriumsalze",
+        "cas_number": "68411-30-3",
+        "einecs_number": "270-115-0"
+      },
+      {
+        "name": "2-Aminoethanol",
+        "cas_number": "141-43-5",
+        "einecs_number": "205-483-3"
+      }
+    ]
+  },
+  "regional_availability": {
+    "gmaa": {
+      "probability": 89
+    },
+    "gmbs": {
+      "probability": 88
+    },
+    "gmge": {
+      "probability": 76
+    },
+    "gmlu": {
+      "probability": 80
+    },
+    "gmnf": {
+      "probability": 67
+    },
+    "gmos": {
+      "probability": 75
+    },
+    "gmti": {
+      "probability": 71
+    },
+    "gmvd": {
+      "probability": 72
+    },
+    "gmvs": {
+      "probability": 89
+    },
+    "gmzh": {
+      "probability": 80
+    }
+  },
+  "ratings": {
+    "count_all": 19,
+    "average_all": 4.473684210526
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "updated_at": "2023-08-17T07:36:00+0200",
+  "sap_created_at": "2020-06-10T00:00:00+0200",
+  "base_unit": "CU",
+  "views": [
+    "all",
+    "browse",
+    "browseallretailers"
+  ]
+}

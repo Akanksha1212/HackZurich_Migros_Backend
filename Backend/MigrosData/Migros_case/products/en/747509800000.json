@@ -1,0 +1,587 @@
+{
+  "id": "747509800000",
+  "language": "en",
+  "name": "STAR WARS LIGHTSABER ACADEMY LEVEL 1 ASS",
+  "names": {
+    "short_name": "STAR WARS LIGHTSABER ACADEMY LEVEL 1 ASS"
+  },
+  "slug": "star-wars-lightsaber-academy-level-1-ass",
+  "slugs": {
+    "de": "lightsaber-academy-level-1",
+    "fr": "lightsaber-academy-level-1",
+    "it": "lightsaber-academy-level-1",
+    "en": "star-wars-lightsaber-academy-level-1-ass"
+  },
+  "type": "00",
+  "product_type": "Rollenspiel",
+  "boss_number": "130861651080",
+  "description": {
+    "text": "Artikel assortiert, Motiv nicht w&auml;hlbar",
+    "source": "PEX"
+  },
+  "data_source": "SAP-X12",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03",
+    "distribution_center": [
+      {
+        "center_id": "1001",
+        "center_name": "Migros Verteilzentrum Neuendorf",
+        "status_code": "03",
+        "status_description": "active"
+      }
+    ]
+  },
+  "tags": [
+    "source-pex",
+    "migipedia",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "5010993571376",
+    "5010993571345",
+    "5010993571352",
+    "5010993571369",
+    "5010993777853",
+    "5010993777860",
+    "5010993777877",
+    "5010993777884",
+    "5010993811472",
+    "5010993811489",
+    "5010993777891",
+    "5010994162221",
+    "5010994162238"
+  ],
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarket"
+  },
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": true,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": true,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": true,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": true,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": true,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": true,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "brand": {
+    "id": "B37",
+    "name": "Star Wars",
+    "slug": "star-wars"
+  },
+  "categories": [
+    {
+      "code": "BeSS_010712",
+      "name": "Spielwaren",
+      "slug": "supermarkt/baby-kinder/spielwaren",
+      "visible": true,
+      "title": "Daran haben Kinder Freude: Spielwaren aus der Migros",
+      "parent_code": "BeSS_0107",
+      "image": {
+        "original": "https://image.migros.ch/original/44a2aeebd38216c32a1d9bbfc94664e575d085c1/spielwaren.jpg",
+        "stack": "https://image.migros.ch/{stack}/44a2aeebd38216c32a1d9bbfc94664e575d085c1/spielwaren.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0107",
+      "name": "Baby & Kinder",
+      "slug": "supermarkt/baby-kinder",
+      "visible": true,
+      "title": "Babyartikel: Alles rund ums Baby in Ihrer Migros kaufen",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/dc6e5e45f414e657061e049a69de80177f40ca98/baby-kinder.jpg",
+        "stack": "https://image.migros.ch/{stack}/dc6e5e45f414e657061e049a69de80177f40ca98/baby-kinder.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "MEL_SHOP_CAT_RollenspieleActionfiguren_Spielwaren_GamingSpielwaren",
+        "name": "Rollenspiele & Actionfiguren",
+        "slug": "melectronics/gaming-spielwaren/spielwaren/rollenspiele-actionfiguren",
+        "visible": true,
+        "parent_code": "MEL_SHOP_CAT_Spielwaren_GamingSpielwaren",
+        "level": 4
+      },
+      {
+        "code": "MEL_SHOP_CAT_Spielwaren_GamingSpielwaren",
+        "name": "Spielwaren",
+        "slug": "melectronics/gaming-spielwaren/spielwaren",
+        "visible": true,
+        "parent_code": "MEL_SHOP_CAT_GamingSpielwaren",
+        "level": 3
+      },
+      {
+        "code": "MEL_SHOP_CAT_GamingSpielwaren",
+        "name": "Gaming & Spielwaren",
+        "slug": "melectronics/gaming-spielwaren",
+        "visible": true,
+        "parent_code": "BeSS_04",
+        "level": 2
+      },
+      {
+        "code": "BeSS_04",
+        "name": "melectronics",
+        "slug": "melectronics",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "online_relevant": [
+    {
+      "code": "MGB",
+      "name": "Migros Genossenschafts-Bund"
+    }
+  ],
+  "links": {
+    "migros_ch": {
+      "url": "https://www.migros.ch/en/product/747509800000?context=instore",
+      "name": "In-store assortment",
+      "canonical": "https://www.migros.ch/en/product/747509800000?context=instore",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/747509800000",
+      "name": "Migipedia",
+      "canonical": "https://www.migros.ch/en/product/747509800000?context=instore",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "warranty_months": 24,
+  "receipt_text": "Star Wars Lightsaber",
+  "package": {
+    "content": 1,
+    "content_unit_code": "st",
+    "content_unit": "Stück",
+    "brutto_weight": 0.148,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 0.799,
+    "brutto_volume_unit_code": "cdm",
+    "height": 25.4,
+    "length": 6,
+    "width": 5.7,
+    "unit_dimension": "cm",
+    "price_comparison_content": 1,
+    "size": "1 Stk."
+  },
+  "package_information": {
+    "cu": {
+      "gtins": [
+        "5010993571345",
+        "5010993571352",
+        "5010993571369",
+        "5010993571376",
+        "5010993777853",
+        "5010993777860",
+        "5010993777877",
+        "5010993777884",
+        "5010993811472",
+        "5010993811489",
+        "5010993777891",
+        "5010994162221",
+        "5010994162238"
+      ],
+      "brutto_weight": 0.148,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.799,
+      "brutto_volume_unit_code": "cdm",
+      "height": 25.4,
+      "length": 6,
+      "width": 5.7,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "tuv": {
+      "number_of_base_units": 12
+    },
+    "tue": {
+      "number_of_base_units": 12
+    },
+    "lu": {
+      "number_of_base_units": 624
+    },
+    "lge": {
+      "number_of_base_units": 156
+    }
+  },
+  "vat": {
+    "id": 1,
+    "percentage": 7.7
+  },
+  "price": {
+    "valid_from": "2021-02-17T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 18.9,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "1 Stk."
+    },
+    "base": {
+      "price": 18.9,
+      "quantity": 1,
+      "unit": "st"
+    }
+  },
+  "image": {
+    "original": "https://image.migros.ch/original/217305408b3f8c2edf0efcc92939ff8938d29f2c/star-wars-lightsaber-academy-level-1-ass.jpg",
+    "stack": "https://image.migros.ch/{stack}/217305408b3f8c2edf0efcc92939ff8938d29f2c/star-wars-lightsaber-academy-level-1-ass.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/18079e160d40be0e70d1f79ef0008f06759106f6/star-wars-lightsaber-academy-level-1-ass.png",
+    "stack": "https://image.migros.ch/{stack}/18079e160d40be0e70d1f79ef0008f06759106f6/star-wars-lightsaber-academy-level-1-ass.png"
+  },
+  "additional_images": [
+    {
+      "original": "https://image.migros.ch/original/0ac088cb13a17a7abf6db1201b19434a0cca4115.jpg",
+      "stack": "https://image.migros.ch/{stack}/0ac088cb13a17a7abf6db1201b19434a0cca4115.jpg"
+    },
+    {
+      "original": "https://image.migros.ch/original/3541900de17f20ff90552a2b3dc614045ce7c213.jpg",
+      "stack": "https://image.migros.ch/{stack}/3541900de17f20ff90552a2b3dc614045ce7c213.jpg"
+    },
+    {
+      "original": "https://image.migros.ch/original/9b196a0672e04d52d1e7c313ff25998a0bed8287.jpg",
+      "stack": "https://image.migros.ch/{stack}/9b196a0672e04d52d1e7c313ff25998a0bed8287.jpg"
+    },
+    {
+      "original": "https://image.migros.ch/original/ff6b9126c9bd5ab9d38586214dd238fd36bea9c5.jpg",
+      "stack": "https://image.migros.ch/{stack}/ff6b9126c9bd5ab9d38586214dd238fd36bea9c5.jpg"
+    }
+  ],
+  "internal_features": [
+    {
+      "label_code": "miso_amigos_anzeige",
+      "label": "Display aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "ja"
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "MAPI_RETURNABLE",
+      "label": "Return",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "true",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MAPI_RETURNABLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_EXCLUDE_FROM_COMPARISON_ENGINES",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "false",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_EXCLUDE_FROM_COMPARISON_ENGINES",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+      "values": [
+        {
+          "value_code": "55",
+          "value": "Versandart Paket"
+        }
+      ],
+      "category_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LOGISTIC_CLASS",
+      "values": [
+        {
+          "value_code": "7",
+          "value": "VMI"
+        }
+      ],
+      "category_code": "MAPI_LOGISTIC_CLASS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Standard item"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "HART"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRESENTATION",
+      "values": [
+        {
+          "value_code": "L",
+          "value": "liegend"
+        }
+      ],
+      "category_code": "MAPI_PRESENTATION",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RISK_CLASS",
+      "values": [
+        {
+          "value_code": "2",
+          "value": "2 (medium)"
+        }
+      ],
+      "category_code": "MAPI_RISK_CLASS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_QUALITY_CHECK",
+      "values": [
+        {
+          "value_code": "00",
+          "value": "No Quality Control"
+        }
+      ],
+      "category_code": "MAPI_QUALITY_CHECK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_KUBE_TUKA",
+      "values": [
+        {
+          "value_code": "BLANK",
+          "value": "KUBE und TUKA nicht zugelassen"
+        }
+      ],
+      "category_code": "MAPI_KUBE_TUKA",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HART",
+          "value": "Hartwaren Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "H",
+          "value": "Hartwaren"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "61258",
+          "value": "FIGUREN"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_EXPORTABLE",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_EXPORTABLE",
+      "top_fact": false
+    }
+  ],
+  "regional_availability": {
+    "gmaa": {
+      "probability": 16
+    },
+    "gmbs": {
+      "probability": 10
+    },
+    "gmge": {
+      "probability": 8
+    },
+    "gmlu": {
+      "probability": 12
+    },
+    "gmnf": {
+      "probability": 14
+    },
+    "gmos": {
+      "probability": 13
+    },
+    "gmti": {
+      "probability": 13
+    },
+    "gmvd": {
+      "probability": 11
+    },
+    "gmvs": {
+      "probability": 19
+    },
+    "gmzh": {
+      "probability": 15
+    }
+  },
+  "ratings": {
+    "count_all": 3,
+    "average_all": 3.333333333333
+  },
+  "quantity_on_stock": 60,
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "updated_at": "2023-08-09T09:06:03+0200",
+  "sap_created_at": "2020-05-08T00:00:00+0200",
+  "services": {
+    "logistics": [
+      {
+        "code": "MEL_LOGISTIK_FILIALE_POSTPAKET_GRATIS"
+      },
+      {
+        "code": "MEL_LOGISTIK_POSTPAKET_GRATIS"
+      }
+    ],
+    "others": []
+  },
+  "online_shop_relevant": true,
+  "base_unit": "CU",
+  "origins": {
+    "producing_country": "Viet Nam"
+  },
+  "views": [
+    "all",
+    "browse",
+    "browseallretailers"
+  ]
+}

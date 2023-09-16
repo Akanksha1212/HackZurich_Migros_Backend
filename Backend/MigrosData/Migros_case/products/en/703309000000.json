@@ -1,0 +1,680 @@
+{
+  "id": "703309000000",
+  "language": "en",
+  "name": "PRIMA POT WITH LID 18 CM LOW",
+  "names": {
+    "short_name": "PRIMA POT WITH LID 18 CM LOW"
+  },
+  "slug": "prima-pot-with-lid-18-cm-low",
+  "slugs": {
+    "de": "topf-mit-deckel-703309000000",
+    "fr": "casserole-avec-couvercle-703309000000",
+    "it": "casseruola-con-coperchio-703309000000",
+    "en": "prima-pot-with-lid-18-cm-low"
+  },
+  "type": "00",
+  "product_type": "PRIMA",
+  "boss_number": "150423081035",
+  "data_source": "SAP-X12",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03",
+    "distribution_center": [
+      {
+        "center_id": "1001",
+        "center_name": "Migros Verteilzentrum Neuendorf",
+        "status_code": "06",
+        "status_description": "marked for deletion"
+      }
+    ]
+  },
+  "tags": [
+    "source-pex",
+    "near-non-food",
+    "migipedia",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613433584677"
+  ],
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarket"
+  },
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "brand": {
+    "id": "NF1",
+    "name": "Cucina & Tavola",
+    "slug": "cucina-tavola",
+    "image": {
+      "original": "https://image.migros.ch/original/98f3334a95177b479cd8ad916857b64af5b1c64d/cucina-tavola.jpg",
+      "stack": "https://image.migros.ch/{stack}/98f3334a95177b479cd8ad916857b64af5b1c64d/cucina-tavola.jpg"
+    }
+  },
+  "categories": [
+    {
+      "code": "BeSS_01040910",
+      "name": "Kochgeschirr",
+      "slug": "supermarkt/haushalt-reinigung/kueche/kochgeschirr",
+      "visible": true,
+      "title": "Es geht heiss her: Pfannen und Töpfe bei der Migros",
+      "parent_code": "BeSS_010409",
+      "image": {
+        "original": "https://image.migros.ch/original/06236c3034e60c4aad4ea6df2a6adf8f94ca50a3/kochgeschirr.jpg",
+        "stack": "https://image.migros.ch/{stack}/06236c3034e60c4aad4ea6df2a6adf8f94ca50a3/kochgeschirr.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010409",
+      "name": "Küche",
+      "slug": "supermarkt/haushalt-reinigung/kueche",
+      "visible": true,
+      "title": "Artikel für die Küche aus Ihrer Migros – gut & günstig!",
+      "parent_code": "BeSS_0104",
+      "image": {
+        "original": "https://image.migros.ch/original/348db2a4f0a106c51fead471f0e04513c18d7249/kueche.jpg",
+        "stack": "https://image.migros.ch/{stack}/348db2a4f0a106c51fead471f0e04513c18d7249/kueche.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0104",
+      "name": "Haushalt & Reinigung",
+      "slug": "supermarkt/haushalt-reinigung",
+      "visible": true,
+      "title": "Reinigung mit der Migros – Reiniger für Haushalt und Garten",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png",
+        "stack": "https://image.migros.ch/{stack}/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "online_relevant": [
+    {
+      "code": "MGB",
+      "name": "Migros Genossenschafts-Bund"
+    }
+  ],
+  "galaxus_relevant": false,
+  "links": {
+    "migros_ch": {
+      "url": "https://www.migros.ch/en/product/703309000000?context=instore",
+      "name": "In-store assortment",
+      "canonical": "https://www.migros.ch/en/product/703309000000?context=instore",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/703309000000",
+      "name": "Migipedia",
+      "canonical": "https://www.migros.ch/en/product/703309000000?context=instore",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "warranty_months": 24,
+  "receipt_text": "Prima Kasserolle 18 cm",
+  "package": {
+    "content": 1,
+    "content_unit_code": "st",
+    "content_unit": "Stück",
+    "net_weight": 1.075,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "brutto_weight": 1.128,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 6.686,
+    "brutto_volume_unit_code": "cdm",
+    "height": 11,
+    "length": 30.7,
+    "width": 19.8,
+    "unit_dimension": "cm",
+    "price_comparison_content": 1,
+    "size": "1 Stk."
+  },
+  "package_information": {
+    "cu": {
+      "gtins": [
+        "7613433584677"
+      ],
+      "brutto_weight": 1.128,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 6.686,
+      "brutto_volume_unit_code": "cdm",
+      "height": 11,
+      "length": 30.7,
+      "width": 19.8,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "tuv": {
+      "brutto_weight": 2.65,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 16.926,
+      "brutto_volume_unit_code": "cdm",
+      "height": 13,
+      "length": 42,
+      "width": 31,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 2
+    },
+    "tue": {
+      "brutto_weight": 2.6,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 16.469,
+      "brutto_volume_unit_code": "cdm",
+      "height": 12.5,
+      "length": 42.5,
+      "width": 31,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 2
+    },
+    "lu": {
+      "number_of_base_units": 96
+    },
+    "lge": {
+      "number_of_base_units": 32
+    }
+  },
+  "vat": {
+    "id": 1,
+    "percentage": 7.7
+  },
+  "price": {
+    "valid_from": "2021-03-12T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 19.95,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "1 Stk."
+    },
+    "base": {
+      "price": 19.95,
+      "quantity": 1,
+      "unit": "st"
+    }
+  },
+  "features": [
+    {
+      "label_code": "miso_durchmesser",
+      "label": "Diameter",
+      "values": [
+        {
+          "value_code": "NUMERIC_18",
+          "value": "18 cm",
+          "numeric_value": 18
+        }
+      ],
+      "category_code": "MISO_CLA_Kueche_Haushalt_Alle",
+      "top_fact": false,
+      "unit_code": "cm",
+      "unit": "Zentimeter",
+      "unit_symbol": "cm",
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "miso_volumen",
+      "label": "Volume",
+      "values": [
+        {
+          "value_code": "NUMERIC_1.5",
+          "value": "1.5 l",
+          "numeric_value": 1.5
+        }
+      ],
+      "category_code": "MISO_CLA_Kueche_Haushalt_Alle",
+      "top_fact": false,
+      "unit_code": "l",
+      "unit": "Liter",
+      "unit_symbol": "l",
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "miso_material",
+      "label": "Material",
+      "values": [
+        {
+          "value_code": "MISO_material_chrom_nickel_stahl_18_8",
+          "value": "Chromnickelstahl 18/8"
+        }
+      ],
+      "category_code": "MISO_CLA_Kueche_Haushalt_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "miso_farbe",
+      "label": "Color",
+      "values": [
+        {
+          "value_code": "MISO_farbe_chrom",
+          "value": "chrom"
+        }
+      ],
+      "category_code": "MISO_CLA_Kueche_Haushalt_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "miso_fuer_lebensmittel_geeignet",
+      "label": "suitable for food products",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Yes",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MISO_CLA_Kueche_Haushalt_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "miso_backofenfest",
+      "label": "Ovenproof",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Yes",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MISO_CLA_Kueche_Haushalt_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "miso_spuelmaschinentauglich",
+      "label": "Dishwasher-safe",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Yes",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MISO_CLA_Kueche_Haushalt_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "miso_maxtemperaturbestaendigkeitimofen",
+      "label": "Max. temperature resistance in oven",
+      "values": [
+        {
+          "value_code": "NUMERIC_180",
+          "value": "180 °C",
+          "numeric_value": 180
+        }
+      ],
+      "category_code": "MISO_CLA_Kueche_Haushalt_Alle",
+      "top_fact": false,
+      "unit_code": "grad_celsius",
+      "unit": "Grad Celsius",
+      "unit_symbol": "°C",
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "miso_mess_skalierung",
+      "label": "Measurement scale",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Yes",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MISO_CLA_Kueche_Haushalt_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "miso_geeignet_fuer",
+      "label": "Suitable for",
+      "values": [
+        {
+          "value_code": "MISO_geeignet_fuer_gasherd",
+          "value": "Gasherd"
+        },
+        {
+          "value_code": "MISO_geeignet_fuer_ceranherd",
+          "value": "Ceranherd"
+        },
+        {
+          "value_code": "MISO_geeignet_fuer_elektroherd",
+          "value": "Elektroherd"
+        },
+        {
+          "value_code": "MISO_geeignet_fuer_induktionsherd",
+          "value": "Induktionsherd"
+        }
+      ],
+      "category_code": "MISO_CLA_Kochgeschirr_Kueche_Haushalt_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "miso_inklusivedeckel",
+      "label": "Includes cover",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Yes",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MISO_CLA_Kochgeschirr_Kueche_Haushalt_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/47dd7e1c8733b35a5cfca5ec841fdc696c462851/prima-pot-with-lid-18-cm-low.jpg",
+    "stack": "https://image.migros.ch/{stack}/47dd7e1c8733b35a5cfca5ec841fdc696c462851/prima-pot-with-lid-18-cm-low.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/47bc0d11d31f785e1e39d2e7def955c476892b00/prima-pot-with-lid-18-cm-low.png",
+    "stack": "https://image.migros.ch/{stack}/47bc0d11d31f785e1e39d2e7def955c476892b00/prima-pot-with-lid-18-cm-low.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+      "values": [
+        {
+          "value_code": "55",
+          "value": "Versandart Paket"
+        }
+      ],
+      "category_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LOGISTIC_CLASS",
+      "values": [
+        {
+          "value_code": "1",
+          "value": "Lager"
+        }
+      ],
+      "category_code": "MAPI_LOGISTIC_CLASS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Standard item"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "HART"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUSTOMS_POSITION",
+      "values": [
+        {
+          "value": "73239300000"
+        }
+      ],
+      "category_code": "MAPI_CUSTOMS_POSITION",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RISK_CLASS",
+      "values": [
+        {
+          "value_code": "2",
+          "value": "2 (medium)"
+        }
+      ],
+      "category_code": "MAPI_RISK_CLASS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_QUALITY_CHECK",
+      "values": [
+        {
+          "value_code": "00",
+          "value": "No Quality Control"
+        }
+      ],
+      "category_code": "MAPI_QUALITY_CHECK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_KUBE_TUKA",
+      "values": [
+        {
+          "value_code": "BLANK",
+          "value": "KUBE und TUKA nicht zugelassen"
+        }
+      ],
+      "category_code": "MAPI_KUBE_TUKA",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HART",
+          "value": "Hartwaren Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "H",
+          "value": "Hartwaren"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "50914",
+          "value": "STIEL-/KASSEROLLEN"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_EXPORTABLE",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Yes",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MAPI_EXPORTABLE",
+      "top_fact": false
+    }
+  ],
+  "recipe_ingredient_ids": [
+    "10000"
+  ],
+  "regional_availability": {
+    "gmaa": {
+      "probability": 0
+    },
+    "gmbs": {
+      "probability": 5
+    },
+    "gmge": {
+      "probability": 0
+    },
+    "gmlu": {
+      "probability": 2
+    },
+    "gmnf": {
+      "probability": 0
+    },
+    "gmos": {
+      "probability": 2
+    },
+    "gmti": {
+      "probability": 3
+    },
+    "gmvd": {
+      "probability": 0
+    },
+    "gmvs": {
+      "probability": 11
+    },
+    "gmzh": {
+      "probability": 1
+    }
+  },
+  "ratings": {
+    "count_all": 9,
+    "average_all": 4.666666666667
+  },
+  "quantity_on_stock": 9726,
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "updated_at": "2023-08-17T07:44:11+0200",
+  "sap_created_at": "2020-08-07T00:00:00+0200",
+  "online_shop_relevant": true,
+  "base_unit": "CU",
+  "origins": {
+    "producing_country": "China"
+  },
+  "views": [
+    "all",
+    "browse",
+    "browseallretailers"
+  ]
+}

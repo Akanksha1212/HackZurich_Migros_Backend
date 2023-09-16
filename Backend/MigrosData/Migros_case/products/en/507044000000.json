@@ -1,0 +1,664 @@
+{
+  "id": "507044000000",
+  "language": "en",
+  "name": "HYGO TISSUES 30X",
+  "names": {
+    "short_name": "HYGO TISSUES 30X"
+  },
+  "slug": "hygo-tissues-30x",
+  "slugs": {
+    "de": "wc-reinigungstuecher-power-tissues",
+    "fr": "wc-power-tissues",
+    "it": "wc-power-tissues",
+    "en": "hygo-tissues-30x"
+  },
+  "type": "00",
+  "boss_number": "150126801140",
+  "description": {
+    "text": "f&uuml;r die hygienische, schnelle WC Reinigung",
+    "source": "PEX"
+  },
+  "data_source": "SAP-X11",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03",
+    "distribution_center": [
+      {
+        "center_id": "1000",
+        "center_name": "Migros Verteilzentrum Suhr",
+        "status_description": "product.status.distribution_center."
+      },
+      {
+        "center_id": "1001",
+        "center_name": "Migros Verteilzentrum Neuendorf",
+        "status_description": "product.status.distribution_center."
+      }
+    ]
+  },
+  "tags": [
+    "source-pex",
+    "near-non-food",
+    "migipedia",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "5017044109083"
+  ],
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarket"
+  },
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "brand": {
+    "id": "085",
+    "name": "Hygo",
+    "slug": "hygo"
+  },
+  "categories": [
+    {
+      "code": "BeSS_0104010601",
+      "name": "WC",
+      "slug": "supermarkt/haushalt-reinigung/waschen-reinigen-pflege/reinigungsmittel/wc",
+      "visible": true,
+      "parent_code": "BeSS_01040106",
+      "image": {
+        "original": "https://image.migros.ch/original/bb4802bc85a3a59f4607fe26e182ad2ec407b116/wc.jpg",
+        "stack": "https://image.migros.ch/{stack}/bb4802bc85a3a59f4607fe26e182ad2ec407b116/wc.jpg"
+      },
+      "level": 5
+    },
+    {
+      "code": "BeSS_01040106",
+      "name": "Reinigungsmittel",
+      "slug": "supermarkt/haushalt-reinigung/waschen-reinigen-pflege/reinigungsmittel",
+      "visible": true,
+      "title": "Putzmittel bei der Migros: Und alles glänzt!",
+      "parent_code": "BeSS_010401",
+      "image": {
+        "original": "https://image.migros.ch/original/8ae8cde85bbe4352f65f30c350b6bc7562eae30e/reinigungsmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/8ae8cde85bbe4352f65f30c350b6bc7562eae30e/reinigungsmittel.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010401",
+      "name": "Waschen, Reinigen & Pflege",
+      "slug": "supermarkt/haushalt-reinigung/waschen-reinigen-pflege",
+      "visible": true,
+      "parent_code": "BeSS_0104",
+      "image": {
+        "original": "https://image.migros.ch/original/37d8921589f88cd40b1c580b957a6a414e1fe1d1/waschen-reinigen-pflege.jpg",
+        "stack": "https://image.migros.ch/{stack}/37d8921589f88cd40b1c580b957a6a414e1fe1d1/waschen-reinigen-pflege.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0104",
+      "name": "Haushalt & Reinigung",
+      "slug": "supermarkt/haushalt-reinigung",
+      "visible": true,
+      "title": "Reinigung mit der Migros – Reiniger für Haushalt und Garten",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png",
+        "stack": "https://image.migros.ch/{stack}/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "online_relevant": [
+    {
+      "code": "MGB",
+      "name": "Migros Genossenschafts-Bund"
+    },
+    {
+      "code": "MO",
+      "name": "Migros Online"
+    }
+  ],
+  "galaxus_relevant": false,
+  "links": {
+    "migros_ch": {
+      "url": "https://www.migros.ch/en/product/507044000000?context=instore",
+      "name": "In-store assortment",
+      "canonical": "https://www.migros.ch/en/product/507044000000?context=instore",
+      "type": "info",
+      "purchasable": false
+    },
+    "migros_online": {
+      "url": "https://www.migros.ch/en/product/507044000000?context=online",
+      "mo_product_id": "218237",
+      "name": "Online-shop assortment",
+      "canonical": "https://www.migros.ch/en/product/507044000000?context=instore",
+      "type": "shop",
+      "purchasable": true,
+      "one_catalog_id": 100036521
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/507044000000",
+      "name": "Migipedia",
+      "canonical": "https://www.migros.ch/en/product/507044000000?context=instore",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "has_safety_sheet": true,
+  "m_check2": {
+    "carbon_footprint": {
+      "image": {
+        "original": "https://image.migros.ch/original/3647ce79a496ca6d707e072f7e3f61ecc313e54b.svg",
+        "stack": "https://image.migros.ch/{stack}/3647ce79a496ca6d707e072f7e3f61ecc313e54b.svg"
+      },
+      "ground_and_sea_cargo": {
+        "kg_co2": 3.37,
+        "kg_co2_range": "2 - 4.7 kg CO₂eq / kg",
+        "co2_in_car_km": 18,
+        "rating": 3,
+        "production_in_percent": 92,
+        "packaging_in_percent": 5,
+        "transport_in_percent": 3
+      }
+    }
+  },
+  "receipt_text": "Hygo Tissues",
+  "package": {
+    "content": 30,
+    "content_unit_code": "st",
+    "content_unit": "Stück",
+    "net_weight": 0.191,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "brutto_weight": 0.197,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 0.715,
+    "brutto_volume_unit_code": "cdm",
+    "height": 2.6,
+    "length": 25,
+    "width": 11,
+    "unit_dimension": "cm",
+    "price_comparison_content": 1,
+    "size": "30 Stk."
+  },
+  "package_information": {
+    "tu": {
+      "gtins": [
+        "5017044109755",
+        "5017044109090"
+      ],
+      "brutto_weight": 2.65,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 9.384,
+      "brutto_volume_unit_code": "cdm",
+      "height": 17,
+      "length": 24,
+      "width": 23,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 12
+    },
+    "cu": {
+      "gtins": [
+        "5017044109083"
+      ],
+      "brutto_weight": 0.197,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.715,
+      "brutto_volume_unit_code": "cdm",
+      "height": 2.6,
+      "length": 25,
+      "width": 11,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "lu": {
+      "height": 120,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 816
+    },
+    "lge": {
+      "number_of_base_units": 1
+    },
+    "kar": {
+      "number_of_base_units": 1
+    }
+  },
+  "vat": {
+    "id": 1,
+    "percentage": 7.7
+  },
+  "price": {
+    "valid_from": "2023-08-15T00:00:00+0200",
+    "valid_to": "2023-08-21T23:59:59+0200",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 2.8,
+      "original_price": 3.95,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "30 Stk."
+    },
+    "discount": {
+      "id": "1914836",
+      "region": "national",
+      "start_date": "2023-08-15T00:00:00+0200",
+      "end_date": "2023-08-21T23:59:59+0200",
+      "publication_date": "2023-08-13T00:00:00+0200",
+      "discount_amount": "30%",
+      "discount_regions": [
+        "national"
+      ],
+      "reference_product_id": "507030700000",
+      "discount_type": "aktion",
+      "discount_type_id": "005",
+      "discount_type_label": "GRAB Angebot CHF beim Kauf ab X Stueck",
+      "organisation": "09",
+      "cooperative": "mgb",
+      "conditions": {
+        "minimum_pieces": {
+          "value": 2,
+          "prefix": "ab"
+        }
+      },
+      "reduction": {
+        "relative": false,
+        "amount": 30
+      },
+      "location_planning_type": "01",
+      "reduction_type_id": "01",
+      "special_advertisement": false,
+      "description": "Gesamtes Hygo WC Sortiment",
+      "discount_hint": "<strong style=\"color:#ff6600;\">ab 2 </strong><strong style=\"color:#ff6600;\">Stück, </strong>z.B. WC Einhänger Color Pearls Ocean, pro Stück, <strong>2.70 </strong>statt 3.80, Angebot gilt nur vom 15.8. bis 21.8.2023, solange Vorrat.",
+      "high_performer": false,
+      "collective_discount": true,
+      "instead_of": "statt",
+      "price": 2.8,
+      "original_price": 3.95,
+      "disclaimer": "Gültigkeit siehe Angebots-Detailseite.\r\nBei allen Angeboten sind M-Budget und bereits reduzierte Artikel ausgenommen.\r\nBei Aktionen können bei der Verrechnung auf dem Kassabon Rundungsdifferenzen zu Gunsten des Kunden entstehen.",
+      "source": "PriceRepository",
+      "boss_number": "150126801115",
+      "discount_role_id": "2000000002",
+      "discount_role_label": "M: Wochenangebot Typ I",
+      "last_imported": "2023-08-11T07:30:04+0200"
+    },
+    "discount_hint": "<strong style=\"color:#ff6600;\">ab 2 </strong><strong style=\"color:#ff6600;\">Stück, </strong>Angebot gilt nur vom 15.8. bis 21.8.2023, solange Vorrat."
+  },
+  "features": [
+    {
+      "label_code": "miso_anwendbarkeit_beschaffenheit_form",
+      "label": "Form",
+      "values": [
+        {
+          "value_code": "MISO_tuch",
+          "value": "Tuch"
+        }
+      ],
+      "category_code": "MISO_CLA_Reinigungsmittel_WaschenPapierReinigen_Haushalt_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "miso_geeignet_fuer",
+      "label": "Suitable for",
+      "values": [
+        {
+          "value_code": "MISO_alle_abwaschbaren_oberflaechen",
+          "value": "alle abwaschbaren Oberflächen"
+        },
+        {
+          "value_code": "MISO_hygienische_reinigung",
+          "value": "Hygienische Reinigung"
+        }
+      ],
+      "category_code": "MISO_CLA_Reinigungsmittel_WaschenPapierReinigen_Haushalt_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "CHEMICALS_WARNING",
+      "label": "Warning",
+      "values": [
+        {
+          "value": "Always read label and product information before use."
+        }
+      ],
+      "category_code": "CHEMICALS_WARNING",
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/3fdac5079cbfc049970490c88fb2f2e9508e6295/hygo-tissues-30x.jpg",
+    "stack": "https://image.migros.ch/{stack}/3fdac5079cbfc049970490c88fb2f2e9508e6295/hygo-tissues-30x.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/29e844c1adf61a364d8f0029cadc067d83a59c4c/hygo-tissues-30x.png",
+    "stack": "https://image.migros.ch/{stack}/29e844c1adf61a364d8f0029cadc067d83a59c4c/hygo-tissues-30x.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "miso_amigos_anzeige",
+      "label": "Display aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "ja"
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "miso_amigos_sortierung",
+      "label": "aMigos sorting",
+      "values": [
+        {
+          "value": "650"
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Standard item"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "ZHKS"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUSTOMS_POSITION",
+      "values": [
+        {
+          "value": "34011100000"
+        }
+      ],
+      "category_code": "MAPI_CUSTOMS_POSITION",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RISK_CLASS",
+      "values": [
+        {
+          "value_code": "2",
+          "value": "2 (medium)"
+        }
+      ],
+      "category_code": "MAPI_RISK_CLASS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_QUALITY_CHECK",
+      "values": [
+        {
+          "value_code": "00",
+          "value": "No Quality Control"
+        }
+      ],
+      "category_code": "MAPI_QUALITY_CHECK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZHKS",
+          "value": "HKS Standardartikel"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "H",
+          "value": "HKS Standard"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "50307",
+          "value": "WC"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LIFECYCLE",
+      "values": [
+        {
+          "value_code": "D",
+          "value": "Detailhandelsartikel"
+        }
+      ],
+      "category_code": "MAPI_LIFECYCLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_EXPORTABLE",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Yes",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MAPI_EXPORTABLE",
+      "top_fact": false
+    }
+  ],
+  "chemicals_declaration": {
+    "release_date": "2017-04-30T20:13:41+0200",
+    "supplier_id": "0010005502",
+    "supplier_description": "Nice-Pak International Limit",
+    "eu_hazard_statements": [
+      {
+        "code": "EUH208",
+        "label": "Contains Benzisothiazolinone, Methylisothiazolinone. May produce an allergic reaction."
+      }
+    ],
+    "preservability_months": 30,
+    "cpid_number": "340620-36",
+    "biozid_number_ch": "",
+    "chem_voc_concentration": 1.413,
+    "poison_cabinet": false,
+    "cleaning_agents": [
+      {
+        "concentration": {
+          "code": "RMK05",
+          "label": "less than 5%"
+        },
+        "group": {
+          "code": "RMS04",
+          "label": "nonionic surfactants"
+        },
+        "name": "Alkyl Polygylcoside"
+      }
+    ],
+    "extra_cleaning_agents": [
+      {
+        "group": {
+          "code": "RMW02",
+          "label": "preservatives"
+        },
+        "name": "Methylisothiazolinone and Benzisothiazolinone"
+      },
+      {
+        "group": {
+          "code": "RMW04",
+          "label": "fragrances"
+        },
+        "name": "Perfume - Domowipe 138380"
+      }
+    ]
+  },
+  "regional_availability": {
+    "gmaa": {
+      "probability": 96
+    },
+    "gmbs": {
+      "probability": 100
+    },
+    "gmge": {
+      "probability": 87
+    },
+    "gmlu": {
+      "probability": 97
+    },
+    "gmnf": {
+      "probability": 80
+    },
+    "gmos": {
+      "probability": 95
+    },
+    "gmti": {
+      "probability": 97
+    },
+    "gmvd": {
+      "probability": 95
+    },
+    "gmvs": {
+      "probability": 100
+    },
+    "gmzh": {
+      "probability": 89
+    }
+  },
+  "ratings": {
+    "count_all": 42,
+    "average_all": 2.974358974359
+  },
+  "reindex_date": "2023-08-21T23:59:59+0200",
+  "updated_at": "2023-08-17T11:59:33+0200",
+  "sap_created_at": "2009-08-27T00:00:00+0200",
+  "base_unit": "CU",
+  "views": [
+    "all",
+    "browse",
+    "browseallretailers"
+  ]
+}

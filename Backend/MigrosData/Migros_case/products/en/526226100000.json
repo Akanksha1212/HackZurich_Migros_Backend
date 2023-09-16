@@ -1,0 +1,581 @@
+{
+  "id": "526226100000",
+  "language": "en",
+  "name": "Feuchttücher",
+  "names": {
+    "short_name": "Feuchttücher"
+  },
+  "slug": "feuchttuecher",
+  "slugs": {
+    "de": "feuchttuecher-526226100000",
+    "fr": "lingettes-impregnees",
+    "it": "salviettine-umidificate",
+    "en": "feuchttuecher"
+  },
+  "type": "00",
+  "boss_number": "150126813010",
+  "description": {
+    "text": "Duftiger Spass und sanfte Reinigung f&uuml;r einen sauberen Kinderpopo nach der Toilette.",
+    "source": "PEX"
+  },
+  "data_source": "SAP-X11",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03",
+    "distribution_center": [
+      {
+        "center_id": "1001",
+        "center_name": "Migros Verteilzentrum Neuendorf",
+        "status_description": "product.status.distribution_center."
+      }
+    ]
+  },
+  "tags": [
+    "source-pex",
+    "near-non-food",
+    "migipedia",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613269273721"
+  ],
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarket"
+  },
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "brand": {
+    "id": "173",
+    "name": "Soft",
+    "slug": "soft"
+  },
+  "labels": [
+    {
+      "id": "L24",
+      "name": "LILIBIGGS",
+      "slug": "lilibiggs",
+      "links": {
+        "homepage": {
+          "url": "http://www.lilibiggs.ch/?language=de",
+          "name": "Homepage",
+          "type": "info",
+          "purchasable": false
+        }
+      },
+      "image": {
+        "original": "https://image.migros.ch/original/a68b4be17cd06e9f0f86c4a9918596456aadca48/lilibiggs.jpg",
+        "stack": "https://image.migros.ch/{stack}/a68b4be17cd06e9f0f86c4a9918596456aadca48/lilibiggs.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_01040202",
+      "name": "Toilettenpapier",
+      "slug": "supermarkt/haushalt-reinigung/haushaltpapier-toilettenpapier/toilettenpapier",
+      "visible": true,
+      "title": "Eine saubere Sache: Toilettenpapier bei der Migros",
+      "parent_code": "BeSS_010402",
+      "image": {
+        "original": "https://image.migros.ch/original/bfa91b30d0179a0c9425249a956fbc0563271acd/toilettenpapier.jpg",
+        "stack": "https://image.migros.ch/{stack}/bfa91b30d0179a0c9425249a956fbc0563271acd/toilettenpapier.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010402",
+      "name": "Haushaltpapier & Toilettenpapier",
+      "slug": "supermarkt/haushalt-reinigung/haushaltpapier-toilettenpapier",
+      "visible": true,
+      "parent_code": "BeSS_0104",
+      "image": {
+        "original": "https://image.migros.ch/original/97a132edb8daff468e6a8cc9700b9d9b80ee4bfb/haushaltpapier-toilettenpapier.jpg",
+        "stack": "https://image.migros.ch/{stack}/97a132edb8daff468e6a8cc9700b9d9b80ee4bfb/haushaltpapier-toilettenpapier.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0104",
+      "name": "Haushalt & Reinigung",
+      "slug": "supermarkt/haushalt-reinigung",
+      "visible": true,
+      "title": "Reinigung mit der Migros – Reiniger für Haushalt und Garten",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png",
+        "stack": "https://image.migros.ch/{stack}/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "online_relevant": [
+    {
+      "code": "MGB",
+      "name": "Migros Genossenschafts-Bund"
+    },
+    {
+      "code": "MO",
+      "name": "Migros Online"
+    }
+  ],
+  "galaxus_relevant": false,
+  "links": {
+    "migros_ch": {
+      "url": "https://www.migros.ch/en/product/526226100000?context=instore",
+      "name": "In-store assortment",
+      "canonical": "https://www.migros.ch/en/product/526226100000?context=instore",
+      "type": "info",
+      "purchasable": false
+    },
+    "migros_online": {
+      "url": "https://www.migros.ch/en/product/526226100000?context=online",
+      "mo_product_id": "220127",
+      "name": "Online-shop assortment",
+      "canonical": "https://www.migros.ch/en/product/526226100000?context=instore",
+      "type": "shop",
+      "purchasable": true,
+      "one_catalog_id": 100037942
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/526226100000",
+      "name": "Migipedia",
+      "canonical": "https://www.migros.ch/en/product/526226100000?context=instore",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "m_check2": {
+    "carbon_footprint": {
+      "image": {
+        "original": "https://image.migros.ch/original/0a2093a1718156b317e9aac46d5c2589cfde38b7.svg",
+        "stack": "https://image.migros.ch/{stack}/0a2093a1718156b317e9aac46d5c2589cfde38b7.svg"
+      },
+      "ground_and_sea_cargo": {
+        "kg_co2": 1.72,
+        "kg_co2_range": "1 - 1.9 kg CO₂eq / kg",
+        "co2_in_car_km": 9,
+        "rating": 4,
+        "production_in_percent": 84,
+        "packaging_in_percent": 10,
+        "transport_in_percent": 6
+      }
+    }
+  },
+  "receipt_text": "Lilibiggs Softly",
+  "package": {
+    "content": 70,
+    "content_unit_code": "st",
+    "content_unit": "Stück",
+    "net_weight": 0.24,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "brutto_weight": 0.254,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 0.648,
+    "brutto_volume_unit_code": "cdm",
+    "height": 5.4,
+    "length": 12.5,
+    "width": 9.6,
+    "unit_dimension": "cm",
+    "price_comparison_content": 1,
+    "size": "70 Stk."
+  },
+  "package_information": {
+    "tu": {
+      "gtins": [
+        "7613312078167",
+        "7613269273738"
+      ],
+      "brutto_weight": 3.65,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 11.655,
+      "brutto_volume_unit_code": "cdm",
+      "height": 21,
+      "length": 37,
+      "width": 15,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 14
+    },
+    "cu": {
+      "gtins": [
+        "7613269273721"
+      ],
+      "brutto_weight": 0.254,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.648,
+      "brutto_volume_unit_code": "cdm",
+      "height": 5.4,
+      "length": 12.5,
+      "width": 9.6,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "lu": {
+      "brutto_weight_unit_code": "kg",
+      "number_of_base_units": 1470
+    },
+    "lge": {
+      "number_of_base_units": 210
+    },
+    "kar": {
+      "number_of_base_units": 14
+    }
+  },
+  "vat": {
+    "id": 1,
+    "percentage": 7.7
+  },
+  "price": {
+    "valid_from": "2018-01-01T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 2.1,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "70 Stk."
+    },
+    "base": {
+      "price": 0.03,
+      "quantity": 1,
+      "unit": "st"
+    }
+  },
+  "features": [
+    {
+      "label_code": "miso_anzahl_blaetter_pro_rolle",
+      "label": "Number of sheets/roll",
+      "values": [
+        {
+          "value_code": "NUMERIC_70",
+          "value": "70 Blatt",
+          "numeric_value": 70
+        }
+      ],
+      "category_code": "MISO_CLA_ToilettenHaushaltpapier_WaschenPapierReinigen_Haushalt_Alle",
+      "top_fact": false,
+      "unit_code": "blatt",
+      "unit": "Blatt",
+      "unit_symbol": "Blatt",
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "miso_produktmehrwert",
+      "label": "Product added value",
+      "values": [
+        {
+          "value_code": "MISO_hautvertraeglichkeit_dermatologisch_bestaetigt",
+          "value": "Hautverträglichkeit dermatologisch bestätigt"
+        }
+      ],
+      "category_code": "MISO_CLA_ToilettenHaushaltpapier_WaschenPapierReinigen_Haushalt_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "miso_spezielle_eigenschaften",
+      "label": "Special features",
+      "values": [
+        {
+          "value": "Ohne Alkohol, hautfreundlicher pH-Wert"
+        }
+      ],
+      "category_code": "MISO_CLA_WaschenPapierReinigen_Haushalt_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/df2407b05a74e463bab494fe174a6d01d0313a26/feuchttuecher.jpg",
+    "stack": "https://image.migros.ch/{stack}/df2407b05a74e463bab494fe174a6d01d0313a26/feuchttuecher.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/633a463c4adeb8ec19d9d5c597ff3f662dac25e1/feuchttuecher.png",
+    "stack": "https://image.migros.ch/{stack}/633a463c4adeb8ec19d9d5c597ff3f662dac25e1/feuchttuecher.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "miso_amigos_anzeige",
+      "label": "Display aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "ja"
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "miso_amigos_sortierung",
+      "label": "aMigos sorting",
+      "values": [
+        {
+          "value": "570"
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Standard item"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "ZHKS"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUSTOMS_POSITION",
+      "values": [
+        {
+          "value": "34011100000"
+        }
+      ],
+      "category_code": "MAPI_CUSTOMS_POSITION",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RISK_CLASS",
+      "values": [
+        {
+          "value_code": "2",
+          "value": "2 (medium)"
+        }
+      ],
+      "category_code": "MAPI_RISK_CLASS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_QUALITY_CHECK",
+      "values": [
+        {
+          "value_code": "00",
+          "value": "No Quality Control"
+        }
+      ],
+      "category_code": "MAPI_QUALITY_CHECK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZHKS",
+          "value": "HKS Standardartikel"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "H",
+          "value": "HKS Standard"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "50318",
+          "value": "MARKE"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LIFECYCLE",
+      "values": [
+        {
+          "value_code": "D",
+          "value": "Detailhandelsartikel"
+        }
+      ],
+      "category_code": "MAPI_LIFECYCLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_EXPORTABLE",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Yes",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MAPI_EXPORTABLE",
+      "top_fact": false
+    }
+  ],
+  "regional_availability": {
+    "gmaa": {
+      "probability": 98
+    },
+    "gmbs": {
+      "probability": 98
+    },
+    "gmge": {
+      "probability": 84
+    },
+    "gmlu": {
+      "probability": 97
+    },
+    "gmnf": {
+      "probability": 98
+    },
+    "gmos": {
+      "probability": 98
+    },
+    "gmti": {
+      "probability": 100
+    },
+    "gmvd": {
+      "probability": 100
+    },
+    "gmvs": {
+      "probability": 100
+    },
+    "gmzh": {
+      "probability": 93
+    }
+  },
+  "ratings": {
+    "count_all": 31,
+    "average_all": 4.483870967742
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "updated_at": "2023-08-17T12:03:44+0200",
+  "sap_created_at": "2013-01-11T00:00:00+0100",
+  "base_unit": "CU",
+  "views": [
+    "all",
+    "browse",
+    "browseallretailers"
+  ]
+}

@@ -1,0 +1,563 @@
+{
+  "id": "743420900000",
+  "language": "en",
+  "name": "DJECO CARD GAMES ASS.",
+  "names": {
+    "short_name": "DJECO CARD GAMES ASS."
+  },
+  "slug": "djeco-card-games-ass",
+  "slugs": {
+    "de": "kartenspiel-djeco",
+    "fr": "jeu-de-cartes-djeco",
+    "it": "gioco-di-carte-djeco",
+    "en": "djeco-card-games-ass"
+  },
+  "type": "00",
+  "product_type": "Gesellschaftsspiel",
+  "boss_number": "130861450505",
+  "data_source": "SAP-X12",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03"
+  },
+  "tags": [
+    "source-pex",
+    "migipedia",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "3070900051195",
+    "3070900051041",
+    "3070900051058",
+    "3070900051089",
+    "3070900051133",
+    "3070900051171",
+    "3070900051263"
+  ],
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarket"
+  },
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": true,
+      "exclude_cross_channel": []
+    }
+  },
+  "categories": [
+    {
+      "code": "BeSS_01071205",
+      "name": "Spiele & Puzzle",
+      "slug": "supermarkt/baby-kinder/spielwaren/spiele-puzzle",
+      "visible": true,
+      "title": "Günstige Spiele und Puzzles bei der Migros",
+      "parent_code": "BeSS_010712",
+      "image": {
+        "original": "https://image.migros.ch/original/132a266944d13fabe52bbb9bbf4878ecb79076a2/spiele-puzzle.jpg",
+        "stack": "https://image.migros.ch/{stack}/132a266944d13fabe52bbb9bbf4878ecb79076a2/spiele-puzzle.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010712",
+      "name": "Spielwaren",
+      "slug": "supermarkt/baby-kinder/spielwaren",
+      "visible": true,
+      "title": "Daran haben Kinder Freude: Spielwaren aus der Migros",
+      "parent_code": "BeSS_0107",
+      "image": {
+        "original": "https://image.migros.ch/original/44a2aeebd38216c32a1d9bbfc94664e575d085c1/spielwaren.jpg",
+        "stack": "https://image.migros.ch/{stack}/44a2aeebd38216c32a1d9bbfc94664e575d085c1/spielwaren.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0107",
+      "name": "Baby & Kinder",
+      "slug": "supermarkt/baby-kinder",
+      "visible": true,
+      "title": "Babyartikel: Alles rund ums Baby in Ihrer Migros kaufen",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/dc6e5e45f414e657061e049a69de80177f40ca98/baby-kinder.jpg",
+        "stack": "https://image.migros.ch/{stack}/dc6e5e45f414e657061e049a69de80177f40ca98/baby-kinder.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "MEL_SHOP_CAT_SpielePuzzle_Spielwaren_GamingSpielwaren",
+        "name": "Spiele & Puzzle",
+        "slug": "melectronics/gaming-spielwaren/spielwaren/spiele-puzzle",
+        "visible": true,
+        "parent_code": "MEL_SHOP_CAT_Spielwaren_GamingSpielwaren",
+        "level": 4
+      },
+      {
+        "code": "MEL_SHOP_CAT_Spielwaren_GamingSpielwaren",
+        "name": "Spielwaren",
+        "slug": "melectronics/gaming-spielwaren/spielwaren",
+        "visible": true,
+        "parent_code": "MEL_SHOP_CAT_GamingSpielwaren",
+        "level": 3
+      },
+      {
+        "code": "MEL_SHOP_CAT_GamingSpielwaren",
+        "name": "Gaming & Spielwaren",
+        "slug": "melectronics/gaming-spielwaren",
+        "visible": true,
+        "parent_code": "BeSS_04",
+        "level": 2
+      },
+      {
+        "code": "BeSS_04",
+        "name": "melectronics",
+        "slug": "melectronics",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "links": {
+    "melectronics": {
+      "url": "https://www.melectronics.ch/de/p/743420900000/kartenspiel-djeco",
+      "name": "melectronics",
+      "canonical": "https://www.migros.ch/en/product/743420900000?context=instore",
+      "type": "shop",
+      "purchasable": false
+    },
+    "migros_ch": {
+      "url": "https://www.migros.ch/en/product/743420900000?context=instore",
+      "name": "In-store assortment",
+      "canonical": "https://www.migros.ch/en/product/743420900000?context=instore",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/743420900000",
+      "name": "Migipedia",
+      "canonical": "https://www.migros.ch/en/product/743420900000?context=instore",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "receipt_text": "KARTENSPIEL",
+  "package": {
+    "brutto_weight": 0.2,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 0.306,
+    "brutto_volume_unit_code": "cdm",
+    "height": 12,
+    "length": 3,
+    "width": 8.5,
+    "unit_dimension": "cm"
+  },
+  "package_information": {
+    "cu": {
+      "gtins": [
+        "3070900051041",
+        "3070900051058",
+        "3070900051089",
+        "3070900051133",
+        "3070900051171",
+        "3070900051195",
+        "3070900051263"
+      ],
+      "brutto_weight": 0.2,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.306,
+      "brutto_volume_unit_code": "cdm",
+      "height": 12,
+      "length": 3,
+      "width": 8.5,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "tuv": {
+      "number_of_base_units": 8
+    },
+    "tue": {
+      "number_of_base_units": 8
+    },
+    "lu": {
+      "number_of_base_units": 8
+    }
+  },
+  "vat": {
+    "id": 1,
+    "percentage": 7.7
+  },
+  "price": {
+    "valid_from": "2022-11-09T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 8.9,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false
+    }
+  },
+  "image": {
+    "original": "https://image.migros.ch/original/2460cf738a84d8b5659ce2427ef5f68acc3a9254/djeco-card-games-ass.jpg",
+    "stack": "https://image.migros.ch/{stack}/2460cf738a84d8b5659ce2427ef5f68acc3a9254/djeco-card-games-ass.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/0314bee513ac7113acc14c6a3de89c16c6febd2b/djeco-card-games-ass.png",
+    "stack": "https://image.migros.ch/{stack}/0314bee513ac7113acc14c6a3de89c16c6febd2b/djeco-card-games-ass.png"
+  },
+  "additional_images": [
+    {
+      "original": "https://image.migros.ch/original/7859f398aaee056bbc221a06630d9dce21c9b098.jpg",
+      "stack": "https://image.migros.ch/{stack}/7859f398aaee056bbc221a06630d9dce21c9b098.jpg"
+    },
+    {
+      "original": "https://image.migros.ch/original/915012e95d36d8d96b3cb7e554831d76737d8f5b.jpg",
+      "stack": "https://image.migros.ch/{stack}/915012e95d36d8d96b3cb7e554831d76737d8f5b.jpg"
+    },
+    {
+      "original": "https://image.migros.ch/original/bfda3087b71b9bd8fb0c4489b0be4b42220e1b4f.jpg",
+      "stack": "https://image.migros.ch/{stack}/bfda3087b71b9bd8fb0c4489b0be4b42220e1b4f.jpg"
+    },
+    {
+      "original": "https://image.migros.ch/original/2382417a2e2f291b78a2c62296116279f991ab93.jpg",
+      "stack": "https://image.migros.ch/{stack}/2382417a2e2f291b78a2c62296116279f991ab93.jpg"
+    },
+    {
+      "original": "https://image.migros.ch/original/400dc65ebc77bd9334aea2b89de23b48ac349c1c.jpg",
+      "stack": "https://image.migros.ch/{stack}/400dc65ebc77bd9334aea2b89de23b48ac349c1c.jpg"
+    },
+    {
+      "original": "https://image.migros.ch/original/084a07dbc91e27fbdbbc08db7d86345b56ceaac9.jpg",
+      "stack": "https://image.migros.ch/{stack}/084a07dbc91e27fbdbbc08db7d86345b56ceaac9.jpg"
+    }
+  ],
+  "internal_features": [
+    {
+      "label_code": "MAPI_RETURNABLE",
+      "label": "Return",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "true",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MAPI_RETURNABLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_MAX_ORDER_QUANTITY",
+      "values": [
+        {
+          "value_code": "NUMERIC_3",
+          "value": "3",
+          "numeric_value": 3
+        }
+      ],
+      "category_code": "MAPI_MAX_ORDER_QUANTITY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_EXCLUDE_FROM_COMPARISON_ENGINES",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "false",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_EXCLUDE_FROM_COMPARISON_ENGINES",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+      "values": [
+        {
+          "value_code": "55",
+          "value": "Versandart Paket"
+        }
+      ],
+      "category_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LOGISTIC_CLASS",
+      "values": [
+        {
+          "value_code": "7",
+          "value": "VMI"
+        }
+      ],
+      "category_code": "MAPI_LOGISTIC_CLASS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Standard item"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "HART"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRESENTATION",
+      "values": [
+        {
+          "value_code": "L",
+          "value": "liegend"
+        }
+      ],
+      "category_code": "MAPI_PRESENTATION",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RISK_CLASS",
+      "values": [
+        {
+          "value_code": "1",
+          "value": "1 (high)"
+        }
+      ],
+      "category_code": "MAPI_RISK_CLASS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_QUALITY_CHECK",
+      "values": [
+        {
+          "value_code": "00",
+          "value": "No Quality Control"
+        }
+      ],
+      "category_code": "MAPI_QUALITY_CHECK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_KUBE_TUKA",
+      "values": [
+        {
+          "value_code": "BLANK",
+          "value": "KUBE und TUKA nicht zugelassen"
+        }
+      ],
+      "category_code": "MAPI_KUBE_TUKA",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HART",
+          "value": "Hartwaren Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "H",
+          "value": "Hartwaren"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "61246",
+          "value": "KINDERSPIELE"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_EXPORTABLE",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_EXPORTABLE",
+      "top_fact": false
+    }
+  ],
+  "regional_availability": {
+    "gmaa": {
+      "probability": 90
+    },
+    "gmbs": {
+      "probability": 79
+    },
+    "gmge": {
+      "probability": 66
+    },
+    "gmlu": {
+      "probability": 59
+    },
+    "gmnf": {
+      "probability": 96
+    },
+    "gmos": {
+      "probability": 68
+    },
+    "gmti": {
+      "probability": 52
+    },
+    "gmvd": {
+      "probability": 88
+    },
+    "gmvs": {
+      "probability": 70
+    },
+    "gmzh": {
+      "probability": 70
+    }
+  },
+  "ratings": {
+    "count_all": 1,
+    "average_all": 5
+  },
+  "quantity_on_stock": 3136,
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "updated_at": "2023-08-17T07:47:08+0200",
+  "sap_created_at": "2022-11-09T00:00:00+0100",
+  "services": {
+    "logistics": [
+      {
+        "code": "MEL_LOGISTIK_FILIALE_POSTPAKET_GRATIS"
+      },
+      {
+        "code": "MEL_LOGISTIK_POSTPAKET_GRATIS"
+      }
+    ],
+    "others": []
+  },
+  "online_shop_relevant": true,
+  "base_unit": "CU",
+  "origins": {
+    "producing_country": "China"
+  },
+  "views": [
+    "all",
+    "browse",
+    "browseallretailers"
+  ]
+}

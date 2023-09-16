@@ -1,0 +1,509 @@
+{
+  "id": "109073000000",
+  "language": "en",
+  "name": "Felix Soup Fleisch",
+  "names": {
+    "short_name": "Felix Soup Fleisch"
+  },
+  "slug": "felix-soup-fleisch",
+  "slugs": {
+    "de": "felix-soup-fleisch",
+    "fr": "felix-soupe-viande",
+    "it": "felix-zuppa-carne",
+    "en": "felix-soup-fleisch"
+  },
+  "type": "00",
+  "boss_number": "011811632620",
+  "data_source": "SAP-X11",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03"
+  },
+  "tags": [
+    "source-pex",
+    "migipedia",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613036631952"
+  ],
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarket"
+  },
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "brand": {
+    "id": "2B3",
+    "name": "Felix",
+    "slug": "felix"
+  },
+  "categories": [
+    {
+      "code": "BeSS_01080201",
+      "name": "Nassfutter",
+      "slug": "supermarkt/tierwelt/katze/nassfutter",
+      "visible": true,
+      "title": "Nassfutter für Katzen jetzt bei der Migros",
+      "parent_code": "BeSS_010802",
+      "level": 4
+    },
+    {
+      "code": "BeSS_010802",
+      "name": "Katze",
+      "slug": "supermarkt/tierwelt/katze",
+      "visible": true,
+      "title": "Qualitätszubehör für Ihre Katze in Ihrer Migros kaufen",
+      "parent_code": "BeSS_0108",
+      "level": 3
+    },
+    {
+      "code": "BeSS_0108",
+      "name": "Tierwelt",
+      "slug": "supermarkt/tierwelt",
+      "visible": true,
+      "title": "Tierwelt bei der Migros: nur das Beste für Ihren Liebling",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c6a8b209b0929b2040fbe89bc5edcacf6e029598/tierwelt.jpg",
+        "stack": "https://image.migros.ch/{stack}/c6a8b209b0929b2040fbe89bc5edcacf6e029598/tierwelt.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "online_relevant": [
+    {
+      "code": "MGB",
+      "name": "Migros Genossenschafts-Bund"
+    },
+    {
+      "code": "MO",
+      "name": "Migros Online"
+    }
+  ],
+  "galaxus_relevant": true,
+  "links": {
+    "migros_ch": {
+      "url": "https://www.migros.ch/en/product/109073000000?context=instore",
+      "name": "In-store assortment",
+      "canonical": "https://www.migros.ch/en/product/109073000000?context=instore",
+      "type": "info",
+      "purchasable": false
+    },
+    "migros_online": {
+      "url": "https://www.migros.ch/en/product/109073000000?context=online",
+      "mo_product_id": "7561114",
+      "name": "Online-shop assortment",
+      "canonical": "https://www.migros.ch/en/product/109073000000?context=instore",
+      "type": "shop",
+      "purchasable": true,
+      "one_catalog_id": 100090390
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/109073000000",
+      "name": "Migipedia",
+      "canonical": "https://www.migros.ch/en/product/109073000000?context=instore",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "receipt_text": "Felix Soup Fleisch",
+  "package": {
+    "content": 288,
+    "content_unit_code": "g",
+    "content_unit": "Gramm",
+    "net_weight": 0.288,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "brutto_weight": 0.328,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 0.791,
+    "brutto_volume_unit_code": "cdm",
+    "height": 12.8,
+    "length": 7.1,
+    "width": 8.7,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "6x48g"
+  },
+  "package_information": {
+    "tu": {
+      "gtins": [
+        "7613036631969"
+      ],
+      "brutto_weight": 2.75,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 7.303,
+      "brutto_volume_unit_code": "cdm",
+      "height": 13.5,
+      "length": 29.4,
+      "width": 18.4,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 8
+    },
+    "cu": {
+      "gtins": [
+        "7613036631952"
+      ],
+      "brutto_weight": 0.328,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.791,
+      "brutto_volume_unit_code": "cdm",
+      "height": 12.8,
+      "length": 7.1,
+      "width": 8.7,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "lu": {
+      "brutto_weight": 377,
+      "brutto_weight_unit_code": "kg",
+      "length": 120,
+      "width": 80,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1024
+    }
+  },
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "price": {
+    "valid_from": "2023-08-15T00:00:00+0200",
+    "valid_to": "2023-08-21T23:59:59+0200",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 2.2,
+      "original_price": 3.1,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "6x48g"
+    },
+    "base": {
+      "price": 0.76,
+      "quantity": 100,
+      "unit": "G"
+    },
+    "discount": {
+      "id": "2019727",
+      "region": "national",
+      "start_date": "2023-08-15T00:00:00+0200",
+      "end_date": "2023-08-21T23:59:59+0200",
+      "publication_date": "2023-08-13T00:00:00+0200",
+      "discount_amount": "30%",
+      "discount_regions": [
+        "national"
+      ],
+      "reference_product_id": "109078300000",
+      "discount_type": "aktion",
+      "discount_type_id": "005",
+      "discount_type_label": "GRAB Angebot CHF beim Kauf ab X Stueck",
+      "organisation": "02",
+      "cooperative": "mgb",
+      "conditions": {
+        "minimum_pieces": {
+          "value": 2,
+          "prefix": "ab"
+        }
+      },
+      "reduction": {
+        "relative": false,
+        "amount": 30
+      },
+      "location_planning_type": "01",
+      "reduction_type_id": "01",
+      "special_advertisement": false,
+      "description": "Gesamtes Felix Katzenfutter-Sortiment",
+      "discount_hint": "<strong style=\"color:#ff6600;\">ab 2 </strong><strong style=\"color:#ff6600;\">Stück, </strong>z.B. Sensations Gelees Geschmacksvielfalt vom Land, 4 x 85 g, <strong>2.45 </strong>statt 3.50, Angebot gilt nur vom 15.8. bis 21.8.2023, solange Vorrat.",
+      "high_performer": false,
+      "collective_discount": true,
+      "instead_of": "statt",
+      "price": 2.2,
+      "original_price": 3.1,
+      "disclaimer": "Gültigkeit siehe Angebots-Detailseite.\r\nBei allen Angeboten sind M-Budget und bereits reduzierte Artikel ausgenommen.\r\nBei Aktionen können bei der Verrechnung auf dem Kassabon Rundungsdifferenzen zu Gunsten des Kunden entstehen.",
+      "source": "PriceRepository",
+      "boss_number": "011811632620",
+      "discount_role_id": "2000000002",
+      "discount_role_label": "M: Wochenangebot Typ I",
+      "last_imported": "2023-08-14T04:47:55+0200"
+    },
+    "discount_hint": "<strong style=\"color:#ff6600;\">ab 2 </strong><strong style=\"color:#ff6600;\">Stück, </strong>Angebot gilt nur vom 15.8. bis 21.8.2023, solange Vorrat."
+  },
+  "image": {
+    "original": "https://image.migros.ch/original/5fde4957910f343501ccedbbd69986ec362b1393/felix-soup-fleisch.jpg",
+    "stack": "https://image.migros.ch/{stack}/5fde4957910f343501ccedbbd69986ec362b1393/felix-soup-fleisch.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/f77252ba912bb941d4d358fbd8570cc6c216e177/felix-soup-fleisch.png",
+    "stack": "https://image.migros.ch/{stack}/f77252ba912bb941d4d358fbd8570cc6c216e177/felix-soup-fleisch.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Standard item"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "HAWA"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "11807",
+          "value": "NASSFUTTER BTL STANDARD"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LIFECYCLE",
+      "values": [
+        {
+          "value_code": "D",
+          "value": "Detailhandelsartikel"
+        }
+      ],
+      "category_code": "MAPI_LIFECYCLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_EXPORTABLE",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_EXPORTABLE",
+      "top_fact": false
+    }
+  ],
+  "declarations": {
+    "declaration_number": "Q_1604593688955137",
+    "tags": [
+      "source-qim"
+    ],
+    "gtins": [
+      "7613036631952"
+    ],
+    "valid_from": "2023-07-06T00:00:00+0200",
+    "product_details": {
+      "regulated_description": "Complementary pet food for adult cats",
+      "product_description": "FELIX® Soup Original is an irresistible range of exciting recipes for your cat. At any time of the day, your little rascal will love lapping up the delicious broth and getting his teeth stuck into the mouth-watering chunks.",
+      "net_filled_quantity": {
+        "value": "288 g",
+        "numeric_value": 288,
+        "unit": "g"
+      },
+      "net_weight": {
+        "value": "288 Gramm",
+        "numeric_value": 288,
+        "unit": "Gramm"
+      }
+    },
+    "distributor": {
+      "name": "Nestlé Suisse S.A.",
+      "address": "(CH) Nestlé Suisse S.A., Nestlé Purina PetCare, CP 352, CH-1800 Vevey"
+    },
+    "general_information": [
+      {
+        "label": "Consumer storage instructions",
+        "values": [
+          "Keep pet food in a cool and dry place."
+        ]
+      }
+    ],
+    "feed_regulatory_permit_identification": "HU 17 1 00051",
+    "feeding_instructions": "For a 4 kg cat, pour in a bowl and serve one pouch per day as a complement to other complete products from Purina. For your cat’s health, please respect the feeding guide.Serve at room temperature. Always provide clean and fresh water.This product is a complementary meal with a high moisture content: part of your cat’s daily water recommended intake will be supplied through the consumption of this product.Fresh clean drinking water should be always available.",
+    "feed_composition": "Composition:Meat and animal derivatives (of which beef 4%), vegetable protein extracts, fish and fish derivatives, various sugars, minerals, derivatives of vegetable origin, yeasts.Composition:Meat and animal derivatives (of which chicken 4%), vegetable protein extracts, fish and fish derivatives, minerals, derivatives of vegetable origin, various sugars, yeasts.Composition:Meat and meat ingredients (including chicken), vegetable protein extracts, amino-acids, thickeners, fish and fish derivatives, minerals, derivatives of vegetable origin, various sugars, yeasts.Composition:Meat and animal derivatives (of which lamb 4%), vegetable protein extracts, fish and fish derivatives, various sugars, minerals, derivatives of vegetable origin, yeasts.",
+    "feed_analytical_constituents_statement": "Analytical Constituents:moisture: 87.5%,protein: 7.5%,fat content: 1.5%,crude ash: 1.8%,crude fibre: 0.2%.",
+    "feed_additives_statement": "Flavourings."
+  },
+  "recipe_ingredient_ids": [
+    "10000"
+  ],
+  "regional_availability": {
+    "gmaa": {
+      "probability": 97
+    },
+    "gmbs": {
+      "probability": 98
+    },
+    "gmge": {
+      "probability": 76
+    },
+    "gmlu": {
+      "probability": 95
+    },
+    "gmnf": {
+      "probability": 96
+    },
+    "gmos": {
+      "probability": 97
+    },
+    "gmti": {
+      "probability": 100
+    },
+    "gmvd": {
+      "probability": 95
+    },
+    "gmvs": {
+      "probability": 100
+    },
+    "gmzh": {
+      "probability": 89
+    }
+  },
+  "ratings": {
+    "count_all": 18,
+    "average_all": 4.777777777778
+  },
+  "reindex_date": "2023-08-21T23:59:59+0200",
+  "updated_at": "2023-08-17T11:47:34+0200",
+  "sap_created_at": "2022-04-21T00:00:00+0200",
+  "base_unit": "CU",
+  "origins": {
+    "producing_country": "Hungary"
+  },
+  "views": [
+    "all",
+    "browse",
+    "browseallretailers"
+  ]
+}

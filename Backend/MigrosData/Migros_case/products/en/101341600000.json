@@ -1,0 +1,742 @@
+{
+  "id": "101341600000",
+  "language": "en",
+  "name": "Snickers Peanut Butter",
+  "names": {
+    "short_name": "Snickers Peanut Butter"
+  },
+  "slug": "snickers-peanut-butter",
+  "slugs": {
+    "de": "snickers-peanut-butter",
+    "fr": "snickers-peanut-butter",
+    "it": "snickers-peanut-butter",
+    "en": "snickers-peanut-butter"
+  },
+  "type": "00",
+  "boss_number": "010110010635",
+  "data_source": "SAP-X11",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03"
+  },
+  "tags": [
+    "source-pex",
+    "migipedia",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "5900951295072"
+  ],
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarket"
+  },
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "brand": {
+    "id": "F45",
+    "name": "Snickers",
+    "slug": "snickers"
+  },
+  "categories": [
+    {
+      "code": "BeSS_0101082102",
+      "name": "Schokoriegel & Branches",
+      "slug": "supermarkt/lebensmittel/suessigkeiten/schokolade/schokoriegel-branches",
+      "visible": true,
+      "title": "Schokoriegel und Branches zu günstigen Preisen in Ihrer Migros",
+      "parent_code": "BeSS_01010821",
+      "level": 5
+    },
+    {
+      "code": "BeSS_01010821",
+      "name": "Schokolade",
+      "slug": "supermarkt/lebensmittel/suessigkeiten/schokolade",
+      "visible": true,
+      "parent_code": "BeSS_010108",
+      "level": 4
+    },
+    {
+      "code": "BeSS_010108",
+      "name": "Süssigkeiten",
+      "slug": "supermarkt/lebensmittel/suessigkeiten",
+      "visible": true,
+      "title": "Süssigkeiten aus Ihrer Migros: für Naschkatzen und Schleckmäuler",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/a9c80f4e896b5ebdd3b7ebbee11f956c8ff157cf/suessigkeiten.jpg",
+        "stack": "https://image.migros.ch/{stack}/a9c80f4e896b5ebdd3b7ebbee11f956c8ff157cf/suessigkeiten.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/31702195ec9d38aecefe80349eb347f79d56c750/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/31702195ec9d38aecefe80349eb347f79d56c750/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "online_relevant": [
+    {
+      "code": "MGB",
+      "name": "Migros Genossenschafts-Bund"
+    },
+    {
+      "code": "MO",
+      "name": "Migros Online"
+    }
+  ],
+  "links": {
+    "migros_ch": {
+      "url": "https://www.migros.ch/en/product/101341600000?context=instore",
+      "name": "In-store assortment",
+      "canonical": "https://www.migros.ch/en/product/101341600000?context=instore",
+      "type": "info",
+      "purchasable": false
+    },
+    "migros_online": {
+      "url": "https://www.migros.ch/en/product/101341600000?context=online",
+      "mo_product_id": "7005310",
+      "name": "Online-shop assortment",
+      "canonical": "https://www.migros.ch/en/product/101341600000?context=instore",
+      "type": "shop",
+      "purchasable": true,
+      "one_catalog_id": 100031545
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/101341600000",
+      "name": "Migipedia",
+      "canonical": "https://www.migros.ch/en/product/101341600000?context=instore",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "m_check2": {
+    "carbon_footprint": {
+      "image": {
+        "original": "https://image.migros.ch/original/6137c42cbff331738ddeafb4f91efb06075417b3.svg",
+        "stack": "https://image.migros.ch/{stack}/6137c42cbff331738ddeafb4f91efb06075417b3.svg"
+      },
+      "ground_and_sea_cargo": {
+        "kg_co2": 5.65,
+        "kg_co2_range": "4.8 - 9.9 kg CO₂eq / kg",
+        "co2_in_car_km": 31,
+        "rating": 2,
+        "production_in_percent": 95,
+        "packaging_in_percent": 3,
+        "transport_in_percent": 2
+      }
+    }
+  },
+  "receipt_text": "Snickers Peanut Butter",
+  "package": {
+    "content": 182,
+    "content_unit_code": "g",
+    "content_unit": "Gramm",
+    "net_weight": 0.182,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "portions_per_package": "10",
+    "brutto_weight": 0.197,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 0.248,
+    "brutto_volume_unit_code": "cdm",
+    "height": 10,
+    "length": 1.5,
+    "width": 16.5,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "182g"
+  },
+  "package_information": {
+    "tu": {
+      "gtins": [
+        "5900951295065"
+      ],
+      "brutto_weight": 3.646,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 9.776,
+      "brutto_volume_unit_code": "cdm",
+      "height": 12.5,
+      "length": 39.5,
+      "width": 19.8,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 18
+    },
+    "cu": {
+      "gtins": [
+        "5900951295072"
+      ],
+      "brutto_weight": 0.197,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.248,
+      "brutto_volume_unit_code": "cdm",
+      "height": 10,
+      "length": 1.5,
+      "width": 16.5,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "lu": {
+      "brutto_weight": 593.776,
+      "brutto_weight_unit_code": "kg",
+      "length": 120,
+      "width": 80,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 2808
+    }
+  },
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "price": {
+    "valid_from": "2023-04-11T00:00:00+0200",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 3.2,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "182g"
+    },
+    "base": {
+      "price": 1.76,
+      "quantity": 100,
+      "unit": "G"
+    }
+  },
+  "features": [
+    {
+      "label_code": "common_mcheckco2compensated",
+      "label": "CO2 Compensated",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "Common_CLA_Klimadeklaration",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "MAPI_VEGETARIANISM",
+      "label": "Vegetarianism",
+      "values": [
+        {
+          "value_code": "MAPI_VEGETARIANISM_vegetarisch",
+          "value": "Vegetarian"
+        }
+      ],
+      "category_code": "MAPI_VEGETARIANISM",
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/c2b76f74785ac679529196483d569a7a26402c03/snickers-peanut-butter.jpg",
+    "stack": "https://image.migros.ch/{stack}/c2b76f74785ac679529196483d569a7a26402c03/snickers-peanut-butter.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/6a48051c396c940d84f09e20a94adb7045f90e7e/snickers-peanut-butter.png",
+    "stack": "https://image.migros.ch/{stack}/6a48051c396c940d84f09e20a94adb7045f90e7e/snickers-peanut-butter.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Standard item"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "HAWA"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "10155",
+          "value": "FILLED BARS"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LIFECYCLE",
+      "values": [
+        {
+          "value_code": "D",
+          "value": "Detailhandelsartikel"
+        }
+      ],
+      "category_code": "MAPI_LIFECYCLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_EXPORTABLE",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_EXPORTABLE",
+      "top_fact": false
+    }
+  ],
+  "declarations": {
+    "declaration_number": "Q_1604593688751968",
+    "tags": [
+      "source-qim"
+    ],
+    "gtins": [
+      "5900951295072"
+    ],
+    "valid_from": "2022-03-18T13:38:00+0100",
+    "product_details": {
+      "regulated_description": "Milk chocolate (35%) filled with peanut butter (32%) and caramel centre (24%) with freshly roasted peanuts (8.1%)",
+      "package": {
+        "number_of_portions": "10"
+      },
+      "net_filled_quantity": {
+        "value": "182.5 g",
+        "numeric_value": 182.5,
+        "unit": "g"
+      },
+      "net_weight": {
+        "value": "182.5 Gramm",
+        "numeric_value": 182.5,
+        "unit": "Gramm"
+      }
+    },
+    "distributor": {
+      "name": "Mars Schweiz AG",
+      "address": "Baarermattstrasse 6, CH-6340 Baar"
+    },
+    "general_information": [
+      {
+        "label": "Consumer storage instructions",
+        "values": [
+          "Store in a cool and dry place."
+        ]
+      }
+    ],
+    "ingredients_information": {
+      "ingredients_text": "Ingredients: PEANUTS, sugar, glucose syrup, MILK powder, cocoa butter, invert sugar, LACTOSE, cocoa mass, dextrose, sunflower oil, clarified butter, whey permeate , palm fat, humectants (glycerin, sorbitol), palm kernel fat, hydrogenated SOYA fat, salt, emulsifier (SOYA lecithin), antioxidant (E306), vanilla extract, starch.",
+      "allergens_information": {
+        "trace_allergens_text": "May contain: Eggs, Hazelnuts, Nuts",
+        "allergens": [
+          {
+            "code": "ALLG_ERDNUSS",
+            "label": "Peanuts and their derivatives",
+            "contamination_code": "VORHANDEN",
+            "contamination_label": "contains"
+          },
+          {
+            "code": "ALLG_MILCH",
+            "label": "Milk and its derivatives",
+            "contamination_code": "VORHANDEN",
+            "contamination_label": "contains"
+          },
+          {
+            "code": "ML",
+            "label": "lactose",
+            "contamination_code": "VORHANDEN",
+            "contamination_label": "contains"
+          },
+          {
+            "code": "ALLG_SOJA",
+            "label": "Soybean and its derivatives",
+            "contamination_code": "VORHANDEN",
+            "contamination_label": "contains"
+          }
+        ]
+      }
+    },
+    "nutrition_facts": {
+      "serving_size_description": "1 serving",
+      "reference_sizes": {
+        "standard": {
+          "base": {
+            "quantity": {
+              "value": "100 g",
+              "numeric_value": 100,
+              "unit": "g"
+            }
+          },
+          "nutrients": [
+            {
+              "code": "NUT_ENERGY",
+              "name": "Energy",
+              "operator": "~",
+              "pictogram_name": "Energy",
+              "category": "BIG9",
+              "quantity": {
+                "value": "2231 kJ",
+                "numeric_value": 2231,
+                "unit": "kJ",
+                "alternate": {
+                  "value": "534 kcal",
+                  "numeric_value": 534,
+                  "unit": "kcal"
+                }
+              }
+            },
+            {
+              "code": "NUT_FAT",
+              "name": "Fat",
+              "operator": "~",
+              "pictogram_name": "Fat",
+              "category": "BIG9",
+              "quantity": {
+                "value": "31 g",
+                "numeric_value": 31,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_SATURATED_FATTY_ACIDS",
+              "name": "of which saturates",
+              "operator": "~",
+              "pictogram_name": "saturated fatty acids",
+              "category": "BIG9",
+              "quantity": {
+                "value": "11 g",
+                "numeric_value": 11,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_CARBOHYDRATES",
+              "name": "Carbohydrate",
+              "operator": "~",
+              "category": "BIG9",
+              "quantity": {
+                "value": "52 g",
+                "numeric_value": 52,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_SUGAR",
+              "name": "of which sugars",
+              "operator": "~",
+              "pictogram_name": "Sugar",
+              "category": "BIG9",
+              "quantity": {
+                "value": "45 g",
+                "numeric_value": 45,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_PROTEIN",
+              "name": "Protein",
+              "operator": "~",
+              "category": "BIG9",
+              "quantity": {
+                "value": "11 g",
+                "numeric_value": 11,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_SALT",
+              "name": "Salt",
+              "operator": "~",
+              "pictogram_name": "Salt",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0.58 g",
+                "numeric_value": 0.58,
+                "unit": "g"
+              }
+            }
+          ]
+        },
+        "portion": {
+          "nutrients": [
+            {
+              "code": "NUT_ENERGY",
+              "name": "Energy",
+              "operator": "~",
+              "pictogram_name": "Energy",
+              "category": "BIG9",
+              "quantity": {
+                "value": "407 kJ",
+                "numeric_value": 407,
+                "unit": "kJ",
+                "alternate": {
+                  "value": "97 kcal",
+                  "numeric_value": 97,
+                  "unit": "kcal"
+                }
+              }
+            },
+            {
+              "code": "NUT_FAT",
+              "name": "Fat",
+              "operator": "~",
+              "pictogram_name": "Fat",
+              "category": "BIG9",
+              "quantity": {
+                "value": "5.6 g",
+                "numeric_value": 5.6,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_SATURATED_FATTY_ACIDS",
+              "name": "of which saturates",
+              "operator": "~",
+              "pictogram_name": "saturated fatty acids",
+              "category": "BIG9",
+              "quantity": {
+                "value": "1.9 g",
+                "numeric_value": 1.9,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_CARBOHYDRATES",
+              "name": "Carbohydrate",
+              "operator": "~",
+              "category": "BIG9",
+              "quantity": {
+                "value": "9.5 g",
+                "numeric_value": 9.5,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_SUGAR",
+              "name": "of which sugars",
+              "operator": "~",
+              "pictogram_name": "Sugar",
+              "category": "BIG9",
+              "quantity": {
+                "value": "8.3 g",
+                "numeric_value": 8.3,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_PROTEIN",
+              "name": "Protein",
+              "operator": "~",
+              "category": "BIG9",
+              "quantity": {
+                "value": "2.0 g",
+                "numeric_value": 2,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_SALT",
+              "name": "Salt",
+              "operator": "~",
+              "pictogram_name": "Salt",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0.11 g",
+                "numeric_value": 0.11,
+                "unit": "g"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "recipe_ingredient_ids": [
+    "10000"
+  ],
+  "regional_availability": {
+    "gmaa": {
+      "probability": 34
+    },
+    "gmbs": {
+      "probability": 38
+    },
+    "gmge": {
+      "probability": 18
+    },
+    "gmlu": {
+      "probability": 36
+    },
+    "gmnf": {
+      "probability": 28
+    },
+    "gmos": {
+      "probability": 28
+    },
+    "gmti": {
+      "probability": 19
+    },
+    "gmvd": {
+      "probability": 12
+    },
+    "gmvs": {
+      "probability": 30
+    },
+    "gmzh": {
+      "probability": 36
+    }
+  },
+  "ratings": {
+    "count_all": 19,
+    "average_all": 4.631578947368
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "updated_at": "2023-08-17T11:40:06+0200",
+  "sap_created_at": "2022-01-24T00:00:00+0100",
+  "base_unit": "CU",
+  "views": [
+    "all",
+    "browse",
+    "browseallretailers"
+  ]
+}

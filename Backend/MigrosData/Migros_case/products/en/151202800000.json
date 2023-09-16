@@ -1,0 +1,812 @@
+{
+  "id": "151202800000",
+  "language": "en",
+  "name": "Lotus Original Karamellgebäck Crème",
+  "names": {
+    "short_name": "Lotus Original Karamellgebäck Crème"
+  },
+  "slug": "lotus-original-karamellgebaeck-creme",
+  "slugs": {
+    "de": "lotus-original-karamellgebaeck-creme",
+    "fr": "lotus-biscuits-caramelises-creme",
+    "it": "lotus-biscotti-caramellati-creme",
+    "en": "lotus-original-karamellgebaeck-creme"
+  },
+  "type": "00",
+  "boss_number": "010310406610",
+  "data_source": "SAP-X11",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03"
+  },
+  "tags": [
+    "source-p4m",
+    "migipedia",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "5410126726954"
+  ],
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarket"
+  },
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "brand": {
+    "id": "FK2",
+    "name": "Lotus",
+    "slug": "lotus"
+  },
+  "categories": [
+    {
+      "code": "BeSS_01011103",
+      "name": "Brotaufstriche",
+      "slug": "supermarkt/lebensmittel/fruehstueck/brotaufstriche",
+      "visible": true,
+      "parent_code": "BeSS_010111",
+      "image": {
+        "original": "https://image.migros.ch/original/e544b09a6a62760facab3f3730c3fcb92b9e0167/brotaufstriche.jpg",
+        "stack": "https://image.migros.ch/{stack}/e544b09a6a62760facab3f3730c3fcb92b9e0167/brotaufstriche.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010111",
+      "name": "Frühstück",
+      "slug": "supermarkt/lebensmittel/fruehstueck",
+      "visible": true,
+      "title": "Frühstück: Mit Produkten aus Ihrer Migros einfach in den Tag starten",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/58a87c73cd077c5c9efb268051c16d5b373f5c29/fruehstueck.jpg",
+        "stack": "https://image.migros.ch/{stack}/58a87c73cd077c5c9efb268051c16d5b373f5c29/fruehstueck.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/31702195ec9d38aecefe80349eb347f79d56c750/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/31702195ec9d38aecefe80349eb347f79d56c750/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "online_relevant": [
+    {
+      "code": "MGB",
+      "name": "Migros Genossenschafts-Bund"
+    },
+    {
+      "code": "MO",
+      "name": "Migros Online"
+    }
+  ],
+  "links": {
+    "migros_ch": {
+      "url": "https://www.migros.ch/en/product/151202800000?context=instore",
+      "name": "In-store assortment",
+      "canonical": "https://www.migros.ch/en/product/151202800000?context=instore",
+      "type": "info",
+      "purchasable": false
+    },
+    "migros_online": {
+      "url": "https://www.migros.ch/en/product/151202800000?context=online",
+      "mo_product_id": "228172",
+      "name": "Online-shop assortment",
+      "canonical": "https://www.migros.ch/en/product/151202800000?context=instore",
+      "type": "shop",
+      "purchasable": true,
+      "one_catalog_id": 100043782
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/151202800000",
+      "name": "Migipedia",
+      "canonical": "https://www.migros.ch/en/product/151202800000?context=instore",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "has_safety_sheet": false,
+  "m_check2": {},
+  "receipt_text": "Lotus Karamell Crème",
+  "package": {
+    "content": 400,
+    "content_unit_code": "g",
+    "content_unit": "Gram",
+    "net_weight": 0.4,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogram",
+    "type": "CU",
+    "portions_per_package": "1",
+    "brutto_weight": 0.618,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 0.641,
+    "brutto_volume_unit_code": "cdm",
+    "height": 11.4,
+    "length": 7.5,
+    "width": 7.5,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "400g"
+  },
+  "package_information": {
+    "tu": {
+      "gtins": [
+        "5410938726951"
+      ],
+      "brutto_weight": 4.94,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 5.615,
+      "brutto_volume_unit_code": "cdm",
+      "height": 11.5,
+      "length": 31.5,
+      "width": 15.5,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 8
+    },
+    "cu": {
+      "gtins": [
+        "5410126726954"
+      ],
+      "brutto_weight": 0.618,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.641,
+      "brutto_volume_unit_code": "cdm",
+      "height": 11.4,
+      "length": 7.5,
+      "width": 7.5,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "lu": {
+      "brutto_weight": 948.78,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 1.214,
+      "brutto_volume_unit_code": "m3",
+      "height": 126.5,
+      "length": 120,
+      "width": 80,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1496
+    }
+  },
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "price": {
+    "valid_from": "2018-01-01T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 4.2,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "400g"
+    },
+    "base": {
+      "price": 1.05,
+      "quantity": 100,
+      "unit": "G"
+    }
+  },
+  "features": [
+    {
+      "label_code": "MAPI_VEGETARIANISM",
+      "label": "Vegetarianism",
+      "values": [
+        {
+          "value_code": "MAPI_VEGETARIANISM_vegan",
+          "value": "Vegan"
+        },
+        {
+          "value_code": "MAPI_VEGETARIANISM_vegetarisch",
+          "value": "Vegetarian"
+        }
+      ],
+      "category_code": "MAPI_VEGETARIANISM",
+      "top_fact": false
+    },
+    {
+      "label_code": "acxMISOcreamy",
+      "label": "Creamy",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Yes",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "ecxMISOCLAsuesseaufstrichebearbeiteteverarbeitetenahrungsmittellebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOcugebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "erxMISOcugebindeartglas",
+          "value": "Glas"
+        }
+      ],
+      "category_code": "ecxMISOCLAsuesseaufstrichebearbeiteteverarbeitetenahrungsmittellebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOartvonaufstrich",
+      "label": "Art von Aufstrich",
+      "values": [
+        {
+          "value": "Brotaufstrich"
+        }
+      ],
+      "category_code": "ecxMISOCLAsuesseaufstrichebearbeiteteverarbeitetenahrungsmittellebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOohnezuckerzusatz",
+      "label": "Ohne Zuckerzusatz",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "ecxMISOCLAsuesseaufstrichebearbeiteteverarbeitetenahrungsmittellebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOzumkochengeeignet",
+      "label": "Zum Kochen geeignet",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Yes",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "ecxMISOCLAsuesseaufstrichebearbeiteteverarbeitetenahrungsmittellebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/baa5b0f2a82fe248313f1c3b122f57205b6aca5b/lotus-original-karamellgebaeck-creme.jpg",
+    "stack": "https://image.migros.ch/{stack}/baa5b0f2a82fe248313f1c3b122f57205b6aca5b/lotus-original-karamellgebaeck-creme.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/d3819c8d30a08ff9e788a5ab2f47b458ba99926c/lotus-original-karamellgebaeck-creme.png",
+    "stack": "https://image.migros.ch/{stack}/d3819c8d30a08ff9e788a5ab2f47b458ba99926c/lotus-original-karamellgebaeck-creme.png"
+  },
+  "additional_images": [
+    {
+      "original": "https://image.migros.ch/original/28aeb57a7f7767d84821e8c1507677de2edba60d.jpg",
+      "stack": "https://image.migros.ch/{stack}/28aeb57a7f7767d84821e8c1507677de2edba60d.jpg"
+    }
+  ],
+  "internal_features": [
+    {
+      "label_code": "MAPI_EXPORTABLE",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_EXPORTABLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Normalposition"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "HAWA"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "10345",
+          "value": "SWEET SPREADS"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_KUBE_TUKA",
+      "values": [
+        {
+          "value_code": "BLANK",
+          "value": "KUBE und TUKA nicht zugelassen"
+        }
+      ],
+      "category_code": "MAPI_KUBE_TUKA",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LIFECYCLE",
+      "values": [
+        {
+          "value_code": "D",
+          "value": "Detailhandelsartikel"
+        }
+      ],
+      "category_code": "MAPI_LIFECYCLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_STORAGE_CONDITIONS",
+      "values": [
+        {
+          "value_code": "01",
+          "value": "normal"
+        }
+      ],
+      "category_code": "MAPI_STORAGE_CONDITIONS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_MULTIPACK",
+      "values": [
+        {
+          "value_code": "0",
+          "value": "No pack expression"
+        }
+      ],
+      "category_code": "MAPI_MULTIPACK",
+      "top_fact": false
+    },
+    {
+      "label_code": "acxCommonarticlecocompensated",
+      "label": "Artikel Co2 kompensiert",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false
+    },
+    {
+      "label_code": "acxCommonmesswertcompensation",
+      "label": "CO2-Wert Kompensation",
+      "values": [
+        {
+          "value_code": "NUMERIC_1.853",
+          "value": "1.853",
+          "numeric_value": 1.853
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false,
+      "unit_code": "5d71456e-a520-4294-9ddb-add78f63ce83",
+      "unit": "Equivalence per kilogram",
+      "unit_symbol": "eq / kg"
+    },
+    {
+      "label_code": "acxCommonoutputmcheckclimatedeclaration",
+      "label": "Auslobung M-Check Klimadeklaration",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false
+    }
+  ],
+  "declarations": {
+    "declaration_number": "Q_2121841432603566",
+    "tags": [
+      "source-qim"
+    ],
+    "gtins": [
+      "5410126726954"
+    ],
+    "valid_from": "2018-06-08T00:00:00+0200",
+    "product_details": {
+      "regulated_description": "Breadspread",
+      "net_filled_quantity": {
+        "value": "400 g",
+        "numeric_value": 400,
+        "unit": "g"
+      },
+      "net_weight": {
+        "value": "400 Gramm",
+        "numeric_value": 400,
+        "unit": "Gramm"
+      }
+    },
+    "distributor": {
+      "name": "Lotus Bakeries Schweiz AG",
+      "address": "Neuhofstrasse 24, CH-6340 Baar"
+    },
+    "general_information": [
+      {
+        "label": "Consumer storage instructions",
+        "values": [
+          "Store between 17° C and 23° C. Best before date:"
+        ]
+      }
+    ],
+    "ingredients_information": {
+      "ingredients_text": "Ingredients: Original caramelised biscuits 58% (WHEAT flour, sugar, vegetable oils (palm oil from sustainable and certified plantations, rapeseed oil), candy sugar syrup, raising agent (sodium hydrogen carbonate), SOYA flour, salt, cinnamon), rapeseed oil, sugar, emulsifier (SOYA lecithin), acid (citric acid).",
+      "additives_information": {
+        "declaration_obligatory": {
+          "code": "NON",
+          "label": "Contains no declaration obligatory additives depending on target market. (For Germany: Does not contain additives that are mandatory to declare on the menu acc. to §9 ZZulV.) "
+        }
+      },
+      "allergens_information": {
+        "allergens": [
+          {
+            "code": "UW",
+            "label": "Wheat and their derivatives",
+            "contamination_code": "VORHANDEN",
+            "contamination_label": "contains"
+          },
+          {
+            "code": "ALLG_SOJA",
+            "label": "Soybean and its derivatives",
+            "contamination_code": "VORHANDEN",
+            "contamination_label": "contains"
+          }
+        ]
+      }
+    },
+    "nutrition_facts": {
+      "reference_sizes": {
+        "standard": {
+          "base": {
+            "quantity": {
+              "value": "100 g",
+              "numeric_value": 100,
+              "unit": "g"
+            }
+          },
+          "nutrients": [
+            {
+              "code": "NUT_ENERGY",
+              "name": "Energy",
+              "operator": "~",
+              "pictogram_name": "Energy",
+              "category": "BIG9",
+              "quantity": {
+                "value": "2435 kJ",
+                "numeric_value": 2435,
+                "unit": "kJ",
+                "alternate": {
+                  "value": "584 kcal",
+                  "numeric_value": 584,
+                  "unit": "kcal"
+                }
+              }
+            },
+            {
+              "code": "NUT_FAT",
+              "name": "Fat",
+              "operator": "~",
+              "pictogram_name": "Fat",
+              "category": "BIG9",
+              "quantity": {
+                "value": "38.1 g",
+                "numeric_value": 38.1,
+                "unit": "g"
+              },
+              "rating": {
+                "value": 2,
+                "text": "high",
+                "icon": {
+                  "original": "https://image.migros.ch/original/9aa833abc7cb7207238c3e98a1253eeb7bceee1f.svg",
+                  "stack": "https://image.migros.ch/{stack}/9aa833abc7cb7207238c3e98a1253eeb7bceee1f.svg"
+                },
+                "hex_color": "#cc0000"
+              }
+            },
+            {
+              "code": "NUT_SATURATED_FATTY_ACIDS",
+              "name": "of which saturates",
+              "operator": "~",
+              "pictogram_name": "saturated fatty acids",
+              "category": "BIG9",
+              "quantity": {
+                "value": "7.6 g",
+                "numeric_value": 7.6,
+                "unit": "g"
+              },
+              "rating": {
+                "value": 2,
+                "text": "high",
+                "icon": {
+                  "original": "https://image.migros.ch/original/9aa833abc7cb7207238c3e98a1253eeb7bceee1f.svg",
+                  "stack": "https://image.migros.ch/{stack}/9aa833abc7cb7207238c3e98a1253eeb7bceee1f.svg"
+                },
+                "hex_color": "#cc0000"
+              }
+            },
+            {
+              "code": "NUT_CARBOHYDRATES",
+              "name": "Carbohydrate",
+              "operator": "~",
+              "category": "BIG9",
+              "quantity": {
+                "value": "57 g",
+                "numeric_value": 57,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_SUGAR",
+              "name": "of which sugars",
+              "operator": "~",
+              "pictogram_name": "Sugar",
+              "category": "BIG9",
+              "quantity": {
+                "value": "36.8 g",
+                "numeric_value": 36.8,
+                "unit": "g"
+              },
+              "rating": {
+                "value": 2,
+                "text": "high",
+                "icon": {
+                  "original": "https://image.migros.ch/original/9aa833abc7cb7207238c3e98a1253eeb7bceee1f.svg",
+                  "stack": "https://image.migros.ch/{stack}/9aa833abc7cb7207238c3e98a1253eeb7bceee1f.svg"
+                },
+                "hex_color": "#cc0000"
+              }
+            },
+            {
+              "code": "NUT_FIBER",
+              "name": "Fibre",
+              "operator": "~",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0.8 g",
+                "numeric_value": 0.8,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_PROTEIN",
+              "name": "Protein",
+              "operator": "~",
+              "category": "BIG9",
+              "quantity": {
+                "value": "2.9 g",
+                "numeric_value": 2.9,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_SALT",
+              "name": "Salt",
+              "operator": "~",
+              "pictogram_name": "Salt",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0.54 g",
+                "numeric_value": 0.54,
+                "unit": "g"
+              },
+              "rating": {
+                "value": 1,
+                "text": "medium",
+                "icon": {
+                  "original": "https://image.migros.ch/original/b84b389195e426a9e6b4cd66f2c79b1a049809da.svg",
+                  "stack": "https://image.migros.ch/{stack}/b84b389195e426a9e6b4cd66f2c79b1a049809da.svg"
+                },
+                "hex_color": "#e8a800"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "recipe_ingredient_ids": [
+    "10000"
+  ],
+  "regional_availability": {
+    "gmaa": {
+      "probability": 94
+    },
+    "gmbs": {
+      "probability": 95
+    },
+    "gmge": {
+      "probability": 66
+    },
+    "gmlu": {
+      "probability": 92
+    },
+    "gmnf": {
+      "probability": 51
+    },
+    "gmos": {
+      "probability": 76
+    },
+    "gmti": {
+      "probability": 0
+    },
+    "gmvd": {
+      "probability": 75
+    },
+    "gmvs": {
+      "probability": 70
+    },
+    "gmzh": {
+      "probability": 86
+    }
+  },
+  "ratings": {
+    "count_all": 19,
+    "average_all": 4
+  },
+  "reindex_date": "2023-08-28T23:59:59+0200",
+  "updated_at": "2023-08-17T11:52:50+0200",
+  "sap_created_at": "2014-11-30T18:00:00+0100",
+  "online_shop_relevant": false,
+  "base_unit": "CU",
+  "co2_compensation": {
+    "kg_co2": 1.853,
+    "kg_co2_compensation": 1.853,
+    "is_compensated": false,
+    "mcheck_enabled": false
+  },
+  "origins": {
+    "producing_country": "Belgium"
+  },
+  "views": [
+    "all",
+    "browse",
+    "browseallretailers"
+  ]
+}

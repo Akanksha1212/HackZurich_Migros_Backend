@@ -1,0 +1,711 @@
+{
+  "id": "152100700000",
+  "language": "en",
+  "name": "Alnatura Apfelmark mit Banane",
+  "names": {
+    "short_name": "Alnatura Apfelmark mit Banane"
+  },
+  "slug": "alnatura-apfelmark-mit-banane-152100700000",
+  "slugs": {
+    "de": "alnatura-apfelmark-mit-banane",
+    "fr": "alnatura-compote-de-pommes-avec-banane",
+    "it": "alnatura-purea-mele-con-banana",
+    "en": "alnatura-apfelmark-mit-banane-152100700000"
+  },
+  "type": "00",
+  "boss_number": "011111095605",
+  "data_source": "SAP-X11",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03"
+  },
+  "tags": [
+    "source-p4m",
+    "migipedia",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "4104420033788",
+    "7613312330432"
+  ],
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarket"
+  },
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "brand": {
+    "id": "D06",
+    "name": "Alnatura",
+    "slug": "alnatura",
+    "links": {
+      "homepage": {
+        "url": "https://www.migros.ch/de/einkaufen/migros-marken-und-labels/alnatura.html",
+        "name": "Homepage",
+        "type": "info",
+        "purchasable": false
+      }
+    },
+    "image": {
+      "original": "https://image.migros.ch/original/2c0deb7a67525727ed8213ce2b42bc8a6eb35567/alnatura.jpg",
+      "stack": "https://image.migros.ch/{stack}/2c0deb7a67525727ed8213ce2b42bc8a6eb35567/alnatura.jpg"
+    }
+  },
+  "labels": [
+    {
+      "id": "L52",
+      "name": "Third-party organic food",
+      "slug": "third-party-organic-food"
+    },
+    {
+      "id": "L55",
+      "name": "Vegan Flower",
+      "slug": "vegan-flower",
+      "image": {
+        "original": "https://image.migros.ch/original/c5723257619218d275dade4d7d332cda242cafcc/vegan-flower.jpg",
+        "stack": "https://image.migros.ch/{stack}/c5723257619218d275dade4d7d332cda242cafcc/vegan-flower.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_01011415",
+      "name": "Früchtekonserven",
+      "slug": "supermarkt/lebensmittel/pasta-zutaten-konserven/fruechtekonserven",
+      "visible": true,
+      "parent_code": "BeSS_010114",
+      "image": {
+        "original": "https://image.migros.ch/original/8326ed75fd9f2f18ad470de30ad4aa94243546ca/fruechtekonserven.jpg",
+        "stack": "https://image.migros.ch/{stack}/8326ed75fd9f2f18ad470de30ad4aa94243546ca/fruechtekonserven.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010114",
+      "name": "Pasta, Zutaten & Konserven",
+      "slug": "supermarkt/lebensmittel/pasta-zutaten-konserven",
+      "visible": true,
+      "title": "Pasta aus Ihrer Migros: alles rund um Teigwaren",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/6d0964bbb34b8e041ba4d74fc0c90b149907f46a/pasta-zutaten-konserven.jpg",
+        "stack": "https://image.migros.ch/{stack}/6d0964bbb34b8e041ba4d74fc0c90b149907f46a/pasta-zutaten-konserven.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/31702195ec9d38aecefe80349eb347f79d56c750/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/31702195ec9d38aecefe80349eb347f79d56c750/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "ALNA_CAT_Fruechte_Konserven_FertiggerichteKonservenundSuppen",
+        "name": "Früchte",
+        "slug": "alnatura/fertiggerichte-konserven-und-suppen/konserven/fruechte",
+        "visible": true,
+        "parent_code": "ALNA_CAT_Konserven_FertiggerichteKonservenundSuppen",
+        "level": 4
+      },
+      {
+        "code": "ALNA_CAT_Konserven_FertiggerichteKonservenundSuppen",
+        "name": "Konserven",
+        "slug": "alnatura/fertiggerichte-konserven-und-suppen/konserven",
+        "visible": true,
+        "parent_code": "ALNA_CAT_FertiggerichteKonservenundSuppen",
+        "level": 3
+      },
+      {
+        "code": "ALNA_CAT_FertiggerichteKonservenundSuppen",
+        "name": "Fertiggerichte, Konserven und Suppen",
+        "slug": "alnatura/fertiggerichte-konserven-und-suppen",
+        "visible": true,
+        "parent_code": "BeSS_97",
+        "level": 2
+      },
+      {
+        "code": "BeSS_97",
+        "name": "Alnatura",
+        "slug": "alnatura",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "online_relevant": [
+    {
+      "code": "MGB",
+      "name": "Migros Genossenschafts-Bund"
+    }
+  ],
+  "links": {
+    "migros_ch": {
+      "url": "https://www.migros.ch/en/product/152100700000?context=instore",
+      "name": "In-store assortment",
+      "canonical": "https://www.migros.ch/en/product/152100700000?context=instore",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/152100700000",
+      "name": "Migipedia",
+      "canonical": "https://www.migros.ch/en/product/152100700000?context=instore",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "has_safety_sheet": false,
+  "m_check2": {},
+  "receipt_text": "Alnatura Apfelmark",
+  "package": {
+    "content": 360,
+    "content_unit_code": "g",
+    "content_unit": "Gram",
+    "net_weight": 0.36,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogram",
+    "type": "CU",
+    "portions_per_package": "1",
+    "brutto_weight": 0.571,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 0.61,
+    "brutto_volume_unit_code": "cdm",
+    "height": 12.1,
+    "length": 7.1,
+    "width": 7.1,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "360g"
+  },
+  "package_information": {
+    "tu": {
+      "gtins": [
+        "4104420034693"
+      ],
+      "brutto_weight": 3.426,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 4.014,
+      "brutto_volume_unit_code": "cdm",
+      "height": 12.7,
+      "length": 21.8,
+      "width": 14.5,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 6
+    },
+    "cu": {
+      "gtins": [
+        "4104420033788",
+        "7613312330432"
+      ],
+      "brutto_weight": 0.571,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.61,
+      "brutto_volume_unit_code": "cdm",
+      "height": 12.1,
+      "length": 7.1,
+      "width": 7.1,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "lu": {
+      "brutto_weight": 621.124,
+      "brutto_weight_unit_code": "kg",
+      "length": 120,
+      "width": 80,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1044
+    }
+  },
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "price": {
+    "valid_from": "2023-01-24T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 1.8,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "360g"
+    },
+    "base": {
+      "price": 0.5,
+      "quantity": 100,
+      "unit": "G"
+    }
+  },
+  "features": [
+    {
+      "label_code": "MAPI_VEGETARIANISM",
+      "label": "Vegetarianism",
+      "values": [
+        {
+          "value_code": "MAPI_VEGETARIANISM_vegan",
+          "value": "vegan"
+        }
+      ],
+      "category_code": "MAPI_VEGETARIANISM",
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/e38348cb2e8e40984c130e80c2c93ef3e0665384/alnatura-apfelmark-mit-banane.jpg",
+    "stack": "https://image.migros.ch/{stack}/e38348cb2e8e40984c130e80c2c93ef3e0665384/alnatura-apfelmark-mit-banane.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/49432ab68b1ed4db345765ecbeba99b67beda640/alnatura-apfelmark-mit-banane.png",
+    "stack": "https://image.migros.ch/{stack}/49432ab68b1ed4db345765ecbeba99b67beda640/alnatura-apfelmark-mit-banane.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_EXPORTABLE",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_EXPORTABLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Normalposition"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "HAWA"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "11107",
+          "value": "ALNATURA PRESERVES"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LIFECYCLE",
+      "values": [
+        {
+          "value_code": "D",
+          "value": "Detailhandelsartikel"
+        }
+      ],
+      "category_code": "MAPI_LIFECYCLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_STORAGE_CONDITIONS",
+      "values": [
+        {
+          "value_code": "01",
+          "value": "normal"
+        }
+      ],
+      "category_code": "MAPI_STORAGE_CONDITIONS",
+      "top_fact": false
+    },
+    {
+      "label_code": "acxMISOsorten",
+      "label": "Sorten",
+      "values": [
+        {
+          "value_code": "erxMISOCLAbearbeiteteshaltbaresObstFruechteObstFruechteLebensmittelGetraenkeAlle",
+          "value": "bearbeitetes haltbares Obst Fruechte"
+        }
+      ],
+      "category_code": "ecxMISOCLAbearbeiteteshaltbaresobstfruechteobstfruechtelebensmittelgetraenkealle",
+      "top_fact": false
+    },
+    {
+      "label_code": "acxCommonarticlecocompensated",
+      "label": "Artikel Co2 kompensiert",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false
+    },
+    {
+      "label_code": "acxCommonmesswertcompensation",
+      "label": "CO2-Wert Kompensation",
+      "values": [
+        {
+          "value_code": "NUMERIC_0.393",
+          "value": "0.393",
+          "numeric_value": 0.393
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false,
+      "unit_code": "5d71456e-a520-4294-9ddb-add78f63ce83",
+      "unit": "Equivalence per kilogram",
+      "unit_symbol": "eq / kg"
+    },
+    {
+      "label_code": "acxCommonoutputmcheckclimatedeclaration",
+      "label": "Auslobung M-Check Klimadeklaration",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false
+    }
+  ],
+  "declarations": {
+    "declaration_number": "Q_1604593687946758",
+    "tags": [
+      "source-qim"
+    ],
+    "gtins": [
+      "4104420033788"
+    ],
+    "valid_from": "2023-08-07T00:00:00+0200",
+    "product_details": {
+      "net_filled_quantity": {
+        "value": "360 g",
+        "numeric_value": 360,
+        "unit": "g"
+      },
+      "net_weight": {
+        "value": "360 Gramm",
+        "numeric_value": 360,
+        "unit": "Gramm"
+      }
+    },
+    "distributor": {
+      "name": "Alnatura GmbH",
+      "address": "Mahatma-Gandhi-Straße 7, 64295 Darmstadt"
+    },
+    "nutrition_facts": {
+      "reference_sizes": {
+        "standard": {
+          "base": {
+            "quantity": {
+              "value": "100 g",
+              "numeric_value": 100,
+              "unit": "g"
+            }
+          },
+          "nutrients": [
+            {
+              "code": "NUT_ENERGY",
+              "name": "Energy",
+              "operator": "~",
+              "pictogram_name": "Energy",
+              "category": "BIG9",
+              "quantity": {
+                "value": "260.00 kJ",
+                "numeric_value": 260,
+                "unit": "kJ",
+                "alternate": {
+                  "value": "61.00 kcal",
+                  "numeric_value": 61,
+                  "unit": "kcal"
+                }
+              }
+            },
+            {
+              "code": "NUT_FAT",
+              "name": "Fat",
+              "operator": "<",
+              "pictogram_name": "Fat",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0.50 g",
+                "numeric_value": 0.5,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_SATURATED_FATTY_ACIDS",
+              "name": "of which saturates",
+              "operator": "<",
+              "pictogram_name": "saturated fatty acids",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0.10 g",
+                "numeric_value": 0.1,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_CARBOHYDRATES",
+              "name": "Carbohydrate",
+              "operator": "~",
+              "category": "BIG9",
+              "quantity": {
+                "value": "14.00 g",
+                "numeric_value": 14,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_SUGAR",
+              "name": "of which sugars",
+              "operator": "~",
+              "pictogram_name": "Sugar",
+              "category": "BIG9",
+              "quantity": {
+                "value": "13.00 g",
+                "numeric_value": 13,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_FIBER",
+              "name": "Fibre",
+              "operator": "~",
+              "category": "BIG9",
+              "quantity": {
+                "value": "1.90 g",
+                "numeric_value": 1.9,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_PROTEIN",
+              "name": "Protein",
+              "operator": "<",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0.50 g",
+                "numeric_value": 0.5,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_SALT",
+              "name": "Salt",
+              "operator": "<",
+              "pictogram_name": "Salt",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0.01 g",
+                "numeric_value": 0.01,
+                "unit": "g"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "recipe_ingredient_ids": [
+    "10000"
+  ],
+  "regional_availability": {
+    "gmaa": {
+      "probability": 20
+    },
+    "gmbs": {
+      "probability": 40
+    },
+    "gmge": {
+      "probability": 34
+    },
+    "gmlu": {
+      "probability": 19
+    },
+    "gmnf": {
+      "probability": 12
+    },
+    "gmos": {
+      "probability": 15
+    },
+    "gmti": {
+      "probability": 0
+    },
+    "gmvd": {
+      "probability": 19
+    },
+    "gmvs": {
+      "probability": 22
+    },
+    "gmzh": {
+      "probability": 23
+    }
+  },
+  "ratings": {
+    "count_all": 12,
+    "average_all": 4.916666666667
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "updated_at": "2023-08-11T08:08:39+0200",
+  "sap_created_at": "2020-10-28T19:00:00+0100",
+  "online_shop_relevant": false,
+  "base_unit": "CU",
+  "co2_compensation": {
+    "kg_co2": 0.393,
+    "kg_co2_compensation": 0.393,
+    "is_compensated": false,
+    "mcheck_enabled": false
+  },
+  "origins": {
+    "producing_country": "Germany"
+  },
+  "views": [
+    "all",
+    "browse",
+    "browseallretailers"
+  ]
+}

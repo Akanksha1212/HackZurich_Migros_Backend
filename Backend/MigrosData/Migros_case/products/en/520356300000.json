@@ -1,0 +1,529 @@
+{
+  "id": "520356300000",
+  "language": "en",
+  "name": "M-Plast Gazekompressen",
+  "names": {
+    "short_name": "M-Plast Gazekompressen"
+  },
+  "slug": "m-plast-gazekompressen",
+  "slugs": {
+    "de": "m-plast-gazekompressen",
+    "fr": "m-plast-compresses-de-gaze",
+    "it": "m-plast-compress-di-garza",
+    "en": "m-plast-gazekompressen"
+  },
+  "type": "00",
+  "boss_number": "090322224525",
+  "description": {
+    "text": "<p>Gazenkompresse zur Wundpflege > Kompressen aus 100% Baumwolle > Zur Wundreinigung und Wundabdeckung > F&uuml;r den h&auml;ufigen Verbandswechsel > Keimreduziert behandelt.</p>",
+    "source": "PEX"
+  },
+  "data_source": "SAP-X11",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03"
+  },
+  "tags": [
+    "source-pex",
+    "near-non-food",
+    "migipedia",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613312159590",
+    "7613312290866",
+    "7613312293508"
+  ],
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarket"
+  },
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "brand": {
+    "id": "126",
+    "name": "M-Plast",
+    "slug": "m-plast"
+  },
+  "categories": [
+    {
+      "code": "BeSS_011201",
+      "name": "Hausapotheke",
+      "slug": "supermarkt/gesundheit/hausapotheke",
+      "visible": true,
+      "parent_code": "BeSS_0112",
+      "level": 3
+    },
+    {
+      "code": "BeSS_0112",
+      "name": "Gesundheit",
+      "slug": "supermarkt/gesundheit",
+      "visible": true,
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/832762761a56d78835c380db87e2aa4ecd7a4eed/gesundheit.jpg",
+        "stack": "https://image.migros.ch/{stack}/832762761a56d78835c380db87e2aa4ecd7a4eed/gesundheit.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "online_relevant": [
+    {
+      "code": "MGB",
+      "name": "Migros Genossenschafts-Bund"
+    },
+    {
+      "code": "MO",
+      "name": "Migros Online"
+    }
+  ],
+  "galaxus_relevant": false,
+  "links": {
+    "migros_ch": {
+      "url": "https://www.migros.ch/en/product/520356300000?context=instore",
+      "name": "In-store assortment",
+      "canonical": "https://www.migros.ch/en/product/520356300000?context=instore",
+      "type": "info",
+      "purchasable": false
+    },
+    "migros_online": {
+      "url": "https://www.migros.ch/en/product/520356300000?context=online",
+      "mo_product_id": "5001155",
+      "name": "Online-shop assortment",
+      "canonical": "https://www.migros.ch/en/product/520356300000?context=instore",
+      "type": "shop",
+      "purchasable": true,
+      "one_catalog_id": 100002978
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/520356300000",
+      "name": "Migipedia",
+      "canonical": "https://www.migros.ch/en/product/520356300000?context=instore",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "m_check2": {
+    "carbon_footprint": {
+      "image": {
+        "original": "https://image.migros.ch/original/6137c42cbff331738ddeafb4f91efb06075417b3.svg",
+        "stack": "https://image.migros.ch/{stack}/6137c42cbff331738ddeafb4f91efb06075417b3.svg"
+      },
+      "ground_and_sea_cargo": {
+        "kg_co2": 4.97,
+        "kg_co2_range": "4.8 - 9.9 kg CO₂eq / kg",
+        "co2_in_car_km": 27,
+        "rating": 2,
+        "production_in_percent": 94,
+        "packaging_in_percent": 3,
+        "transport_in_percent": 2
+      }
+    }
+  },
+  "receipt_text": "MPlast Gazekompressen",
+  "package": {
+    "content": 80,
+    "content_unit_code": "st",
+    "content_unit": "Stück",
+    "net_weight": 0.02,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "brutto_weight": 0.033,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 186.648,
+    "brutto_volume_unit_code": "ccm",
+    "height": 10.1,
+    "length": 2.8,
+    "width": 6.6,
+    "unit_dimension": "cm",
+    "price_comparison_content": 1,
+    "size": "80 Stk."
+  },
+  "package_information": {
+    "tu": {
+      "gtins": [
+        "7613312159606",
+        "7613312212806",
+        "7613312290873"
+      ],
+      "brutto_weight": 0.264,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 1.954,
+      "brutto_volume_unit_code": "ccm",
+      "height": 14.8,
+      "length": 12,
+      "width": 11,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 8
+    },
+    "cu": {
+      "gtins": [
+        "7613312159590",
+        "7613312290866",
+        "7613312293508"
+      ],
+      "brutto_weight": 0.033,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 186.648,
+      "brutto_volume_unit_code": "ccm",
+      "height": 10.1,
+      "length": 2.8,
+      "width": 6.6,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "ehe": {
+      "brutto_weight_unit_code": "kg",
+      "number_of_base_units": 1
+    },
+    "lu": {
+      "brutto_weight": 123.2,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 1670400,
+      "brutto_volume_unit_code": "ccm",
+      "height": 174,
+      "length": 120,
+      "width": 80,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 5280
+    },
+    "lge": {
+      "number_of_base_units": 1
+    },
+    "kar": {
+      "number_of_base_units": 1
+    }
+  },
+  "vat": {
+    "id": 1,
+    "percentage": 7.7
+  },
+  "price": {
+    "valid_from": "2018-01-29T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 4.5,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "80 Stk."
+    },
+    "base": {
+      "price": 0.06,
+      "quantity": 1,
+      "unit": "st"
+    }
+  },
+  "features": [
+    {
+      "label_code": "miso_produkttyp",
+      "label": "Product type",
+      "values": [
+        {
+          "value_code": "MISO_produkttyp_verbandsmaterial",
+          "value": "Verbandsmaterial"
+        }
+      ],
+      "category_code": "MISO_CLA_Hausapotheke_Gesundheit_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "miso_geeignet_fuer",
+      "label": "Suitable for",
+      "values": [
+        {
+          "value_code": "MISO_geeignet_fuer_wundpflege",
+          "value": "Wundpflege"
+        }
+      ],
+      "category_code": "MISO_CLA_Hausapotheke_Gesundheit_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/3847a936cbbe0900342eb80e60f37aaee138bab8/m-plast-gazekompressen.jpg",
+    "stack": "https://image.migros.ch/{stack}/3847a936cbbe0900342eb80e60f37aaee138bab8/m-plast-gazekompressen.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/556373455c7cc85efaf7107294b3d62befcd3ff2/m-plast-gazekompressen.png",
+    "stack": "https://image.migros.ch/{stack}/556373455c7cc85efaf7107294b3d62befcd3ff2/m-plast-gazekompressen.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "miso_amigos_anzeige",
+      "label": "Display aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "ja"
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "miso_amigos_sortierung",
+      "label": "aMigos sorting",
+      "values": [
+        {
+          "value": "340"
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Standard item"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "ZHKS"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RISK_CLASS",
+      "values": [
+        {
+          "value_code": "1",
+          "value": "1 (high)"
+        }
+      ],
+      "category_code": "MAPI_RISK_CLASS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_QUALITY_CHECK",
+      "values": [
+        {
+          "value_code": "00",
+          "value": "No Quality Control"
+        }
+      ],
+      "category_code": "MAPI_QUALITY_CHECK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZHKS",
+          "value": "HKS Standardartikel"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "H",
+          "value": "HKS Standard"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "50395",
+          "value": "WUNDPFLEGE"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LIFECYCLE",
+      "values": [
+        {
+          "value_code": "D",
+          "value": "Detailhandelsartikel"
+        }
+      ],
+      "category_code": "MAPI_LIFECYCLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_EXPORTABLE",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_EXPORTABLE",
+      "top_fact": false
+    }
+  ],
+  "recipe_ingredient_ids": [
+    "8333244"
+  ],
+  "regional_availability": {
+    "gmaa": {
+      "probability": 100
+    },
+    "gmbs": {
+      "probability": 100
+    },
+    "gmge": {
+      "probability": 89
+    },
+    "gmlu": {
+      "probability": 97
+    },
+    "gmnf": {
+      "probability": 98
+    },
+    "gmos": {
+      "probability": 98
+    },
+    "gmti": {
+      "probability": 100
+    },
+    "gmvd": {
+      "probability": 98
+    },
+    "gmvs": {
+      "probability": 100
+    },
+    "gmzh": {
+      "probability": 92
+    }
+  },
+  "ratings": {
+    "count_all": 16,
+    "average_all": 4
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "updated_at": "2023-08-17T12:04:49+0200",
+  "sap_created_at": "2017-08-09T00:00:00+0200",
+  "base_unit": "CU",
+  "views": [
+    "all",
+    "browse",
+    "browseallretailers"
+  ]
+}

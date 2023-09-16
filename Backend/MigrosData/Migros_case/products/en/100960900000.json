@@ -1,0 +1,836 @@
+{
+  "id": "100960900000",
+  "language": "en",
+  "name": "Sélection Pavés Grand Cru Madagascar",
+  "names": {
+    "short_name": "Sélection Pavés Grand Cru Madagascar"
+  },
+  "slug": "selection-paves-grand-cru-madagascar",
+  "slugs": {
+    "de": "selection-paves-grand-cru-madagascar",
+    "fr": "selection-paves-grand-cru-madagascar",
+    "it": "selection-paves-grand-cru-madagascar",
+    "en": "selection-paves-grand-cru-madagascar"
+  },
+  "type": "00",
+  "boss_number": "010110034605",
+  "data_source": "SAP-X11",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03"
+  },
+  "tags": [
+    "source-pex",
+    "migipedia",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613312305867"
+  ],
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarket"
+  },
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "brand": {
+    "id": "NB1",
+    "name": "Sélection",
+    "slug": "selection",
+    "links": {
+      "homepage": {
+        "url": "https://www.migros.ch/de/einkaufen/migros-marken/selection.html",
+        "name": "Homepage",
+        "type": "info",
+        "purchasable": false
+      }
+    }
+  },
+  "labels": [
+    {
+      "id": "L53",
+      "name": "Swissness",
+      "slug": "swissness",
+      "image": {
+        "original": "https://image.migros.ch/original/d771bba2f6b08ba42970ea0243c6f8c5a8832f15/swissness.jpg",
+        "stack": "https://image.migros.ch/{stack}/d771bba2f6b08ba42970ea0243c6f8c5a8832f15/swissness.jpg"
+      }
+    },
+    {
+      "id": "L71",
+      "name": "Rainforest Alliance",
+      "slug": "rainforest-alliance"
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_0101082108",
+      "name": "Pralinés",
+      "slug": "supermarkt/lebensmittel/suessigkeiten/schokolade/pralines",
+      "visible": true,
+      "title": "Feine Pralinen zu g&uuml;nstigen Preisen bei der Migros",
+      "parent_code": "BeSS_01010821",
+      "level": 5
+    },
+    {
+      "code": "BeSS_01010821",
+      "name": "Schokolade",
+      "slug": "supermarkt/lebensmittel/suessigkeiten/schokolade",
+      "visible": true,
+      "parent_code": "BeSS_010108",
+      "level": 4
+    },
+    {
+      "code": "BeSS_010108",
+      "name": "Süssigkeiten",
+      "slug": "supermarkt/lebensmittel/suessigkeiten",
+      "visible": true,
+      "title": "Süssigkeiten aus Ihrer Migros: für Naschkatzen und Schleckmäuler",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/a9c80f4e896b5ebdd3b7ebbee11f956c8ff157cf/suessigkeiten.jpg",
+        "stack": "https://image.migros.ch/{stack}/a9c80f4e896b5ebdd3b7ebbee11f956c8ff157cf/suessigkeiten.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/31702195ec9d38aecefe80349eb347f79d56c750/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/31702195ec9d38aecefe80349eb347f79d56c750/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "online_relevant": [
+    {
+      "code": "MGB",
+      "name": "Migros Genossenschafts-Bund"
+    }
+  ],
+  "links": {
+    "migros_ch": {
+      "url": "https://www.migros.ch/en/product/100960900000?context=instore",
+      "name": "In-store assortment",
+      "canonical": "https://www.migros.ch/en/product/100960900000?context=instore",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/100960900000",
+      "name": "Migipedia",
+      "canonical": "https://www.migros.ch/en/product/100960900000?context=instore",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "m_check2": {
+    "carbon_footprint": {
+      "image": {
+        "original": "https://image.migros.ch/original/6137c42cbff331738ddeafb4f91efb06075417b3.svg",
+        "stack": "https://image.migros.ch/{stack}/6137c42cbff331738ddeafb4f91efb06075417b3.svg"
+      },
+      "ground_and_sea_cargo": {
+        "kg_co2": 5.65,
+        "kg_co2_range": "4.8 - 9.9 kg CO₂eq / kg",
+        "co2_in_car_km": 31,
+        "rating": 2,
+        "production_in_percent": 94.99,
+        "packaging_in_percent": 3.06,
+        "transport_in_percent": 1.95
+      }
+    }
+  },
+  "receipt_text": "Sélec Pavés Grand Cru",
+  "package": {
+    "content": 104,
+    "content_unit_code": "g",
+    "content_unit": "Gramm",
+    "net_weight": 0.104,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "type": "Package",
+    "portions_per_package": "4",
+    "precision": "exact",
+    "brutto_weight": 0.154,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 0.665,
+    "brutto_volume_unit_code": "cdm",
+    "height": 14.2,
+    "length": 3.3,
+    "width": 14.2,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "104g"
+  },
+  "package_information": {
+    "tu": {
+      "gtins": [
+        "7613312305874"
+      ],
+      "brutto_weight": 1.252,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 5.812,
+      "brutto_volume_unit_code": "cdm",
+      "height": 13.5,
+      "length": 28.7,
+      "width": 15,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 8
+    },
+    "cu": {
+      "gtins": [
+        "7613312305867"
+      ],
+      "brutto_weight": 0.154,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.665,
+      "brutto_volume_unit_code": "cdm",
+      "height": 14.2,
+      "length": 3.3,
+      "width": 14.2,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "lu": {
+      "brutto_weight": 300.44,
+      "brutto_weight_unit_code": "kg",
+      "length": 120,
+      "width": 80,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1760
+    }
+  },
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "price": {
+    "valid_from": "2020-05-07T00:00:00+0200",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 9.7,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "104g"
+    },
+    "base": {
+      "price": 9.33,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "features": [
+    {
+      "label_code": "miso_cu_gebindeart",
+      "label": "Packaging type",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_schachtel",
+          "value": "Schachtel"
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "miso_gefuellt",
+      "label": "Filled",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Yes",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MISO_CLA_Suesswaren_SuesswarenSuessungsmittel_LebensmittelGetraenke_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "miso_wiederverschliessbar",
+      "label": "Resealable",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Yes",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MISO_CLA_Suesswaren_SuesswarenSuessungsmittel_LebensmittelGetraenke_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "miso_formdersuesswaren",
+      "label": "Type of candy",
+      "values": [
+        {
+          "value_code": "MISO_formdersuesswaren_pralinen",
+          "value": "Pralinen"
+        }
+      ],
+      "category_code": "MISO_CLA_Suesswaren_SuesswarenSuessungsmittel_LebensmittelGetraenke_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "miso_artvonschokolade",
+      "label": "Type of chocolate",
+      "values": [
+        {
+          "value_code": "MISO_artvonschokolade_milchschokolade",
+          "value": "Milchschokolade"
+        }
+      ],
+      "category_code": "MISO_CLA_Suesswaren_SuesswarenSuessungsmittel_LebensmittelGetraenke_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/c3e6e97004610e02fea982408868eed3a316fb75/selection-paves-grand-cru-madagascar.jpg",
+    "stack": "https://image.migros.ch/{stack}/c3e6e97004610e02fea982408868eed3a316fb75/selection-paves-grand-cru-madagascar.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/bda8997cbc864603f9737643a1785224d56fbae5/selection-paves-grand-cru-madagascar.png",
+    "stack": "https://image.migros.ch/{stack}/bda8997cbc864603f9737643a1785224d56fbae5/selection-paves-grand-cru-madagascar.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Standard item"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "HAWA"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "10103",
+          "value": "SELECTION PRALINES"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LIFECYCLE",
+      "values": [
+        {
+          "value_code": "D",
+          "value": "Detailhandelsartikel"
+        }
+      ],
+      "category_code": "MAPI_LIFECYCLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_EXPORTABLE",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_EXPORTABLE",
+      "top_fact": false
+    }
+  ],
+  "declarations": {
+    "declaration_number": "Q_16664226784047505",
+    "tags": [
+      "source-qim"
+    ],
+    "gtins": [
+      "7613312305867"
+    ],
+    "valid_from": "2022-05-30T00:00:00+0200",
+    "product_details": {
+      "package": {
+        "type": "Package",
+        "number_of_portions": "4",
+        "number_of_portions_operator": "="
+      },
+      "net_filled_quantity": {
+        "value": "104 g",
+        "numeric_value": 104,
+        "unit": "g"
+      }
+    },
+    "nutrition_facts": {
+      "reference_sizes": {
+        "standard": {
+          "base": {
+            "quantity": {
+              "value": "100 g",
+              "numeric_value": 100,
+              "unit": "g"
+            }
+          },
+          "nutrients": [
+            {
+              "code": "NUT_ENERGY",
+              "name": "Energy",
+              "operator": "=",
+              "pictogram_name": "Energy",
+              "category": "BIG9",
+              "quantity": {
+                "value": "2670 kJ",
+                "numeric_value": 2670,
+                "unit": "kJ",
+                "alternate": {
+                  "value": "645 kcal",
+                  "numeric_value": 645,
+                  "unit": "kcal"
+                }
+              },
+              "rda": {
+                "percent": 32,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_FAT",
+              "name": "Fat",
+              "operator": "=",
+              "pictogram_name": "Fat",
+              "category": "BIG9",
+              "quantity": {
+                "value": "55 g",
+                "numeric_value": 55,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 79,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_SATURATED_FATTY_ACIDS",
+              "name": "of which saturates",
+              "operator": "=",
+              "pictogram_name": "saturated fatty acids",
+              "category": "BIG9",
+              "quantity": {
+                "value": "37 g",
+                "numeric_value": 37,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 185,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_CARBOHYDRATES",
+              "name": "Carbohydrate",
+              "operator": "=",
+              "category": "BIG9",
+              "quantity": {
+                "value": "28 g",
+                "numeric_value": 28,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 11,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_SUGAR",
+              "name": "of which sugars",
+              "operator": "=",
+              "pictogram_name": "Sugar",
+              "category": "BIG9",
+              "quantity": {
+                "value": "26 g",
+                "numeric_value": 26,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 29,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_FIBER",
+              "name": "Fibre",
+              "operator": "=",
+              "category": "BIG9",
+              "quantity": {
+                "value": "8.4 g",
+                "numeric_value": 8.4,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_PROTEIN",
+              "name": "Protein",
+              "operator": "=",
+              "category": "BIG9",
+              "quantity": {
+                "value": "5.4 g",
+                "numeric_value": 5.4,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 11,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_SALT",
+              "name": "Salt",
+              "operator": "=",
+              "pictogram_name": "Salt",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0.01 g",
+                "numeric_value": 0.01,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 0.5,
+                "operator": "<"
+              }
+            }
+          ]
+        },
+        "portion": {
+          "base": {
+            "quantity": {
+              "value": "26 g",
+              "numeric_value": 26,
+              "unit": "g"
+            }
+          },
+          "nutrients": [
+            {
+              "code": "NUT_ENERGY",
+              "name": "Energy",
+              "operator": "=",
+              "pictogram_name": "Energy",
+              "category": "BIG9",
+              "quantity": {
+                "value": "684 kJ",
+                "numeric_value": 684,
+                "unit": "kJ",
+                "alternate": {
+                  "value": "165 kcal",
+                  "numeric_value": 165,
+                  "unit": "kcal"
+                }
+              },
+              "rda": {
+                "percent": 8,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_FAT",
+              "name": "Fat",
+              "operator": "=",
+              "pictogram_name": "Fat",
+              "category": "BIG9",
+              "quantity": {
+                "value": "14 g",
+                "numeric_value": 14,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 20,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_SATURATED_FATTY_ACIDS",
+              "name": "of which saturates",
+              "operator": "=",
+              "pictogram_name": "saturated fatty acids",
+              "category": "BIG9",
+              "quantity": {
+                "value": "9.6 g",
+                "numeric_value": 9.6,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 48,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_CARBOHYDRATES",
+              "name": "Carbohydrate",
+              "operator": "=",
+              "category": "BIG9",
+              "quantity": {
+                "value": "7.3 g",
+                "numeric_value": 7.3,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 3,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_SUGAR",
+              "name": "of which sugars",
+              "operator": "=",
+              "pictogram_name": "Sugar",
+              "category": "BIG9",
+              "quantity": {
+                "value": "6.7 g",
+                "numeric_value": 6.7,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 7,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_FIBER",
+              "name": "Fibre",
+              "operator": "=",
+              "category": "BIG9",
+              "quantity": {
+                "value": "2.2 g",
+                "numeric_value": 2.2,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_PROTEIN",
+              "name": "Protein",
+              "operator": "=",
+              "category": "BIG9",
+              "quantity": {
+                "value": "1.4 g",
+                "numeric_value": 1.4,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 3,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_SALT",
+              "name": "Salt",
+              "operator": "<",
+              "pictogram_name": "Salt",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0.01 g",
+                "numeric_value": 0.01,
+                "unit": "g"
+              },
+              "rda": {
+                "percent": 0.5,
+                "operator": "<"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "recipe_ingredient_ids": [
+    "73463"
+  ],
+  "regional_availability": {
+    "gmaa": {
+      "probability": 50
+    },
+    "gmbs": {
+      "probability": 62
+    },
+    "gmge": {
+      "probability": 76
+    },
+    "gmlu": {
+      "probability": 42
+    },
+    "gmnf": {
+      "probability": 45
+    },
+    "gmos": {
+      "probability": 34
+    },
+    "gmti": {
+      "probability": 48
+    },
+    "gmvd": {
+      "probability": 49
+    },
+    "gmvs": {
+      "probability": 67
+    },
+    "gmzh": {
+      "probability": 71
+    }
+  },
+  "ratings": {
+    "count_all": 11,
+    "average_all": 4.272727272727
+  },
+  "reindex_date": "2025-12-31T00:00:00+0100",
+  "updated_at": "2023-08-17T07:15:08+0200",
+  "sap_created_at": "2020-05-05T00:00:00+0200",
+  "base_unit": "CU",
+  "views": [
+    "all",
+    "browse",
+    "browseallretailers"
+  ]
+}

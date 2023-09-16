@@ -1,0 +1,709 @@
+{
+  "id": "100210400000",
+  "language": "en",
+  "name": "Alnatura Kokos Zartbitter",
+  "names": {
+    "short_name": "Alnatura Kokos Zartbitter"
+  },
+  "slug": "alnatura-kokos-zartbitter",
+  "slugs": {
+    "de": "alnatura-kokos-zartbitter",
+    "fr": "alnatura-noix-coco-chocolat-noir",
+    "it": "alnatura-noce-cocco-cioccolato-nero",
+    "en": "alnatura-kokos-zartbitter"
+  },
+  "type": "00",
+  "boss_number": "010110043605",
+  "description": {
+    "text": "<p><strong>ALNATURA KOKOS ZARTBITTER</strong></p><p>BIO Zartbitterschokolade mit 50% Kokosf&uuml;llung, mindestens 60% Kakao in der Schokolade.</p>",
+    "source": "PEX"
+  },
+  "data_source": "SAP-X11",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03"
+  },
+  "tags": [
+    "source-pex",
+    "migipedia",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "4104420210936",
+    "7613312228739"
+  ],
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarket"
+  },
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "brand": {
+    "id": "D06",
+    "name": "Alnatura",
+    "slug": "alnatura",
+    "links": {
+      "homepage": {
+        "url": "https://www.migros.ch/de/einkaufen/migros-marken-und-labels/alnatura.html",
+        "name": "Homepage",
+        "type": "info",
+        "purchasable": false
+      }
+    },
+    "image": {
+      "original": "https://image.migros.ch/original/2c0deb7a67525727ed8213ce2b42bc8a6eb35567/alnatura.jpg",
+      "stack": "https://image.migros.ch/{stack}/2c0deb7a67525727ed8213ce2b42bc8a6eb35567/alnatura.jpg"
+    }
+  },
+  "labels": [
+    {
+      "id": "L52",
+      "name": "Third-party organic food",
+      "slug": "third-party-organic-food"
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_0101082101",
+      "name": "Schokoladentafeln",
+      "slug": "supermarkt/lebensmittel/suessigkeiten/schokolade/schokoladentafeln",
+      "visible": true,
+      "title": "Schokoladentafeln in grosser Auswahl bei der Migros",
+      "parent_code": "BeSS_01010821",
+      "level": 5
+    },
+    {
+      "code": "BeSS_01010821",
+      "name": "Schokolade",
+      "slug": "supermarkt/lebensmittel/suessigkeiten/schokolade",
+      "visible": true,
+      "parent_code": "BeSS_010108",
+      "level": 4
+    },
+    {
+      "code": "BeSS_010108",
+      "name": "Süssigkeiten",
+      "slug": "supermarkt/lebensmittel/suessigkeiten",
+      "visible": true,
+      "title": "Süssigkeiten aus Ihrer Migros: für Naschkatzen und Schleckmäuler",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/a9c80f4e896b5ebdd3b7ebbee11f956c8ff157cf/suessigkeiten.jpg",
+        "stack": "https://image.migros.ch/{stack}/a9c80f4e896b5ebdd3b7ebbee11f956c8ff157cf/suessigkeiten.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/31702195ec9d38aecefe80349eb347f79d56c750/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/31702195ec9d38aecefe80349eb347f79d56c750/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "online_relevant": [
+    {
+      "code": "MGB",
+      "name": "Migros Genossenschafts-Bund"
+    }
+  ],
+  "links": {
+    "migros_ch": {
+      "url": "https://www.migros.ch/en/product/100210400000?context=instore",
+      "name": "In-store assortment",
+      "canonical": "https://www.migros.ch/en/product/100210400000?context=instore",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/100210400000",
+      "name": "Migipedia",
+      "canonical": "https://www.migros.ch/en/product/100210400000?context=instore",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "receipt_text": "Alnatura Kokos",
+  "package": {
+    "content": 100,
+    "content_unit_code": "g",
+    "content_unit": "Gramm",
+    "net_weight": 0.1,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "portions_per_package": "5",
+    "brutto_weight": 0.112,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 0.119,
+    "brutto_volume_unit_code": "cdm",
+    "height": 15.5,
+    "length": 1,
+    "width": 7.7,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "100g"
+  },
+  "package_information": {
+    "tu": {
+      "gtins": [
+        "4104420216082",
+        "4104420210943"
+      ],
+      "brutto_weight": 1.357,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 2.223,
+      "brutto_volume_unit_code": "cdm",
+      "height": 16.7,
+      "length": 15.3,
+      "width": 8.7,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 12
+    },
+    "cu": {
+      "gtins": [
+        "4104420210936",
+        "7613312228739"
+      ],
+      "brutto_weight": 0.112,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.119,
+      "brutto_volume_unit_code": "cdm",
+      "height": 15.5,
+      "length": 1,
+      "width": 7.7,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "lu": {
+      "brutto_weight": 594940,
+      "brutto_weight_unit_code": "kg",
+      "length": 120,
+      "width": 80,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 5040
+    }
+  },
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "price": {
+    "valid_from": "2023-02-21T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 2.5,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "100g"
+    },
+    "base": {
+      "price": 2.5,
+      "quantity": 100,
+      "unit": "G"
+    }
+  },
+  "features": [
+    {
+      "label_code": "miso_produktionsanspruch",
+      "label": "Production process",
+      "values": [
+        {
+          "value_code": "MISO_produktionsanspruch_bioproduktion",
+          "value": "Bio-Produktion"
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "miso_cu_gebindeart",
+      "label": "Packaging type",
+      "values": [
+        {
+          "value_code": "MISO_cu_gebindeart_faltschachtel",
+          "value": "Faltschachtel"
+        }
+      ],
+      "category_code": "MISO_CLA_LebensmittelGetraenke_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "miso_formdersuesswaren",
+      "label": "Type of candy",
+      "values": [
+        {
+          "value_code": "MISO_formdersuesswaren_tafel",
+          "value": "Tafel"
+        }
+      ],
+      "category_code": "MISO_CLA_Suesswaren_SuesswarenSuessungsmittel_LebensmittelGetraenke_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "miso_artvonschokolade",
+      "label": "Type of chocolate",
+      "values": [
+        {
+          "value_code": "MISO_artvonschokolade_zartbitter",
+          "value": "Dark chocolate"
+        }
+      ],
+      "category_code": "MISO_CLA_Suesswaren_SuesswarenSuessungsmittel_LebensmittelGetraenke_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "MAPI_VEGETARIANISM",
+      "label": "Vegetarianism",
+      "values": [
+        {
+          "value_code": "MAPI_VEGETARIANISM_vegetarisch",
+          "value": "Vegetarian"
+        }
+      ],
+      "category_code": "MAPI_VEGETARIANISM",
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/fa62fea6798a7a954a4f2fd946f5e7168d38da72/alnatura-kokos-zartbitter.jpg",
+    "stack": "https://image.migros.ch/{stack}/fa62fea6798a7a954a4f2fd946f5e7168d38da72/alnatura-kokos-zartbitter.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/6b1a2752dbdc50cfbef35aae8792dcb92cdda58f/alnatura-kokos-zartbitter.png",
+    "stack": "https://image.migros.ch/{stack}/6b1a2752dbdc50cfbef35aae8792dcb92cdda58f/alnatura-kokos-zartbitter.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Standard item"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "HAWA"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "11124",
+          "value": "ALNATURA TAFELSCHOKOLADE"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LIFECYCLE",
+      "values": [
+        {
+          "value_code": "D",
+          "value": "Detailhandelsartikel"
+        }
+      ],
+      "category_code": "MAPI_LIFECYCLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_EXPORTABLE",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_EXPORTABLE",
+      "top_fact": false
+    }
+  ],
+  "declarations": {
+    "declaration_number": "Q_5162643746150539",
+    "tags": [
+      "source-qim"
+    ],
+    "gtins": [
+      "4104420210936"
+    ],
+    "valid_from": "2023-08-07T00:00:00+0200",
+    "product_details": {
+      "package": {
+        "number_of_portions": "5"
+      },
+      "net_filled_quantity": {
+        "value": "100 g",
+        "numeric_value": 100,
+        "unit": "g"
+      },
+      "net_weight": {
+        "value": "100 Gramm",
+        "numeric_value": 100,
+        "unit": "Gramm"
+      }
+    },
+    "distributor": {
+      "name": "Alnatura GmbH",
+      "address": "Mahatma-Gandhi-Straße 7, 64295 Darmstadt"
+    },
+    "ingredients_information": {
+      "allergens_information": {
+        "trace_allergens_text": "May contain: Nuts, Soya, Almonds, Hazelnuts",
+        "allergens": [
+          {
+            "code": "ALLG_MILCH",
+            "label": "Milk and its derivatives",
+            "contamination_code": "VORHANDEN",
+            "contamination_label": "contains"
+          }
+        ]
+      }
+    },
+    "nutrition_facts": {
+      "reference_sizes": {
+        "standard": {
+          "base": {
+            "quantity": {
+              "value": "100 g",
+              "numeric_value": 100,
+              "unit": "g"
+            }
+          },
+          "nutrients": [
+            {
+              "code": "NUT_ENERGY",
+              "name": "Energy",
+              "operator": "~",
+              "pictogram_name": "Energy",
+              "category": "BIG9",
+              "quantity": {
+                "value": "2450.00 kJ",
+                "numeric_value": 2450,
+                "unit": "kJ",
+                "alternate": {
+                  "value": "590.00 kcal",
+                  "numeric_value": 590,
+                  "unit": "kcal"
+                }
+              }
+            },
+            {
+              "code": "NUT_FAT",
+              "name": "Fat",
+              "operator": "~",
+              "pictogram_name": "Fat",
+              "category": "BIG9",
+              "quantity": {
+                "value": "44.00 g",
+                "numeric_value": 44,
+                "unit": "g"
+              },
+              "rating": {
+                "value": 2,
+                "text": "high",
+                "icon": {
+                  "original": "https://image.migros.ch/original/9aa833abc7cb7207238c3e98a1253eeb7bceee1f.svg",
+                  "stack": "https://image.migros.ch/{stack}/9aa833abc7cb7207238c3e98a1253eeb7bceee1f.svg"
+                },
+                "hex_color": "#cc0000"
+              }
+            },
+            {
+              "code": "NUT_SATURATED_FATTY_ACIDS",
+              "name": "of which saturates",
+              "operator": "~",
+              "pictogram_name": "saturated fatty acids",
+              "category": "BIG9",
+              "quantity": {
+                "value": "28.00 g",
+                "numeric_value": 28,
+                "unit": "g"
+              },
+              "rating": {
+                "value": 2,
+                "text": "high",
+                "icon": {
+                  "original": "https://image.migros.ch/original/9aa833abc7cb7207238c3e98a1253eeb7bceee1f.svg",
+                  "stack": "https://image.migros.ch/{stack}/9aa833abc7cb7207238c3e98a1253eeb7bceee1f.svg"
+                },
+                "hex_color": "#cc0000"
+              }
+            },
+            {
+              "code": "NUT_CARBOHYDRATES",
+              "name": "Carbohydrate",
+              "operator": "~",
+              "category": "BIG9",
+              "quantity": {
+                "value": "38.00 g",
+                "numeric_value": 38,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_SUGAR",
+              "name": "of which sugars",
+              "operator": "~",
+              "pictogram_name": "Sugar",
+              "category": "BIG9",
+              "quantity": {
+                "value": "36.00 g",
+                "numeric_value": 36,
+                "unit": "g"
+              },
+              "rating": {
+                "value": 2,
+                "text": "high",
+                "icon": {
+                  "original": "https://image.migros.ch/original/9aa833abc7cb7207238c3e98a1253eeb7bceee1f.svg",
+                  "stack": "https://image.migros.ch/{stack}/9aa833abc7cb7207238c3e98a1253eeb7bceee1f.svg"
+                },
+                "hex_color": "#cc0000"
+              }
+            },
+            {
+              "code": "NUT_FIBER",
+              "name": "Fibre",
+              "operator": "~",
+              "category": "BIG9",
+              "quantity": {
+                "value": "8.40 g",
+                "numeric_value": 8.4,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_PROTEIN",
+              "name": "Protein",
+              "operator": "~",
+              "category": "BIG9",
+              "quantity": {
+                "value": "6.40 g",
+                "numeric_value": 6.4,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_SALT",
+              "name": "Salt",
+              "operator": "~",
+              "pictogram_name": "Salt",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0.08 g",
+                "numeric_value": 0.08,
+                "unit": "g"
+              },
+              "rating": {
+                "value": 0,
+                "text": "low",
+                "icon": {
+                  "original": "https://image.migros.ch/original/a2b5e2562a4fedbbdec99c1932ec57c46c49cde4.svg",
+                  "stack": "https://image.migros.ch/{stack}/a2b5e2562a4fedbbdec99c1932ec57c46c49cde4.svg"
+                },
+                "hex_color": "#069800"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "recipe_ingredient_ids": [
+    "10000"
+  ],
+  "regional_availability": {
+    "gmaa": {
+      "probability": 26
+    },
+    "gmbs": {
+      "probability": 45
+    },
+    "gmge": {
+      "probability": 50
+    },
+    "gmlu": {
+      "probability": 28
+    },
+    "gmnf": {
+      "probability": 18
+    },
+    "gmos": {
+      "probability": 25
+    },
+    "gmti": {
+      "probability": 19
+    },
+    "gmvd": {
+      "probability": 19
+    },
+    "gmvs": {
+      "probability": 26
+    },
+    "gmzh": {
+      "probability": 32
+    }
+  },
+  "ratings": {
+    "count_all": 3,
+    "average_all": 4.666666666667
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "updated_at": "2023-08-16T07:20:54+0200",
+  "sap_created_at": "2018-10-08T00:00:00+0200",
+  "base_unit": "CU",
+  "origins": {
+    "producing_country": "Switzerland"
+  },
+  "views": [
+    "all",
+    "browse",
+    "browseallretailers"
+  ]
+}

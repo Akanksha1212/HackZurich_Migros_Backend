@@ -1,0 +1,450 @@
+{
+  "id": "848316700364",
+  "language": "en",
+  "name": "URBAN TRACK_S,khaki",
+  "names": {
+    "short_name": "URBAN TRACK_S,khaki"
+  },
+  "slug": "urban-track-s-khaki-khaki-s",
+  "slugs": {
+    "de": "urban-track-khaki-s",
+    "fr": "urban-track-khaki-s",
+    "it": "urban-track-khaki-s",
+    "en": "urban-track-s-khaki-khaki-s"
+  },
+  "type": "02",
+  "boss_number": "101210760510",
+  "data_source": "SAP-X12",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03",
+    "distribution_center": [
+      {
+        "center_id": "1001",
+        "center_name": "Migros Verteilzentrum Neuendorf",
+        "status_code": "99",
+        "status_description": "blocked for Dispo"
+      }
+    ]
+  },
+  "tags": [
+    "source-pex",
+    "migipedia",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": true,
+  "base_product_id": "848316700000",
+  "gtins": [
+    "5400520161413"
+  ],
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarket"
+  },
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "categories": [
+    {
+      "code": "BeSS_01061001",
+      "name": "Reisetrolley",
+      "slug": "supermarkt/bekleidung-accessoires/reisegepaeck-zubehoer/reisetrolley",
+      "visible": true,
+      "parent_code": "BeSS_010610",
+      "level": 4
+    },
+    {
+      "code": "BeSS_010610",
+      "name": "Reisegepäck & Zubehör",
+      "slug": "supermarkt/bekleidung-accessoires/reisegepaeck-zubehoer",
+      "visible": true,
+      "parent_code": "BeSS_0106",
+      "level": 3
+    },
+    {
+      "code": "BeSS_0106",
+      "name": "Bekleidung & Accessoires",
+      "slug": "supermarkt/bekleidung-accessoires",
+      "visible": true,
+      "title": "Kleider und Accessoires: Unser Supermarkt zieht alle an",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/afd5685b67370e2faef13438d6ffc0a15afd5d2d/bekleidung-accessoires.jpg",
+        "stack": "https://image.migros.ch/{stack}/afd5685b67370e2faef13438d6ffc0a15afd5d2d/bekleidung-accessoires.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "links": {
+    "migros_ch": {
+      "url": "https://www.migros.ch/en/product/848316700364?context=instore",
+      "name": "In-store assortment",
+      "canonical": "https://www.migros.ch/en/product/848316700364?context=instore",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/848316700364",
+      "name": "Migipedia",
+      "canonical": "https://www.migros.ch/en/product/848316700364?context=instore",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "m_check2": {},
+  "receipt_text": "URBAN TRACK",
+  "package": {
+    "brutto_weight": 3.1,
+    "brutto_weight_unit_code": "kg"
+  },
+  "package_information": {
+    "cu": {
+      "gtins": [
+        "5400520161413"
+      ],
+      "brutto_weight": 3.1,
+      "brutto_weight_unit_code": "kg",
+      "number_of_base_units": 1
+    },
+    "tuv": {
+      "number_of_base_units": 1
+    },
+    "tue": {
+      "number_of_base_units": 1
+    },
+    "lu": {
+      "number_of_base_units": 1
+    },
+    "moq": {
+      "number_of_base_units": 20
+    }
+  },
+  "vat": {
+    "id": 1,
+    "percentage": 7.7
+  },
+  "price": {
+    "valid_from": "2022-11-08T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 140,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false
+    }
+  },
+  "attributes": {
+    "color": {
+      "code": "FB24-64",
+      "name": "Farbe",
+      "value": "khaki"
+    },
+    "size": {
+      "code": "GH36-003",
+      "name": "Grösse",
+      "value": "S"
+    }
+  },
+  "image": {
+    "original": "https://image.migros.ch/original/3ae282b9e5c8c3d1512f493c740b0692e8fb49a1/urban-track-s-khaki.jpg",
+    "stack": "https://image.migros.ch/{stack}/3ae282b9e5c8c3d1512f493c740b0692e8fb49a1/urban-track-s-khaki.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/9651d31a057a8d6156362dea59597ea7e3602c43/urban-track-s-khaki.png",
+    "stack": "https://image.migros.ch/{stack}/9651d31a057a8d6156362dea59597ea7e3602c43/urban-track-s-khaki.png"
+  },
+  "additional_images": [
+    {
+      "original": "https://image.migros.ch/original/71c8e26ad0c48b53d68a112a6a1bc4216dd489d5.jpg",
+      "stack": "https://image.migros.ch/{stack}/71c8e26ad0c48b53d68a112a6a1bc4216dd489d5.jpg"
+    },
+    {
+      "original": "https://image.migros.ch/original/f52de5191a926c1b8dabba3db8ed38dcdc3cb08c.jpg",
+      "stack": "https://image.migros.ch/{stack}/f52de5191a926c1b8dabba3db8ed38dcdc3cb08c.jpg"
+    },
+    {
+      "original": "https://image.migros.ch/original/53ddb5cb60b00bfafb78d6631b8fe0b592bc9888.jpg",
+      "stack": "https://image.migros.ch/{stack}/53ddb5cb60b00bfafb78d6631b8fe0b592bc9888.jpg"
+    },
+    {
+      "original": "https://image.migros.ch/original/1733f09b413f93fa28b6ba4cc42a099fedff055a.jpg",
+      "stack": "https://image.migros.ch/{stack}/1733f09b413f93fa28b6ba4cc42a099fedff055a.jpg"
+    },
+    {
+      "original": "https://image.migros.ch/original/6c99de437444c50c6fd6a7a2fb96d1592b28e117.jpg",
+      "stack": "https://image.migros.ch/{stack}/6c99de437444c50c6fd6a7a2fb96d1592b28e117.jpg"
+    },
+    {
+      "original": "https://image.migros.ch/original/cca5a352ae197a918b179d3d63682133ee69c1d1.jpg",
+      "stack": "https://image.migros.ch/{stack}/cca5a352ae197a918b179d3d63682133ee69c1d1.jpg"
+    },
+    {
+      "original": "https://image.migros.ch/original/c243a1ffb7e50487547cb9f93bb05094797e6f59.jpg",
+      "stack": "https://image.migros.ch/{stack}/c243a1ffb7e50487547cb9f93bb05094797e6f59.jpg"
+    }
+  ],
+  "internal_features": [
+    {
+      "label_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+      "values": [
+        {
+          "value_code": "55",
+          "value": "Versandart Paket"
+        }
+      ],
+      "category_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LOGISTIC_CLASS",
+      "values": [
+        {
+          "value_code": "1",
+          "value": "Lager"
+        }
+      ],
+      "category_code": "MAPI_LOGISTIC_CLASS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Standard item"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "BEKL"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RISK_CLASS",
+      "values": [
+        {
+          "value_code": "3",
+          "value": "3 (low)"
+        }
+      ],
+      "category_code": "MAPI_RISK_CLASS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_QUALITY_CHECK",
+      "values": [
+        {
+          "value_code": "00",
+          "value": "No Quality Control"
+        }
+      ],
+      "category_code": "MAPI_QUALITY_CHECK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_KUBE_TUKA",
+      "values": [
+        {
+          "value_code": "BLANK",
+          "value": "KUBE und TUKA nicht zugelassen"
+        }
+      ],
+      "category_code": "MAPI_KUBE_TUKA",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "BEKL",
+          "value": "Bekleidung \"test\" Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "B",
+          "value": "Bekleidung"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "61060",
+          "value": "TROLLEYS"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_EXPORTABLE",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_EXPORTABLE",
+      "top_fact": false
+    }
+  ],
+  "regional_availability": {
+    "gmaa": {
+      "probability": 0
+    },
+    "gmbs": {
+      "probability": 2
+    },
+    "gmge": {
+      "probability": 3
+    },
+    "gmlu": {
+      "probability": 5
+    },
+    "gmnf": {
+      "probability": 2
+    },
+    "gmos": {
+      "probability": 1
+    },
+    "gmti": {
+      "probability": 3
+    },
+    "gmvd": {
+      "probability": 2
+    },
+    "gmvs": {
+      "probability": 0
+    },
+    "gmzh": {
+      "probability": 1
+    }
+  },
+  "quantity_on_stock": 17,
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "updated_at": "2023-08-14T12:21:16+0200",
+  "sap_created_at": "2022-09-26T00:00:00+0200",
+  "base_unit": "CU",
+  "origins": {
+    "producing_country": "China"
+  },
+  "views": [
+    "all",
+    "browse",
+    "browseallretailers"
+  ]
+}

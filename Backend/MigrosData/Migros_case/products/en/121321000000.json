@@ -1,0 +1,574 @@
+{
+  "id": "121321000000",
+  "language": "en",
+  "name": "Feldschlösschen Alkoholfrei",
+  "names": {
+    "short_name": "Feldschlösschen Alkoholfrei"
+  },
+  "slug": "feldschloesschen-alkoholfrei-121321000000",
+  "slugs": {
+    "de": "feldschloesschen-alkoholfrei-121321000000",
+    "fr": "feldschloesschen-sans-alcool-121321000000",
+    "it": "feldschloesschen-senza-alcool-121321000000",
+    "en": "feldschloesschen-alkoholfrei-121321000000"
+  },
+  "type": "00",
+  "boss_number": "010710380605",
+  "description": {
+    "text": "Unser Feldschl&ouml;sschen Alkoholfrei Lager ist das Ergebnis eines jahrelang perfektionierten und ausgefeilten Brauprozesses: Ein harmonisch-mildes, alkoholfreies Lagerbier mit ausbalanciertem K&ouml;rper. Voller Geschmack ohne Alkohol",
+    "source": "P4M"
+  },
+  "data_source": "SAP-X11",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03"
+  },
+  "tags": [
+    "source-p4m",
+    "migipedia",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7612900299441"
+  ],
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarket"
+  },
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "brand": {
+    "id": "G55",
+    "name": "Feldschlösschen",
+    "slug": "feldschloesschen"
+  },
+  "categories": [
+    {
+      "code": "BeSS_01011008",
+      "name": "Apéro-Getränke",
+      "slug": "supermarkt/lebensmittel/getraenke-heiss-kalt/apero-getraenke",
+      "visible": true,
+      "parent_code": "BeSS_010110",
+      "image": {
+        "original": "https://image.migros.ch/original/4a3f4c1b330eb545aae12d80ba193eafcc4028d4/apero-getraenke.jpg",
+        "stack": "https://image.migros.ch/{stack}/4a3f4c1b330eb545aae12d80ba193eafcc4028d4/apero-getraenke.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010110",
+      "name": "Getränke heiss & kalt",
+      "slug": "supermarkt/lebensmittel/getraenke-heiss-kalt",
+      "visible": true,
+      "title": "Getränke aus der Migros löschen auch Ihren Durst",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/d04d95fbc2e1b4ada4783d2976d37a962a0318a1/getraenke-heiss-kalt.jpg",
+        "stack": "https://image.migros.ch/{stack}/d04d95fbc2e1b4ada4783d2976d37a962a0318a1/getraenke-heiss-kalt.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/31702195ec9d38aecefe80349eb347f79d56c750/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/31702195ec9d38aecefe80349eb347f79d56c750/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "online_relevant": [
+    {
+      "code": "MGB",
+      "name": "Migros Genossenschafts-Bund"
+    },
+    {
+      "code": "MO",
+      "name": "Migros Online"
+    }
+  ],
+  "links": {
+    "migros_ch": {
+      "url": "https://www.migros.ch/en/product/121321000000?context=instore",
+      "name": "In-store assortment",
+      "canonical": "https://www.migros.ch/en/product/121321000000?context=instore",
+      "type": "info",
+      "purchasable": false
+    },
+    "migros_online": {
+      "url": "https://www.migros.ch/en/product/121321000000?context=online",
+      "mo_product_id": "129981",
+      "name": "Online-shop assortment",
+      "canonical": "https://www.migros.ch/en/product/121321000000?context=instore",
+      "type": "shop",
+      "purchasable": true,
+      "one_catalog_id": 100024835
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/121321000000",
+      "name": "Migipedia",
+      "canonical": "https://www.migros.ch/en/product/121321000000?context=instore",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "has_safety_sheet": false,
+  "m_check2": {},
+  "receipt_text": "Feldschlösschen 10x33",
+  "package": {
+    "content": 3300,
+    "content_unit_code": "ml",
+    "content_unit": "Millilitre",
+    "net_weight": 3.3,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogram",
+    "type": "CU",
+    "portions_per_package": "1",
+    "brutto_weight": 5.4,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 8.515,
+    "brutto_volume_unit_code": "cdm",
+    "height": 20.5,
+    "length": 12.9,
+    "width": 32.2,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "10 x 330ml"
+  },
+  "package_information": {
+    "tu": {
+      "gtins": [
+        "7613312039847"
+      ],
+      "brutto_weight": 5.32,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 8.331,
+      "brutto_volume_unit_code": "cdm",
+      "height": 20.5,
+      "length": 32,
+      "width": 12.7,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "cu": {
+      "gtins": [
+        "7612900299441"
+      ],
+      "brutto_weight": 5.4,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 8.515,
+      "brutto_volume_unit_code": "cdm",
+      "height": 20.5,
+      "length": 12.9,
+      "width": 32.2,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "lu": {
+      "brutto_weight": 818.8,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 1.378,
+      "brutto_volume_unit_code": "m3",
+      "height": 143.5,
+      "length": 120,
+      "width": 80,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 147
+    }
+  },
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "price": {
+    "valid_from": "2023-01-17T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 12.5,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "10 x 330ml"
+    },
+    "base": {
+      "price": 0.38,
+      "quantity": 100,
+      "unit": "ML"
+    }
+  },
+  "features": [
+    {
+      "label_code": "acxMISOcugebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "erxMISOcugebindeartflasche",
+          "value": "Bottle"
+        }
+      ],
+      "category_code": "ecxMISOCLAalkoholfreiegetraenketrinkfertiggetraenkelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOkohlensaeurehaltig",
+      "label": "Kohlensäurehaltig",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Yes",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "ecxMISOCLAalkoholfreiegetraenketrinkfertiggetraenkelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOartvonerfrischungsgetraenk",
+      "label": "Art von Erfrischungsgetränk",
+      "values": [
+        {
+          "value": "Bier"
+        }
+      ],
+      "category_code": "ecxMISOCLAalkoholfreiegetraenketrinkfertiggetraenkelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOanzahlentnehmbarereinzelportionen",
+      "label": "Anzahl entnehmbarer Einzeleinheiten",
+      "values": [
+        {
+          "value_code": "NUMERIC_10",
+          "value": "10",
+          "numeric_value": 10
+        }
+      ],
+      "category_code": "ecxMISOCLAalkoholfreiegetraenketrinkfertiggetraenkelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/1f625716a2eb46ae10f6818a11f409f471a39180/feldschloesschen-alkoholfrei.jpg",
+    "stack": "https://image.migros.ch/{stack}/1f625716a2eb46ae10f6818a11f409f471a39180/feldschloesschen-alkoholfrei.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/7048579f0fc095b496d3e0c4a2e11953af20f61a/feldschloesschen-alkoholfrei.png",
+    "stack": "https://image.migros.ch/{stack}/7048579f0fc095b496d3e0c4a2e11953af20f61a/feldschloesschen-alkoholfrei.png"
+  },
+  "additional_images": [
+    {
+      "original": "https://image.migros.ch/original/3600e200ab3f7cf36626ae001e8a55f7fa0e6138.jpg",
+      "stack": "https://image.migros.ch/{stack}/3600e200ab3f7cf36626ae001e8a55f7fa0e6138.jpg"
+    }
+  ],
+  "internal_features": [
+    {
+      "label_code": "MAPI_EXPORTABLE",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_EXPORTABLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Normalposition"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "HAWA"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "10720",
+          "value": "NON-ALCOHOLIC BEER"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LIFECYCLE",
+      "values": [
+        {
+          "value_code": "D",
+          "value": "Detailhandelsartikel"
+        }
+      ],
+      "category_code": "MAPI_LIFECYCLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_STORAGE_CONDITIONS",
+      "values": [
+        {
+          "value_code": "01",
+          "value": "normal"
+        }
+      ],
+      "category_code": "MAPI_STORAGE_CONDITIONS",
+      "top_fact": false
+    },
+    {
+      "label_code": "acxCommonarticlecocompensated",
+      "label": "Artikel Co2 kompensiert",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false
+    },
+    {
+      "label_code": "acxCommonmesswertcompensation",
+      "label": "CO2-Wert Kompensation",
+      "values": [
+        {
+          "value_code": "NUMERIC_0.463",
+          "value": "0.463",
+          "numeric_value": 0.463
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false,
+      "unit_code": "5d71456e-a520-4294-9ddb-add78f63ce83",
+      "unit": "Equivalence per kilogram",
+      "unit_symbol": "eq / kg"
+    },
+    {
+      "label_code": "acxCommonoutputmcheckclimatedeclaration",
+      "label": "Auslobung M-Check Klimadeklaration",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false
+    }
+  ],
+  "declarations": {
+    "declaration_number": "Q_2121841432603576",
+    "tags": [
+      "source-qim"
+    ],
+    "gtins": [
+      "7612900299441"
+    ],
+    "valid_from": "2023-04-30T00:00:00+0200"
+  },
+  "recipe_ingredient_ids": [
+    "14654",
+    "59059"
+  ],
+  "regional_availability": {
+    "gmaa": {
+      "probability": 91
+    },
+    "gmbs": {
+      "probability": 95
+    },
+    "gmge": {
+      "probability": 53
+    },
+    "gmlu": {
+      "probability": 81
+    },
+    "gmnf": {
+      "probability": 98
+    },
+    "gmos": {
+      "probability": 85
+    },
+    "gmti": {
+      "probability": 81
+    },
+    "gmvd": {
+      "probability": 75
+    },
+    "gmvs": {
+      "probability": 85
+    },
+    "gmzh": {
+      "probability": 84
+    }
+  },
+  "ratings": {
+    "count_all": 19,
+    "average_all": 4.842105263158
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "updated_at": "2023-08-17T11:47:57+0200",
+  "sap_created_at": "2014-12-10T18:00:00+0100",
+  "online_shop_relevant": false,
+  "base_unit": "CU",
+  "co2_compensation": {
+    "kg_co2": 0.463,
+    "kg_co2_compensation": 0.463,
+    "is_compensated": false,
+    "mcheck_enabled": false
+  },
+  "origins": {},
+  "views": [
+    "all",
+    "browse",
+    "browseallretailers"
+  ]
+}

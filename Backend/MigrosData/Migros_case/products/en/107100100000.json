@@ -1,0 +1,807 @@
+{
+  "id": "107100100000",
+  "language": "en",
+  "name": "Boncampo Bohnen 250g",
+  "names": {
+    "short_name": "Boncampo Bohnen 250g"
+  },
+  "slug": "boncampo-bohnen-250g",
+  "slugs": {
+    "de": "boncampo-bohnen-250g",
+    "fr": "boncampo-grains-250g",
+    "it": "boncampo-chicchi-250g",
+    "en": "boncampo-bohnen-250g"
+  },
+  "type": "00",
+  "boss_number": "010310300605",
+  "description": {
+    "text": "Boncampo Classico – kräftiger und rassiger Kaffeegenuss für jeden Tag.",
+    "source": "P4M"
+  },
+  "data_source": "SAP-X11",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03"
+  },
+  "tags": [
+    "source-p4m",
+    "migipedia",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7610200010568"
+  ],
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarket"
+  },
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "brand": {
+    "id": "020",
+    "name": "Boncampo",
+    "slug": "boncampo",
+    "image": {
+      "original": "https://image.migros.ch/original/49e282cb2255402d3ee4a71d0769cfe0df44b663/boncampo.jpg",
+      "stack": "https://image.migros.ch/{stack}/49e282cb2255402d3ee4a71d0769cfe0df44b663/boncampo.jpg"
+    }
+  },
+  "labels": [
+    {
+      "id": "L71",
+      "name": "Rainforest Alliance",
+      "slug": "rainforest-alliance"
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_0101100101",
+      "name": "Kaffeebohnen",
+      "slug": "supermarkt/lebensmittel/getraenke-heiss-kalt/kaffee/kaffeebohnen",
+      "visible": true,
+      "title": "Kaffeepulver und Bohnenkaffee in Ihrer Migros kaufen",
+      "parent_code": "BeSS_01011001",
+      "image": {
+        "original": "https://image.migros.ch/original/996dd8c4ef6c855f8356a1aa348b5f6ace27cd46/kaffeebohnen.jpg",
+        "stack": "https://image.migros.ch/{stack}/996dd8c4ef6c855f8356a1aa348b5f6ace27cd46/kaffeebohnen.jpg"
+      },
+      "level": 5
+    },
+    {
+      "code": "BeSS_01011001",
+      "name": "Kaffee",
+      "slug": "supermarkt/lebensmittel/getraenke-heiss-kalt/kaffee",
+      "visible": true,
+      "title": "Das schwarze Gold der Geniesser: Kaffee bei der Migros",
+      "parent_code": "BeSS_010110",
+      "image": {
+        "original": "https://image.migros.ch/original/878a8a7f86cd333586f7c8d78869200554182233/kaffee.jpg",
+        "stack": "https://image.migros.ch/{stack}/878a8a7f86cd333586f7c8d78869200554182233/kaffee.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010110",
+      "name": "Getränke heiss & kalt",
+      "slug": "supermarkt/lebensmittel/getraenke-heiss-kalt",
+      "visible": true,
+      "title": "Getränke aus der Migros löschen auch Ihren Durst",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/d04d95fbc2e1b4ada4783d2976d37a962a0318a1/getraenke-heiss-kalt.jpg",
+        "stack": "https://image.migros.ch/{stack}/d04d95fbc2e1b4ada4783d2976d37a962a0318a1/getraenke-heiss-kalt.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/31702195ec9d38aecefe80349eb347f79d56c750/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/31702195ec9d38aecefe80349eb347f79d56c750/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "online_relevant": [
+    {
+      "code": "MGB",
+      "name": "Migros Genossenschafts-Bund"
+    },
+    {
+      "code": "MO",
+      "name": "Migros Online"
+    }
+  ],
+  "links": {
+    "migros_ch": {
+      "url": "https://www.migros.ch/en/product/107100100000?context=instore",
+      "name": "In-store assortment",
+      "canonical": "https://www.migros.ch/en/product/107100100000?context=instore",
+      "type": "info",
+      "purchasable": false
+    },
+    "migros_online": {
+      "url": "https://www.migros.ch/en/product/107100100000?context=online",
+      "mo_product_id": "219449",
+      "name": "Online-shop assortment",
+      "canonical": "https://www.migros.ch/en/product/107100100000?context=instore",
+      "type": "shop",
+      "purchasable": true,
+      "one_catalog_id": 100037329
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/107100100000",
+      "name": "Migipedia",
+      "canonical": "https://www.migros.ch/en/product/107100100000?context=instore",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "has_safety_sheet": false,
+  "m_check2": {
+    "carbon_footprint": {
+      "image": {
+        "original": "https://image.migros.ch/original/6137c42cbff331738ddeafb4f91efb06075417b3.svg",
+        "stack": "https://image.migros.ch/{stack}/6137c42cbff331738ddeafb4f91efb06075417b3.svg"
+      },
+      "ground_and_sea_cargo": {
+        "kg_co2": 9.251,
+        "kg_co2_range": "4.8 - 9.9 kg CO₂eq / kg",
+        "co2_in_car_km": 51,
+        "rating": 2,
+        "production_in_percent": 98,
+        "packaging_in_percent": 2,
+        "transport_in_percent": 0
+      }
+    }
+  },
+  "receipt_text": "Boncampo Bohnen",
+  "package": {
+    "content": 250,
+    "content_unit_code": "g",
+    "content_unit": "Gram",
+    "net_weight": 0.25,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogram",
+    "type": "CU",
+    "portions_per_package": "1",
+    "brutto_weight": 0.26,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 0.766,
+    "brutto_volume_unit_code": "cdm",
+    "height": 17.2,
+    "length": 5.3,
+    "width": 8.4,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "250g"
+  },
+  "package_information": {
+    "tu": {
+      "gtins": [
+        "7613312215074",
+        "7617014000884"
+      ],
+      "brutto_weight": 3.938,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 13.813,
+      "brutto_volume_unit_code": "cdm",
+      "height": 17.8,
+      "length": 19.4,
+      "width": 40,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 14
+    },
+    "cu": {
+      "gtins": [
+        "7610200010568"
+      ],
+      "brutto_weight": 0.26,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.766,
+      "brutto_volume_unit_code": "cdm",
+      "height": 17.2,
+      "length": 5.3,
+      "width": 8.4,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "lu": {
+      "brutto_weight": 355.792,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 1860.48,
+      "brutto_volume_unit_code": "cdm",
+      "height": 168,
+      "length": 120,
+      "width": 80,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1176
+    }
+  },
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "price": {
+    "valid_from": "2023-01-02T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 3.5,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "250g"
+    },
+    "base": {
+      "price": 1.4,
+      "quantity": 100,
+      "unit": "G"
+    }
+  },
+  "features": [
+    {
+      "label_code": "acxMISOsaeure",
+      "label": "Säure (1-5)",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "ecxMISOCLAkaffeeersatzproduktegetraenkelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOkoerper",
+      "label": "Körper (1-5)",
+      "values": [
+        {
+          "value_code": "NUMERIC_5",
+          "value": "5",
+          "numeric_value": 5
+        }
+      ],
+      "category_code": "ecxMISOCLAkaffeeersatzproduktegetraenkelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOstaerkebis",
+      "label": "Stärke (1-10)",
+      "values": [
+        {
+          "value_code": "NUMERIC_5",
+          "value": "5",
+          "numeric_value": 5
+        }
+      ],
+      "category_code": "ecxMISOCLAkaffeeersatzproduktegetraenkelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOverwendung",
+      "label": "Verwendung",
+      "values": [
+        {
+          "value_code": "erxMISOverwendungwenngemahlenzusaetzlichfiltermaschine",
+          "value": "﻿if ground then additionally filter machine"
+        }
+      ],
+      "category_code": "ecxMISOCLAkaffeeersatzproduktegetraenkelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOintensitaet",
+      "label": "Intensität",
+      "values": [
+        {
+          "value_code": "erxMISOintensitaetrassig",
+          "value": "racy"
+        }
+      ],
+      "category_code": "ecxMISOCLAkaffeeersatzproduktegetraenkelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOroestaromen",
+      "label": "Röstaromen",
+      "values": [
+        {
+          "value_code": "erxMISOroestaromentabak",
+          "value": "Tobacco"
+        },
+        {
+          "value_code": "erxMISOroestaromenmelasse",
+          "value": "Molasses"
+        },
+        {
+          "value_code": "erxMISOroestaromenholz",
+          "value": "﻿Wood"
+        }
+      ],
+      "category_code": "ecxMISOCLAkaffeeersatzproduktegetraenkelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOcugebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "erxMISOcugebindeartbeutelsack",
+          "value": "Beutel/Sack"
+        }
+      ],
+      "category_code": "ecxMISOCLAkaffeeersatzproduktegetraenkelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOtassengroesse",
+      "label": "Tassengrösse",
+      "values": [
+        {
+          "value_code": "erxMISOtassengroesseverschiedenetassengroessen",
+          "value": "different cup sizes"
+        }
+      ],
+      "category_code": "ecxMISOCLAkaffeeersatzproduktegetraenkelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOentkoffeiniert",
+      "label": "Entkoffeiniert",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "ecxMISOCLAkaffeeersatzproduktegetraenkelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOkaffeeroestung",
+      "label": "Kaffeeröstung",
+      "values": [
+        {
+          "value_code": "erxMISOkaffeeroestunghellgeroestet",
+          "value": "hell geröstet"
+        }
+      ],
+      "category_code": "ecxMISOCLAkaffeeersatzproduktegetraenkelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISObotanischesorte",
+      "label": "Botanische Sorte",
+      "values": [
+        {
+          "value_code": "erxMISObotanischesortearabicarobusta",
+          "value": "Arabica / Robusta"
+        }
+      ],
+      "category_code": "ecxMISOCLAkaffeeersatzproduktegetraenkelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOsortedeskaffees",
+      "label": "Sorte des Kaffees",
+      "values": [
+        {
+          "value_code": "erxMISOsortedeskaffeesroestkaffee",
+          "value": "Röstkaffee"
+        }
+      ],
+      "category_code": "ecxMISOCLAkaffeeersatzproduktegetraenkelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOproduktionsanspruch",
+      "label": "Produktionsverfahren",
+      "values": [
+        {
+          "value_code": "erxMISOproduktionsanspruch100natuerlichezutaten",
+          "value": "100% natürliche Zutaten"
+        },
+        {
+          "value_code": "erxMISOproduktionsanspruchgeroestet",
+          "value": "Geröstet"
+        }
+      ],
+      "category_code": "ecxMISOCLAkaffeeersatzproduktegetraenkelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOzubereitungsverfahren",
+      "label": "Hinweise für die Zubereitung",
+      "values": [
+        {
+          "value_code": "erxMISOzubereitungsverfahrenkaffevollautomaten",
+          "value": "Kaffeevollautomaten"
+        }
+      ],
+      "category_code": "ecxMISOCLAkaffeeersatzproduktegetraenkelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOformbeschaffenheitdeskaffees",
+      "label": "Form/Beschaffenheit des Kaffees",
+      "values": [
+        {
+          "value_code": "erxMISOformbeschaffenheitdeskaffeeskaffeebohnen",
+          "value": "Kaffeebohnen"
+        }
+      ],
+      "category_code": "ecxMISOCLAkaffeeersatzproduktegetraenkelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOmoeglichevewendungsmengeintassen",
+      "label": "Mögliche Vewendungsmenge in Tassen",
+      "values": [
+        {
+          "value": "40ml - 150 ml"
+        }
+      ],
+      "category_code": "ecxMISOCLAkaffeeersatzproduktegetraenkelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/cc88f62b9f196f89273198b4ab0ce5b9aea077a7/boncampo-bohnen-250g.jpg",
+    "stack": "https://image.migros.ch/{stack}/cc88f62b9f196f89273198b4ab0ce5b9aea077a7/boncampo-bohnen-250g.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/3644cf39c345570aea3a4802c1b7f2eb5b8e9f6d/boncampo-bohnen-250g.png",
+    "stack": "https://image.migros.ch/{stack}/3644cf39c345570aea3a4802c1b7f2eb5b8e9f6d/boncampo-bohnen-250g.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_EXPORTABLE",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Yes",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MAPI_EXPORTABLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Normalposition"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "HAWA"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "10380",
+          "value": "COFFE BEANS LOW PRIC"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LIFECYCLE",
+      "values": [
+        {
+          "value_code": "D",
+          "value": "Detailhandelsartikel"
+        }
+      ],
+      "category_code": "MAPI_LIFECYCLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_STORAGE_CONDITIONS",
+      "values": [
+        {
+          "value_code": "01",
+          "value": "normal"
+        }
+      ],
+      "category_code": "MAPI_STORAGE_CONDITIONS",
+      "top_fact": false
+    },
+    {
+      "label_code": "acxCommonarticlecocompensated",
+      "label": "Artikel Co2 kompensiert",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false
+    },
+    {
+      "label_code": "acxCommonmesswertcompensation",
+      "label": "CO2-Wert Kompensation",
+      "values": [
+        {
+          "value_code": "NUMERIC_9.251",
+          "value": "9.251",
+          "numeric_value": 9.251
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false,
+      "unit_code": "5d71456e-a520-4294-9ddb-add78f63ce83",
+      "unit": "Equivalence per kilogram",
+      "unit_symbol": "eq / kg"
+    },
+    {
+      "label_code": "acxCommonoutputmcheckclimatedeclaration",
+      "label": "Auslobung M-Check Klimadeklaration",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Yes",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false
+    }
+  ],
+  "declarations": {
+    "declaration_number": "Q_2121841432600435",
+    "tags": [
+      "source-qim"
+    ],
+    "gtins": [
+      "7610200010568"
+    ],
+    "valid_from": "2020-03-20T01:00:00+0100",
+    "product_details": {
+      "net_filled_quantity": {
+        "value": "250 g",
+        "numeric_value": 250,
+        "unit": "g"
+      }
+    },
+    "general_information": [
+      {
+        "label": "Production information",
+        "values": [
+          "Packaged in a protective atmosphere."
+        ]
+      }
+    ]
+  },
+  "recipe_ingredient_ids": [
+    "14706",
+    "14707"
+  ],
+  "regional_availability": {
+    "gmaa": {
+      "probability": 100
+    },
+    "gmbs": {
+      "probability": 95
+    },
+    "gmge": {
+      "probability": 79
+    },
+    "gmlu": {
+      "probability": 98
+    },
+    "gmnf": {
+      "probability": 100
+    },
+    "gmos": {
+      "probability": 98
+    },
+    "gmti": {
+      "probability": 97
+    },
+    "gmvd": {
+      "probability": 100
+    },
+    "gmvs": {
+      "probability": 100
+    },
+    "gmzh": {
+      "probability": 94
+    }
+  },
+  "ratings": {
+    "count_all": 23,
+    "average_all": 4.409090909091
+  },
+  "related_products": {
+    "purchase_recommendations": {
+      "product_ids": [
+        "107100300000",
+        "107102000000",
+        "107118400000",
+        "107118300000",
+        "107100200000"
+      ]
+    }
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "updated_at": "2023-08-17T11:45:20+0200",
+  "sap_created_at": "2001-10-04T19:00:00+0200",
+  "online_shop_relevant": false,
+  "base_unit": "CU",
+  "co2_compensation": {
+    "kg_co2": 9.251,
+    "kg_co2_compensation": 9.251,
+    "is_compensated": false,
+    "mcheck_enabled": true
+  },
+  "origins": {},
+  "views": [
+    "all",
+    "browse",
+    "browseallretailers"
+  ]
+}

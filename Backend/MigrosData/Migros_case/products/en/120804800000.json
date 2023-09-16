@@ -1,0 +1,897 @@
+{
+  "id": "120804800000",
+  "language": "en",
+  "name": "Evian",
+  "names": {
+    "short_name": "Evian"
+  },
+  "slug": "evian-120804800000",
+  "slugs": {
+    "de": "evian-120804800000",
+    "fr": "evian-120804800000",
+    "it": "evian-120804800000",
+    "en": "evian-120804800000"
+  },
+  "type": "00",
+  "boss_number": "010710412105",
+  "description": {
+    "text": "Das nat&uuml;rliche, stille Mineralwasser entspringt aus der Évian-les-Bains Quelle, einem Badekurort in den franz&ouml;sischen Alpen. Die Quelle ist umgeben von einem 70.000 ha grossen Naturschutzgebiet. 15 Jahre durch das Gestein der franz&ouml;sischen Alpen gefiltert, bietet das natriumarme evian durch seine ausgewogene Mineralisierung ein pures Geschmackserlebnis.",
+    "source": "P4M"
+  },
+  "data_source": "SAP-X11",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03",
+    "distribution_center": [
+      {
+        "center_id": "1000",
+        "center_name": "Migros Verteilzentrum Suhr",
+        "status_code": "92",
+        "status_description": "Kein Einkauf/Bestand VZ"
+      },
+      {
+        "center_id": "1020",
+        "center_name": "Regionallager Basel",
+        "status_code": "92",
+        "status_description": "Kein Einkauf/Bestand VZ"
+      },
+      {
+        "center_id": "1030",
+        "center_name": "Regionallager Aare",
+        "status_code": "92",
+        "status_description": "Kein Einkauf/Bestand VZ"
+      },
+      {
+        "center_id": "1040",
+        "center_name": "Entrepôt régional Genève",
+        "status_code": "92",
+        "status_description": "Kein Einkauf/Bestand VZ"
+      },
+      {
+        "center_id": "1060",
+        "center_name": "Entrepôt régional Vaud",
+        "status_code": "92",
+        "status_description": "Kein Einkauf/Bestand VZ"
+      },
+      {
+        "center_id": "1070",
+        "center_name": "Regionallager Luzern",
+        "status_code": "92",
+        "status_description": "Kein Einkauf/Bestand VZ"
+      },
+      {
+        "center_id": "1080",
+        "center_name": "Entrepôt régional Neuchâtel /",
+        "status_code": "92",
+        "status_description": "Kein Einkauf/Bestand VZ"
+      },
+      {
+        "center_id": "1090",
+        "center_name": "Regionallager Ostschweiz",
+        "status_code": "92",
+        "status_description": "Kein Einkauf/Bestand VZ"
+      },
+      {
+        "center_id": "1120",
+        "center_name": "Magazzino regionale Ticino",
+        "status_code": "92",
+        "status_description": "Kein Einkauf/Bestand VZ"
+      },
+      {
+        "center_id": "1130",
+        "center_name": "Entrepôt régional Valais",
+        "status_code": "92",
+        "status_description": "Kein Einkauf/Bestand VZ"
+      },
+      {
+        "center_id": "1150",
+        "center_name": "Regionallager Zürich",
+        "status_code": "92",
+        "status_description": "Kein Einkauf/Bestand VZ"
+      }
+    ]
+  },
+  "tags": [
+    "source-p4m",
+    "migipedia",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "3068320084602"
+  ],
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarket"
+  },
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "brand": {
+    "id": "F10",
+    "name": "Evian",
+    "slug": "evian"
+  },
+  "categories": [
+    {
+      "code": "BeSS_01011003",
+      "name": "Mineralwasser",
+      "slug": "supermarkt/lebensmittel/getraenke-heiss-kalt/mineralwasser",
+      "visible": true,
+      "title": "Prickelnd oder still? Mineralwasser bei der Migros.",
+      "parent_code": "BeSS_010110",
+      "image": {
+        "original": "https://image.migros.ch/original/574cc3f9fbdd62dd1d09d75d050f8b351e8741ae/mineralwasser.jpg",
+        "stack": "https://image.migros.ch/{stack}/574cc3f9fbdd62dd1d09d75d050f8b351e8741ae/mineralwasser.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010110",
+      "name": "Getränke heiss & kalt",
+      "slug": "supermarkt/lebensmittel/getraenke-heiss-kalt",
+      "visible": true,
+      "title": "Getränke aus der Migros löschen auch Ihren Durst",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/d04d95fbc2e1b4ada4783d2976d37a962a0318a1/getraenke-heiss-kalt.jpg",
+        "stack": "https://image.migros.ch/{stack}/d04d95fbc2e1b4ada4783d2976d37a962a0318a1/getraenke-heiss-kalt.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/31702195ec9d38aecefe80349eb347f79d56c750/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/31702195ec9d38aecefe80349eb347f79d56c750/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "online_relevant": [
+    {
+      "code": "MGB",
+      "name": "Migros Genossenschafts-Bund"
+    }
+  ],
+  "links": {
+    "migros_ch": {
+      "url": "https://www.migros.ch/en/product/120804800000?context=instore",
+      "name": "In-store assortment",
+      "canonical": "https://www.migros.ch/en/product/120804800000?context=instore",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/120804800000",
+      "name": "Migipedia",
+      "canonical": "https://www.migros.ch/en/product/120804800000?context=instore",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "has_safety_sheet": false,
+  "m_check2": {},
+  "receipt_text": "Evian 1.5l",
+  "package": {
+    "content": 1500,
+    "content_unit_code": "ml",
+    "content_unit": "Millilitre",
+    "net_weight": 1.5,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogram",
+    "type": "CU",
+    "portions_per_package": "1",
+    "brutto_weight": 1.563,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 2.63,
+    "brutto_volume_unit_code": "cdm",
+    "height": 33.2,
+    "length": 8.9,
+    "width": 8.9,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "1.5l"
+  },
+  "package_information": {
+    "cu": {
+      "gtins": [
+        "3068320084602"
+      ],
+      "brutto_weight": 1.563,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 2.63,
+      "brutto_volume_unit_code": "cdm",
+      "height": 33.2,
+      "length": 8.9,
+      "width": 8.9,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    }
+  },
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "price": {
+    "valid_from": "2022-10-19T00:00:00+0200",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 1.15,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "1.5l"
+    },
+    "base": {
+      "price": 0.08,
+      "quantity": 100,
+      "unit": "ML"
+    }
+  },
+  "features": [
+    {
+      "label_code": "acxMISOcugebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "erxMISOcugebindeartflasche",
+          "value": "Bottle"
+        }
+      ],
+      "category_code": "ecxMISOCLAalkoholfreiegetraenketrinkfertiggetraenkelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOkohlensaeurehaltig",
+      "label": "Kohlensäurehaltig",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "ecxMISOCLAalkoholfreiegetraenketrinkfertiggetraenkelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOartvonerfrischungsgetraenk",
+      "label": "Art von Erfrischungsgetränk",
+      "values": [
+        {
+          "value": "Mineralwasser"
+        }
+      ],
+      "category_code": "ecxMISOCLAalkoholfreiegetraenketrinkfertiggetraenkelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/4e139f6a0ffe3164e2e63ce2b6d48f8c3e6bec3f/evian.jpg",
+    "stack": "https://image.migros.ch/{stack}/4e139f6a0ffe3164e2e63ce2b6d48f8c3e6bec3f/evian.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/5ab7530341b6125cd96e0dd644a45f365538d74c/evian.png",
+    "stack": "https://image.migros.ch/{stack}/5ab7530341b6125cd96e0dd644a45f365538d74c/evian.png"
+  },
+  "additional_images": [
+    {
+      "original": "https://image.migros.ch/original/5b4aa5eabc424a2a746f4e98f7a55ad196b28c64.jpg",
+      "stack": "https://image.migros.ch/{stack}/5b4aa5eabc424a2a746f4e98f7a55ad196b28c64.jpg"
+    }
+  ],
+  "internal_features": [
+    {
+      "label_code": "MAPI_EXPORTABLE",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_EXPORTABLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Normalposition"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "HAWA"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "10743",
+          "value": "MIN. WATER PREMIUM"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "A",
+          "value": "Aufreissartikel"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LIFECYCLE",
+      "values": [
+        {
+          "value_code": "D",
+          "value": "Detailhandelsartikel"
+        }
+      ],
+      "category_code": "MAPI_LIFECYCLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_STORAGE_CONDITIONS",
+      "values": [
+        {
+          "value_code": "01",
+          "value": "normal"
+        }
+      ],
+      "category_code": "MAPI_STORAGE_CONDITIONS",
+      "top_fact": false
+    },
+    {
+      "label_code": "acxCommonarticlecocompensated",
+      "label": "Artikel Co2 kompensiert",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false
+    },
+    {
+      "label_code": "acxCommonmesswertcompensation",
+      "label": "CO2-Wert Kompensation",
+      "values": [
+        {
+          "value_code": "NUMERIC_0.353",
+          "value": "0.353",
+          "numeric_value": 0.353
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false,
+      "unit_code": "5d71456e-a520-4294-9ddb-add78f63ce83",
+      "unit": "Equivalence per kilogram",
+      "unit_symbol": "eq / kg"
+    },
+    {
+      "label_code": "acxCommonoutputmcheckclimatedeclaration",
+      "label": "Auslobung M-Check Klimadeklaration",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false
+    }
+  ],
+  "declarations": {
+    "declaration_number": "Q_2121841432602722",
+    "tags": [
+      "source-qim"
+    ],
+    "gtins": [
+      "3068320084602"
+    ],
+    "valid_from": "2022-07-28T00:00:00+0200",
+    "product_details": {
+      "net_filled_quantity": {
+        "value": "150 cl",
+        "numeric_value": 150,
+        "unit": "cl"
+      }
+    },
+    "distributor": {
+      "name": "Evian-Volvic Suisse SA",
+      "address": "Hardturmstr. 135, 8005 Zürich, Schweiz"
+    },
+    "nutrition_facts": {
+      "serving_size_description": "250 ml",
+      "reference_sizes": {
+        "standard": {
+          "base": {
+            "quantity": {
+              "value": "100 ml",
+              "numeric_value": 100,
+              "unit": "ml"
+            }
+          },
+          "nutrients": [
+            {
+              "code": "NUT_ENERGY",
+              "name": "Energy",
+              "operator": "=",
+              "pictogram_name": "Energy",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0.0 kJ",
+                "numeric_value": 0,
+                "unit": "kJ",
+                "alternate": {
+                  "value": "0.0 kcal",
+                  "numeric_value": 0,
+                  "unit": "kcal"
+                }
+              }
+            },
+            {
+              "code": "NUT_FAT",
+              "name": "Fat",
+              "operator": "~",
+              "pictogram_name": "Fat",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0.0 g",
+                "numeric_value": 0,
+                "unit": "g"
+              },
+              "rating": {
+                "value": 0,
+                "text": "low",
+                "icon": {
+                  "original": "https://image.migros.ch/original/a2b5e2562a4fedbbdec99c1932ec57c46c49cde4.svg",
+                  "stack": "https://image.migros.ch/{stack}/a2b5e2562a4fedbbdec99c1932ec57c46c49cde4.svg"
+                },
+                "hex_color": "#069800"
+              }
+            },
+            {
+              "code": "NUT_SATURATED_FATTY_ACIDS",
+              "name": "of which saturates",
+              "operator": "~",
+              "pictogram_name": "saturated fatty acids",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0.0 g",
+                "numeric_value": 0,
+                "unit": "g"
+              },
+              "rating": {
+                "value": 0,
+                "text": "low",
+                "icon": {
+                  "original": "https://image.migros.ch/original/a2b5e2562a4fedbbdec99c1932ec57c46c49cde4.svg",
+                  "stack": "https://image.migros.ch/{stack}/a2b5e2562a4fedbbdec99c1932ec57c46c49cde4.svg"
+                },
+                "hex_color": "#069800"
+              }
+            },
+            {
+              "code": "NUT_CARBOHYDRATES",
+              "name": "Carbohydrate",
+              "operator": "~",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0.0 g",
+                "numeric_value": 0,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_SUGAR",
+              "name": "of which sugars",
+              "operator": "~",
+              "pictogram_name": "Sugar",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0.0 g",
+                "numeric_value": 0,
+                "unit": "g"
+              },
+              "rating": {
+                "value": 0,
+                "text": "low",
+                "icon": {
+                  "original": "https://image.migros.ch/original/a2b5e2562a4fedbbdec99c1932ec57c46c49cde4.svg",
+                  "stack": "https://image.migros.ch/{stack}/a2b5e2562a4fedbbdec99c1932ec57c46c49cde4.svg"
+                },
+                "hex_color": "#069800"
+              }
+            },
+            {
+              "code": "NUT_PROTEIN",
+              "name": "Protein",
+              "operator": "~",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0.0 g",
+                "numeric_value": 0,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_SALT",
+              "name": "Salt",
+              "operator": "~",
+              "pictogram_name": "Salt",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0.0 g",
+                "numeric_value": 0,
+                "unit": "g"
+              },
+              "rating": {
+                "value": 0,
+                "text": "low",
+                "icon": {
+                  "original": "https://image.migros.ch/original/a2b5e2562a4fedbbdec99c1932ec57c46c49cde4.svg",
+                  "stack": "https://image.migros.ch/{stack}/a2b5e2562a4fedbbdec99c1932ec57c46c49cde4.svg"
+                },
+                "hex_color": "#069800"
+              }
+            },
+            {
+              "code": "NUT_SODIUM",
+              "name": "Sodium",
+              "operator": "~",
+              "category": "BIG9",
+              "quantity": {
+                "value": "6.5",
+                "numeric_value": 6.5
+              }
+            },
+            {
+              "code": "NUT_POTASSIUM",
+              "name": "Potassium",
+              "operator": "~",
+              "category": "MINERALSTOFFE_SPURENELEMENTE",
+              "quantity": {
+                "value": "1.0 mg",
+                "numeric_value": 1,
+                "unit": "mg"
+              }
+            },
+            {
+              "code": "NUT_CHLORIDE",
+              "name": "Chloride",
+              "operator": "~",
+              "category": "MINERALSTOFFE_SPURENELEMENTE",
+              "quantity": {
+                "value": "10.0 mg",
+                "numeric_value": 10,
+                "unit": "mg"
+              }
+            },
+            {
+              "code": "NUT_CALCIUM",
+              "name": "Calcium",
+              "operator": "~",
+              "category": "MINERALSTOFFE_SPURENELEMENTE",
+              "quantity": {
+                "value": "80.0 mg",
+                "numeric_value": 80,
+                "unit": "mg"
+              }
+            },
+            {
+              "code": "NUT_MAGNESIUM",
+              "name": "Magnesium",
+              "operator": "~",
+              "category": "MINERALSTOFFE_SPURENELEMENTE",
+              "quantity": {
+                "value": "26.0 mg",
+                "numeric_value": 26,
+                "unit": "mg"
+              }
+            }
+          ]
+        },
+        "portion": {
+          "nutrients": [
+            {
+              "code": "NUT_ENERGY",
+              "name": "Energy",
+              "operator": "=",
+              "pictogram_name": "Energy",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0.0 kJ",
+                "numeric_value": 0,
+                "unit": "kJ",
+                "alternate": {
+                  "value": "0.0 kcal",
+                  "numeric_value": 0,
+                  "unit": "kcal"
+                }
+              }
+            },
+            {
+              "code": "NUT_FAT",
+              "name": "Fat",
+              "operator": "~",
+              "pictogram_name": "Fat",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0.0 g",
+                "numeric_value": 0,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_SATURATED_FATTY_ACIDS",
+              "name": "of which saturates",
+              "operator": "~",
+              "pictogram_name": "saturated fatty acids",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0.0 g",
+                "numeric_value": 0,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_CARBOHYDRATES",
+              "name": "Carbohydrate",
+              "operator": "~",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0.0 g",
+                "numeric_value": 0,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_SUGAR",
+              "name": "of which sugars",
+              "operator": "~",
+              "pictogram_name": "Sugar",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0.0 g",
+                "numeric_value": 0,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_PROTEIN",
+              "name": "Protein",
+              "operator": "~",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0.0 g",
+                "numeric_value": 0,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_SALT",
+              "name": "Salt",
+              "operator": "~",
+              "pictogram_name": "Salt",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0.0 g",
+                "numeric_value": 0,
+                "unit": "g"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "recipe_ingredient_ids": [
+    "14724"
+  ],
+  "regional_availability": {
+    "gmaa": {
+      "probability": 82
+    },
+    "gmbs": {
+      "probability": 81
+    },
+    "gmge": {
+      "probability": 82
+    },
+    "gmlu": {
+      "probability": 90
+    },
+    "gmnf": {
+      "probability": 90
+    },
+    "gmos": {
+      "probability": 75
+    },
+    "gmti": {
+      "probability": 84
+    },
+    "gmvd": {
+      "probability": 84
+    },
+    "gmvs": {
+      "probability": 81
+    },
+    "gmzh": {
+      "probability": 79
+    }
+  },
+  "ratings": {
+    "count_all": 56,
+    "average_all": 4.767857142857
+  },
+  "related_products": {
+    "purchase_recommendations": {
+      "product_ids": [
+        "120804900000",
+        "120850800000",
+        "120852000000",
+        "120850900000",
+        "120808800000"
+      ]
+    }
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "updated_at": "2023-08-17T07:19:54+0200",
+  "sap_created_at": "2012-07-10T19:00:00+0200",
+  "online_shop_relevant": false,
+  "base_unit": "CU",
+  "co2_compensation": {
+    "kg_co2": 0.353,
+    "kg_co2_compensation": 0.353,
+    "is_compensated": false,
+    "mcheck_enabled": false
+  },
+  "origins": {
+    "producing_country": "France"
+  },
+  "views": [
+    "all",
+    "browse",
+    "browseallretailers"
+  ]
+}

@@ -1,0 +1,741 @@
+{
+  "id": "746361390100",
+  "language": "en",
+  "name": "FISHER PRICE DLD31TÉLÉCOMMANDE_FR",
+  "names": {
+    "short_name": "FISHER PRICE DLD31TÉLÉCOMMANDE_FR"
+  },
+  "slug": "fisher-price-dld31telecommande-fr-franzoesisch",
+  "slugs": {
+    "de": "telecommand-f-franzoesisch",
+    "fr": "telecommand-f-francais",
+    "it": "telecommand-f-francese",
+    "en": "fisher-price-dld31telecommande-fr-franzoesisch"
+  },
+  "type": "02",
+  "product_type": "Lernspiel",
+  "boss_number": "130861301005",
+  "description": {
+    "text": "Spiel in französischer Sprache.",
+    "source": "PEX"
+  },
+  "data_source": "SAP-X12",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03",
+    "distribution_center": [
+      {
+        "center_id": "1001",
+        "center_name": "Migros Verteilzentrum Neuendorf",
+        "status_code": "03",
+        "status_description": "active"
+      }
+    ]
+  },
+  "tags": [
+    "source-pex",
+    "migipedia",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": true,
+  "base_product_id": "746361300000",
+  "gtins": [
+    "0887961256413",
+    "0746775094201"
+  ],
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarket"
+  },
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": true,
+      "reservable": true,
+      "stock_request": true,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": true,
+      "reservable": true,
+      "stock_request": true,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": true,
+      "reservable": true,
+      "stock_request": true,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": true,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": [
+        "P3"
+      ]
+    },
+    "micasa": {
+      "orderable": true,
+      "reservable": true,
+      "stock_request": true,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": true,
+      "reservable": true,
+      "stock_request": true,
+      "visible": true,
+      "exclude_cross_channel": []
+    }
+  },
+  "brand": {
+    "id": "MEF",
+    "name": "Fisher-Price",
+    "slug": "fisher-price",
+    "image": {
+      "original": "https://image.migros.ch/original/09d611569fe52e8ee355f85044e6c10987d5e285/fisher-price.jpg",
+      "stack": "https://image.migros.ch/{stack}/09d611569fe52e8ee355f85044e6c10987d5e285/fisher-price.jpg"
+    }
+  },
+  "categories": [
+    {
+      "code": "BeSS_01071207",
+      "name": "Kleinkinder",
+      "slug": "supermarkt/baby-kinder/spielwaren/kleinkinder",
+      "visible": true,
+      "title": "Spielsachen für Baby und Kleinkind in Ihrer Migros",
+      "parent_code": "BeSS_010712",
+      "image": {
+        "original": "https://image.migros.ch/original/ac83c8c8b96844bb02b4b77e5d117cccbdddfa48/kleinkinder.jpg",
+        "stack": "https://image.migros.ch/{stack}/ac83c8c8b96844bb02b4b77e5d117cccbdddfa48/kleinkinder.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010712",
+      "name": "Spielwaren",
+      "slug": "supermarkt/baby-kinder/spielwaren",
+      "visible": true,
+      "title": "Daran haben Kinder Freude: Spielwaren aus der Migros",
+      "parent_code": "BeSS_0107",
+      "image": {
+        "original": "https://image.migros.ch/original/44a2aeebd38216c32a1d9bbfc94664e575d085c1/spielwaren.jpg",
+        "stack": "https://image.migros.ch/{stack}/44a2aeebd38216c32a1d9bbfc94664e575d085c1/spielwaren.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0107",
+      "name": "Baby & Kinder",
+      "slug": "supermarkt/baby-kinder",
+      "visible": true,
+      "title": "Babyartikel: Alles rund ums Baby in Ihrer Migros kaufen",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/dc6e5e45f414e657061e049a69de80177f40ca98/baby-kinder.jpg",
+        "stack": "https://image.migros.ch/{stack}/dc6e5e45f414e657061e049a69de80177f40ca98/baby-kinder.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "MEL_SHOP_CAT_SpielePuzzle_Spielwaren_GamingSpielwaren",
+        "name": "Spiele & Puzzle",
+        "slug": "melectronics/gaming-spielwaren/spielwaren/spiele-puzzle",
+        "visible": true,
+        "parent_code": "MEL_SHOP_CAT_Spielwaren_GamingSpielwaren",
+        "level": 4
+      },
+      {
+        "code": "MEL_SHOP_CAT_Spielwaren_GamingSpielwaren",
+        "name": "Spielwaren",
+        "slug": "melectronics/gaming-spielwaren/spielwaren",
+        "visible": true,
+        "parent_code": "MEL_SHOP_CAT_GamingSpielwaren",
+        "level": 3
+      },
+      {
+        "code": "MEL_SHOP_CAT_GamingSpielwaren",
+        "name": "Gaming & Spielwaren",
+        "slug": "melectronics/gaming-spielwaren",
+        "visible": true,
+        "parent_code": "BeSS_04",
+        "level": 2
+      },
+      {
+        "code": "BeSS_04",
+        "name": "melectronics",
+        "slug": "melectronics",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "online_relevant": [
+    {
+      "code": "MGB",
+      "name": "Migros Genossenschafts-Bund"
+    }
+  ],
+  "links": {
+    "melectronics": {
+      "url": "https://www.melectronics.ch/de/p/746361390100/fisher-price-telecommand-f",
+      "name": "melectronics",
+      "canonical": "https://www.migros.ch/en/product/746361390100?context=instore",
+      "type": "shop",
+      "purchasable": true
+    },
+    "migros_ch": {
+      "url": "https://www.migros.ch/en/product/746361390100?context=instore",
+      "name": "In-store assortment",
+      "canonical": "https://www.migros.ch/en/product/746361390100?context=instore",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/746361390100",
+      "name": "Migipedia",
+      "canonical": "https://www.migros.ch/en/product/746361390100?context=instore",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "warranty_months": 24,
+  "receipt_text": "Fisher-Price DLD31",
+  "package": {
+    "content": 1,
+    "content_unit_code": "st",
+    "content_unit": "Stück",
+    "brutto_weight": 0.2,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 2.964,
+    "brutto_volume_unit_code": "cdm",
+    "height": 20.5,
+    "length": 5,
+    "width": 14.5,
+    "unit_dimension": "cm",
+    "price_comparison_content": 1,
+    "size": "1 Stk."
+  },
+  "package_information": {
+    "cu": {
+      "gtins": [
+        "0887961256413",
+        "0746775094201"
+      ],
+      "brutto_weight": 0.2,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 2.964,
+      "brutto_volume_unit_code": "cdm",
+      "height": 20.5,
+      "length": 5,
+      "width": 14.5,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "tuv": {
+      "brutto_weight": 1,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 7.392,
+      "brutto_volume_unit_code": "cdm",
+      "height": 22,
+      "length": 21,
+      "width": 16,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 4
+    },
+    "tue": {
+      "gtins": [
+        "10746775094208",
+        "10887961256410"
+      ],
+      "number_of_base_units": 4
+    },
+    "lu": {
+      "number_of_base_units": 1120
+    }
+  },
+  "vat": {
+    "id": 1,
+    "percentage": 7.7
+  },
+  "price": {
+    "valid_from": "2019-01-23T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 22.9,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "1 Stk."
+    },
+    "base": {
+      "price": 22.9,
+      "quantity": 1,
+      "unit": "st"
+    }
+  },
+  "features": [
+    {
+      "label_code": "mel_alter_von",
+      "label": "Alter ab (Monaten)",
+      "values": [
+        {
+          "value_code": "NUMERIC_6",
+          "value": "6",
+          "numeric_value": 6
+        }
+      ],
+      "category_code": "MEL_CLA_Spielwaren_Alle",
+      "top_fact": true,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "mel_alter_bis",
+      "label": "Alter bis (Monaten)",
+      "values": [
+        {
+          "value_code": "NUMERIC_36",
+          "value": "36",
+          "numeric_value": 36
+        }
+      ],
+      "category_code": "MEL_CLA_Spielwaren_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "mel_spielwaren_lizenz",
+      "label": "Lizenz",
+      "values": [
+        {
+          "value_code": "MEL_spielwaren_lizenz_FisherPrice",
+          "value": "Fisher-Price"
+        }
+      ],
+      "category_code": "MEL_CLA_Spielwaren_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "mel_sprache_neu",
+      "label": "Sprache",
+      "values": [
+        {
+          "value_code": "MEL_Sprachen_Franzoesisch",
+          "value": "Französisch"
+        }
+      ],
+      "category_code": "MEL_CLA_Spielwaren_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "mel_länge",
+      "label": "Länge",
+      "values": [
+        {
+          "value_code": "NUMERIC_5",
+          "value": "5 cm",
+          "numeric_value": 5
+        }
+      ],
+      "category_code": "MEL_CLA_Spielwaren_Alle",
+      "top_fact": false,
+      "unit_code": "cm",
+      "unit": "Zentimeter",
+      "unit_symbol": "cm",
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "mel_batterieninkl.",
+      "label": "Batterien inkl.",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Yes",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MEL_CLA_Spielwaren_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "mel_erforderliche_batterie",
+      "label": "Erforderliche Batterie",
+      "values": [
+        {
+          "value": "2 x R03 1.5V (Micro AAA)"
+        }
+      ],
+      "category_code": "MEL_CLA_Spielwaren_Alle",
+      "top_fact": true,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "mel_breite",
+      "label": "Breite",
+      "values": [
+        {
+          "value_code": "NUMERIC_14.5",
+          "value": "14.5 cm",
+          "numeric_value": 14.5
+        }
+      ],
+      "category_code": "MEL_CLA_Alle",
+      "top_fact": false,
+      "unit_code": "cm",
+      "unit": "Zentimeter",
+      "unit_symbol": "cm",
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "mel_hoehe",
+      "label": "Höhe",
+      "values": [
+        {
+          "value_code": "NUMERIC_20.5",
+          "value": "20.5 cm",
+          "numeric_value": 20.5
+        }
+      ],
+      "category_code": "MEL_CLA_Alle",
+      "top_fact": false,
+      "unit_code": "cm",
+      "unit": "Zentimeter",
+      "unit_symbol": "cm",
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "mel_m-garantie_m-garantie",
+      "label": "M-Garantie",
+      "values": [
+        {
+          "value_code": "MEL_M-Garantie_2Jahre",
+          "value": "2 Jahre"
+        }
+      ],
+      "category_code": "MEL_CLA_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    }
+  ],
+  "attributes": {
+    "typ_sprache": {
+      "code": "746361300000-A001-90100",
+      "name": "Sprache",
+      "value": "Französisch"
+    }
+  },
+  "image": {
+    "original": "https://image.migros.ch/original/2411aaa376f85295948c2783f4f79560e2f0e492/fisher-price-dld31telecommande-fr.jpg",
+    "stack": "https://image.migros.ch/{stack}/2411aaa376f85295948c2783f4f79560e2f0e492/fisher-price-dld31telecommande-fr.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/026e75a45a7db0a2cf17a4076ed21a8c35c39002/fisher-price-dld31telecommande-fr.png",
+    "stack": "https://image.migros.ch/{stack}/026e75a45a7db0a2cf17a4076ed21a8c35c39002/fisher-price-dld31telecommande-fr.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_RETURNABLE",
+      "label": "Return",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "true",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MAPI_RETURNABLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_MAX_ORDER_QUANTITY",
+      "values": [
+        {
+          "value_code": "NUMERIC_3",
+          "value": "3",
+          "numeric_value": 3
+        }
+      ],
+      "category_code": "MAPI_MAX_ORDER_QUANTITY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_EXCLUDE_FROM_COMPARISON_ENGINES",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "false",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_EXCLUDE_FROM_COMPARISON_ENGINES",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+      "values": [
+        {
+          "value_code": "55",
+          "value": "Versandart Paket"
+        }
+      ],
+      "category_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LOGISTIC_CLASS",
+      "values": [
+        {
+          "value_code": "7",
+          "value": "VMI"
+        }
+      ],
+      "category_code": "MAPI_LOGISTIC_CLASS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Standard item"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "HART"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRESENTATION",
+      "values": [
+        {
+          "value_code": "L",
+          "value": "liegend"
+        }
+      ],
+      "category_code": "MAPI_PRESENTATION",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RISK_CLASS",
+      "values": [
+        {
+          "value_code": "1",
+          "value": "1 (high)"
+        }
+      ],
+      "category_code": "MAPI_RISK_CLASS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_QUALITY_CHECK",
+      "values": [
+        {
+          "value_code": "00",
+          "value": "No Quality Control"
+        }
+      ],
+      "category_code": "MAPI_QUALITY_CHECK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_KUBE_TUKA",
+      "values": [
+        {
+          "value_code": "BLANK",
+          "value": "KUBE und TUKA nicht zugelassen"
+        }
+      ],
+      "category_code": "MAPI_KUBE_TUKA",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HART",
+          "value": "Hartwaren Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "H",
+          "value": "Hartwaren"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "61232",
+          "value": "LERNEN & MOTORIK"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_EXPORTABLE",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_EXPORTABLE",
+      "top_fact": false
+    }
+  ],
+  "regional_availability": {
+    "gmaa": {
+      "probability": 1
+    },
+    "gmbs": {
+      "probability": 2
+    },
+    "gmge": {
+      "probability": 26
+    },
+    "gmlu": {
+      "probability": 0
+    },
+    "gmnf": {
+      "probability": 24
+    },
+    "gmos": {
+      "probability": 0
+    },
+    "gmti": {
+      "probability": 0
+    },
+    "gmvd": {
+      "probability": 14
+    },
+    "gmvs": {
+      "probability": 19
+    },
+    "gmzh": {
+      "probability": 0
+    }
+  },
+  "ratings": {
+    "count_all": 4,
+    "average_all": 4
+  },
+  "quantity_on_stock": 160,
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "updated_at": "2023-08-17T07:47:33+0200",
+  "sap_created_at": "2013-10-31T00:00:00+0100",
+  "services": {
+    "logistics": [
+      {
+        "code": "MEL_LOGISTIK_FILIALE_POSTPAKET_GRATIS"
+      },
+      {
+        "code": "MEL_LOGISTIK_POSTPAKET_GRATIS"
+      }
+    ],
+    "others": []
+  },
+  "online_shop_relevant": true,
+  "base_unit": "CU",
+  "views": [
+    "all",
+    "browse",
+    "browseallretailers"
+  ]
+}

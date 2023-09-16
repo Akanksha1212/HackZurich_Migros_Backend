@@ -1,0 +1,483 @@
+{
+  "id": "109232500000",
+  "language": "en",
+  "name": "Optipet SPOT ON für Hunde",
+  "names": {
+    "short_name": "Optipet SPOT ON für Hunde"
+  },
+  "slug": "optipet-spot-on-fuer-hunde",
+  "slugs": {
+    "de": "optipet-spot-on-fuer-hunde",
+    "fr": "optipet-spot-on-pour-chien",
+    "it": "optipet-spot-on-per-cane",
+    "en": "optipet-spot-on-fuer-hunde"
+  },
+  "type": "00",
+  "boss_number": "011811723505",
+  "data_source": "SAP-X11",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03"
+  },
+  "tags": [
+    "source-pex",
+    "migipedia",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7610067472196"
+  ],
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarket"
+  },
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "brand": {
+    "id": "V54",
+    "name": "optipet",
+    "slug": "optipet"
+  },
+  "categories": [
+    {
+      "code": "BeSS_01080305",
+      "name": "Accessoires",
+      "slug": "supermarkt/tierwelt/hunde/accessoires",
+      "visible": true,
+      "parent_code": "BeSS_010803",
+      "image": {
+        "original": "https://image.migros.ch/original/c84a79d011bc8cf5e50f1e67c3385e4e3780223e/accessoires.jpg",
+        "stack": "https://image.migros.ch/{stack}/c84a79d011bc8cf5e50f1e67c3385e4e3780223e/accessoires.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010803",
+      "name": "Hunde",
+      "slug": "supermarkt/tierwelt/hunde",
+      "visible": true,
+      "title": "Futter und Spielzeug für Hunde: günstig von Ihrer Migros",
+      "parent_code": "BeSS_0108",
+      "image": {
+        "original": "https://image.migros.ch/original/25596459bd9a7c87e923581ab553946f6fa962f8/hunde.jpg",
+        "stack": "https://image.migros.ch/{stack}/25596459bd9a7c87e923581ab553946f6fa962f8/hunde.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0108",
+      "name": "Tierwelt",
+      "slug": "supermarkt/tierwelt",
+      "visible": true,
+      "title": "Tierwelt bei der Migros: nur das Beste für Ihren Liebling",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c6a8b209b0929b2040fbe89bc5edcacf6e029598/tierwelt.jpg",
+        "stack": "https://image.migros.ch/{stack}/c6a8b209b0929b2040fbe89bc5edcacf6e029598/tierwelt.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "BeSS_01080403",
+        "name": "Hygiene",
+        "slug": "supermarkt/tierwelt/nager/hygiene",
+        "visible": true,
+        "parent_code": "BeSS_010804",
+        "image": {
+          "original": "https://image.migros.ch/original/75cafc7e18b304f6e17242aba9c1acebabeacbab/hygiene.jpg",
+          "stack": "https://image.migros.ch/{stack}/75cafc7e18b304f6e17242aba9c1acebabeacbab/hygiene.jpg"
+        },
+        "level": 4
+      },
+      {
+        "code": "BeSS_010804",
+        "name": "Nager",
+        "slug": "supermarkt/tierwelt/nager",
+        "visible": true,
+        "title": "Alles für den Nager in Ihrer Migros finden – Streu und Futter",
+        "parent_code": "BeSS_0108",
+        "image": {
+          "original": "https://image.migros.ch/original/90fd8ce520ca0ef57549065c83abb37b9600747b/nager.jpg",
+          "stack": "https://image.migros.ch/{stack}/90fd8ce520ca0ef57549065c83abb37b9600747b/nager.jpg"
+        },
+        "level": 3
+      },
+      {
+        "code": "BeSS_0108",
+        "name": "Tierwelt",
+        "slug": "supermarkt/tierwelt",
+        "visible": true,
+        "title": "Tierwelt bei der Migros: nur das Beste für Ihren Liebling",
+        "parent_code": "BeSS_01",
+        "image": {
+          "original": "https://image.migros.ch/original/c6a8b209b0929b2040fbe89bc5edcacf6e029598/tierwelt.jpg",
+          "stack": "https://image.migros.ch/{stack}/c6a8b209b0929b2040fbe89bc5edcacf6e029598/tierwelt.jpg"
+        },
+        "level": 2
+      },
+      {
+        "code": "BeSS_01",
+        "name": "Supermarkt",
+        "slug": "supermarkt",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "online_relevant": [
+    {
+      "code": "MGB",
+      "name": "Migros Genossenschafts-Bund"
+    },
+    {
+      "code": "MO",
+      "name": "Migros Online"
+    }
+  ],
+  "galaxus_relevant": true,
+  "links": {
+    "migros_ch": {
+      "url": "https://www.migros.ch/en/product/109232500000?context=instore",
+      "name": "In-store assortment",
+      "canonical": "https://www.migros.ch/en/product/109232500000?context=instore",
+      "type": "info",
+      "purchasable": false
+    },
+    "migros_online": {
+      "url": "https://www.migros.ch/en/product/109232500000?context=online",
+      "mo_product_id": "7856086",
+      "name": "Online-shop assortment",
+      "canonical": "https://www.migros.ch/en/product/109232500000?context=instore",
+      "type": "shop",
+      "purchasable": true,
+      "one_catalog_id": 100050649
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/109232500000",
+      "name": "Migipedia",
+      "canonical": "https://www.migros.ch/en/product/109232500000?context=instore",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "m_check2": {
+    "carbon_footprint": {
+      "image": {
+        "original": "https://image.migros.ch/original/0a2093a1718156b317e9aac46d5c2589cfde38b7.svg",
+        "stack": "https://image.migros.ch/{stack}/0a2093a1718156b317e9aac46d5c2589cfde38b7.svg"
+      },
+      "ground_and_sea_cargo": {
+        "kg_co2": 1.31,
+        "kg_co2_range": "1 - 1.9 kg CO₂eq / kg",
+        "co2_in_car_km": 7,
+        "rating": 4,
+        "production_in_percent": 78.04,
+        "packaging_in_percent": 8.78,
+        "transport_in_percent": 13.18
+      }
+    }
+  },
+  "receipt_text": "Optipet SPOT ON Hund",
+  "package": {
+    "net_weight": 0.008,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "brutto_weight": 0.03,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 0.343,
+    "brutto_volume_unit_code": "cdm",
+    "height": 16.5,
+    "length": 2.6,
+    "width": 8,
+    "unit_dimension": "cm"
+  },
+  "package_information": {
+    "tu": {
+      "gtins": [
+        "7610067972191"
+      ],
+      "brutto_weight": 0.23,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 2.38,
+      "brutto_volume_unit_code": "cdm",
+      "height": 17.5,
+      "length": 16,
+      "width": 8.5,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 6
+    },
+    "cu": {
+      "gtins": [
+        "7610067472196"
+      ],
+      "brutto_weight": 0.03,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.343,
+      "brutto_volume_unit_code": "cdm",
+      "height": 16.5,
+      "length": 2.6,
+      "width": 8,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "lu": {
+      "brutto_weight": 174.5,
+      "brutto_weight_unit_code": "kg",
+      "length": 120,
+      "width": 80,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 3900
+    }
+  },
+  "vat": {
+    "id": 1,
+    "percentage": 7.7
+  },
+  "price": {
+    "valid_from": "2022-05-03T00:00:00+0200",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 9.95,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false
+    }
+  },
+  "image": {
+    "original": "https://image.migros.ch/original/4b1c448d039b3bac3428a82ca2b90b624f39613a/optipet-spot-on-fuer-hunde.jpg",
+    "stack": "https://image.migros.ch/{stack}/4b1c448d039b3bac3428a82ca2b90b624f39613a/optipet-spot-on-fuer-hunde.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/6054137d8d2dc1a7759aa6b8342eaa1bbad51ec9/optipet-spot-on-fuer-hunde.png",
+    "stack": "https://image.migros.ch/{stack}/6054137d8d2dc1a7759aa6b8342eaa1bbad51ec9/optipet-spot-on-fuer-hunde.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Standard item"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "HAWA"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "11824",
+          "value": "PFLEGE"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LIFECYCLE",
+      "values": [
+        {
+          "value_code": "D",
+          "value": "Detailhandelsartikel"
+        }
+      ],
+      "category_code": "MAPI_LIFECYCLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_EXPORTABLE",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_EXPORTABLE",
+      "top_fact": false
+    }
+  ],
+  "recipe_ingredient_ids": [
+    "10000"
+  ],
+  "regional_availability": {
+    "gmaa": {
+      "probability": 78
+    },
+    "gmbs": {
+      "probability": 55
+    },
+    "gmge": {
+      "probability": 57
+    },
+    "gmlu": {
+      "probability": 22
+    },
+    "gmnf": {
+      "probability": 92
+    },
+    "gmos": {
+      "probability": 70
+    },
+    "gmti": {
+      "probability": 68
+    },
+    "gmvd": {
+      "probability": 72
+    },
+    "gmvs": {
+      "probability": 78
+    },
+    "gmzh": {
+      "probability": 63
+    }
+  },
+  "ratings": {
+    "count_all": 8,
+    "average_all": 3.75
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "updated_at": "2023-08-17T11:48:10+0200",
+  "sap_created_at": "2020-07-29T00:00:00+0200",
+  "base_unit": "CU",
+  "views": [
+    "all",
+    "browse",
+    "browseallretailers"
+  ]
+}

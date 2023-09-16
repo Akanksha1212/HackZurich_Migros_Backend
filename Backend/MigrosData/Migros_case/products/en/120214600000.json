@@ -1,0 +1,777 @@
+{
+  "id": "120214600000",
+  "language": "en",
+  "name": "El Tony Mate",
+  "names": {
+    "short_name": "El Tony Mate"
+  },
+  "slug": "el-tony-mate",
+  "slugs": {
+    "de": "el-tony-mate",
+    "fr": "el-tony-mate",
+    "it": "el-tony-mate",
+    "en": "el-tony-mate"
+  },
+  "type": "00",
+  "boss_number": "010710373105",
+  "description": {
+    "text": "<p><strong>EL TONY Mate</strong></p><p>Im Cold Brew-Verfahren frisch aufgebr&uuml;ht und mit Bio-Rohrzucker ges&uuml;sst, wird vereint, was zusammen geh&ouml;rt. Mate, der s&uuml;damerikanische «Trank der G&ouml;tter» und die dort ebenfalls heimische Superfrucht Guarana werden eins, um dir ein Maximum an Power zu verleihen.</p>",
+    "source": "P4M"
+  },
+  "data_source": "SAP-X11",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03"
+  },
+  "tags": [
+    "source-p4m",
+    "migipedia",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7640150491001"
+  ],
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarket"
+  },
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "brand": {
+    "id": "T71",
+    "name": "El Tony",
+    "slug": "el-tony"
+  },
+  "categories": [
+    {
+      "code": "BeSS_01011008",
+      "name": "Apéro-Getränke",
+      "slug": "supermarkt/lebensmittel/getraenke-heiss-kalt/apero-getraenke",
+      "visible": true,
+      "parent_code": "BeSS_010110",
+      "image": {
+        "original": "https://image.migros.ch/original/4a3f4c1b330eb545aae12d80ba193eafcc4028d4/apero-getraenke.jpg",
+        "stack": "https://image.migros.ch/{stack}/4a3f4c1b330eb545aae12d80ba193eafcc4028d4/apero-getraenke.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010110",
+      "name": "Getränke heiss & kalt",
+      "slug": "supermarkt/lebensmittel/getraenke-heiss-kalt",
+      "visible": true,
+      "title": "Getränke aus der Migros löschen auch Ihren Durst",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/d04d95fbc2e1b4ada4783d2976d37a962a0318a1/getraenke-heiss-kalt.jpg",
+        "stack": "https://image.migros.ch/{stack}/d04d95fbc2e1b4ada4783d2976d37a962a0318a1/getraenke-heiss-kalt.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/31702195ec9d38aecefe80349eb347f79d56c750/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/31702195ec9d38aecefe80349eb347f79d56c750/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "BeSS_0101100901",
+        "name": "Eistee flüssig",
+        "slug": "supermarkt/lebensmittel/getraenke-heiss-kalt/eistee/eistee-fluessig",
+        "visible": true,
+        "title": "Eistee in Ihrer Migros kaufen",
+        "parent_code": "BeSS_01011009",
+        "image": {
+          "original": "https://image.migros.ch/original/df189c0ff8eb9b39e368107ef452ddc6a682c89f/eistee-fluessig.jpg",
+          "stack": "https://image.migros.ch/{stack}/df189c0ff8eb9b39e368107ef452ddc6a682c89f/eistee-fluessig.jpg"
+        },
+        "level": 5
+      },
+      {
+        "code": "BeSS_01011009",
+        "name": "Eistee",
+        "slug": "supermarkt/lebensmittel/getraenke-heiss-kalt/eistee",
+        "visible": true,
+        "title": "Eistee in Ihrer Migros kaufen",
+        "parent_code": "BeSS_010110",
+        "image": {
+          "original": "https://image.migros.ch/original/66df15ad7dda7e7b6cac55e1c8459ccba61bc5d5/eistee.jpg",
+          "stack": "https://image.migros.ch/{stack}/66df15ad7dda7e7b6cac55e1c8459ccba61bc5d5/eistee.jpg"
+        },
+        "level": 4
+      },
+      {
+        "code": "BeSS_010110",
+        "name": "Getränke heiss & kalt",
+        "slug": "supermarkt/lebensmittel/getraenke-heiss-kalt",
+        "visible": true,
+        "title": "Getränke aus der Migros löschen auch Ihren Durst",
+        "parent_code": "BeSS_0101",
+        "image": {
+          "original": "https://image.migros.ch/original/d04d95fbc2e1b4ada4783d2976d37a962a0318a1/getraenke-heiss-kalt.jpg",
+          "stack": "https://image.migros.ch/{stack}/d04d95fbc2e1b4ada4783d2976d37a962a0318a1/getraenke-heiss-kalt.jpg"
+        },
+        "level": 3
+      },
+      {
+        "code": "BeSS_0101",
+        "name": "Lebensmittel",
+        "slug": "supermarkt/lebensmittel",
+        "visible": true,
+        "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+        "parent_code": "BeSS_01",
+        "image": {
+          "original": "https://image.migros.ch/original/31702195ec9d38aecefe80349eb347f79d56c750/lebensmittel.jpg",
+          "stack": "https://image.migros.ch/{stack}/31702195ec9d38aecefe80349eb347f79d56c750/lebensmittel.jpg"
+        },
+        "level": 2
+      },
+      {
+        "code": "BeSS_01",
+        "name": "Supermarkt",
+        "slug": "supermarkt",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "online_relevant": [
+    {
+      "code": "MGB",
+      "name": "Migros Genossenschafts-Bund"
+    },
+    {
+      "code": "MO",
+      "name": "Migros Online"
+    }
+  ],
+  "links": {
+    "migros_ch": {
+      "url": "https://www.migros.ch/en/product/120214600000?context=instore",
+      "name": "In-store assortment",
+      "canonical": "https://www.migros.ch/en/product/120214600000?context=instore",
+      "type": "info",
+      "purchasable": false
+    },
+    "migros_online": {
+      "url": "https://www.migros.ch/en/product/120214600000?context=online",
+      "mo_product_id": "4979976",
+      "name": "Online-shop assortment",
+      "canonical": "https://www.migros.ch/en/product/120214600000?context=instore",
+      "type": "shop",
+      "purchasable": true,
+      "one_catalog_id": 100049259
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/120214600000",
+      "name": "Migipedia",
+      "canonical": "https://www.migros.ch/en/product/120214600000?context=instore",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "has_safety_sheet": false,
+  "m_check2": {},
+  "receipt_text": "El Tony Mate 330ml",
+  "package": {
+    "content": 330,
+    "content_unit_code": "ml",
+    "content_unit": "Millilitre",
+    "net_weight": 0.33,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogram",
+    "portions_per_package": "24",
+    "brutto_weight": 0.345,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 0.486,
+    "brutto_volume_unit_code": "cdm",
+    "height": 11.5,
+    "length": 6.5,
+    "width": 6.5,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "330ml"
+  },
+  "package_information": {
+    "tu": {
+      "gtins": [
+        "7640150491018"
+      ],
+      "brutto_weight": 8.78,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 12.42,
+      "brutto_volume_unit_code": "cdm",
+      "height": 11.5,
+      "length": 40,
+      "width": 27,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 24
+    },
+    "cu": {
+      "gtins": [
+        "7640150491001"
+      ],
+      "brutto_weight": 0.345,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.486,
+      "brutto_volume_unit_code": "cdm",
+      "height": 11.5,
+      "length": 6.5,
+      "width": 6.5,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "lu": {
+      "brutto_weight": 894.22,
+      "brutto_weight_unit_code": "kg",
+      "length": 120,
+      "width": 80,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 2376
+    }
+  },
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "price": {
+    "valid_from": "2023-01-02T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 1.9,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "330ml"
+    },
+    "base": {
+      "price": 0.58,
+      "quantity": 100,
+      "unit": "ML"
+    }
+  },
+  "features": [
+    {
+      "label_code": "MAPI_VEGETARIANISM",
+      "label": "Vegetarianism",
+      "values": [
+        {
+          "value_code": "MAPI_VEGETARIANISM_vegetarisch",
+          "value": "Vegetarian"
+        },
+        {
+          "value_code": "MAPI_VEGETARIANISM_vegan",
+          "value": "Vegan"
+        }
+      ],
+      "category_code": "MAPI_VEGETARIANISM",
+      "top_fact": false
+    },
+    {
+      "label_code": "acxMISOcugebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "erxMISOcugebindeartdose",
+          "value": "Dose"
+        }
+      ],
+      "category_code": "ecxMISOCLAalkoholfreiegetraenketrinkfertiggetraenkelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOkoffeinhaltig",
+      "label": "Koffeinhaltig",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Yes",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "ecxMISOCLAalkoholfreiegetraenketrinkfertiggetraenkelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOkohlensaeurehaltig",
+      "label": "Kohlensäurehaltig",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Yes",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "ecxMISOCLAalkoholfreiegetraenketrinkfertiggetraenkelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOartvonerfrischungsgetraenk",
+      "label": "Art von Erfrischungsgetränk",
+      "values": [
+        {
+          "value": "Energy Drink"
+        }
+      ],
+      "category_code": "ecxMISOCLAalkoholfreiegetraenketrinkfertiggetraenkelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/80148babd095b03a7082dbfa7a94568bde89b8b2/el-tony-mate.jpg",
+    "stack": "https://image.migros.ch/{stack}/80148babd095b03a7082dbfa7a94568bde89b8b2/el-tony-mate.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/e7844e3f07c26bc97fe25520a12aab4ef2c43a28/el-tony-mate.png",
+    "stack": "https://image.migros.ch/{stack}/e7844e3f07c26bc97fe25520a12aab4ef2c43a28/el-tony-mate.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_RETURNABLE",
+      "label": "Return",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "true",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MAPI_RETURNABLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_EXPORTABLE",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_EXPORTABLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Normalposition"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "HAWA"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "10716",
+          "value": "ENERGY DRINK"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LIFECYCLE",
+      "values": [
+        {
+          "value_code": "D",
+          "value": "Detailhandelsartikel"
+        }
+      ],
+      "category_code": "MAPI_LIFECYCLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_STORAGE_CONDITIONS",
+      "values": [
+        {
+          "value_code": "01",
+          "value": "normal"
+        }
+      ],
+      "category_code": "MAPI_STORAGE_CONDITIONS",
+      "top_fact": false
+    },
+    {
+      "label_code": "acxCommonarticlecocompensated",
+      "label": "Artikel Co2 kompensiert",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false
+    },
+    {
+      "label_code": "acxCommonmesswertcompensation",
+      "label": "CO2-Wert Kompensation",
+      "values": [
+        {
+          "value_code": "NUMERIC_0.353",
+          "value": "0.353",
+          "numeric_value": 0.353
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false,
+      "unit_code": "5d71456e-a520-4294-9ddb-add78f63ce83",
+      "unit": "Equivalence per kilogram",
+      "unit_symbol": "eq / kg"
+    },
+    {
+      "label_code": "acxCommonoutputmcheckclimatedeclaration",
+      "label": "Auslobung M-Check Klimadeklaration",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false
+    }
+  ],
+  "declarations": {
+    "declaration_number": "Q_2121841432602166",
+    "tags": [
+      "source-qim"
+    ],
+    "gtins": [
+      "7640150491001"
+    ],
+    "valid_from": "2023-04-30T00:00:00+0200",
+    "product_details": {
+      "regulated_description": "Caffeinated soft drink",
+      "product_description": "El Tony® - freshly brewed mate tea from South America, refined with guarana and lemon juice. A unique blend that refreshes and invigorates. Yerba-Mate - already known by the Incas as the \"Potion of the Gods\" - contains natural caffeine and is still used as a popular watchdog in South America today.",
+      "package": {
+        "number_of_portions": "24"
+      }
+    },
+    "distributor": {
+      "name": "intelligentfood Schweiz AG",
+      "address": "Chäppelimattstrsse 56030 Ebikon"
+    },
+    "general_information": [
+      {
+        "label": "Warnings / mandatory notes",
+        "values": [
+          "Because of the increased caffeine content consume only in limited quantities. Not suitable for children, pregnant or nursing women and caffeine-sensitive persons."
+        ]
+      },
+      {
+        "label": "Consumer storage instructions",
+        "values": [
+          "cool and dry"
+        ]
+      }
+    ],
+    "ingredients_information": {
+      "ingredients_text": "Infusion of mate tea (water, mate tea) (90%), cane sugar, lemon juice lemon concentrate, carbon dioxide, guaranae extract (0.1%), flavoring"
+    },
+    "nutrition_facts": {
+      "reference_sizes": {
+        "standard": {
+          "base": {
+            "quantity": {
+              "value": "100 g",
+              "numeric_value": 100,
+              "unit": "g"
+            }
+          },
+          "nutrients": [
+            {
+              "code": "NUT_ENERGY",
+              "name": "Energy",
+              "operator": "=",
+              "pictogram_name": "Energy",
+              "category": "BIG9",
+              "quantity": {
+                "value": "104 kJ",
+                "numeric_value": 104,
+                "unit": "kJ",
+                "alternate": {
+                  "value": "24 kcal",
+                  "numeric_value": 24,
+                  "unit": "kcal"
+                }
+              }
+            },
+            {
+              "code": "NUT_FAT",
+              "name": "Fat",
+              "operator": "<",
+              "pictogram_name": "Fat",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0.5 g",
+                "numeric_value": 0.5,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_SATURATED_FATTY_ACIDS",
+              "name": "of which saturates",
+              "operator": "<",
+              "pictogram_name": "saturated fatty acids",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0.1 g",
+                "numeric_value": 0.1,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_CARBOHYDRATES",
+              "name": "Carbohydrate",
+              "operator": "=",
+              "category": "BIG9",
+              "quantity": {
+                "value": "5.8 g",
+                "numeric_value": 5.8,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_SUGAR",
+              "name": "of which sugars",
+              "operator": "=",
+              "pictogram_name": "Sugar",
+              "category": "BIG9",
+              "quantity": {
+                "value": "5.8 g",
+                "numeric_value": 5.8,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_PROTEIN",
+              "name": "Protein",
+              "operator": "<",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0.5 g",
+                "numeric_value": 0.5,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_SALT",
+              "name": "Salt",
+              "operator": "<",
+              "pictogram_name": "Salt",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0.01 g",
+                "numeric_value": 0.01,
+                "unit": "g"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "recipe_ingredient_ids": [
+    "12058117"
+  ],
+  "regional_availability": {
+    "gmaa": {
+      "probability": 100
+    },
+    "gmbs": {
+      "probability": 100
+    },
+    "gmge": {
+      "probability": 92
+    },
+    "gmlu": {
+      "probability": 100
+    },
+    "gmnf": {
+      "probability": 98
+    },
+    "gmos": {
+      "probability": 98
+    },
+    "gmti": {
+      "probability": 100
+    },
+    "gmvd": {
+      "probability": 100
+    },
+    "gmvs": {
+      "probability": 100
+    },
+    "gmzh": {
+      "probability": 96
+    }
+  },
+  "ratings": {
+    "count_all": 153,
+    "average_all": 4.803921568627
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "updated_at": "2023-08-17T11:46:06+0200",
+  "sap_created_at": "2018-02-18T18:00:00+0100",
+  "online_shop_relevant": false,
+  "base_unit": "CU",
+  "co2_compensation": {
+    "kg_co2": 0.353,
+    "kg_co2_compensation": 0.353,
+    "is_compensated": false,
+    "mcheck_enabled": false
+  },
+  "origins": {
+    "producing_country": "Austria"
+  },
+  "views": [
+    "all",
+    "browse",
+    "browseallretailers"
+  ]
+}

@@ -1,0 +1,673 @@
+{
+  "id": "746562800000",
+  "language": "en",
+  "name": "POLLY POCKET FRY35 WELT SCHATULLEN ASS.",
+  "names": {
+    "short_name": "POLLY POCKET FRY35 WELT SCHATULLEN ASS."
+  },
+  "slug": "polly-pocket-fry35-welt-schatullen-ass",
+  "slugs": {
+    "de": "polly-pocket-fry35-kleine-welt",
+    "fr": "polly-pocket-fry35-coffrets-univers",
+    "it": "polly-pocket-fry35-posticini-tascabili",
+    "en": "polly-pocket-fry35-welt-schatullen-ass"
+  },
+  "type": "00",
+  "boss_number": "130861402080",
+  "data_source": "SAP-X12",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03",
+    "distribution_center": [
+      {
+        "center_id": "1001",
+        "center_name": "Migros Verteilzentrum Neuendorf",
+        "status_code": "03",
+        "status_description": "active"
+      }
+    ]
+  },
+  "tags": [
+    "source-pex",
+    "migipedia",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "0887961638189",
+    "0887961638172",
+    "0887961638196",
+    "0887961638202",
+    "0887961728538",
+    "0887961728545",
+    "0887961728552",
+    "0887961745900",
+    "0887961745917",
+    "0887961765915",
+    "0887961765922",
+    "0887961753301",
+    "0887961828436",
+    "0887961828443",
+    "0887961828467",
+    "0887961828474",
+    "0887961828412",
+    "0887961828429",
+    "0887961828450",
+    "0887961828481",
+    "0887961918472",
+    "0887961918489",
+    "0887961918519",
+    "0887961918533",
+    "0887961918496",
+    "0887961918502",
+    "0887961918526",
+    "0887961918540",
+    "0194735009350",
+    "0194735009374",
+    "0194735009381",
+    "0194735009404",
+    "0194735057016",
+    "0194735009336",
+    "0194735009343",
+    "0194735009398"
+  ],
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarket"
+  },
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "brand": {
+    "id": "MHO",
+    "name": "Polly Pocket",
+    "slug": "polly-pocket"
+  },
+  "categories": [
+    {
+      "code": "BeSS_01071208",
+      "name": "Puppen & Plüsch",
+      "slug": "supermarkt/baby-kinder/spielwaren/puppen-pluesch",
+      "visible": true,
+      "title": "Puppen und Zubehör preisgünstig bei der Migros",
+      "parent_code": "BeSS_010712",
+      "level": 4
+    },
+    {
+      "code": "BeSS_010712",
+      "name": "Spielwaren",
+      "slug": "supermarkt/baby-kinder/spielwaren",
+      "visible": true,
+      "title": "Daran haben Kinder Freude: Spielwaren aus der Migros",
+      "parent_code": "BeSS_0107",
+      "image": {
+        "original": "https://image.migros.ch/original/44a2aeebd38216c32a1d9bbfc94664e575d085c1/spielwaren.jpg",
+        "stack": "https://image.migros.ch/{stack}/44a2aeebd38216c32a1d9bbfc94664e575d085c1/spielwaren.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0107",
+      "name": "Baby & Kinder",
+      "slug": "supermarkt/baby-kinder",
+      "visible": true,
+      "title": "Babyartikel: Alles rund ums Baby in Ihrer Migros kaufen",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/dc6e5e45f414e657061e049a69de80177f40ca98/baby-kinder.jpg",
+        "stack": "https://image.migros.ch/{stack}/dc6e5e45f414e657061e049a69de80177f40ca98/baby-kinder.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "online_relevant": [
+    {
+      "code": "MGB",
+      "name": "Migros Genossenschafts-Bund"
+    }
+  ],
+  "links": {
+    "migros_ch": {
+      "url": "https://www.migros.ch/en/product/746562800000?context=instore",
+      "name": "In-store assortment",
+      "canonical": "https://www.migros.ch/en/product/746562800000?context=instore",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/746562800000",
+      "name": "Migipedia",
+      "canonical": "https://www.migros.ch/en/product/746562800000?context=instore",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "warranty_months": 24,
+  "receipt_text": "Polly Pocket FRY35",
+  "package": {
+    "content": 1,
+    "content_unit_code": "st",
+    "content_unit": "Stück",
+    "brutto_weight": 0.234,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 4.392,
+    "brutto_volume_unit_code": "cdm",
+    "height": 30.5,
+    "length": 6.99,
+    "width": 20.3,
+    "unit_dimension": "cm",
+    "price_comparison_content": 1,
+    "size": "1 Stk."
+  },
+  "package_information": {
+    "cu": {
+      "gtins": [
+        "0887961638172",
+        "0887961638189",
+        "0887961638196",
+        "0887961638202",
+        "0887961728538",
+        "0887961728545",
+        "0887961728552",
+        "0887961745900",
+        "0887961745917",
+        "0887961765915",
+        "0887961765922",
+        "0887961753301",
+        "0887961828436",
+        "0887961828443",
+        "0887961828467",
+        "0887961828474",
+        "0887961828412",
+        "0887961828429",
+        "0887961828450",
+        "0887961828481",
+        "0887961918472",
+        "0887961918489",
+        "0887961918519",
+        "0887961918533",
+        "0887961918496",
+        "0887961918502",
+        "0887961918526",
+        "0887961918540",
+        "0194735009350",
+        "0194735009374",
+        "0194735009381",
+        "0194735009404",
+        "0194735057016",
+        "0194735009336",
+        "0194735009343",
+        "0194735009398"
+      ],
+      "brutto_weight": 0.234,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 4.392,
+      "brutto_volume_unit_code": "cdm",
+      "height": 30.5,
+      "length": 6.99,
+      "width": 20.3,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "tuv": {
+      "brutto_weight": 0.28,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 4.06,
+      "brutto_volume_unit_code": "cdm",
+      "height": 7,
+      "length": 29,
+      "width": 20,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 8
+    },
+    "tue": {
+      "number_of_base_units": 8
+    },
+    "lu": {
+      "number_of_base_units": 288
+    }
+  },
+  "vat": {
+    "id": 1,
+    "percentage": 7.7
+  },
+  "price": {
+    "valid_from": "2018-04-19T00:00:00+0200",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 19.9,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "1 Stk."
+    },
+    "base": {
+      "price": 19.9,
+      "quantity": 1,
+      "unit": "st"
+    }
+  },
+  "image": {
+    "original": "https://image.migros.ch/original/74d2c9a362fb89ac038c2d07b0eeb77aed435bc8/polly-pocket-fry35-welt-schatullen-ass.jpg",
+    "stack": "https://image.migros.ch/{stack}/74d2c9a362fb89ac038c2d07b0eeb77aed435bc8/polly-pocket-fry35-welt-schatullen-ass.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/c54d4e203f12693143620e84e0a11e435ec4df6c/polly-pocket-fry35-welt-schatullen-ass.png",
+    "stack": "https://image.migros.ch/{stack}/c54d4e203f12693143620e84e0a11e435ec4df6c/polly-pocket-fry35-welt-schatullen-ass.png"
+  },
+  "additional_images": [
+    {
+      "original": "https://image.migros.ch/original/ff0f092b7961ce0573c4c4c93c8093f3143ffe79.jpg",
+      "stack": "https://image.migros.ch/{stack}/ff0f092b7961ce0573c4c4c93c8093f3143ffe79.jpg"
+    },
+    {
+      "original": "https://image.migros.ch/original/e76e2d2a03e8d4dc53989d90c25b8e183b9da37d.jpg",
+      "stack": "https://image.migros.ch/{stack}/e76e2d2a03e8d4dc53989d90c25b8e183b9da37d.jpg"
+    },
+    {
+      "original": "https://image.migros.ch/original/e57da26fc255b451ddfae6fd149adf259aebbff2.jpg",
+      "stack": "https://image.migros.ch/{stack}/e57da26fc255b451ddfae6fd149adf259aebbff2.jpg"
+    },
+    {
+      "original": "https://image.migros.ch/original/c999e1c5c285111f24e264cb3014c6f98d8700f9.jpg",
+      "stack": "https://image.migros.ch/{stack}/c999e1c5c285111f24e264cb3014c6f98d8700f9.jpg"
+    },
+    {
+      "original": "https://image.migros.ch/original/9550c48b494059ff6cd87a51e55ed5356c1e5bfe.jpg",
+      "stack": "https://image.migros.ch/{stack}/9550c48b494059ff6cd87a51e55ed5356c1e5bfe.jpg"
+    },
+    {
+      "original": "https://image.migros.ch/original/00e9a8e0711ae0724dc7288e28de516cd0f0821a.jpg",
+      "stack": "https://image.migros.ch/{stack}/00e9a8e0711ae0724dc7288e28de516cd0f0821a.jpg"
+    },
+    {
+      "original": "https://image.migros.ch/original/78f5813578c50a47d3b0c22783f6ecc27ae8fc82.jpg",
+      "stack": "https://image.migros.ch/{stack}/78f5813578c50a47d3b0c22783f6ecc27ae8fc82.jpg"
+    },
+    {
+      "original": "https://image.migros.ch/original/347269c6048571cf2411b8df2e03790376e51c72.jpg",
+      "stack": "https://image.migros.ch/{stack}/347269c6048571cf2411b8df2e03790376e51c72.jpg"
+    },
+    {
+      "original": "https://image.migros.ch/original/8e34e03402c2bb0c517ca6fd23e23abbb9a596e4.jpg",
+      "stack": "https://image.migros.ch/{stack}/8e34e03402c2bb0c517ca6fd23e23abbb9a596e4.jpg"
+    },
+    {
+      "original": "https://image.migros.ch/original/255e94882cf1a235058a695b2ef1dc54e1e5c548.jpg",
+      "stack": "https://image.migros.ch/{stack}/255e94882cf1a235058a695b2ef1dc54e1e5c548.jpg"
+    },
+    {
+      "original": "https://image.migros.ch/original/20cce65fb46dbf437e47d0b7799e0abbe8bed515.jpg",
+      "stack": "https://image.migros.ch/{stack}/20cce65fb46dbf437e47d0b7799e0abbe8bed515.jpg"
+    },
+    {
+      "original": "https://image.migros.ch/original/895f3f2ac653f30b5e051345048b46f1752ceb73.jpg",
+      "stack": "https://image.migros.ch/{stack}/895f3f2ac653f30b5e051345048b46f1752ceb73.jpg"
+    },
+    {
+      "original": "https://image.migros.ch/original/38fa9f63b78dc5f0757816920ce9054a2b7a3ea7.jpg",
+      "stack": "https://image.migros.ch/{stack}/38fa9f63b78dc5f0757816920ce9054a2b7a3ea7.jpg"
+    },
+    {
+      "original": "https://image.migros.ch/original/c92143778862141e831b7e49312388fdd50f61e4.jpg",
+      "stack": "https://image.migros.ch/{stack}/c92143778862141e831b7e49312388fdd50f61e4.jpg"
+    },
+    {
+      "original": "https://image.migros.ch/original/3770b67646d7442a733b12cf21ebdb014b449bb4.jpg",
+      "stack": "https://image.migros.ch/{stack}/3770b67646d7442a733b12cf21ebdb014b449bb4.jpg"
+    },
+    {
+      "original": "https://image.migros.ch/original/64a6867ad9c7380200075692d069f90757af2367.jpg",
+      "stack": "https://image.migros.ch/{stack}/64a6867ad9c7380200075692d069f90757af2367.jpg"
+    },
+    {
+      "original": "https://image.migros.ch/original/8d047103c6ea41e11d287922ea1a744df97c54fd.jpg",
+      "stack": "https://image.migros.ch/{stack}/8d047103c6ea41e11d287922ea1a744df97c54fd.jpg"
+    },
+    {
+      "original": "https://image.migros.ch/original/f534311a8871184dea58301f76857f4a332adc83.jpg",
+      "stack": "https://image.migros.ch/{stack}/f534311a8871184dea58301f76857f4a332adc83.jpg"
+    },
+    {
+      "original": "https://image.migros.ch/original/8b45a1483b6db774ac9eff2bebbcdc41ea38f998.jpg",
+      "stack": "https://image.migros.ch/{stack}/8b45a1483b6db774ac9eff2bebbcdc41ea38f998.jpg"
+    },
+    {
+      "original": "https://image.migros.ch/original/b9334f4ad407c5b891358797d4d0b1b4bb3850a9.jpg",
+      "stack": "https://image.migros.ch/{stack}/b9334f4ad407c5b891358797d4d0b1b4bb3850a9.jpg"
+    },
+    {
+      "original": "https://image.migros.ch/original/d290ba76e92f2703da6059a422e7f33abdd885d0.jpg",
+      "stack": "https://image.migros.ch/{stack}/d290ba76e92f2703da6059a422e7f33abdd885d0.jpg"
+    },
+    {
+      "original": "https://image.migros.ch/original/0699a18184e709fac501845c2ab6d248269ec964.jpg",
+      "stack": "https://image.migros.ch/{stack}/0699a18184e709fac501845c2ab6d248269ec964.jpg"
+    },
+    {
+      "original": "https://image.migros.ch/original/3cf91c100057d10c3bb0fe948b207b1d6dd9608f.jpg",
+      "stack": "https://image.migros.ch/{stack}/3cf91c100057d10c3bb0fe948b207b1d6dd9608f.jpg"
+    },
+    {
+      "original": "https://image.migros.ch/original/4dc7b30e2a3a570a49af40e27c54052f793d37fd.jpg",
+      "stack": "https://image.migros.ch/{stack}/4dc7b30e2a3a570a49af40e27c54052f793d37fd.jpg"
+    }
+  ],
+  "internal_features": [
+    {
+      "label_code": "MAPI_RETURNABLE",
+      "label": "Return",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "true",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MAPI_RETURNABLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_MAX_ORDER_QUANTITY",
+      "values": [
+        {
+          "value_code": "NUMERIC_7777777",
+          "value": "7777777",
+          "numeric_value": 7777777
+        }
+      ],
+      "category_code": "MAPI_MAX_ORDER_QUANTITY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_EXCLUDE_FROM_COMPARISON_ENGINES",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "false",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_EXCLUDE_FROM_COMPARISON_ENGINES",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+      "values": [
+        {
+          "value_code": "55",
+          "value": "Versandart Paket"
+        }
+      ],
+      "category_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LOGISTIC_CLASS",
+      "values": [
+        {
+          "value_code": "7",
+          "value": "VMI"
+        }
+      ],
+      "category_code": "MAPI_LOGISTIC_CLASS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Standard item"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "HART"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRESENTATION",
+      "values": [
+        {
+          "value_code": "L",
+          "value": "liegend"
+        }
+      ],
+      "category_code": "MAPI_PRESENTATION",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RISK_CLASS",
+      "values": [
+        {
+          "value_code": "2",
+          "value": "2 (medium)"
+        }
+      ],
+      "category_code": "MAPI_RISK_CLASS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_QUALITY_CHECK",
+      "values": [
+        {
+          "value_code": "00",
+          "value": "No Quality Control"
+        }
+      ],
+      "category_code": "MAPI_QUALITY_CHECK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_KUBE_TUKA",
+      "values": [
+        {
+          "value_code": "BLANK",
+          "value": "KUBE und TUKA nicht zugelassen"
+        }
+      ],
+      "category_code": "MAPI_KUBE_TUKA",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HART",
+          "value": "Hartwaren Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "H",
+          "value": "Hartwaren"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "61244",
+          "value": "MODE PUPPEN"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_EXPORTABLE",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_EXPORTABLE",
+      "top_fact": false
+    }
+  ],
+  "regional_availability": {
+    "gmaa": {
+      "probability": 6
+    },
+    "gmbs": {
+      "probability": 0
+    },
+    "gmge": {
+      "probability": 3
+    },
+    "gmlu": {
+      "probability": 2
+    },
+    "gmnf": {
+      "probability": 8
+    },
+    "gmos": {
+      "probability": 8
+    },
+    "gmti": {
+      "probability": 0
+    },
+    "gmvd": {
+      "probability": 5
+    },
+    "gmvs": {
+      "probability": 11
+    },
+    "gmzh": {
+      "probability": 2
+    }
+  },
+  "ratings": {
+    "count_all": 2,
+    "average_all": 3.5
+  },
+  "quantity_on_stock": 213,
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "updated_at": "2023-07-30T08:14:19+0200",
+  "sap_created_at": "2018-04-14T00:00:00+0200",
+  "online_shop_relevant": false,
+  "base_unit": "CU",
+  "origins": {
+    "producing_country": "China"
+  },
+  "views": [
+    "all",
+    "browse",
+    "browseallretailers"
+  ]
+}

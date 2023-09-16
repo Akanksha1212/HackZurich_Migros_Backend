@@ -1,0 +1,824 @@
+{
+  "id": "153271300000",
+  "language": "en",
+  "name": "Alnatura Tomatensauce Kräuter",
+  "names": {
+    "short_name": "Alnatura Tomatensauce Kräuter"
+  },
+  "slug": "alnatura-tomatensauce-kraeuter",
+  "slugs": {
+    "de": "alnatura-tomatensauce-kraeuter",
+    "fr": "alnatura-sauce-tomates-aux-herbes",
+    "it": "alnatura-sugo-di-pomodoro-alle-erbe",
+    "en": "alnatura-tomatensauce-kraeuter"
+  },
+  "type": "00",
+  "boss_number": "011011277510",
+  "description": {
+    "text": "<p>Bio-Qualität<br>frisch-fruchtiger Tomatengeschmack<br>mit Kräutern (Petersilie, Thymian, Oregano<br>abgeschmeckt<br>hergestellt in Italien</p><p>Eine frisch-fruchtige Tomatensauce, die mit Kräutern wie Petersilie, Thymian und Oregano harmonisch abgerundet ist. Die Alnatura Tomatensauce Kräuter ist in Italien hergestellt und muss vor dem Genuss lediglich kurz erhitzt werden – ideal für die schnelle genussvolle Küche. Mit Sahne, Ricotta oder Crème fraîche lässt sie sich raffiniert verfeinern. Alle Zutaten landwirtschaftlichen Ursprungs stammen aus Bio-Anbau.</p><p>Nach dem Öffnen im Kühlschrank aufbewahren und innerhalb von 4 Tagen verbrauchen.</p><p>Alnatura Tomatensauce Kräuter im Topf kurz erhitzen.</p>",
+    "source": "P4M"
+  },
+  "data_source": "SAP-X11",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03"
+  },
+  "tags": [
+    "source-p4m",
+    "migipedia",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "4104420213517",
+    "4104420031449",
+    "4104420186620",
+    "7613312064979"
+  ],
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarket"
+  },
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "brand": {
+    "id": "D06",
+    "name": "Alnatura",
+    "slug": "alnatura",
+    "links": {
+      "homepage": {
+        "url": "https://www.migros.ch/de/einkaufen/migros-marken-und-labels/alnatura.html",
+        "name": "Homepage",
+        "type": "info",
+        "purchasable": false
+      }
+    },
+    "image": {
+      "original": "https://image.migros.ch/original/2c0deb7a67525727ed8213ce2b42bc8a6eb35567/alnatura.jpg",
+      "stack": "https://image.migros.ch/{stack}/2c0deb7a67525727ed8213ce2b42bc8a6eb35567/alnatura.jpg"
+    }
+  },
+  "labels": [
+    {
+      "id": "L52",
+      "name": "Third-party organic food",
+      "slug": "third-party-organic-food"
+    },
+    {
+      "id": "L55",
+      "name": "Vegan Flower",
+      "slug": "vegan-flower",
+      "image": {
+        "original": "https://image.migros.ch/original/c5723257619218d275dade4d7d332cda242cafcc/vegan-flower.jpg",
+        "stack": "https://image.migros.ch/{stack}/c5723257619218d275dade4d7d332cda242cafcc/vegan-flower.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_0101140905",
+      "name": "Pasta-Saucen",
+      "slug": "supermarkt/lebensmittel/pasta-zutaten-konserven/suppen-saucen-bouillon/pasta-saucen",
+      "visible": true,
+      "title": "Pasta-Saucen in Ihrer Migros kaufen",
+      "parent_code": "BeSS_01011409",
+      "image": {
+        "original": "https://image.migros.ch/original/8c324048ff97ff7bb21775d23d1f3c23c13c2388/pasta-saucen.jpg",
+        "stack": "https://image.migros.ch/{stack}/8c324048ff97ff7bb21775d23d1f3c23c13c2388/pasta-saucen.jpg"
+      },
+      "level": 5
+    },
+    {
+      "code": "BeSS_01011409",
+      "name": "Suppen, Saucen & Bouillon",
+      "slug": "supermarkt/lebensmittel/pasta-zutaten-konserven/suppen-saucen-bouillon",
+      "visible": true,
+      "title": "Bouillon in Ihrer Migros kaufen",
+      "parent_code": "BeSS_010114",
+      "image": {
+        "original": "https://image.migros.ch/original/ba6c260479751c9dbebd56a16470ff4af7db7203/suppen-saucen-bouillon.jpg",
+        "stack": "https://image.migros.ch/{stack}/ba6c260479751c9dbebd56a16470ff4af7db7203/suppen-saucen-bouillon.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010114",
+      "name": "Pasta, Zutaten & Konserven",
+      "slug": "supermarkt/lebensmittel/pasta-zutaten-konserven",
+      "visible": true,
+      "title": "Pasta aus Ihrer Migros: alles rund um Teigwaren",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/6d0964bbb34b8e041ba4d74fc0c90b149907f46a/pasta-zutaten-konserven.jpg",
+        "stack": "https://image.migros.ch/{stack}/6d0964bbb34b8e041ba4d74fc0c90b149907f46a/pasta-zutaten-konserven.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/31702195ec9d38aecefe80349eb347f79d56c750/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/31702195ec9d38aecefe80349eb347f79d56c750/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "ALNA_CAT_Pastasaucen_Saucen_BeilagenundZutaten",
+        "name": "Pastasaucen",
+        "slug": "alnatura/beilagen-und-zutaten/saucen/pastasaucen",
+        "visible": true,
+        "parent_code": "ALNA_CAT_Saucen_BeilagenundZutaten",
+        "level": 4
+      },
+      {
+        "code": "ALNA_CAT_Saucen_BeilagenundZutaten",
+        "name": "Saucen",
+        "slug": "alnatura/beilagen-und-zutaten/saucen",
+        "visible": true,
+        "parent_code": "ALNA_CAT_BeilagenundZutaten",
+        "level": 3
+      },
+      {
+        "code": "ALNA_CAT_BeilagenundZutaten",
+        "name": "Beilagen und Zutaten",
+        "slug": "alnatura/beilagen-und-zutaten",
+        "visible": true,
+        "parent_code": "BeSS_97",
+        "level": 2
+      },
+      {
+        "code": "BeSS_97",
+        "name": "Alnatura",
+        "slug": "alnatura",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "online_relevant": [
+    {
+      "code": "MGB",
+      "name": "Migros Genossenschafts-Bund"
+    },
+    {
+      "code": "MO",
+      "name": "Migros Online"
+    }
+  ],
+  "links": {
+    "migros_ch": {
+      "url": "https://www.migros.ch/en/product/153271300000?context=instore",
+      "name": "In-store assortment",
+      "canonical": "https://www.migros.ch/en/product/153271300000?context=instore",
+      "type": "info",
+      "purchasable": false
+    },
+    "migros_online": {
+      "url": "https://www.migros.ch/en/product/153271300000?context=online",
+      "mo_product_id": "3290160",
+      "name": "Online-shop assortment",
+      "canonical": "https://www.migros.ch/en/product/153271300000?context=instore",
+      "type": "shop",
+      "purchasable": true,
+      "one_catalog_id": 100026432
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/153271300000",
+      "name": "Migipedia",
+      "canonical": "https://www.migros.ch/en/product/153271300000?context=instore",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "has_safety_sheet": false,
+  "m_check2": {},
+  "receipt_text": "Alnatura Sauce Kräuter",
+  "package": {
+    "content": 350,
+    "content_unit_code": "ml",
+    "content_unit": "Millilitre",
+    "net_weight": 0.35,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogram",
+    "type": "CU",
+    "portions_per_package": "1",
+    "brutto_weight": 0.601,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 0.686,
+    "brutto_volume_unit_code": "cdm",
+    "height": 9.5,
+    "length": 8.5,
+    "width": 8.5,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "350ml"
+  },
+  "package_information": {
+    "tu": {
+      "gtins": [
+        "4104420031456",
+        "4104420186637",
+        "4104420213524"
+      ],
+      "brutto_weight": 3.669,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 4.439,
+      "brutto_volume_unit_code": "cdm",
+      "height": 9.5,
+      "length": 26.7,
+      "width": 17.5,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 6
+    },
+    "cu": {
+      "gtins": [
+        "4104420031449",
+        "4104420186620",
+        "4104420213517",
+        "7613312064979"
+      ],
+      "brutto_weight": 0.601,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.686,
+      "brutto_volume_unit_code": "cdm",
+      "height": 9.5,
+      "length": 8.5,
+      "width": 8.5,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "lu": {
+      "brutto_weight": 722.11,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.461,
+      "brutto_volume_unit_code": "m3",
+      "height": 96,
+      "length": 120,
+      "width": 80,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1140
+    }
+  },
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "price": {
+    "valid_from": "2023-01-02T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 2.95,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "350ml"
+    },
+    "base": {
+      "price": 0.84,
+      "quantity": 100,
+      "unit": "ML"
+    }
+  },
+  "features": [
+    {
+      "label_code": "MAPI_VEGETARIANISM",
+      "label": "Vegetarianism",
+      "values": [
+        {
+          "value_code": "MAPI_VEGETARIANISM_vegan",
+          "value": "vegan"
+        }
+      ],
+      "category_code": "MAPI_VEGETARIANISM",
+      "top_fact": false
+    },
+    {
+      "label_code": "acxMISOcugebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "erxMISOcugebindeartglas",
+          "value": "Glas"
+        }
+      ],
+      "category_code": "ecxMISOCLAsaucenaufstrichedipswuerzsaucengewuerzekonservierungsstoffeextraktelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOartvonsaucedip",
+      "label": "Art von Sauce/Dip",
+      "values": [
+        {
+          "value_code": "erxMISOartvonsaucediptomatensauce",
+          "value": "Tomatensauce"
+        }
+      ],
+      "category_code": "ecxMISOCLAsaucenaufstrichedipswuerzsaucengewuerzekonservierungsstoffeextraktelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOproduktionsanspruch",
+      "label": "Produktionsverfahren",
+      "values": [
+        {
+          "value_code": "erxMISOproduktionsanspruchbioproduktion",
+          "value": "Bio-Produktion"
+        }
+      ],
+      "category_code": "ecxMISOCLAsaucenaufstrichedipswuerzsaucengewuerzekonservierungsstoffeextraktelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOzubereitungsverfahren",
+      "label": "Hinweise für die Zubereitung",
+      "values": [
+        {
+          "value_code": "erxMISOzubereitungsverfahrenzumkochengeeignet",
+          "value": "zum kochen geeignet"
+        }
+      ],
+      "category_code": "ecxMISOCLAsaucenaufstrichedipswuerzsaucengewuerzekonservierungsstoffeextraktelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOvorgeseheneverwendungdersauce",
+      "label": "Vorgesehene Verwendung der Sauce",
+      "values": [
+        {
+          "value_code": "erxMISOvorgeseheneverwendungdersauceteigwaren",
+          "value": "Teigwaren"
+        }
+      ],
+      "category_code": "ecxMISOCLAsaucenaufstrichedipswuerzsaucengewuerzekonservierungsstoffeextraktelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/3fc9e716470993c088b8adf8e684e6506db21ca0/alnatura-tomatensauce-kraeuter.jpg",
+    "stack": "https://image.migros.ch/{stack}/3fc9e716470993c088b8adf8e684e6506db21ca0/alnatura-tomatensauce-kraeuter.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/7b20c07ba5ab826bc21381d6570728b7d40e1dd1/alnatura-tomatensauce-kraeuter.png",
+    "stack": "https://image.migros.ch/{stack}/7b20c07ba5ab826bc21381d6570728b7d40e1dd1/alnatura-tomatensauce-kraeuter.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_EXPORTABLE",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_EXPORTABLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Normalposition"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "HAWA"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "11011",
+          "value": "ALNATURA PASTA&SALSA"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LIFECYCLE",
+      "values": [
+        {
+          "value_code": "D",
+          "value": "Detailhandelsartikel"
+        }
+      ],
+      "category_code": "MAPI_LIFECYCLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUSTOMS_POSITION",
+      "values": [
+        {
+          "value": "2103.2000"
+        }
+      ],
+      "category_code": "MAPI_CUSTOMS_POSITION",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_STORAGE_CONDITIONS",
+      "values": [
+        {
+          "value_code": "01",
+          "value": "normal"
+        }
+      ],
+      "category_code": "MAPI_STORAGE_CONDITIONS",
+      "top_fact": false
+    },
+    {
+      "label_code": "acxCommonarticlecocompensated",
+      "label": "Artikel Co2 kompensiert",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false
+    },
+    {
+      "label_code": "acxCommonmesswertcompensation",
+      "label": "CO2-Wert Kompensation",
+      "values": [
+        {
+          "value_code": "NUMERIC_2.393",
+          "value": "2.393",
+          "numeric_value": 2.393
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false,
+      "unit_code": "5d71456e-a520-4294-9ddb-add78f63ce83",
+      "unit": "Equivalence per kilogram",
+      "unit_symbol": "eq / kg"
+    },
+    {
+      "label_code": "acxCommonoutputmcheckclimatedeclaration",
+      "label": "Auslobung M-Check Klimadeklaration",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false
+    }
+  ],
+  "declarations": {
+    "declaration_number": "Q_104690625027",
+    "tags": [
+      "source-qim"
+    ],
+    "gtins": [
+      "4104420213517"
+    ],
+    "valid_from": "2023-08-07T00:00:00+0200",
+    "product_details": {
+      "net_filled_quantity": {
+        "value": "350 ml",
+        "numeric_value": 350,
+        "unit": "ml"
+      },
+      "net_weight": {
+        "value": "375 Gramm",
+        "numeric_value": 375,
+        "unit": "Gramm"
+      }
+    },
+    "distributor": {
+      "name": "Alnatura GmbH",
+      "address": "Mahatma-Gandhi-Straße 7, 64295 Darmstadt"
+    },
+    "ingredients_information": {
+      "allergens_information": {
+        "trace_allergens_text": "May contain: Soya, Celery, Casehw nuts"
+      }
+    },
+    "nutrition_facts": {
+      "reference_sizes": {
+        "standard": {
+          "base": {
+            "quantity": {
+              "value": "100 ml",
+              "numeric_value": 100,
+              "unit": "ml"
+            }
+          },
+          "nutrients": [
+            {
+              "code": "NUT_ENERGY",
+              "name": "Energy",
+              "operator": "~",
+              "pictogram_name": "Energy",
+              "category": "BIG9",
+              "quantity": {
+                "value": "278.00 kJ",
+                "numeric_value": 278,
+                "unit": "kJ",
+                "alternate": {
+                  "value": "67.00 kcal",
+                  "numeric_value": 67,
+                  "unit": "kcal"
+                }
+              }
+            },
+            {
+              "code": "NUT_FAT",
+              "name": "Fat",
+              "operator": "~",
+              "pictogram_name": "Fat",
+              "category": "BIG9",
+              "quantity": {
+                "value": "3.90 g",
+                "numeric_value": 3.9,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_SATURATED_FATTY_ACIDS",
+              "name": "of which saturates",
+              "operator": "~",
+              "pictogram_name": "saturated fatty acids",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0.60 g",
+                "numeric_value": 0.6,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_CARBOHYDRATES",
+              "name": "Carbohydrate",
+              "operator": "~",
+              "category": "BIG9",
+              "quantity": {
+                "value": "5.60 g",
+                "numeric_value": 5.6,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_SUGAR",
+              "name": "of which sugars",
+              "operator": "~",
+              "pictogram_name": "Sugar",
+              "category": "BIG9",
+              "quantity": {
+                "value": "5.40 g",
+                "numeric_value": 5.4,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_FIBER",
+              "name": "Fibre",
+              "operator": "~",
+              "category": "BIG9",
+              "quantity": {
+                "value": "1.40 g",
+                "numeric_value": 1.4,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_PROTEIN",
+              "name": "Protein",
+              "operator": "~",
+              "category": "BIG9",
+              "quantity": {
+                "value": "1.60 g",
+                "numeric_value": 1.6,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_SALT",
+              "name": "Salt",
+              "operator": "~",
+              "pictogram_name": "Salt",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0.80 g",
+                "numeric_value": 0.8,
+                "unit": "g"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "recipe_ingredient_ids": [
+    "10000"
+  ],
+  "regional_availability": {
+    "gmaa": {
+      "probability": 12
+    },
+    "gmbs": {
+      "probability": 43
+    },
+    "gmge": {
+      "probability": 32
+    },
+    "gmlu": {
+      "probability": 14
+    },
+    "gmnf": {
+      "probability": 14
+    },
+    "gmos": {
+      "probability": 11
+    },
+    "gmti": {
+      "probability": 6
+    },
+    "gmvd": {
+      "probability": 25
+    },
+    "gmvs": {
+      "probability": 26
+    },
+    "gmzh": {
+      "probability": 10
+    }
+  },
+  "ratings": {
+    "count_all": 16,
+    "average_all": 4.5625
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "updated_at": "2023-08-17T11:53:52+0200",
+  "sap_created_at": "2015-08-11T19:00:00+0200",
+  "online_shop_relevant": false,
+  "base_unit": "CU",
+  "co2_compensation": {
+    "kg_co2": 2.393,
+    "kg_co2_compensation": 2.393,
+    "is_compensated": false,
+    "mcheck_enabled": false
+  },
+  "origins": {
+    "producing_country": "Italy"
+  },
+  "views": [
+    "all",
+    "browse",
+    "browseallretailers"
+  ]
+}

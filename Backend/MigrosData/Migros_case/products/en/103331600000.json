@@ -1,0 +1,753 @@
+{
+  "id": "103331600000",
+  "language": "en",
+  "name": "Monini Olio Sicilia IGP",
+  "names": {
+    "short_name": "Monini Olio Sicilia IGP"
+  },
+  "slug": "monini-olio-sicilia-igp",
+  "slugs": {
+    "de": "monini-olio-sicilia-igp",
+    "fr": "monini-olio-sicilia-igp",
+    "it": "monini-olio-sicilia-igp",
+    "en": "monini-olio-sicilia-igp"
+  },
+  "type": "00",
+  "boss_number": "011011280705",
+  "description": {
+    "text": "Oliven&ouml;l Extra Vergine. Es hat einen intensiven Geschmack gr&uuml;ner Tomaten, leicht stechend und gleichzeitig mild. Das &Ouml;l wird aus Oliven erzeugt, die ausschliesslich im Val di Mazara geerntet und gepresst werden. Es wird idealerweise kalt verwendet, vor allem auf frischem Gem&uuml;se und gegrilltem Fisch.",
+    "source": "P4M"
+  },
+  "data_source": "SAP-X11",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03"
+  },
+  "tags": [
+    "source-p4m",
+    "migipedia",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "8005510001846"
+  ],
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarket"
+  },
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "brand": {
+    "id": "207",
+    "name": "Monini",
+    "slug": "monini"
+  },
+  "categories": [
+    {
+      "code": "BeSS_0101141001",
+      "name": "Olivenöl",
+      "slug": "supermarkt/lebensmittel/pasta-zutaten-konserven/essig-oele/olivenoel",
+      "visible": true,
+      "parent_code": "BeSS_01011410",
+      "image": {
+        "original": "https://image.migros.ch/original/efab805a4338a4866bed4060bc8421efe2feb86b/olivenoel.jpg",
+        "stack": "https://image.migros.ch/{stack}/efab805a4338a4866bed4060bc8421efe2feb86b/olivenoel.jpg"
+      },
+      "level": 5
+    },
+    {
+      "code": "BeSS_01011410",
+      "name": "Essig & Öle",
+      "slug": "supermarkt/lebensmittel/pasta-zutaten-konserven/essig-oele",
+      "visible": true,
+      "title": "Essig und öl &ndash; das Beste zum Kochen aus Ihrer Migros",
+      "parent_code": "BeSS_010114",
+      "image": {
+        "original": "https://image.migros.ch/original/46f8402683d7ac4b43c5a3353d86c8b2466c5923/essig-oele.jpg",
+        "stack": "https://image.migros.ch/{stack}/46f8402683d7ac4b43c5a3353d86c8b2466c5923/essig-oele.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010114",
+      "name": "Pasta, Zutaten & Konserven",
+      "slug": "supermarkt/lebensmittel/pasta-zutaten-konserven",
+      "visible": true,
+      "title": "Pasta aus Ihrer Migros: alles rund um Teigwaren",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/6d0964bbb34b8e041ba4d74fc0c90b149907f46a/pasta-zutaten-konserven.jpg",
+        "stack": "https://image.migros.ch/{stack}/6d0964bbb34b8e041ba4d74fc0c90b149907f46a/pasta-zutaten-konserven.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/31702195ec9d38aecefe80349eb347f79d56c750/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/31702195ec9d38aecefe80349eb347f79d56c750/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "online_relevant": [
+    {
+      "code": "MGB",
+      "name": "Migros Genossenschafts-Bund"
+    },
+    {
+      "code": "MO",
+      "name": "Migros Online"
+    }
+  ],
+  "links": {
+    "migros_ch": {
+      "url": "https://www.migros.ch/en/product/103331600000?context=instore",
+      "name": "In-store assortment",
+      "canonical": "https://www.migros.ch/en/product/103331600000?context=instore",
+      "type": "info",
+      "purchasable": false
+    },
+    "migros_online": {
+      "url": "https://www.migros.ch/en/product/103331600000?context=online",
+      "mo_product_id": "4804937",
+      "name": "Online-shop assortment",
+      "canonical": "https://www.migros.ch/en/product/103331600000?context=instore",
+      "type": "shop",
+      "purchasable": true,
+      "one_catalog_id": 100015093
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/103331600000",
+      "name": "Migipedia",
+      "canonical": "https://www.migros.ch/en/product/103331600000?context=instore",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "has_safety_sheet": false,
+  "m_check2": {},
+  "receipt_text": "Monini Sicilia IGP",
+  "package": {
+    "content": 500,
+    "content_unit_code": "ml",
+    "content_unit": "Millilitre",
+    "net_weight": 0.457,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogram",
+    "type": "CU",
+    "portions_per_package": "1",
+    "brutto_weight": 0.895,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 1.147,
+    "brutto_volume_unit_code": "cdm",
+    "height": 28,
+    "length": 6.4,
+    "width": 6.4,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "500ml"
+  },
+  "package_information": {
+    "tu": {
+      "gtins": [
+        "7605510001856",
+        "8005510001853"
+      ],
+      "brutto_weight": 5.36,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 7.58,
+      "brutto_volume_unit_code": "cdm",
+      "height": 29.6,
+      "length": 19.4,
+      "width": 13.2,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 6
+    },
+    "cu": {
+      "gtins": [
+        "8005510001846"
+      ],
+      "brutto_weight": 0.895,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 1.147,
+      "brutto_volume_unit_code": "cdm",
+      "height": 28,
+      "length": 6.4,
+      "width": 6.4,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "lu": {
+      "brutto_weight": 796.84,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 1136.64,
+      "brutto_volume_unit_code": "cdm",
+      "height": 118.4,
+      "length": 120,
+      "width": 80,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 864
+    }
+  },
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "price": {
+    "valid_from": "2023-04-18T00:00:00+0200",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 16.5,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "500ml"
+    },
+    "base": {
+      "price": 3.3,
+      "quantity": 100,
+      "unit": "ML"
+    }
+  },
+  "features": [
+    {
+      "label_code": "acxMISOgeeignetzum",
+      "label": "Geeignet zum",
+      "values": [
+        {
+          "value_code": "erxMISOgeeignetzumbraten",
+          "value": "roast"
+        },
+        {
+          "value_code": "erxMISOgeeignetzumfrittieren",
+          "value": "deep-fry"
+        }
+      ],
+      "category_code": "ecxMISOCLAspeiseoelspeiseoelefettelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOcugebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "erxMISOcugebindeartflasche",
+          "value": "Bottle"
+        }
+      ],
+      "category_code": "ecxMISOCLAspeiseoelspeiseoelefettelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOextravergine",
+      "label": "Extra Vergine",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Yes",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "ecxMISOCLAspeiseoelspeiseoelefettelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOkaltgepresst",
+      "label": "Kaltgepresst",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Yes",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "ecxMISOCLAspeiseoelspeiseoelefettelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOverwendungstemperatur",
+      "label": "Verwendungstemperatur",
+      "values": [
+        {
+          "value": "100-180"
+        }
+      ],
+      "category_code": "ecxMISOCLAspeiseoelspeiseoelefettelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/68b1bed1c3faa38e6ca7bf2923db734a5fafc87d/monini-olio-sicilia-igp.jpg",
+    "stack": "https://image.migros.ch/{stack}/68b1bed1c3faa38e6ca7bf2923db734a5fafc87d/monini-olio-sicilia-igp.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/3e1fa3da5cf35697ef626727562c551909adbbf3/monini-olio-sicilia-igp.png",
+    "stack": "https://image.migros.ch/{stack}/3e1fa3da5cf35697ef626727562c551909adbbf3/monini-olio-sicilia-igp.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_EXPORTABLE",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_EXPORTABLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Normalposition"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "HAWA"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "11030",
+          "value": "OLIVE OILS"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LIFECYCLE",
+      "values": [
+        {
+          "value_code": "D",
+          "value": "Detailhandelsartikel"
+        }
+      ],
+      "category_code": "MAPI_LIFECYCLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUSTOMS_POSITION",
+      "values": [
+        {
+          "value": "1509.1091"
+        }
+      ],
+      "category_code": "MAPI_CUSTOMS_POSITION",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_STORAGE_CONDITIONS",
+      "values": [
+        {
+          "value_code": "01",
+          "value": "normal"
+        }
+      ],
+      "category_code": "MAPI_STORAGE_CONDITIONS",
+      "top_fact": false
+    },
+    {
+      "label_code": "acxCommonarticlecocompensated",
+      "label": "Artikel Co2 kompensiert",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false
+    },
+    {
+      "label_code": "acxCommonmesswertcompensation",
+      "label": "CO2-Wert Kompensation",
+      "values": [
+        {
+          "value_code": "NUMERIC_1.843",
+          "value": "1.843",
+          "numeric_value": 1.843
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false,
+      "unit_code": "5d71456e-a520-4294-9ddb-add78f63ce83",
+      "unit": "Equivalence per kilogram",
+      "unit_symbol": "eq / kg"
+    },
+    {
+      "label_code": "acxCommonoutputmcheckclimatedeclaration",
+      "label": "Auslobung M-Check Klimadeklaration",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false
+    }
+  ],
+  "declarations": {
+    "declaration_number": "Q_2121841432597900",
+    "tags": [
+      "source-qim"
+    ],
+    "gtins": [
+      "8005510001846"
+    ],
+    "valid_from": "2019-06-28T00:00:00+0200",
+    "product_details": {
+      "net_filled_quantity": {
+        "value": "500 ml",
+        "numeric_value": 500,
+        "unit": "ml"
+      },
+      "net_weight": {
+        "value": "456 Gramm",
+        "numeric_value": 456,
+        "unit": "Gramm"
+      }
+    },
+    "ingredients_information": {
+      "ingredients_text": "EXTRA VIRGIN OLIVE OIL"
+    },
+    "nutrition_facts": {
+      "reference_sizes": {
+        "standard": {
+          "base": {
+            "quantity": {
+              "value": "100 ml",
+              "numeric_value": 100,
+              "unit": "ml"
+            }
+          },
+          "nutrients": [
+            {
+              "code": "NUT_ENERGY",
+              "name": "Energy",
+              "operator": "~",
+              "pictogram_name": "Energy",
+              "category": "BIG9",
+              "quantity": {
+                "value": "3404 kJ",
+                "numeric_value": 3404,
+                "unit": "kJ",
+                "alternate": {
+                  "value": "828 kcal",
+                  "numeric_value": 828,
+                  "unit": "kcal"
+                }
+              }
+            },
+            {
+              "code": "NUT_FAT",
+              "name": "Fat",
+              "operator": "~",
+              "pictogram_name": "Fat",
+              "category": "BIG9",
+              "quantity": {
+                "value": "92 g",
+                "numeric_value": 92,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_SATURATED_FATTY_ACIDS",
+              "name": "of which saturates",
+              "operator": "~",
+              "pictogram_name": "saturated fatty acids",
+              "category": "BIG9",
+              "quantity": {
+                "value": "14 g",
+                "numeric_value": 14,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_CARBOHYDRATES",
+              "name": "Carbohydrate",
+              "operator": "~",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0 g",
+                "numeric_value": 0,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_SUGAR",
+              "name": "of which sugars",
+              "operator": "~",
+              "pictogram_name": "Sugar",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0 g",
+                "numeric_value": 0,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_FIBER",
+              "name": "Fibre",
+              "operator": "~",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0 g",
+                "numeric_value": 0,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_PROTEIN",
+              "name": "Protein",
+              "operator": "~",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0 g",
+                "numeric_value": 0,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_SALT",
+              "name": "Salt",
+              "operator": "~",
+              "pictogram_name": "Salt",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0 g",
+                "numeric_value": 0,
+                "unit": "g"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "recipe_ingredient_ids": [
+    "15119",
+    "17696948",
+    "19414",
+    "72101"
+  ],
+  "regional_availability": {
+    "gmaa": {
+      "probability": 18
+    },
+    "gmbs": {
+      "probability": 26
+    },
+    "gmge": {
+      "probability": 39
+    },
+    "gmlu": {
+      "probability": 22
+    },
+    "gmnf": {
+      "probability": 10
+    },
+    "gmos": {
+      "probability": 12
+    },
+    "gmti": {
+      "probability": 28
+    },
+    "gmvd": {
+      "probability": 18
+    },
+    "gmvs": {
+      "probability": 19
+    },
+    "gmzh": {
+      "probability": 21
+    }
+  },
+  "ratings": {
+    "count_all": 6,
+    "average_all": 4.833333333333
+  },
+  "related_products": {
+    "purchase_recommendations": {
+      "product_ids": [
+        "103331700000",
+        "103332500000",
+        "103332100000",
+        "103332200000",
+        "103332000000"
+      ]
+    }
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "updated_at": "2023-08-17T11:43:32+0200",
+  "sap_created_at": "2004-04-28T19:00:00+0200",
+  "online_shop_relevant": false,
+  "base_unit": "CU",
+  "co2_compensation": {
+    "kg_co2": 1.843,
+    "kg_co2_compensation": 1.843,
+    "is_compensated": false,
+    "mcheck_enabled": false
+  },
+  "origins": {
+    "producing_country": "Italy"
+  },
+  "views": [
+    "all",
+    "browse",
+    "browseallretailers"
+  ]
+}

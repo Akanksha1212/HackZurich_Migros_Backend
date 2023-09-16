@@ -1,0 +1,618 @@
+{
+  "id": "523407400000",
+  "language": "en",
+  "name": "LAVERA MY AGE OIL SERUM",
+  "names": {
+    "short_name": "LAVERA MY AGE OIL SERUM"
+  },
+  "slug": "lavera-my-age-oil-serum",
+  "slugs": {
+    "de": "lavera-my-age-intensiv-oel-serum",
+    "fr": "lavera-my-age-serum-en-huile-intense",
+    "it": "lavera-my-age-olio-siero-intensivo",
+    "en": "lavera-my-age-oil-serum"
+  },
+  "type": "00",
+  "boss_number": "090122115015",
+  "description": {
+    "text": "<p>&nbsp;Entdecken Sie das lavera Geheimnis nat&uuml;rlich wertvoller Gesichtspflege f&uuml;r reife Haut:<br />Erleben Sie unsere sorgf&auml;ltig ausbalancierte Naturkomposition mit Bio-Hibiskus und Ceramiden pflanzlichen Ursprungs. Sie pflegt die Haut sofort besonders intensiv und verleiht ihr sp&uuml;rbar mehr Spannkraft und Elastizit&auml;t. Mit ihrer hochwertigen &Ouml;l-Formel verleiht sie der Haut Geschmeidigkeit &ndash; ohne dabei zu kleben.</p><p><strong>Unsere innovative Pflegeformel:</strong><br />- Mindert Pigmentflecken<br />- Verleiht Spannkraft &amp; Elastizit&auml;t<br />- F&uuml;r ein besonders intensives Pflegeerlebnis</p><p><strong>Anwendung:</strong>&nbsp;Vor der Tages- oder Nachtpflege auf die gereinigte Haut auftragen und sanft einmassieren.</p>",
+    "source": "PEX"
+  },
+  "data_source": "SAP-X11",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03"
+  },
+  "tags": [
+    "source-pex",
+    "near-non-food",
+    "migipedia",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "4021457635597"
+  ],
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarket"
+  },
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "brand": {
+    "id": "E12",
+    "name": "Lavera",
+    "slug": "lavera"
+  },
+  "labels": [
+    {
+      "id": "L41",
+      "name": "Naturkosmetik",
+      "slug": "naturkosmetik"
+    },
+    {
+      "id": "L55",
+      "name": "Vegan Flower",
+      "slug": "vegan-flower",
+      "image": {
+        "original": "https://image.migros.ch/original/c5723257619218d275dade4d7d332cda242cafcc/vegan-flower.jpg",
+        "stack": "https://image.migros.ch/{stack}/c5723257619218d275dade4d7d332cda242cafcc/vegan-flower.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_01110601",
+      "name": "Gesichtspflege",
+      "slug": "supermarkt/beauty/naturkosmetik/gesichtspflege",
+      "visible": true,
+      "parent_code": "BeSS_011106",
+      "level": 4
+    },
+    {
+      "code": "BeSS_011106",
+      "name": "Naturkosmetik",
+      "slug": "supermarkt/beauty/naturkosmetik",
+      "visible": true,
+      "parent_code": "BeSS_0111",
+      "level": 3
+    },
+    {
+      "code": "BeSS_0111",
+      "name": "Beauty",
+      "slug": "supermarkt/beauty",
+      "visible": true,
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/293925170bd129344f9259c67a15e903f881bef8/beauty.jpg",
+        "stack": "https://image.migros.ch/{stack}/293925170bd129344f9259c67a15e903f881bef8/beauty.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "BeSS_01110201",
+        "name": "Gesichtspflege",
+        "slug": "supermarkt/beauty/gesichtspflege/gesichtspflege",
+        "visible": true,
+        "parent_code": "BeSS_011102",
+        "level": 4
+      },
+      {
+        "code": "BeSS_011102",
+        "name": "Gesichtspflege",
+        "slug": "supermarkt/beauty/gesichtspflege",
+        "visible": true,
+        "parent_code": "BeSS_0111",
+        "level": 3
+      },
+      {
+        "code": "BeSS_0111",
+        "name": "Beauty",
+        "slug": "supermarkt/beauty",
+        "visible": true,
+        "parent_code": "BeSS_01",
+        "image": {
+          "original": "https://image.migros.ch/original/293925170bd129344f9259c67a15e903f881bef8/beauty.jpg",
+          "stack": "https://image.migros.ch/{stack}/293925170bd129344f9259c67a15e903f881bef8/beauty.jpg"
+        },
+        "level": 2
+      },
+      {
+        "code": "BeSS_01",
+        "name": "Supermarkt",
+        "slug": "supermarkt",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "online_relevant": [
+    {
+      "code": "MGB",
+      "name": "Migros Genossenschafts-Bund"
+    }
+  ],
+  "galaxus_relevant": false,
+  "links": {
+    "migros_ch": {
+      "url": "https://www.migros.ch/en/product/523407400000?context=instore",
+      "name": "In-store assortment",
+      "canonical": "https://www.migros.ch/en/product/523407400000?context=instore",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/523407400000",
+      "name": "Migipedia",
+      "canonical": "https://www.migros.ch/en/product/523407400000?context=instore",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "receipt_text": "Lavera MyAge Serum",
+  "package": {
+    "content": 30,
+    "content_unit_code": "ml",
+    "content_unit": "Mililiter",
+    "net_weight": 0.031,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "brutto_weight": 0.064,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 0.2,
+    "brutto_volume_unit_code": "cdm",
+    "height": 12.8,
+    "length": 3.4,
+    "width": 4.6,
+    "unit_dimension": "cm",
+    "price_comparison_content": 10,
+    "size": "30ml"
+  },
+  "package_information": {
+    "tu": {
+      "gtins": [
+        "4021457721337"
+      ],
+      "brutto_weight": 0.289,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 1.128,
+      "brutto_volume_unit_code": "cdm",
+      "height": 14.5,
+      "length": 10.1,
+      "width": 7.7,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 4
+    },
+    "cu": {
+      "gtins": [
+        "4021457635597"
+      ],
+      "brutto_weight": 0.064,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.2,
+      "brutto_volume_unit_code": "cdm",
+      "height": 12.8,
+      "length": 3.4,
+      "width": 4.6,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "lu": {
+      "brutto_weight": 221.777,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 960,
+      "brutto_volume_unit_code": "cdm",
+      "height": 100,
+      "length": 120,
+      "width": 80,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 2736
+    },
+    "lge": {
+      "brutto_volume": 139.2,
+      "brutto_volume_unit_code": "cdm",
+      "height": 14.5,
+      "length": 120,
+      "width": 80,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 456
+    },
+    "kar": {
+      "number_of_base_units": 1
+    }
+  },
+  "vat": {
+    "id": 1,
+    "percentage": 7.7
+  },
+  "price": {
+    "valid_from": "2023-03-01T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 24.95,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "30ml"
+    },
+    "base": {
+      "price": 8.32,
+      "quantity": 10,
+      "unit": "ML"
+    }
+  },
+  "features": [
+    {
+      "label_code": "miso_geeignet_fuer",
+      "label": "Suitable for",
+      "values": [
+        {
+          "value_code": "MISO_geeignet_fuer_antiaging",
+          "value": "Anti-Aging"
+        }
+      ],
+      "category_code": "MISO_CLA_Gesichtspflege_Gesichtspflege_Beauty_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "miso_anwendung",
+      "label": "Application",
+      "values": [
+        {
+          "value_code": "MISO_anwendung_serum",
+          "value": "Serum"
+        }
+      ],
+      "category_code": "MISO_CLA_Gesichtspflege_Gesichtspflege_Beauty_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "MAPI_VEGETARIANISM",
+      "label": "Vegetarianism",
+      "values": [
+        {
+          "value_code": "MAPI_VEGETARIANISM_vegan",
+          "value": "vegan"
+        }
+      ],
+      "category_code": "MAPI_VEGETARIANISM",
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/d80af151aa11663dffb277511a7883b5b3428d17/lavera-my-age-oil-serum.jpg",
+    "stack": "https://image.migros.ch/{stack}/d80af151aa11663dffb277511a7883b5b3428d17/lavera-my-age-oil-serum.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/6c18998803960309c3f2cb9b4e77755d720160e3/lavera-my-age-oil-serum.png",
+    "stack": "https://image.migros.ch/{stack}/6c18998803960309c3f2cb9b4e77755d720160e3/lavera-my-age-oil-serum.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Standard item"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "ZHKS"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUSTOMS_POSITION",
+      "values": [
+        {
+          "value": "33049900"
+        }
+      ],
+      "category_code": "MAPI_CUSTOMS_POSITION",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RISK_CLASS",
+      "values": [
+        {
+          "value_code": "1",
+          "value": "1 (high)"
+        }
+      ],
+      "category_code": "MAPI_RISK_CLASS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_QUALITY_CHECK",
+      "values": [
+        {
+          "value_code": "00",
+          "value": "No Quality Control"
+        }
+      ],
+      "category_code": "MAPI_QUALITY_CHECK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZHKS",
+          "value": "HKS Standardartikel"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "H",
+          "value": "HKS Standard"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "50465",
+          "value": "NATURKOSMETIK GESICHT"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LIFECYCLE",
+      "values": [
+        {
+          "value_code": "D",
+          "value": "Detailhandelsartikel"
+        }
+      ],
+      "category_code": "MAPI_LIFECYCLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_EXPORTABLE",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Yes",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MAPI_EXPORTABLE",
+      "top_fact": false
+    }
+  ],
+  "declarations": {
+    "declaration_number": "Q_1604593688614543",
+    "tags": [
+      "source-qim"
+    ],
+    "gtins": [
+      "4021457635597"
+    ],
+    "valid_from": "2023-05-16T00:02:00+0200",
+    "product_details": {
+      "net_filled_quantity": {
+        "value": "30 ml",
+        "numeric_value": 30,
+        "unit": "ml"
+      },
+      "net_weight": {
+        "value": "26.31 Gramm",
+        "numeric_value": 26.31,
+        "unit": "Gramm"
+      }
+    },
+    "distributor": {
+      "name": "Laverana GmbH & Co. KG",
+      "address": "Am Weingarten 4, 30974 Wennigsen"
+    },
+    "ingredients_information": {
+      "allergens_information": {
+        "allergens": [
+          {
+            "code": "GE",
+            "label": "geraniol",
+            "contamination_code": "VORHANDEN",
+            "contamination_label": "contains"
+          },
+          {
+            "code": "BO",
+            "label": "d-limonene",
+            "contamination_code": "VORHANDEN",
+            "contamination_label": "contains"
+          },
+          {
+            "code": "BP",
+            "label": "linalool",
+            "contamination_code": "VORHANDEN",
+            "contamination_label": "contains"
+          },
+          {
+            "code": "BS",
+            "label": "benzyl salicylates",
+            "contamination_code": "VORHANDEN",
+            "contamination_label": "contains"
+          },
+          {
+            "code": "CN",
+            "label": "citronellol",
+            "contamination_code": "VORHANDEN",
+            "contamination_label": "contains"
+          },
+          {
+            "code": "CT",
+            "label": "citral",
+            "contamination_code": "VORHANDEN",
+            "contamination_label": "contains"
+          }
+        ]
+      }
+    }
+  },
+  "regional_availability": {
+    "gmaa": {
+      "probability": 30
+    },
+    "gmbs": {
+      "probability": 24
+    },
+    "gmge": {
+      "probability": 24
+    },
+    "gmlu": {
+      "probability": 27
+    },
+    "gmnf": {
+      "probability": 16
+    },
+    "gmos": {
+      "probability": 23
+    },
+    "gmti": {
+      "probability": 35
+    },
+    "gmvd": {
+      "probability": 23
+    },
+    "gmvs": {
+      "probability": 26
+    },
+    "gmzh": {
+      "probability": 28
+    }
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "updated_at": "2023-08-13T07:44:17+0200",
+  "sap_created_at": "2021-11-01T00:00:00+0100",
+  "base_unit": "CU",
+  "origins": {
+    "producing_country": "Germany"
+  },
+  "views": [
+    "all",
+    "browse",
+    "browseallretailers"
+  ]
+}

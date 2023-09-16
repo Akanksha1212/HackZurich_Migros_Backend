@@ -1,0 +1,598 @@
+{
+  "id": "107053100000",
+  "language": "en",
+  "name": "Migros Bio Kräuter Tee mit Holunder",
+  "names": {
+    "short_name": "Migros Bio Kräuter Tee mit Holunder"
+  },
+  "slug": "migros-bio-kraeuter-tee-mit-holunder",
+  "slugs": {
+    "de": "migros-bio-kraeuter-tee-mit-holunder",
+    "fr": "migros-bio-the-herbes-fleurs-sureau",
+    "it": "migros-bio-te-alle-erbe-fiori-sambuco",
+    "en": "migros-bio-kraeuter-tee-mit-holunder"
+  },
+  "type": "00",
+  "boss_number": "010310327005",
+  "data_source": "SAP-X11",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03"
+  },
+  "tags": [
+    "source-p4m",
+    "migipedia",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613312409169"
+  ],
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarket"
+  },
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "brand": {
+    "id": "E28",
+    "name": "Migros Bio",
+    "slug": "migros-bio"
+  },
+  "labels": [
+    {
+      "id": "L73",
+      "name": "Bio Knospe",
+      "slug": "bio-knospe"
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_0101100208",
+      "name": "Bio Tee",
+      "slug": "supermarkt/lebensmittel/getraenke-heiss-kalt/tee/bio-tee",
+      "visible": true,
+      "parent_code": "BeSS_01011002",
+      "image": {
+        "original": "https://image.migros.ch/original/cb730baefff82b1d760b12286c86804dcf606b81/bio-tee.jpg",
+        "stack": "https://image.migros.ch/{stack}/cb730baefff82b1d760b12286c86804dcf606b81/bio-tee.jpg"
+      },
+      "level": 5
+    },
+    {
+      "code": "BeSS_01011002",
+      "name": "Tee",
+      "slug": "supermarkt/lebensmittel/getraenke-heiss-kalt/tee",
+      "visible": true,
+      "title": "Das Wohlgefühl zum Trinken: Tee bei der Migros",
+      "parent_code": "BeSS_010110",
+      "image": {
+        "original": "https://image.migros.ch/original/4c6fb74086d8600a4d60573c7d40d45319534149/tee.jpg",
+        "stack": "https://image.migros.ch/{stack}/4c6fb74086d8600a4d60573c7d40d45319534149/tee.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010110",
+      "name": "Getränke heiss & kalt",
+      "slug": "supermarkt/lebensmittel/getraenke-heiss-kalt",
+      "visible": true,
+      "title": "Getränke aus der Migros löschen auch Ihren Durst",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/d04d95fbc2e1b4ada4783d2976d37a962a0318a1/getraenke-heiss-kalt.jpg",
+        "stack": "https://image.migros.ch/{stack}/d04d95fbc2e1b4ada4783d2976d37a962a0318a1/getraenke-heiss-kalt.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/31702195ec9d38aecefe80349eb347f79d56c750/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/31702195ec9d38aecefe80349eb347f79d56c750/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "online_relevant": [
+    {
+      "code": "MGB",
+      "name": "Migros Genossenschafts-Bund"
+    }
+  ],
+  "links": {
+    "migros_ch": {
+      "url": "https://www.migros.ch/en/product/107053100000?context=instore",
+      "name": "In-store assortment",
+      "canonical": "https://www.migros.ch/en/product/107053100000?context=instore",
+      "type": "info",
+      "purchasable": false
+    },
+    "migros_online": {
+      "url": "https://www.migros.ch/en/product/107053100000?context=online",
+      "mo_product_id": "10632136",
+      "name": "Online-shop assortment",
+      "canonical": "https://www.migros.ch/en/product/107053100000?context=instore",
+      "type": "shop",
+      "purchasable": true,
+      "one_catalog_id": 100128073
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/107053100000",
+      "name": "Migipedia",
+      "canonical": "https://www.migros.ch/en/product/107053100000?context=instore",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "has_safety_sheet": false,
+  "m_check2": {},
+  "receipt_text": "Bio Kräutertee Holunde",
+  "package": {
+    "content": 33.8,
+    "content_unit_code": "g",
+    "content_unit": "Gram",
+    "net_weight": 0.034,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogram",
+    "type": "CU",
+    "portions_per_package": "1",
+    "brutto_weight": 0.053,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 0.512,
+    "brutto_volume_unit_code": "cdm",
+    "height": 7.1,
+    "length": 5.5,
+    "width": 13.1,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "33.8g"
+  },
+  "package_information": {
+    "tu": {
+      "gtins": [
+        "7613312409176"
+      ],
+      "brutto_weight": 1.44,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 14.683,
+      "brutto_volume_unit_code": "cdm",
+      "height": 23.6,
+      "length": 27.9,
+      "width": 22.3,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 24
+    },
+    "cu": {
+      "gtins": [
+        "7613312409169"
+      ],
+      "brutto_weight": 0.053,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.512,
+      "brutto_volume_unit_code": "cdm",
+      "height": 7.1,
+      "length": 5.5,
+      "width": 13.1,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "lu": {
+      "brutto_weight": 156.04,
+      "brutto_weight_unit_code": "kg",
+      "length": 120,
+      "width": 80,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 2184
+    }
+  },
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "price": {
+    "valid_from": "2023-01-31T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 2.95,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "33.8g"
+    },
+    "base": {
+      "price": 8.73,
+      "quantity": 100,
+      "unit": "G"
+    }
+  },
+  "features": [
+    {
+      "label_code": "acxMISOteeart",
+      "label": "Teeart",
+      "values": [
+        {
+          "value": "Kräutertee"
+        }
+      ],
+      "category_code": "ecxMISOCLAteeersatzproduktegetraenkelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOcugebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "erxMISOcugebindeartschachtel",
+          "value": "Schachtel"
+        }
+      ],
+      "category_code": "ecxMISOCLAteeersatzproduktegetraenkelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOzubereitungdestees",
+      "label": "Zubereitung des Tees",
+      "values": [
+        {
+          "value": "Beutel"
+        }
+      ],
+      "category_code": "ecxMISOCLAteeersatzproduktegetraenkelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOproduktionsanspruch",
+      "label": "Produktionsverfahren",
+      "values": [
+        {
+          "value_code": "erxMISOproduktionsanspruchbioproduktion",
+          "value": "Bio-Produktion"
+        }
+      ],
+      "category_code": "ecxMISOCLAteeersatzproduktegetraenkelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOzubereitungsverfahren",
+      "label": "Hinweise für die Zubereitung",
+      "values": [
+        {
+          "value_code": "erxMISOzubereitungsverfahrenheisseswasserhinzugeben",
+          "value": "heisses Wasser hinzugeben"
+        }
+      ],
+      "category_code": "ecxMISOCLAteeersatzproduktegetraenkelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOanzahlpadskapselnbeutel",
+      "label": "Anzahl Pads/Kapseln/Beutel",
+      "values": [
+        {
+          "value_code": "NUMERIC_26",
+          "value": "26",
+          "numeric_value": 26
+        }
+      ],
+      "category_code": "ecxMISOCLAteeersatzproduktegetraenkelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOkraeuterfruechteteesorte",
+      "label": "Früchtesorte",
+      "values": [
+        {
+          "value_code": "erxMISOkraeuterfruechteteesorteholunder",
+          "value": "Holunder"
+        }
+      ],
+      "category_code": "ecxMISOCLAteeersatzproduktegetraenkelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/416d074307298790775adf1794d7b4b0d2017ff3/migros-bio-kraeuter-tee-mit-holunder.jpg",
+    "stack": "https://image.migros.ch/{stack}/416d074307298790775adf1794d7b4b0d2017ff3/migros-bio-kraeuter-tee-mit-holunder.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/4ff094ce6681f20ce7e4660972359a3b9a7df603/migros-bio-kraeuter-tee-mit-holunder.png",
+    "stack": "https://image.migros.ch/{stack}/4ff094ce6681f20ce7e4660972359a3b9a7df603/migros-bio-kraeuter-tee-mit-holunder.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_EXPORTABLE",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_EXPORTABLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Normalposition"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "HAWA"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "10372",
+          "value": "BIO TEA"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_KUBE_TUKA",
+      "values": [
+        {
+          "value_code": "BLANK",
+          "value": "KUBE und TUKA nicht zugelassen"
+        }
+      ],
+      "category_code": "MAPI_KUBE_TUKA",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LIFECYCLE",
+      "values": [
+        {
+          "value_code": "D",
+          "value": "Detailhandelsartikel"
+        }
+      ],
+      "category_code": "MAPI_LIFECYCLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_STORAGE_CONDITIONS",
+      "values": [
+        {
+          "value_code": "01",
+          "value": "normal"
+        }
+      ],
+      "category_code": "MAPI_STORAGE_CONDITIONS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_MULTIPACK",
+      "values": [
+        {
+          "value_code": "0",
+          "value": "No pack expression"
+        }
+      ],
+      "category_code": "MAPI_MULTIPACK",
+      "top_fact": false
+    }
+  ],
+  "declarations": {
+    "declaration_number": "Q_1604593689459347",
+    "tags": [
+      "source-qim"
+    ],
+    "gtins": [
+      "7613312409169"
+    ],
+    "valid_from": "2022-11-28T16:59:00+0100",
+    "product_details": {
+      "net_filled_quantity": {
+        "value": "33.8 g",
+        "numeric_value": 33.8,
+        "unit": "g"
+      }
+    },
+    "distributor": {
+      "name": "Migros-Genossenschafts-Bund",
+      "address": "CH-8031 Zürich"
+    },
+    "general_information": [
+      {
+        "label": "Cooling information/storage information",
+        "values": [
+          "Store in a dry place."
+        ]
+      }
+    ]
+  },
+  "recipe_ingredient_ids": [
+    "10000"
+  ],
+  "regional_availability": {
+    "gmaa": {
+      "probability": 95
+    },
+    "gmbs": {
+      "probability": 95
+    },
+    "gmge": {
+      "probability": 18
+    },
+    "gmlu": {
+      "probability": 81
+    },
+    "gmnf": {
+      "probability": 16
+    },
+    "gmos": {
+      "probability": 85
+    },
+    "gmti": {
+      "probability": 45
+    },
+    "gmvd": {
+      "probability": 9
+    },
+    "gmvs": {
+      "probability": 26
+    },
+    "gmzh": {
+      "probability": 85
+    }
+  },
+  "ratings": {
+    "count_all": 20,
+    "average_all": 4.294117647059
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "updated_at": "2023-08-17T11:45:08+0200",
+  "sap_created_at": "2022-11-03T19:00:00+0100",
+  "online_shop_relevant": false,
+  "base_unit": "CU",
+  "origins": {},
+  "views": [
+    "all",
+    "browse",
+    "browseallretailers"
+  ]
+}

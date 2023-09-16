@@ -1,0 +1,660 @@
+{
+  "id": "501115800000",
+  "language": "en",
+  "name": "M-PLUS ALL IN ONE POWDER",
+  "names": {
+    "short_name": "M-PLUS ALL IN ONE POWDER"
+  },
+  "slug": "m-plus-all-in-one-powder",
+  "slugs": {
+    "de": "geschirrspuelmaschinen-pulver-all-in-1",
+    "fr": "m-plus-poudre-all-in-one",
+    "it": "m-plus-polver-all-in-one",
+    "en": "m-plus-all-in-one-powder"
+  },
+  "type": "00",
+  "boss_number": "150126800105",
+  "description": {
+    "text": "Das Geschirrsp&uuml;lmaschinenpulver sorgt f&uuml;r eine gute Reinigungsleistung und schont Abwaschmaschine und Geschirr.",
+    "source": "PEX"
+  },
+  "data_source": "SAP-X11",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03",
+    "distribution_center": [
+      {
+        "center_id": "1000",
+        "center_name": "Migros Verteilzentrum Suhr",
+        "status_description": "product.status.distribution_center."
+      },
+      {
+        "center_id": "1001",
+        "center_name": "Migros Verteilzentrum Neuendorf",
+        "status_description": "product.status.distribution_center."
+      },
+      {
+        "center_id": "1020",
+        "center_name": "Regionallager Basel",
+        "status_description": "product.status.distribution_center."
+      },
+      {
+        "center_id": "1030",
+        "center_name": "Regionallager Aare",
+        "status_description": "product.status.distribution_center."
+      },
+      {
+        "center_id": "1040",
+        "center_name": "Entrepôt régional Genève",
+        "status_description": "product.status.distribution_center."
+      },
+      {
+        "center_id": "1060",
+        "center_name": "Entrepôt régional Vaud",
+        "status_description": "product.status.distribution_center."
+      },
+      {
+        "center_id": "1070",
+        "center_name": "Regionallager Luzern",
+        "status_description": "product.status.distribution_center."
+      },
+      {
+        "center_id": "1080",
+        "center_name": "Entrepôt régional Neuchâtel /",
+        "status_description": "product.status.distribution_center."
+      },
+      {
+        "center_id": "1090",
+        "center_name": "Regionallager Ostschweiz",
+        "status_description": "product.status.distribution_center."
+      },
+      {
+        "center_id": "1120",
+        "center_name": "Magazzino regionale Ticino",
+        "status_description": "product.status.distribution_center."
+      },
+      {
+        "center_id": "1130",
+        "center_name": "Entrepôt régional Valais",
+        "status_description": "product.status.distribution_center."
+      },
+      {
+        "center_id": "1150",
+        "center_name": "Regionallager Zürich",
+        "status_description": "product.status.distribution_center."
+      }
+    ]
+  },
+  "tags": [
+    "source-pex",
+    "near-non-food",
+    "migipedia",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7630028637259"
+  ],
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarket"
+  },
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "brand": {
+    "id": "127",
+    "name": "M-Plus",
+    "slug": "m-plus"
+  },
+  "categories": [
+    {
+      "code": "BeSS_0104010501",
+      "name": "Geschirrspüler",
+      "slug": "supermarkt/haushalt-reinigung/waschen-reinigen-pflege/geschirreinigung/geschirrspueler",
+      "visible": true,
+      "parent_code": "BeSS_01040105",
+      "image": {
+        "original": "https://image.migros.ch/original/0c32435643eb60251a2d5a2ab7a7773648aa9802/geschirrspueler.jpg",
+        "stack": "https://image.migros.ch/{stack}/0c32435643eb60251a2d5a2ab7a7773648aa9802/geschirrspueler.jpg"
+      },
+      "level": 5
+    },
+    {
+      "code": "BeSS_01040105",
+      "name": "Geschirreinigung",
+      "slug": "supermarkt/haushalt-reinigung/waschen-reinigen-pflege/geschirreinigung",
+      "visible": true,
+      "parent_code": "BeSS_010401",
+      "image": {
+        "original": "https://image.migros.ch/original/d35ea4bc738ca632dfb622e8b782ae1f09bc631f/geschirreinigung.jpg",
+        "stack": "https://image.migros.ch/{stack}/d35ea4bc738ca632dfb622e8b782ae1f09bc631f/geschirreinigung.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010401",
+      "name": "Waschen, Reinigen & Pflege",
+      "slug": "supermarkt/haushalt-reinigung/waschen-reinigen-pflege",
+      "visible": true,
+      "parent_code": "BeSS_0104",
+      "image": {
+        "original": "https://image.migros.ch/original/37d8921589f88cd40b1c580b957a6a414e1fe1d1/waschen-reinigen-pflege.jpg",
+        "stack": "https://image.migros.ch/{stack}/37d8921589f88cd40b1c580b957a6a414e1fe1d1/waschen-reinigen-pflege.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0104",
+      "name": "Haushalt & Reinigung",
+      "slug": "supermarkt/haushalt-reinigung",
+      "visible": true,
+      "title": "Reinigung mit der Migros – Reiniger für Haushalt und Garten",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png",
+        "stack": "https://image.migros.ch/{stack}/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "galaxus_relevant": false,
+  "links": {
+    "migros_ch": {
+      "url": "https://www.migros.ch/en/product/501115800000?context=instore",
+      "name": "In-store assortment",
+      "canonical": "https://www.migros.ch/en/product/501115800000?context=instore",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/501115800000",
+      "name": "Migipedia",
+      "canonical": "https://www.migros.ch/en/product/501115800000?context=instore",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "m_check2": {},
+  "receipt_text": "M-Plus All In 1 Pulver",
+  "package": {
+    "content": 800,
+    "content_unit_code": "g",
+    "content_unit": "Gramm",
+    "net_weight": 0.8,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "brutto_weight": 1,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 0.994,
+    "brutto_volume_unit_code": "cdm",
+    "height": 11.3,
+    "length": 11,
+    "width": 8,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "800g"
+  },
+  "package_information": {
+    "tu": {
+      "gtins": [
+        "7630028637266"
+      ],
+      "brutto_weight": 6.813,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 8.619,
+      "brutto_volume_unit_code": "cdm",
+      "height": 11.3,
+      "length": 22.5,
+      "width": 33.9,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 8
+    },
+    "cu": {
+      "gtins": [
+        "7630028637259"
+      ],
+      "brutto_weight": 1,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.994,
+      "brutto_volume_unit_code": "cdm",
+      "height": 11.3,
+      "length": 11,
+      "width": 8,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "lu": {
+      "brutto_weight": 461.032,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 1025.28,
+      "brutto_volume_unit_code": "cdm",
+      "height": 106.8,
+      "length": 120,
+      "width": 80,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 512
+    },
+    "lge": {
+      "number_of_base_units": 1
+    },
+    "kar": {
+      "number_of_base_units": 1
+    }
+  },
+  "vat": {
+    "id": 1,
+    "percentage": 7.7
+  },
+  "price": {
+    "valid_from": "2023-08-15T00:00:00+0200",
+    "valid_to": "2023-08-29T23:59:59+0200",
+    "source": "PriceRepository",
+    "item": {
+      "price": 9.95,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "800g"
+    },
+    "discount": {
+      "id": "2044852",
+      "region": "national",
+      "start_date": "2023-08-15T00:00:00+0200",
+      "end_date": "2023-08-29T23:59:59+0200",
+      "publication_date": "2023-08-13T00:00:00+0200",
+      "discount_regions": [
+        "national",
+        "gmaa",
+        "gmbs",
+        "gmge",
+        "gmlu",
+        "gmnf",
+        "gmos",
+        "gmti",
+        "gmvd",
+        "gmvs",
+        "gmzh"
+      ],
+      "reference_product_id": "501115800000",
+      "discount_type": "neuheit",
+      "discount_type_id": "004",
+      "discount_type_label": "CAKT Cumulus-Angebot (Fix oder xFach Punkte)",
+      "tags": [
+        "regional-override"
+      ],
+      "organisation": "09",
+      "cooperative": "mgb",
+      "cumulus_points": {
+        "value": 20,
+        "relative": false
+      },
+      "location_planning_type": "01",
+      "reduction_type_id": "05",
+      "special_advertisement": false,
+      "description": "M-Plus Geschirrspülpulver All in One",
+      "discount_hint": "800 g, Angebot gilt nur vom 15.8. bis 29.8.2023, solange Vorrat.",
+      "high_performer": false,
+      "collective_discount": false,
+      "price": 9.95,
+      "profit": 20,
+      "disclaimer": "Gültigkeit siehe Angebots-Detailseite.\r\nBei allen Angeboten sind M-Budget und bereits reduzierte Artikel ausgenommen.\r\nBei Aktionen können bei der Verrechnung auf dem Kassabon Rundungsdifferenzen zu Gunsten des Kunden entstehen.",
+      "source": "PriceRepository",
+      "boss_number": "150126800105",
+      "discount_role_id": "1000000005",
+      "discount_role_label": "Neuheitenangebot",
+      "last_imported": "2023-08-07T15:16:42+0200"
+    },
+    "discount_hint": "Angebot gilt nur vom 15.8. bis 29.8.2023, solange Vorrat."
+  },
+  "features": [
+    {
+      "label_code": "miso_oeko_hinweis",
+      "label": "Environmental information",
+      "values": [
+        {
+          "value_code": "MISO_biologisch_gut_abbaubar_OECD_test_302B_ergaenzt_mit_CO2_analytik",
+          "value": "Biologisch gut abbaubar (OECD-Test 302B, ergänzt mit CO2-Analytik)"
+        }
+      ],
+      "category_code": "MISO_CLA_WaschenPapierReinigen_Haushalt_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "miso_gefahrenhinweise",
+      "label": "Hazard warnings",
+      "values": [
+        {
+          "value": "Darf nicht in die Hände von Kindern gelangen."
+        }
+      ],
+      "category_code": "MISO_CLA_WaschenPapierReinigen_Haushalt_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "miso_geeignet_fuer",
+      "label": "Suitable for",
+      "values": [
+        {
+          "value_code": "MISO_geschirrabwaschmaschinen",
+          "value": "Geschirrabwaschmaschinen"
+        }
+      ],
+      "category_code": "MISO_CLA_Geschirr_WaschenPapierReinigen_Haushalt_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "CHEMICALS_WARNING",
+      "label": "Warning",
+      "values": [
+        {
+          "value": "Always read label and product information before use."
+        }
+      ],
+      "category_code": "CHEMICALS_WARNING",
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/04c4d22b6f2f340f25539f79a9a21fb9ec549056/m-plus-all-in-one-powder.jpg",
+    "stack": "https://image.migros.ch/{stack}/04c4d22b6f2f340f25539f79a9a21fb9ec549056/m-plus-all-in-one-powder.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/056c9630d00ab906e19cee91e2a909ac69d53d55/m-plus-all-in-one-powder.png",
+    "stack": "https://image.migros.ch/{stack}/056c9630d00ab906e19cee91e2a909ac69d53d55/m-plus-all-in-one-powder.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Standard item"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "ZHKS"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RISK_CLASS",
+      "values": [
+        {
+          "value_code": "3",
+          "value": "3 (low)"
+        }
+      ],
+      "category_code": "MAPI_RISK_CLASS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_QUALITY_CHECK",
+      "values": [
+        {
+          "value_code": "00",
+          "value": "No Quality Control"
+        }
+      ],
+      "category_code": "MAPI_QUALITY_CHECK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZHKS",
+          "value": "HKS Standardartikel"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "H",
+          "value": "HKS Standard"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "50507",
+          "value": "AUTOMATENABWASCHMITTEL"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LIFECYCLE",
+      "values": [
+        {
+          "value_code": "N",
+          "value": "Neuheit"
+        }
+      ],
+      "category_code": "MAPI_LIFECYCLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_EXPORTABLE",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_EXPORTABLE",
+      "top_fact": false
+    }
+  ],
+  "chemicals_declaration": {
+    "release_date": "2023-07-24T13:59:54+0200",
+    "supplier_id": "0003810000",
+    "hazard_statements": [
+      {
+        "code": "H319",
+        "label": "Causes serious eye irritation."
+      }
+    ],
+    "precautionary_statements": [
+      {
+        "code": "P101",
+        "label": "If medical advice is needed, have product container or label at hand."
+      },
+      {
+        "code": "P102",
+        "label": "Keep out of reach of children."
+      },
+      {
+        "code": "P280",
+        "label": "Wear protective gloves / protective clothing / eye protection / face protection."
+      },
+      {
+        "code": "P337_313",
+        "label": "If eye irritation persists: Get medical advice/attention."
+      },
+      {
+        "code": "P305_351_338",
+        "label": "IF IN EYES: Rinse cautiously with water for several minutes. Remove contact lenses, if present and easy to do. Continue rinsing."
+      }
+    ],
+    "eu_hazard_statements": [
+      {
+        "code": "EUH208",
+        "label": "Contains Subtilisin. May produce an allergic reaction."
+      }
+    ],
+    "signal_word": {
+      "code": "SW02",
+      "label": "Warning"
+    },
+    "cpid_number": "000000-00 (Mibelle)",
+    "poison_cabinet": false,
+    "hazard_pictograms": [
+      {
+        "code": "GHS07",
+        "description": "exclamation mark",
+        "original": "https://image.migros.ch/original/09b3c0810d45b7f83a5ad48c5bc38d4d0227615b/GHS07.jpg",
+        "stack": "https://image.migros.ch/{stack}/09b3c0810d45b7f83a5ad48c5bc38d4d0227615b/GHS07.jpg"
+      }
+    ]
+  },
+  "regional_availability": {
+    "gmaa": {
+      "probability": 37
+    },
+    "gmbs": {
+      "probability": 31
+    },
+    "gmge": {
+      "probability": 32
+    },
+    "gmlu": {
+      "probability": 24
+    },
+    "gmnf": {
+      "probability": 27
+    },
+    "gmos": {
+      "probability": 28
+    },
+    "gmti": {
+      "probability": 13
+    },
+    "gmvd": {
+      "probability": 28
+    },
+    "gmvs": {
+      "probability": 26
+    },
+    "gmzh": {
+      "probability": 38
+    }
+  },
+  "reindex_date": "2023-08-29T23:59:59+0200",
+  "updated_at": "2023-08-16T07:39:15+0200",
+  "sap_created_at": "2023-03-30T00:00:00+0200",
+  "base_unit": "CU",
+  "views": [
+    "all",
+    "browse",
+    "browseallretailers"
+  ]
+}

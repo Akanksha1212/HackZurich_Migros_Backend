@@ -1,0 +1,652 @@
+{
+  "id": "704504000000",
+  "language": "en",
+  "name": "KAFFEEFILTER N°4 UNGEBLEICHT 80STK.",
+  "names": {
+    "short_name": "KAFFEEFILTER N°4 UNGEBLEICHT 80STK."
+  },
+  "slug": "kaffeefilter-n4-ungebleicht-80stk",
+  "slugs": {
+    "de": "kafino-n4-kaffeefilterpapier",
+    "fr": "kafino-n4-filtres-papier",
+    "it": "kafino-n4-filtri-carta-caffe",
+    "en": "kaffeefilter-n4-ungebleicht-80stk"
+  },
+  "type": "00",
+  "boss_number": "150432232505",
+  "description": {
+    "text": "Anwendung: Den unteren und seitlichen Pr&auml;gerand umfalten. Pro Tasse einen geh&auml;uften Kaffeel&ouml;ffel gemalenes Kaffeepulver einf&uuml;llen. Kochendes Wasser dar&uuml;bergiessen, bis der Kaffee durchgefeuchtet und aufgequollen ist. Nach ca. 30 Sekunden Wasser nachgiessen. Die ben&uuml;tzten Filter k&ouml;nnen mit dem Inahlt kompostiert werden. Das Filterpapier ist ungebleicht.",
+    "source": "PEX"
+  },
+  "data_source": "SAP-X12",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03",
+    "distribution_center": [
+      {
+        "center_id": "1001",
+        "center_name": "Migros Verteilzentrum Neuendorf",
+        "status_code": "03",
+        "status_description": "active"
+      }
+    ]
+  },
+  "tags": [
+    "source-pex",
+    "near-non-food",
+    "migipedia",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7617026527027"
+  ],
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarket"
+  },
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "brand": {
+    "id": "ZL4",
+    "name": "Kafino",
+    "slug": "kafino"
+  },
+  "labels": [
+    {
+      "id": "L09",
+      "name": "FSC",
+      "slug": "fsc"
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_01042103",
+      "name": "Filter & Zubehör",
+      "slug": "supermarkt/haushalt-reinigung/frischhalten-backen-aufbewahren/filter-zubehoer",
+      "visible": true,
+      "parent_code": "BeSS_010421",
+      "level": 4
+    },
+    {
+      "code": "BeSS_010421",
+      "name": "Frischhalten, Backen & Aufbewahren",
+      "slug": "supermarkt/haushalt-reinigung/frischhalten-backen-aufbewahren",
+      "visible": true,
+      "parent_code": "BeSS_0104",
+      "level": 3
+    },
+    {
+      "code": "BeSS_0104",
+      "name": "Haushalt & Reinigung",
+      "slug": "supermarkt/haushalt-reinigung",
+      "visible": true,
+      "title": "Reinigung mit der Migros – Reiniger für Haushalt und Garten",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png",
+        "stack": "https://image.migros.ch/{stack}/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "online_relevant": [
+    {
+      "code": "MGB",
+      "name": "Migros Genossenschafts-Bund"
+    },
+    {
+      "code": "MO",
+      "name": "Migros Online"
+    }
+  ],
+  "links": {
+    "migros_ch": {
+      "url": "https://www.migros.ch/en/product/704504000000?context=instore",
+      "name": "In-store assortment",
+      "canonical": "https://www.migros.ch/en/product/704504000000?context=instore",
+      "type": "info",
+      "purchasable": false
+    },
+    "migros_online": {
+      "url": "https://www.migros.ch/en/product/704504000000?context=online",
+      "mo_product_id": "62405",
+      "name": "Online-shop assortment",
+      "canonical": "https://www.migros.ch/en/product/704504000000?context=instore",
+      "type": "shop",
+      "purchasable": true,
+      "one_catalog_id": 100008127
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/704504000000",
+      "name": "Migipedia",
+      "canonical": "https://www.migros.ch/en/product/704504000000?context=instore",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "m_check2": {
+    "carbon_footprint": {
+      "image": {
+        "original": "https://image.migros.ch/original/6137c42cbff331738ddeafb4f91efb06075417b3.svg",
+        "stack": "https://image.migros.ch/{stack}/6137c42cbff331738ddeafb4f91efb06075417b3.svg"
+      },
+      "ground_and_sea_cargo": {
+        "kg_co2": 6.64,
+        "kg_co2_range": "4.8 - 9.9 kg CO₂eq / kg",
+        "co2_in_car_km": 36,
+        "rating": 2,
+        "production_in_percent": 96,
+        "packaging_in_percent": 3,
+        "transport_in_percent": 2
+      }
+    }
+  },
+  "receipt_text": "Kaffeefilterpapier n°4",
+  "package": {
+    "content": 80,
+    "content_unit_code": "st",
+    "content_unit": "Stück",
+    "net_weight": 0.145,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "brutto_weight": 0.207,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 0.943,
+    "brutto_volume_unit_code": "cdm",
+    "height": 20,
+    "length": 13.3,
+    "width": 3.6,
+    "unit_dimension": "cm",
+    "price_comparison_content": 1,
+    "size": "80 Stk."
+  },
+  "package_information": {
+    "cu": {
+      "gtins": [
+        "7617026527027"
+      ],
+      "brutto_weight": 0.207,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.943,
+      "brutto_volume_unit_code": "cdm",
+      "height": 20,
+      "length": 13.3,
+      "width": 3.6,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "tuv": {
+      "brutto_weight": 3.52,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 21.06,
+      "brutto_volume_unit_code": "cdm",
+      "height": 20,
+      "length": 39,
+      "width": 27,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 20
+    },
+    "tue": {
+      "gtins": [
+        "7613047876571"
+      ],
+      "brutto_weight": 3.697,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.001,
+      "brutto_volume_unit_code": "ccm",
+      "height": 20,
+      "length": 39,
+      "width": 27,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 20
+    },
+    "lu": {
+      "gtins": [
+        "7613162193812"
+      ],
+      "brutto_weight": 165,
+      "brutto_weight_unit_code": "kg",
+      "number_of_base_units": 800
+    },
+    "lge": {
+      "number_of_base_units": 160
+    },
+    "moq": {
+      "number_of_base_units": 800
+    }
+  },
+  "vat": {
+    "id": 1,
+    "percentage": 7.7
+  },
+  "price": {
+    "valid_from": "2023-02-28T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 1.95,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "80 Stk."
+    },
+    "base": {
+      "price": 0.02,
+      "quantity": 1,
+      "unit": "ST"
+    }
+  },
+  "features": [
+    {
+      "label_code": "miso_anzahl",
+      "label": "Number",
+      "values": [
+        {
+          "value_code": "NUMERIC_80",
+          "value": "80 Stk.",
+          "numeric_value": 80
+        }
+      ],
+      "category_code": "MISO_CLA_FolienBeutel_Verbrauch_Haushalt_Alle",
+      "top_fact": false,
+      "unit_code": "Stk.",
+      "unit": "Stück",
+      "unit_symbol": "Stk.",
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "miso_material",
+      "label": "Material",
+      "values": [
+        {
+          "value_code": "MISO_material_papier",
+          "value": "Papier"
+        }
+      ],
+      "category_code": "MISO_CLA_FolienBeutel_Verbrauch_Haushalt_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "miso_farbe",
+      "label": "Color",
+      "values": [
+        {
+          "value_code": "MISO_farbe_ungebleicht",
+          "value": "ungebleicht"
+        }
+      ],
+      "category_code": "MISO_CLA_FolienBeutel_Verbrauch_Haushalt_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/1634949101f551257e53475e2af223a0820fea41/kaffeefilter-n4-ungebleicht-80stk.jpg",
+    "stack": "https://image.migros.ch/{stack}/1634949101f551257e53475e2af223a0820fea41/kaffeefilter-n4-ungebleicht-80stk.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/5613049115d58a71b83eba8f50f47e072656fec7/kaffeefilter-n4-ungebleicht-80stk.png",
+    "stack": "https://image.migros.ch/{stack}/5613049115d58a71b83eba8f50f47e072656fec7/kaffeefilter-n4-ungebleicht-80stk.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "miso_amigos_anzeige",
+      "label": "Display aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "ja"
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "miso_amigos_sortierung",
+      "label": "aMigos sorting",
+      "values": [
+        {
+          "value": "210"
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "MAPI_RETURNABLE",
+      "label": "Return",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "true",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MAPI_RETURNABLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_MAX_ORDER_QUANTITY",
+      "values": [
+        {
+          "value_code": "NUMERIC_99999",
+          "value": "99999",
+          "numeric_value": 99999
+        }
+      ],
+      "category_code": "MAPI_MAX_ORDER_QUANTITY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_EXCLUDE_FROM_COMPARISON_ENGINES",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "false",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_EXCLUDE_FROM_COMPARISON_ENGINES",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+      "values": [
+        {
+          "value_code": "55",
+          "value": "Versandart Paket"
+        }
+      ],
+      "category_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LOGISTIC_CLASS",
+      "values": [
+        {
+          "value_code": "1",
+          "value": "Lager"
+        }
+      ],
+      "category_code": "MAPI_LOGISTIC_CLASS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Standard item"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "HART"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUSTOMS_POSITION",
+      "values": [
+        {
+          "value": "48232000000"
+        }
+      ],
+      "category_code": "MAPI_CUSTOMS_POSITION",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRESENTATION",
+      "values": [
+        {
+          "value_code": "L",
+          "value": "liegend"
+        }
+      ],
+      "category_code": "MAPI_PRESENTATION",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RISK_CLASS",
+      "values": [
+        {
+          "value_code": "2",
+          "value": "2 (medium)"
+        }
+      ],
+      "category_code": "MAPI_RISK_CLASS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_KUBE_TUKA",
+      "values": [
+        {
+          "value_code": "BLANK",
+          "value": "KUBE und TUKA nicht zugelassen"
+        }
+      ],
+      "category_code": "MAPI_KUBE_TUKA",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HART",
+          "value": "Hartwaren Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "H",
+          "value": "Hartwaren"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "60518",
+          "value": "FILTER"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_EXPORTABLE",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Yes",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MAPI_EXPORTABLE",
+      "top_fact": false
+    }
+  ],
+  "recipe_ingredient_ids": [
+    "10000"
+  ],
+  "regional_availability": {
+    "gmaa": {
+      "probability": 99
+    },
+    "gmbs": {
+      "probability": 100
+    },
+    "gmge": {
+      "probability": 89
+    },
+    "gmlu": {
+      "probability": 98
+    },
+    "gmnf": {
+      "probability": 100
+    },
+    "gmos": {
+      "probability": 98
+    },
+    "gmti": {
+      "probability": 100
+    },
+    "gmvd": {
+      "probability": 98
+    },
+    "gmvs": {
+      "probability": 100
+    },
+    "gmzh": {
+      "probability": 95
+    }
+  },
+  "ratings": {
+    "count_all": 49,
+    "average_all": 4.265306122449
+  },
+  "related_products": {
+    "reference_recommendations": {
+      "product_ids": [
+        "704505000000",
+        "703616400000",
+        "704517000000",
+        "702321500000",
+        "704502000000"
+      ]
+    }
+  },
+  "quantity_on_stock": 20780,
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "updated_at": "2023-08-17T12:05:01+0200",
+  "sap_created_at": "1975-01-01T00:00:00+0100",
+  "base_unit": "CU",
+  "origins": {
+    "producing_country": "Germany"
+  },
+  "views": [
+    "all",
+    "browse",
+    "browseallretailers"
+  ]
+}

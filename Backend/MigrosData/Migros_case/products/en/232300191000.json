@@ -1,0 +1,502 @@
+{
+  "id": "232300191000",
+  "language": "en",
+  "name": "Citterio Salami Milano",
+  "names": {
+    "short_name": "Citterio Salami Milano"
+  },
+  "slug": "citterio-salami-milano-232300191000",
+  "slugs": {
+    "de": "citterio-salami-milano-232300191000",
+    "fr": "citterio-salami-milano-232300191000",
+    "it": "citterio-salame-milano-232300191000",
+    "en": "citterio-salami-milano-232300191000"
+  },
+  "type": "00",
+  "boss_number": "040114511020",
+  "data_source": "SAP-X11",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "80"
+  },
+  "tags": [
+    "source-p4m",
+    "migipedia",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613404655474"
+  ],
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarket"
+  },
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "brand": {
+    "id": "453",
+    "name": "Citterio",
+    "slug": "citterio"
+  },
+  "categories": [
+    {
+      "code": "BeSS_0101061204",
+      "name": "Salami und Rohwurst geschnitten",
+      "slug": "supermarkt/lebensmittel/fleisch/wurstwaren/salami-und-rohwurst-geschnitten",
+      "visible": true,
+      "parent_code": "BeSS_01010612",
+      "image": {
+        "original": "https://image.migros.ch/original/6707ae95baa012754e746949287c47f9ff5648e0/salami-und-rohwurst-geschnitten.jpg",
+        "stack": "https://image.migros.ch/{stack}/6707ae95baa012754e746949287c47f9ff5648e0/salami-und-rohwurst-geschnitten.jpg"
+      },
+      "level": 5
+    },
+    {
+      "code": "BeSS_01010612",
+      "name": "Wurstwaren",
+      "slug": "supermarkt/lebensmittel/fleisch/wurstwaren",
+      "visible": true,
+      "title": "Trockenfleisch und Schinken jetzt in Ihrer Migros",
+      "parent_code": "BeSS_010106",
+      "image": {
+        "original": "https://image.migros.ch/original/9522a8f1486af9dc86cfb8a9195c906a242ab2b7/wurstwaren.jpg",
+        "stack": "https://image.migros.ch/{stack}/9522a8f1486af9dc86cfb8a9195c906a242ab2b7/wurstwaren.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010106",
+      "name": "Fleisch",
+      "slug": "supermarkt/lebensmittel/fleisch",
+      "visible": true,
+      "title": "Fleisch ausgezeichneter Qualität aus Ihrer Migros: einfach gut",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/03d32c0880d7a9ea6e58971966032e65ac442b58/fleisch.jpg",
+        "stack": "https://image.migros.ch/{stack}/03d32c0880d7a9ea6e58971966032e65ac442b58/fleisch.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/31702195ec9d38aecefe80349eb347f79d56c750/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/31702195ec9d38aecefe80349eb347f79d56c750/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "online_relevant": [
+    {
+      "code": "MGB",
+      "name": "Migros Genossenschafts-Bund"
+    },
+    {
+      "code": "MO",
+      "name": "Migros Online"
+    }
+  ],
+  "links": {
+    "migros_ch": {
+      "url": "https://www.migros.ch/en/product/232300191000?context=instore",
+      "name": "In-store assortment",
+      "canonical": "https://www.migros.ch/en/product/232300191000?context=instore",
+      "type": "info",
+      "purchasable": false
+    },
+    "migros_online": {
+      "url": "https://www.migros.ch/en/product/232300191000?context=online",
+      "mo_product_id": "6685939",
+      "name": "Online-shop assortment",
+      "canonical": "https://www.migros.ch/en/product/232300191000?context=instore",
+      "type": "shop",
+      "purchasable": true,
+      "one_catalog_id": 100025413
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/232300191000",
+      "name": "Migipedia",
+      "canonical": "https://www.migros.ch/en/product/232300191000?context=instore",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "has_safety_sheet": false,
+  "m_check2": {},
+  "receipt_text": "Citterio Salami Milano",
+  "package": {
+    "content": 70,
+    "content_unit_code": "g",
+    "content_unit": "Gram",
+    "net_weight": 0.07,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogram",
+    "type": "CU",
+    "portions_per_package": "1",
+    "brutto_weight": 0.07,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 229.44,
+    "brutto_volume_unit_code": "ccm",
+    "height": 23.9,
+    "length": 1,
+    "width": 9.6,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "70g"
+  },
+  "package_information": {
+    "tu": {
+      "gtins": [
+        "7613404655481"
+      ],
+      "brutto_weight": 0.7,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 31920,
+      "brutto_volume_unit_code": "ccm",
+      "height": 13.3,
+      "length": 60,
+      "width": 40,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 10
+    },
+    "cu": {
+      "gtins": [
+        "7613404655474"
+      ],
+      "brutto_weight": 0.07,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 229.44,
+      "brutto_volume_unit_code": "ccm",
+      "height": 23.9,
+      "length": 1,
+      "width": 9.6,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    }
+  },
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "price": {
+    "valid_from": "2023-07-11T00:00:00+0200",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 3.7,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "70g"
+    },
+    "base": {
+      "price": 5.29,
+      "quantity": 100,
+      "unit": "G"
+    }
+  },
+  "image": {
+    "original": "https://image.migros.ch/original/aa582a3b2ba4a8178ccfd1af4dd67f160e691d36/citterio-salami-milano.jpg",
+    "stack": "https://image.migros.ch/{stack}/aa582a3b2ba4a8178ccfd1af4dd67f160e691d36/citterio-salami-milano.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/ac3e053827a88f2862563a8898708a88de0b5a52/citterio-salami-milano.png",
+    "stack": "https://image.migros.ch/{stack}/ac3e053827a88f2862563a8898708a88de0b5a52/citterio-salami-milano.png"
+  },
+  "additional_images": [
+    {
+      "original": "https://image.migros.ch/original/67c498d3aa27ba64619370cf070f525091a8e76d.jpg",
+      "stack": "https://image.migros.ch/{stack}/67c498d3aa27ba64619370cf070f525091a8e76d.jpg"
+    }
+  ],
+  "internal_features": [
+    {
+      "label_code": "MAPI_EXPORTABLE",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_EXPORTABLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Normalposition"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZFRP",
+          "value": "Frische Beschaffung"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "ZFRP"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "71233",
+          "value": "ROHWURST"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "6",
+          "value": "Fleisch-Fisch-Geflüg"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LIFECYCLE",
+      "values": [
+        {
+          "value_code": "D",
+          "value": "Detailhandelsartikel"
+        }
+      ],
+      "category_code": "MAPI_LIFECYCLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_STORAGE_CONDITIONS",
+      "values": [
+        {
+          "value_code": "01",
+          "value": "normal"
+        }
+      ],
+      "category_code": "MAPI_STORAGE_CONDITIONS",
+      "top_fact": false
+    },
+    {
+      "label_code": "acxCommonarticlecocompensated",
+      "label": "Artikel Co2 kompensiert",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false
+    },
+    {
+      "label_code": "acxCommonmesswertcompensation",
+      "label": "CO2-Wert Kompensation",
+      "values": [
+        {
+          "value_code": "NUMERIC_7.733",
+          "value": "7.733",
+          "numeric_value": 7.733
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false,
+      "unit_code": "5d71456e-a520-4294-9ddb-add78f63ce83",
+      "unit": "Equivalence per kilogram",
+      "unit_symbol": "eq / kg"
+    },
+    {
+      "label_code": "acxCommonoutputmcheckclimatedeclaration",
+      "label": "Auslobung M-Check Klimadeklaration",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false
+    }
+  ],
+  "recipe_ingredient_ids": [
+    "15484",
+    "18754"
+  ],
+  "regional_availability": {
+    "gmaa": {
+      "probability": 96
+    },
+    "gmbs": {
+      "probability": 98
+    },
+    "gmge": {
+      "probability": 79
+    },
+    "gmlu": {
+      "probability": 93
+    },
+    "gmnf": {
+      "probability": 94
+    },
+    "gmos": {
+      "probability": 98
+    },
+    "gmti": {
+      "probability": 97
+    },
+    "gmvd": {
+      "probability": 91
+    },
+    "gmvs": {
+      "probability": 81
+    },
+    "gmzh": {
+      "probability": 95
+    }
+  },
+  "ratings": {
+    "count_all": 126,
+    "average_all": 4.753968253968
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "updated_at": "2023-08-17T11:59:28+0200",
+  "sap_created_at": "2021-07-06T19:00:00+0200",
+  "online_shop_relevant": false,
+  "base_unit": "CU",
+  "co2_compensation": {
+    "kg_co2": 7.733,
+    "kg_co2_compensation": 7.733,
+    "is_compensated": false,
+    "mcheck_enabled": false
+  },
+  "views": [
+    "all",
+    "browse",
+    "browseallretailers"
+  ]
+}

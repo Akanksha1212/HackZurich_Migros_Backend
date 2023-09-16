@@ -1,0 +1,527 @@
+{
+  "id": "511998500000",
+  "language": "en",
+  "name": "Kneipp Traubenkern Hautöl Seidig glatte Haut",
+  "names": {
+    "short_name": "Kneipp Traubenkern Hautöl Seidig glatte Haut"
+  },
+  "slug": "kneipp-traubenkern-hautoel-seidig-glatte-haut",
+  "slugs": {
+    "de": "kneipp-traubenkern-hautoel-seidig-glatte-haut",
+    "fr": "kneipp-huile-de-pepins-de-raisin-peau-douce-et-soyeuse",
+    "it": "kneipp-olio-di-buccia-di-vinaccioli-pelle-liscia",
+    "en": "kneipp-traubenkern-hautoel-seidig-glatte-haut"
+  },
+  "type": "00",
+  "boss_number": "090122130570",
+  "description": {
+    "text": "Das straffende Kneipp® Hautöl mit hautglättendem Traubenkernöl und –durchblutungsanregendem Sandelfrucht-Aktivstoff ist speziell für Ihre reife und anspruchsvolle Haut von unseren Wissenschaftlern entwickelt worden. Die spezifischen Bedürfnisse Ihrer Haut werden dank der wichtigen Hautvitamine A und E wirkungsvoll berücksichtigt. Freuen Sie sich über Ihre vitale Ausstrahlung und verwöhnen Sie sich mit diesem rasch einziehenden Hautöl und dem eleganten und lebensfrohen Duft. Es strafft, glättet und festigt die Problemzonen. Erwiesene Wirksamkeit bereits nach 2 Wochen.* Makefile README.md bin build composer.json composer.lock config doc docker-compose.yml files gen manifest-dev-worker.yaml manifest-dev.yaml manifest-prod-worker.yaml manifest-prod.yaml manifest-test-worker.yaml manifest-test.yaml mapitools openapi.31.7.json openapi.json phparkitect-baseline.json phparkitect.php phpstan.neon phpunit.xml.dist public rector.php renovate.json5 scripts src symfony.lock templates test.json test2.txt tests translations var vars_dev.yaml vendor Experimentelle Studie: Messung der Straffung, Glättung und Hautfeuchtigkeit über einen Zeitraum von 4 Wochen. 97% eine Verbesserung der Hautstruktur 85% eine Verbesserung der Hautfeuchtigkeit 85% eine Verbesserung der Cellulite % der Anwender** Makefile README.md bin build composer.json composer.lock config doc docker-compose.yml files gen manifest-dev-worker.yaml manifest-dev.yaml manifest-prod-worker.yaml manifest-prod.yaml manifest-test-worker.yaml manifest-test.yaml mapitools openapi.31.7.json openapi.json phparkitect-baseline.json phparkitect.php phpstan.neon phpunit.xml.dist public rector.php renovate.json5 scripts src symfony.lock templates test.json test2.txt tests translations var vars_dev.yaml vendor Experimentelle Studie: Messung der Straffung, Glättung und Hautfeuchtigkeit bei regelmässiger Massage mit dem Kneipp",
+    "source": "PEX"
+  },
+  "data_source": "SAP-X11",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03"
+  },
+  "tags": [
+    "source-pex",
+    "near-non-food",
+    "migipedia",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "4008233117010"
+  ],
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarket"
+  },
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "brand": {
+    "id": "095",
+    "name": "Kneipp",
+    "slug": "kneipp",
+    "image": {
+      "original": "https://image.migros.ch/original/cf1f00f526686d877039baa51de2c709a5d0943d/kneipp.jpg",
+      "stack": "https://image.migros.ch/{stack}/cf1f00f526686d877039baa51de2c709a5d0943d/kneipp.jpg"
+    }
+  },
+  "categories": [
+    {
+      "code": "BeSS_01110602",
+      "name": "Körperpflege",
+      "slug": "supermarkt/beauty/naturkosmetik/koerperpflege",
+      "visible": true,
+      "parent_code": "BeSS_011106",
+      "level": 4
+    },
+    {
+      "code": "BeSS_011106",
+      "name": "Naturkosmetik",
+      "slug": "supermarkt/beauty/naturkosmetik",
+      "visible": true,
+      "parent_code": "BeSS_0111",
+      "level": 3
+    },
+    {
+      "code": "BeSS_0111",
+      "name": "Beauty",
+      "slug": "supermarkt/beauty",
+      "visible": true,
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/293925170bd129344f9259c67a15e903f881bef8/beauty.jpg",
+        "stack": "https://image.migros.ch/{stack}/293925170bd129344f9259c67a15e903f881bef8/beauty.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "BeSS_01110305",
+        "name": "Bodylotionen & Körperöle",
+        "slug": "supermarkt/beauty/koerperpflege/bodylotionen-koerperoele",
+        "visible": true,
+        "parent_code": "BeSS_011103",
+        "level": 4
+      },
+      {
+        "code": "BeSS_011103",
+        "name": "Körperpflege",
+        "slug": "supermarkt/beauty/koerperpflege",
+        "visible": true,
+        "parent_code": "BeSS_0111",
+        "level": 3
+      },
+      {
+        "code": "BeSS_0111",
+        "name": "Beauty",
+        "slug": "supermarkt/beauty",
+        "visible": true,
+        "parent_code": "BeSS_01",
+        "image": {
+          "original": "https://image.migros.ch/original/293925170bd129344f9259c67a15e903f881bef8/beauty.jpg",
+          "stack": "https://image.migros.ch/{stack}/293925170bd129344f9259c67a15e903f881bef8/beauty.jpg"
+        },
+        "level": 2
+      },
+      {
+        "code": "BeSS_01",
+        "name": "Supermarkt",
+        "slug": "supermarkt",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "online_relevant": [
+    {
+      "code": "MGB",
+      "name": "Migros Genossenschafts-Bund"
+    }
+  ],
+  "galaxus_relevant": false,
+  "links": {
+    "migros_ch": {
+      "url": "https://www.migros.ch/en/product/511998500000?context=instore",
+      "name": "In-store assortment",
+      "canonical": "https://www.migros.ch/en/product/511998500000?context=instore",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/511998500000",
+      "name": "Migipedia",
+      "canonical": "https://www.migros.ch/en/product/511998500000?context=instore",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "receipt_text": "Kneipp Hautoel Trauben",
+  "package": {
+    "content": 100,
+    "content_unit_code": "ml",
+    "content_unit": "Mililiter",
+    "net_weight": 0.1,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "brutto_weight": 0.23,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 0.35,
+    "brutto_volume_unit_code": "cdm",
+    "height": 14,
+    "length": 5,
+    "width": 5,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "100ml"
+  },
+  "package_information": {
+    "tu": {
+      "gtins": [
+        "4008233117089"
+      ],
+      "brutto_weight": 1.44,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 2.464,
+      "brutto_volume_unit_code": "cdm",
+      "height": 14,
+      "length": 16,
+      "width": 11,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 6
+    },
+    "cu": {
+      "gtins": [
+        "4008233117010"
+      ],
+      "brutto_weight": 0.23,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.35,
+      "brutto_volume_unit_code": "cdm",
+      "height": 14,
+      "length": 5,
+      "width": 5,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "lu": {
+      "height": 110,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1764
+    }
+  },
+  "vat": {
+    "id": 1,
+    "percentage": 7.7
+  },
+  "price": {
+    "valid_from": "2018-01-01T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 10.8,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "100ml"
+    },
+    "base": {
+      "price": 10.8,
+      "quantity": 100,
+      "unit": "ml"
+    }
+  },
+  "features": [
+    {
+      "label_code": "miso_produkttyp",
+      "label": "Product type",
+      "values": [
+        {
+          "value_code": "MISO_produkttyp_oele",
+          "value": "Öle"
+        }
+      ],
+      "category_code": "MISO_CLA_BodylotionenKoerperoele_Koerperpflege_Beauty_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "miso_beduerfnis_nutzen",
+      "label": "Requirements/uses",
+      "values": [
+        {
+          "value_code": "MISO_beduerfnis_nutzen_pflege",
+          "value": "Pflege"
+        },
+        {
+          "value_code": "MISO_beduerfnis_nutzen_feuchtigkeit",
+          "value": "Feuchtigkeit"
+        }
+      ],
+      "category_code": "MISO_CLA_BodylotionenKoerperoele_Koerperpflege_Beauty_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "miso_anwendung",
+      "label": "Application",
+      "values": [
+        {
+          "value_code": "MISO_anwendung_hautoele",
+          "value": "Hautöle"
+        }
+      ],
+      "category_code": "MISO_CLA_Koerperpflege_Naturkosmetik_Beauty_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/6e1de814a0f252537d9df35f52549b8a030302cc/kneipp-traubenkern-hautoel-seidig-glatte-haut.jpg",
+    "stack": "https://image.migros.ch/{stack}/6e1de814a0f252537d9df35f52549b8a030302cc/kneipp-traubenkern-hautoel-seidig-glatte-haut.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/cfaa95d09f691709c579a264c9c48acba4c9bc99/kneipp-traubenkern-hautoel-seidig-glatte-haut.png",
+    "stack": "https://image.migros.ch/{stack}/cfaa95d09f691709c579a264c9c48acba4c9bc99/kneipp-traubenkern-hautoel-seidig-glatte-haut.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Standard item"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "ZHKS"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUSTOMS_POSITION",
+      "values": [
+        {
+          "value": "33049900"
+        }
+      ],
+      "category_code": "MAPI_CUSTOMS_POSITION",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RISK_CLASS",
+      "values": [
+        {
+          "value_code": "1",
+          "value": "1 (high)"
+        }
+      ],
+      "category_code": "MAPI_RISK_CLASS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_QUALITY_CHECK",
+      "values": [
+        {
+          "value_code": "00",
+          "value": "No Quality Control"
+        }
+      ],
+      "category_code": "MAPI_QUALITY_CHECK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZHKS",
+          "value": "HKS Standardartikel"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "H",
+          "value": "HKS Standard"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "50334",
+          "value": "KOERPERLOTIONEN"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LIFECYCLE",
+      "values": [
+        {
+          "value_code": "D",
+          "value": "Detailhandelsartikel"
+        }
+      ],
+      "category_code": "MAPI_LIFECYCLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_EXPORTABLE",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Yes",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MAPI_EXPORTABLE",
+      "top_fact": false
+    }
+  ],
+  "regional_availability": {
+    "gmaa": {
+      "probability": 30
+    },
+    "gmbs": {
+      "probability": 28
+    },
+    "gmge": {
+      "probability": 16
+    },
+    "gmlu": {
+      "probability": 27
+    },
+    "gmnf": {
+      "probability": 28
+    },
+    "gmos": {
+      "probability": 27
+    },
+    "gmti": {
+      "probability": 42
+    },
+    "gmvd": {
+      "probability": 23
+    },
+    "gmvs": {
+      "probability": 37
+    },
+    "gmzh": {
+      "probability": 30
+    }
+  },
+  "ratings": {
+    "count_all": 5,
+    "average_all": 4.666666666667
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "updated_at": "2023-08-12T07:45:49+0200",
+  "sap_created_at": "2012-02-02T00:00:00+0100",
+  "base_unit": "CU",
+  "views": [
+    "all",
+    "browse",
+    "browseallretailers"
+  ]
+}

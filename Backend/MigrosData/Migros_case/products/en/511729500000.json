@@ -1,0 +1,481 @@
+{
+  "id": "511729500000",
+  "language": "en",
+  "name": "GIL LABS RASIERER",
+  "names": {
+    "short_name": "GIL LABS RASIERER"
+  },
+  "slug": "gil-labs-rasierer",
+  "slugs": {
+    "de": "gillette-labs-rasierer",
+    "fr": "gillette-labs-rasoir",
+    "it": "gillette-labs-rasoio",
+    "en": "gil-labs-rasierer"
+  },
+  "type": "00",
+  "boss_number": "090213110505",
+  "data_source": "SAP-X11",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03"
+  },
+  "tags": [
+    "source-pex",
+    "near-non-food",
+    "migipedia",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "8001090269232"
+  ],
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarket"
+  },
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "brand": {
+    "id": "398",
+    "name": "Gillette",
+    "slug": "gillette"
+  },
+  "categories": [
+    {
+      "code": "BeSS_01110701",
+      "name": "Rasieren",
+      "slug": "supermarkt/beauty/maennerpflege/rasieren",
+      "visible": true,
+      "parent_code": "BeSS_011107",
+      "level": 4
+    },
+    {
+      "code": "BeSS_011107",
+      "name": "Männerpflege",
+      "slug": "supermarkt/beauty/maennerpflege",
+      "visible": true,
+      "parent_code": "BeSS_0111",
+      "level": 3
+    },
+    {
+      "code": "BeSS_0111",
+      "name": "Beauty",
+      "slug": "supermarkt/beauty",
+      "visible": true,
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/293925170bd129344f9259c67a15e903f881bef8/beauty.jpg",
+        "stack": "https://image.migros.ch/{stack}/293925170bd129344f9259c67a15e903f881bef8/beauty.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "online_relevant": [
+    {
+      "code": "MGB",
+      "name": "Migros Genossenschafts-Bund"
+    }
+  ],
+  "links": {
+    "migros_ch": {
+      "url": "https://www.migros.ch/en/product/511729500000?context=instore",
+      "name": "In-store assortment",
+      "canonical": "https://www.migros.ch/en/product/511729500000?context=instore",
+      "type": "info",
+      "purchasable": false
+    },
+    "migros_online": {
+      "url": "https://www.migros.ch/en/product/511729500000?context=online",
+      "mo_product_id": "10294799",
+      "name": "Online-shop assortment",
+      "canonical": "https://www.migros.ch/en/product/511729500000?context=instore",
+      "type": "shop",
+      "purchasable": true,
+      "one_catalog_id": 100066312
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/511729500000",
+      "name": "Migipedia",
+      "canonical": "https://www.migros.ch/en/product/511729500000?context=instore",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "receipt_text": "Gillette Labs Rasierer",
+  "package": {
+    "content": 1,
+    "content_unit_code": "st",
+    "content_unit": "Stück",
+    "net_weight": 0.292,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "brutto_weight": 0.292,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 1.04,
+    "brutto_volume_unit_code": "cdm",
+    "height": 19.9,
+    "length": 5.5,
+    "width": 9.5,
+    "unit_dimension": "cm",
+    "price_comparison_content": 1,
+    "size": "1 Stk."
+  },
+  "package_information": {
+    "tu": {
+      "gtins": [
+        "8001090269225"
+      ],
+      "brutto_weight": 1.752,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 7.198,
+      "brutto_volume_unit_code": "cdm",
+      "height": 20.9,
+      "length": 34.1,
+      "width": 10.1,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 6
+    },
+    "cu": {
+      "gtins": [
+        "8001090269232"
+      ],
+      "brutto_weight": 0.292,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 1.04,
+      "brutto_volume_unit_code": "cdm",
+      "height": 19.9,
+      "length": 5.5,
+      "width": 9.5,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "lu": {
+      "brutto_weight": 126.144,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 798.72,
+      "brutto_volume_unit_code": "cdm",
+      "height": 83.2,
+      "length": 120,
+      "width": 80,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 432
+    },
+    "lge": {
+      "number_of_base_units": 1
+    },
+    "kar": {
+      "number_of_base_units": 1
+    }
+  },
+  "vat": {
+    "id": 1,
+    "percentage": 7.7
+  },
+  "price": {
+    "valid_from": "2022-04-21T00:00:00+0200",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 24.95,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "1 Stk."
+    },
+    "base": {
+      "price": 24.95,
+      "quantity": 1,
+      "unit": "ST"
+    }
+  },
+  "features": [
+    {
+      "label_code": "miso_produkttyp",
+      "label": "Product type",
+      "values": [
+        {
+          "value_code": "MISO_produkttyp_rasierer",
+          "value": "Rasierer"
+        }
+      ],
+      "category_code": "MISO_CLA_Rasieren_Maennerpflege_Beauty_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "miso_klingen",
+      "label": "Blades",
+      "values": [
+        {
+          "value_code": "MISO_klingen_5klingen",
+          "value": "5 Klingen"
+        }
+      ],
+      "category_code": "MISO_CLA_Rasieren_Maennerpflege_Beauty_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/9438acd6156dfe8bd371a5817301605118e63abf/gil-labs-rasierer.jpg",
+    "stack": "https://image.migros.ch/{stack}/9438acd6156dfe8bd371a5817301605118e63abf/gil-labs-rasierer.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/ca1e049655e244c61bf673c0aa67e9e727e8e840/gil-labs-rasierer.png",
+    "stack": "https://image.migros.ch/{stack}/ca1e049655e244c61bf673c0aa67e9e727e8e840/gil-labs-rasierer.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Standard item"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "ZHKS"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUSTOMS_POSITION",
+      "values": [
+        {
+          "value": "82121090"
+        }
+      ],
+      "category_code": "MAPI_CUSTOMS_POSITION",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RISK_CLASS",
+      "values": [
+        {
+          "value_code": "2",
+          "value": "2 (medium)"
+        }
+      ],
+      "category_code": "MAPI_RISK_CLASS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_QUALITY_CHECK",
+      "values": [
+        {
+          "value_code": "00",
+          "value": "No Quality Control"
+        }
+      ],
+      "category_code": "MAPI_QUALITY_CHECK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZHKS",
+          "value": "HKS Standardartikel"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "H",
+          "value": "HKS Standard"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "50172",
+          "value": ""
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LIFECYCLE",
+      "values": [
+        {
+          "value_code": "D",
+          "value": "Detailhandelsartikel"
+        }
+      ],
+      "category_code": "MAPI_LIFECYCLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_EXPORTABLE",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Yes",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MAPI_EXPORTABLE",
+      "top_fact": false
+    }
+  ],
+  "regional_availability": {
+    "gmaa": {
+      "probability": 99
+    },
+    "gmbs": {
+      "probability": 100
+    },
+    "gmge": {
+      "probability": 89
+    },
+    "gmlu": {
+      "probability": 95
+    },
+    "gmnf": {
+      "probability": 98
+    },
+    "gmos": {
+      "probability": 99
+    },
+    "gmti": {
+      "probability": 100
+    },
+    "gmvd": {
+      "probability": 100
+    },
+    "gmvs": {
+      "probability": 100
+    },
+    "gmzh": {
+      "probability": 92
+    }
+  },
+  "ratings": {
+    "count_all": 4,
+    "average_all": 4.25
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "updated_at": "2023-08-17T12:00:10+0200",
+  "sap_created_at": "2022-04-20T00:00:00+0200",
+  "base_unit": "CU",
+  "views": [
+    "all",
+    "browse",
+    "browseallretailers"
+  ]
+}

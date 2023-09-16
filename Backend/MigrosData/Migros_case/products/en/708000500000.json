@@ -1,0 +1,506 @@
+{
+  "id": "708000500000",
+  "language": "en",
+  "name": "Herkules 5 Rollen",
+  "names": {
+    "short_name": "Herkules 5 Rollen"
+  },
+  "slug": "herkules-5-rollen",
+  "slugs": {
+    "de": "herkules-5-rollen",
+    "fr": "herkules-5-rollen",
+    "it": "herkules-5-rollen",
+    "en": "herkules-5-rollen"
+  },
+  "type": "00",
+  "boss_number": "150223963005",
+  "data_source": "SAP-X12",
+  "status": {
+    "id": "available",
+    "seasonal": true,
+    "pim_status": "03",
+    "distribution_center": [
+      {
+        "center_id": "1001",
+        "center_name": "Migros Verteilzentrum Neuendorf",
+        "status_code": "03",
+        "status_description": "active"
+      }
+    ]
+  },
+  "tags": [
+    "source-pex",
+    "near-non-food",
+    "migipedia",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613434349626"
+  ],
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarket"
+  },
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "categories": [
+    {
+      "code": "BeSS_01042203",
+      "name": "Komposteimer & Beutel",
+      "slug": "supermarkt/haushalt-reinigung/entsorgen-recyclen/komposteimer-beutel",
+      "visible": true,
+      "parent_code": "BeSS_010422",
+      "level": 4
+    },
+    {
+      "code": "BeSS_010422",
+      "name": "Entsorgen & Recyclen",
+      "slug": "supermarkt/haushalt-reinigung/entsorgen-recyclen",
+      "visible": true,
+      "parent_code": "BeSS_0104",
+      "level": 3
+    },
+    {
+      "code": "BeSS_0104",
+      "name": "Haushalt & Reinigung",
+      "slug": "supermarkt/haushalt-reinigung",
+      "visible": true,
+      "title": "Reinigung mit der Migros – Reiniger für Haushalt und Garten",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png",
+        "stack": "https://image.migros.ch/{stack}/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "links": {
+    "migros_ch": {
+      "url": "https://www.migros.ch/en/product/708000500000?context=instore",
+      "name": "In-store assortment",
+      "canonical": "https://www.migros.ch/en/product/708000500000?context=instore",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/708000500000",
+      "name": "Migipedia",
+      "canonical": "https://www.migros.ch/en/product/708000500000?context=instore",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "m_check2": {},
+  "warranty_months": 24,
+  "receipt_text": "*Cleverbags 35L",
+  "package": {
+    "content": 1,
+    "content_unit_code": "cu",
+    "net_weight": 2.49,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "brutto_weight": 2.55,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 5.228,
+    "brutto_volume_unit_code": "cdm",
+    "height": 20.5,
+    "length": 36,
+    "width": 7.5,
+    "unit_dimension": "cm"
+  },
+  "package_information": {
+    "cu": {
+      "gtins": [
+        "7613434349626"
+      ],
+      "brutto_weight": 2.55,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 5.228,
+      "brutto_volume_unit_code": "cdm",
+      "height": 20.5,
+      "length": 36,
+      "width": 7.5,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "tuv": {
+      "brutto_weight": 14,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 216.45,
+      "brutto_volume_unit_code": "cdm",
+      "height": 21.2,
+      "length": 37,
+      "width": 37,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 5
+    },
+    "tue": {
+      "brutto_weight": 14,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 216.45,
+      "brutto_volume_unit_code": "cdm",
+      "height": 21.2,
+      "length": 37,
+      "width": 37,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 5
+    },
+    "lu": {
+      "number_of_base_units": 90
+    }
+  },
+  "vat": {
+    "id": 1,
+    "percentage": 7.7
+  },
+  "price": {
+    "valid_from": "2023-08-08T00:00:00+0200",
+    "valid_to": "2023-08-21T23:59:59+0200",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 14.95,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "1 piece"
+    },
+    "discount": {
+      "id": "1914707",
+      "region": "national",
+      "start_date": "2023-08-08T00:00:00+0200",
+      "end_date": "2023-08-21T23:59:59+0200",
+      "publication_date": "2023-08-06T00:00:00+0200",
+      "discount_regions": [
+        "national"
+      ],
+      "reference_product_id": "708000500000",
+      "discount_type": "aktion",
+      "discount_type_id": "002",
+      "discount_type_label": "SE Sellout",
+      "organisation": "09",
+      "cooperative": "mgb",
+      "location_planning_type": "01",
+      "reduction_type_id": "07",
+      "special_advertisement": false,
+      "advertisement_type_id": "5",
+      "description": "Cleverbag Herkules",
+      "discount_hint": "<strong>5er-Pack, </strong>35 Liter, 5 x 20 Stück, Angebot gilt nur vom 8.8. bis 21.8.2023, solange Vorrat.",
+      "high_performer": false,
+      "collective_discount": false,
+      "price": 14.95,
+      "disclaimer": "Gültigkeit siehe Angebots-Detailseite.\r\nBei allen Angeboten sind M-Budget und bereits reduzierte Artikel ausgenommen.\r\nBei Aktionen können bei der Verrechnung auf dem Kassabon Rundungsdifferenzen zu Gunsten des Kunden entstehen.",
+      "source": "PriceRepository",
+      "boss_number": "150223963005",
+      "discount_role_id": "2000000002",
+      "discount_role_label": "M: Wochenangebot Typ I",
+      "last_imported": "2023-08-11T07:29:54+0200"
+    },
+    "discount_hint": "Angebot gilt nur vom 8.8. bis 21.8.2023, solange Vorrat."
+  },
+  "image": {
+    "original": "https://image.migros.ch/original/3475a987eeb6474730c1b64d81b0bd24ba9b3991/herkules-5-rollen.jpg",
+    "stack": "https://image.migros.ch/{stack}/3475a987eeb6474730c1b64d81b0bd24ba9b3991/herkules-5-rollen.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/8c8a1395742057aa996f2528030c72d4d72f84fe/herkules-5-rollen.png",
+    "stack": "https://image.migros.ch/{stack}/8c8a1395742057aa996f2528030c72d4d72f84fe/herkules-5-rollen.png"
+  },
+  "additional_images": [
+    {
+      "original": "https://image.migros.ch/original/f7b0d519b3333569cb24b1b4d64453b77bbf6962.jpg",
+      "stack": "https://image.migros.ch/{stack}/f7b0d519b3333569cb24b1b4d64453b77bbf6962.jpg"
+    }
+  ],
+  "internal_features": [
+    {
+      "label_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+      "values": [
+        {
+          "value_code": "55",
+          "value": "Versandart Paket"
+        }
+      ],
+      "category_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LOGISTIC_CLASS",
+      "values": [
+        {
+          "value_code": "1",
+          "value": "Lager"
+        }
+      ],
+      "category_code": "MAPI_LOGISTIC_CLASS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Standard item"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "HART"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUSTOMS_POSITION",
+      "values": [
+        {
+          "value": "00392321000"
+        }
+      ],
+      "category_code": "MAPI_CUSTOMS_POSITION",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRESENTATION",
+      "values": [
+        {
+          "value_code": "L",
+          "value": "liegend"
+        }
+      ],
+      "category_code": "MAPI_PRESENTATION",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RISK_CLASS",
+      "values": [
+        {
+          "value_code": "3",
+          "value": "3 (low)"
+        }
+      ],
+      "category_code": "MAPI_RISK_CLASS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_QUALITY_CHECK",
+      "values": [
+        {
+          "value_code": "00",
+          "value": "No Quality Control"
+        }
+      ],
+      "category_code": "MAPI_QUALITY_CHECK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_KUBE_TUKA",
+      "values": [
+        {
+          "value_code": "BLANK",
+          "value": "KUBE und TUKA nicht zugelassen"
+        }
+      ],
+      "category_code": "MAPI_KUBE_TUKA",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HART",
+          "value": "Hartwaren Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "H",
+          "value": "Hartwaren"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "58534",
+          "value": "RECYCLING"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Yes",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_EXPORTABLE",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Yes",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MAPI_EXPORTABLE",
+      "top_fact": false
+    }
+  ],
+  "recipe_ingredient_ids": [
+    "10000"
+  ],
+  "regional_availability": {
+    "gmaa": {
+      "probability": 82
+    },
+    "gmbs": {
+      "probability": 86
+    },
+    "gmge": {
+      "probability": 74
+    },
+    "gmlu": {
+      "probability": 83
+    },
+    "gmnf": {
+      "probability": 80
+    },
+    "gmos": {
+      "probability": 84
+    },
+    "gmti": {
+      "probability": 52
+    },
+    "gmvd": {
+      "probability": 81
+    },
+    "gmvs": {
+      "probability": 70
+    },
+    "gmzh": {
+      "probability": 82
+    }
+  },
+  "ratings": {
+    "count_all": 24,
+    "average_all": 4.625
+  },
+  "quantity_on_stock": 19990,
+  "reindex_date": "2023-08-21T00:00:00+0200",
+  "updated_at": "2023-08-17T07:44:54+0200",
+  "sap_created_at": "2021-08-26T00:00:00+0200",
+  "base_unit": "CU",
+  "origins": {
+    "producing_country": "Thailand"
+  },
+  "views": [
+    "all",
+    "browse",
+    "browseallretailers"
+  ]
+}

@@ -1,0 +1,698 @@
+{
+  "id": "502007900000",
+  "language": "en",
+  "name": "Javel-Wasser Floral",
+  "names": {
+    "short_name": "Javel-Wasser Floral"
+  },
+  "slug": "javel-wasser-floral",
+  "slugs": {
+    "de": "javel-wasser-floral",
+    "fr": "eau-de-javel-floral",
+    "it": "candeggina-floral",
+    "en": "javel-wasser-floral"
+  },
+  "type": "00",
+  "boss_number": "150126803510",
+  "description": {
+    "text": "Potz Javel-Wasser f&uuml;r hygienische Tiefenreinigung.",
+    "source": "PEX"
+  },
+  "data_source": "SAP-X11",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03",
+    "distribution_center": [
+      {
+        "center_id": "1001",
+        "center_name": "Migros Verteilzentrum Neuendorf",
+        "status_description": "product.status.distribution_center."
+      }
+    ]
+  },
+  "tags": [
+    "source-pex",
+    "near-non-food",
+    "migipedia",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613312209981"
+  ],
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarket"
+  },
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "brand": {
+    "id": "151",
+    "name": "Potz",
+    "slug": "potz"
+  },
+  "categories": [
+    {
+      "code": "BeSS_0104010607",
+      "name": "Spezialreiniger",
+      "slug": "supermarkt/haushalt-reinigung/waschen-reinigen-pflege/reinigungsmittel/spezialreiniger",
+      "visible": true,
+      "parent_code": "BeSS_01040106",
+      "image": {
+        "original": "https://image.migros.ch/original/410e40680ef3921d35368015e63f4a45794320eb/spezialreiniger.jpg",
+        "stack": "https://image.migros.ch/{stack}/410e40680ef3921d35368015e63f4a45794320eb/spezialreiniger.jpg"
+      },
+      "level": 5
+    },
+    {
+      "code": "BeSS_01040106",
+      "name": "Reinigungsmittel",
+      "slug": "supermarkt/haushalt-reinigung/waschen-reinigen-pflege/reinigungsmittel",
+      "visible": true,
+      "title": "Putzmittel bei der Migros: Und alles glänzt!",
+      "parent_code": "BeSS_010401",
+      "image": {
+        "original": "https://image.migros.ch/original/8ae8cde85bbe4352f65f30c350b6bc7562eae30e/reinigungsmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/8ae8cde85bbe4352f65f30c350b6bc7562eae30e/reinigungsmittel.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010401",
+      "name": "Waschen, Reinigen & Pflege",
+      "slug": "supermarkt/haushalt-reinigung/waschen-reinigen-pflege",
+      "visible": true,
+      "parent_code": "BeSS_0104",
+      "image": {
+        "original": "https://image.migros.ch/original/37d8921589f88cd40b1c580b957a6a414e1fe1d1/waschen-reinigen-pflege.jpg",
+        "stack": "https://image.migros.ch/{stack}/37d8921589f88cd40b1c580b957a6a414e1fe1d1/waschen-reinigen-pflege.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0104",
+      "name": "Haushalt & Reinigung",
+      "slug": "supermarkt/haushalt-reinigung",
+      "visible": true,
+      "title": "Reinigung mit der Migros – Reiniger für Haushalt und Garten",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png",
+        "stack": "https://image.migros.ch/{stack}/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "online_relevant": [
+    {
+      "code": "MGB",
+      "name": "Migros Genossenschafts-Bund"
+    }
+  ],
+  "galaxus_relevant": false,
+  "links": {
+    "migros_ch": {
+      "url": "https://www.migros.ch/en/product/502007900000?context=instore",
+      "name": "In-store assortment",
+      "canonical": "https://www.migros.ch/en/product/502007900000?context=instore",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/502007900000",
+      "name": "Migipedia",
+      "canonical": "https://www.migros.ch/en/product/502007900000?context=instore",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "m_check2": {},
+  "receipt_text": "Potz Javel Floral",
+  "package": {
+    "content": 2,
+    "content_unit_code": "l",
+    "content_unit": "Liter",
+    "net_weight": 2,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "brutto_weight": 2.16,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 4.118,
+    "brutto_volume_unit_code": "cdm",
+    "height": 30.6,
+    "length": 11.6,
+    "width": 11.6,
+    "unit_dimension": "cm",
+    "price_comparison_content": 1,
+    "size": "2l"
+  },
+  "package_information": {
+    "tu": {
+      "gtins": [
+        "7613312209998"
+      ],
+      "brutto_weight": 13.4,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 26.04,
+      "brutto_volume_unit_code": "cdm",
+      "height": 31,
+      "length": 35,
+      "width": 24,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 6
+    },
+    "cu": {
+      "gtins": [
+        "7613312209981"
+      ],
+      "brutto_weight": 2.16,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 4.118,
+      "brutto_volume_unit_code": "cdm",
+      "height": 30.6,
+      "length": 11.6,
+      "width": 11.6,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "lu": {
+      "height": 150,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 240
+    },
+    "lge": {
+      "number_of_base_units": 60
+    },
+    "kar": {
+      "number_of_base_units": 1
+    }
+  },
+  "vat": {
+    "id": 1,
+    "percentage": 7.7
+  },
+  "price": {
+    "valid_from": "2020-09-04T00:00:00+0200",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 2.5,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "2l"
+    },
+    "base": {
+      "price": 1.25,
+      "quantity": 1,
+      "unit": "l"
+    }
+  },
+  "features": [
+    {
+      "label_code": "miso_gefahrenhinweise",
+      "label": "Hazard warnings",
+      "values": [
+        {
+          "value": "Darf nicht in die Hände von Kindern gelangen"
+        }
+      ],
+      "category_code": "MISO_CLA_WaschenPapierReinigen_Haushalt_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "miso_anwendbarkeit_beschaffenheit_form",
+      "label": "Form",
+      "values": [
+        {
+          "value_code": "MISO_fluessig",
+          "value": "flüssig"
+        }
+      ],
+      "category_code": "MISO_CLA_Reinigungsmittel_WaschenPapierReinigen_Haushalt_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "miso_geeignet_fuer",
+      "label": "Suitable for",
+      "values": [
+        {
+          "value_code": "MISO_abflussreinigung",
+          "value": "Abflussreinigung"
+        },
+        {
+          "value_code": "MISO_bad",
+          "value": "Bad"
+        },
+        {
+          "value_code": "MISO_bleichen",
+          "value": "Bleichen"
+        },
+        {
+          "value_code": "MISO_kueche\t",
+          "value": "Küche"
+        },
+        {
+          "value_code": "MISO_lavabo",
+          "value": "Lavabo"
+        },
+        {
+          "value_code": "MISO_steinplatten",
+          "value": "Steinplatten"
+        },
+        {
+          "value_code": "MISO_wc",
+          "value": "WC"
+        }
+      ],
+      "category_code": "MISO_CLA_Reinigungsmittel_WaschenPapierReinigen_Haushalt_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "miso_nicht_geeignet_fuer",
+      "label": "Not suitable for",
+      "values": [
+        {
+          "value_code": "MISO_siehe_anleitung",
+          "value": "Siehe Anleitung!"
+        }
+      ],
+      "category_code": "MISO_CLA_Reinigungsmittel_WaschenPapierReinigen_Haushalt_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "CHEMICALS_WARNING",
+      "label": "Warning",
+      "values": [
+        {
+          "value": "Always read label and product information before use."
+        }
+      ],
+      "category_code": "CHEMICALS_WARNING",
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/c47eb3c3c6f155b2ecf35c59e47fd70434c7d30b/javel-wasser-floral.jpg",
+    "stack": "https://image.migros.ch/{stack}/c47eb3c3c6f155b2ecf35c59e47fd70434c7d30b/javel-wasser-floral.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/a2f08abdbae7a537586e88b8049dd4b5d0e5a110/javel-wasser-floral.png",
+    "stack": "https://image.migros.ch/{stack}/a2f08abdbae7a537586e88b8049dd4b5d0e5a110/javel-wasser-floral.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "miso_amigos_anzeige",
+      "label": "Display aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "ja"
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "MAPI_RETURNABLE",
+      "label": "Return",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "true",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MAPI_RETURNABLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_EXCLUDE_FROM_COMPARISON_ENGINES",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "false",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_EXCLUDE_FROM_COMPARISON_ENGINES",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Standard item"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "ZHKS"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUSTOMS_POSITION",
+      "values": [
+        {
+          "value": "28289000000"
+        }
+      ],
+      "category_code": "MAPI_CUSTOMS_POSITION",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RISK_CLASS",
+      "values": [
+        {
+          "value_code": "1",
+          "value": "1 (high)"
+        }
+      ],
+      "category_code": "MAPI_RISK_CLASS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_QUALITY_CHECK",
+      "values": [
+        {
+          "value_code": "00",
+          "value": "No Quality Control"
+        }
+      ],
+      "category_code": "MAPI_QUALITY_CHECK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZHKS",
+          "value": "HKS Standardartikel"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "H",
+          "value": "HKS Standard"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "50313",
+          "value": "SPEZIALREINIGER"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LIFECYCLE",
+      "values": [
+        {
+          "value_code": "D",
+          "value": "Detailhandelsartikel"
+        }
+      ],
+      "category_code": "MAPI_LIFECYCLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_EXPORTABLE",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Yes",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MAPI_EXPORTABLE",
+      "top_fact": false
+    }
+  ],
+  "chemicals_declaration": {
+    "release_date": "2019-03-25T13:20:27+0100",
+    "supplier_id": "0010001240",
+    "supplier_description": "Atelier Jean Regniers",
+    "hazard_statements": [
+      {
+        "code": "H315",
+        "label": "Causes skin irritation."
+      },
+      {
+        "code": "H319",
+        "label": "Causes serious eye irritation."
+      },
+      {
+        "code": "H412",
+        "label": "Harmful to aquatic life with long lasting effects."
+      }
+    ],
+    "precautionary_statements": [
+      {
+        "code": "P102",
+        "label": "Keep out of reach of children."
+      },
+      {
+        "code": "P264_A",
+        "label": "Wash hands thoroughly after handling."
+      },
+      {
+        "code": "P273",
+        "label": "Avoid release to the environment."
+      },
+      {
+        "code": "P280",
+        "label": "Wear protective gloves / protective clothing / eye protection / face protection."
+      },
+      {
+        "code": "P302_352",
+        "label": "IF ON SKIN: Wash with plenty of soap and water."
+      },
+      {
+        "code": "P305_351_338",
+        "label": "IF IN EYES: Rinse cautiously with water for several minutes. Remove contact lenses, if present and easy to do. Continue rinsing."
+      }
+    ],
+    "eu_hazard_statements": [
+      {
+        "code": "EUH206",
+        "label": "Warning! Do not use together with other products. May release dangerous gases (chlorine)."
+      }
+    ],
+    "signal_word": {
+      "code": "SW02",
+      "label": "Warning"
+    },
+    "cpid_number": "645001-51 (MGB 25.03.2019)",
+    "chem_voc_concentration": 0,
+    "poison_cabinet": false,
+    "hazard_pictograms": [
+      {
+        "code": "GHS07",
+        "description": "exclamation mark",
+        "original": "https://image.migros.ch/original/09b3c0810d45b7f83a5ad48c5bc38d4d0227615b/GHS07.jpg",
+        "stack": "https://image.migros.ch/{stack}/09b3c0810d45b7f83a5ad48c5bc38d4d0227615b/GHS07.jpg"
+      }
+    ],
+    "cleaning_agents": [
+      {
+        "concentration": {
+          "code": "RMK05",
+          "label": "less than 5%"
+        },
+        "group": {
+          "code": "RMS08",
+          "label": "bleaching agent on chlorine basis"
+        }
+      },
+      {
+        "concentration": {
+          "code": "RMK05",
+          "label": "less than 5%"
+        },
+        "group": {
+          "code": "RMS03",
+          "label": "anionic surfactants"
+        }
+      }
+    ],
+    "extra_cleaning_agents": [
+      {
+        "group": {
+          "code": "RMW04",
+          "label": "fragrances"
+        }
+      }
+    ]
+  },
+  "regional_availability": {
+    "gmaa": {
+      "probability": 39
+    },
+    "gmbs": {
+      "probability": 45
+    },
+    "gmge": {
+      "probability": 39
+    },
+    "gmlu": {
+      "probability": 28
+    },
+    "gmnf": {
+      "probability": 27
+    },
+    "gmos": {
+      "probability": 30
+    },
+    "gmti": {
+      "probability": 16
+    },
+    "gmvd": {
+      "probability": 35
+    },
+    "gmvs": {
+      "probability": 26
+    },
+    "gmzh": {
+      "probability": 42
+    }
+  },
+  "ratings": {
+    "count_all": 15,
+    "average_all": 4.466666666667
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "updated_at": "2023-08-17T07:35:58+0200",
+  "sap_created_at": "2018-06-14T00:00:00+0200",
+  "base_unit": "CU",
+  "views": [
+    "all",
+    "browse",
+    "browseallretailers"
+  ]
+}

@@ -1,0 +1,612 @@
+{
+  "id": "523407700000",
+  "language": "en",
+  "name": "Lavera Pflegedusche Erfrischend",
+  "names": {
+    "short_name": "Lavera Pflegedusche Erfrischend"
+  },
+  "slug": "lavera-pflegedusche-erfrischend",
+  "slugs": {
+    "de": "lavera-pflegedusche-erfrischend",
+    "fr": "lavera-douche-soin-rafraichissante",
+    "it": "lavera-gel-doccia-rinfrescante",
+    "en": "lavera-pflegedusche-erfrischend"
+  },
+  "type": "00",
+  "boss_number": "090221720574",
+  "description": {
+    "text": "<p>&nbsp;Erlebe das lavera Gef&uuml;hl erfrischender Duschmomente:<br />Die pH-hautneutrale Formel unseres Duschgels mit milden Tensiden reinigt besonders sanft und schont dabei deine Hautflora. Zugleich verwandelt der zitrisch-spritzige Limettenduft deine t&auml;gliche Dusche in ein erfrischendes Wohlf&uuml;hlerlebnis.</p><p>- Schont die Hautflora<br />- Zitrisch-spritziger Limettenduft<br />- Auch f&uuml;r trockene &amp; sensible Haut geeignet</p><p>Mit Bio-Limette und Bio-Zitronengras</p><p>Bio-Limette erfrischt mit ihrem spritzigen Duft die Sinne.<br />Bio-Zitronengras ist f&uuml;r seine reinigende und erfrischende Wirkung bekannt.</p>",
+    "source": "PEX"
+  },
+  "data_source": "SAP-X11",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03"
+  },
+  "tags": [
+    "source-pex",
+    "near-non-food",
+    "migipedia",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "4021457648498"
+  ],
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarket"
+  },
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "brand": {
+    "id": "E12",
+    "name": "Lavera",
+    "slug": "lavera"
+  },
+  "labels": [
+    {
+      "id": "L41",
+      "name": "Naturkosmetik",
+      "slug": "naturkosmetik"
+    },
+    {
+      "id": "L55",
+      "name": "Vegan Flower",
+      "slug": "vegan-flower",
+      "image": {
+        "original": "https://image.migros.ch/original/c5723257619218d275dade4d7d332cda242cafcc/vegan-flower.jpg",
+        "stack": "https://image.migros.ch/{stack}/c5723257619218d275dade4d7d332cda242cafcc/vegan-flower.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_01110301",
+      "name": "Duschen",
+      "slug": "supermarkt/beauty/koerperpflege/duschen",
+      "visible": true,
+      "parent_code": "BeSS_011103",
+      "level": 4
+    },
+    {
+      "code": "BeSS_011103",
+      "name": "Körperpflege",
+      "slug": "supermarkt/beauty/koerperpflege",
+      "visible": true,
+      "parent_code": "BeSS_0111",
+      "level": 3
+    },
+    {
+      "code": "BeSS_0111",
+      "name": "Beauty",
+      "slug": "supermarkt/beauty",
+      "visible": true,
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/293925170bd129344f9259c67a15e903f881bef8/beauty.jpg",
+        "stack": "https://image.migros.ch/{stack}/293925170bd129344f9259c67a15e903f881bef8/beauty.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "BeSS_01110602",
+        "name": "Körperpflege",
+        "slug": "supermarkt/beauty/naturkosmetik/koerperpflege",
+        "visible": true,
+        "parent_code": "BeSS_011106",
+        "level": 4
+      },
+      {
+        "code": "BeSS_011106",
+        "name": "Naturkosmetik",
+        "slug": "supermarkt/beauty/naturkosmetik",
+        "visible": true,
+        "parent_code": "BeSS_0111",
+        "level": 3
+      },
+      {
+        "code": "BeSS_0111",
+        "name": "Beauty",
+        "slug": "supermarkt/beauty",
+        "visible": true,
+        "parent_code": "BeSS_01",
+        "image": {
+          "original": "https://image.migros.ch/original/293925170bd129344f9259c67a15e903f881bef8/beauty.jpg",
+          "stack": "https://image.migros.ch/{stack}/293925170bd129344f9259c67a15e903f881bef8/beauty.jpg"
+        },
+        "level": 2
+      },
+      {
+        "code": "BeSS_01",
+        "name": "Supermarkt",
+        "slug": "supermarkt",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "online_relevant": [
+    {
+      "code": "MGB",
+      "name": "Migros Genossenschafts-Bund"
+    }
+  ],
+  "galaxus_relevant": false,
+  "links": {
+    "migros_ch": {
+      "url": "https://www.migros.ch/en/product/523407700000?context=instore",
+      "name": "In-store assortment",
+      "canonical": "https://www.migros.ch/en/product/523407700000?context=instore",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/523407700000",
+      "name": "Migipedia",
+      "canonical": "https://www.migros.ch/en/product/523407700000?context=instore",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "receipt_text": "Lavera Dusche Erfrisch",
+  "package": {
+    "content": 250,
+    "content_unit_code": "ml",
+    "content_unit": "Mililiter",
+    "net_weight": 0.276,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "brutto_weight": 0.304,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 0.471,
+    "brutto_volume_unit_code": "cdm",
+    "height": 19.8,
+    "length": 3.9,
+    "width": 6.1,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "250ml"
+  },
+  "package_information": {
+    "tu": {
+      "gtins": [
+        "4021457728145"
+      ],
+      "brutto_weight": 1.264,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 2.391,
+      "brutto_volume_unit_code": "cdm",
+      "height": 20.5,
+      "length": 16.9,
+      "width": 6.9,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 4
+    },
+    "cu": {
+      "gtins": [
+        "4021457648498"
+      ],
+      "brutto_weight": 0.304,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.471,
+      "brutto_volume_unit_code": "cdm",
+      "height": 19.8,
+      "length": 3.9,
+      "width": 6.1,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "lu": {
+      "brutto_weight": 417.731,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 960,
+      "brutto_volume_unit_code": "cdm",
+      "height": 100,
+      "length": 120,
+      "width": 80,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1248
+    },
+    "lge": {
+      "brutto_volume": 196.8,
+      "brutto_volume_unit_code": "cdm",
+      "height": 20.5,
+      "length": 120,
+      "width": 80,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 312
+    },
+    "kar": {
+      "number_of_base_units": 1
+    }
+  },
+  "vat": {
+    "id": 1,
+    "percentage": 7.7
+  },
+  "price": {
+    "valid_from": "2023-03-01T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 6.5,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "250ml"
+    },
+    "base": {
+      "price": 2.6,
+      "quantity": 100,
+      "unit": "ML"
+    }
+  },
+  "features": [
+    {
+      "label_code": "miso_geeignet_fuer",
+      "label": "Suitable for",
+      "values": [
+        {
+          "value_code": "MISO_geeignet_fuer_sensiblehaut",
+          "value": "Sensible Haut"
+        },
+        {
+          "value_code": "MISO_geeignet_fuer_trockenehaut",
+          "value": "Trockene Haut"
+        }
+      ],
+      "category_code": "MISO_CLA_Duschen_Koerperpflege_Beauty_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "miso_anwendung",
+      "label": "Application",
+      "values": [
+        {
+          "value_code": "MISO_anwendung_duschen",
+          "value": "Duschen"
+        }
+      ],
+      "category_code": "MISO_CLA_Koerperpflege_Naturkosmetik_Beauty_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "MAPI_VEGETARIANISM",
+      "label": "Vegetarianism",
+      "values": [
+        {
+          "value_code": "MAPI_VEGETARIANISM_vegan",
+          "value": "vegan"
+        }
+      ],
+      "category_code": "MAPI_VEGETARIANISM",
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/e4a210a9688a61e0c1138a18ec54a2c9d0b8a338/lavera-pflegedusche-erfrischend.jpg",
+    "stack": "https://image.migros.ch/{stack}/e4a210a9688a61e0c1138a18ec54a2c9d0b8a338/lavera-pflegedusche-erfrischend.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/31b4add4d88b337262c8b5e393497a3d1e530552/lavera-pflegedusche-erfrischend.png",
+    "stack": "https://image.migros.ch/{stack}/31b4add4d88b337262c8b5e393497a3d1e530552/lavera-pflegedusche-erfrischend.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Standard item"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "ZHKS"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUSTOMS_POSITION",
+      "values": [
+        {
+          "value": "34013000"
+        }
+      ],
+      "category_code": "MAPI_CUSTOMS_POSITION",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RISK_CLASS",
+      "values": [
+        {
+          "value_code": "1",
+          "value": "1 (high)"
+        }
+      ],
+      "category_code": "MAPI_RISK_CLASS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_QUALITY_CHECK",
+      "values": [
+        {
+          "value_code": "00",
+          "value": "No Quality Control"
+        }
+      ],
+      "category_code": "MAPI_QUALITY_CHECK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZHKS",
+          "value": "HKS Standardartikel"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "H",
+          "value": "HKS Standard"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "50055",
+          "value": "DUSCHEN"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LIFECYCLE",
+      "values": [
+        {
+          "value_code": "D",
+          "value": "Detailhandelsartikel"
+        }
+      ],
+      "category_code": "MAPI_LIFECYCLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_EXPORTABLE",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Yes",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MAPI_EXPORTABLE",
+      "top_fact": false
+    }
+  ],
+  "declarations": {
+    "declaration_number": "Q_1604593688728256",
+    "tags": [
+      "source-qim"
+    ],
+    "gtins": [
+      "4021457648498"
+    ],
+    "valid_from": "2023-05-16T00:02:00+0200",
+    "product_details": {
+      "net_filled_quantity": {
+        "value": "250 ml",
+        "numeric_value": 250,
+        "unit": "ml"
+      },
+      "net_weight": {
+        "value": "275.7 Gramm",
+        "numeric_value": 275.7,
+        "unit": "Gramm"
+      }
+    },
+    "distributor": {
+      "name": "Laverana GmbH & Co. KG",
+      "address": "Am Weingarten 4, 30974 Wennigsen"
+    },
+    "ingredients_information": {
+      "allergens_information": {
+        "allergens": [
+          {
+            "code": "BO",
+            "label": "d-limonene",
+            "contamination_code": "VORHANDEN",
+            "contamination_label": "contains"
+          },
+          {
+            "code": "CN",
+            "label": "citronellol",
+            "contamination_code": "VORHANDEN",
+            "contamination_label": "contains"
+          },
+          {
+            "code": "BP",
+            "label": "linalool",
+            "contamination_code": "VORHANDEN",
+            "contamination_label": "contains"
+          },
+          {
+            "code": "CT",
+            "label": "citral",
+            "contamination_code": "VORHANDEN",
+            "contamination_label": "contains"
+          }
+        ]
+      }
+    }
+  },
+  "regional_availability": {
+    "gmaa": {
+      "probability": 70
+    },
+    "gmbs": {
+      "probability": 67
+    },
+    "gmge": {
+      "probability": 45
+    },
+    "gmlu": {
+      "probability": 56
+    },
+    "gmnf": {
+      "probability": 59
+    },
+    "gmos": {
+      "probability": 56
+    },
+    "gmti": {
+      "probability": 55
+    },
+    "gmvd": {
+      "probability": 60
+    },
+    "gmvs": {
+      "probability": 48
+    },
+    "gmzh": {
+      "probability": 67
+    }
+  },
+  "ratings": {
+    "count_all": 2,
+    "average_all": 5
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "updated_at": "2023-08-16T07:42:52+0200",
+  "sap_created_at": "2022-01-03T00:00:00+0100",
+  "base_unit": "CU",
+  "origins": {},
+  "views": [
+    "all",
+    "browse",
+    "browseallretailers"
+  ]
+}

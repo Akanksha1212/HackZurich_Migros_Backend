@@ -1,0 +1,625 @@
+{
+  "id": "523903800000",
+  "language": "en",
+  "name": "Urtekram Handcreme Soft Wild Rose",
+  "names": {
+    "short_name": "Urtekram Handcreme Soft Wild Rose"
+  },
+  "slug": "urtekram-handcreme-soft-wild-rose",
+  "slugs": {
+    "de": "urtekram-handcreme-soft-wild-rose",
+    "fr": "urtekram-creme-pour-les-mains-soft-wild-rose",
+    "it": "urtekram-creme-per-le-mani-soft-wild-rose",
+    "en": "urtekram-handcreme-soft-wild-rose"
+  },
+  "type": "00",
+  "boss_number": "090322261570",
+  "data_source": "SAP-X11",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03"
+  },
+  "tags": [
+    "source-pex",
+    "near-non-food",
+    "migipedia",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "5701058010311"
+  ],
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarket"
+  },
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "brand": {
+    "id": "O60",
+    "name": "URTEKRAM",
+    "slug": "urtekram"
+  },
+  "labels": [
+    {
+      "id": "L41",
+      "name": "Naturkosmetik",
+      "slug": "naturkosmetik"
+    },
+    {
+      "id": "L55",
+      "name": "Vegan Flower",
+      "slug": "vegan-flower",
+      "image": {
+        "original": "https://image.migros.ch/original/c5723257619218d275dade4d7d332cda242cafcc/vegan-flower.jpg",
+        "stack": "https://image.migros.ch/{stack}/c5723257619218d275dade4d7d332cda242cafcc/vegan-flower.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_01110602",
+      "name": "Körperpflege",
+      "slug": "supermarkt/beauty/naturkosmetik/koerperpflege",
+      "visible": true,
+      "parent_code": "BeSS_011106",
+      "level": 4
+    },
+    {
+      "code": "BeSS_011106",
+      "name": "Naturkosmetik",
+      "slug": "supermarkt/beauty/naturkosmetik",
+      "visible": true,
+      "parent_code": "BeSS_0111",
+      "level": 3
+    },
+    {
+      "code": "BeSS_0111",
+      "name": "Beauty",
+      "slug": "supermarkt/beauty",
+      "visible": true,
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/293925170bd129344f9259c67a15e903f881bef8/beauty.jpg",
+        "stack": "https://image.migros.ch/{stack}/293925170bd129344f9259c67a15e903f881bef8/beauty.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "BeSS_01110306",
+        "name": "Hand- und Nagelpflege",
+        "slug": "supermarkt/beauty/koerperpflege/hand-und-nagelpflege",
+        "visible": true,
+        "parent_code": "BeSS_011103",
+        "level": 4
+      },
+      {
+        "code": "BeSS_011103",
+        "name": "Körperpflege",
+        "slug": "supermarkt/beauty/koerperpflege",
+        "visible": true,
+        "parent_code": "BeSS_0111",
+        "level": 3
+      },
+      {
+        "code": "BeSS_0111",
+        "name": "Beauty",
+        "slug": "supermarkt/beauty",
+        "visible": true,
+        "parent_code": "BeSS_01",
+        "image": {
+          "original": "https://image.migros.ch/original/293925170bd129344f9259c67a15e903f881bef8/beauty.jpg",
+          "stack": "https://image.migros.ch/{stack}/293925170bd129344f9259c67a15e903f881bef8/beauty.jpg"
+        },
+        "level": 2
+      },
+      {
+        "code": "BeSS_01",
+        "name": "Supermarkt",
+        "slug": "supermarkt",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "online_relevant": [
+    {
+      "code": "MGB",
+      "name": "Migros Genossenschafts-Bund"
+    }
+  ],
+  "links": {
+    "migros_ch": {
+      "url": "https://www.migros.ch/en/product/523903800000?context=instore",
+      "name": "In-store assortment",
+      "canonical": "https://www.migros.ch/en/product/523903800000?context=instore",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/523903800000",
+      "name": "Migipedia",
+      "canonical": "https://www.migros.ch/en/product/523903800000?context=instore",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "receipt_text": "Urtekram Handcreme Ros",
+  "package": {
+    "content": 75,
+    "content_unit_code": "ml",
+    "content_unit": "Mililiter",
+    "net_weight": 0.075,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "brutto_weight": 0.089,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 0.293,
+    "brutto_volume_unit_code": "cdm",
+    "height": 12,
+    "length": 4,
+    "width": 6.1,
+    "unit_dimension": "cm",
+    "price_comparison_content": 10,
+    "size": "75ml"
+  },
+  "package_information": {
+    "tu": {
+      "gtins": [
+        "7613312390054"
+      ],
+      "brutto_weight": 0.577,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 1.699,
+      "brutto_volume_unit_code": "cdm",
+      "height": 15.8,
+      "length": 12.8,
+      "width": 8.4,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 6
+    },
+    "cu": {
+      "gtins": [
+        "5701058010311"
+      ],
+      "brutto_weight": 0.089,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.293,
+      "brutto_volume_unit_code": "cdm",
+      "height": 12,
+      "length": 4,
+      "width": 6.1,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "lu": {
+      "brutto_weight": 175.744,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 5932.8,
+      "brutto_volume_unit_code": "cdm",
+      "height": 618,
+      "length": 120,
+      "width": 80,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1584
+    },
+    "lge": {
+      "number_of_base_units": 528
+    },
+    "kar": {
+      "number_of_base_units": 1
+    }
+  },
+  "vat": {
+    "id": 1,
+    "percentage": 7.7
+  },
+  "price": {
+    "valid_from": "2023-01-01T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 7.95,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "75ml"
+    },
+    "base": {
+      "price": 1.06,
+      "quantity": 10,
+      "unit": "ML"
+    }
+  },
+  "features": [
+    {
+      "label_code": "miso_produkttyp",
+      "label": "Product type",
+      "values": [
+        {
+          "value_code": "MISO_produkttyp_handcreme",
+          "value": "Handcreme"
+        }
+      ],
+      "category_code": "MISO_CLA_HandNagelpflege_Koerperpflege_Beauty_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "miso_beduerfnis_nutzen",
+      "label": "Requirements/uses",
+      "values": [
+        {
+          "value_code": "MISO_beduerfnis_nutzen_feuchtigkeit",
+          "value": "Feuchtigkeit"
+        }
+      ],
+      "category_code": "MISO_CLA_HandNagelpflege_Koerperpflege_Beauty_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "miso_anwendung",
+      "label": "Application",
+      "values": [
+        {
+          "value_code": "MISO_anwendung_handpflege",
+          "value": "Handpflege"
+        }
+      ],
+      "category_code": "MISO_CLA_Koerperpflege_Naturkosmetik_Beauty_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "MAPI_VEGETARIANISM",
+      "label": "Vegetarianism",
+      "values": [
+        {
+          "value_code": "MAPI_VEGETARIANISM_vegan",
+          "value": "vegan"
+        }
+      ],
+      "category_code": "MAPI_VEGETARIANISM",
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/aac00d24bea2df6e1861bf88050145d0fb917ae0/urtekram-handcreme-soft-wild-rose.jpg",
+    "stack": "https://image.migros.ch/{stack}/aac00d24bea2df6e1861bf88050145d0fb917ae0/urtekram-handcreme-soft-wild-rose.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/9db918943ee256036d7b35c068dcdbbdbf53567b/urtekram-handcreme-soft-wild-rose.png",
+    "stack": "https://image.migros.ch/{stack}/9db918943ee256036d7b35c068dcdbbdbf53567b/urtekram-handcreme-soft-wild-rose.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Standard item"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "ZHKS"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUSTOMS_POSITION",
+      "values": [
+        {
+          "value": "33049900"
+        }
+      ],
+      "category_code": "MAPI_CUSTOMS_POSITION",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RISK_CLASS",
+      "values": [
+        {
+          "value_code": "2",
+          "value": "2 (medium)"
+        }
+      ],
+      "category_code": "MAPI_RISK_CLASS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_QUALITY_CHECK",
+      "values": [
+        {
+          "value_code": "00",
+          "value": "No Quality Control"
+        }
+      ],
+      "category_code": "MAPI_QUALITY_CHECK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZHKS",
+          "value": "HKS Standardartikel"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "H",
+          "value": "HKS Standard"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "50461",
+          "value": "HANDPFLEGE"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LIFECYCLE",
+      "values": [
+        {
+          "value_code": "D",
+          "value": "Detailhandelsartikel"
+        }
+      ],
+      "category_code": "MAPI_LIFECYCLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_EXPORTABLE",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Yes",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MAPI_EXPORTABLE",
+      "top_fact": false
+    }
+  ],
+  "declarations": {
+    "declaration_number": "Q_1604593688939190",
+    "tags": [
+      "source-qim"
+    ],
+    "gtins": [
+      "5701058010311"
+    ],
+    "valid_from": "2023-04-26T00:00:00+0200",
+    "product_details": {
+      "net_filled_quantity": {
+        "value": "75 ml",
+        "numeric_value": 75,
+        "unit": "ml"
+      }
+    },
+    "distributor": {
+      "name": "Midsona Danmark A/S",
+      "address": "Klostermarken 20, 9550, Onsild, Dänemark"
+    },
+    "ingredients_information": {
+      "allergens_information": {
+        "allergens": [
+          {
+            "code": "EG",
+            "label": "eugenol",
+            "contamination_code": "VORHANDEN",
+            "contamination_label": "contains"
+          },
+          {
+            "code": "CT",
+            "label": "citral",
+            "contamination_code": "VORHANDEN",
+            "contamination_label": "contains"
+          },
+          {
+            "code": "GE",
+            "label": "geraniol",
+            "contamination_code": "VORHANDEN",
+            "contamination_label": "contains"
+          },
+          {
+            "code": "BO",
+            "label": "d-limonene",
+            "contamination_code": "VORHANDEN",
+            "contamination_label": "contains"
+          },
+          {
+            "code": "BP",
+            "label": "linalool",
+            "contamination_code": "VORHANDEN",
+            "contamination_label": "contains"
+          },
+          {
+            "code": "CN",
+            "label": "citronellol",
+            "contamination_code": "VORHANDEN",
+            "contamination_label": "contains"
+          }
+        ]
+      }
+    },
+    "period_after_opening": {
+      "value": "12 months",
+      "numeric_value": 12,
+      "unit": "months"
+    }
+  },
+  "regional_availability": {
+    "gmaa": {
+      "probability": 17
+    },
+    "gmbs": {
+      "probability": 12
+    },
+    "gmge": {
+      "probability": 11
+    },
+    "gmlu": {
+      "probability": 15
+    },
+    "gmnf": {
+      "probability": 12
+    },
+    "gmos": {
+      "probability": 16
+    },
+    "gmti": {
+      "probability": 10
+    },
+    "gmvd": {
+      "probability": 12
+    },
+    "gmvs": {
+      "probability": 19
+    },
+    "gmzh": {
+      "probability": 15
+    }
+  },
+  "ratings": {
+    "count_all": 2,
+    "average_all": 4
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "updated_at": "2023-08-13T07:44:27+0200",
+  "sap_created_at": "2022-04-08T00:00:00+0200",
+  "base_unit": "CU",
+  "origins": {
+    "producing_country": "Denmark"
+  },
+  "views": [
+    "all",
+    "browse",
+    "browseallretailers"
+  ]
+}

@@ -1,0 +1,795 @@
+{
+  "id": "109133100000",
+  "language": "en",
+  "name": "Snack Ringies",
+  "names": {
+    "short_name": "Snack Ringies"
+  },
+  "slug": "snack-ringies",
+  "slugs": {
+    "de": "snack-ringies",
+    "fr": "snack-ringies",
+    "it": "snack-ringies",
+    "en": "snack-ringies"
+  },
+  "type": "00",
+  "boss_number": "011811722005",
+  "description": {
+    "text": "Ringies, Snacks f&uuml;r alle Nager. Knabbern ist f&uuml;r alle Nagetiere besonders wichtig. Mit M-Classic Snacks macht das Knabbern besonders viel Spass, h&auml;lt gesund und vital und sorgt f&uuml;r die n&ouml;tige Besch&auml;ftigung Ihrer Nager. Die \"Ringies\" sind in einem speziellen, schonenden Verfahren aus hochwertigen Rohstoffen unter Zusatz von Vitaminen und Kupfer hergestellt.",
+    "source": "PEX"
+  },
+  "data_source": "SAP-X11",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03"
+  },
+  "tags": [
+    "source-pex",
+    "migipedia",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613269365570",
+    "7610368001934",
+    "7617027170376"
+  ],
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarket"
+  },
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "brand": {
+    "id": "068",
+    "name": "M-Classic",
+    "slug": "m-classic",
+    "links": {
+      "homepage": {
+        "url": "https://m-classic.migros.ch/de.html",
+        "name": "Homepage",
+        "type": "info",
+        "purchasable": false
+      }
+    }
+  },
+  "categories": [
+    {
+      "code": "BeSS_01080402",
+      "name": "Snacks",
+      "slug": "supermarkt/tierwelt/nager/snacks",
+      "visible": true,
+      "parent_code": "BeSS_010804",
+      "level": 4
+    },
+    {
+      "code": "BeSS_010804",
+      "name": "Nager",
+      "slug": "supermarkt/tierwelt/nager",
+      "visible": true,
+      "title": "Alles für den Nager in Ihrer Migros finden – Streu und Futter",
+      "parent_code": "BeSS_0108",
+      "image": {
+        "original": "https://image.migros.ch/original/90fd8ce520ca0ef57549065c83abb37b9600747b/nager.jpg",
+        "stack": "https://image.migros.ch/{stack}/90fd8ce520ca0ef57549065c83abb37b9600747b/nager.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0108",
+      "name": "Tierwelt",
+      "slug": "supermarkt/tierwelt",
+      "visible": true,
+      "title": "Tierwelt bei der Migros: nur das Beste für Ihren Liebling",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/c6a8b209b0929b2040fbe89bc5edcacf6e029598/tierwelt.jpg",
+        "stack": "https://image.migros.ch/{stack}/c6a8b209b0929b2040fbe89bc5edcacf6e029598/tierwelt.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "online_relevant": [
+    {
+      "code": "MGB",
+      "name": "Migros Genossenschafts-Bund"
+    },
+    {
+      "code": "MO",
+      "name": "Migros Online"
+    }
+  ],
+  "galaxus_relevant": true,
+  "links": {
+    "migros_ch": {
+      "url": "https://www.migros.ch/en/product/109133100000?context=instore",
+      "name": "In-store assortment",
+      "canonical": "https://www.migros.ch/en/product/109133100000?context=instore",
+      "type": "info",
+      "purchasable": false
+    },
+    "migros_online": {
+      "url": "https://www.migros.ch/en/product/109133100000?context=online",
+      "mo_product_id": "5169503",
+      "name": "Online-shop assortment",
+      "canonical": "https://www.migros.ch/en/product/109133100000?context=instore",
+      "type": "shop",
+      "purchasable": true,
+      "one_catalog_id": 100031474
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/109133100000",
+      "name": "Migipedia",
+      "canonical": "https://www.migros.ch/en/product/109133100000?context=instore",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "m_check2": {
+    "carbon_footprint": {
+      "image": {
+        "original": "https://image.migros.ch/original/3647ce79a496ca6d707e072f7e3f61ecc313e54b.svg",
+        "stack": "https://image.migros.ch/{stack}/3647ce79a496ca6d707e072f7e3f61ecc313e54b.svg"
+      },
+      "ground_and_sea_cargo": {
+        "kg_co2": 2.51,
+        "kg_co2_range": "2 - 4.7 kg CO₂eq / kg",
+        "co2_in_car_km": 13,
+        "rating": 3,
+        "production_in_percent": 88.51,
+        "packaging_in_percent": 4.6,
+        "transport_in_percent": 6.9
+      }
+    }
+  },
+  "receipt_text": "MClass Ringies Snack",
+  "package": {
+    "content": 200,
+    "content_unit_code": "g",
+    "content_unit": "Gramm",
+    "net_weight": 0.2,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "brutto_weight": 0.225,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 0.982,
+    "brutto_volume_unit_code": "cdm",
+    "height": 19.5,
+    "length": 5.3,
+    "width": 9.5,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "200g"
+  },
+  "package_information": {
+    "tu": {
+      "gtins": [
+        "7610368001941",
+        "8711304543408",
+        "8711304569200",
+        "7617027170383",
+        "7613312082485",
+        "7613269365587"
+      ],
+      "brutto_weight": 1.59,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 8.108,
+      "brutto_volume_unit_code": "cdm",
+      "height": 20.7,
+      "length": 38.4,
+      "width": 10.2,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 7
+    },
+    "cu": {
+      "gtins": [
+        "7610368001934",
+        "7613269365570",
+        "7617027170376"
+      ],
+      "brutto_weight": 0.225,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.982,
+      "brutto_volume_unit_code": "cdm",
+      "height": 19.5,
+      "length": 5.3,
+      "width": 9.5,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "lu": {
+      "brutto_weight": 164.92,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 829.44,
+      "brutto_volume_unit_code": "cdm",
+      "height": 84,
+      "length": 120,
+      "width": 80,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 616
+    }
+  },
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "price": {
+    "valid_from": "2022-01-18T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 3,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "200g"
+    },
+    "base": {
+      "price": 1.5,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "features": [
+    {
+      "label_code": "miso_lebensalterdestieres",
+      "label": "Age of animal",
+      "values": [
+        {
+          "value_code": "MISO_lebensalterdestieres_adult",
+          "value": "Adult"
+        }
+      ],
+      "category_code": "MISO_CLA_HaustierbedarfHaustiernahrung_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "miso_futtertyp",
+      "label": "Feed type",
+      "values": [
+        {
+          "value_code": "MISO_futtertyp_snack",
+          "value": "Snacks"
+        }
+      ],
+      "category_code": "MISO_CLA_Haustierfutter_Haustiernahrung_HaustierbedarfHaustiernahrung_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "miso_verzehrbereit",
+      "label": "Ready to eat",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Yes",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MISO_CLA_Haustierfutter_Haustiernahrung_HaustierbedarfHaustiernahrung_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "miso_futterart",
+      "label": "Feed type",
+      "values": [
+        {
+          "value_code": "MISO_futterart_mischung",
+          "value": "Mischung"
+        }
+      ],
+      "category_code": "MISO_CLA_Haustierfutter_Haustiernahrung_HaustierbedarfHaustiernahrung_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "miso_konsistenzdesfutters",
+      "label": "Consistency of feed",
+      "values": [
+        {
+          "value_code": "MISO_konsistenzdesfutters_trocken",
+          "value": "trocken"
+        }
+      ],
+      "category_code": "MISO_CLA_Haustierfutter_Haustiernahrung_HaustierbedarfHaustiernahrung_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "miso_fuetterungsempfehlung",
+      "label": "Feeding recommendation",
+      "values": [
+        {
+          "value": "Ringies können als kleine Belohnung zwischendurch gegeben werden. Wird in grösseren Mengen zugefüttert, muss die Menge an Hauptfutter entsprechend reduziert werden."
+        }
+      ],
+      "category_code": "MISO_CLA_Haustierfutter_Haustiernahrung_HaustierbedarfHaustiernahrung_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/a58997eba8da22255b374ae661ba47e5d13b0283/snack-ringies.jpg",
+    "stack": "https://image.migros.ch/{stack}/a58997eba8da22255b374ae661ba47e5d13b0283/snack-ringies.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/200433c9f6b55fe93b8a89b52ef64ed0a4d91d4e/snack-ringies.png",
+    "stack": "https://image.migros.ch/{stack}/200433c9f6b55fe93b8a89b52ef64ed0a4d91d4e/snack-ringies.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "miso_amigos_anzeige",
+      "label": "Display aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "ja"
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "miso_amigos_sortierung",
+      "label": "aMigos sorting",
+      "values": [
+        {
+          "value": "130"
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "MAPI_RETURNABLE",
+      "label": "Return",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "true",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MAPI_RETURNABLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_EXCLUDE_FROM_COMPARISON_ENGINES",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "false",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_EXCLUDE_FROM_COMPARISON_ENGINES",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Standard item"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "HAWA"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "11821",
+          "value": "NAGER SNACK"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LIFECYCLE",
+      "values": [
+        {
+          "value_code": "D",
+          "value": "Detailhandelsartikel"
+        }
+      ],
+      "category_code": "MAPI_LIFECYCLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_EXPORTABLE",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_EXPORTABLE",
+      "top_fact": false
+    }
+  ],
+  "declarations": {
+    "declaration_number": "8813011393998",
+    "tags": [
+      "source-pim"
+    ],
+    "product_name": "M-Classic Ringies Snack",
+    "valid_from": "2018-02-16T16:32:48+0100",
+    "product_details": {
+      "regulated_description": "Ergänzungsfuttermittel für Nager und Kaninchen (Heimtiere)"
+    },
+    "general_information": [
+      {
+        "label": "Obligatorische Zusatzangaben",
+        "values": [
+          "Adresse Migros /Kontaktangaben für Endverbraucheranfragen (M-Infoline) /Produit en au Pays Bas par NL 09172/\nFütterungsempfehlung: ca. 10 - 20 g pro Tag"
+        ]
+      },
+      {
+        "label": "Aufbewarungs- und Verpackungshinweise",
+        "values": [
+          "Bei Raumtemperatur, lichtgeschützt und trocken lagern."
+        ]
+      },
+      {
+        "label": "Haltbarkeit",
+        "values": [
+          "Mindestens haltbar bis: [bei Datumsangabe] /...bis Ende: [bei Angabe Monat] + Angabe Losnummer"
+        ]
+      }
+    ],
+    "ingredients_information": {
+      "ingredients_text": "Mais, Luzerne, Sojaöl, Kurkuma."
+    },
+    "nutrition_facts": {
+      "reference_sizes": {
+        "standard": {
+          "base": {
+            "description": "Analytische Bestandteile"
+          },
+          "nutrients": [
+            {
+              "code": "NUT_VITAMIN_A",
+              "name": "Vitamin A",
+              "operator": "=",
+              "category": "VITAMINE",
+              "quantity": {
+                "value": "6000 ie",
+                "numeric_value": 6000,
+                "unit": "ie"
+              }
+            },
+            {
+              "code": "NUT_SODIUM",
+              "name": "Sodium",
+              "operator": "=",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0.01 %",
+                "numeric_value": 0.01,
+                "unit": "%"
+              }
+            },
+            {
+              "code": "NUT_CALCIUM",
+              "name": "Calcium",
+              "operator": "=",
+              "category": "MINERALSTOFFE_SPURENELEMENTE",
+              "quantity": {
+                "value": "0.09 %",
+                "numeric_value": 0.09,
+                "unit": "%"
+              }
+            },
+            {
+              "code": "NUT_PHOSPHORUS",
+              "name": "Phosphor",
+              "operator": "=",
+              "category": "MINERALSTOFFE_SPURENELEMENTE",
+              "quantity": {
+                "value": "0.3 %",
+                "numeric_value": 0.3,
+                "unit": "%"
+              }
+            },
+            {
+              "code": "NUT_COPPER",
+              "name": "Kupfer",
+              "operator": "=",
+              "category": "MINERALSTOFFE_SPURENELEMENTE",
+              "quantity": {
+                "value": "9 mg",
+                "numeric_value": 9,
+                "unit": "mg"
+              }
+            }
+          ],
+          "additional_nutrients": [
+            {
+              "code": "NUT_CRUDE_ASH",
+              "name": "Rohasche",
+              "operator": "=",
+              "category": "SONSTIGE",
+              "quantity": {
+                "value": "1.8 %",
+                "numeric_value": 1.8,
+                "unit": "%"
+              }
+            },
+            {
+              "code": "NUT_CRUDE_FIBER",
+              "name": "Rohfasern",
+              "operator": "=",
+              "category": "SONSTIGE",
+              "quantity": {
+                "value": "2.7 %",
+                "numeric_value": 2.7,
+                "unit": "%"
+              }
+            },
+            {
+              "code": "NUT_HUMIDITY",
+              "name": "Feuchtigkeit",
+              "operator": "=",
+              "category": "SONSTIGE",
+              "quantity": {
+                "value": "12.5 %",
+                "numeric_value": 12.5,
+                "unit": "%"
+              }
+            },
+            {
+              "code": "PIM_NUT_ROHFETT",
+              "name": "Rohfett",
+              "operator": "=",
+              "category": "SONSTIGE",
+              "quantity": {
+                "value": "6.7 %",
+                "numeric_value": 6.7,
+                "unit": "%"
+              }
+            },
+            {
+              "code": "PIM_NUT_ROHPROTE",
+              "name": "Rohproteine",
+              "operator": "=",
+              "category": "SONSTIGE",
+              "quantity": {
+                "value": "8.3 %",
+                "numeric_value": 8.3,
+                "unit": "%"
+              }
+            },
+            {
+              "code": "PIM_NUT_TOC_ACET",
+              "name": "Tocopherylacetat (D-alpha-Tocopherylacetat)",
+              "operator": "=",
+              "category": "VITAMINE",
+              "quantity": {
+                "value": "24 mg",
+                "numeric_value": 24,
+                "unit": "mg"
+              }
+            },
+            {
+              "code": "PIM_NUT_VIT_D3",
+              "name": "Vitamin D3 (Cholecalciferol)",
+              "operator": "=",
+              "category": "VITAMINE",
+              "quantity": {
+                "value": "600 ie",
+                "numeric_value": 600,
+                "unit": "ie"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "recipe_ingredient_ids": [
+    "10000"
+  ],
+  "regional_availability": {
+    "gmaa": {
+      "probability": 96
+    },
+    "gmbs": {
+      "probability": 98
+    },
+    "gmge": {
+      "probability": 71
+    },
+    "gmlu": {
+      "probability": 80
+    },
+    "gmnf": {
+      "probability": 100
+    },
+    "gmos": {
+      "probability": 96
+    },
+    "gmti": {
+      "probability": 100
+    },
+    "gmvd": {
+      "probability": 95
+    },
+    "gmvs": {
+      "probability": 96
+    },
+    "gmzh": {
+      "probability": 87
+    }
+  },
+  "ratings": {
+    "count_all": 17,
+    "average_all": 4.25
+  },
+  "related_products": {
+    "purchase_recommendations": {
+      "product_ids": [
+        "109133200000",
+        "109139200000",
+        "109138400000",
+        "109139500000",
+        "109135300000"
+      ]
+    }
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "updated_at": "2023-08-17T11:48:03+0200",
+  "sap_created_at": "2002-03-22T00:00:00+0100",
+  "base_unit": "CU",
+  "origins": {
+    "producing_country": "-"
+  },
+  "views": [
+    "all",
+    "browse",
+    "browseallretailers"
+  ]
+}

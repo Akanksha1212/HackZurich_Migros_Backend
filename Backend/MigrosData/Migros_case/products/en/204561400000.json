@@ -1,0 +1,514 @@
+{
+  "id": "204561400000",
+  "language": "en",
+  "name": "Benecol Himbeere ohne Zucker",
+  "names": {
+    "short_name": "Benecol Himbeere ohne Zucker"
+  },
+  "slug": "benecol-himbeere-ohne-zucker-204561400000",
+  "slugs": {
+    "de": "benecol-himbeere-ohne-zucker-204561400000",
+    "fr": "benecol-framboise-sans-sucre-204561400000",
+    "it": "benecol-lampone-senza-zucchero-204561400000",
+    "en": "benecol-himbeere-ohne-zucker-204561400000"
+  },
+  "type": "00",
+  "boss_number": "030213208015",
+  "data_source": "SAP-X11",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "80"
+  },
+  "tags": [
+    "source-p4m",
+    "migipedia",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7610900295708"
+  ],
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarket"
+  },
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "brand": {
+    "id": "K47",
+    "name": "Benecol",
+    "slug": "benecol"
+  },
+  "labels": [
+    {
+      "id": "L76",
+      "name": "No added sugar",
+      "slug": "no-added-sugar"
+    },
+    {
+      "id": "L53",
+      "name": "Swissness",
+      "slug": "swissness",
+      "image": {
+        "original": "https://image.migros.ch/original/d771bba2f6b08ba42970ea0243c6f8c5a8832f15/swissness.jpg",
+        "stack": "https://image.migros.ch/{stack}/d771bba2f6b08ba42970ea0243c6f8c5a8832f15/swissness.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_0101040705",
+      "name": "Milchgetränke",
+      "slug": "supermarkt/lebensmittel/milchprodukte-eier/milch-milchgetraenke/milchgetraenke",
+      "visible": true,
+      "title": "Milchdrinks in Ihrer Migros kaufen",
+      "parent_code": "BeSS_01010407",
+      "image": {
+        "original": "https://image.migros.ch/original/d42b9a58ab7f8483b8d7a1eae11c29f33728246d/milchgetraenke.jpg",
+        "stack": "https://image.migros.ch/{stack}/d42b9a58ab7f8483b8d7a1eae11c29f33728246d/milchgetraenke.jpg"
+      },
+      "level": 5
+    },
+    {
+      "code": "BeSS_01010407",
+      "name": "Milch & Milchgetränke",
+      "slug": "supermarkt/lebensmittel/milchprodukte-eier/milch-milchgetraenke",
+      "visible": true,
+      "title": "Milchdrinks in Ihrer Migros kaufen",
+      "parent_code": "BeSS_010104",
+      "image": {
+        "original": "https://image.migros.ch/original/d5ac9732fe5b662adaca7f000dbf8de7a4853b48/milch-milchgetraenke.jpg",
+        "stack": "https://image.migros.ch/{stack}/d5ac9732fe5b662adaca7f000dbf8de7a4853b48/milch-milchgetraenke.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010104",
+      "name": "Milchprodukte & Eier",
+      "slug": "supermarkt/lebensmittel/milchprodukte-eier",
+      "visible": true,
+      "title": "Milchprodukte und Eier –",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/6b1ea6c2d41c3ccb21bf05c8dc342f7f55d83deb/milchprodukte-eier.jpg",
+        "stack": "https://image.migros.ch/{stack}/6b1ea6c2d41c3ccb21bf05c8dc342f7f55d83deb/milchprodukte-eier.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/31702195ec9d38aecefe80349eb347f79d56c750/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/31702195ec9d38aecefe80349eb347f79d56c750/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "online_relevant": [
+    {
+      "code": "MGB",
+      "name": "Migros Genossenschafts-Bund"
+    },
+    {
+      "code": "MO",
+      "name": "Migros Online"
+    }
+  ],
+  "links": {
+    "migros_ch": {
+      "url": "https://www.migros.ch/en/product/204561400000?context=instore",
+      "name": "In-store assortment",
+      "canonical": "https://www.migros.ch/en/product/204561400000?context=instore",
+      "type": "info",
+      "purchasable": false
+    },
+    "migros_online": {
+      "url": "https://www.migros.ch/en/product/204561400000?context=online",
+      "mo_product_id": "8961344",
+      "name": "Online-shop assortment",
+      "canonical": "https://www.migros.ch/en/product/204561400000?context=instore",
+      "type": "shop",
+      "purchasable": true,
+      "one_catalog_id": 100095455
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/204561400000",
+      "name": "Migipedia",
+      "canonical": "https://www.migros.ch/en/product/204561400000?context=instore",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "has_safety_sheet": false,
+  "m_check2": {},
+  "receipt_text": "Benecol Himbeere o Zuc",
+  "package": {
+    "content": 780,
+    "content_unit_code": "ml",
+    "content_unit": "Millilitre",
+    "net_weight": 0.804,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogram",
+    "type": "CU",
+    "portions_per_package": "1",
+    "brutto_weight": 0.804,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 1.413,
+    "brutto_volume_unit_code": "cdm",
+    "height": 8.6,
+    "length": 7.4,
+    "width": 22.2,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "12 x 65ml"
+  },
+  "package_information": {
+    "tu": {
+      "gtins": [
+        "7610900295715"
+      ],
+      "brutto_weight": 0.804,
+      "brutto_weight_unit_code": "kg",
+      "number_of_base_units": 1
+    },
+    "cu": {
+      "gtins": [
+        "7610900295708"
+      ],
+      "brutto_weight": 0.804,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 1.413,
+      "brutto_volume_unit_code": "cdm",
+      "height": 8.6,
+      "length": 7.4,
+      "width": 22.2,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    }
+  },
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "price": {
+    "valid_from": "2023-02-28T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 9.35,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "12 x 65ml"
+    },
+    "base": {
+      "price": 1.2,
+      "quantity": 100,
+      "unit": "ML"
+    }
+  },
+  "image": {
+    "original": "https://image.migros.ch/original/3a8f81d6b93f83a6a3281e9b1ba6c6d2b511d886/benecol-himbeere-ohne-zucker.jpg",
+    "stack": "https://image.migros.ch/{stack}/3a8f81d6b93f83a6a3281e9b1ba6c6d2b511d886/benecol-himbeere-ohne-zucker.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/e2396bd71e04b5b5dc5a94bbbb04851f5c796a07/benecol-himbeere-ohne-zucker.png",
+    "stack": "https://image.migros.ch/{stack}/e2396bd71e04b5b5dc5a94bbbb04851f5c796a07/benecol-himbeere-ohne-zucker.png"
+  },
+  "additional_images": [
+    {
+      "original": "https://image.migros.ch/original/651e706440949ad9edf7d9815566c5599a4ba5a6.jpg",
+      "stack": "https://image.migros.ch/{stack}/651e706440949ad9edf7d9815566c5599a4ba5a6.jpg"
+    },
+    {
+      "original": "https://image.migros.ch/original/dd28f11766f5d60591eeb98d8bd887e830288cc0.jpg",
+      "stack": "https://image.migros.ch/{stack}/dd28f11766f5d60591eeb98d8bd887e830288cc0.jpg"
+    },
+    {
+      "original": "https://image.migros.ch/original/da2fc81b5728840845cc165d6df2f2f931b0ee1b.jpg",
+      "stack": "https://image.migros.ch/{stack}/da2fc81b5728840845cc165d6df2f2f931b0ee1b.jpg"
+    }
+  ],
+  "internal_features": [
+    {
+      "label_code": "MAPI_EXPORTABLE",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_EXPORTABLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Normalposition"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZFRP",
+          "value": "Frische Beschaffung"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "ZFRP"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "70010",
+          "value": "SELLOUT/PROMOTIONEN"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "1_SAP_007",
+          "value": "1"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_KUBE_TUKA",
+      "values": [
+        {
+          "value_code": "BLANK",
+          "value": "KUBE und TUKA nicht zugelassen"
+        }
+      ],
+      "category_code": "MAPI_KUBE_TUKA",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LIFECYCLE",
+      "values": [
+        {
+          "value_code": "S",
+          "value": "Sellout"
+        }
+      ],
+      "category_code": "MAPI_LIFECYCLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_STORAGE_CONDITIONS",
+      "values": [
+        {
+          "value_code": "01",
+          "value": "normal"
+        }
+      ],
+      "category_code": "MAPI_STORAGE_CONDITIONS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_MULTIPACK",
+      "values": [
+        {
+          "value_code": "0",
+          "value": "No pack expression"
+        }
+      ],
+      "category_code": "MAPI_MULTIPACK",
+      "top_fact": false
+    },
+    {
+      "label_code": "acxhealthNutritionalClaims",
+      "label": "Gesundheits und nährwertbezogene Auslobung",
+      "values": [
+        {
+          "value_code": "noAddedSugar",
+          "value": "No added sugar. Contains naturally occurring sugars."
+        }
+      ],
+      "category_code": "ecxMISOCLAalkoholfreiegetraenketrinkfertiggetraenkelebensmittelgetraenkealle",
+      "top_fact": false
+    }
+  ],
+  "declarations": {
+    "tags": [
+      "source-qim"
+    ],
+    "gtins": [
+      "7610900295708"
+    ]
+  },
+  "recipe_ingredient_ids": [
+    "10000"
+  ],
+  "regional_availability": {
+    "gmaa": {
+      "probability": 38
+    },
+    "gmbs": {
+      "probability": 0
+    },
+    "gmge": {
+      "probability": 0
+    },
+    "gmlu": {
+      "probability": 0
+    },
+    "gmnf": {
+      "probability": 0
+    },
+    "gmos": {
+      "probability": 0
+    },
+    "gmti": {
+      "probability": 0
+    },
+    "gmvd": {
+      "probability": 0
+    },
+    "gmvs": {
+      "probability": 0
+    },
+    "gmzh": {
+      "probability": 0
+    }
+  },
+  "ratings": {
+    "count_all": 19,
+    "average_all": 4.736842105263
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "updated_at": "2023-08-17T11:54:52+0200",
+  "sap_created_at": "2022-08-09T19:00:00+0200",
+  "online_shop_relevant": false,
+  "base_unit": "CU",
+  "views": [
+    "all",
+    "browse",
+    "browseallretailers"
+  ]
+}

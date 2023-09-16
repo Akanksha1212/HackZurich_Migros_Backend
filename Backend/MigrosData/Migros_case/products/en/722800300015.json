@@ -1,0 +1,647 @@
+{
+  "id": "722800300015",
+  "language": "en",
+  "name": "ZYLINDER 150X80MM",
+  "names": {
+    "short_name": "ZYLINDER 150X80MM"
+  },
+  "slug": "zylinder-150x80mm-creme",
+  "slugs": {
+    "de": "zylinderkerze-15cm-creme-722800300015",
+    "fr": "bougie-cylindre-15cm-creme-722800300015",
+    "it": "candela-cilindro-15cm-crema-722800300015",
+    "en": "zylinder-150x80mm-creme"
+  },
+  "type": "02",
+  "boss_number": "150323380505",
+  "data_source": "SAP-X12",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03",
+    "distribution_center": [
+      {
+        "center_id": "1001",
+        "center_name": "Migros Verteilzentrum Neuendorf",
+        "status_code": "03",
+        "status_description": "active"
+      }
+    ]
+  },
+  "tags": [
+    "source-pex",
+    "near-non-food",
+    "migipedia",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": true,
+  "base_product_id": "722800300000",
+  "gtins": [
+    "7613294643452"
+  ],
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarket"
+  },
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "brand": {
+    "id": "MDB",
+    "name": "Migros Ambiance",
+    "slug": "migros-ambiance"
+  },
+  "labels": [
+    {
+      "id": "L53",
+      "name": "Swissness",
+      "slug": "swissness",
+      "image": {
+        "original": "https://image.migros.ch/original/d771bba2f6b08ba42970ea0243c6f8c5a8832f15/swissness.jpg",
+        "stack": "https://image.migros.ch/{stack}/d771bba2f6b08ba42970ea0243c6f8c5a8832f15/swissness.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_01040801",
+      "name": "Kerzen & Düfte / Kerzenhalter & Zubehör",
+      "slug": "supermarkt/haushalt-reinigung/party-dekoration/kerzen-duefte-kerzenhalter-zubehoer",
+      "visible": true,
+      "parent_code": "BeSS_010408",
+      "image": {
+        "original": "https://image.migros.ch/original/560cc8758f7210182ee20511ebb1c86beeac7042/kerzen-duefte-kerzenhalter-zubehoer.jpg",
+        "stack": "https://image.migros.ch/{stack}/560cc8758f7210182ee20511ebb1c86beeac7042/kerzen-duefte-kerzenhalter-zubehoer.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010408",
+      "name": "Party & Dekoration",
+      "slug": "supermarkt/haushalt-reinigung/party-dekoration",
+      "visible": true,
+      "title": "Dekorationen aus Ihrer Migros geben jeder Party ein schönes Ambiente.",
+      "parent_code": "BeSS_0104",
+      "image": {
+        "original": "https://image.migros.ch/original/bc5ef65d76b03e73e42d267cfeb6ee2bae2332af/party-dekoration.jpg",
+        "stack": "https://image.migros.ch/{stack}/bc5ef65d76b03e73e42d267cfeb6ee2bae2332af/party-dekoration.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0104",
+      "name": "Haushalt & Reinigung",
+      "slug": "supermarkt/haushalt-reinigung",
+      "visible": true,
+      "title": "Reinigung mit der Migros – Reiniger für Haushalt und Garten",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png",
+        "stack": "https://image.migros.ch/{stack}/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "online_relevant": [
+    {
+      "code": "MGB",
+      "name": "Migros Genossenschafts-Bund"
+    },
+    {
+      "code": "MO",
+      "name": "Migros Online"
+    }
+  ],
+  "galaxus_relevant": false,
+  "links": {
+    "migros_ch": {
+      "url": "https://www.migros.ch/en/product/722800300015?context=instore",
+      "name": "In-store assortment",
+      "canonical": "https://www.migros.ch/en/product/722800300015?context=instore",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/722800300015",
+      "name": "Migipedia",
+      "canonical": "https://www.migros.ch/en/product/722800300015?context=instore",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "receipt_text": "Kerze 150 x 80mm",
+  "package": {
+    "content": 1,
+    "content_unit_code": "st",
+    "content_unit": "Stück",
+    "brutto_weight": 0.577,
+    "brutto_weight_unit_code": "kg",
+    "price_comparison_content": 1,
+    "size": "1 Stk."
+  },
+  "package_information": {
+    "cu": {
+      "gtins": [
+        "7613294643452"
+      ],
+      "brutto_weight": 0.577,
+      "brutto_weight_unit_code": "kg",
+      "number_of_base_units": 1
+    },
+    "tuv": {
+      "brutto_weight": 3.46,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 6.8,
+      "brutto_volume_unit_code": "cdm",
+      "height": 17,
+      "length": 25,
+      "width": 16,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 4
+    },
+    "tue": {
+      "number_of_base_units": 4
+    },
+    "lu": {
+      "number_of_base_units": 576
+    },
+    "lge": {
+      "number_of_base_units": 96
+    }
+  },
+  "vat": {
+    "id": 1,
+    "percentage": 7.7
+  },
+  "price": {
+    "valid_from": "2022-05-01T00:00:00+0200",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 4.95,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "1 Stk."
+    },
+    "base": {
+      "price": 4.95,
+      "quantity": 1,
+      "unit": "st"
+    }
+  },
+  "features": [
+    {
+      "label_code": "miso_inhaltsmenge",
+      "label": "Content quantity",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1 Stk.",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MISO_CLA_HaushaltAcc_Haushalt_Alle",
+      "top_fact": false,
+      "unit_code": "Stk.",
+      "unit": "Stück",
+      "unit_symbol": "Stk.",
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "miso_hoehe",
+      "label": "Height",
+      "values": [
+        {
+          "value_code": "NUMERIC_15",
+          "value": "15 cm",
+          "numeric_value": 15
+        }
+      ],
+      "category_code": "MISO_CLA_HaushaltAcc_Haushalt_Alle",
+      "top_fact": false,
+      "unit_code": "cm",
+      "unit": "Zentimeter",
+      "unit_symbol": "cm",
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "miso_durchmesser",
+      "label": "Diameter",
+      "values": [
+        {
+          "value_code": "NUMERIC_8",
+          "value": "8 cm",
+          "numeric_value": 8
+        }
+      ],
+      "category_code": "MISO_CLA_HaushaltAcc_Haushalt_Alle",
+      "top_fact": false,
+      "unit_code": "cm",
+      "unit": "Zentimeter",
+      "unit_symbol": "cm",
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "miso_material",
+      "label": "Material",
+      "values": [
+        {
+          "value_code": "MISO_material_paraffin",
+          "value": "Paraffin"
+        }
+      ],
+      "category_code": "MISO_CLA_HaushaltAcc_Haushalt_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "miso_farbe",
+      "label": "Color",
+      "values": [
+        {
+          "value_code": "MISO_farbe_creme",
+          "value": "cremefarben"
+        }
+      ],
+      "category_code": "MISO_CLA_HaushaltAcc_Haushalt_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "miso_brenndauer",
+      "label": "Burn time",
+      "values": [
+        {
+          "value_code": "NUMERIC_70",
+          "value": "70 h",
+          "numeric_value": 70
+        }
+      ],
+      "category_code": "MISO_CLA_Kerzen_HaushaltAcc_Haushalt_Alle",
+      "top_fact": false,
+      "unit_code": "h",
+      "unit": "Stunde(n)",
+      "unit_symbol": "h",
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    }
+  ],
+  "attributes": {
+    "color": {
+      "code": "722800300000-A001-00015",
+      "name": "Farbe",
+      "value": "CRÈME"
+    }
+  },
+  "image": {
+    "original": "https://image.migros.ch/original/01c295300da033708137fa014bea70a7a7db75e6/zylinder-150x80mm.jpg",
+    "stack": "https://image.migros.ch/{stack}/01c295300da033708137fa014bea70a7a7db75e6/zylinder-150x80mm.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/88c340f08c7d2f3604920f8d638b829682c9b087/zylinder-150x80mm.png",
+    "stack": "https://image.migros.ch/{stack}/88c340f08c7d2f3604920f8d638b829682c9b087/zylinder-150x80mm.png"
+  },
+  "additional_images": [
+    {
+      "original": "https://image.migros.ch/original/b4fbc8c26d108fa3b8f894f6d14aaeeb13c751fb.jpg",
+      "stack": "https://image.migros.ch/{stack}/b4fbc8c26d108fa3b8f894f6d14aaeeb13c751fb.jpg"
+    }
+  ],
+  "internal_features": [
+    {
+      "label_code": "miso_amigos_anzeige",
+      "label": "Display aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "ja"
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "miso_amigos_sortierung",
+      "label": "aMigos sorting",
+      "values": [
+        {
+          "value": "980"
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "MAPI_RETURNABLE",
+      "label": "Return",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "true",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MAPI_RETURNABLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_MAX_ORDER_QUANTITY",
+      "values": [
+        {
+          "value_code": "NUMERIC_99999",
+          "value": "99999",
+          "numeric_value": 99999
+        }
+      ],
+      "category_code": "MAPI_MAX_ORDER_QUANTITY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_EXCLUDE_FROM_COMPARISON_ENGINES",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "false",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_EXCLUDE_FROM_COMPARISON_ENGINES",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+      "values": [
+        {
+          "value_code": "55",
+          "value": "Versandart Paket"
+        }
+      ],
+      "category_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LOGISTIC_CLASS",
+      "values": [
+        {
+          "value_code": "7",
+          "value": "VMI"
+        }
+      ],
+      "category_code": "MAPI_LOGISTIC_CLASS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Standard item"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "HART"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRESENTATION",
+      "values": [
+        {
+          "value_code": "L",
+          "value": "liegend"
+        }
+      ],
+      "category_code": "MAPI_PRESENTATION",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RISK_CLASS",
+      "values": [
+        {
+          "value_code": "1",
+          "value": "1 (high)"
+        }
+      ],
+      "category_code": "MAPI_RISK_CLASS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_KUBE_TUKA",
+      "values": [
+        {
+          "value_code": "BLANK",
+          "value": "KUBE und TUKA nicht zugelassen"
+        }
+      ],
+      "category_code": "MAPI_KUBE_TUKA",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HART",
+          "value": "Hartwaren Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "H",
+          "value": "Hartwaren"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "50838",
+          "value": "ZYLINDERKERZEN GETAUCHT"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_EXPORTABLE",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_EXPORTABLE",
+      "top_fact": false
+    }
+  ],
+  "regional_availability": {
+    "gmaa": {
+      "probability": 17
+    },
+    "gmbs": {
+      "probability": 17
+    },
+    "gmge": {
+      "probability": 18
+    },
+    "gmlu": {
+      "probability": 17
+    },
+    "gmnf": {
+      "probability": 14
+    },
+    "gmos": {
+      "probability": 18
+    },
+    "gmti": {
+      "probability": 10
+    },
+    "gmvd": {
+      "probability": 14
+    },
+    "gmvs": {
+      "probability": 26
+    },
+    "gmzh": {
+      "probability": 23
+    }
+  },
+  "ratings": {
+    "count_all": 13,
+    "average_all": 4.538461538462
+  },
+  "quantity_on_stock": 444,
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "updated_at": "2023-08-17T07:27:14+0200",
+  "sap_created_at": "2012-09-28T00:00:00+0200",
+  "online_shop_relevant": true,
+  "base_unit": "CU",
+  "origins": {
+    "producing_country": "Switzerland"
+  },
+  "views": [
+    "all",
+    "browse",
+    "browseallretailers"
+  ]
+}

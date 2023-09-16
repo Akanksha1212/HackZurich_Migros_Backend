@@ -1,0 +1,785 @@
+{
+  "id": "521027700000",
+  "language": "en",
+  "name": "ORGANIX BIO FARM ANIMAL",
+  "names": {
+    "short_name": "ORGANIX BIO FARM ANIMAL"
+  },
+  "slug": "organix-bio-farm-animal",
+  "slugs": {
+    "de": "farm-animal-biscuits",
+    "fr": "farm-animal-biscuits",
+    "it": "farm-animal-biscuits",
+    "en": "organix-bio-farm-animal"
+  },
+  "type": "00",
+  "boss_number": "130212246235",
+  "description": {
+    "text": "<p>Farm Animal Biscuits sind toll, um etwas &uuml;ber Tiere zu lernen und jeden Tag zu spielen. Hergestellt aus Weizenvollkornmehl und gemischt mit Traubensaft - gibt es auch genug zum Teilen mit kleinen Freunden.</p><p>Ihr Kleines wird die lustigen Tierformen der Biscuits lieben! Jede T&uuml;te enth&auml;lt Kuhkekse, Schweinekekse und H&uuml;hnerkekse, damit Ihr Kleines lernt, wie man \"oinks\" und \"muh\" macht. Nur die besten nat&uuml;rlichen und biologischen Zutaten werden in allen Organix Snacks f&uuml;r Kleinkinder verwendet.</p>",
+    "source": "PEX"
+  },
+  "data_source": "SAP-X11",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03"
+  },
+  "tags": [
+    "source-pex",
+    "near-non-food",
+    "migipedia",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "8718285800018"
+  ],
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarket"
+  },
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "brand": {
+    "id": "V90",
+    "name": "Organix",
+    "slug": "organix"
+  },
+  "labels": [
+    {
+      "id": "L52",
+      "name": "Third-party organic food",
+      "slug": "third-party-organic-food"
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_01070103",
+      "name": "Dessert & Snacks",
+      "slug": "supermarkt/baby-kinder/babynahrung/dessert-snacks",
+      "visible": true,
+      "parent_code": "BeSS_010701",
+      "level": 4
+    },
+    {
+      "code": "BeSS_010701",
+      "name": "Babynahrung",
+      "slug": "supermarkt/baby-kinder/babynahrung",
+      "visible": true,
+      "title": "Babynahrung für jede Altersstufe – aus Ihrer Migros",
+      "parent_code": "BeSS_0107",
+      "image": {
+        "original": "https://image.migros.ch/original/ac6ff22beaa62c8e6ff4bdf9ed2ad3c5daa9d5dc/babynahrung.jpg",
+        "stack": "https://image.migros.ch/{stack}/ac6ff22beaa62c8e6ff4bdf9ed2ad3c5daa9d5dc/babynahrung.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0107",
+      "name": "Baby & Kinder",
+      "slug": "supermarkt/baby-kinder",
+      "visible": true,
+      "title": "Babyartikel: Alles rund ums Baby in Ihrer Migros kaufen",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/dc6e5e45f414e657061e049a69de80177f40ca98/baby-kinder.jpg",
+        "stack": "https://image.migros.ch/{stack}/dc6e5e45f414e657061e049a69de80177f40ca98/baby-kinder.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "online_relevant": [
+    {
+      "code": "MGB",
+      "name": "Migros Genossenschafts-Bund"
+    },
+    {
+      "code": "MO",
+      "name": "Migros Online"
+    }
+  ],
+  "galaxus_relevant": false,
+  "links": {
+    "migros_ch": {
+      "url": "https://www.migros.ch/en/product/521027700000?context=instore",
+      "name": "In-store assortment",
+      "canonical": "https://www.migros.ch/en/product/521027700000?context=instore",
+      "type": "info",
+      "purchasable": false
+    },
+    "migros_online": {
+      "url": "https://www.migros.ch/en/product/521027700000?context=online",
+      "mo_product_id": "6717991",
+      "name": "Online-shop assortment",
+      "canonical": "https://www.migros.ch/en/product/521027700000?context=instore",
+      "type": "shop",
+      "purchasable": true,
+      "one_catalog_id": 100028789
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/521027700000",
+      "name": "Migipedia",
+      "canonical": "https://www.migros.ch/en/product/521027700000?context=instore",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "m_check2": {
+    "carbon_footprint": {
+      "image": {
+        "original": "https://image.migros.ch/original/3647ce79a496ca6d707e072f7e3f61ecc313e54b.svg",
+        "stack": "https://image.migros.ch/{stack}/3647ce79a496ca6d707e072f7e3f61ecc313e54b.svg"
+      },
+      "ground_and_sea_cargo": {
+        "kg_co2": 3.5,
+        "kg_co2_range": "2 - 4.7 kg CO₂eq / kg",
+        "co2_in_car_km": 19,
+        "rating": 3,
+        "production_in_percent": 89.7,
+        "packaging_in_percent": 5,
+        "transport_in_percent": 5.3
+      }
+    }
+  },
+  "receipt_text": "Organix Bio Farm Ani",
+  "package": {
+    "content": 100,
+    "content_unit_code": "g",
+    "content_unit": "Gramm",
+    "net_weight": 0.1,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "brutto_weight": 0.126,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 0.88,
+    "brutto_volume_unit_code": "cdm",
+    "height": 14.6,
+    "length": 4.4,
+    "width": 13.7,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "100g"
+  },
+  "package_information": {
+    "tu": {
+      "gtins": [
+        "8718285000128"
+      ],
+      "brutto_weight": 0.63,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 4.578,
+      "brutto_volume_unit_code": "cdm",
+      "height": 15.1,
+      "length": 21.5,
+      "width": 14.1,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 5
+    },
+    "cu": {
+      "gtins": [
+        "8718285800018"
+      ],
+      "brutto_weight": 0.126,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.88,
+      "brutto_volume_unit_code": "cdm",
+      "height": 14.6,
+      "length": 4.4,
+      "width": 13.7,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "lu": {
+      "brutto_weight": 117.18,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 869.76,
+      "brutto_volume_unit_code": "cdm",
+      "height": 90.6,
+      "length": 120,
+      "width": 80,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 930
+    },
+    "lge": {
+      "number_of_base_units": 155
+    },
+    "kar": {
+      "number_of_base_units": 1
+    }
+  },
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "price": {
+    "valid_from": "2022-02-07T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 4.1,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "100g"
+    },
+    "base": {
+      "price": 4.1,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "features": [
+    {
+      "label_code": "miso_kategorie",
+      "label": "Category/theme",
+      "values": [
+        {
+          "value_code": "MISO_artikelart_snacks",
+          "value": "Snacks"
+        }
+      ],
+      "category_code": "MISO_CLA_BabyNahrung_BabyKinder_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "miso_alter",
+      "label": "Age",
+      "values": [
+        {
+          "value_code": "MISO_alter_baby_kinder_ab12_Monaten",
+          "value": "ab 12 Monaten"
+        }
+      ],
+      "category_code": "MISO_CLA_BabyNahrung_BabyKinder_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "miso_inhalt_gewicht",
+      "label": "Contents (weight)",
+      "values": [
+        {
+          "value_code": "NUMERIC_100",
+          "value": "100 g",
+          "numeric_value": 100
+        }
+      ],
+      "category_code": "MISO_CLA_BabyKinder_Alle",
+      "top_fact": false,
+      "unit_code": "g",
+      "unit": "Gramm",
+      "unit_symbol": "g",
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "MAPI_VEGETARIANISM",
+      "label": "Vegetarianism",
+      "values": [
+        {
+          "value_code": "MAPI_VEGETARIANISM_vegan",
+          "value": "Vegan"
+        }
+      ],
+      "category_code": "MAPI_VEGETARIANISM",
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/25cf8fb5001e37550fc45418a1acf96a43463479/organix-bio-farm-animal.jpg",
+    "stack": "https://image.migros.ch/{stack}/25cf8fb5001e37550fc45418a1acf96a43463479/organix-bio-farm-animal.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/1fd03bed4ae67bc4376beefecf3eed7fa8a93827/organix-bio-farm-animal.png",
+    "stack": "https://image.migros.ch/{stack}/1fd03bed4ae67bc4376beefecf3eed7fa8a93827/organix-bio-farm-animal.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_RETURNABLE",
+      "label": "Return",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "true",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MAPI_RETURNABLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_EXCLUDE_FROM_COMPARISON_ENGINES",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "false",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_EXCLUDE_FROM_COMPARISON_ENGINES",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Standard item"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "ZHKS"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUSTOMS_POSITION",
+      "values": [
+        {
+          "value": "1905.9082"
+        }
+      ],
+      "category_code": "MAPI_CUSTOMS_POSITION",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RISK_CLASS",
+      "values": [
+        {
+          "value_code": "1",
+          "value": "1 (high)"
+        }
+      ],
+      "category_code": "MAPI_RISK_CLASS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_QUALITY_CHECK",
+      "values": [
+        {
+          "value_code": "00",
+          "value": "No Quality Control"
+        }
+      ],
+      "category_code": "MAPI_QUALITY_CHECK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZHKS",
+          "value": "HKS Standardartikel"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "H",
+          "value": "HKS Standard"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "50493",
+          "value": "SNACKS"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LIFECYCLE",
+      "values": [
+        {
+          "value_code": "D",
+          "value": "Detailhandelsartikel"
+        }
+      ],
+      "category_code": "MAPI_LIFECYCLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_EXPORTABLE",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Yes",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MAPI_EXPORTABLE",
+      "top_fact": false
+    }
+  ],
+  "declarations": {
+    "declaration_number": "Q_1604593688165819",
+    "tags": [
+      "source-qim"
+    ],
+    "gtins": [
+      "8718285800018"
+    ],
+    "valid_from": "2023-04-30T00:00:00+0200",
+    "product_details": {
+      "regulated_description": "Cereal-based food for infants and toddlers",
+      "product_description": "Our scrummy little Farm Animal Biscuits are great for learning about animals and playing every day. Made with wholegrain wheat flour and mixed with grape juice - there are plenty for sharing with little friends too. Your little one will love the fun farm animal shapes of our toddler biscuits! Each sharing bag contains cow biscuits, pig biscuits and chicken biscuits to help your little one learn their oinks from their moos. We use only the best natural and organic ingredients in all our toddler snacks.",
+      "certification": "DE-ÖKO-003"
+    },
+    "distributor": {
+      "name": "Hero AG",
+      "address": "Karl Roth-Strasse 8, CH-5600 Lenzburg"
+    },
+    "general_information": [
+      {
+        "label": "Consumer storage instructions",
+        "values": [
+          "Once opened, close packaging tightly."
+        ]
+      }
+    ],
+    "ingredients_information": {
+      "ingredients_text": "Wholegrain WHEAT flour 31%, WHEAT flour 31%, Grape juice concentrate 27%, Sunflower oil 10%, Raising agent (sodium bicarbonate)* <1%, Thiamin (vitamin B1)* <1%. *Raising agent (sodium bicarbonate) and Thiamin (vitamin B1) have no organic certification. May contain traces of MILK and NUTS.",
+      "allergens_information": {
+        "trace_allergens_text": "May contain: Almonds, Hazelnuts",
+        "allergens": [
+          {
+            "code": "ALLG_GLUTEN",
+            "label": "Cereal grains containing gluten and its derivatives",
+            "contamination_code": "VORHANDEN",
+            "contamination_label": "contains"
+          },
+          {
+            "code": "ALLG_MILCH",
+            "label": "Milk and its derivatives",
+            "contamination_code": "VORHANDEN",
+            "contamination_label": "contains"
+          }
+        ]
+      }
+    },
+    "nutrition_facts": {
+      "reference_sizes": {
+        "standard": {
+          "base": {
+            "quantity": {
+              "value": "100 g",
+              "numeric_value": 100,
+              "unit": "g"
+            }
+          },
+          "nutrients": [
+            {
+              "code": "NUT_ENERGY",
+              "name": "Energy",
+              "operator": "~",
+              "pictogram_name": "Energy",
+              "category": "BIG9",
+              "quantity": {
+                "value": "1864 kJ",
+                "numeric_value": 1864,
+                "unit": "kJ",
+                "alternate": {
+                  "value": "441 kcal",
+                  "numeric_value": 441,
+                  "unit": "kcal"
+                }
+              }
+            },
+            {
+              "code": "NUT_FAT",
+              "name": "Fat",
+              "operator": "~",
+              "pictogram_name": "Fat",
+              "category": "BIG9",
+              "quantity": {
+                "value": "13 g",
+                "numeric_value": 13,
+                "unit": "g"
+              },
+              "rating": {
+                "value": 1,
+                "text": "medium",
+                "icon": {
+                  "original": "https://image.migros.ch/original/b84b389195e426a9e6b4cd66f2c79b1a049809da.svg",
+                  "stack": "https://image.migros.ch/{stack}/b84b389195e426a9e6b4cd66f2c79b1a049809da.svg"
+                },
+                "hex_color": "#e8a800"
+              }
+            },
+            {
+              "code": "NUT_SATURATED_FATTY_ACIDS",
+              "name": "of which saturates",
+              "operator": "~",
+              "pictogram_name": "saturated fatty acids",
+              "category": "BIG9",
+              "quantity": {
+                "value": "1.2 g",
+                "numeric_value": 1.2,
+                "unit": "g"
+              },
+              "rating": {
+                "value": 0,
+                "text": "low",
+                "icon": {
+                  "original": "https://image.migros.ch/original/a2b5e2562a4fedbbdec99c1932ec57c46c49cde4.svg",
+                  "stack": "https://image.migros.ch/{stack}/a2b5e2562a4fedbbdec99c1932ec57c46c49cde4.svg"
+                },
+                "hex_color": "#069800"
+              }
+            },
+            {
+              "code": "NUT_CARBOHYDRATES",
+              "name": "Carbohydrate",
+              "operator": "~",
+              "category": "BIG9",
+              "quantity": {
+                "value": "71 g",
+                "numeric_value": 71,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_SUGAR",
+              "name": "of which sugars",
+              "operator": "~",
+              "pictogram_name": "Sugar",
+              "category": "BIG9",
+              "quantity": {
+                "value": "18 g",
+                "numeric_value": 18,
+                "unit": "g"
+              },
+              "rating": {
+                "value": 1,
+                "text": "medium",
+                "icon": {
+                  "original": "https://image.migros.ch/original/b84b389195e426a9e6b4cd66f2c79b1a049809da.svg",
+                  "stack": "https://image.migros.ch/{stack}/b84b389195e426a9e6b4cd66f2c79b1a049809da.svg"
+                },
+                "hex_color": "#e8a800"
+              }
+            },
+            {
+              "code": "NUT_FIBER",
+              "name": "Fibre",
+              "operator": "~",
+              "category": "BIG9",
+              "quantity": {
+                "value": "3.9 g",
+                "numeric_value": 3.9,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_PROTEIN",
+              "name": "Protein",
+              "operator": "~",
+              "category": "BIG9",
+              "quantity": {
+                "value": "7.7 g",
+                "numeric_value": 7.7,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_SALT",
+              "name": "Salt",
+              "operator": "~",
+              "pictogram_name": "Salt",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0.42 g",
+                "numeric_value": 0.42,
+                "unit": "g"
+              },
+              "rating": {
+                "value": 1,
+                "text": "medium",
+                "icon": {
+                  "original": "https://image.migros.ch/original/b84b389195e426a9e6b4cd66f2c79b1a049809da.svg",
+                  "stack": "https://image.migros.ch/{stack}/b84b389195e426a9e6b4cd66f2c79b1a049809da.svg"
+                },
+                "hex_color": "#e8a800"
+              }
+            },
+            {
+              "code": "NUT_VITAMIN_B1",
+              "name": "Vitamin B1 (thiamin)",
+              "operator": "~",
+              "category": "VITAMINE",
+              "quantity": {
+                "value": "1.2 mg",
+                "numeric_value": 1.2,
+                "unit": "mg"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "regional_availability": {
+    "gmaa": {
+      "probability": 7
+    },
+    "gmbs": {
+      "probability": 2
+    },
+    "gmge": {
+      "probability": 5
+    },
+    "gmlu": {
+      "probability": 12
+    },
+    "gmnf": {
+      "probability": 6
+    },
+    "gmos": {
+      "probability": 9
+    },
+    "gmti": {
+      "probability": 3
+    },
+    "gmvd": {
+      "probability": 11
+    },
+    "gmvs": {
+      "probability": 15
+    },
+    "gmzh": {
+      "probability": 7
+    }
+  },
+  "ratings": {
+    "count_all": 4,
+    "average_all": 4.75
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "updated_at": "2023-08-17T12:02:36+0200",
+  "sap_created_at": "2021-06-10T00:00:00+0200",
+  "base_unit": "CU",
+  "origins": {
+    "producing_country": "Germany"
+  },
+  "views": [
+    "all",
+    "browse",
+    "browseallretailers"
+  ]
+}

@@ -1,0 +1,686 @@
+{
+  "id": "205045900000",
+  "language": "en",
+  "name": "M-Classic Joghurt Erdb./Heidelb./Himb.",
+  "names": {
+    "short_name": "M-Classic Joghurt Erdb./Heidelb./Himb."
+  },
+  "slug": "m-classic-joghurt-erdbheidelbhimb",
+  "slugs": {
+    "de": "m-classic-joghurt-erdbheidelbhimb",
+    "fr": "m-classic-yogourt-fraisemyrtiframb",
+    "it": "m-classic-yogurt-fragolamirtlamp",
+    "en": "m-classic-joghurt-erdbheidelbhimb"
+  },
+  "type": "00",
+  "boss_number": "030213300810",
+  "data_source": "SAP-X11",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "80"
+  },
+  "tags": [
+    "source-p4m",
+    "migipedia",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613269287247",
+    "7613404539071"
+  ],
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarket"
+  },
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "brand": {
+    "id": "068",
+    "name": "M-Classic",
+    "slug": "m-classic",
+    "links": {
+      "homepage": {
+        "url": "https://m-classic.migros.ch/de.html",
+        "name": "Homepage",
+        "type": "info",
+        "purchasable": false
+      }
+    }
+  },
+  "labels": [
+    {
+      "id": "L53",
+      "name": "Swissness",
+      "slug": "swissness",
+      "image": {
+        "original": "https://image.migros.ch/original/d771bba2f6b08ba42970ea0243c6f8c5a8832f15/swissness.jpg",
+        "stack": "https://image.migros.ch/{stack}/d771bba2f6b08ba42970ea0243c6f8c5a8832f15/swissness.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_01010402",
+      "name": "Joghurt & Joghurtdrinks",
+      "slug": "supermarkt/lebensmittel/milchprodukte-eier/joghurt-joghurtdrinks",
+      "visible": true,
+      "title": "&ndash; Joghurt von der Migros",
+      "parent_code": "BeSS_010104",
+      "image": {
+        "original": "https://image.migros.ch/original/610743d5f1be07b56877b6cdba741e28250f8ea3/joghurt-joghurtdrinks.jpg",
+        "stack": "https://image.migros.ch/{stack}/610743d5f1be07b56877b6cdba741e28250f8ea3/joghurt-joghurtdrinks.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010104",
+      "name": "Milchprodukte & Eier",
+      "slug": "supermarkt/lebensmittel/milchprodukte-eier",
+      "visible": true,
+      "title": "Milchprodukte und Eier –",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/6b1ea6c2d41c3ccb21bf05c8dc342f7f55d83deb/milchprodukte-eier.jpg",
+        "stack": "https://image.migros.ch/{stack}/6b1ea6c2d41c3ccb21bf05c8dc342f7f55d83deb/milchprodukte-eier.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/31702195ec9d38aecefe80349eb347f79d56c750/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/31702195ec9d38aecefe80349eb347f79d56c750/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "online_relevant": [
+    {
+      "code": "MGB",
+      "name": "Migros Genossenschafts-Bund"
+    },
+    {
+      "code": "MO",
+      "name": "Migros Online"
+    }
+  ],
+  "links": {
+    "migros_ch": {
+      "url": "https://www.migros.ch/en/product/205045900000?context=instore",
+      "name": "In-store assortment",
+      "canonical": "https://www.migros.ch/en/product/205045900000?context=instore",
+      "type": "info",
+      "purchasable": false
+    },
+    "migros_online": {
+      "url": "https://www.migros.ch/en/product/205045900000?context=online",
+      "mo_product_id": "220679",
+      "name": "Online-shop assortment",
+      "canonical": "https://www.migros.ch/en/product/205045900000?context=instore",
+      "type": "shop",
+      "purchasable": true,
+      "one_catalog_id": 100038407
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/205045900000",
+      "name": "Migipedia",
+      "canonical": "https://www.migros.ch/en/product/205045900000?context=instore",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "has_safety_sheet": false,
+  "m_check2": {
+    "carbon_footprint": {
+      "image": {
+        "original": "https://image.migros.ch/original/0a2093a1718156b317e9aac46d5c2589cfde38b7.svg",
+        "stack": "https://image.migros.ch/{stack}/0a2093a1718156b317e9aac46d5c2589cfde38b7.svg"
+      },
+      "ground_and_sea_cargo": {
+        "kg_co2": 1.248,
+        "kg_co2_range": "1 - 1.9 kg CO₂eq / kg",
+        "co2_in_car_km": 6,
+        "rating": 4,
+        "production_in_percent": 86,
+        "packaging_in_percent": 14,
+        "transport_in_percent": 1
+      }
+    },
+    "animal_welfare": {
+      "rating": 3,
+      "label": "Animal welfare",
+      "image": {
+        "original": "https://image.migros.ch/original/02f56762a6d67ea0470f50e5e8cc4d96d84791f0.svg",
+        "stack": "https://image.migros.ch/{stack}/02f56762a6d67ea0470f50e5e8cc4d96d84791f0.svg"
+      }
+    }
+  },
+  "receipt_text": "MClass Joghurt Frucht",
+  "package": {
+    "content": 750,
+    "content_unit_code": "g",
+    "content_unit": "Gram",
+    "net_weight": 0.75,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogram",
+    "type": "Package",
+    "portions_per_package": "1",
+    "precision": "exact",
+    "brutto_weight": 0.75,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 0.002,
+    "brutto_volume_unit_code": "m3",
+    "height": 6.6,
+    "length": 14.5,
+    "width": 21.9,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "6 x 125g"
+  },
+  "package_information": {
+    "tu": {
+      "gtins": [
+        "7613269287254"
+      ],
+      "brutto_weight": 2.25,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.012,
+      "brutto_volume_unit_code": "m3",
+      "height": 10,
+      "length": 40,
+      "width": 30,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 3
+    },
+    "cu": {
+      "gtins": [
+        "7613269287247",
+        "7613404539071"
+      ],
+      "brutto_weight": 0.75,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.002,
+      "brutto_volume_unit_code": "m3",
+      "height": 6.6,
+      "length": 14.5,
+      "width": 21.9,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "lu": {
+      "number_of_base_units": 360
+    }
+  },
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "price": {
+    "valid_from": "2023-02-21T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 2.3,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "6 x 125g"
+    },
+    "base": {
+      "price": 0.31,
+      "quantity": 100,
+      "unit": "G"
+    }
+  },
+  "features": [
+    {
+      "label_code": "acxMISOfettgehalt",
+      "label": "Fettgehalt",
+      "values": [
+        {
+          "value_code": "erxMISOfettgehalt3prozentfettimmilchanteil",
+          "value": "3.5% fat in milk"
+        }
+      ],
+      "category_code": "ecxMISOCLAjoghurtmilchbutterrahmkaeseeierersatzproduktelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOaromatisiert",
+      "label": "Aromatisiert",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Yes",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "ecxMISOCLAjoghurtmilchbutterrahmkaeseeierersatzproduktelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOcugebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "erxMISOcugebindeartbanderole",
+          "value": "Banderole"
+        },
+        {
+          "value_code": "erxMISOcugebindeartbecher",
+          "value": "Becher"
+        },
+        {
+          "value_code": "erxMISOcugebindeartdeckel",
+          "value": "Deckel"
+        }
+      ],
+      "category_code": "ecxMISOCLAjoghurtmilchbutterrahmkaeseeierersatzproduktelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOaromatisierung",
+      "label": "Aromatisierung",
+      "values": [
+        {
+          "value_code": "erxMISOaromatisierungerdbeer",
+          "value": "Erdbeere"
+        },
+        {
+          "value_code": "erxMISOaromatisierungheidelbeere",
+          "value": "Heidelbeere"
+        },
+        {
+          "value_code": "erxMISOaromatisierunghimbeeren",
+          "value": "Himbeere"
+        }
+      ],
+      "category_code": "ecxMISOCLAjoghurtmilchbutterrahmkaeseeierersatzproduktelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOzubereitungsverfahren",
+      "label": "Hinweise für die Zubereitung",
+      "values": [
+        {
+          "value_code": "erxMISOzubereitungsverfahrenverzehrfertig",
+          "value": "verzehrfertig"
+        }
+      ],
+      "category_code": "ecxMISOCLAjoghurtmilchbutterrahmkaeseeierersatzproduktelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOanzahlentnehmbarereinzelportionen",
+      "label": "Anzahl entnehmbarer Einzeleinheiten",
+      "values": [
+        {
+          "value_code": "NUMERIC_6",
+          "value": "6",
+          "numeric_value": 6
+        }
+      ],
+      "category_code": "ecxMISOCLAjoghurtmilchbutterrahmkaeseeierersatzproduktelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/07ba199e0c0d80d036d27cb5424a0d2ccaf71ddb/m-classic-joghurt-erdbheidelbhimb.jpg",
+    "stack": "https://image.migros.ch/{stack}/07ba199e0c0d80d036d27cb5424a0d2ccaf71ddb/m-classic-joghurt-erdbheidelbhimb.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/c73ce30da4af017651191f0abcdf97deab6242a5/m-classic-joghurt-erdbheidelbhimb.png",
+    "stack": "https://image.migros.ch/{stack}/c73ce30da4af017651191f0abcdf97deab6242a5/m-classic-joghurt-erdbheidelbhimb.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_RETURNABLE",
+      "label": "Return",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "true",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MAPI_RETURNABLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_EXPORTABLE",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_EXPORTABLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Normalposition"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZFRP",
+          "value": "Frische Beschaffung"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "ZFRP"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "70448",
+          "value": "YOGHURT 500G / MULTI"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LIFECYCLE",
+      "values": [
+        {
+          "value_code": "N",
+          "value": "Neuheit"
+        }
+      ],
+      "category_code": "MAPI_LIFECYCLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_STORAGE_CONDITIONS",
+      "values": [
+        {
+          "value_code": "02",
+          "value": "refrigerated"
+        }
+      ],
+      "category_code": "MAPI_STORAGE_CONDITIONS",
+      "top_fact": false
+    },
+    {
+      "label_code": "acxCommonarticlecocompensated",
+      "label": "Artikel Co2 kompensiert",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false
+    },
+    {
+      "label_code": "acxCommonmesswertcompensation",
+      "label": "CO2-Wert Kompensation",
+      "values": [
+        {
+          "value_code": "NUMERIC_1.248",
+          "value": "1.248",
+          "numeric_value": 1.248
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false,
+      "unit_code": "5d71456e-a520-4294-9ddb-add78f63ce83",
+      "unit": "Equivalence per kilogram",
+      "unit_symbol": "eq / kg"
+    },
+    {
+      "label_code": "acxCommonoutputmcheckclimatedeclaration",
+      "label": "Auslobung M-Check Klimadeklaration",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Yes",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false
+    }
+  ],
+  "declarations": {
+    "declaration_number": "Q_2121841432616910",
+    "tags": [
+      "source-qim"
+    ],
+    "gtins": [
+      "7613269287247"
+    ],
+    "valid_from": "2021-01-20T00:00:00+0100",
+    "product_details": {
+      "package": {
+        "type": "Package",
+        "number_of_portions": "1",
+        "number_of_portions_operator": "="
+      },
+      "net_filled_quantity": {
+        "value": "750 g",
+        "numeric_value": 750,
+        "unit": "g"
+      }
+    },
+    "general_information": [
+      {
+        "label": "Cooling information/storage information",
+        "values": [
+          "Store refrigerated at max. 5 °C."
+        ]
+      },
+      {
+        "label": "Production information",
+        "values": [
+          "from pasteurized skimmed milk and cream"
+        ]
+      }
+    ]
+  },
+  "recipe_ingredient_ids": [
+    "16884"
+  ],
+  "regional_availability": {
+    "gmaa": {
+      "probability": 64
+    },
+    "gmbs": {
+      "probability": 60
+    },
+    "gmge": {
+      "probability": 68
+    },
+    "gmlu": {
+      "probability": 54
+    },
+    "gmnf": {
+      "probability": 84
+    },
+    "gmos": {
+      "probability": 60
+    },
+    "gmti": {
+      "probability": 68
+    },
+    "gmvd": {
+      "probability": 88
+    },
+    "gmvs": {
+      "probability": 89
+    },
+    "gmzh": {
+      "probability": 59
+    }
+  },
+  "ratings": {
+    "count_all": 70,
+    "average_all": 4.565217391304
+  },
+  "related_products": {
+    "purchase_recommendations": {
+      "product_ids": [
+        "205046400000",
+        "205046500000",
+        "205203000000",
+        "205203300000",
+        "205046600000"
+      ]
+    }
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "updated_at": "2023-08-17T11:55:07+0200",
+  "sap_created_at": "2013-01-23T18:00:00+0100",
+  "online_shop_relevant": false,
+  "base_unit": "CU",
+  "co2_compensation": {
+    "kg_co2": 1.248,
+    "kg_co2_compensation": 1.248,
+    "is_compensated": false,
+    "mcheck_enabled": true
+  },
+  "origins": {},
+  "views": [
+    "all",
+    "browse",
+    "browseallretailers"
+  ]
+}

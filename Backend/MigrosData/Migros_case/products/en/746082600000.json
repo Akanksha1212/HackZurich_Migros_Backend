@@ -1,0 +1,727 @@
+{
+  "id": "746082600000",
+  "language": "en",
+  "name": "PLAYMOBIL 9268 BADEZIMMER",
+  "names": {
+    "short_name": "PLAYMOBIL 9268 BADEZIMMER"
+  },
+  "slug": "playmobil-9268-badezimmer",
+  "slugs": {
+    "de": "city-life-badezimmer-9268",
+    "fr": "city-life-salle-de-bain-avec-douche-a-litalienne-9268",
+    "it": "city-life-bagno-accessoriato-9268",
+    "en": "playmobil-9268-badezimmer"
+  },
+  "type": "00",
+  "boss_number": "130861400580",
+  "description": {
+    "text": "Ausgestattet mit Dusche, WC und Doppelwaschbecken sowie einem Fitnessrad. Die funktionierende Lichtsäule spendet angenehmes Licht (benötigt 1 x 1,5V-Micro-Batterie).",
+    "source": "PEX"
+  },
+  "data_source": "SAP-X12",
+  "status": {
+    "id": "currently-not-available",
+    "seasonal": false,
+    "pim_status": "88",
+    "distribution_center": [
+      {
+        "center_id": "1001",
+        "center_name": "Migros Verteilzentrum Neuendorf",
+        "status_code": "99",
+        "status_description": "blocked for Dispo"
+      }
+    ],
+    "description": "Currently with limited availability."
+  },
+  "tags": [
+    "source-pex",
+    "migipedia",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "4008789092687"
+  ],
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarket"
+  },
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": [
+        "P3"
+      ]
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "brand": {
+    "id": "MHL",
+    "name": "PLAYMOBIL®",
+    "slug": "playmobil",
+    "image": {
+      "original": "https://image.migros.ch/original/cb605e96b7eebbcd0b2c0835c4ed1355be750ad9/playmobil.jpg",
+      "stack": "https://image.migros.ch/{stack}/cb605e96b7eebbcd0b2c0835c4ed1355be750ad9/playmobil.jpg"
+    }
+  },
+  "categories": [
+    {
+      "code": "BeSS_01071208",
+      "name": "Puppen & Plüsch",
+      "slug": "supermarkt/baby-kinder/spielwaren/puppen-pluesch",
+      "visible": true,
+      "title": "Puppen und Zubehör preisgünstig bei der Migros",
+      "parent_code": "BeSS_010712",
+      "level": 4
+    },
+    {
+      "code": "BeSS_010712",
+      "name": "Spielwaren",
+      "slug": "supermarkt/baby-kinder/spielwaren",
+      "visible": true,
+      "title": "Daran haben Kinder Freude: Spielwaren aus der Migros",
+      "parent_code": "BeSS_0107",
+      "image": {
+        "original": "https://image.migros.ch/original/44a2aeebd38216c32a1d9bbfc94664e575d085c1/spielwaren.jpg",
+        "stack": "https://image.migros.ch/{stack}/44a2aeebd38216c32a1d9bbfc94664e575d085c1/spielwaren.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0107",
+      "name": "Baby & Kinder",
+      "slug": "supermarkt/baby-kinder",
+      "visible": true,
+      "title": "Babyartikel: Alles rund ums Baby in Ihrer Migros kaufen",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/dc6e5e45f414e657061e049a69de80177f40ca98/baby-kinder.jpg",
+        "stack": "https://image.migros.ch/{stack}/dc6e5e45f414e657061e049a69de80177f40ca98/baby-kinder.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "MEL_SHOP_CAT_Playmobil_Spielwaren_GamingSpielwaren",
+        "name": "Playmobil",
+        "slug": "melectronics/gaming-spielwaren/spielwaren/playmobil",
+        "visible": true,
+        "parent_code": "MEL_SHOP_CAT_Spielwaren_GamingSpielwaren",
+        "level": 4
+      },
+      {
+        "code": "MEL_SHOP_CAT_Spielwaren_GamingSpielwaren",
+        "name": "Spielwaren",
+        "slug": "melectronics/gaming-spielwaren/spielwaren",
+        "visible": true,
+        "parent_code": "MEL_SHOP_CAT_GamingSpielwaren",
+        "level": 3
+      },
+      {
+        "code": "MEL_SHOP_CAT_GamingSpielwaren",
+        "name": "Gaming & Spielwaren",
+        "slug": "melectronics/gaming-spielwaren",
+        "visible": true,
+        "parent_code": "BeSS_04",
+        "level": 2
+      },
+      {
+        "code": "BeSS_04",
+        "name": "melectronics",
+        "slug": "melectronics",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "online_relevant": [
+    {
+      "code": "MGB",
+      "name": "Migros Genossenschafts-Bund"
+    }
+  ],
+  "links": {
+    "migros_ch": {
+      "url": "https://www.migros.ch/en/product/746082600000?context=instore",
+      "name": "In-store assortment",
+      "canonical": "https://www.migros.ch/en/product/746082600000?context=instore",
+      "type": "info",
+      "purchasable": false
+    },
+    "migros_online": {
+      "url": "https://www.migros.ch/en/product/746082600000?context=online",
+      "mo_product_id": "3837462",
+      "name": "Online-shop assortment",
+      "canonical": "https://www.migros.ch/en/product/746082600000?context=instore",
+      "type": "shop",
+      "purchasable": true,
+      "one_catalog_id": 100029009
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/746082600000",
+      "name": "Migipedia",
+      "canonical": "https://www.migros.ch/en/product/746082600000?context=instore",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "warranty_months": 24,
+  "receipt_text": "Playmobil 9268",
+  "package": {
+    "content": 1,
+    "content_unit_code": "st",
+    "content_unit": "Stück",
+    "brutto_weight": 0.043,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 0.009,
+    "brutto_volume_unit_code": "m3",
+    "height": 18.7,
+    "length": 9.2,
+    "width": 24.8,
+    "unit_dimension": "cm",
+    "price_comparison_content": 1,
+    "size": "1 Stk."
+  },
+  "package_information": {
+    "cu": {
+      "gtins": [
+        "4008789092687"
+      ],
+      "brutto_weight": 0.043,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.009,
+      "brutto_volume_unit_code": "m3",
+      "height": 18.7,
+      "length": 9.2,
+      "width": 24.8,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "tuv": {
+      "brutto_weight": 1.44,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 18.278,
+      "brutto_volume_unit_code": "cdm",
+      "height": 26,
+      "length": 37,
+      "width": 19,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 4
+    },
+    "tue": {
+      "number_of_base_units": 4
+    },
+    "lu": {
+      "number_of_base_units": 288
+    },
+    "lge": {
+      "number_of_base_units": 48
+    }
+  },
+  "vat": {
+    "id": 1,
+    "percentage": 7.7
+  },
+  "price": {
+    "valid_from": "2018-09-26T00:00:00+0200",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 23.9,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "1 Stk."
+    },
+    "base": {
+      "price": 23.9,
+      "quantity": 1,
+      "unit": "st"
+    }
+  },
+  "features": [
+    {
+      "label_code": "mel_spielwaren_kategorie",
+      "label": "Themenwelt",
+      "values": [
+        {
+          "value_code": "MEL_spielwaren_thema_CityLife",
+          "value": "City Life"
+        }
+      ],
+      "category_code": "MEL_CLA_Playmobil_Spielwaren_Alle",
+      "top_fact": true,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "mel_spielwaren_warnhinweis",
+      "label": "Warnhinweis",
+      "values": [
+        {
+          "value_code": "MEL_spielwaren_hinweis_nicht_geeignet_fuer_kinder_unter_3_jahren",
+          "value": "Nicht geeignet für Kinder unter 3 Jahren"
+        }
+      ],
+      "category_code": "MEL_CLA_Spielwaren_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "mel_alter_von_j",
+      "label": "Alter ab (Jahren)",
+      "values": [
+        {
+          "value_code": "NUMERIC_4",
+          "value": "4",
+          "numeric_value": 4
+        }
+      ],
+      "category_code": "MEL_CLA_Spielwaren_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "mel_alter_bis_j",
+      "label": "Alter bis (Jahren)",
+      "values": [
+        {
+          "value_code": "NUMERIC_10",
+          "value": "10",
+          "numeric_value": 10
+        }
+      ],
+      "category_code": "MEL_CLA_Spielwaren_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "mel_batterieninkl.",
+      "label": "Batterien inkl.",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MEL_CLA_Spielwaren_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "mel_erforderliche_batterie",
+      "label": "Erforderliche Batterie",
+      "values": [
+        {
+          "value": "1 x 1,5V"
+        }
+      ],
+      "category_code": "MEL_CLA_Spielwaren_Alle",
+      "top_fact": true,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "mel_breite",
+      "label": "Breite",
+      "values": [
+        {
+          "value_code": "NUMERIC_9.2",
+          "value": "9.2 cm",
+          "numeric_value": 9.2
+        }
+      ],
+      "category_code": "MEL_CLA_Alle",
+      "top_fact": false,
+      "unit_code": "cm",
+      "unit": "Zentimeter",
+      "unit_symbol": "cm",
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "mel_hoehe",
+      "label": "Höhe",
+      "values": [
+        {
+          "value_code": "NUMERIC_18.7",
+          "value": "18.7 cm",
+          "numeric_value": 18.7
+        }
+      ],
+      "category_code": "MEL_CLA_Alle",
+      "top_fact": false,
+      "unit_code": "cm",
+      "unit": "Zentimeter",
+      "unit_symbol": "cm",
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "mel_tiefe",
+      "label": "Tiefe",
+      "values": [
+        {
+          "value_code": "NUMERIC_24.8",
+          "value": "24.8 cm",
+          "numeric_value": 24.8
+        }
+      ],
+      "category_code": "MEL_CLA_Alle",
+      "top_fact": false,
+      "unit_code": "cm",
+      "unit": "Zentimeter",
+      "unit_symbol": "cm",
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "mel_m-garantie_m-garantie",
+      "label": "M-Garantie",
+      "values": [
+        {
+          "value_code": "MEL_M-Garantie_2Jahre",
+          "value": "2 Jahre"
+        }
+      ],
+      "category_code": "MEL_CLA_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/93572e773c37e5ef3ea04cbb8b322bdc29de42b3/playmobil-9268-badezimmer.jpg",
+    "stack": "https://image.migros.ch/{stack}/93572e773c37e5ef3ea04cbb8b322bdc29de42b3/playmobil-9268-badezimmer.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/a311cc092c9a9dfc3cca8fedb935737e4c8ac634/playmobil-9268-badezimmer.png",
+    "stack": "https://image.migros.ch/{stack}/a311cc092c9a9dfc3cca8fedb935737e4c8ac634/playmobil-9268-badezimmer.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_RETURNABLE",
+      "label": "Return",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "true",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MAPI_RETURNABLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_MAX_ORDER_QUANTITY",
+      "values": [
+        {
+          "value_code": "NUMERIC_3",
+          "value": "3",
+          "numeric_value": 3
+        }
+      ],
+      "category_code": "MAPI_MAX_ORDER_QUANTITY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_EXCLUDE_FROM_COMPARISON_ENGINES",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "false",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_EXCLUDE_FROM_COMPARISON_ENGINES",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+      "values": [
+        {
+          "value_code": "55",
+          "value": "Versandart Paket"
+        }
+      ],
+      "category_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LOGISTIC_CLASS",
+      "values": [
+        {
+          "value_code": "1",
+          "value": "Lager"
+        }
+      ],
+      "category_code": "MAPI_LOGISTIC_CLASS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Standard item"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "HART"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRESENTATION",
+      "values": [
+        {
+          "value_code": "L",
+          "value": "liegend"
+        }
+      ],
+      "category_code": "MAPI_PRESENTATION",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RISK_CLASS",
+      "values": [
+        {
+          "value_code": "2",
+          "value": "2 (medium)"
+        }
+      ],
+      "category_code": "MAPI_RISK_CLASS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_QUALITY_CHECK",
+      "values": [
+        {
+          "value_code": "00",
+          "value": "No Quality Control"
+        }
+      ],
+      "category_code": "MAPI_QUALITY_CHECK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_KUBE_TUKA",
+      "values": [
+        {
+          "value_code": "BLANK",
+          "value": "KUBE und TUKA nicht zugelassen"
+        }
+      ],
+      "category_code": "MAPI_KUBE_TUKA",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HART",
+          "value": "Hartwaren Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "H",
+          "value": "Hartwaren"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "61241",
+          "value": "PLAYMOBIL"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_EXPORTABLE",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_EXPORTABLE",
+      "top_fact": false
+    }
+  ],
+  "regional_availability": {
+    "gmaa": {
+      "probability": 0
+    },
+    "gmbs": {
+      "probability": 0
+    },
+    "gmge": {
+      "probability": 0
+    },
+    "gmlu": {
+      "probability": 0
+    },
+    "gmnf": {
+      "probability": 0
+    },
+    "gmos": {
+      "probability": 0
+    },
+    "gmti": {
+      "probability": 0
+    },
+    "gmvd": {
+      "probability": 0
+    },
+    "gmvs": {
+      "probability": 0
+    },
+    "gmzh": {
+      "probability": 0
+    }
+  },
+  "quantity_on_stock": 0,
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "updated_at": "2023-08-17T12:05:49+0200",
+  "sap_created_at": "2017-03-13T00:00:00+0100",
+  "services": {
+    "logistics": [
+      {
+        "code": "MEL_LOGISTIK_FILIALE_POSTPAKET_GRATIS"
+      },
+      {
+        "code": "MEL_LOGISTIK_POSTPAKET_GRATIS"
+      }
+    ],
+    "others": []
+  },
+  "online_shop_relevant": true,
+  "base_unit": "CU",
+  "origins": {
+    "producing_country": "Germany"
+  },
+  "views": [
+    "all",
+    "browse",
+    "browseallretailers"
+  ]
+}

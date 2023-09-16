@@ -1,0 +1,973 @@
+{
+  "id": "104222900000",
+  "language": "en",
+  "name": "Kellogg's Special K Protein Berries",
+  "names": {
+    "short_name": "Kellogg's Special K Protein Berries"
+  },
+  "slug": "kelloggs-special-k-protein-berries",
+  "slugs": {
+    "de": "kelloggs-special-k-protein-berries",
+    "fr": "kelloggs-special-k-protein-berries",
+    "it": "kelloggs-special-k-protein-berries",
+    "en": "kelloggs-special-k-protein-berries"
+  },
+  "type": "00",
+  "boss_number": "010310523610",
+  "data_source": "SAP-X11",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03"
+  },
+  "tags": [
+    "source-p4m",
+    "migipedia",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "5053827204651"
+  ],
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarket"
+  },
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "brand": {
+    "id": "216",
+    "name": "Kellogg's",
+    "slug": "kelloggs",
+    "image": {
+      "original": "https://image.migros.ch/original/c4ae1cfb76d4a49dfa9de76943e56ee4878e564e/kelloggs.jpg",
+      "stack": "https://image.migros.ch/{stack}/c4ae1cfb76d4a49dfa9de76943e56ee4878e564e/kelloggs.jpg"
+    }
+  },
+  "categories": [
+    {
+      "code": "BeSS_01011202",
+      "name": "Cerealien",
+      "slug": "supermarkt/lebensmittel/mueesli-cerealien/cerealien",
+      "visible": true,
+      "title": "Cerealien aus der Migros: Gut in den Tag starten",
+      "parent_code": "BeSS_010112",
+      "image": {
+        "original": "https://image.migros.ch/original/1d6d92a5ff6b33ae1b06dcbbcf7f9807cc9f5974/cerealien.jpg",
+        "stack": "https://image.migros.ch/{stack}/1d6d92a5ff6b33ae1b06dcbbcf7f9807cc9f5974/cerealien.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010112",
+      "name": "Müesli & Cerealien",
+      "slug": "supermarkt/lebensmittel/mueesli-cerealien",
+      "visible": true,
+      "title": "Cerealien von der Migros &ndash; für einen guten Start in den Tag",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/94adab320c7d6778bba96c16ad7b18a493850519/mueesli-cerealien.jpg",
+        "stack": "https://image.migros.ch/{stack}/94adab320c7d6778bba96c16ad7b18a493850519/mueesli-cerealien.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/31702195ec9d38aecefe80349eb347f79d56c750/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/31702195ec9d38aecefe80349eb347f79d56c750/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "online_relevant": [
+    {
+      "code": "MGB",
+      "name": "Migros Genossenschafts-Bund"
+    },
+    {
+      "code": "MO",
+      "name": "Migros Online"
+    }
+  ],
+  "links": {
+    "migros_ch": {
+      "url": "https://www.migros.ch/en/product/104222900000?context=instore",
+      "name": "In-store assortment",
+      "canonical": "https://www.migros.ch/en/product/104222900000?context=instore",
+      "type": "info",
+      "purchasable": false
+    },
+    "migros_online": {
+      "url": "https://www.migros.ch/en/product/104222900000?context=online",
+      "mo_product_id": "6287801",
+      "name": "Online-shop assortment",
+      "canonical": "https://www.migros.ch/en/product/104222900000?context=instore",
+      "type": "shop",
+      "purchasable": true,
+      "one_catalog_id": 100049048
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/104222900000",
+      "name": "Migipedia",
+      "canonical": "https://www.migros.ch/en/product/104222900000?context=instore",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "has_safety_sheet": false,
+  "m_check2": {},
+  "receipt_text": "Kellogg's Spec. K Prot",
+  "package": {
+    "content": 320,
+    "content_unit_code": "g",
+    "content_unit": "Gram",
+    "net_weight": 0.32,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogram",
+    "portions_per_package": "10",
+    "brutto_weight": 0.376,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 2.326,
+    "brutto_volume_unit_code": "cdm",
+    "height": 24.1,
+    "length": 5,
+    "width": 19.3,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "320g"
+  },
+  "package_information": {
+    "tu": {
+      "gtins": [
+        "5053827204668"
+      ],
+      "brutto_weight": 2.39,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 14.781,
+      "brutto_volume_unit_code": "cdm",
+      "height": 24.8,
+      "length": 29.8,
+      "width": 20,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 6
+    },
+    "cu": {
+      "gtins": [
+        "5053827204651"
+      ],
+      "brutto_weight": 0.376,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 2.326,
+      "brutto_volume_unit_code": "cdm",
+      "height": 24.1,
+      "length": 5,
+      "width": 19.3,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "lu": {
+      "brutto_weight": 177.96,
+      "brutto_weight_unit_code": "kg",
+      "length": 120,
+      "width": 80,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 384
+    }
+  },
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "price": {
+    "valid_from": "2022-09-27T00:00:00+0200",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 5.5,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "320g"
+    },
+    "base": {
+      "price": 1.72,
+      "quantity": 100,
+      "unit": "G"
+    }
+  },
+  "features": [
+    {
+      "label_code": "acxMISOcugebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "erxMISOcugebindeartfaltschachtel",
+          "value": "Faltschachtel"
+        }
+      ],
+      "category_code": "ecxMISOCLAbearbeitetegetreideproduktegetreidehuelsenfruchtproduktelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/15a291eadc7351f4b71d347ae99c31af7ec4e73f/kelloggs-special-k-protein-berries.jpg",
+    "stack": "https://image.migros.ch/{stack}/15a291eadc7351f4b71d347ae99c31af7ec4e73f/kelloggs-special-k-protein-berries.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/767e3df55f53c44fdfe150935356149f1641b1c0/kelloggs-special-k-protein-berries.png",
+    "stack": "https://image.migros.ch/{stack}/767e3df55f53c44fdfe150935356149f1641b1c0/kelloggs-special-k-protein-berries.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_EXPORTABLE",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_EXPORTABLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Normalposition"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "HAWA"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "10319",
+          "value": "FITNESS/ADULTS"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LIFECYCLE",
+      "values": [
+        {
+          "value_code": "D",
+          "value": "Detailhandelsartikel"
+        }
+      ],
+      "category_code": "MAPI_LIFECYCLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_STORAGE_CONDITIONS",
+      "values": [
+        {
+          "value_code": "01",
+          "value": "normal"
+        }
+      ],
+      "category_code": "MAPI_STORAGE_CONDITIONS",
+      "top_fact": false
+    },
+    {
+      "label_code": "acxCommonarticlecocompensated",
+      "label": "Artikel Co2 kompensiert",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false
+    },
+    {
+      "label_code": "acxCommonmesswertcompensation",
+      "label": "CO2-Wert Kompensation",
+      "values": [
+        {
+          "value_code": "NUMERIC_0.603",
+          "value": "0.603",
+          "numeric_value": 0.603
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false,
+      "unit_code": "5d71456e-a520-4294-9ddb-add78f63ce83",
+      "unit": "Equivalence per kilogram",
+      "unit_symbol": "eq / kg"
+    },
+    {
+      "label_code": "acxCommonoutputmcheckclimatedeclaration",
+      "label": "Auslobung M-Check Klimadeklaration",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false
+    }
+  ],
+  "declarations": {
+    "declaration_number": "Q_1604593687779943",
+    "tags": [
+      "source-qim"
+    ],
+    "gtins": [
+      "5053827204651"
+    ],
+    "valid_from": "2022-08-23T00:00:00+0200",
+    "product_details": {
+      "regulated_description": "Multigrain and wheat flakes with an oat, rye and seed cluster and freeze dried berries.",
+      "package": {
+        "number_of_portions": "10"
+      },
+      "net_filled_quantity": {
+        "value": "320 g",
+        "numeric_value": 320,
+        "unit": "g"
+      }
+    },
+    "distributor": {
+      "name": "KELLOGG (Schweiz) GmbH",
+      "address": "KELLOGG (Schweiz) GmbH, Industriestrasse 15a, 6300 Zug"
+    },
+    "general_information": [
+      {
+        "label": "Consumer storage instructions",
+        "values": [
+          "Store in a dry place"
+        ]
+      }
+    ],
+    "ingredients_information": {
+      "ingredients_text": "Ingredients : Cereals(WHOLEWHEAT{35%}, Rice{21%}, WHEAT Bran{6%}, WHOLEMEAL Flour{5%}, BARLEY{3.5%}, Malted BARLEY Flour{1.5%}), Linseed and Sunflower Seed Cluster(17.5%)(Cereals{Whole OATS[7%], RYE[1.5%], WHEAT Flour[1.5%]}, Sugar, Protein Crisp (SOY Protein Isolate, Tapioca Starch, Calcium Carbonate, Salt), Rice Piece{Rice Flour, Corn Flour, Sugar}, Sunflower Seeds, Linseed, Modified Starch, BARLEY Malt Extract, Sunflower Oil, Emulsifier{SOY Lecithin}, Natural Flavourings, Sodium Hydrogen Carbonate, Ammonium Hydrogen Carbonate, Antioxidant{Tocopherol Rich Extract}, Skimmed MILK Powder), Sugar, Freeze Dried Fruit(3%)(Blackberry, Blueberry, Raspberry, Redcurrant), Glucose Syrup, BARLEY Malt Extract, Salt, Natural Flavouring.",
+      "allergens_information": {
+        "allergens": [
+          {
+            "code": "ALLG_MILCH",
+            "label": "Milk and its derivatives",
+            "contamination_code": "VORHANDEN",
+            "contamination_label": "contains"
+          },
+          {
+            "code": "ALLG_SOJA",
+            "label": "Soybean and its derivatives",
+            "contamination_code": "VORHANDEN",
+            "contamination_label": "contains"
+          },
+          {
+            "code": "ALLG_GLUTEN",
+            "label": "Cereal grains containing gluten and its derivatives",
+            "contamination_code": "VORHANDEN",
+            "contamination_label": "contains"
+          },
+          {
+            "code": "NR",
+            "label": "Rye and their derivatives",
+            "contamination_code": "VORHANDEN",
+            "contamination_label": "contains"
+          },
+          {
+            "code": "UW",
+            "label": "Wheat and their derivatives",
+            "contamination_code": "VORHANDEN",
+            "contamination_label": "contains"
+          },
+          {
+            "code": "GO",
+            "label": "Oats and oat products",
+            "contamination_code": "VORHANDEN",
+            "contamination_label": "contains"
+          },
+          {
+            "code": "GB",
+            "label": "Barley and barley products",
+            "contamination_code": "VORHANDEN",
+            "contamination_label": "contains"
+          }
+        ]
+      }
+    },
+    "nutrition_facts": {
+      "serving_description": "40g",
+      "reference_sizes": {
+        "standard": {
+          "base": {
+            "quantity": {
+              "value": "100 g",
+              "numeric_value": 100,
+              "unit": "g"
+            }
+          },
+          "nutrients": [
+            {
+              "code": "NUT_ENERGY",
+              "name": "Energy",
+              "operator": "=",
+              "pictogram_name": "Energy",
+              "category": "BIG9",
+              "quantity": {
+                "value": "1567 kJ",
+                "numeric_value": 1567,
+                "unit": "kJ",
+                "alternate": {
+                  "value": "371 kcal",
+                  "numeric_value": 371,
+                  "unit": "kcal"
+                }
+              }
+            },
+            {
+              "code": "NUT_FAT",
+              "name": "Fat",
+              "operator": "~",
+              "pictogram_name": "Fat",
+              "category": "BIG9",
+              "quantity": {
+                "value": "3.2 g",
+                "numeric_value": 3.2,
+                "unit": "g"
+              },
+              "rating": {
+                "value": 1,
+                "text": "medium",
+                "icon": {
+                  "original": "https://image.migros.ch/original/b84b389195e426a9e6b4cd66f2c79b1a049809da.svg",
+                  "stack": "https://image.migros.ch/{stack}/b84b389195e426a9e6b4cd66f2c79b1a049809da.svg"
+                },
+                "hex_color": "#e8a800"
+              }
+            },
+            {
+              "code": "NUT_SATURATED_FATTY_ACIDS",
+              "name": "of which saturates",
+              "operator": "~",
+              "pictogram_name": "saturated fatty acids",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0.5 g",
+                "numeric_value": 0.5,
+                "unit": "g"
+              },
+              "rating": {
+                "value": 0,
+                "text": "low",
+                "icon": {
+                  "original": "https://image.migros.ch/original/a2b5e2562a4fedbbdec99c1932ec57c46c49cde4.svg",
+                  "stack": "https://image.migros.ch/{stack}/a2b5e2562a4fedbbdec99c1932ec57c46c49cde4.svg"
+                },
+                "hex_color": "#069800"
+              }
+            },
+            {
+              "code": "NUT_CARBOHYDRATES",
+              "name": "Carbohydrate",
+              "operator": "~",
+              "category": "BIG9",
+              "quantity": {
+                "value": "69 g",
+                "numeric_value": 69,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_SUGAR",
+              "name": "of which sugars",
+              "operator": "~",
+              "pictogram_name": "Sugar",
+              "category": "BIG9",
+              "quantity": {
+                "value": "14 g",
+                "numeric_value": 14,
+                "unit": "g"
+              },
+              "rating": {
+                "value": 1,
+                "text": "medium",
+                "icon": {
+                  "original": "https://image.migros.ch/original/b84b389195e426a9e6b4cd66f2c79b1a049809da.svg",
+                  "stack": "https://image.migros.ch/{stack}/b84b389195e426a9e6b4cd66f2c79b1a049809da.svg"
+                },
+                "hex_color": "#e8a800"
+              }
+            },
+            {
+              "code": "NUT_FIBER",
+              "name": "Fibre",
+              "operator": "~",
+              "category": "BIG9",
+              "quantity": {
+                "value": "8.9 g",
+                "numeric_value": 8.9,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_PROTEIN",
+              "name": "Protein",
+              "operator": "~",
+              "category": "BIG9",
+              "quantity": {
+                "value": "12 g",
+                "numeric_value": 12,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_SALT",
+              "name": "Salt",
+              "operator": "~",
+              "pictogram_name": "Salt",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0.78 g",
+                "numeric_value": 0.78,
+                "unit": "g"
+              },
+              "rating": {
+                "value": 1,
+                "text": "medium",
+                "icon": {
+                  "original": "https://image.migros.ch/original/b84b389195e426a9e6b4cd66f2c79b1a049809da.svg",
+                  "stack": "https://image.migros.ch/{stack}/b84b389195e426a9e6b4cd66f2c79b1a049809da.svg"
+                },
+                "hex_color": "#e8a800"
+              }
+            },
+            {
+              "code": "NUT_VITAMIN_D",
+              "name": "Vitamin D",
+              "operator": "~",
+              "category": "VITAMINE",
+              "quantity": {
+                "value": "5.3 µg",
+                "numeric_value": 5.3,
+                "unit": "µg"
+              }
+            },
+            {
+              "code": "NUT_VITAMIN_B1",
+              "name": "Vitamin B1 (thiamin)",
+              "operator": "~",
+              "category": "VITAMINE",
+              "quantity": {
+                "value": "1.2 mg",
+                "numeric_value": 1.2,
+                "unit": "mg"
+              }
+            },
+            {
+              "code": "NUT_VITAMIN_B2",
+              "name": "Vitamin B2 (riboflavin)",
+              "operator": "~",
+              "category": "VITAMINE",
+              "quantity": {
+                "value": "1.5 mg",
+                "numeric_value": 1.5,
+                "unit": "mg"
+              }
+            },
+            {
+              "code": "NUT_NIACIN",
+              "name": "Niacin",
+              "operator": "~",
+              "category": "VITAMINE",
+              "quantity": {
+                "value": "10.6 mg",
+                "numeric_value": 10.6,
+                "unit": "mg"
+              }
+            },
+            {
+              "code": "NUT_VITAMIN_B6",
+              "name": "Vitamin B6",
+              "operator": "~",
+              "category": "VITAMINE",
+              "quantity": {
+                "value": "0.92 mg",
+                "numeric_value": 0.92,
+                "unit": "mg"
+              }
+            },
+            {
+              "code": "NUT_FOLIC_ACID",
+              "name": "folic acid / folate",
+              "operator": "~",
+              "category": "VITAMINE",
+              "quantity": {
+                "value": "266 µg",
+                "numeric_value": 266,
+                "unit": "µg"
+              }
+            },
+            {
+              "code": "NUT_VITAMIN_B12",
+              "name": "Vitamin B12",
+              "operator": "~",
+              "category": "VITAMINE",
+              "quantity": {
+                "value": "1.7 µg",
+                "numeric_value": 1.7,
+                "unit": "µg"
+              }
+            },
+            {
+              "code": "NUT_IRON",
+              "name": "Iron",
+              "operator": "~",
+              "category": "MINERALSTOFFE_SPURENELEMENTE",
+              "quantity": {
+                "value": "9.2 mg",
+                "numeric_value": 9.2,
+                "unit": "mg"
+              }
+            }
+          ]
+        },
+        "portion": {
+          "nutrients": [
+            {
+              "code": "NUT_FAT",
+              "name": "Fat",
+              "operator": "~",
+              "pictogram_name": "Fat",
+              "category": "BIG9",
+              "quantity": {
+                "value": "1.3 g",
+                "numeric_value": 1.3,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_SATURATED_FATTY_ACIDS",
+              "name": "of which saturates",
+              "operator": "~",
+              "pictogram_name": "saturated fatty acids",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0.2 g",
+                "numeric_value": 0.2,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_CARBOHYDRATES",
+              "name": "Carbohydrate",
+              "operator": "~",
+              "category": "BIG9",
+              "quantity": {
+                "value": "28 g",
+                "numeric_value": 28,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_SUGAR",
+              "name": "of which sugars",
+              "operator": "~",
+              "pictogram_name": "Sugar",
+              "category": "BIG9",
+              "quantity": {
+                "value": "5.6 g",
+                "numeric_value": 5.6,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_FIBER",
+              "name": "Fibre",
+              "operator": "~",
+              "category": "BIG9",
+              "quantity": {
+                "value": "3.6 g",
+                "numeric_value": 3.6,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_PROTEIN",
+              "name": "Protein",
+              "operator": "~",
+              "category": "BIG9",
+              "quantity": {
+                "value": "4.8 g",
+                "numeric_value": 4.8,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_SALT",
+              "name": "Salt",
+              "operator": "~",
+              "pictogram_name": "Salt",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0.31 g",
+                "numeric_value": 0.31,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_VITAMIN_B1",
+              "name": "Vitamin B1 (thiamin)",
+              "operator": "~",
+              "category": "VITAMINE",
+              "quantity": {
+                "value": "0.46 mg",
+                "numeric_value": 0.46,
+                "unit": "mg"
+              }
+            },
+            {
+              "code": "NUT_VITAMIN_B2",
+              "name": "Vitamin B2 (riboflavin)",
+              "operator": "~",
+              "category": "VITAMINE",
+              "quantity": {
+                "value": "0.59 mg",
+                "numeric_value": 0.59,
+                "unit": "mg"
+              }
+            },
+            {
+              "code": "NUT_NIACIN",
+              "name": "Niacin",
+              "operator": "~",
+              "category": "VITAMINE",
+              "quantity": {
+                "value": "4.2 mg",
+                "numeric_value": 4.2,
+                "unit": "mg"
+              }
+            },
+            {
+              "code": "NUT_FOLIC_ACID",
+              "name": "folic acid / folate",
+              "operator": "~",
+              "category": "VITAMINE",
+              "quantity": {
+                "value": "106 µg",
+                "numeric_value": 106,
+                "unit": "µg"
+              }
+            },
+            {
+              "code": "NUT_IRON",
+              "name": "Iron",
+              "operator": "~",
+              "category": "MINERALSTOFFE_SPURENELEMENTE",
+              "quantity": {
+                "value": "3.6 mg",
+                "numeric_value": 3.6,
+                "unit": "mg"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "recipe_ingredient_ids": [
+    "10000"
+  ],
+  "regional_availability": {
+    "gmaa": {
+      "probability": 86
+    },
+    "gmbs": {
+      "probability": 90
+    },
+    "gmge": {
+      "probability": 61
+    },
+    "gmlu": {
+      "probability": 88
+    },
+    "gmnf": {
+      "probability": 41
+    },
+    "gmos": {
+      "probability": 78
+    },
+    "gmti": {
+      "probability": 65
+    },
+    "gmvd": {
+      "probability": 46
+    },
+    "gmvs": {
+      "probability": 56
+    },
+    "gmzh": {
+      "probability": 81
+    }
+  },
+  "ratings": {
+    "count_all": 15,
+    "average_all": 3.6
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "updated_at": "2023-08-17T11:38:05+0200",
+  "sap_created_at": "2020-11-24T18:00:00+0100",
+  "online_shop_relevant": false,
+  "base_unit": "CU",
+  "co2_compensation": {
+    "kg_co2": 0.603,
+    "kg_co2_compensation": 0.603,
+    "is_compensated": false,
+    "mcheck_enabled": false
+  },
+  "origins": {
+    "producing_country": "European Union"
+  },
+  "views": [
+    "all",
+    "browse",
+    "browseallretailers"
+  ]
+}

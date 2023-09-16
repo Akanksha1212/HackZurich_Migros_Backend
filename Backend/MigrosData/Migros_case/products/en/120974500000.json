@@ -1,0 +1,543 @@
+{
+  "id": "120974500000",
+  "language": "en",
+  "name": "Coca-Cola Zero",
+  "names": {
+    "short_name": "Coca-Cola Zero"
+  },
+  "slug": "coca-cola-zero-120974500000",
+  "slugs": {
+    "de": "coca-cola-zero-120974500000",
+    "fr": "coca-cola-zero-120974500000",
+    "it": "coca-cola-zero-120974500000",
+    "en": "coca-cola-zero-120974500000"
+  },
+  "type": "00",
+  "boss_number": "010710371105",
+  "data_source": "SAP-X11",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03"
+  },
+  "tags": [
+    "source-p4m",
+    "migipedia",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "5449000134578",
+    "7617027778695"
+  ],
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarket"
+  },
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "brand": {
+    "id": "300",
+    "name": "Coca-Cola",
+    "slug": "coca-cola"
+  },
+  "labels": [
+    {
+      "id": "L76",
+      "name": "No added sugar",
+      "slug": "no-added-sugar"
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_01011005",
+      "name": "Süssgetränke",
+      "slug": "supermarkt/lebensmittel/getraenke-heiss-kalt/suessgetraenke",
+      "visible": true,
+      "title": "Erfrischend: Süssgetränke in der Migros kaufen",
+      "parent_code": "BeSS_010110",
+      "image": {
+        "original": "https://image.migros.ch/original/e126d969b959f7758cb0dbcb38e4ab04121bbfd6/suessgetraenke.jpg",
+        "stack": "https://image.migros.ch/{stack}/e126d969b959f7758cb0dbcb38e4ab04121bbfd6/suessgetraenke.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010110",
+      "name": "Getränke heiss & kalt",
+      "slug": "supermarkt/lebensmittel/getraenke-heiss-kalt",
+      "visible": true,
+      "title": "Getränke aus der Migros löschen auch Ihren Durst",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/d04d95fbc2e1b4ada4783d2976d37a962a0318a1/getraenke-heiss-kalt.jpg",
+        "stack": "https://image.migros.ch/{stack}/d04d95fbc2e1b4ada4783d2976d37a962a0318a1/getraenke-heiss-kalt.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/31702195ec9d38aecefe80349eb347f79d56c750/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/31702195ec9d38aecefe80349eb347f79d56c750/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "online_relevant": [
+    {
+      "code": "MGB",
+      "name": "Migros Genossenschafts-Bund"
+    },
+    {
+      "code": "MO",
+      "name": "Migros Online"
+    }
+  ],
+  "links": {
+    "migros_ch": {
+      "url": "https://www.migros.ch/en/product/120974500000?context=instore",
+      "name": "In-store assortment",
+      "canonical": "https://www.migros.ch/en/product/120974500000?context=instore",
+      "type": "info",
+      "purchasable": false
+    },
+    "migros_online": {
+      "url": "https://www.migros.ch/en/product/120974500000?context=online",
+      "mo_product_id": "69306",
+      "name": "Online-shop assortment",
+      "canonical": "https://www.migros.ch/en/product/120974500000?context=instore",
+      "type": "shop",
+      "purchasable": true,
+      "one_catalog_id": 100010728
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/120974500000",
+      "name": "Migipedia",
+      "canonical": "https://www.migros.ch/en/product/120974500000?context=instore",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "has_safety_sheet": false,
+  "m_check2": {},
+  "receipt_text": "Coca-Cola Zero 6x1.5L",
+  "package": {
+    "content": 9000,
+    "content_unit_code": "ml",
+    "content_unit": "Millilitre",
+    "net_weight": 9.6,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogram",
+    "type": "CU",
+    "portions_per_package": "1",
+    "brutto_weight": 9.6,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 17.49,
+    "brutto_volume_unit_code": "cdm",
+    "height": 32.3,
+    "length": 19,
+    "width": 28.5,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "6 x 1.5l"
+  },
+  "package_information": {
+    "tu": {
+      "gtins": [
+        "5000112567632"
+      ],
+      "brutto_weight": 9.43,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 17.345,
+      "brutto_volume_unit_code": "cdm",
+      "height": 32.2,
+      "length": 28.5,
+      "width": 18.9,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "cu": {
+      "gtins": [
+        "5449000134578",
+        "7617027778695"
+      ],
+      "brutto_weight": 9.6,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 17.49,
+      "brutto_volume_unit_code": "cdm",
+      "height": 32.3,
+      "length": 19,
+      "width": 28.5,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "lu": {
+      "brutto_weight": 716.2,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 1236.48,
+      "brutto_volume_unit_code": "cdm",
+      "height": 128.8,
+      "length": 120,
+      "width": 80,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 72
+    }
+  },
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "price": {
+    "valid_from": "2023-02-14T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 13.8,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "6 x 1.5l"
+    },
+    "base": {
+      "price": 0.15,
+      "quantity": 100,
+      "unit": "ML"
+    }
+  },
+  "image": {
+    "original": "https://image.migros.ch/original/2ac258277b2e432c84a07634296a690abb6298f6/coca-cola-zero.jpg",
+    "stack": "https://image.migros.ch/{stack}/2ac258277b2e432c84a07634296a690abb6298f6/coca-cola-zero.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/00ad24229f6f5d542946a2880eabadf665ff8d16/coca-cola-zero.png",
+    "stack": "https://image.migros.ch/{stack}/00ad24229f6f5d542946a2880eabadf665ff8d16/coca-cola-zero.png"
+  },
+  "additional_images": [
+    {
+      "original": "https://image.migros.ch/original/d05cd220c8488115efd625cdae66dfac7f66f17f.jpg",
+      "stack": "https://image.migros.ch/{stack}/d05cd220c8488115efd625cdae66dfac7f66f17f.jpg"
+    }
+  ],
+  "internal_features": [
+    {
+      "label_code": "MAPI_EXPORTABLE",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_EXPORTABLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Normalposition"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "HAWA"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "10712",
+          "value": "CAFFEINE/MILK SERUM"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LIFECYCLE",
+      "values": [
+        {
+          "value_code": "D",
+          "value": "Detailhandelsartikel"
+        }
+      ],
+      "category_code": "MAPI_LIFECYCLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_STORAGE_CONDITIONS",
+      "values": [
+        {
+          "value_code": "01",
+          "value": "normal"
+        }
+      ],
+      "category_code": "MAPI_STORAGE_CONDITIONS",
+      "top_fact": false
+    },
+    {
+      "label_code": "acxhealthNutritionalClaims",
+      "label": "Gesundheits und nährwertbezogene Auslobung",
+      "values": [
+        {
+          "value_code": "noAddedSugar",
+          "value": "No added sugar. Contains naturally occurring sugars."
+        }
+      ],
+      "category_code": "ecxMISOCLAalkoholfreiegetraenketrinkfertiggetraenkelebensmittelgetraenkealle",
+      "top_fact": false
+    },
+    {
+      "label_code": "acxCommonarticlecocompensated",
+      "label": "Artikel Co2 kompensiert",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false
+    },
+    {
+      "label_code": "acxCommonmesswertcompensation",
+      "label": "CO2-Wert Kompensation",
+      "values": [
+        {
+          "value_code": "NUMERIC_0.353",
+          "value": "0.353",
+          "numeric_value": 0.353
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false,
+      "unit_code": "5d71456e-a520-4294-9ddb-add78f63ce83",
+      "unit": "Equivalence per kilogram",
+      "unit_symbol": "eq / kg"
+    },
+    {
+      "label_code": "acxCommonoutputmcheckclimatedeclaration",
+      "label": "Auslobung M-Check Klimadeklaration",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "ecxCommonCLAklimadeklaration",
+      "top_fact": false
+    }
+  ],
+  "declarations": {
+    "declaration_number": "Q_2121841432603293",
+    "tags": [
+      "source-qim"
+    ],
+    "gtins": [
+      "5449000134578"
+    ],
+    "valid_from": "2023-04-30T00:00:00+0200"
+  },
+  "recipe_ingredient_ids": [
+    "10000"
+  ],
+  "regional_availability": {
+    "gmaa": {
+      "probability": 99
+    },
+    "gmbs": {
+      "probability": 98
+    },
+    "gmge": {
+      "probability": 89
+    },
+    "gmlu": {
+      "probability": 100
+    },
+    "gmnf": {
+      "probability": 98
+    },
+    "gmos": {
+      "probability": 97
+    },
+    "gmti": {
+      "probability": 100
+    },
+    "gmvd": {
+      "probability": 100
+    },
+    "gmvs": {
+      "probability": 100
+    },
+    "gmzh": {
+      "probability": 98
+    }
+  },
+  "ratings": {
+    "count_all": 91,
+    "average_all": 4.527472527473
+  },
+  "related_products": {
+    "purchase_recommendations": {
+      "product_ids": [
+        "120978500000",
+        "120978100000",
+        "120978400000",
+        "120978000000",
+        "120975300000"
+      ]
+    }
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "updated_at": "2023-08-17T11:47:37+0200",
+  "sap_created_at": "2008-08-14T19:00:00+0200",
+  "online_shop_relevant": false,
+  "base_unit": "CU",
+  "co2_compensation": {
+    "kg_co2": 0.353,
+    "kg_co2_compensation": 0.353,
+    "is_compensated": false,
+    "mcheck_enabled": false
+  },
+  "origins": {},
+  "views": [
+    "all",
+    "browse",
+    "browseallretailers"
+  ]
+}

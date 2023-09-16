@@ -1,0 +1,570 @@
+{
+  "id": "710601900003",
+  "language": "en",
+  "name": "APERO PLATE SMALL FISHDESIGN - TOI 23",
+  "names": {
+    "short_name": "APERO PLATE SMALL FISHDESIGN - TOI 23"
+  },
+  "slug": "apero-plate-small-fishdesign-toi-23",
+  "slugs": {
+    "de": "aperoteller-fisch-klein",
+    "fr": "assiette-dapero-piosson-petit",
+    "it": "piatto-apero-pesce-710601900003",
+    "en": "apero-plate-small-fishdesign-toi-23"
+  },
+  "type": "02",
+  "boss_number": "150522171005",
+  "data_source": "SAP-X12",
+  "status": {
+    "id": "liquidation",
+    "seasonal": true,
+    "pim_status": "04",
+    "distribution_center": [
+      {
+        "center_id": "1001",
+        "center_name": "Migros Verteilzentrum Neuendorf",
+        "status_code": "03",
+        "status_description": "active"
+      }
+    ],
+    "description": "For a limited time only. Seasonal item."
+  },
+  "tags": [
+    "source-pex",
+    "near-non-food",
+    "migipedia",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": true,
+  "base_product_id": "710601900000",
+  "gtins": [
+    "7628871198591"
+  ],
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarket"
+  },
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "brand": {
+    "id": "CS4",
+    "name": "MIGROS KITCHEN & CO.",
+    "slug": "migros-kitchen-co"
+  },
+  "categories": [
+    {
+      "code": "BeSS_0104",
+      "name": "Haushalt & Reinigung",
+      "slug": "supermarkt/haushalt-reinigung",
+      "visible": true,
+      "title": "Reinigung mit der Migros – Reiniger für Haushalt und Garten",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png",
+        "stack": "https://image.migros.ch/{stack}/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "links": {
+    "migros_ch": {
+      "url": "https://www.migros.ch/en/product/710601900003?context=instore",
+      "name": "In-store assortment",
+      "canonical": "https://www.migros.ch/en/product/710601900003?context=instore",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/710601900003",
+      "name": "Migipedia",
+      "canonical": "https://www.migros.ch/en/product/710601900003?context=instore",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "m_check2": {},
+  "receipt_text": "Aperoteller klein fisc",
+  "package": {
+    "content": 1,
+    "content_unit_code": "cu",
+    "net_weight": 0.17,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "brutto_weight": 0.23,
+    "brutto_weight_unit_code": "kg",
+    "height": 1.5,
+    "length": 15,
+    "width": 15,
+    "unit_dimension": "cm"
+  },
+  "package_information": {
+    "cu": {
+      "gtins": [
+        "7628871198591"
+      ],
+      "brutto_weight": 0.23,
+      "brutto_weight_unit_code": "kg",
+      "height": 1.5,
+      "length": 15,
+      "width": 15,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "tuv": {
+      "number_of_base_units": 8
+    },
+    "tue": {
+      "brutto_weight": 1.86,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.003,
+      "brutto_volume_unit_code": "m3",
+      "height": 11,
+      "length": 17,
+      "width": 17,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 8
+    },
+    "lu": {
+      "number_of_base_units": 1
+    }
+  },
+  "vat": {
+    "id": 1,
+    "percentage": 7.7
+  },
+  "price": {
+    "valid_from": "2022-11-09T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 5.95,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "1 piece"
+    }
+  },
+  "features": [
+    {
+      "label_code": "miso_laenge",
+      "label": "Length",
+      "values": [
+        {
+          "value_code": "NUMERIC_30.5",
+          "value": "30.5 cm",
+          "numeric_value": 30.5
+        }
+      ],
+      "category_code": "MISO_CLA_Tisch_Haushalt_Alle",
+      "top_fact": false,
+      "unit_code": "cm",
+      "unit": "Zentimeter",
+      "unit_symbol": "cm",
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "miso_breite",
+      "label": "Width",
+      "values": [
+        {
+          "value_code": "NUMERIC_13",
+          "value": "13 cm",
+          "numeric_value": 13
+        }
+      ],
+      "category_code": "MISO_CLA_Tisch_Haushalt_Alle",
+      "top_fact": false,
+      "unit_code": "cm",
+      "unit": "Zentimeter",
+      "unit_symbol": "cm",
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "miso_hoehe",
+      "label": "Height",
+      "values": [
+        {
+          "value_code": "NUMERIC_3.2",
+          "value": "3.2 cm",
+          "numeric_value": 3.2
+        }
+      ],
+      "category_code": "MISO_CLA_Tisch_Haushalt_Alle",
+      "top_fact": false,
+      "unit_code": "cm",
+      "unit": "Zentimeter",
+      "unit_symbol": "cm",
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "miso_farbe",
+      "label": "Color",
+      "values": [
+        {
+          "value_code": "MISO_farbe_beige",
+          "value": "beige"
+        }
+      ],
+      "category_code": "MISO_CLA_Tisch_Haushalt_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "miso_fuer_lebensmittel_geeignet",
+      "label": "suitable for food products",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Yes",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MISO_CLA_Tisch_Haushalt_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "miso_material",
+      "label": "Material",
+      "values": [
+        {
+          "value_code": "MISO_material_steinzeug",
+          "value": "Steinzeug"
+        }
+      ],
+      "category_code": "MISO_CLA_GeschirrGlasgeschirr_Tisch_Haushalt_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "miso_mikrowellentauglich",
+      "label": "Microwave-safe",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Yes",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MISO_CLA_GeschirrGlasgeschirr_Tisch_Haushalt_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "miso_spuelmaschinentauglich",
+      "label": "Dishwasher-safe",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Yes",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MISO_CLA_GeschirrGlasgeschirr_Tisch_Haushalt_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/a07f508aa36feaf1876717152186ba82eef17626/apero-plate-small-fishdesign-toi-23.jpg",
+    "stack": "https://image.migros.ch/{stack}/a07f508aa36feaf1876717152186ba82eef17626/apero-plate-small-fishdesign-toi-23.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/c78467a80f9060dc482a59fe8d1a370d4a7112e3/apero-plate-small-fishdesign-toi-23.png",
+    "stack": "https://image.migros.ch/{stack}/c78467a80f9060dc482a59fe8d1a370d4a7112e3/apero-plate-small-fishdesign-toi-23.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+      "values": [
+        {
+          "value_code": "55",
+          "value": "Versandart Paket"
+        }
+      ],
+      "category_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LOGISTIC_CLASS",
+      "values": [
+        {
+          "value_code": "1",
+          "value": "Lager"
+        }
+      ],
+      "category_code": "MAPI_LOGISTIC_CLASS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Standard item"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "HART"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUSTOMS_POSITION",
+      "values": [
+        {
+          "value": "69111000000"
+        }
+      ],
+      "category_code": "MAPI_CUSTOMS_POSITION",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RISK_CLASS",
+      "values": [
+        {
+          "value_code": "2",
+          "value": "2 (medium)"
+        }
+      ],
+      "category_code": "MAPI_RISK_CLASS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_QUALITY_CHECK",
+      "values": [
+        {
+          "value_code": "02",
+          "value": "FRI (Final Random Inspection)"
+        }
+      ],
+      "category_code": "MAPI_QUALITY_CHECK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_KUBE_TUKA",
+      "values": [
+        {
+          "value_code": "BLANK",
+          "value": "KUBE und TUKA nicht zugelassen"
+        }
+      ],
+      "category_code": "MAPI_KUBE_TUKA",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HART",
+          "value": "Hartwaren Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "H",
+          "value": "Hartwaren"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "58627",
+          "value": "GESCHIRR/GLASGESCHIRR"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_EXPORTABLE",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Yes",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MAPI_EXPORTABLE",
+      "top_fact": false
+    }
+  ],
+  "recipe_ingredient_ids": [
+    "10000"
+  ],
+  "regional_availability": {
+    "gmaa": {
+      "probability": 27
+    },
+    "gmbs": {
+      "probability": 12
+    },
+    "gmge": {
+      "probability": 8
+    },
+    "gmlu": {
+      "probability": 10
+    },
+    "gmnf": {
+      "probability": 12
+    },
+    "gmos": {
+      "probability": 18
+    },
+    "gmti": {
+      "probability": 13
+    },
+    "gmvd": {
+      "probability": 32
+    },
+    "gmvs": {
+      "probability": 7
+    },
+    "gmzh": {
+      "probability": 32
+    }
+  },
+  "related_products": {
+    "reference_recommendations": {
+      "product_ids": [
+        "710601900002",
+        "710601900001",
+        "710601900005"
+      ]
+    }
+  },
+  "quantity_on_stock": 128,
+  "reindex_date": "2023-09-04T00:00:00+0200",
+  "updated_at": "2023-08-17T07:45:09+0200",
+  "sap_created_at": "2022-09-20T00:00:00+0200",
+  "online_shop_relevant": true,
+  "base_unit": "CU",
+  "origins": {
+    "producing_country": "China"
+  },
+  "views": [
+    "all",
+    "browse",
+    "browseallretailers"
+  ]
+}

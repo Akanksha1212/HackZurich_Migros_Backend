@@ -1,0 +1,570 @@
+{
+  "id": "721543200000",
+  "language": "en",
+  "name": "PAP SAVING BANK PIGGY",
+  "names": {
+    "short_name": "PAP SAVING BANK PIGGY"
+  },
+  "slug": "pap-saving-bank-piggy",
+  "slugs": {
+    "de": "sparkaesseli-schwein",
+    "fr": "tirelire-721543200000",
+    "it": "salvadanaio-721543200000",
+    "en": "pap-saving-bank-piggy"
+  },
+  "type": "00",
+  "boss_number": "150626952025",
+  "description": {
+    "text": "Das Spark&auml;sseli aus Keramik zum Aufbewahren von M&uuml;nzen und Noten.",
+    "source": "PEX"
+  },
+  "data_source": "SAP-X12",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03",
+    "distribution_center": [
+      {
+        "center_id": "1001",
+        "center_name": "Migros Verteilzentrum Neuendorf",
+        "status_code": "06",
+        "status_description": "marked for deletion"
+      }
+    ]
+  },
+  "tags": [
+    "source-pex",
+    "near-non-food",
+    "migipedia",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7613433282740"
+  ],
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarket"
+  },
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "brand": {
+    "id": "N48",
+    "name": "Papeteria",
+    "slug": "papeteria",
+    "image": {
+      "original": "https://image.migros.ch/original/e8c5ecf1bb139080fc7261fdd6d8bf69b1a67523/papeteria.jpg",
+      "stack": "https://image.migros.ch/{stack}/e8c5ecf1bb139080fc7261fdd6d8bf69b1a67523/papeteria.jpg"
+    }
+  },
+  "categories": [
+    {
+      "code": "BeSS_01051408",
+      "name": "Diverses",
+      "slug": "supermarkt/papeterie-bueromaterial/schreiben-notieren/diverses",
+      "visible": true,
+      "parent_code": "BeSS_010514",
+      "level": 4
+    },
+    {
+      "code": "BeSS_010514",
+      "name": "Schreiben & Notieren",
+      "slug": "supermarkt/papeterie-bueromaterial/schreiben-notieren",
+      "visible": true,
+      "parent_code": "BeSS_0105",
+      "level": 3
+    },
+    {
+      "code": "BeSS_0105",
+      "name": "Papeterie & Büromaterial",
+      "slug": "supermarkt/papeterie-bueromaterial",
+      "visible": true,
+      "title": "Papeterie und Büromaterialien sind immer in Ihrer Migros zu finden",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/6b764b62482953963a5ab3263b9bd3a69cbf436a/papeterie-bueromaterial.jpg",
+        "stack": "https://image.migros.ch/{stack}/6b764b62482953963a5ab3263b9bd3a69cbf436a/papeterie-bueromaterial.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "online_relevant": [
+    {
+      "code": "MGB",
+      "name": "Migros Genossenschafts-Bund"
+    }
+  ],
+  "galaxus_relevant": false,
+  "links": {
+    "migros_ch": {
+      "url": "https://www.migros.ch/en/product/721543200000?context=instore",
+      "name": "In-store assortment",
+      "canonical": "https://www.migros.ch/en/product/721543200000?context=instore",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/721543200000",
+      "name": "Migipedia",
+      "canonical": "https://www.migros.ch/en/product/721543200000?context=instore",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "warranty_months": 24,
+  "receipt_text": "Sparkässeli Schwein",
+  "package": {
+    "content": 1,
+    "content_unit_code": "st",
+    "content_unit": "Stück",
+    "net_weight": 0.33,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "brutto_weight": 0.33,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 32.8,
+    "brutto_volume_unit_code": "ccm",
+    "height": 11.5,
+    "length": 14,
+    "width": 12,
+    "unit_dimension": "cm",
+    "price_comparison_content": 1,
+    "size": "1 Stk."
+  },
+  "package_information": {
+    "cu": {
+      "gtins": [
+        "7613433282740"
+      ],
+      "brutto_weight": 0.33,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 32.8,
+      "brutto_volume_unit_code": "ccm",
+      "height": 11.5,
+      "length": 14,
+      "width": 12,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "tuv": {
+      "brutto_weight": 1.4,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.418,
+      "brutto_volume_unit_code": "cdm",
+      "height": 20.5,
+      "length": 56,
+      "width": 21.5,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 2
+    },
+    "tue": {
+      "brutto_weight": 1.4,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.418,
+      "brutto_volume_unit_code": "cdm",
+      "height": 20.5,
+      "length": 56,
+      "width": 21.5,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 2
+    },
+    "lu": {
+      "number_of_base_units": 160
+    },
+    "lge": {
+      "number_of_base_units": 40
+    }
+  },
+  "vat": {
+    "id": 1,
+    "percentage": 7.7
+  },
+  "price": {
+    "valid_from": "2020-07-20T00:00:00+0200",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 9.95,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "1 Stk."
+    },
+    "base": {
+      "price": 9.95,
+      "quantity": 1,
+      "unit": "st"
+    }
+  },
+  "features": [
+    {
+      "label_code": "miso_anzahl",
+      "label": "Number",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1 Stk.",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MISO_CLA_Bueromaterial_Papeterie_Haushalt_Alle",
+      "top_fact": false,
+      "unit_code": "Stk.",
+      "unit": "Stück",
+      "unit_symbol": "Stk.",
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "miso_masse_groesse",
+      "label": "Dimensions/size",
+      "values": [
+        {
+          "value": "4x12x11.5cm"
+        }
+      ],
+      "category_code": "MISO_CLA_Bueromaterial_Papeterie_Haushalt_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "miso_farbe",
+      "label": "Color",
+      "values": [
+        {
+          "value_code": "MISO_farbe_blau",
+          "value": "blau"
+        },
+        {
+          "value_code": "MISO_farbe_rot",
+          "value": "rot"
+        }
+      ],
+      "category_code": "MISO_CLA_Bueromaterial_Papeterie_Haushalt_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/ba8036155ca849d819c1c018198e2d5ebf16e7df/pap-saving-bank-piggy.jpg",
+    "stack": "https://image.migros.ch/{stack}/ba8036155ca849d819c1c018198e2d5ebf16e7df/pap-saving-bank-piggy.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/3c719741d468fb7796290461786eeca9e5551273/pap-saving-bank-piggy.png",
+    "stack": "https://image.migros.ch/{stack}/3c719741d468fb7796290461786eeca9e5551273/pap-saving-bank-piggy.png"
+  },
+  "additional_images": [
+    {
+      "original": "https://image.migros.ch/original/968f0367bb865e26c2ceecb71acde9244f9f91d0.jpg",
+      "stack": "https://image.migros.ch/{stack}/968f0367bb865e26c2ceecb71acde9244f9f91d0.jpg"
+    },
+    {
+      "original": "https://image.migros.ch/original/fbfa24f1e1ff16c47ec00db2be55763e9d835593.jpg",
+      "stack": "https://image.migros.ch/{stack}/fbfa24f1e1ff16c47ec00db2be55763e9d835593.jpg"
+    }
+  ],
+  "internal_features": [
+    {
+      "label_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+      "values": [
+        {
+          "value_code": "55",
+          "value": "Versandart Paket"
+        }
+      ],
+      "category_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LOGISTIC_CLASS",
+      "values": [
+        {
+          "value_code": "1",
+          "value": "Lager"
+        }
+      ],
+      "category_code": "MAPI_LOGISTIC_CLASS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Standard item"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "HART"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUSTOMS_POSITION",
+      "values": [
+        {
+          "value": "69139000000"
+        }
+      ],
+      "category_code": "MAPI_CUSTOMS_POSITION",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRESENTATION",
+      "values": [
+        {
+          "value_code": "L",
+          "value": "liegend"
+        }
+      ],
+      "category_code": "MAPI_PRESENTATION",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RISK_CLASS",
+      "values": [
+        {
+          "value_code": "3",
+          "value": "3 (low)"
+        }
+      ],
+      "category_code": "MAPI_RISK_CLASS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_QUALITY_CHECK",
+      "values": [
+        {
+          "value_code": "02",
+          "value": "FRI (Final Random Inspection)"
+        }
+      ],
+      "category_code": "MAPI_QUALITY_CHECK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_KUBE_TUKA",
+      "values": [
+        {
+          "value_code": "BLANK",
+          "value": "KUBE und TUKA nicht zugelassen"
+        }
+      ],
+      "category_code": "MAPI_KUBE_TUKA",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HART",
+          "value": "Hartwaren Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "H",
+          "value": "Hartwaren"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "57899",
+          "value": "ORDNEN / AUFBEWAHRUNG"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_EXPORTABLE",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Yes",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MAPI_EXPORTABLE",
+      "top_fact": false
+    }
+  ],
+  "regional_availability": {
+    "gmaa": {
+      "probability": 0
+    },
+    "gmbs": {
+      "probability": 2
+    },
+    "gmge": {
+      "probability": 0
+    },
+    "gmlu": {
+      "probability": 3
+    },
+    "gmnf": {
+      "probability": 0
+    },
+    "gmos": {
+      "probability": 0
+    },
+    "gmti": {
+      "probability": 3
+    },
+    "gmvd": {
+      "probability": 2
+    },
+    "gmvs": {
+      "probability": 4
+    },
+    "gmzh": {
+      "probability": 0
+    }
+  },
+  "colors": [
+    {
+      "label": "rot",
+      "hex": "#FF0000",
+      "group": "Rot",
+      "group_hex": "#FF0000"
+    },
+    {
+      "label": "blau",
+      "hex": "#0000FF",
+      "group": "Blau",
+      "group_hex": "#0000FF"
+    }
+  ],
+  "ratings": {
+    "count_all": 2,
+    "average_all": 4
+  },
+  "quantity_on_stock": 1488,
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "updated_at": "2023-08-13T07:51:02+0200",
+  "sap_created_at": "2020-04-16T00:00:00+0200",
+  "base_unit": "CU",
+  "origins": {
+    "producing_country": "China"
+  },
+  "views": [
+    "all",
+    "browse",
+    "browseallretailers"
+  ]
+}

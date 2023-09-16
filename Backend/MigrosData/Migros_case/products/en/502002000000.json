@@ -1,0 +1,690 @@
+{
+  "id": "502002000000",
+  "language": "en",
+  "name": "MPLUS ADD WATER BAD",
+  "names": {
+    "short_name": "MPLUS ADD WATER BAD"
+  },
+  "slug": "mplus-add-water-bad",
+  "slugs": {
+    "de": "badreiniger-spray-502002000000",
+    "fr": "detergsalle-de-bain-502002000000",
+    "it": "detergente-p-bagno-502002000000",
+    "en": "mplus-add-water-bad"
+  },
+  "type": "00",
+  "boss_number": "150126803005",
+  "description": {
+    "text": "Wie wirkt Milchs&auml;ure? Die naturbasierte S&auml;ure eignet sich als umweltschonender Kalkl&ouml;ser. Ideal f&uuml;r die Reinigung von Kacheln, Badewannen, Lavabos und Armaturen. Frei von Mikroplastik und tierischen Bestandteilen. \n\nFlasche mit kaltem Leitungswasser langsam bis zur Markierung auff&uuml;llen (ca. 3 dl). Verschluss zudrehen, kurz sch&uuml;tteln und wie gewohnt anwenden: Fugen vor Gebrauch anfeuchten Fl&auml;che einspr&uuml;hen, 1-2 Minuten einwirken lassen und mit kaltem Wasser absp&uuml;len.\n\nAchtung: Konzentrat vor Gebrauch immer verd&uuml;nnen. Nicht eintrocknen lassen. Nicht geeignet f&uuml;r s&auml;ureempfindliche Materialen.\n\nMit dem Refill kann man das Original 2x nachf&uuml;llen.",
+    "source": "PEX"
+  },
+  "data_source": "SAP-X11",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03",
+    "distribution_center": [
+      {
+        "center_id": "1001",
+        "center_name": "Migros Verteilzentrum Neuendorf",
+        "status_description": "product.status.distribution_center."
+      },
+      {
+        "center_id": "1020",
+        "center_name": "Regionallager Basel",
+        "status_description": "product.status.distribution_center."
+      },
+      {
+        "center_id": "1150",
+        "center_name": "Regionallager Zürich",
+        "status_description": "product.status.distribution_center."
+      }
+    ]
+  },
+  "tags": [
+    "source-pex",
+    "near-non-food",
+    "migipedia",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7630028635286"
+  ],
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarket"
+  },
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "brand": {
+    "id": "127",
+    "name": "M-Plus",
+    "slug": "m-plus"
+  },
+  "categories": [
+    {
+      "code": "BeSS_0104010604",
+      "name": "Bad",
+      "slug": "supermarkt/haushalt-reinigung/waschen-reinigen-pflege/reinigungsmittel/bad",
+      "visible": true,
+      "parent_code": "BeSS_01040106",
+      "image": {
+        "original": "https://image.migros.ch/original/4c6377a9c87f2a539ba86bc70490e22e7aefd2c6/bad.jpg",
+        "stack": "https://image.migros.ch/{stack}/4c6377a9c87f2a539ba86bc70490e22e7aefd2c6/bad.jpg"
+      },
+      "level": 5
+    },
+    {
+      "code": "BeSS_01040106",
+      "name": "Reinigungsmittel",
+      "slug": "supermarkt/haushalt-reinigung/waschen-reinigen-pflege/reinigungsmittel",
+      "visible": true,
+      "title": "Putzmittel bei der Migros: Und alles glänzt!",
+      "parent_code": "BeSS_010401",
+      "image": {
+        "original": "https://image.migros.ch/original/8ae8cde85bbe4352f65f30c350b6bc7562eae30e/reinigungsmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/8ae8cde85bbe4352f65f30c350b6bc7562eae30e/reinigungsmittel.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010401",
+      "name": "Waschen, Reinigen & Pflege",
+      "slug": "supermarkt/haushalt-reinigung/waschen-reinigen-pflege",
+      "visible": true,
+      "parent_code": "BeSS_0104",
+      "image": {
+        "original": "https://image.migros.ch/original/37d8921589f88cd40b1c580b957a6a414e1fe1d1/waschen-reinigen-pflege.jpg",
+        "stack": "https://image.migros.ch/{stack}/37d8921589f88cd40b1c580b957a6a414e1fe1d1/waschen-reinigen-pflege.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0104",
+      "name": "Haushalt & Reinigung",
+      "slug": "supermarkt/haushalt-reinigung",
+      "visible": true,
+      "title": "Reinigung mit der Migros – Reiniger für Haushalt und Garten",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png",
+        "stack": "https://image.migros.ch/{stack}/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "online_relevant": [
+    {
+      "code": "MGB",
+      "name": "Migros Genossenschafts-Bund"
+    }
+  ],
+  "galaxus_relevant": false,
+  "links": {
+    "migros_ch": {
+      "url": "https://www.migros.ch/en/product/502002000000?context=instore",
+      "name": "In-store assortment",
+      "canonical": "https://www.migros.ch/en/product/502002000000?context=instore",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/502002000000",
+      "name": "Migipedia",
+      "canonical": "https://www.migros.ch/en/product/502002000000?context=instore",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "m_check2": {},
+  "receipt_text": "Add Water Bad",
+  "package": {
+    "content": 150,
+    "content_unit_code": "ml",
+    "content_unit": "Mililiter",
+    "net_weight": 0.503,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "brutto_weight": 0.553,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 1.413,
+    "brutto_volume_unit_code": "cdm",
+    "height": 21.4,
+    "length": 9.3,
+    "width": 7.1,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "150ml"
+  },
+  "package_information": {
+    "tu": {
+      "gtins": [
+        "7630028635279"
+      ],
+      "brutto_weight": 13.068,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 13.068,
+      "brutto_volume_unit_code": "cdm",
+      "height": 22.3,
+      "length": 29.3,
+      "width": 20,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 8
+    },
+    "cu": {
+      "gtins": [
+        "7630028635286"
+      ],
+      "brutto_weight": 0.553,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 1.413,
+      "brutto_volume_unit_code": "cdm",
+      "height": 21.4,
+      "length": 9.3,
+      "width": 7.1,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "lu": {
+      "brutto_weight": 472.744,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 1457.28,
+      "brutto_volume_unit_code": "cdm",
+      "height": 151.8,
+      "length": 120,
+      "width": 80,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 768
+    },
+    "lge": {
+      "number_of_base_units": 1
+    },
+    "kar": {
+      "number_of_base_units": 1
+    }
+  },
+  "vat": {
+    "id": 1,
+    "percentage": 7.7
+  },
+  "price": {
+    "valid_from": "2022-09-29T00:00:00+0200",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 4.1,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "150ml"
+    },
+    "base": {
+      "price": 0.82,
+      "quantity": 100,
+      "unit": "ML"
+    }
+  },
+  "features": [
+    {
+      "label_code": "miso_oeko_hinweis",
+      "label": "Environmental information",
+      "values": [
+        {
+          "value_code": "MISO_99prozent_biologisch_abbaubar",
+          "value": "99% biologisch abbaubar"
+        }
+      ],
+      "category_code": "MISO_CLA_WaschenPapierReinigen_Haushalt_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "miso_gefahrenhinweise",
+      "label": "Hazard warnings",
+      "values": [
+        {
+          "value": "Darf nicht in die Hände von Kindern gelangen."
+        }
+      ],
+      "category_code": "MISO_CLA_WaschenPapierReinigen_Haushalt_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "miso_anwendbarkeit_beschaffenheit_form",
+      "label": "Form",
+      "values": [
+        {
+          "value_code": "MISO_pumpspray",
+          "value": "Pumpspray"
+        }
+      ],
+      "category_code": "MISO_CLA_Reinigungsmittel_WaschenPapierReinigen_Haushalt_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "miso_geeignet_fuer",
+      "label": "Suitable for",
+      "values": [
+        {
+          "value_code": "MISO_bad",
+          "value": "Bad"
+        },
+        {
+          "value_code": "MISO_dusch_und_badewannen",
+          "value": "Dusch und Badewannen"
+        },
+        {
+          "value_code": "MISO_lavabo",
+          "value": "Lavabo"
+        }
+      ],
+      "category_code": "MISO_CLA_Reinigungsmittel_WaschenPapierReinigen_Haushalt_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "miso_nicht_geeignet_fuer",
+      "label": "Not suitable for",
+      "values": [
+        {
+          "value_code": "MISO_beschaedigte_poroese_oberflaechen",
+          "value": "Beschädigte, poröse Oberflächen"
+        },
+        {
+          "value_code": "MISO_empfindliche_oberflaechen",
+          "value": "Empfindliche Oberflächen"
+        },
+        {
+          "value_code": "MISO_marmor_und_andere_saeureempfindliche_materialien ",
+          "value": "Marmor und andere säureempfindliche Materialien"
+        }
+      ],
+      "category_code": "MISO_CLA_Reinigungsmittel_WaschenPapierReinigen_Haushalt_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "CHEMICALS_WARNING",
+      "label": "Warning",
+      "values": [
+        {
+          "value": "Always read label and product information before use."
+        }
+      ],
+      "category_code": "CHEMICALS_WARNING",
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/cdcc925181ffbecf148dbb0d8f51b79bc07a389e/mplus-add-water-bad.jpg",
+    "stack": "https://image.migros.ch/{stack}/cdcc925181ffbecf148dbb0d8f51b79bc07a389e/mplus-add-water-bad.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/bab2d15e40c8ee4f21ae8e444503272e848b5f8c/mplus-add-water-bad.png",
+    "stack": "https://image.migros.ch/{stack}/bab2d15e40c8ee4f21ae8e444503272e848b5f8c/mplus-add-water-bad.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Standard item"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "ZHKS"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RISK_CLASS",
+      "values": [
+        {
+          "value_code": "3",
+          "value": "3 (low)"
+        }
+      ],
+      "category_code": "MAPI_RISK_CLASS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_QUALITY_CHECK",
+      "values": [
+        {
+          "value_code": "00",
+          "value": "No Quality Control"
+        }
+      ],
+      "category_code": "MAPI_QUALITY_CHECK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZHKS",
+          "value": "HKS Standardartikel"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "H",
+          "value": "HKS Standard"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "50310",
+          "value": "BAD"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LIFECYCLE",
+      "values": [
+        {
+          "value_code": "D",
+          "value": "Detailhandelsartikel"
+        }
+      ],
+      "category_code": "MAPI_LIFECYCLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_EXPORTABLE",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_EXPORTABLE",
+      "top_fact": false
+    }
+  ],
+  "chemicals_declaration": {
+    "release_date": "2023-02-28T15:05:25+0100",
+    "supplier_id": "0003810000",
+    "hazard_statements": [
+      {
+        "code": "H290",
+        "label": "May be corrosive to metals."
+      },
+      {
+        "code": "H315",
+        "label": "Causes skin irritation."
+      },
+      {
+        "code": "H318",
+        "label": "Causes serious eye damage."
+      }
+    ],
+    "precautionary_statements": [
+      {
+        "code": "P101",
+        "label": "If medical advice is needed, have product container or label at hand."
+      },
+      {
+        "code": "P102",
+        "label": "Keep out of reach of children."
+      },
+      {
+        "code": "P280",
+        "label": "Wear protective gloves / protective clothing / eye protection / face protection."
+      },
+      {
+        "code": "P305_351_338",
+        "label": "IF IN EYES: Rinse cautiously with water for several minutes. Remove contact lenses, if present and easy to do. Continue rinsing."
+      },
+      {
+        "code": "P310",
+        "label": "Immediately call a POISON CENTER or doctor/physician."
+      },
+      {
+        "code": "P234",
+        "label": "Keep only in original container."
+      }
+    ],
+    "eu_hazard_statements": [
+      {
+        "code": "EUH071",
+        "label": "Corrosive to the respiratory tract."
+      }
+    ],
+    "storage_class": {
+      "code": "LK8B",
+      "label": "8B Non-flammable corrosive materials"
+    },
+    "tunnel_restriction": {
+      "code": "TK_E",
+      "label": "E"
+    },
+    "transport_category": {
+      "code": "BK3",
+      "label": "3"
+    },
+    "hazard_classes": [
+      {
+        "code": "GK12",
+        "label": "Class 8 Corrosive substances"
+      }
+    ],
+    "un_number": {
+      "code": "UN3265",
+      "label": "UN 3265"
+    },
+    "signal_word": {
+      "code": "SW01",
+      "label": "Danger"
+    },
+    "cpid_number": "874913-82",
+    "poison_cabinet": false,
+    "packaging_exceeds_limited_quantity": false,
+    "chemical_quantity_limit": 0,
+    "hazard_pictograms": [
+      {
+        "code": "GHS05",
+        "description": "corrosivity",
+        "original": "https://image.migros.ch/original/b9b6d67492a097fcc99d628551e84904ab689e51/GHS05.jpg",
+        "stack": "https://image.migros.ch/{stack}/b9b6d67492a097fcc99d628551e84904ab689e51/GHS05.jpg"
+      }
+    ],
+    "extra_cleaning_agents": [
+      {
+        "group": {
+          "code": "RMW04",
+          "label": "fragrances"
+        }
+      },
+      {
+        "group": {
+          "code": "RMW02",
+          "label": "preservatives"
+        }
+      },
+      {
+        "group": {
+          "code": "RMW08",
+          "label": "other ingredients"
+        },
+        "name": "Tenside"
+      }
+    ],
+    "declaration_required_ingredients": [
+      {
+        "name": "Deceth-8, Lactic acid",
+        "cas_number": "50-21-5"
+      }
+    ]
+  },
+  "regional_availability": {
+    "gmaa": {
+      "probability": 33
+    },
+    "gmbs": {
+      "probability": 12
+    },
+    "gmge": {
+      "probability": 55
+    },
+    "gmlu": {
+      "probability": 28
+    },
+    "gmnf": {
+      "probability": 98
+    },
+    "gmos": {
+      "probability": 31
+    },
+    "gmti": {
+      "probability": 19
+    },
+    "gmvd": {
+      "probability": 61
+    },
+    "gmvs": {
+      "probability": 52
+    },
+    "gmzh": {
+      "probability": 31
+    }
+  },
+  "ratings": {
+    "count_all": 11,
+    "average_all": 4.454545454545
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "updated_at": "2023-08-13T07:41:56+0200",
+  "sap_created_at": "2022-09-28T00:00:00+0200",
+  "base_unit": "CU",
+  "views": [
+    "all",
+    "browse",
+    "browseallretailers"
+  ]
+}

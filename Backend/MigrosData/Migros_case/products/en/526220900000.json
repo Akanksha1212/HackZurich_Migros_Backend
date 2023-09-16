@@ -1,0 +1,658 @@
+{
+  "id": "526220900000",
+  "language": "en",
+  "name": "Sensitive Toilettenpapier",
+  "names": {
+    "short_name": "Sensitive Toilettenpapier"
+  },
+  "slug": "sensitive-toilettenpapier",
+  "slugs": {
+    "de": "sensitive-toilettenpapier",
+    "fr": "sensitive-papier-hygienique",
+    "it": "sensitive-carta-igienica",
+    "en": "sensitive-toilettenpapier"
+  },
+  "type": "00",
+  "boss_number": "150126812010",
+  "description": {
+    "text": "extra weich und extra sicher- der kleine Luxus f&uuml;r den sanften Alltag",
+    "source": "PEX"
+  },
+  "data_source": "SAP-X11",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03",
+    "distribution_center": [
+      {
+        "center_id": "1000",
+        "center_name": "Migros Verteilzentrum Suhr",
+        "status_description": "product.status.distribution_center."
+      },
+      {
+        "center_id": "1001",
+        "center_name": "Migros Verteilzentrum Neuendorf",
+        "status_description": "product.status.distribution_center."
+      },
+      {
+        "center_id": "1020",
+        "center_name": "Regionallager Basel",
+        "status_description": "product.status.distribution_center."
+      },
+      {
+        "center_id": "1030",
+        "center_name": "Regionallager Aare",
+        "status_description": "product.status.distribution_center."
+      },
+      {
+        "center_id": "1040",
+        "center_name": "Entrepôt régional Genève",
+        "status_description": "product.status.distribution_center."
+      },
+      {
+        "center_id": "1060",
+        "center_name": "Entrepôt régional Vaud",
+        "status_description": "product.status.distribution_center."
+      },
+      {
+        "center_id": "1070",
+        "center_name": "Regionallager Luzern",
+        "status_description": "product.status.distribution_center."
+      },
+      {
+        "center_id": "1080",
+        "center_name": "Entrepôt régional Neuchâtel /",
+        "status_description": "product.status.distribution_center."
+      },
+      {
+        "center_id": "1090",
+        "center_name": "Regionallager Ostschweiz",
+        "status_description": "product.status.distribution_center."
+      },
+      {
+        "center_id": "1120",
+        "center_name": "Magazzino regionale Ticino",
+        "status_description": "product.status.distribution_center."
+      },
+      {
+        "center_id": "1130",
+        "center_name": "Entrepôt régional Valais",
+        "status_description": "product.status.distribution_center."
+      },
+      {
+        "center_id": "1150",
+        "center_name": "Regionallager Zürich",
+        "status_description": "product.status.distribution_center."
+      }
+    ]
+  },
+  "tags": [
+    "source-pex",
+    "near-non-food",
+    "migipedia",
+    "migrolino-data",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "8013670421077"
+  ],
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarket"
+  },
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "brand": {
+    "id": "173",
+    "name": "Soft",
+    "slug": "soft"
+  },
+  "labels": [
+    {
+      "id": "L09",
+      "name": "FSC",
+      "slug": "fsc"
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_01040202",
+      "name": "Toilettenpapier",
+      "slug": "supermarkt/haushalt-reinigung/haushaltpapier-toilettenpapier/toilettenpapier",
+      "visible": true,
+      "title": "Eine saubere Sache: Toilettenpapier bei der Migros",
+      "parent_code": "BeSS_010402",
+      "image": {
+        "original": "https://image.migros.ch/original/bfa91b30d0179a0c9425249a956fbc0563271acd/toilettenpapier.jpg",
+        "stack": "https://image.migros.ch/{stack}/bfa91b30d0179a0c9425249a956fbc0563271acd/toilettenpapier.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010402",
+      "name": "Haushaltpapier & Toilettenpapier",
+      "slug": "supermarkt/haushalt-reinigung/haushaltpapier-toilettenpapier",
+      "visible": true,
+      "parent_code": "BeSS_0104",
+      "image": {
+        "original": "https://image.migros.ch/original/97a132edb8daff468e6a8cc9700b9d9b80ee4bfb/haushaltpapier-toilettenpapier.jpg",
+        "stack": "https://image.migros.ch/{stack}/97a132edb8daff468e6a8cc9700b9d9b80ee4bfb/haushaltpapier-toilettenpapier.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0104",
+      "name": "Haushalt & Reinigung",
+      "slug": "supermarkt/haushalt-reinigung",
+      "visible": true,
+      "title": "Reinigung mit der Migros – Reiniger für Haushalt und Garten",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png",
+        "stack": "https://image.migros.ch/{stack}/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "online_relevant": [
+    {
+      "code": "MGB",
+      "name": "Migros Genossenschafts-Bund"
+    },
+    {
+      "code": "MO",
+      "name": "Migros Online"
+    }
+  ],
+  "galaxus_relevant": false,
+  "links": {
+    "migros_ch": {
+      "url": "https://www.migros.ch/en/product/526220900000?context=instore",
+      "name": "In-store assortment",
+      "canonical": "https://www.migros.ch/en/product/526220900000?context=instore",
+      "type": "info",
+      "purchasable": false
+    },
+    "migros_online": {
+      "url": "https://www.migros.ch/en/product/526220900000?context=online",
+      "mo_product_id": "218242",
+      "name": "Online-shop assortment",
+      "canonical": "https://www.migros.ch/en/product/526220900000?context=instore",
+      "type": "shop",
+      "purchasable": true,
+      "one_catalog_id": 100036528
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/526220900000",
+      "name": "Migipedia",
+      "canonical": "https://www.migros.ch/en/product/526220900000?context=instore",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "m_check2": {
+    "carbon_footprint": {
+      "image": {
+        "original": "https://image.migros.ch/original/0a2093a1718156b317e9aac46d5c2589cfde38b7.svg",
+        "stack": "https://image.migros.ch/{stack}/0a2093a1718156b317e9aac46d5c2589cfde38b7.svg"
+      },
+      "ground_and_sea_cargo": {
+        "kg_co2": 1.81,
+        "kg_co2_range": "1 - 1.9 kg CO₂eq / kg",
+        "co2_in_car_km": 10,
+        "rating": 4,
+        "production_in_percent": 85,
+        "packaging_in_percent": 9,
+        "transport_in_percent": 6
+      }
+    }
+  },
+  "receipt_text": "Soft Deluxe Sensitive",
+  "package": {
+    "content": 6,
+    "content_unit_code": "st",
+    "content_unit": "Stück",
+    "net_weight": 0.79,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "brutto_weight": 0.856,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 10.14,
+    "brutto_volume_unit_code": "cdm",
+    "height": 20,
+    "length": 13,
+    "width": 39,
+    "unit_dimension": "cm",
+    "price_comparison_content": 1,
+    "size": "6 Stk."
+  },
+  "package_information": {
+    "tu": {
+      "gtins": [
+        "58013670921077"
+      ],
+      "brutto_weight": 5.2,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 50.16,
+      "brutto_volume_unit_code": "cdm",
+      "height": 20,
+      "length": 76,
+      "width": 33,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 6
+    },
+    "cu": {
+      "gtins": [
+        "8013670421077"
+      ],
+      "brutto_weight": 0.856,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 10.14,
+      "brutto_volume_unit_code": "cdm",
+      "height": 20,
+      "length": 13,
+      "width": 39,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "lu": {
+      "height": 140,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 108
+    },
+    "lge": {
+      "number_of_base_units": 18
+    },
+    "kar": {
+      "number_of_base_units": 1
+    }
+  },
+  "vat": {
+    "id": 1,
+    "percentage": 7.7
+  },
+  "price": {
+    "valid_from": "2023-01-24T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 5.75,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "6 Stk."
+    },
+    "base": {
+      "price": 0.96,
+      "quantity": 1,
+      "unit": "ST"
+    }
+  },
+  "features": [
+    {
+      "label_code": "miso_anzahl_lagen",
+      "label": "Number of layers",
+      "values": [
+        {
+          "value_code": "NUMERIC_5",
+          "value": "5",
+          "numeric_value": 5
+        }
+      ],
+      "category_code": "MISO_CLA_ToilettenHaushaltpapier_WaschenPapierReinigen_Haushalt_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "miso_anzahl_blaetter_pro_rolle",
+      "label": "Number of sheets/roll",
+      "values": [
+        {
+          "value_code": "NUMERIC_129",
+          "value": "129 Blatt",
+          "numeric_value": 129
+        }
+      ],
+      "category_code": "MISO_CLA_ToilettenHaushaltpapier_WaschenPapierReinigen_Haushalt_Alle",
+      "top_fact": false,
+      "unit_code": "blatt",
+      "unit": "Blatt",
+      "unit_symbol": "Blatt",
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "miso_produktmehrwert",
+      "label": "Product added value",
+      "values": [
+        {
+          "value_code": "MISO_hautvertraeglichkeit_dermatologisch_bestaetigt",
+          "value": "Hautverträglichkeit dermatologisch bestätigt"
+        },
+        {
+          "value_code": "MISO_mit_pflegelotion",
+          "value": "Mit Pflegelotion"
+        }
+      ],
+      "category_code": "MISO_CLA_ToilettenHaushaltpapier_WaschenPapierReinigen_Haushalt_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "miso_spezielle_eigenschaften",
+      "label": "Special features",
+      "values": [
+        {
+          "value": "mit pflegendem Aloe- Balsam und dezentem Duft "
+        }
+      ],
+      "category_code": "MISO_CLA_WaschenPapierReinigen_Haushalt_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "miso_oeko_hinweis",
+      "label": "Environmental information",
+      "values": [
+        {
+          "value_code": "MISO_papier_aus_nachhaltiger_forstwirtschaft_FSC",
+          "value": "Papier aus nachhaltiger Forstwirtschaft \"FSC\""
+        }
+      ],
+      "category_code": "MISO_CLA_WaschenPapierReinigen_Haushalt_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/ad3d760e2da3965c2515c782974ab5e305d8430a/sensitive-toilettenpapier.jpg",
+    "stack": "https://image.migros.ch/{stack}/ad3d760e2da3965c2515c782974ab5e305d8430a/sensitive-toilettenpapier.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/3470ac866a0725245ae105ddd7158fef79e3285c/sensitive-toilettenpapier.png",
+    "stack": "https://image.migros.ch/{stack}/3470ac866a0725245ae105ddd7158fef79e3285c/sensitive-toilettenpapier.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "miso_amigos_anzeige",
+      "label": "Display aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "ja"
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "miso_amigos_sortierung",
+      "label": "aMigos sorting",
+      "values": [
+        {
+          "value": "330"
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Standard item"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "ZHKS"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUSTOMS_POSITION",
+      "values": [
+        {
+          "value": "48181010000"
+        }
+      ],
+      "category_code": "MAPI_CUSTOMS_POSITION",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RISK_CLASS",
+      "values": [
+        {
+          "value_code": "2",
+          "value": "2 (medium)"
+        }
+      ],
+      "category_code": "MAPI_RISK_CLASS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_QUALITY_CHECK",
+      "values": [
+        {
+          "value_code": "00",
+          "value": "No Quality Control"
+        }
+      ],
+      "category_code": "MAPI_QUALITY_CHECK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZHKS",
+          "value": "HKS Standardartikel"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "H",
+          "value": "HKS Standard"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "50317",
+          "value": "EIGENMARKE"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LIFECYCLE",
+      "values": [
+        {
+          "value_code": "D",
+          "value": "Detailhandelsartikel"
+        }
+      ],
+      "category_code": "MAPI_LIFECYCLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_EXPORTABLE",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Yes",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MAPI_EXPORTABLE",
+      "top_fact": false
+    }
+  ],
+  "regional_availability": {
+    "gmaa": {
+      "probability": 98
+    },
+    "gmbs": {
+      "probability": 100
+    },
+    "gmge": {
+      "probability": 82
+    },
+    "gmlu": {
+      "probability": 97
+    },
+    "gmnf": {
+      "probability": 92
+    },
+    "gmos": {
+      "probability": 92
+    },
+    "gmti": {
+      "probability": 90
+    },
+    "gmvd": {
+      "probability": 95
+    },
+    "gmvs": {
+      "probability": 100
+    },
+    "gmzh": {
+      "probability": 94
+    }
+  },
+  "ratings": {
+    "count_all": 80,
+    "average_all": 4.35
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "updated_at": "2023-08-17T12:03:43+0200",
+  "sap_created_at": "2004-08-17T00:00:00+0200",
+  "base_unit": "CU",
+  "views": [
+    "all",
+    "browse",
+    "browseallretailers"
+  ]
+}

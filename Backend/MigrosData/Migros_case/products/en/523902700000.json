@@ -1,0 +1,535 @@
+{
+  "id": "523902700000",
+  "language": "en",
+  "name": "Urtekram Soap Bar Aloe-Vera",
+  "names": {
+    "short_name": "Urtekram Soap Bar Aloe-Vera"
+  },
+  "slug": "urtekram-soap-bar-aloe-vera",
+  "slugs": {
+    "de": "urtekram-soap-bar-aloe-vera",
+    "fr": "urtekram-soap-bar-aloe-vera",
+    "it": "urtekram-soap-bar-aloe-vera",
+    "en": "urtekram-soap-bar-aloe-vera"
+  },
+  "type": "00",
+  "boss_number": "090322260560",
+  "short_description": "Seifenbar mit Aloe Vera",
+  "data_source": "SAP-X11",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03"
+  },
+  "tags": [
+    "source-pex",
+    "near-non-food",
+    "migipedia",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "5765228838648"
+  ],
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarket"
+  },
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "brand": {
+    "id": "O60",
+    "name": "URTEKRAM",
+    "slug": "urtekram"
+  },
+  "labels": [
+    {
+      "id": "L41",
+      "name": "Naturkosmetik",
+      "slug": "naturkosmetik"
+    },
+    {
+      "id": "L55",
+      "name": "Vegan Flower",
+      "slug": "vegan-flower",
+      "image": {
+        "original": "https://image.migros.ch/original/c5723257619218d275dade4d7d332cda242cafcc/vegan-flower.jpg",
+        "stack": "https://image.migros.ch/{stack}/c5723257619218d275dade4d7d332cda242cafcc/vegan-flower.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_01110602",
+      "name": "Körperpflege",
+      "slug": "supermarkt/beauty/naturkosmetik/koerperpflege",
+      "visible": true,
+      "parent_code": "BeSS_011106",
+      "level": 4
+    },
+    {
+      "code": "BeSS_011106",
+      "name": "Naturkosmetik",
+      "slug": "supermarkt/beauty/naturkosmetik",
+      "visible": true,
+      "parent_code": "BeSS_0111",
+      "level": 3
+    },
+    {
+      "code": "BeSS_0111",
+      "name": "Beauty",
+      "slug": "supermarkt/beauty",
+      "visible": true,
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/293925170bd129344f9259c67a15e903f881bef8/beauty.jpg",
+        "stack": "https://image.migros.ch/{stack}/293925170bd129344f9259c67a15e903f881bef8/beauty.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "BeSS_01110303",
+        "name": "Seifen",
+        "slug": "supermarkt/beauty/koerperpflege/seifen",
+        "visible": true,
+        "parent_code": "BeSS_011103",
+        "level": 4
+      },
+      {
+        "code": "BeSS_011103",
+        "name": "Körperpflege",
+        "slug": "supermarkt/beauty/koerperpflege",
+        "visible": true,
+        "parent_code": "BeSS_0111",
+        "level": 3
+      },
+      {
+        "code": "BeSS_0111",
+        "name": "Beauty",
+        "slug": "supermarkt/beauty",
+        "visible": true,
+        "parent_code": "BeSS_01",
+        "image": {
+          "original": "https://image.migros.ch/original/293925170bd129344f9259c67a15e903f881bef8/beauty.jpg",
+          "stack": "https://image.migros.ch/{stack}/293925170bd129344f9259c67a15e903f881bef8/beauty.jpg"
+        },
+        "level": 2
+      },
+      {
+        "code": "BeSS_01",
+        "name": "Supermarkt",
+        "slug": "supermarkt",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "online_relevant": [
+    {
+      "code": "MGB",
+      "name": "Migros Genossenschafts-Bund"
+    }
+  ],
+  "galaxus_relevant": false,
+  "links": {
+    "migros_ch": {
+      "url": "https://www.migros.ch/en/product/523902700000?context=instore",
+      "name": "In-store assortment",
+      "canonical": "https://www.migros.ch/en/product/523902700000?context=instore",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/523902700000",
+      "name": "Migipedia",
+      "canonical": "https://www.migros.ch/en/product/523902700000?context=instore",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "receipt_text": "Urtekram Soap Bar Aloe",
+  "package": {
+    "content": 100,
+    "content_unit_code": "g",
+    "content_unit": "Gramm",
+    "net_weight": 0.1,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "brutto_weight": 0.087,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 0.104,
+    "brutto_volume_unit_code": "cdm",
+    "height": 8,
+    "length": 2.6,
+    "width": 5,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "100g"
+  },
+  "package_information": {
+    "tu": {
+      "gtins": [
+        "7613312336052"
+      ],
+      "brutto_volume": 1.82,
+      "brutto_volume_unit_code": "cdm",
+      "height": 6.5,
+      "length": 17.5,
+      "width": 16,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 12
+    },
+    "cu": {
+      "gtins": [
+        "5765228838648"
+      ],
+      "brutto_weight": 0.087,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.104,
+      "brutto_volume_unit_code": "cdm",
+      "height": 8,
+      "length": 2.6,
+      "width": 5,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "lu": {
+      "number_of_base_units": 4752
+    },
+    "lge": {
+      "number_of_base_units": 396
+    },
+    "kar": {
+      "number_of_base_units": 1
+    }
+  },
+  "vat": {
+    "id": 1,
+    "percentage": 7.7
+  },
+  "price": {
+    "valid_from": "2020-12-18T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 3.9,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "100g"
+    },
+    "base": {
+      "price": 3.9,
+      "quantity": 100,
+      "unit": "g"
+    }
+  },
+  "features": [
+    {
+      "label_code": "MAPI_VEGETARIANISM",
+      "label": "Vegetarianism",
+      "values": [
+        {
+          "value_code": "MAPI_VEGETARIANISM_vegan",
+          "value": "vegan"
+        }
+      ],
+      "category_code": "MAPI_VEGETARIANISM",
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/228ee842175a884802eccccae4335d1d8848e408/urtekram-soap-bar-aloe-vera.jpg",
+    "stack": "https://image.migros.ch/{stack}/228ee842175a884802eccccae4335d1d8848e408/urtekram-soap-bar-aloe-vera.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/4d08584e50c7fb6383529137a1085a7b92d2d32b/urtekram-soap-bar-aloe-vera.png",
+    "stack": "https://image.migros.ch/{stack}/4d08584e50c7fb6383529137a1085a7b92d2d32b/urtekram-soap-bar-aloe-vera.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Standard item"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "ZHKS"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RISK_CLASS",
+      "values": [
+        {
+          "value_code": "2",
+          "value": "2 (medium)"
+        }
+      ],
+      "category_code": "MAPI_RISK_CLASS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_QUALITY_CHECK",
+      "values": [
+        {
+          "value_code": "00",
+          "value": "No Quality Control"
+        }
+      ],
+      "category_code": "MAPI_QUALITY_CHECK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZHKS",
+          "value": "HKS Standardartikel"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "H",
+          "value": "HKS Standard"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "50459",
+          "value": "SEIFEN"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LIFECYCLE",
+      "values": [
+        {
+          "value_code": "D",
+          "value": "Detailhandelsartikel"
+        }
+      ],
+      "category_code": "MAPI_LIFECYCLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_EXPORTABLE",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_EXPORTABLE",
+      "top_fact": false
+    }
+  ],
+  "declarations": {
+    "declaration_number": "Q_1604593687823037",
+    "tags": [
+      "source-qim"
+    ],
+    "gtins": [
+      "5765228838648"
+    ],
+    "valid_from": "2023-04-26T00:00:00+0200",
+    "product_details": {
+      "net_filled_quantity": {
+        "value": "100 g",
+        "numeric_value": 100,
+        "unit": "g"
+      }
+    },
+    "distributor": {
+      "name": "Midsona Deutschland GmbH",
+      "address": "Zur Davert 7 , 59387, Ascheberg , Deutschland"
+    },
+    "ingredients_information": {
+      "allergens_information": {
+        "allergens": [
+          {
+            "code": "BO",
+            "label": "d-limonene",
+            "contamination_code": "VORHANDEN",
+            "contamination_label": "contains"
+          }
+        ]
+      }
+    },
+    "period_after_opening": {
+      "value": "12 months",
+      "numeric_value": 12,
+      "unit": "months"
+    }
+  },
+  "regional_availability": {
+    "gmaa": {
+      "probability": 12
+    },
+    "gmbs": {
+      "probability": 7
+    },
+    "gmge": {
+      "probability": 3
+    },
+    "gmlu": {
+      "probability": 8
+    },
+    "gmnf": {
+      "probability": 6
+    },
+    "gmos": {
+      "probability": 9
+    },
+    "gmti": {
+      "probability": 10
+    },
+    "gmvd": {
+      "probability": 9
+    },
+    "gmvs": {
+      "probability": 19
+    },
+    "gmzh": {
+      "probability": 8
+    }
+  },
+  "ratings": {
+    "count_all": 2,
+    "average_all": 5
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "updated_at": "2023-08-05T07:57:45+0200",
+  "sap_created_at": "2020-12-17T00:00:00+0100",
+  "base_unit": "CU",
+  "origins": {
+    "producing_country": "Denmark"
+  },
+  "views": [
+    "all",
+    "browse",
+    "browseallretailers"
+  ]
+}

@@ -1,0 +1,623 @@
+{
+  "id": "747535100000",
+  "language": "en",
+  "name": "ROBLOX MYSTERY FIGUREN THEKENDIS. ASS.",
+  "names": {
+    "short_name": "ROBLOX MYSTERY FIGUREN THEKENDIS. ASS."
+  },
+  "slug": "roblox-mystery-figuren-thekendis-ass",
+  "slugs": {
+    "de": "roblox-mystery-figuren",
+    "fr": "roblox-mystery-figuren",
+    "it": "roblox-mystery-figuren",
+    "en": "roblox-mystery-figuren-thekendis-ass"
+  },
+  "type": "00",
+  "boss_number": "130861651080",
+  "description": {
+    "text": "Artikel assortiert, Motiv nicht w&auml;hlbar",
+    "source": "PEX"
+  },
+  "data_source": "SAP-X12",
+  "status": {
+    "id": "currently-not-available",
+    "seasonal": false,
+    "pim_status": "88",
+    "distribution_center": [
+      {
+        "center_id": "1001",
+        "center_name": "Migros Verteilzentrum Neuendorf",
+        "status_code": "05",
+        "status_description": "external procurement blocked"
+      }
+    ],
+    "description": "Currently with limited availability."
+  },
+  "tags": [
+    "source-pex",
+    "migipedia",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "0191726396789",
+    "0191726396796",
+    "0191726455387"
+  ],
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarket"
+  },
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": true,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": true,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": true,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": true,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": true,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": true,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": true,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "categories": [
+    {
+      "code": "BeSS_010712",
+      "name": "Spielwaren",
+      "slug": "supermarkt/baby-kinder/spielwaren",
+      "visible": true,
+      "title": "Daran haben Kinder Freude: Spielwaren aus der Migros",
+      "parent_code": "BeSS_0107",
+      "image": {
+        "original": "https://image.migros.ch/original/44a2aeebd38216c32a1d9bbfc94664e575d085c1/spielwaren.jpg",
+        "stack": "https://image.migros.ch/{stack}/44a2aeebd38216c32a1d9bbfc94664e575d085c1/spielwaren.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0107",
+      "name": "Baby & Kinder",
+      "slug": "supermarkt/baby-kinder",
+      "visible": true,
+      "title": "Babyartikel: Alles rund ums Baby in Ihrer Migros kaufen",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/dc6e5e45f414e657061e049a69de80177f40ca98/baby-kinder.jpg",
+        "stack": "https://image.migros.ch/{stack}/dc6e5e45f414e657061e049a69de80177f40ca98/baby-kinder.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "MEL_SHOP_CAT_RollenspieleActionfiguren_Spielwaren_GamingSpielwaren",
+        "name": "Rollenspiele & Actionfiguren",
+        "slug": "melectronics/gaming-spielwaren/spielwaren/rollenspiele-actionfiguren",
+        "visible": true,
+        "parent_code": "MEL_SHOP_CAT_Spielwaren_GamingSpielwaren",
+        "level": 4
+      },
+      {
+        "code": "MEL_SHOP_CAT_Spielwaren_GamingSpielwaren",
+        "name": "Spielwaren",
+        "slug": "melectronics/gaming-spielwaren/spielwaren",
+        "visible": true,
+        "parent_code": "MEL_SHOP_CAT_GamingSpielwaren",
+        "level": 3
+      },
+      {
+        "code": "MEL_SHOP_CAT_GamingSpielwaren",
+        "name": "Gaming & Spielwaren",
+        "slug": "melectronics/gaming-spielwaren",
+        "visible": true,
+        "parent_code": "BeSS_04",
+        "level": 2
+      },
+      {
+        "code": "BeSS_04",
+        "name": "melectronics",
+        "slug": "melectronics",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "online_relevant": [
+    {
+      "code": "MGB",
+      "name": "Migros Genossenschafts-Bund"
+    }
+  ],
+  "links": {
+    "migros_ch": {
+      "url": "https://www.migros.ch/en/product/747535100000?context=instore",
+      "name": "In-store assortment",
+      "canonical": "https://www.migros.ch/en/product/747535100000?context=instore",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/747535100000",
+      "name": "Migipedia",
+      "canonical": "https://www.migros.ch/en/product/747535100000?context=instore",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "m_check2": {},
+  "warranty_months": 24,
+  "receipt_text": "Roblox Mystery Figuren",
+  "package": {
+    "content": 1,
+    "content_unit_code": "st",
+    "content_unit": "Stück",
+    "brutto_weight": 0.061,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 0.18,
+    "brutto_volume_unit_code": "cdm",
+    "height": 6,
+    "length": 5,
+    "width": 6,
+    "unit_dimension": "cm",
+    "price_comparison_content": 1,
+    "size": "1 Stk."
+  },
+  "package_information": {
+    "cu": {
+      "gtins": [
+        "0191726396789",
+        "0191726396796",
+        "0191726455387"
+      ],
+      "brutto_weight": 0.061,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.18,
+      "brutto_volume_unit_code": "cdm",
+      "height": 6,
+      "length": 5,
+      "width": 6,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "tuv": {
+      "number_of_base_units": 24
+    },
+    "tue": {
+      "number_of_base_units": 24
+    },
+    "lu": {
+      "number_of_base_units": 1
+    },
+    "moq": {
+      "number_of_base_units": 1
+    }
+  },
+  "vat": {
+    "id": 1,
+    "percentage": 7.7
+  },
+  "price": {
+    "valid_from": "2021-10-29T00:00:00+0200",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 8.9,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "1 Stk."
+    },
+    "base": {
+      "price": 8.9,
+      "quantity": 1,
+      "unit": "st"
+    }
+  },
+  "image": {
+    "original": "https://image.migros.ch/original/d52f6d7845e0abd1059ab3f99de34014708f0149/roblox-mystery-figuren-thekendis-ass.jpg",
+    "stack": "https://image.migros.ch/{stack}/d52f6d7845e0abd1059ab3f99de34014708f0149/roblox-mystery-figuren-thekendis-ass.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/597701635634fb017124d2f3c84dfa44b83f41c3/roblox-mystery-figuren-thekendis-ass.png",
+    "stack": "https://image.migros.ch/{stack}/597701635634fb017124d2f3c84dfa44b83f41c3/roblox-mystery-figuren-thekendis-ass.png"
+  },
+  "additional_images": [
+    {
+      "original": "https://image.migros.ch/original/f4fb089ff85a1fd1df3e19ff3e55b563bd33cd3b.jpg",
+      "stack": "https://image.migros.ch/{stack}/f4fb089ff85a1fd1df3e19ff3e55b563bd33cd3b.jpg"
+    },
+    {
+      "original": "https://image.migros.ch/original/4037890022eaac9a4e49fe7e1bf6627d5df9c042.jpg",
+      "stack": "https://image.migros.ch/{stack}/4037890022eaac9a4e49fe7e1bf6627d5df9c042.jpg"
+    },
+    {
+      "original": "https://image.migros.ch/original/40711de9a572647adec8448f5ba449d5e52263c1.jpg",
+      "stack": "https://image.migros.ch/{stack}/40711de9a572647adec8448f5ba449d5e52263c1.jpg"
+    },
+    {
+      "original": "https://image.migros.ch/original/404ae53a8853ca009ce79c9fa96e628b5c82c867.jpg",
+      "stack": "https://image.migros.ch/{stack}/404ae53a8853ca009ce79c9fa96e628b5c82c867.jpg"
+    },
+    {
+      "original": "https://image.migros.ch/original/c99260ac9850dba29de15290f2b786ddec3e7f70.jpg",
+      "stack": "https://image.migros.ch/{stack}/c99260ac9850dba29de15290f2b786ddec3e7f70.jpg"
+    },
+    {
+      "original": "https://image.migros.ch/original/a6817652c8c32bd2b8f0957fb1e9b70d9fd421a1.jpg",
+      "stack": "https://image.migros.ch/{stack}/a6817652c8c32bd2b8f0957fb1e9b70d9fd421a1.jpg"
+    },
+    {
+      "original": "https://image.migros.ch/original/453bf2fa2ed6926405614471762b03cef0d5507d.jpg",
+      "stack": "https://image.migros.ch/{stack}/453bf2fa2ed6926405614471762b03cef0d5507d.jpg"
+    },
+    {
+      "original": "https://image.migros.ch/original/5e0ca69a5cdf757d2264cc1590e1058accac2923.jpg",
+      "stack": "https://image.migros.ch/{stack}/5e0ca69a5cdf757d2264cc1590e1058accac2923.jpg"
+    },
+    {
+      "original": "https://image.migros.ch/original/18f9721de0fe237415dc3b72130e5cb00fc7ef5e.jpg",
+      "stack": "https://image.migros.ch/{stack}/18f9721de0fe237415dc3b72130e5cb00fc7ef5e.jpg"
+    },
+    {
+      "original": "https://image.migros.ch/original/e7be298e6c70337766fe0068fdf82e3e6d01a6ee.jpg",
+      "stack": "https://image.migros.ch/{stack}/e7be298e6c70337766fe0068fdf82e3e6d01a6ee.jpg"
+    },
+    {
+      "original": "https://image.migros.ch/original/30992a7246436e20631ab29c17113b627c74ca36.jpg",
+      "stack": "https://image.migros.ch/{stack}/30992a7246436e20631ab29c17113b627c74ca36.jpg"
+    },
+    {
+      "original": "https://image.migros.ch/original/2198568daf14db271e06bfe1c300c133d12d40ef.jpg",
+      "stack": "https://image.migros.ch/{stack}/2198568daf14db271e06bfe1c300c133d12d40ef.jpg"
+    },
+    {
+      "original": "https://image.migros.ch/original/a3ef1cb0004fd6010cf206ef825c258782e06350.jpg",
+      "stack": "https://image.migros.ch/{stack}/a3ef1cb0004fd6010cf206ef825c258782e06350.jpg"
+    },
+    {
+      "original": "https://image.migros.ch/original/9e76ac5601b299c5e9cfc8ccefc0f2541331b72b.jpg",
+      "stack": "https://image.migros.ch/{stack}/9e76ac5601b299c5e9cfc8ccefc0f2541331b72b.jpg"
+    },
+    {
+      "original": "https://image.migros.ch/original/ec7a893269f420a7a8b9e6cfc5be1d69a539e265.jpg",
+      "stack": "https://image.migros.ch/{stack}/ec7a893269f420a7a8b9e6cfc5be1d69a539e265.jpg"
+    },
+    {
+      "original": "https://image.migros.ch/original/fb45e048b65c60d758ff4b322bd385042472077f.jpg",
+      "stack": "https://image.migros.ch/{stack}/fb45e048b65c60d758ff4b322bd385042472077f.jpg"
+    },
+    {
+      "original": "https://image.migros.ch/original/8fc3c08fa29db8f818c49655577dc8a7be7c05ae.jpg",
+      "stack": "https://image.migros.ch/{stack}/8fc3c08fa29db8f818c49655577dc8a7be7c05ae.jpg"
+    },
+    {
+      "original": "https://image.migros.ch/original/eb5c0b489c45abe7f3205d6b3fb01b27f2df16fa.jpg",
+      "stack": "https://image.migros.ch/{stack}/eb5c0b489c45abe7f3205d6b3fb01b27f2df16fa.jpg"
+    },
+    {
+      "original": "https://image.migros.ch/original/155dd054eae3752a0513b071758f4faa8b17eb17.jpg",
+      "stack": "https://image.migros.ch/{stack}/155dd054eae3752a0513b071758f4faa8b17eb17.jpg"
+    },
+    {
+      "original": "https://image.migros.ch/original/dc253645351e43ab938bd116ec91aee8d1a1d27a.jpg",
+      "stack": "https://image.migros.ch/{stack}/dc253645351e43ab938bd116ec91aee8d1a1d27a.jpg"
+    },
+    {
+      "original": "https://image.migros.ch/original/ec96ebc809c285075827c1f18ba2f01e9c72bcdb.jpg",
+      "stack": "https://image.migros.ch/{stack}/ec96ebc809c285075827c1f18ba2f01e9c72bcdb.jpg"
+    },
+    {
+      "original": "https://image.migros.ch/original/ef3cd3a196c7354f0365fc6dd38e6369cfef4188.jpg",
+      "stack": "https://image.migros.ch/{stack}/ef3cd3a196c7354f0365fc6dd38e6369cfef4188.jpg"
+    },
+    {
+      "original": "https://image.migros.ch/original/6d3b1be82222bddd7b16c13209567b506e210e1c.jpg",
+      "stack": "https://image.migros.ch/{stack}/6d3b1be82222bddd7b16c13209567b506e210e1c.jpg"
+    },
+    {
+      "original": "https://image.migros.ch/original/da4bf5bd0751f9b4b32a2da2fc3ee7d5aff49ded.jpg",
+      "stack": "https://image.migros.ch/{stack}/da4bf5bd0751f9b4b32a2da2fc3ee7d5aff49ded.jpg"
+    },
+    {
+      "original": "https://image.migros.ch/original/0a0ebe343a452412aa2a78948f8cf3902df0b931.jpg",
+      "stack": "https://image.migros.ch/{stack}/0a0ebe343a452412aa2a78948f8cf3902df0b931.jpg"
+    }
+  ],
+  "internal_features": [
+    {
+      "label_code": "MAPI_RETURNABLE",
+      "label": "Return",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "true",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MAPI_RETURNABLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_MAX_ORDER_QUANTITY",
+      "values": [
+        {
+          "value_code": "NUMERIC_3",
+          "value": "3",
+          "numeric_value": 3
+        }
+      ],
+      "category_code": "MAPI_MAX_ORDER_QUANTITY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_EXCLUDE_FROM_COMPARISON_ENGINES",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "false",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_EXCLUDE_FROM_COMPARISON_ENGINES",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+      "values": [
+        {
+          "value_code": "55",
+          "value": "Versandart Paket"
+        }
+      ],
+      "category_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LOGISTIC_CLASS",
+      "values": [
+        {
+          "value_code": "1",
+          "value": "Lager"
+        }
+      ],
+      "category_code": "MAPI_LOGISTIC_CLASS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Standard item"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "HART"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRESENTATION",
+      "values": [
+        {
+          "value_code": "L",
+          "value": "liegend"
+        }
+      ],
+      "category_code": "MAPI_PRESENTATION",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_KUBE_TUKA",
+      "values": [
+        {
+          "value_code": "BLANK",
+          "value": "KUBE und TUKA nicht zugelassen"
+        }
+      ],
+      "category_code": "MAPI_KUBE_TUKA",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HART",
+          "value": "Hartwaren Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "H",
+          "value": "Hartwaren"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "61258",
+          "value": "FIGUREN"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_EXPORTABLE",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_EXPORTABLE",
+      "top_fact": false
+    }
+  ],
+  "regional_availability": {
+    "gmaa": {
+      "probability": 0
+    },
+    "gmbs": {
+      "probability": 0
+    },
+    "gmge": {
+      "probability": 0
+    },
+    "gmlu": {
+      "probability": 2
+    },
+    "gmnf": {
+      "probability": 0
+    },
+    "gmos": {
+      "probability": 0
+    },
+    "gmti": {
+      "probability": 0
+    },
+    "gmvd": {
+      "probability": 0
+    },
+    "gmvs": {
+      "probability": 7
+    },
+    "gmzh": {
+      "probability": 0
+    }
+  },
+  "ratings": {
+    "count_all": 2,
+    "average_all": 5
+  },
+  "quantity_on_stock": 1992,
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "updated_at": "2023-08-16T12:29:00+0200",
+  "sap_created_at": "2021-10-28T00:00:00+0200",
+  "services": {
+    "logistics": [
+      {
+        "code": "MEL_LOGISTIK_FILIALE_POSTPAKET_GRATIS"
+      },
+      {
+        "code": "MEL_LOGISTIK_POSTPAKET_GRATIS"
+      }
+    ],
+    "others": []
+  },
+  "online_shop_relevant": true,
+  "base_unit": "CU",
+  "origins": {
+    "producing_country": "China"
+  },
+  "views": [
+    "all",
+    "browse",
+    "browseallretailers"
+  ]
+}

@@ -1,0 +1,581 @@
+{
+  "id": "720878300000",
+  "language": "en",
+  "name": "P-IT INDEX STRONG 3X12ST 25.4X38.1MM",
+  "names": {
+    "short_name": "P-IT INDEX STRONG 3X12ST 25.4X38.1MM"
+  },
+  "slug": "p-it-index-strong-3x12st-254x381mm",
+  "slugs": {
+    "de": "index-strong-36-stk",
+    "fr": "index-strong-36-pieces",
+    "it": "index-strong-36-pezzi",
+    "en": "p-it-index-strong-3x12st-254x381mm"
+  },
+  "type": "00",
+  "boss_number": "150626912515",
+  "description": {
+    "text": "- 36 St&uuml;ck (3 x 12)",
+    "source": "PEX"
+  },
+  "data_source": "SAP-X12",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03",
+    "distribution_center": [
+      {
+        "center_id": "1001",
+        "center_name": "Migros Verteilzentrum Neuendorf",
+        "status_code": "03",
+        "status_description": "active"
+      }
+    ]
+  },
+  "tags": [
+    "source-pex",
+    "near-non-food",
+    "migipedia",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "0051141340142"
+  ],
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarket"
+  },
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "brand": {
+    "id": "MCA",
+    "name": "3 M / Post It",
+    "slug": "3-m-post-it"
+  },
+  "categories": [
+    {
+      "code": "BeSS_01051406",
+      "name": "Notizen & Index",
+      "slug": "supermarkt/papeterie-bueromaterial/schreiben-notieren/notizen-index",
+      "visible": true,
+      "parent_code": "BeSS_010514",
+      "level": 4
+    },
+    {
+      "code": "BeSS_010514",
+      "name": "Schreiben & Notieren",
+      "slug": "supermarkt/papeterie-bueromaterial/schreiben-notieren",
+      "visible": true,
+      "parent_code": "BeSS_0105",
+      "level": 3
+    },
+    {
+      "code": "BeSS_0105",
+      "name": "Papeterie & Büromaterial",
+      "slug": "supermarkt/papeterie-bueromaterial",
+      "visible": true,
+      "title": "Papeterie und Büromaterialien sind immer in Ihrer Migros zu finden",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/6b764b62482953963a5ab3263b9bd3a69cbf436a/papeterie-bueromaterial.jpg",
+        "stack": "https://image.migros.ch/{stack}/6b764b62482953963a5ab3263b9bd3a69cbf436a/papeterie-bueromaterial.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "online_relevant": [
+    {
+      "code": "MGB",
+      "name": "Migros Genossenschafts-Bund"
+    }
+  ],
+  "links": {
+    "migros_ch": {
+      "url": "https://www.migros.ch/en/product/720878300000?context=instore",
+      "name": "In-store assortment",
+      "canonical": "https://www.migros.ch/en/product/720878300000?context=instore",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/720878300000",
+      "name": "Migipedia",
+      "canonical": "https://www.migros.ch/en/product/720878300000?context=instore",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "receipt_text": "3M Post-it Index",
+  "package": {
+    "content": 1,
+    "content_unit_code": "st",
+    "content_unit": "Stück",
+    "net_weight": 0.022,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "brutto_weight": 0.022,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 41.4,
+    "brutto_volume_unit_code": "ccm",
+    "height": 14,
+    "length": 7,
+    "width": 1,
+    "unit_dimension": "cm",
+    "price_comparison_content": 1,
+    "size": "1 Stk."
+  },
+  "package_information": {
+    "cu": {
+      "gtins": [
+        "0051141340142"
+      ],
+      "brutto_weight": 0.022,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 41.4,
+      "brutto_volume_unit_code": "ccm",
+      "height": 14,
+      "length": 7,
+      "width": 1,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "tuv": {
+      "brutto_weight": 0.132,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.72,
+      "brutto_volume_unit_code": "cdm",
+      "height": 6,
+      "length": 15,
+      "width": 8,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 6
+    },
+    "tue": {
+      "gtins": [
+        "30051141340143",
+        "4054596189225"
+      ],
+      "brutto_weight": 0.158,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.427,
+      "brutto_volume_unit_code": "cdm",
+      "height": 14.2,
+      "length": 7.4,
+      "width": 5.9,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 6
+    },
+    "lu": {
+      "number_of_base_units": 2160
+    },
+    "lge": {
+      "brutto_weight": 12,
+      "brutto_weight_unit_code": "kg",
+      "number_of_base_units": 540
+    }
+  },
+  "vat": {
+    "id": 1,
+    "percentage": 7.7
+  },
+  "price": {
+    "valid_from": "2022-07-01T00:00:00+0200",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 6.3,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "1 Stk."
+    },
+    "base": {
+      "price": 6.3,
+      "quantity": 1,
+      "unit": "st"
+    }
+  },
+  "features": [
+    {
+      "label_code": "miso_anzahl",
+      "label": "Number",
+      "values": [
+        {
+          "value_code": "NUMERIC_36",
+          "value": "36 Blatt",
+          "numeric_value": 36
+        }
+      ],
+      "category_code": "MISO_CLA_Schreibwaren_Papeterie_Haushalt_Alle",
+      "top_fact": false,
+      "unit_code": "blatt",
+      "unit": "Blatt",
+      "unit_symbol": "Blatt",
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "miso_masse_groesse",
+      "label": "Dimensions/size",
+      "values": [
+        {
+          "value": "25.4 x 38.1 mm"
+        }
+      ],
+      "category_code": "MISO_CLA_Schreibwaren_Papeterie_Haushalt_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "miso_farbe",
+      "label": "Color",
+      "values": [
+        {
+          "value_code": "MISO_farbe_assortiert",
+          "value": "assortiert"
+        }
+      ],
+      "category_code": "MISO_CLA_Schreibwaren_Papeterie_Haushalt_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/f887a9dc12ce27603f48a9001c82a126be6086a7/p-it-index-strong-3x12st-254x381mm.jpg",
+    "stack": "https://image.migros.ch/{stack}/f887a9dc12ce27603f48a9001c82a126be6086a7/p-it-index-strong-3x12st-254x381mm.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/34ebbea7a6d3c04e8d3f3c711f838d4ce9d9fc8a/p-it-index-strong-3x12st-254x381mm.png",
+    "stack": "https://image.migros.ch/{stack}/34ebbea7a6d3c04e8d3f3c711f838d4ce9d9fc8a/p-it-index-strong-3x12st-254x381mm.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "miso_amigos_anzeige",
+      "label": "Display aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "ja"
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "MAPI_RETURNABLE",
+      "label": "Return",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "true",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MAPI_RETURNABLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_MAX_ORDER_QUANTITY",
+      "values": [
+        {
+          "value_code": "NUMERIC_99999",
+          "value": "99999",
+          "numeric_value": 99999
+        }
+      ],
+      "category_code": "MAPI_MAX_ORDER_QUANTITY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_EXCLUDE_FROM_COMPARISON_ENGINES",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "false",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_EXCLUDE_FROM_COMPARISON_ENGINES",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+      "values": [
+        {
+          "value_code": "55",
+          "value": "Versandart Paket"
+        }
+      ],
+      "category_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LOGISTIC_CLASS",
+      "values": [
+        {
+          "value_code": "7",
+          "value": "VMI"
+        }
+      ],
+      "category_code": "MAPI_LOGISTIC_CLASS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Standard item"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "HART"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUSTOMS_POSITION",
+      "values": [
+        {
+          "value": "39199000000"
+        }
+      ],
+      "category_code": "MAPI_CUSTOMS_POSITION",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RISK_CLASS",
+      "values": [
+        {
+          "value_code": "3",
+          "value": "3 (low)"
+        }
+      ],
+      "category_code": "MAPI_RISK_CLASS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_KUBE_TUKA",
+      "values": [
+        {
+          "value_code": "BLANK",
+          "value": "KUBE und TUKA nicht zugelassen"
+        }
+      ],
+      "category_code": "MAPI_KUBE_TUKA",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HART",
+          "value": "Hartwaren Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "H",
+          "value": "Hartwaren"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "50976",
+          "value": "MEMO"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_EXPORTABLE",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Yes",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MAPI_EXPORTABLE",
+      "top_fact": false
+    }
+  ],
+  "regional_availability": {
+    "gmaa": {
+      "probability": 69
+    },
+    "gmbs": {
+      "probability": 90
+    },
+    "gmge": {
+      "probability": 61
+    },
+    "gmlu": {
+      "probability": 47
+    },
+    "gmnf": {
+      "probability": 45
+    },
+    "gmos": {
+      "probability": 54
+    },
+    "gmti": {
+      "probability": 45
+    },
+    "gmvd": {
+      "probability": 60
+    },
+    "gmvs": {
+      "probability": 48
+    },
+    "gmzh": {
+      "probability": 62
+    }
+  },
+  "ratings": {
+    "count_all": 8,
+    "average_all": 4.625
+  },
+  "related_products": {
+    "reference_recommendations": {
+      "product_ids": [
+        "720111300000",
+        "720232500000",
+        "721168700000",
+        "720251800020"
+      ]
+    }
+  },
+  "quantity_on_stock": 2226,
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "updated_at": "2023-08-17T07:46:30+0200",
+  "sap_created_at": "2013-09-02T00:00:00+0200",
+  "base_unit": "CU",
+  "origins": {
+    "producing_country": "United States"
+  },
+  "views": [
+    "all",
+    "browse",
+    "browseallretailers"
+  ]
+}

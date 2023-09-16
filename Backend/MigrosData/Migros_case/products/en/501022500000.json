@@ -1,0 +1,534 @@
+{
+  "id": "501022500000",
+  "language": "en",
+  "name": "Blaue Helden Power Tab Spülschaum",
+  "names": {
+    "short_name": "Blaue Helden Power Tab Spülschaum"
+  },
+  "slug": "blaue-helden-power-tab-spuelschaum",
+  "slugs": {
+    "de": "blaue-helden-power-tab-spuelschaum",
+    "fr": "blaue-helden-power-tab-mousse-de-rincage",
+    "it": "powertab-per-detersivo-per-piatti-blaue-helden",
+    "en": "blaue-helden-power-tab-spuelschaum"
+  },
+  "type": "00",
+  "boss_number": "150126800325",
+  "description": {
+    "text": "Der PowerTab f&uuml;r Sp&uuml;lmittel schafft bis zu 500ml Reinigungsleistung und kommt in einer 100% plastikfreien Verpackung. Die wiederverwendbare Flasche einfach mit Wasser f&uuml;llen, PowerTab einwerfen und es kann losgehen.",
+    "source": "PEX"
+  },
+  "data_source": "SAP-X11",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03",
+    "distribution_center": [
+      {
+        "center_id": "1000",
+        "center_name": "Migros Verteilzentrum Suhr",
+        "status_description": "product.status.distribution_center."
+      },
+      {
+        "center_id": "1001",
+        "center_name": "Migros Verteilzentrum Neuendorf",
+        "status_description": "product.status.distribution_center."
+      },
+      {
+        "center_id": "1020",
+        "center_name": "Regionallager Basel",
+        "status_description": "product.status.distribution_center."
+      },
+      {
+        "center_id": "1030",
+        "center_name": "Regionallager Aare",
+        "status_description": "product.status.distribution_center."
+      },
+      {
+        "center_id": "1040",
+        "center_name": "Entrepôt régional Genève",
+        "status_description": "product.status.distribution_center."
+      },
+      {
+        "center_id": "1060",
+        "center_name": "Entrepôt régional Vaud",
+        "status_description": "product.status.distribution_center."
+      },
+      {
+        "center_id": "1070",
+        "center_name": "Regionallager Luzern",
+        "status_description": "product.status.distribution_center."
+      },
+      {
+        "center_id": "1080",
+        "center_name": "Entrepôt régional Neuchâtel /",
+        "status_description": "product.status.distribution_center."
+      },
+      {
+        "center_id": "1090",
+        "center_name": "Regionallager Ostschweiz",
+        "status_description": "product.status.distribution_center."
+      },
+      {
+        "center_id": "1120",
+        "center_name": "Magazzino regionale Ticino",
+        "status_description": "product.status.distribution_center."
+      },
+      {
+        "center_id": "1130",
+        "center_name": "Entrepôt régional Valais",
+        "status_description": "product.status.distribution_center."
+      },
+      {
+        "center_id": "1150",
+        "center_name": "Regionallager Zürich",
+        "status_description": "product.status.distribution_center."
+      }
+    ]
+  },
+  "tags": [
+    "source-pex",
+    "near-non-food",
+    "migipedia",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "4260682672650",
+    "4260682672667"
+  ],
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarket"
+  },
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "brand": {
+    "id": "BT0",
+    "name": "blaue helden",
+    "slug": "blaue-helden"
+  },
+  "categories": [
+    {
+      "code": "BeSS_0104010502",
+      "name": "Handabwaschmittel",
+      "slug": "supermarkt/haushalt-reinigung/waschen-reinigen-pflege/geschirreinigung/handabwaschmittel",
+      "visible": true,
+      "parent_code": "BeSS_01040105",
+      "image": {
+        "original": "https://image.migros.ch/original/ebfe522c90698995842da6c624c3477a8323aa7b/handabwaschmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/ebfe522c90698995842da6c624c3477a8323aa7b/handabwaschmittel.jpg"
+      },
+      "level": 5
+    },
+    {
+      "code": "BeSS_01040105",
+      "name": "Geschirreinigung",
+      "slug": "supermarkt/haushalt-reinigung/waschen-reinigen-pflege/geschirreinigung",
+      "visible": true,
+      "parent_code": "BeSS_010401",
+      "image": {
+        "original": "https://image.migros.ch/original/d35ea4bc738ca632dfb622e8b782ae1f09bc631f/geschirreinigung.jpg",
+        "stack": "https://image.migros.ch/{stack}/d35ea4bc738ca632dfb622e8b782ae1f09bc631f/geschirreinigung.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010401",
+      "name": "Waschen, Reinigen & Pflege",
+      "slug": "supermarkt/haushalt-reinigung/waschen-reinigen-pflege",
+      "visible": true,
+      "parent_code": "BeSS_0104",
+      "image": {
+        "original": "https://image.migros.ch/original/37d8921589f88cd40b1c580b957a6a414e1fe1d1/waschen-reinigen-pflege.jpg",
+        "stack": "https://image.migros.ch/{stack}/37d8921589f88cd40b1c580b957a6a414e1fe1d1/waschen-reinigen-pflege.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0104",
+      "name": "Haushalt & Reinigung",
+      "slug": "supermarkt/haushalt-reinigung",
+      "visible": true,
+      "title": "Reinigung mit der Migros – Reiniger für Haushalt und Garten",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png",
+        "stack": "https://image.migros.ch/{stack}/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "links": {
+    "migros_ch": {
+      "url": "https://www.migros.ch/en/product/501022500000?context=instore",
+      "name": "In-store assortment",
+      "canonical": "https://www.migros.ch/en/product/501022500000?context=instore",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/501022500000",
+      "name": "Migipedia",
+      "canonical": "https://www.migros.ch/en/product/501022500000?context=instore",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "m_check2": {},
+  "receipt_text": "Blaue Helden Spüle Sac",
+  "package": {
+    "content": 40,
+    "content_unit_code": "g",
+    "content_unit": "Gramm",
+    "net_weight": 0.045,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "brutto_weight": 0.047,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 0.09,
+    "brutto_volume_unit_code": "cdm",
+    "height": 18,
+    "length": 1.5,
+    "width": 7,
+    "unit_dimension": "cm",
+    "price_comparison_content": 1,
+    "size": "40g"
+  },
+  "package_information": {
+    "tu": {
+      "gtins": [
+        "4260682672674"
+      ],
+      "brutto_weight": 0.51,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 1.638,
+      "brutto_volume_unit_code": "cdm",
+      "height": 18.5,
+      "length": 13,
+      "width": 7,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 10
+    },
+    "cu": {
+      "gtins": [
+        "4260682672650",
+        "4260682672667"
+      ],
+      "brutto_weight": 0.047,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.09,
+      "brutto_volume_unit_code": "cdm",
+      "height": 18,
+      "length": 1.5,
+      "width": 7,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "lu": {
+      "brutto_weight": 25.392,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 1656,
+      "brutto_volume_unit_code": "cdm",
+      "height": 174.5,
+      "length": 120,
+      "width": 80,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 786
+    },
+    "lge": {
+      "number_of_base_units": 1
+    },
+    "kar": {
+      "brutto_weight": 17.86,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 54.469,
+      "brutto_volume_unit_code": "cdm",
+      "height": 16.6,
+      "length": 62.5,
+      "width": 52.5,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 360
+    }
+  },
+  "vat": {
+    "id": 1,
+    "percentage": 7.7
+  },
+  "price": {
+    "valid_from": "2022-10-06T00:00:00+0200",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 2.7,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "40g"
+    },
+    "base": {
+      "price": 0.07,
+      "quantity": 1,
+      "unit": "g"
+    }
+  },
+  "image": {
+    "original": "https://image.migros.ch/original/7b96d52e426579ed48ee339ee1260d9881a9e27c/blaue-helden-power-tab-spuelschaum.jpg",
+    "stack": "https://image.migros.ch/{stack}/7b96d52e426579ed48ee339ee1260d9881a9e27c/blaue-helden-power-tab-spuelschaum.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/1bdde190f2696522496f45f873d9fed0881c72de/blaue-helden-power-tab-spuelschaum.png",
+    "stack": "https://image.migros.ch/{stack}/1bdde190f2696522496f45f873d9fed0881c72de/blaue-helden-power-tab-spuelschaum.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Standard item"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "ZHKS"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUSTOMS_POSITION",
+      "values": [
+        {
+          "value": "34022000000"
+        }
+      ],
+      "category_code": "MAPI_CUSTOMS_POSITION",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RISK_CLASS",
+      "values": [
+        {
+          "value_code": "1",
+          "value": "1 (high)"
+        }
+      ],
+      "category_code": "MAPI_RISK_CLASS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_QUALITY_CHECK",
+      "values": [
+        {
+          "value_code": "00",
+          "value": "No Quality Control"
+        }
+      ],
+      "category_code": "MAPI_QUALITY_CHECK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZHKS",
+          "value": "HKS Standardartikel"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "H",
+          "value": "HKS Standard"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "50508",
+          "value": "HANDABWASCHMITTEL"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LIFECYCLE",
+      "values": [
+        {
+          "value_code": "D",
+          "value": "Detailhandelsartikel"
+        }
+      ],
+      "category_code": "MAPI_LIFECYCLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_EXPORTABLE",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Yes",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MAPI_EXPORTABLE",
+      "top_fact": false
+    }
+  ],
+  "regional_availability": {
+    "gmaa": {
+      "probability": 71
+    },
+    "gmbs": {
+      "probability": 76
+    },
+    "gmge": {
+      "probability": 57
+    },
+    "gmlu": {
+      "probability": 54
+    },
+    "gmnf": {
+      "probability": 51
+    },
+    "gmos": {
+      "probability": 60
+    },
+    "gmti": {
+      "probability": 48
+    },
+    "gmvd": {
+      "probability": 84
+    },
+    "gmvs": {
+      "probability": 59
+    },
+    "gmzh": {
+      "probability": 69
+    }
+  },
+  "ratings": {
+    "count_all": 8,
+    "average_all": 4.125
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "updated_at": "2023-08-17T07:35:53+0200",
+  "sap_created_at": "2022-03-30T00:00:00+0200",
+  "base_unit": "CU",
+  "views": [
+    "all",
+    "browse",
+    "browseallretailers"
+  ]
+}

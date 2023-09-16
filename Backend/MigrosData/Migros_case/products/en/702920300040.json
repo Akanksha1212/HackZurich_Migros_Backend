@@ -1,0 +1,779 @@
+{
+  "id": "702920300040",
+  "language": "en",
+  "name": "TK-DOSE 0,75L BLAU",
+  "names": {
+    "short_name": "TK-DOSE 0,75L BLAU"
+  },
+  "slug": "tk-dose-0-75l-blau",
+  "slugs": {
+    "de": "cool-tiefkuehldose-075l",
+    "fr": "cool-boite-de-congelation-075l",
+    "it": "cool-contenitori-per-la-surgelazione-075l",
+    "en": "tk-dose-0-75l-blau"
+  },
+  "type": "02",
+  "boss_number": "150423070505",
+  "description": {
+    "text": "Die M-Topline Gefrierdosen bieten die perfekte Einfrier-L&ouml;sung f&uuml;r Ihre frisch geernteten Fr&uuml;chte oder Gem&uuml;se, die Sie gerne zu jeder Jahreszeit knackig geniessen m&ouml;chten. Das Material ist besonders k&auml;lte-unempfindlich, so dass sich die Deckel auch in gefrorenem Zustand gut &ouml;ffnen lassen. Die verschiedenen Gr&ouml;ssen lassen sich perfekt miteinander kombinieren und stapeln, so dass Sie Ihren Tiefk&uuml;hlschrank perfekt organisieren k&ouml;nnen.",
+    "source": "PEX"
+  },
+  "data_source": "SAP-X12",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03",
+    "distribution_center": [
+      {
+        "center_id": "1001",
+        "center_name": "Migros Verteilzentrum Neuendorf",
+        "status_code": "03",
+        "status_description": "active"
+      }
+    ]
+  },
+  "tags": [
+    "source-pex",
+    "near-non-food",
+    "migipedia",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": true,
+  "base_product_id": "702920300000",
+  "gtins": [
+    "7624400291771"
+  ],
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarket"
+  },
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "brand": {
+    "id": "MGR",
+    "name": "M-Topline",
+    "slug": "m-topline",
+    "image": {
+      "original": "https://image.migros.ch/original/cb62232a71bb41718bdfee84b5303234bc8d5ed6/m-topline.jpg",
+      "stack": "https://image.migros.ch/{stack}/cb62232a71bb41718bdfee84b5303234bc8d5ed6/m-topline.jpg"
+    }
+  },
+  "labels": [
+    {
+      "id": "L53",
+      "name": "Swissness",
+      "slug": "swissness",
+      "image": {
+        "original": "https://image.migros.ch/original/d771bba2f6b08ba42970ea0243c6f8c5a8832f15/swissness.jpg",
+        "stack": "https://image.migros.ch/{stack}/d771bba2f6b08ba42970ea0243c6f8c5a8832f15/swissness.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_010418",
+      "name": "Topline",
+      "slug": "supermarkt/haushalt-reinigung/topline",
+      "visible": true,
+      "title": "Immer sch&ouml;n frisch: Dank Topline",
+      "parent_code": "BeSS_0104",
+      "level": 3
+    },
+    {
+      "code": "BeSS_0104",
+      "name": "Haushalt & Reinigung",
+      "slug": "supermarkt/haushalt-reinigung",
+      "visible": true,
+      "title": "Reinigung mit der Migros – Reiniger für Haushalt und Garten",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png",
+        "stack": "https://image.migros.ch/{stack}/e5da3225980543e0c7ddcc443069f331d94e8439/haushalt-reinigung.png"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "online_relevant": [
+    {
+      "code": "MGB",
+      "name": "Migros Genossenschafts-Bund"
+    },
+    {
+      "code": "MO",
+      "name": "Migros Online"
+    }
+  ],
+  "galaxus_relevant": false,
+  "links": {
+    "migros_ch": {
+      "url": "https://www.migros.ch/en/product/702920300040?context=instore",
+      "name": "In-store assortment",
+      "canonical": "https://www.migros.ch/en/product/702920300040?context=instore",
+      "type": "info",
+      "purchasable": false
+    },
+    "migros_online": {
+      "url": "https://www.migros.ch/en/product/702920300040?context=online",
+      "mo_product_id": "4146331",
+      "name": "Online-shop assortment",
+      "canonical": "https://www.migros.ch/en/product/702920300040?context=instore",
+      "type": "shop",
+      "purchasable": true,
+      "one_catalog_id": 100033970
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/702920300040",
+      "name": "Migipedia",
+      "canonical": "https://www.migros.ch/en/product/702920300040?context=instore",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "m_check2": {
+    "carbon_footprint": {
+      "image": {
+        "original": "https://image.migros.ch/original/6137c42cbff331738ddeafb4f91efb06075417b3.svg",
+        "stack": "https://image.migros.ch/{stack}/6137c42cbff331738ddeafb4f91efb06075417b3.svg"
+      },
+      "ground_and_sea_cargo": {
+        "kg_co2": 6.82,
+        "kg_co2_range": "4.8 - 9.9 kg CO₂eq / kg",
+        "co2_in_car_km": 37,
+        "rating": 2,
+        "production_in_percent": 96,
+        "packaging_in_percent": 3,
+        "transport_in_percent": 2
+      }
+    }
+  },
+  "receipt_text": "Tiefkühldosen 0.75l",
+  "package": {
+    "content": 1,
+    "content_unit_code": "st",
+    "content_unit": "Stück",
+    "net_weight": 0.074,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "brutto_weight": 0.338,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 2.88,
+    "brutto_volume_unit_code": "cdm",
+    "height": 15.5,
+    "length": 7.5,
+    "width": 11.5,
+    "unit_dimension": "cm",
+    "price_comparison_content": 1,
+    "size": "5 Stk."
+  },
+  "package_information": {
+    "cu": {
+      "gtins": [
+        "7624400291771"
+      ],
+      "brutto_weight": 0.338,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 2.88,
+      "brutto_volume_unit_code": "cdm",
+      "height": 15.5,
+      "length": 7.5,
+      "width": 11.5,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "tuv": {
+      "brutto_weight": 1.31,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 9.45,
+      "brutto_volume_unit_code": "cdm",
+      "height": 30,
+      "length": 21,
+      "width": 15,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 4
+    },
+    "tue": {
+      "brutto_weight": 0.444,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 16.912,
+      "brutto_volume_unit_code": "cdm",
+      "height": 44.6,
+      "length": 31.6,
+      "width": 12,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 4
+    },
+    "lu": {
+      "number_of_base_units": 260
+    },
+    "lge": {
+      "number_of_base_units": 48
+    }
+  },
+  "vat": {
+    "id": 1,
+    "percentage": 7.7
+  },
+  "price": {
+    "valid_from": "2020-08-12T00:00:00+0200",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 4.9,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "5 Stk."
+    },
+    "base": {
+      "price": 4.9,
+      "quantity": 1,
+      "unit": "st"
+    }
+  },
+  "features": [
+    {
+      "label_code": "miso_laenge",
+      "label": "Length",
+      "values": [
+        {
+          "value_code": "NUMERIC_12",
+          "value": "12 cm",
+          "numeric_value": 12
+        }
+      ],
+      "category_code": "MISO_CLA_Kueche_Haushalt_Alle",
+      "top_fact": false,
+      "unit_code": "cm",
+      "unit": "Zentimeter",
+      "unit_symbol": "cm",
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "miso_breite",
+      "label": "Width",
+      "values": [
+        {
+          "value_code": "NUMERIC_12",
+          "value": "12 cm",
+          "numeric_value": 12
+        }
+      ],
+      "category_code": "MISO_CLA_Kueche_Haushalt_Alle",
+      "top_fact": false,
+      "unit_code": "cm",
+      "unit": "Zentimeter",
+      "unit_symbol": "cm",
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "miso_hoehe",
+      "label": "Height",
+      "values": [
+        {
+          "value_code": "NUMERIC_7.5",
+          "value": "7.5 cm",
+          "numeric_value": 7.5
+        }
+      ],
+      "category_code": "MISO_CLA_Kueche_Haushalt_Alle",
+      "top_fact": false,
+      "unit_code": "cm",
+      "unit": "Zentimeter",
+      "unit_symbol": "cm",
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "miso_volumen",
+      "label": "Volume",
+      "values": [
+        {
+          "value_code": "NUMERIC_0.75",
+          "value": "0.75 l",
+          "numeric_value": 0.75
+        }
+      ],
+      "category_code": "MISO_CLA_Kueche_Haushalt_Alle",
+      "top_fact": false,
+      "unit_code": "l",
+      "unit": "Liter",
+      "unit_symbol": "l",
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "miso_material",
+      "label": "Material",
+      "values": [
+        {
+          "value_code": "MISO_material_kunststoff",
+          "value": "Plastic"
+        }
+      ],
+      "category_code": "MISO_CLA_Kueche_Haushalt_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "miso_farbe",
+      "label": "Color",
+      "values": [
+        {
+          "value_code": "MISO_farbe_blau",
+          "value": "blau"
+        }
+      ],
+      "category_code": "MISO_CLA_Kueche_Haushalt_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "miso_fuer_lebensmittel_geeignet",
+      "label": "suitable for food products",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Yes",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MISO_CLA_Kueche_Haushalt_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "miso_mikrowellentauglich",
+      "label": "Microwave-safe",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Yes",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MISO_CLA_Kueche_Haushalt_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "miso_spuelmaschinentauglich",
+      "label": "Dishwasher-safe",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Yes",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MISO_CLA_Kueche_Haushalt_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "miso_maxtemperaturbestaendigkeit",
+      "label": "Max. temperature resistance",
+      "values": [
+        {
+          "value_code": "NUMERIC_100",
+          "value": "100 °C",
+          "numeric_value": 100
+        }
+      ],
+      "category_code": "MISO_CLA_Kueche_Haushalt_Alle",
+      "top_fact": false,
+      "unit_code": "grad_celsius",
+      "unit": "Grad Celsius",
+      "unit_symbol": "°C",
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "miso_setinhalt",
+      "label": "Set contents",
+      "values": [
+        {
+          "value_code": "NUMERIC_5",
+          "value": "5 Stk.",
+          "numeric_value": 5
+        }
+      ],
+      "category_code": "MISO_CLA_Kueche_Haushalt_Alle",
+      "top_fact": false,
+      "unit_code": "Stk.",
+      "unit": "Stück",
+      "unit_symbol": "Stk.",
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/d5e82a76ae5b86b39fa7878ae48312dfd2a5d4f3/tk-dose-0-75l-blau.jpg",
+    "stack": "https://image.migros.ch/{stack}/d5e82a76ae5b86b39fa7878ae48312dfd2a5d4f3/tk-dose-0-75l-blau.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/529aad25ed9127909923da2995f2c0015101fd91/tk-dose-0-75l-blau.png",
+    "stack": "https://image.migros.ch/{stack}/529aad25ed9127909923da2995f2c0015101fd91/tk-dose-0-75l-blau.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "miso_amigos_anzeige",
+      "label": "Display aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "ja"
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "miso_amigos_sortierung",
+      "label": "aMigos sorting",
+      "values": [
+        {
+          "value": "160"
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "MAPI_RETURNABLE",
+      "label": "Return",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "true",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MAPI_RETURNABLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_MAX_ORDER_QUANTITY",
+      "values": [
+        {
+          "value_code": "NUMERIC_22222222",
+          "value": "22222222",
+          "numeric_value": 22222222
+        }
+      ],
+      "category_code": "MAPI_MAX_ORDER_QUANTITY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_EXCLUDE_FROM_COMPARISON_ENGINES",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "false",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_EXCLUDE_FROM_COMPARISON_ENGINES",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+      "values": [
+        {
+          "value_code": "55",
+          "value": "Versandart Paket"
+        }
+      ],
+      "category_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LOGISTIC_CLASS",
+      "values": [
+        {
+          "value_code": "7",
+          "value": "VMI"
+        }
+      ],
+      "category_code": "MAPI_LOGISTIC_CLASS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Standard item"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "HART"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUSTOMS_POSITION",
+      "values": [
+        {
+          "value": "39241000000"
+        }
+      ],
+      "category_code": "MAPI_CUSTOMS_POSITION",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RISK_CLASS",
+      "values": [
+        {
+          "value_code": "2",
+          "value": "2 (medium)"
+        }
+      ],
+      "category_code": "MAPI_RISK_CLASS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_KUBE_TUKA",
+      "values": [
+        {
+          "value_code": "BLANK",
+          "value": "KUBE und TUKA nicht zugelassen"
+        }
+      ],
+      "category_code": "MAPI_KUBE_TUKA",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HART",
+          "value": "Hartwaren Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "H",
+          "value": "Hartwaren"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "50909",
+          "value": "FRISCHHALTEN/KUEHLEN"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_EXPORTABLE",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Yes",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MAPI_EXPORTABLE",
+      "top_fact": false
+    }
+  ],
+  "recipe_ingredient_ids": [
+    "10000"
+  ],
+  "regional_availability": {
+    "gmaa": {
+      "probability": 98
+    },
+    "gmbs": {
+      "probability": 100
+    },
+    "gmge": {
+      "probability": 76
+    },
+    "gmlu": {
+      "probability": 93
+    },
+    "gmnf": {
+      "probability": 96
+    },
+    "gmos": {
+      "probability": 93
+    },
+    "gmti": {
+      "probability": 87
+    },
+    "gmvd": {
+      "probability": 100
+    },
+    "gmvs": {
+      "probability": 89
+    },
+    "gmzh": {
+      "probability": 92
+    }
+  },
+  "colors": [
+    {
+      "label": "blau",
+      "hex": "#0000FF",
+      "group": "Blau",
+      "group_hex": "#0000FF"
+    },
+    {
+      "label": "Blau",
+      "hex": "#0000FF",
+      "group": "Blau",
+      "group_hex": "#0000FF"
+    }
+  ],
+  "ratings": {
+    "count_all": 26,
+    "average_all": 4.923076923077
+  },
+  "related_products": {
+    "reference_recommendations": {
+      "product_ids": [
+        "702902100040"
+      ]
+    }
+  },
+  "quantity_on_stock": 33703,
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "updated_at": "2023-08-17T12:04:35+0200",
+  "sap_created_at": "1996-12-03T00:00:00+0100",
+  "online_shop_relevant": true,
+  "base_unit": "CU",
+  "origins": {
+    "producing_country": "Switzerland"
+  },
+  "views": [
+    "all",
+    "browse",
+    "browseallretailers"
+  ]
+}

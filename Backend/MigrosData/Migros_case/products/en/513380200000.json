@@ -1,0 +1,524 @@
+{
+  "id": "513380200000",
+  "language": "en",
+  "name": "Nivea Magic Bar Radiance",
+  "names": {
+    "short_name": "Nivea Magic Bar Radiance"
+  },
+  "slug": "nivea-magic-bar-radiance",
+  "slugs": {
+    "de": "nivea-magic-bar-strahlend",
+    "fr": "nivea-magic-bar-rayonnant",
+    "it": "nivea-magic-bar-smagliante",
+    "en": "nivea-magic-bar-radiance"
+  },
+  "type": "00",
+  "boss_number": "090122110505",
+  "data_source": "SAP-X11",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03"
+  },
+  "tags": [
+    "source-pex",
+    "near-non-food",
+    "migipedia",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "4005900841551"
+  ],
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarket"
+  },
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "brand": {
+    "id": "393",
+    "name": "Nivea",
+    "slug": "nivea"
+  },
+  "labels": [
+    {
+      "id": "L41",
+      "name": "Naturkosmetik",
+      "slug": "naturkosmetik"
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_01110202",
+      "name": "Gesichtsreinigung",
+      "slug": "supermarkt/beauty/gesichtspflege/gesichtsreinigung",
+      "visible": true,
+      "parent_code": "BeSS_011102",
+      "level": 4
+    },
+    {
+      "code": "BeSS_011102",
+      "name": "Gesichtspflege",
+      "slug": "supermarkt/beauty/gesichtspflege",
+      "visible": true,
+      "parent_code": "BeSS_0111",
+      "level": 3
+    },
+    {
+      "code": "BeSS_0111",
+      "name": "Beauty",
+      "slug": "supermarkt/beauty",
+      "visible": true,
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/293925170bd129344f9259c67a15e903f881bef8/beauty.jpg",
+        "stack": "https://image.migros.ch/{stack}/293925170bd129344f9259c67a15e903f881bef8/beauty.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "online_relevant": [
+    {
+      "code": "MGB",
+      "name": "Migros Genossenschafts-Bund"
+    },
+    {
+      "code": "MO",
+      "name": "Migros Online"
+    }
+  ],
+  "galaxus_relevant": false,
+  "links": {
+    "migros_ch": {
+      "url": "https://www.migros.ch/en/product/513380200000?context=instore",
+      "name": "In-store assortment",
+      "canonical": "https://www.migros.ch/en/product/513380200000?context=instore",
+      "type": "info",
+      "purchasable": false
+    },
+    "migros_online": {
+      "url": "https://www.migros.ch/en/product/513380200000?context=online",
+      "mo_product_id": "6476460",
+      "name": "Online-shop assortment",
+      "canonical": "https://www.migros.ch/en/product/513380200000?context=instore",
+      "type": "shop",
+      "purchasable": true,
+      "one_catalog_id": 100031177
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/513380200000",
+      "name": "Migipedia",
+      "canonical": "https://www.migros.ch/en/product/513380200000?context=instore",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "receipt_text": "Nivea Magic Bar Strahl",
+  "package": {
+    "content": 75,
+    "content_unit_code": "g",
+    "content_unit": "Gramm",
+    "net_weight": 0.075,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "brutto_weight": 0.081,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 117.612,
+    "brutto_volume_unit_code": "ccm",
+    "height": 2.7,
+    "length": 6.6,
+    "width": 6.6,
+    "unit_dimension": "cm",
+    "price_comparison_content": 10,
+    "size": "75g"
+  },
+  "package_information": {
+    "tu": {
+      "gtins": [
+        "4005900841568"
+      ],
+      "brutto_volume": 2187.022,
+      "brutto_volume_unit_code": "ccm",
+      "height": 8.2,
+      "length": 14.9,
+      "width": 17.9,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 12
+    },
+    "cu": {
+      "gtins": [
+        "4005900841551"
+      ],
+      "brutto_weight": 0.081,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 117.612,
+      "brutto_volume_unit_code": "ccm",
+      "height": 2.7,
+      "length": 6.6,
+      "width": 6.6,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "lu": {
+      "brutto_volume": 1259520,
+      "brutto_volume_unit_code": "ccm",
+      "height": 131.2,
+      "length": 120,
+      "width": 80,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 6336
+    },
+    "lge": {
+      "number_of_base_units": 396
+    },
+    "kar": {
+      "number_of_base_units": 12
+    }
+  },
+  "vat": {
+    "id": 1,
+    "percentage": 7.7
+  },
+  "price": {
+    "valid_from": "2023-08-08T00:00:00+0200",
+    "valid_to": "2023-08-21T23:59:59+0200",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 6.75,
+      "original_price": 8.95,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "75g"
+    },
+    "base": {
+      "price": 0.9,
+      "quantity": 10,
+      "unit": "G"
+    },
+    "discount": {
+      "id": "1913835",
+      "region": "national",
+      "start_date": "2023-08-08T00:00:00+0200",
+      "end_date": "2023-08-21T23:59:59+0200",
+      "publication_date": "2023-08-06T00:00:00+0200",
+      "discount_amount": "25%",
+      "discount_regions": [
+        "national"
+      ],
+      "reference_product_id": "513376200000",
+      "discount_type": "aktion",
+      "discount_type_id": "005",
+      "discount_type_label": "GRAB Angebot CHF beim Kauf ab X Stueck",
+      "organisation": "09",
+      "cooperative": "mgb",
+      "conditions": {
+        "minimum_pieces": {
+          "value": 2,
+          "prefix": "ab"
+        }
+      },
+      "reduction": {
+        "relative": false,
+        "amount": 25
+      },
+      "location_planning_type": "01",
+      "reduction_type_id": "01",
+      "special_advertisement": false,
+      "description": "Nivea- und Nivea Men-Gesichts- sowie -Körperpflege-Produkte",
+      "discount_hint": "<strong style=\"color:#ff6600;\">ab 2 </strong><strong style=\"color:#ff6600;\">Stück, </strong>(ohne Reisegrössen, Baby, Sun und Mehrfachpackungen), z.B. Nivea Luminous 630 Anti-Pigmentflecken-Serum, 30 ml, <strong>22.50 </strong>statt 29.95, Angebot gilt nur vom 8.8. bis 21.8.2023, solange Vorrat.",
+      "high_performer": false,
+      "collective_discount": true,
+      "instead_of": "statt",
+      "price": 6.75,
+      "original_price": 8.95,
+      "disclaimer": "Gültigkeit siehe Angebots-Detailseite.\r\nBei allen Angeboten sind M-Budget und bereits reduzierte Artikel ausgenommen.\r\nBei Aktionen können bei der Verrechnung auf dem Kassabon Rundungsdifferenzen zu Gunsten des Kunden entstehen.",
+      "source": "PriceRepository",
+      "boss_number": "090122110505",
+      "discount_role_id": "2000000002",
+      "discount_role_label": "M: Wochenangebot Typ I",
+      "last_imported": "2023-08-14T04:45:54+0200"
+    },
+    "discount_hint": "<strong style=\"color:#ff6600;\">ab 2 </strong><strong style=\"color:#ff6600;\">Stück, </strong>Angebot gilt nur vom 8.8. bis 21.8.2023, solange Vorrat."
+  },
+  "features": [
+    {
+      "label_code": "miso_produkttyp",
+      "label": "Product type",
+      "values": [
+        {
+          "value_code": "MISO_produkttyp_festegesichtsreinigung",
+          "value": "Feste Gesichtsreinigung"
+        }
+      ],
+      "category_code": "MISO_CLA_Gesichtsreinigung_Gesichtspflege_Beauty_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "miso_geeignet_fuer",
+      "label": "Suitable for",
+      "values": [
+        {
+          "value_code": "MISO_geeignet_fuer_allehauttypen",
+          "value": "Alle Hauttypen"
+        }
+      ],
+      "category_code": "MISO_CLA_Gesichtsreinigung_Gesichtspflege_Beauty_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/8abfae0dd8a8b723b245f3b6d3f90473b6e6fd26/nivea-magic-bar-radiance.jpg",
+    "stack": "https://image.migros.ch/{stack}/8abfae0dd8a8b723b245f3b6d3f90473b6e6fd26/nivea-magic-bar-radiance.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/fb7d928f2761c64c65ec12c305332288b1f76ba2/nivea-magic-bar-radiance.png",
+    "stack": "https://image.migros.ch/{stack}/fb7d928f2761c64c65ec12c305332288b1f76ba2/nivea-magic-bar-radiance.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Standard item"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "ZHKS"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RISK_CLASS",
+      "values": [
+        {
+          "value_code": "1",
+          "value": "1 (high)"
+        }
+      ],
+      "category_code": "MAPI_RISK_CLASS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_QUALITY_CHECK",
+      "values": [
+        {
+          "value_code": "00",
+          "value": "No Quality Control"
+        }
+      ],
+      "category_code": "MAPI_QUALITY_CHECK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZHKS",
+          "value": "HKS Standardartikel"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "H",
+          "value": "HKS Standard"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "50344",
+          "value": "NIVEA FACE"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LIFECYCLE",
+      "values": [
+        {
+          "value_code": "D",
+          "value": "Detailhandelsartikel"
+        }
+      ],
+      "category_code": "MAPI_LIFECYCLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_EXPORTABLE",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_EXPORTABLE",
+      "top_fact": false
+    }
+  ],
+  "regional_availability": {
+    "gmaa": {
+      "probability": 15
+    },
+    "gmbs": {
+      "probability": 17
+    },
+    "gmge": {
+      "probability": 5
+    },
+    "gmlu": {
+      "probability": 25
+    },
+    "gmnf": {
+      "probability": 10
+    },
+    "gmos": {
+      "probability": 11
+    },
+    "gmti": {
+      "probability": 28
+    },
+    "gmvd": {
+      "probability": 12
+    },
+    "gmvs": {
+      "probability": 26
+    },
+    "gmzh": {
+      "probability": 9
+    }
+  },
+  "ratings": {
+    "count_all": 3,
+    "average_all": 4
+  },
+  "reindex_date": "2023-08-21T23:59:59+0200",
+  "updated_at": "2023-08-17T12:02:05+0200",
+  "sap_created_at": "2021-02-03T00:00:00+0100",
+  "base_unit": "CU",
+  "views": [
+    "all",
+    "browse",
+    "browseallretailers"
+  ]
+}

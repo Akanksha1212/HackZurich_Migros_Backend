@@ -1,0 +1,585 @@
+{
+  "id": "842927503720",
+  "language": "en",
+  "name": "UX-CLOGS BLACK_037,black",
+  "names": {
+    "short_name": "UX-CLOGS BLACK_037,black"
+  },
+  "slug": "ux-clogs-black-037-black-schwarz-037",
+  "slugs": {
+    "de": "clogs-unisex-schwarz-schwarz-037",
+    "fr": "clogs-unisex-noir-noir-037",
+    "it": "clogs-unisex-nero-nero-037",
+    "en": "ux-clogs-black-037-black-schwarz-037"
+  },
+  "type": "02",
+  "boss_number": "101310630515",
+  "description": {
+    "text": "Clogs f&uuml;r Damen und Herren, welcher aus weichem EVA-Material gefertigt ist. Der lockere Halt erm&ouml;glicht ein einfaches An- und Ausziehen.",
+    "source": "PEX"
+  },
+  "data_source": "SAP-X12",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03",
+    "distribution_center": [
+      {
+        "center_id": "1001",
+        "center_name": "Migros Verteilzentrum Neuendorf",
+        "status_code": "03",
+        "status_description": "active"
+      }
+    ]
+  },
+  "tags": [
+    "source-pex",
+    "migipedia",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": true,
+  "base_product_id": "842927500000",
+  "gtins": [
+    "7613432913690",
+    "7613345406715"
+  ],
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarket"
+  },
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": true,
+      "stock_request": true,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "brand": {
+    "id": "CS3",
+    "name": "MIGROS ESSENTIALS",
+    "slug": "migros-essentials"
+  },
+  "categories": [
+    {
+      "code": "BeSS_01061301",
+      "name": "Schuhe",
+      "slug": "supermarkt/bekleidung-accessoires/schuhe/schuhe",
+      "visible": true,
+      "parent_code": "BeSS_010613",
+      "level": 4
+    },
+    {
+      "code": "BeSS_010613",
+      "name": "Schuhe",
+      "slug": "supermarkt/bekleidung-accessoires/schuhe",
+      "visible": true,
+      "parent_code": "BeSS_0106",
+      "level": 3
+    },
+    {
+      "code": "BeSS_0106",
+      "name": "Bekleidung & Accessoires",
+      "slug": "supermarkt/bekleidung-accessoires",
+      "visible": true,
+      "title": "Kleider und Accessoires: Unser Supermarkt zieht alle an",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/afd5685b67370e2faef13438d6ffc0a15afd5d2d/bekleidung-accessoires.jpg",
+        "stack": "https://image.migros.ch/{stack}/afd5685b67370e2faef13438d6ffc0a15afd5d2d/bekleidung-accessoires.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "BeSS_01061303",
+        "name": "Hausschuhe",
+        "slug": "supermarkt/bekleidung-accessoires/schuhe/hausschuhe",
+        "visible": true,
+        "parent_code": "BeSS_010613",
+        "level": 4
+      },
+      {
+        "code": "BeSS_010613",
+        "name": "Schuhe",
+        "slug": "supermarkt/bekleidung-accessoires/schuhe",
+        "visible": true,
+        "parent_code": "BeSS_0106",
+        "level": 3
+      },
+      {
+        "code": "BeSS_0106",
+        "name": "Bekleidung & Accessoires",
+        "slug": "supermarkt/bekleidung-accessoires",
+        "visible": true,
+        "title": "Kleider und Accessoires: Unser Supermarkt zieht alle an",
+        "parent_code": "BeSS_01",
+        "image": {
+          "original": "https://image.migros.ch/original/afd5685b67370e2faef13438d6ffc0a15afd5d2d/bekleidung-accessoires.jpg",
+          "stack": "https://image.migros.ch/{stack}/afd5685b67370e2faef13438d6ffc0a15afd5d2d/bekleidung-accessoires.jpg"
+        },
+        "level": 2
+      },
+      {
+        "code": "BeSS_01",
+        "name": "Supermarkt",
+        "slug": "supermarkt",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "online_relevant": [
+    {
+      "code": "MGB",
+      "name": "Migros Genossenschafts-Bund"
+    }
+  ],
+  "galaxus_relevant": false,
+  "links": {
+    "migros_ch": {
+      "url": "https://www.migros.ch/en/product/842927503720?context=instore",
+      "name": "In-store assortment",
+      "canonical": "https://www.migros.ch/en/product/842927503720?context=instore",
+      "type": "info",
+      "purchasable": false
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/842927503720",
+      "name": "Migipedia",
+      "canonical": "https://www.migros.ch/en/product/842927503720?context=instore",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "receipt_text": "Unisex Clogs",
+  "package": {
+    "content": 1,
+    "content_unit_code": "st",
+    "content_unit": "Stück",
+    "net_weight": 0.3,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "brutto_weight": 0.3,
+    "brutto_weight_unit_code": "kg",
+    "price_comparison_content": 1,
+    "size": "1 Paar"
+  },
+  "package_information": {
+    "cu": {
+      "gtins": [
+        "7613432913690",
+        "7613345406715"
+      ],
+      "brutto_weight": 0.3,
+      "brutto_weight_unit_code": "kg",
+      "number_of_base_units": 1
+    },
+    "tuv": {
+      "brutto_weight": 0.25,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 9.79,
+      "brutto_volume_unit_code": "cdm",
+      "height": 9790,
+      "length": 1,
+      "width": 1,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "tue": {
+      "number_of_base_units": 1
+    },
+    "lu": {
+      "number_of_base_units": 156
+    },
+    "lge": {
+      "number_of_base_units": 12
+    },
+    "kar": {
+      "brutto_volume": 0.144,
+      "brutto_volume_unit_code": "m3",
+      "height": 30,
+      "length": 80,
+      "width": 60,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "moq": {
+      "number_of_base_units": 3000
+    }
+  },
+  "vat": {
+    "id": 1,
+    "percentage": 7.7
+  },
+  "price": {
+    "valid_from": "2021-08-30T00:00:00+0200",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 14.95,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "1 Paar"
+    },
+    "base": {
+      "price": 14.95,
+      "quantity": 1,
+      "unit": "st"
+    }
+  },
+  "features": [
+    {
+      "label_code": "miso_kategorie",
+      "label": "Category/theme",
+      "values": [
+        {
+          "value_code": "MISO_kategorie_clogs",
+          "value": "Clogs"
+        }
+      ],
+      "category_code": "MISO_CLA_Schuhe_Schuhe_Bekleidung_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "miso_bekleidung_look",
+      "label": "Look",
+      "values": [
+        {
+          "value_code": "MISO_look_uni",
+          "value": "uni"
+        }
+      ],
+      "category_code": "MISO_CLA_Schuhe_Schuhe_Bekleidung_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "miso_obermaterial",
+      "label": "Upper material",
+      "values": [
+        {
+          "value_code": "MISO_obermaterial_eva",
+          "value": "EVA"
+        }
+      ],
+      "category_code": "MISO_CLA_Schuhe_Schuhe_Bekleidung_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "miso_sohle",
+      "label": "Sole",
+      "values": [
+        {
+          "value_code": "MISO_sohle_eva",
+          "value": "EVA"
+        }
+      ],
+      "category_code": "MISO_CLA_Schuhe_Schuhe_Bekleidung_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    }
+  ],
+  "attributes": {
+    "color": {
+      "code": "FB23-20",
+      "name": "Farbe",
+      "value": "Schwarz"
+    },
+    "size": {
+      "code": "GB42-037",
+      "name": "Grösse",
+      "value": "037"
+    }
+  },
+  "image": {
+    "original": "https://image.migros.ch/original/34d223d535c8ddc66f6c413628b978e3f3c30660/ux-clogs-black-037-black.jpg",
+    "stack": "https://image.migros.ch/{stack}/34d223d535c8ddc66f6c413628b978e3f3c30660/ux-clogs-black-037-black.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/37ac5b74d6cc1e83ef22f7a20c2451570103a666/ux-clogs-black-037-black.png",
+    "stack": "https://image.migros.ch/{stack}/37ac5b74d6cc1e83ef22f7a20c2451570103a666/ux-clogs-black-037-black.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+      "values": [
+        {
+          "value_code": "55",
+          "value": "Versandart Paket"
+        }
+      ],
+      "category_code": "MAPI_DEFAULT_LOGISTIC_TYPE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LOGISTIC_CLASS",
+      "values": [
+        {
+          "value_code": "1",
+          "value": "Lager"
+        }
+      ],
+      "category_code": "MAPI_LOGISTIC_CLASS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Standard item"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "BEKL"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRESENTATION",
+      "values": [
+        {
+          "value_code": "H",
+          "value": "hängend"
+        }
+      ],
+      "category_code": "MAPI_PRESENTATION",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RISK_CLASS",
+      "values": [
+        {
+          "value_code": "1",
+          "value": "1 (high)"
+        }
+      ],
+      "category_code": "MAPI_RISK_CLASS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_QUALITY_CHECK",
+      "values": [
+        {
+          "value_code": "01",
+          "value": "FRL + FRI"
+        }
+      ],
+      "category_code": "MAPI_QUALITY_CHECK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_KUBE_TUKA",
+      "values": [
+        {
+          "value_code": "BLANK",
+          "value": "KUBE und TUKA nicht zugelassen"
+        }
+      ],
+      "category_code": "MAPI_KUBE_TUKA",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "BEKL",
+          "value": "Bekleidung \"test\" Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "B",
+          "value": "Bekleidung"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "61073",
+          "value": "BASICS"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_EXPORTABLE",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_EXPORTABLE",
+      "top_fact": false
+    }
+  ],
+  "regional_availability": {
+    "gmaa": {
+      "probability": 19
+    },
+    "gmbs": {
+      "probability": 19
+    },
+    "gmge": {
+      "probability": 21
+    },
+    "gmlu": {
+      "probability": 2
+    },
+    "gmnf": {
+      "probability": 10
+    },
+    "gmos": {
+      "probability": 13
+    },
+    "gmti": {
+      "probability": 6
+    },
+    "gmvd": {
+      "probability": 16
+    },
+    "gmvs": {
+      "probability": 7
+    },
+    "gmzh": {
+      "probability": 10
+    }
+  },
+  "ratings": {
+    "count_all": 9,
+    "average_all": 4
+  },
+  "quantity_on_stock": 444,
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "updated_at": "2023-08-17T07:30:12+0200",
+  "sap_created_at": "2015-11-03T00:00:00+0100",
+  "base_unit": "CU",
+  "origins": {
+    "producing_country": "China"
+  },
+  "views": [
+    "all",
+    "browse",
+    "browseallretailers"
+  ]
+}

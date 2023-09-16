@@ -1,0 +1,518 @@
+{
+  "id": "514160600000",
+  "language": "en",
+  "name": "Elmex Intensivreinigung",
+  "names": {
+    "short_name": "Elmex Intensivreinigung"
+  },
+  "slug": "elmex-intensivreinigung",
+  "slugs": {
+    "de": "elmex-intensivreinigung",
+    "fr": "elmex-nettoyage-intense",
+    "it": "elmex-dentifricio-pulizia-intensiva",
+    "en": "elmex-intensivreinigung"
+  },
+  "type": "00",
+  "boss_number": "090221700510",
+  "data_source": "SAP-X11",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03"
+  },
+  "tags": [
+    "source-pex",
+    "near-non-food",
+    "migipedia",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7610108053469",
+    "7610108002900"
+  ],
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarket"
+  },
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "brand": {
+    "id": "268",
+    "name": "Elmex",
+    "slug": "elmex",
+    "image": {
+      "original": "https://image.migros.ch/original/1e6712722d5fdb89b7fda79c987dea4d25f02b72/elmex.jpg",
+      "stack": "https://image.migros.ch/{stack}/1e6712722d5fdb89b7fda79c987dea4d25f02b72/elmex.jpg"
+    }
+  },
+  "categories": [
+    {
+      "code": "BeSS_01110401",
+      "name": "Zahnpasta",
+      "slug": "supermarkt/beauty/mundpflege/zahnpasta",
+      "visible": true,
+      "parent_code": "BeSS_011104",
+      "level": 4
+    },
+    {
+      "code": "BeSS_011104",
+      "name": "Mundpflege",
+      "slug": "supermarkt/beauty/mundpflege",
+      "visible": true,
+      "parent_code": "BeSS_0111",
+      "level": 3
+    },
+    {
+      "code": "BeSS_0111",
+      "name": "Beauty",
+      "slug": "supermarkt/beauty",
+      "visible": true,
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/293925170bd129344f9259c67a15e903f881bef8/beauty.jpg",
+        "stack": "https://image.migros.ch/{stack}/293925170bd129344f9259c67a15e903f881bef8/beauty.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "online_relevant": [
+    {
+      "code": "MGB",
+      "name": "Migros Genossenschafts-Bund"
+    },
+    {
+      "code": "MO",
+      "name": "Migros Online"
+    }
+  ],
+  "galaxus_relevant": false,
+  "links": {
+    "migros_ch": {
+      "url": "https://www.migros.ch/en/product/514160600000?context=instore",
+      "name": "In-store assortment",
+      "canonical": "https://www.migros.ch/en/product/514160600000?context=instore",
+      "type": "info",
+      "purchasable": false
+    },
+    "migros_online": {
+      "url": "https://www.migros.ch/en/product/514160600000?context=online",
+      "mo_product_id": "129332",
+      "name": "Online-shop assortment",
+      "canonical": "https://www.migros.ch/en/product/514160600000?context=instore",
+      "type": "shop",
+      "purchasable": true,
+      "one_catalog_id": 100024690
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/514160600000",
+      "name": "Migipedia",
+      "canonical": "https://www.migros.ch/en/product/514160600000?context=instore",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "receipt_text": "Elmex Intensiv-Reinigu",
+  "package": {
+    "content": 50,
+    "content_unit_code": "ml",
+    "content_unit": "Mililiter",
+    "net_weight": 0.068,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "brutto_weight": 0.085,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 0.432,
+    "brutto_volume_unit_code": "cdm",
+    "height": 3.9,
+    "length": 3.2,
+    "width": 13.6,
+    "unit_dimension": "cm",
+    "price_comparison_content": 10,
+    "size": "50ml"
+  },
+  "package_information": {
+    "tu": {
+      "gtins": [
+        "7610108002863",
+        "7610108002894",
+        "8714789910017",
+        "7610108053452"
+      ],
+      "brutto_weight": 1.34,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 2.88,
+      "brutto_volume_unit_code": "cdm",
+      "height": 16,
+      "length": 15,
+      "width": 12,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 12
+    },
+    "cu": {
+      "gtins": [
+        "7610108053469",
+        "7610108002900"
+      ],
+      "brutto_weight": 0.085,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.432,
+      "brutto_volume_unit_code": "cdm",
+      "height": 3.9,
+      "length": 3.2,
+      "width": 13.6,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "lu": {
+      "height": 95,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 3456
+    },
+    "lge": {
+      "number_of_base_units": 1
+    },
+    "kar": {
+      "number_of_base_units": 1
+    }
+  },
+  "vat": {
+    "id": 1,
+    "percentage": 7.7
+  },
+  "price": {
+    "valid_from": "2018-01-29T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 6.9,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "50ml"
+    },
+    "base": {
+      "price": 1.38,
+      "quantity": 10,
+      "unit": "ml"
+    }
+  },
+  "features": [
+    {
+      "label_code": "miso_geeignet_fuer",
+      "label": "Suitable for",
+      "values": [
+        {
+          "value_code": "MISO_geeignet_fuer_kariesschutz",
+          "value": "Kariesschutz"
+        }
+      ],
+      "category_code": "MISO_CLA_Zahnpasta_Mundpflege_Beauty_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/fd9b05bfcb4caf4d342d10b5f5bfef77637e590d/elmex-intensivreinigung.jpg",
+    "stack": "https://image.migros.ch/{stack}/fd9b05bfcb4caf4d342d10b5f5bfef77637e590d/elmex-intensivreinigung.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/709de38f5e1f0fdddfc35264aac3f50ee4a6697f/elmex-intensivreinigung.png",
+    "stack": "https://image.migros.ch/{stack}/709de38f5e1f0fdddfc35264aac3f50ee4a6697f/elmex-intensivreinigung.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "miso_amigos_anzeige",
+      "label": "Display aMigos!",
+      "values": [
+        {
+          "value_code": "MISO_aMigos_anzeige_ja",
+          "value": "ja"
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "miso_amigos_sortierung",
+      "label": "aMigos sorting",
+      "values": [
+        {
+          "value": "350"
+        }
+      ],
+      "category_code": "MISO_CLA_aMigos_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Standard item"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "ZHKS"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RISK_CLASS",
+      "values": [
+        {
+          "value_code": "1",
+          "value": "1 (high)"
+        }
+      ],
+      "category_code": "MAPI_RISK_CLASS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_QUALITY_CHECK",
+      "values": [
+        {
+          "value_code": "00",
+          "value": "No Quality Control"
+        }
+      ],
+      "category_code": "MAPI_QUALITY_CHECK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZHKS",
+          "value": "HKS Standardartikel"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "H",
+          "value": "HKS Standard"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "50048",
+          "value": "ZAHNPASTEN"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LIFECYCLE",
+      "values": [
+        {
+          "value_code": "D",
+          "value": "Detailhandelsartikel"
+        }
+      ],
+      "category_code": "MAPI_LIFECYCLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_EXPORTABLE",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_EXPORTABLE",
+      "top_fact": false
+    }
+  ],
+  "declarations": {
+    "declaration_number": "Q_9616096985326695",
+    "tags": [
+      "source-qim"
+    ],
+    "gtins": [
+      "7610108053469"
+    ],
+    "valid_from": "2023-06-01T00:00:00+0200",
+    "product_details": {
+      "regulated_description": "TOOTHPASTE",
+      "net_filled_quantity": {
+        "value": "50 ml",
+        "numeric_value": 50,
+        "unit": "ml"
+      },
+      "net_weight": {
+        "value": "68 Gramm",
+        "numeric_value": 68,
+        "unit": "Gramm"
+      }
+    }
+  },
+  "regional_availability": {
+    "gmaa": {
+      "probability": 51
+    },
+    "gmbs": {
+      "probability": 40
+    },
+    "gmge": {
+      "probability": 47
+    },
+    "gmlu": {
+      "probability": 36
+    },
+    "gmnf": {
+      "probability": 39
+    },
+    "gmos": {
+      "probability": 42
+    },
+    "gmti": {
+      "probability": 61
+    },
+    "gmvd": {
+      "probability": 40
+    },
+    "gmvs": {
+      "probability": 44
+    },
+    "gmzh": {
+      "probability": 51
+    }
+  },
+  "ratings": {
+    "count_all": 10,
+    "average_all": 4.5
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "updated_at": "2023-08-17T12:02:53+0200",
+  "sap_created_at": "2007-01-05T00:00:00+0100",
+  "base_unit": "CU",
+  "origins": {
+    "producing_country": "Great Britain"
+  },
+  "views": [
+    "all",
+    "browse",
+    "browseallretailers"
+  ]
+}

@@ -1,0 +1,642 @@
+{
+  "id": "523204800000",
+  "language": "en",
+  "name": "Alviana feste Shampoo Bio-Kokos",
+  "names": {
+    "short_name": "Alviana feste Shampoo Bio-Kokos"
+  },
+  "slug": "alviana-feste-shampoo-bio-kokos",
+  "slugs": {
+    "de": "alviana-feste-shampoo-bio-kokos",
+    "fr": "alviana-shampooing-solide-coco-bio",
+    "it": "alviana-shampoo-solido-cocco-bio",
+    "en": "alviana-feste-shampoo-bio-kokos"
+  },
+  "type": "00",
+  "boss_number": "090121679640",
+  "description": {
+    "text": "<p><strong>&nbsp;Anwendung: </strong>Festes Shampoo direkt im feuchten Haar oder in den nassen H&auml;nden aufsch&auml;umen, verteilen und aussp&uuml;len. Nach der Verwendung festes Shampoo trocknen lassen und trocken aufbewahren.&nbsp;</p>",
+    "source": "PEX"
+  },
+  "data_source": "SAP-X11",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03"
+  },
+  "tags": [
+    "source-pex",
+    "near-non-food",
+    "migipedia",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "4260167187310"
+  ],
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarket"
+  },
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "brand": {
+    "id": "D12",
+    "name": "Alviana",
+    "slug": "alviana"
+  },
+  "labels": [
+    {
+      "id": "L41",
+      "name": "Naturkosmetik",
+      "slug": "naturkosmetik"
+    },
+    {
+      "id": "L55",
+      "name": "Vegan Flower",
+      "slug": "vegan-flower",
+      "image": {
+        "original": "https://image.migros.ch/original/c5723257619218d275dade4d7d332cda242cafcc/vegan-flower.jpg",
+        "stack": "https://image.migros.ch/{stack}/c5723257619218d275dade4d7d332cda242cafcc/vegan-flower.jpg"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_01110603",
+      "name": "Haarpflege",
+      "slug": "supermarkt/beauty/naturkosmetik/haarpflege",
+      "visible": true,
+      "parent_code": "BeSS_011106",
+      "level": 4
+    },
+    {
+      "code": "BeSS_011106",
+      "name": "Naturkosmetik",
+      "slug": "supermarkt/beauty/naturkosmetik",
+      "visible": true,
+      "parent_code": "BeSS_0111",
+      "level": 3
+    },
+    {
+      "code": "BeSS_0111",
+      "name": "Beauty",
+      "slug": "supermarkt/beauty",
+      "visible": true,
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/293925170bd129344f9259c67a15e903f881bef8/beauty.jpg",
+        "stack": "https://image.migros.ch/{stack}/293925170bd129344f9259c67a15e903f881bef8/beauty.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "additional_categories": [
+    [
+      {
+        "code": "ALNA_CAT_Haarpflege_Naturkosmetik",
+        "name": "Haarpflege",
+        "slug": "alnatura/naturkosmetik/haarpflege",
+        "visible": true,
+        "parent_code": "ALNA_CAT_Naturkosmetik",
+        "level": 3
+      },
+      {
+        "code": "ALNA_CAT_Naturkosmetik",
+        "name": "Naturkosmetik",
+        "slug": "alnatura/naturkosmetik",
+        "visible": true,
+        "parent_code": "BeSS_97",
+        "level": 2
+      },
+      {
+        "code": "BeSS_97",
+        "name": "Alnatura",
+        "slug": "alnatura",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ],
+    [
+      {
+        "code": "BeSS_01110101",
+        "name": "Haarpflege",
+        "slug": "supermarkt/beauty/haare/haarpflege",
+        "visible": true,
+        "parent_code": "BeSS_011101",
+        "level": 4
+      },
+      {
+        "code": "BeSS_011101",
+        "name": "Haare",
+        "slug": "supermarkt/beauty/haare",
+        "visible": true,
+        "parent_code": "BeSS_0111",
+        "level": 3
+      },
+      {
+        "code": "BeSS_0111",
+        "name": "Beauty",
+        "slug": "supermarkt/beauty",
+        "visible": true,
+        "parent_code": "BeSS_01",
+        "image": {
+          "original": "https://image.migros.ch/original/293925170bd129344f9259c67a15e903f881bef8/beauty.jpg",
+          "stack": "https://image.migros.ch/{stack}/293925170bd129344f9259c67a15e903f881bef8/beauty.jpg"
+        },
+        "level": 2
+      },
+      {
+        "code": "BeSS_01",
+        "name": "Supermarkt",
+        "slug": "supermarkt",
+        "visible": true,
+        "parent_code": "root",
+        "level": 1
+      }
+    ]
+  ],
+  "online_relevant": [
+    {
+      "code": "MGB",
+      "name": "Migros Genossenschafts-Bund"
+    },
+    {
+      "code": "MO",
+      "name": "Migros Online"
+    }
+  ],
+  "galaxus_relevant": false,
+  "links": {
+    "migros_ch": {
+      "url": "https://www.migros.ch/en/product/523204800000?context=instore",
+      "name": "In-store assortment",
+      "canonical": "https://www.migros.ch/en/product/523204800000?context=instore",
+      "type": "info",
+      "purchasable": false
+    },
+    "migros_online": {
+      "url": "https://www.migros.ch/en/product/523204800000?context=online",
+      "mo_product_id": "6473015",
+      "name": "Online-shop assortment",
+      "canonical": "https://www.migros.ch/en/product/523204800000?context=instore",
+      "type": "shop",
+      "purchasable": true,
+      "one_catalog_id": 100030707
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/523204800000",
+      "name": "Migipedia",
+      "canonical": "https://www.migros.ch/en/product/523204800000?context=instore",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "receipt_text": "Alviana Shampoo Kokos",
+  "package": {
+    "content": 60,
+    "content_unit_code": "g",
+    "content_unit": "Gramm",
+    "net_weight": 0.06,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogramm",
+    "brutto_weight": 0.066,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 107.632,
+    "brutto_volume_unit_code": "ccm",
+    "height": 6.2,
+    "length": 6.2,
+    "width": 2.8,
+    "unit_dimension": "cm",
+    "price_comparison_content": 10,
+    "size": "60g"
+  },
+  "package_information": {
+    "tu": {
+      "gtins": [
+        "4260167187327"
+      ],
+      "brutto_weight": 0.495,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 801.32,
+      "brutto_volume_unit_code": "ccm",
+      "height": 6.7,
+      "length": 18.4,
+      "width": 6.5,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 6
+    },
+    "cu": {
+      "gtins": [
+        "4260167187310"
+      ],
+      "brutto_weight": 0.066,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 107.632,
+      "brutto_volume_unit_code": "ccm",
+      "height": 6.2,
+      "length": 6.2,
+      "width": 2.8,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "lu": {
+      "number_of_base_units": 5850
+    },
+    "lge": {
+      "number_of_base_units": 450
+    },
+    "kar": {
+      "number_of_base_units": 1
+    }
+  },
+  "vat": {
+    "id": 1,
+    "percentage": 7.7
+  },
+  "price": {
+    "valid_from": "2021-02-17T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 5.9,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "60g"
+    },
+    "base": {
+      "price": 0.98,
+      "quantity": 10,
+      "unit": "g"
+    }
+  },
+  "features": [
+    {
+      "label_code": "miso_produkttyp",
+      "label": "Product type",
+      "values": [
+        {
+          "value_code": "MISO_produkttyp_shampoo",
+          "value": "Shampoo"
+        }
+      ],
+      "category_code": "MISO_CLA_Haarpflege_Haare_Beauty_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "miso_geeignet_fuer",
+      "label": "Suitable for",
+      "values": [
+        {
+          "value_code": "MISO_geeignet_fuer_normaleshaar",
+          "value": "Normales Haar"
+        }
+      ],
+      "category_code": "MISO_CLA_Haarpflege_Haare_Beauty_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "miso_beduerfnis_nutzen",
+      "label": "Requirements/uses",
+      "values": [
+        {
+          "value_code": "MISO_beduerfnis_nutzen_feuchtigkeit",
+          "value": "Feuchtigkeit"
+        },
+        {
+          "value_code": "MISO_beduerfnis_nutzen_geschmeidigkeit",
+          "value": "Geschmeidigkeit"
+        }
+      ],
+      "category_code": "MISO_CLA_Haarpflege_Haare_Beauty_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "miso_produkttyp",
+      "label": "Product type",
+      "values": [
+        {
+          "value_code": "MISO_produkttyp_shampoo",
+          "value": "Shampoo"
+        }
+      ],
+      "category_code": "MISO_CLA_Haarpflege_Naturkosmetik_Beauty_Alle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "MAPI_VEGETARIANISM",
+      "label": "Vegetarianism",
+      "values": [
+        {
+          "value_code": "MAPI_VEGETARIANISM_vegan",
+          "value": "vegan"
+        }
+      ],
+      "category_code": "MAPI_VEGETARIANISM",
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/14820aad6af9f58f6d2a40e738161a0f9a12a6a5/alviana-feste-shampoo-bio-kokos.jpg",
+    "stack": "https://image.migros.ch/{stack}/14820aad6af9f58f6d2a40e738161a0f9a12a6a5/alviana-feste-shampoo-bio-kokos.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/348c43221ee4c20719dbaf84822e7442547aeb8a/alviana-feste-shampoo-bio-kokos.png",
+    "stack": "https://image.migros.ch/{stack}/348c43221ee4c20719dbaf84822e7442547aeb8a/alviana-feste-shampoo-bio-kokos.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Standard item"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "ZHKS"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUSTOMS_POSITION",
+      "values": [
+        {
+          "value": "33051000"
+        }
+      ],
+      "category_code": "MAPI_CUSTOMS_POSITION",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_RISK_CLASS",
+      "values": [
+        {
+          "value_code": "2",
+          "value": "2 (medium)"
+        }
+      ],
+      "category_code": "MAPI_RISK_CLASS",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_QUALITY_CHECK",
+      "values": [
+        {
+          "value_code": "00",
+          "value": "No Quality Control"
+        }
+      ],
+      "category_code": "MAPI_QUALITY_CHECK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZHKS",
+          "value": "HKS Standardartikel"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "H",
+          "value": "HKS Standard"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "50464",
+          "value": "NATURKOSMETIK HAARE"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LIFECYCLE",
+      "values": [
+        {
+          "value_code": "D",
+          "value": "Detailhandelsartikel"
+        }
+      ],
+      "category_code": "MAPI_LIFECYCLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_EXPORTABLE",
+      "values": [
+        {
+          "value_code": "BOOLEAN_TRUE",
+          "value": "Yes",
+          "boolean_value": true
+        }
+      ],
+      "category_code": "MAPI_EXPORTABLE",
+      "top_fact": false
+    }
+  ],
+  "declarations": {
+    "declaration_number": "Q_1604593687950802",
+    "tags": [
+      "source-qim"
+    ],
+    "gtins": [
+      "4260167187310"
+    ],
+    "valid_from": "2021-03-17T17:09:00+0100",
+    "product_details": {
+      "net_filled_quantity": {
+        "value": "60 g",
+        "numeric_value": 60,
+        "unit": "g"
+      },
+      "net_weight": {
+        "value": "60 Gramm",
+        "numeric_value": 60,
+        "unit": "Gramm"
+      }
+    },
+    "distributor": {
+      "name": "Bonano GmbH",
+      "address": "Carl-Benz-Str. 9, 64653 Lorsch"
+    },
+    "period_after_opening": {
+      "value": "12 months",
+      "numeric_value": 12,
+      "unit": "months"
+    }
+  },
+  "regional_availability": {
+    "gmaa": {
+      "probability": 18
+    },
+    "gmbs": {
+      "probability": 10
+    },
+    "gmge": {
+      "probability": 13
+    },
+    "gmlu": {
+      "probability": 15
+    },
+    "gmnf": {
+      "probability": 8
+    },
+    "gmos": {
+      "probability": 12
+    },
+    "gmti": {
+      "probability": 13
+    },
+    "gmvd": {
+      "probability": 11
+    },
+    "gmvs": {
+      "probability": 22
+    },
+    "gmzh": {
+      "probability": 19
+    }
+  },
+  "ratings": {
+    "count_all": 2,
+    "average_all": 4.5
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "updated_at": "2023-08-17T12:03:24+0200",
+  "sap_created_at": "2021-02-16T00:00:00+0100",
+  "base_unit": "CU",
+  "origins": {
+    "producing_country": "Germany"
+  },
+  "views": [
+    "all",
+    "browse",
+    "browseallretailers"
+  ]
+}

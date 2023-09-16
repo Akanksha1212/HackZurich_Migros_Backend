@@ -1,0 +1,607 @@
+{
+  "id": "107008600000",
+  "language": "en",
+  "name": "Cupper Bio Apple & Cinnamon Infusion",
+  "names": {
+    "short_name": "Cupper Bio Apple & Cinnamon Infusion"
+  },
+  "slug": "cupper-bio-apple-cinnamon-infusion",
+  "slugs": {
+    "de": "cupper-bio-apple-cinnamon-infusion",
+    "fr": "cupper-bio-apple-cinnamon-infusion",
+    "it": "cupper-bio-apple-cinnamon-infusion",
+    "en": "cupper-bio-apple-cinnamon-infusion"
+  },
+  "type": "00",
+  "boss_number": "010310323005",
+  "data_source": "SAP-X11",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "03"
+  },
+  "tags": [
+    "source-p4m",
+    "migipedia",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "5021991942532"
+  ],
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarket"
+  },
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "brand": {
+    "id": "T97",
+    "name": "Cupper",
+    "slug": "cupper"
+  },
+  "labels": [
+    {
+      "id": "L52",
+      "name": "Third-party organic food",
+      "slug": "third-party-organic-food"
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_010110",
+      "name": "Getränke heiss & kalt",
+      "slug": "supermarkt/lebensmittel/getraenke-heiss-kalt",
+      "visible": true,
+      "title": "Getränke aus der Migros löschen auch Ihren Durst",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/d04d95fbc2e1b4ada4783d2976d37a962a0318a1/getranke-heiss-kalt.jpg",
+        "stack": "https://image.migros.ch/{stack}/d04d95fbc2e1b4ada4783d2976d37a962a0318a1/getranke-heiss-kalt.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/31702195ec9d38aecefe80349eb347f79d56c750/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/31702195ec9d38aecefe80349eb347f79d56c750/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "online_relevant": [
+    {
+      "code": "MGB",
+      "name": "Migros Genossenschafts-Bund"
+    }
+  ],
+  "links": {
+    "migros_ch": {
+      "url": "https://www.migros.ch/en/product/107008600000?context=instore",
+      "name": "In-store assortment",
+      "canonical": "https://www.migros.ch/en/product/107008600000?context=instore",
+      "type": "info",
+      "purchasable": false
+    },
+    "migros_online": {
+      "url": "https://www.migros.ch/en/product/107008600000?context=online",
+      "mo_product_id": "10303759",
+      "name": "Online-shop assortment",
+      "canonical": "https://www.migros.ch/en/product/107008600000?context=instore",
+      "type": "shop",
+      "purchasable": true,
+      "one_catalog_id": 100110419
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/107008600000",
+      "name": "Migipedia",
+      "canonical": "https://www.migros.ch/en/product/107008600000?context=instore",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "has_safety_sheet": false,
+  "m_check2": {},
+  "receipt_text": "Cupper Bio Apple&Cinna",
+  "package": {
+    "content": 40,
+    "content_unit_code": "g",
+    "content_unit": "Gram",
+    "net_weight": 0.04,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogram",
+    "type": "CU",
+    "portions_per_package": "1",
+    "brutto_weight": 0.086,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 0.795,
+    "brutto_volume_unit_code": "cdm",
+    "height": 14.2,
+    "length": 7,
+    "width": 8,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "40g"
+  },
+  "package_information": {
+    "tu": {
+      "gtins": [
+        "5021991972621"
+      ],
+      "brutto_weight": 0.42,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 3.722,
+      "brutto_volume_unit_code": "cdm",
+      "height": 14.6,
+      "length": 29.3,
+      "width": 8.7,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 4
+    },
+    "cu": {
+      "gtins": [
+        "5021991942532"
+      ],
+      "brutto_weight": 0.086,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.795,
+      "brutto_volume_unit_code": "cdm",
+      "height": 14.2,
+      "length": 7,
+      "width": 8,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "lu": {
+      "brutto_weight": 96.4,
+      "brutto_weight_unit_code": "kg",
+      "length": 120,
+      "width": 80,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 680
+    }
+  },
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "price": {
+    "valid_from": "2023-03-07T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 5.95,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "40g"
+    },
+    "base": {
+      "price": 14.88,
+      "quantity": 100,
+      "unit": "G"
+    }
+  },
+  "features": [
+    {
+      "label_code": "MAPI_VEGETARIANISM",
+      "label": "Vegetarianism",
+      "values": [
+        {
+          "value_code": "MAPI_VEGETARIANISM_vegan",
+          "value": "Vegan"
+        },
+        {
+          "value_code": "MAPI_VEGETARIANISM_vegetarisch",
+          "value": "Vegetarian"
+        }
+      ],
+      "category_code": "MAPI_VEGETARIANISM",
+      "top_fact": false
+    },
+    {
+      "label_code": "acxMISOteeart",
+      "label": "Teeart",
+      "values": [
+        {
+          "value": "Früchtetee"
+        }
+      ],
+      "category_code": "ecxMISOCLAteeersatzproduktegetraenkelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOgewuerze",
+      "label": "Gewürze",
+      "values": [
+        {
+          "value_code": "erxMISOgewuerzezimt",
+          "value": "Zimt"
+        }
+      ],
+      "category_code": "ecxMISOCLAteeersatzproduktegetraenkelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOcugebindeart",
+      "label": "Verpackungsart",
+      "values": [
+        {
+          "value_code": "erxMISOcugebindeartschachtel",
+          "value": "Schachtel"
+        }
+      ],
+      "category_code": "ecxMISOCLAteeersatzproduktegetraenkelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOzubereitungdestees",
+      "label": "Zubereitung des Tees",
+      "values": [
+        {
+          "value": "Beutel"
+        }
+      ],
+      "category_code": "ecxMISOCLAteeersatzproduktegetraenkelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOproduktionsanspruch",
+      "label": "Produktionsverfahren",
+      "values": [
+        {
+          "value_code": "erxMISOproduktionsanspruchbioproduktion",
+          "value": "Bio-Produktion"
+        }
+      ],
+      "category_code": "ecxMISOCLAteeersatzproduktegetraenkelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOzubereitungsverfahren",
+      "label": "Hinweise für die Zubereitung",
+      "values": [
+        {
+          "value_code": "erxMISOzubereitungsverfahrenheisseswasserhinzugeben",
+          "value": "heisses Wasser hinzugeben"
+        }
+      ],
+      "category_code": "ecxMISOCLAteeersatzproduktegetraenkelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    },
+    {
+      "label_code": "acxMISOkraeuterfruechteteesorte",
+      "label": "Früchtesorte",
+      "values": [
+        {
+          "value_code": "erxMISOkraeuterfruechteteesorteapfel",
+          "value": "Apfel"
+        }
+      ],
+      "category_code": "ecxMISOCLAteeersatzproduktegetraenkelebensmittelgetraenkealle",
+      "top_fact": false,
+      "facet_flag": false,
+      "facet_pictogram_flag": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/d9785a8ea72b8f11c38b6492f3d4e73338820c33/cupper-bio-apple-cinnamon-infusion.jpg",
+    "stack": "https://image.migros.ch/{stack}/d9785a8ea72b8f11c38b6492f3d4e73338820c33/cupper-bio-apple-cinnamon-infusion.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/828da24caa905453ac0976e0e86984d93974dd28/cupper-bio-apple-cinnamon-infusion.png",
+    "stack": "https://image.migros.ch/{stack}/828da24caa905453ac0976e0e86984d93974dd28/cupper-bio-apple-cinnamon-infusion.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_EXPORTABLE",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_EXPORTABLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Normalposition"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "HAWA",
+          "value": "Handelsware"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "HAWA"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "10303",
+          "value": "PREMIUM TEA"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "values": [
+        {
+          "value_code": "M",
+          "value": "Kolonial Standard"
+        }
+      ],
+      "category_code": "MAPI_ASSORTMENT_LIST_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LIFECYCLE",
+      "values": [
+        {
+          "value_code": "D",
+          "value": "Detailhandelsartikel"
+        }
+      ],
+      "category_code": "MAPI_LIFECYCLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUSTOMS_POSITION",
+      "values": [
+        {
+          "value": "2106.9098"
+        }
+      ],
+      "category_code": "MAPI_CUSTOMS_POSITION",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_STORAGE_CONDITIONS",
+      "values": [
+        {
+          "value_code": "01",
+          "value": "normal"
+        }
+      ],
+      "category_code": "MAPI_STORAGE_CONDITIONS",
+      "top_fact": false
+    }
+  ],
+  "declarations": {
+    "declaration_number": "Q_1604593689421442",
+    "tags": [
+      "source-qim"
+    ],
+    "gtins": [
+      "5021991942532"
+    ],
+    "valid_from": "2023-07-18T00:00:00+0200",
+    "product_details": {
+      "certification": "GB-ORG-05 (Soil Association Certification Ltd)",
+      "net_filled_quantity": {
+        "value": "40 g",
+        "numeric_value": 40,
+        "unit": "g"
+      }
+    },
+    "distributor": {
+      "name": "Allos Hof-Manufaktur GmbH",
+      "address": "Hoerneckestraße 39, 28217, Bremen, Deutschland"
+    },
+    "general_information": [
+      {
+        "label": "Legal Notice",
+        "values": [
+          "Enthält Süssholz - bei hohem Blutdruck sollte ein übermässiger Verzehr dieses Erzeugnisses vermieden werden"
+        ]
+      }
+    ],
+    "ingredients_information": {
+      "substances_information": {
+        "origins": [
+          "Various"
+        ]
+      },
+      "allergens_information": {
+        "allergens": [
+          {
+            "code": "INTOL_ZIMT",
+            "label": "Cinnamon and products thereof",
+            "contamination_code": "VORHANDEN",
+            "contamination_label": "contains"
+          }
+        ]
+      }
+    }
+  },
+  "recipe_ingredient_ids": [
+    "10000"
+  ],
+  "regional_availability": {
+    "gmaa": {
+      "probability": 45
+    },
+    "gmbs": {
+      "probability": 19
+    },
+    "gmge": {
+      "probability": 42
+    },
+    "gmlu": {
+      "probability": 27
+    },
+    "gmnf": {
+      "probability": 43
+    },
+    "gmos": {
+      "probability": 44
+    },
+    "gmti": {
+      "probability": 16
+    },
+    "gmvd": {
+      "probability": 39
+    },
+    "gmvs": {
+      "probability": 52
+    },
+    "gmzh": {
+      "probability": 41
+    }
+  },
+  "ratings": {
+    "count_all": 9,
+    "average_all": 3
+  },
+  "reindex_date": "9999-12-31T00:00:00+0100",
+  "updated_at": "2023-08-17T11:44:40+0200",
+  "sap_created_at": "2022-10-18T19:00:00+0200",
+  "online_shop_relevant": false,
+  "base_unit": "CU",
+  "origins": {
+    "producing_country": "Great Britain"
+  },
+  "views": [
+    "all",
+    "browse",
+    "browseallretailers"
+  ]
+}

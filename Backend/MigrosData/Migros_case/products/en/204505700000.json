@@ -1,0 +1,719 @@
+{
+  "id": "204505700000",
+  "language": "en",
+  "name": "Emmi High Protein Coconut Rasperry",
+  "names": {
+    "short_name": "Emmi High Protein Coconut Rasperry"
+  },
+  "slug": "emmi-high-protein-coconut-rasperry",
+  "slugs": {
+    "de": "emmi-high-protein-coconut-rasperry",
+    "fr": "emmi-high-protein-coconut-rasperry",
+    "it": "emmi-high-protein-coconut-rasperry",
+    "en": "emmi-high-protein-coconut-rasperry"
+  },
+  "type": "00",
+  "boss_number": "030213201630",
+  "data_source": "SAP-X11",
+  "status": {
+    "id": "available",
+    "seasonal": false,
+    "pim_status": "80"
+  },
+  "tags": [
+    "source-p4m",
+    "migipedia",
+    "view-browse-partial",
+    "view-browse-all-retailers-partial"
+  ],
+  "is_variant": false,
+  "gtins": [
+    "7610900302819"
+  ],
+  "retailer": {
+    "id": "supermarkt",
+    "name": "Supermarket"
+  },
+  "retailer_flags": {
+    "bikeworld": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "doitgarden": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "interio": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "melectronics": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "micasa": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    },
+    "migros_ch": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": true,
+      "exclude_cross_channel": []
+    },
+    "sportxx": {
+      "orderable": false,
+      "reservable": false,
+      "stock_request": false,
+      "visible": false,
+      "exclude_cross_channel": []
+    }
+  },
+  "brand": {
+    "id": "1B2",
+    "name": "Emmi",
+    "slug": "emmi"
+  },
+  "labels": [
+    {
+      "id": "L53",
+      "name": "Swissness",
+      "slug": "swissness",
+      "image": {
+        "original": "https://image.migros.ch/original/d771bba2f6b08ba42970ea0243c6f8c5a8832f15/swissness.jpg",
+        "stack": "https://image.migros.ch/{stack}/d771bba2f6b08ba42970ea0243c6f8c5a8832f15/swissness.jpg"
+      }
+    },
+    {
+      "id": "L76",
+      "name": "No added sugar",
+      "slug": "no-added-sugar"
+    }
+  ],
+  "categories": [
+    {
+      "code": "BeSS_0101040705",
+      "name": "Milchgetränke",
+      "slug": "supermarkt/lebensmittel/milchprodukte-eier/milch-milchgetraenke/milchgetraenke",
+      "visible": true,
+      "title": "Milchdrinks in Ihrer Migros kaufen",
+      "parent_code": "BeSS_01010407",
+      "image": {
+        "original": "https://image.migros.ch/original/d42b9a58ab7f8483b8d7a1eae11c29f33728246d/milchgetraenke.jpg",
+        "stack": "https://image.migros.ch/{stack}/d42b9a58ab7f8483b8d7a1eae11c29f33728246d/milchgetraenke.jpg"
+      },
+      "level": 5
+    },
+    {
+      "code": "BeSS_01010407",
+      "name": "Milch & Milchgetränke",
+      "slug": "supermarkt/lebensmittel/milchprodukte-eier/milch-milchgetraenke",
+      "visible": true,
+      "title": "Milchdrinks in Ihrer Migros kaufen",
+      "parent_code": "BeSS_010104",
+      "image": {
+        "original": "https://image.migros.ch/original/d5ac9732fe5b662adaca7f000dbf8de7a4853b48/milch-milchgetraenke.jpg",
+        "stack": "https://image.migros.ch/{stack}/d5ac9732fe5b662adaca7f000dbf8de7a4853b48/milch-milchgetraenke.jpg"
+      },
+      "level": 4
+    },
+    {
+      "code": "BeSS_010104",
+      "name": "Milchprodukte & Eier",
+      "slug": "supermarkt/lebensmittel/milchprodukte-eier",
+      "visible": true,
+      "title": "Milchprodukte und Eier –",
+      "parent_code": "BeSS_0101",
+      "image": {
+        "original": "https://image.migros.ch/original/6b1ea6c2d41c3ccb21bf05c8dc342f7f55d83deb/milchprodukte-eier.jpg",
+        "stack": "https://image.migros.ch/{stack}/6b1ea6c2d41c3ccb21bf05c8dc342f7f55d83deb/milchprodukte-eier.jpg"
+      },
+      "level": 3
+    },
+    {
+      "code": "BeSS_0101",
+      "name": "Lebensmittel",
+      "slug": "supermarkt/lebensmittel",
+      "visible": true,
+      "title": "Lebensmittel aus Ihrer Migros: hochwertige Produkte, ausgewogener Genuss",
+      "parent_code": "BeSS_01",
+      "image": {
+        "original": "https://image.migros.ch/original/31702195ec9d38aecefe80349eb347f79d56c750/lebensmittel.jpg",
+        "stack": "https://image.migros.ch/{stack}/31702195ec9d38aecefe80349eb347f79d56c750/lebensmittel.jpg"
+      },
+      "level": 2
+    },
+    {
+      "code": "BeSS_01",
+      "name": "Supermarkt",
+      "slug": "supermarkt",
+      "visible": true,
+      "parent_code": "root",
+      "level": 1
+    }
+  ],
+  "online_relevant": [
+    {
+      "code": "MGB",
+      "name": "Migros Genossenschafts-Bund"
+    }
+  ],
+  "links": {
+    "migros_ch": {
+      "url": "https://www.migros.ch/en/product/204505700000?context=instore",
+      "name": "In-store assortment",
+      "canonical": "https://www.migros.ch/en/product/204505700000?context=instore",
+      "type": "info",
+      "purchasable": false
+    },
+    "migros_online": {
+      "url": "https://www.migros.ch/en/product/204505700000?context=online",
+      "mo_product_id": "10393841",
+      "name": "Online-shop assortment",
+      "canonical": "https://www.migros.ch/en/product/204505700000?context=instore",
+      "type": "shop",
+      "purchasable": true,
+      "one_catalog_id": 100116480
+    },
+    "migipedia": {
+      "url": "https://migipedia.migros.ch/de/products/204505700000",
+      "name": "Migipedia",
+      "canonical": "https://www.migros.ch/en/product/204505700000?context=instore",
+      "type": "info",
+      "purchasable": false
+    }
+  },
+  "has_safety_sheet": false,
+  "m_check2": {},
+  "receipt_text": "Energy Milk Coco Raspe",
+  "package": {
+    "content": 330,
+    "content_unit_code": "ml",
+    "content_unit": "Millilitre",
+    "net_weight": 0.33,
+    "net_weight_unit_code": "kg",
+    "net_weight_unit": "Kilogram",
+    "type": "CU",
+    "portions_per_package": "1",
+    "brutto_weight": 0.33,
+    "brutto_weight_unit_code": "kg",
+    "brutto_volume": 0.64,
+    "brutto_volume_unit_code": "cdm",
+    "height": 17.2,
+    "length": 6.1,
+    "width": 6.1,
+    "unit_dimension": "cm",
+    "price_comparison_content": 100,
+    "size": "330ml"
+  },
+  "package_information": {
+    "tu": {
+      "gtins": [
+        "7610900301812"
+      ],
+      "brutto_weight": 4.62,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 15.96,
+      "brutto_volume_unit_code": "cdm",
+      "height": 13.3,
+      "length": 40,
+      "width": 30,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 14
+    },
+    "cu": {
+      "gtins": [
+        "7610900302819"
+      ],
+      "brutto_weight": 0.33,
+      "brutto_weight_unit_code": "kg",
+      "brutto_volume": 0.64,
+      "brutto_volume_unit_code": "cdm",
+      "height": 17.2,
+      "length": 6.1,
+      "width": 6.1,
+      "dimension_unit_code": "cm",
+      "number_of_base_units": 1
+    },
+    "lu": {
+      "brutto_weight": 528,
+      "brutto_weight_unit_code": "kg",
+      "number_of_base_units": 1600
+    }
+  },
+  "vat": {
+    "id": 2,
+    "percentage": 2.5
+  },
+  "price": {
+    "valid_from": "2023-01-31T00:00:00+0100",
+    "valid_to": "9999-12-31T23:59:59+0100",
+    "currency": "CHF",
+    "source": "PriceRepository",
+    "item": {
+      "price": 2.95,
+      "quantity": 1,
+      "unit": "CU",
+      "varying_quantity": false,
+      "display_quantity": "330ml"
+    },
+    "base": {
+      "price": 0.89,
+      "quantity": 100,
+      "unit": "ML"
+    }
+  },
+  "features": [
+    {
+      "label_code": "MAPI_VEGETARIANISM",
+      "label": "Vegetarianism",
+      "values": [
+        {
+          "value_code": "MAPI_VEGETARIANISM_vegetarisch",
+          "value": "Vegetarian"
+        }
+      ],
+      "category_code": "MAPI_VEGETARIANISM",
+      "top_fact": false
+    }
+  ],
+  "image": {
+    "original": "https://image.migros.ch/original/82667e92bba2f7c0b8e774f43d858c993a5b07ac/emmi-high-protein-coconut-rasperry.jpg",
+    "stack": "https://image.migros.ch/{stack}/82667e92bba2f7c0b8e774f43d858c993a5b07ac/emmi-high-protein-coconut-rasperry.jpg"
+  },
+  "image_transparent": {
+    "original": "https://image.migros.ch/original/0fffd6ba6c5250096ee106db09197bef52e2c1b1/emmi-high-protein-coconut-rasperry.png",
+    "stack": "https://image.migros.ch/{stack}/0fffd6ba6c5250096ee106db09197bef52e2c1b1/emmi-high-protein-coconut-rasperry.png"
+  },
+  "internal_features": [
+    {
+      "label_code": "MAPI_EXPORTABLE",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_EXPORTABLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "values": [
+        {
+          "value_code": "BOOLEAN_FALSE",
+          "value": "No",
+          "boolean_value": false
+        }
+      ],
+      "category_code": "MAPI_BRANCH_ORDER_BLOCK",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_GENERAL_POSITION_GROUP",
+      "values": [
+        {
+          "value_code": "NORM",
+          "value": "Normalposition"
+        }
+      ],
+      "category_code": "MAPI_GENERAL_POSITION_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_KIND",
+      "values": [
+        {
+          "value_code": "ZFRP",
+          "value": "Frische Beschaffung"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_KIND",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_ARTICLE_VARIETY",
+      "values": [
+        {
+          "value": "ZFRP"
+        }
+      ],
+      "category_code": "MAPI_ARTICLE_VARIETY",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PRODUCT_GROUP",
+      "values": [
+        {
+          "value_code": "70445",
+          "value": "MILCHDRINKS OTHERS"
+        }
+      ],
+      "category_code": "MAPI_PRODUCT_GROUP",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_LIFECYCLE",
+      "values": [
+        {
+          "value_code": "D",
+          "value": "Detailhandelsartikel"
+        }
+      ],
+      "category_code": "MAPI_LIFECYCLE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_PROMOTIONS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_1",
+          "value": "1",
+          "numeric_value": 1
+        }
+      ],
+      "category_code": "MAPI_PROMOTIONS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_CUMULUS_POINTS_CODE",
+      "values": [
+        {
+          "value_code": "NUMERIC_2",
+          "value": "2",
+          "numeric_value": 2
+        }
+      ],
+      "category_code": "MAPI_CUMULUS_POINTS_CODE",
+      "top_fact": false
+    },
+    {
+      "label_code": "MAPI_STORAGE_CONDITIONS",
+      "values": [
+        {
+          "value_code": "02",
+          "value": "refrigerated"
+        }
+      ],
+      "category_code": "MAPI_STORAGE_CONDITIONS",
+      "top_fact": false
+    },
+    {
+      "label_code": "acxhealthNutritionalClaims",
+      "label": "Gesundheits und nährwertbezogene Auslobung",
+      "values": [
+        {
+          "value_code": "noAddedSugar",
+          "value": "No added sugar. Contains naturally occurring sugars."
+        }
+      ],
+      "category_code": "ecxMISOCLAalkoholfreiegetraenketrinkfertiggetraenkelebensmittelgetraenkealle",
+      "top_fact": false
+    }
+  ],
+  "declarations": {
+    "declaration_number": "Q_1604593689572451",
+    "tags": [
+      "source-qim"
+    ],
+    "gtins": [
+      "7610900302819"
+    ],
+    "valid_from": "2022-11-23T05:50:00+0100",
+    "product_details": {
+      "regulated_description": "Milk drink (with 1.4 % fat in milk content), with raspberry and coconut, with sweeteners, lactose free",
+      "net_filled_quantity": {
+        "value": "330 ml",
+        "numeric_value": 330,
+        "unit": "ml"
+      },
+      "net_weight": {
+        "value": "347 Gramm",
+        "numeric_value": 347,
+        "unit": "Gramm"
+      }
+    },
+    "distributor": {
+      "name": "Emmi Schweiz AG",
+      "address": "Landenbergstrasse 1, CH-6002 Luzern"
+    },
+    "general_information": [
+      {
+        "label": "Consumer storage instructions",
+        "values": [
+          "Sabine"
+        ]
+      },
+      {
+        "label": "Preservation technique code",
+        "values": [
+          "UHT - Ultra heat treated (especially for milk)"
+        ]
+      }
+    ],
+    "ingredients_information": {
+      "ingredients_text": "Sabine",
+      "substances_information": {
+        "substances": [
+          "Milk"
+        ]
+      },
+      "allergens_information": {
+        "allergens": [
+          {
+            "code": "ALLG_MILCH",
+            "label": "Milk and its derivatives",
+            "contamination_code": "VORHANDEN",
+            "contamination_label": "contains"
+          }
+        ]
+      }
+    },
+    "nutrition_facts": {
+      "reference_sizes": {
+        "standard": {
+          "base": {
+            "quantity": {
+              "value": "100 ml",
+              "numeric_value": 100,
+              "unit": "ml"
+            }
+          },
+          "nutrients": [
+            {
+              "code": "NUT_ENERGY",
+              "name": "Energy",
+              "operator": "~",
+              "pictogram_name": "Energy",
+              "category": "BIG9",
+              "quantity": {
+                "value": "284.00000 kJ",
+                "numeric_value": 284,
+                "unit": "kJ",
+                "alternate": {
+                  "value": "67.00000 kcal",
+                  "numeric_value": 67,
+                  "unit": "kcal"
+                }
+              }
+            },
+            {
+              "code": "NUT_FAT",
+              "name": "Fat",
+              "operator": "~",
+              "pictogram_name": "Fat",
+              "category": "BIG9",
+              "quantity": {
+                "value": "1.60000 g",
+                "numeric_value": 1.6,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_SATURATED_FATTY_ACIDS",
+              "name": "of which saturates",
+              "operator": "~",
+              "pictogram_name": "saturated fatty acids",
+              "category": "BIG9",
+              "quantity": {
+                "value": "1.10000 g",
+                "numeric_value": 1.1,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_CARBOHYDRATES",
+              "name": "Carbohydrate",
+              "operator": "~",
+              "category": "BIG9",
+              "quantity": {
+                "value": "4.70000 g",
+                "numeric_value": 4.7,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_SUGAR",
+              "name": "of which sugars",
+              "operator": "~",
+              "pictogram_name": "Sugar",
+              "category": "BIG9",
+              "quantity": {
+                "value": "4.60000 g",
+                "numeric_value": 4.6,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_PROTEIN",
+              "name": "Protein",
+              "operator": "~",
+              "category": "BIG9",
+              "quantity": {
+                "value": "8.00000 g",
+                "numeric_value": 8,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_SALT",
+              "name": "Salt",
+              "operator": "~",
+              "pictogram_name": "Salt",
+              "category": "BIG9",
+              "quantity": {
+                "value": "0.31000 g",
+                "numeric_value": 0.31,
+                "unit": "g"
+              }
+            },
+            {
+              "code": "NUT_VITAMIN_D",
+              "name": "Vitamin D",
+              "operator": "~",
+              "category": "VITAMINE",
+              "quantity": {
+                "value": "0.75000 µg",
+                "numeric_value": 0.75,
+                "unit": "µg"
+              },
+              "rda": {
+                "percent": 15,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_VITAMIN_E",
+              "name": "Vitamin E",
+              "operator": "~",
+              "category": "VITAMINE",
+              "quantity": {
+                "value": "1.80000 mg",
+                "numeric_value": 1.8,
+                "unit": "mg"
+              },
+              "rda": {
+                "percent": 15,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_VITAMIN_B1",
+              "name": "Vitamin B1 (thiamin)",
+              "operator": "~",
+              "category": "VITAMINE",
+              "quantity": {
+                "value": "0.17000 mg",
+                "numeric_value": 0.17,
+                "unit": "mg"
+              },
+              "rda": {
+                "percent": 15,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_VITAMIN_B2",
+              "name": "Vitamin B2 (riboflavin)",
+              "operator": "~",
+              "category": "VITAMINE",
+              "quantity": {
+                "value": "0.21000 mg",
+                "numeric_value": 0.21,
+                "unit": "mg"
+              },
+              "rda": {
+                "percent": 15,
+                "operator": "="
+              }
+            },
+            {
+              "code": "NUT_VITAMIN_B6",
+              "name": "Vitamin B6",
+              "operator": "~",
+              "category": "VITAMINE",
+              "quantity": {
+                "value": "0.21000 mg",
+                "numeric_value": 0.21,
+                "unit": "mg"
+              },
+              "rda": {
+                "percent": 15,
+                "operator": "="
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "recipe_ingredient_ids": [
+    "10000"
+  ],
+  "regional_availability": {
+    "gmaa": {
+      "probability": 33
+    },
+    "gmbs": {
+      "probability": 24
+    },
+    "gmge": {
+      "probability": 34
+    },
+    "gmlu": {
+      "probability": 27
+    },
+    "gmnf": {
+      "probability": 8
+    },
+    "gmos": {
+      "probability": 30
+    },
+    "gmti": {
+      "probability": 13
+    },
+    "gmvd": {
+      "probability": 25
+    },
+    "gmvs": {
+      "probability": 22
+    },
+    "gmzh": {
+      "probability": 39
+    }
+  },
+  "ratings": {
+    "count_all": 22,
+    "average_all": 3.636363636364
+  },
+  "reindex_date": "2023-08-20T00:00:00+0200",
+  "updated_at": "2023-08-17T11:54:39+0200",
+  "sap_created_at": "2022-10-30T19:00:00+0100",
+  "online_shop_relevant": false,
+  "base_unit": "CU",
+  "origins": {
+    "producing_country": "Switzerland"
+  },
+  "views": [
+    "all",
+    "browse",
+    "browseallretailers"
+  ]
+}
