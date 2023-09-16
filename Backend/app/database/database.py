@@ -125,39 +125,55 @@ class Database:
 
     # def predict_goal():
 
-    def sustainability_goal(self, customer_data, customer_category):
-        customer_category /= 3
+    
 
-        avg_diff = self.customer_data_df["Diff"].mean() / 100
-        avg_score = self.customer_data_df["Actual"].mean() / 100
+    def sustainability_goal(self,customer_data,customer_category):
+        customer_category /= 3
+        df_cleaned = self.customer_data_df.dropna(subset=['Diff', 'Actual']).astype(float)
+        # print("mean", self.customer_data_df['Actual'].mean())
+
+        avg_diff = self.customer_data_df['Diff'].mean() / 100
+        avg_score = self.customer_data_df['Actual'].mean() / 100
+        
         avg_score_normalised = (avg_score + 1) / 2
         previous_shop = self.customer_data_df.iloc[-1]
-        a, b, c = 0.3333, 0.3333, 0.333
-        # print(avg_diff)
-        # print(avg_score_normalised)
-        # print(customer_category)
+        a,b,c = 0.3333, 0.3333, 0.333 
+ 
 
-        previous_shop_goal = previous_shop["Goal"]
-        multiplier_range = min(20, 100 - previous_shop_goal)
-        multiplier = (
-            (a * avg_diff) + (b * avg_score_normalised) + (c * customer_category)
-        ) * multiplier_range
-
-        if previous_shop["Diff"] >= 0:
+        previous_shop_goal = previous_shop['Goal']
+        multiplier_range = min(20, 100-previous_shop_goal)
+        multiplier = ((a*avg_diff) + (b*avg_score_normalised) + (c*customer_category)) * multiplier_range
+        
+        if previous_shop['Diff'] >= 0:
             return previous_shop_goal + multiplier
         return previous_shop_goal - multiplier
+    
 
-    def user_checkout(self, customer_id, goal, total_spend):
-        new_row_data = {
-            "Goal": goal,
-            "Actual": total_spend,
-            "Diff": total_spend - goal,
-        }  # Replace with your column values
-        self.customer_data_df = self.customer_data_df.append(
-            new_row_data, ignore_index=True
-        )
+    def user_checkout(self,customer_id,total_score):
+        previous_shop = self.customer_data_df.iloc[-1]
+        prev_goal = previous_shop['Goal']
+        diff = int(total_score) - int(prev_goal)
 
-        self.customer_data_df["Actual"]
+        self.customer_data_df.loc[self.customer_data_df.index[-1], 'Actual'] = int(total_score)
+        self.customer_data_df.loc[self.customer_data_df.index[-1], 'Diff'] = int(diff)
+
+        self.customer_data_df.to_csv("MigrosData/Migros_case/sample_customer.csv", index=False)
+
+        # Create a new row with the next "Goal" value
+        new_goal = self.sustainability_goal("sample_customer", 2)
+        new_goal = round(new_goal)
+        new_row = {'Goal': new_goal, 'Actual': None, 'Diff': None}
+        print(new_goal)
+
+
+        self.customer_data_df = pd.concat([self.customer_data_df, pd.DataFrame([new_row])], ignore_index=True)
+
+
+        self.customer_data_df.to_csv("MigrosData/Migros_case/sample_customer.csv", index=False)
+            
+
+
+    
 
     def get_product_sustainability_rank(self, product_id):
         url = f"http://127.0.0.1:8080/similar_products/{product_id}?top_n=15"
