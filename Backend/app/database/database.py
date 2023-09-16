@@ -7,6 +7,7 @@ import requests
 
 
 class Database:
+    visited_products = {}
     MIGROS_PRODUCT_BASE_PATH = "MigrosData/Migros_case/products/en/"
     customer_data_df = pd.read_csv("MigrosData/Migros_case/sample_customer.csv")
     barcode_df = pd.read_csv("MigrosData/Migros_case/barcode_to_id.csv")
@@ -180,6 +181,9 @@ class Database:
     def get_product_sustainability_rank(self, product_id):
         url = f"http://127.0.0.1:8080/similar_products/{product_id}?top_n=15"
         response = requests.get(url)
+        
+        if product_id in self.visited_products:
+            return self.visited_products[product_id]
         if response.status_code != 200:
             print("Error getting similar products")
             return 0.5
@@ -194,8 +198,12 @@ class Database:
         max_price = price_per_g_list[0]
         min_price = price_per_g_list[-1]
         # return price_per_g_list.index(self.get_price_per_g_by_product_id(product_id)) / len(price_per_g_list)
-        return (
-            (target_price - min_price) / (max_price - min_price)
-            if max_price != min_price
-            else 0
-        )
+        if max_price != min_price:
+
+            res = (target_price - min_price) / (max_price - min_price)
+            
+        else:
+            res = 0
+
+        self.visited_products[product_id] = res
+        return res
