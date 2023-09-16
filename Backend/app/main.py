@@ -29,3 +29,10 @@ def get_sustainable_swaps(barcode: str):
     sustainable_swap = database.get_sustainable_swaps(product_id)
     return sustainable_swap
 
+@app.get("/sustainability_goal/")
+def get_sustainability_goal():
+
+    sustainability_goal = database.sustainability_goal("sample_customer",2)
+    return round(sustainability_goal)
+
+
