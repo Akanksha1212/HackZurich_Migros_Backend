@@ -1,7 +1,5 @@
 from fastapi import FastAPI
 from app.database.database import Database
-import requests
-
 
 app = FastAPI()
 
@@ -28,26 +26,6 @@ def get_product_info(barcode: str):
 def get_sustainable_swaps(barcode: str):
 
     product_id = database.get_id_from_barcode(barcode)
-    sustainable_swaps = database.get_sustainable_swaps(product_id)
-    url = f"http://127.0.0.1:8080/similar_products/{product_id}?top_n=15"
-    
-    
-    response = requests.get(url)
-    response = response.json()
-    sustainable_swaps_ML = database.get_sustainable_swaps_ML(response,product_id)
-    combined = {**sustainable_swaps, **sustainable_swaps_ML}
-    
-    print(sustainable_swaps_ML)
-
-    # print(response.json())
-    # if len(sustainable_swap) < 3:
-    # return response
-    return sustainable_swaps
-
-# @app.get("/sustainable_swaps_ML/{product_id}")
-# def get_sustainable_swaps_ML(product_id: str):
-#     url = "http://127.0.0.1:8080/similar_products/{product_id}"
-#     response = requests.request("GET", url, data={"top_n": 5})
-
-    
+    sustainable_swap = database.get_sustainable_swaps(product_id)
+    return sustainable_swap
 
