@@ -15,6 +15,9 @@ def read_root():
 @app.get("/mcheck/{barcode}")
 def get_mcheck(barcode: str):
     ## retrieve product ID from barcode
-    product_id = barcode[0:7]
-    database.get_mcheck_by_product_id("110230800000")
+   
+    product_id = database.get_id_from_barcode(barcode)
+    database.get_mcheck_by_product_id(product_id)
     return
+
+
