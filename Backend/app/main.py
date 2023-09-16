@@ -39,3 +39,8 @@ def get_sustainability_goal():
 @app.get("/user_checkout/{total_spend}")
 def update_user_goals(total_spend):
     database.user_checkout("sample_customer", total_spend)
+
+
+@app.get("/product_sustainability_rank/{product_id}")
+def get_product_sustainability_rank(product_id: str):
+    return database.get_product_sustainability_rank(product_id)

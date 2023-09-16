@@ -3,12 +3,27 @@ import pandas as pd
 import operator
 from sklearn.linear_model import LinearRegression
 from sklearn.model_selection import train_test_split
+import requests
 
 
 class Database:
     MIGROS_PRODUCT_BASE_PATH = "MigrosData/Migros_case/products/en/"
     customer_data_df = pd.read_csv("MigrosData/Migros_case/sample_customer.csv")
     barcode_df = pd.read_csv("MigrosData/Migros_case/barcode_to_id.csv")
+
+    def get_price_per_g(self, data):
+        if "price" not in data:
+            return 0
+        if "base" not in data["price"]:
+            return 0
+        if "price" not in data["price"]["base"]:
+            return 0
+        return data["price"]["base"]["price"] / data["price"]["base"]["quantity"]
+
+    def get_price_per_g_by_product_id(self, product_id):
+        with open(self.MIGROS_PRODUCT_BASE_PATH + product_id + ".json") as f:
+            data = json.load(f)
+            return self.get_price_per_g(data)
 
     def get_mcheck(self, data):
         if "m_check2" not in data:
@@ -143,3 +158,23 @@ class Database:
         )
 
         self.customer_data_df["Actual"]
+
+    def get_product_sustainability_rank(self, product_id):
+        url = f"http://127.0.0.1:8080/similar_products/{product_id}?top_n=15"
+        response = requests.get(url)
+        response = response.json()
+        price_per_g_list = []
+        for product in response:
+            price_per_g_list.append(self.get_price_per_g_by_product_id(product))
+        price_per_g_list.sort(reverse=True)
+        print(price_per_g_list)
+
+        target_price = self.get_price_per_g_by_product_id(product_id)
+        max_price = price_per_g_list[0]
+        min_price = price_per_g_list[-1]
+        # return price_per_g_list.index(self.get_price_per_g_by_product_id(product_id)) / len(price_per_g_list)
+        return (
+            (target_price - min_price) / (max_price - min_price)
+            if max_price != min_price
+            else 0
+        )
