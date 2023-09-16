@@ -1,11 +1,15 @@
 import json
 import pandas as pd
 import operator
+from sklearn.linear_model import LinearRegression
+from sklearn.model_selection import train_test_split
+
 
 
 
 class Database:
     MIGROS_PRODUCT_BASE_PATH = "MigrosData/Migros_case/products/en/"
+    customer_data_df = pd.read_csv("MigrosData/Migros_case/sample_customer.csv")
     barcode_df = pd.read_csv("MigrosData/Migros_case/barcode_to_id.csv")
 
     def get_mcheck(self,data):
@@ -108,6 +112,47 @@ class Database:
                  
                 
             return res
+        
+    # def predict_goal():
+
+
+    
+    def sustainability_goal(self,customer_data,customer_category):
+        customer_category /= 3
+
+        avg_diff = self.customer_data_df['Diff'].mean() / 100
+        avg_score = self.customer_data_df['Actual'].mean() / 100
+        avg_score_normalised = (avg_score + 1) / 2
+        previous_shop = self.customer_data_df.iloc[-1]
+        a,b,c = 0.3333, 0.3333, 0.333 
+        # print(avg_diff)
+        # print(avg_score_normalised)
+        # print(customer_category)
+
+        previous_shop_goal = previous_shop['Goal']
+        multiplier_range = min(20, 100-previous_shop_goal)
+        multiplier = ((a*avg_diff) + (b*avg_score_normalised) + (c*customer_category)) * multiplier_range
+        
+        if previous_shop['Diff'] >= 0:
+            return previous_shop_goal + multiplier
+        return previous_shop_goal - multiplier
+    
+
+    def user_checkout(self,customer_id,goal,total_spend):
+        new_row_data = {'Goal': goal, 'Actual': total_spend, 'Diff': total_spend - goal}  # Replace with your column values
+        self.customer_data_df = self.customer_data_df.append(new_row_data, ignore_index=True)
+
+
+        self.customer_data_df['Actual']
+
+
+
+
+
+
+
+
+        
 
 
  
