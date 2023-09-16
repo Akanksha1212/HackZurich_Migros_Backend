@@ -41,6 +41,8 @@ class Database:
         res["image"] = data["image_transparent"]["original"]
         res["price"] = data["price"]["item"]["price"]
         res["currency"] = data["price"]["currency"]
+        res["size"] = data["package"]["size"]
+        res["price_per_kg"] = data["price"]["base"]["price"]
 
             
         return res
