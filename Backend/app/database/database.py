@@ -41,6 +41,8 @@ class Database:
         res["image"] = data["image_transparent"]["original"]
         res["price"] = data["price"]["item"]["price"]
         res["currency"] = data["price"]["currency"]
+        res["size"] = data["package"]["size"]
+        res["price_per_kg"] = data["price"]["base"]["price"]
 
             
         return res
@@ -61,9 +63,10 @@ class Database:
                 return None
             else:
                  related_products = related_data["purchase_recommendations"]["product_ids"]
+        choices = []
         for product in related_products:
             # print(product)
-            choices = {}
+            
 
             if product in self.barcode_df['id'].values:
                 # print("yes")
@@ -72,20 +75,41 @@ class Database:
                     data = json.load(f)
                     mcheck = self.get_mcheck(data)
                     print(product,mcheck)
-                choices[product] = mcheck
+                    
+                    choices.append((product,mcheck))
+                    print(choices)
             # print(choices)
         if choices:
             # print(self.product_info("110231900000"))
-            sustainable_product = max(choices.items(), key=operator.itemgetter(1))[0]
-            mcheck = max(choices.items(), key=operator.itemgetter(1))[1]
-            with open(self.MIGROS_PRODUCT_BASE_PATH + str(sustainable_product) + ".json") as f:
-                data = json.load(f)
-                sustainable_product_details = self.product_info(data)
-            # print(sustainable_product_details)
-            if mcheck > original_product_mcheck:
-                return {"mcheck": mcheck, **sustainable_product_details}
+            print(choices)
+            choices = sorted(choices, key=lambda x: x[1], reverse=True)
+            
+  # Get the top 3 (or fewer) sustainable product names.
+            sustainable_products = []
+            for product, mcheck in choices:
+                if mcheck > original_product_mcheck:
+                    sustainable_products.append((product,mcheck))
+                if len(sustainable_products) == 3:
+                    break
+            
+            
+            res = {}
+            for product in sustainable_products:
+                print("product", product)
+                mcheck = product[1]
+                sustainable_product = product[0]
+                print("S", sustainable_product)
+           
+                with open(self.MIGROS_PRODUCT_BASE_PATH + str(sustainable_product) + ".json") as f:
+                    data = json.load(f)
+                    sustainable_product_details = self.product_info(data)
 
-            return {"None"}
+                    res[sustainable_product] = {"mcheck": mcheck, **sustainable_product_details}
+                 
+                
+            return res
+
+
  
             
                      
