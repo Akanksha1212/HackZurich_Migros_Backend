@@ -1,9 +1,35 @@
 from fastapi import FastAPI
 from app.database.database import Database
+import requests
 
-app = FastAPI()
+description = """
+Welcome to the MigrosNudge API. 🚀
+
+## Product Info
+
+Retrieves information about a product from thre Migros Datavase from its barcode id.
+
+## Sustainable swap
+
+Given any barcode, returns a list of similar products with higher M-check scores using our ML model.
+
+## Sustainability goal
+
+Returns the sustainability goal for a customer's next shop.
+
+## Checkout
+
+Updates the user's details
+
+* **Create users** (_not implemented_).
+* **Read users** (_not implemented_).
+"""
+
+app = FastAPI(title="MigrosNudge App" description=description)
 
 database = Database()
+
+
 
 
 @app.get("/")
@@ -27,13 +53,24 @@ def get_product_info(barcode: str):
 def get_sustainable_swaps(barcode: str):
     product_id = database.get_id_from_barcode(barcode)
     sustainable_swap = database.get_sustainable_swaps(product_id)
-    return sustainable_swap
+
+    url = f"http://127.0.0.1:8080/similar_products/{product_id}?top_n=15"
+    
+    
+    response = requests.get(url)
+    response = response.json()
+
+    sustainable_swaps_ML = database.get_sustainable_swaps_ML(response,product_id)
+    combined = {**sustainable_swap, **sustainable_swaps_ML}
+    
+
+    return combined
 
 
-# @app.get("/sustainability_goal/")
-# def get_sustainability_goal():
-#     sustainability_goal = database.sustainability_goal("sample_customer", 2)
-#     return round(sustainability_goal)
+@app.get("/sustainability_goal/{customer_id}")
+def get_sustainability_goal():
+    sustainability_goal = database.get_sustainability_goal()
+    return round(sustainability_goal)
 
 
 @app.get("/user_checkout/{total_score}")
@@ -43,5 +80,5 @@ def update_user_goals(total_score):
 
 
 @app.get("/product_sustainability_rank/{product_id}")
-def get_product_sustainability_rank(product_id: str):
-    return database.get_product_sustainability_rank(product_id)
+def get_product_price_rank(product_id: str):
+    return database.get_product_price_rank(product_id)

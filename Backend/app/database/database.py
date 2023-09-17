@@ -149,6 +149,12 @@ class Database:
         if previous_shop["Diff"] >= 0:
             return previous_shop_goal + multiplier
         return previous_shop_goal - multiplier
+    
+    def get_sustainability_goal(self):
+        previous_shop = self.customer_data_df.iloc[-1]
+        previous_shop_goal = previous_shop["Goal"]
+        return previous_shop_goal
+
 
     def user_checkout(self, customer_id, total_score):
         previous_shop = self.customer_data_df.iloc[-1]
@@ -178,15 +184,16 @@ class Database:
             "MigrosData/Migros_case/sample_customer.csv", index=False
         )
 
-    def get_product_sustainability_rank(self, product_id):
+    def get_product_price_rank(self, product_id):
         url = f"http://127.0.0.1:8080/similar_products/{product_id}?top_n=15"
         response = requests.get(url)
         
-        if product_id in self.visited_products:
-            return self.visited_products[product_id]
+        # if product_id in self.visited_products:
+        #     return self.visited_products[product_id]
         if response.status_code != 200:
             print("Error getting similar products")
-            return 0.5
+            return "Error"
+            
         response = response.json()
         price_per_g_list = []
         for product in response:
@@ -194,16 +201,60 @@ class Database:
         price_per_g_list.sort(reverse=True)
         print(price_per_g_list)
 
-        target_price = self.get_price_per_g_by_product_id(product_id)
-        max_price = price_per_g_list[0]
-        min_price = price_per_g_list[-1]
-        # return price_per_g_list.index(self.get_price_per_g_by_product_id(product_id)) / len(price_per_g_list)
-        if max_price != min_price:
-
-            res = (target_price - min_price) / (max_price - min_price)
+        for product in response:
+            target_price = self.get_price_per_g_by_product_id(product)
+            max_price = price_per_g_list[0]
+            min_price = price_per_g_list[-1]
             
-        else:
-            res = 0
+        # return price_per_g_list.index(self.get_price_per_g_by_product_id(product_id)) / len(price_per_g_list)
+            if max_price != min_price:
 
-        self.visited_products[product_id] = res
+                res = (target_price - min_price) / (max_price - min_price)
+                
+            else:
+                res = 0
+            self.visited_products[product] = res
+
+       
+        return self.visited_products
+    
+    def get_sustainable_swaps_ML(self,related_products,product_id):
+        with open(self.MIGROS_PRODUCT_BASE_PATH + product_id + ".json") as f:
+            data = json.load(f)
+            original_product_mcheck = self.get_mcheck(data)
+        choices = []
+        print(related_products)
+        for product in related_products:
+            # print(product)
+            if product in self.barcode_df['id'].values:
+    
+            
+                with open(self.MIGROS_PRODUCT_BASE_PATH + product + ".json") as f:
+                    data = json.load(f)
+                    mcheck = self.get_mcheck(data)
+                    # print(product,mcheck)
+                    if mcheck:
+                        if mcheck > original_product_mcheck:
+                    
+                            choices.append((product,mcheck))
+        # print("choices: ", choices)
+        choices = sorted(choices, key=lambda x: x[1], reverse=True)
+        
+        sustainable_products = []
+        for product, mcheck in choices:
+            if mcheck > original_product_mcheck:
+                sustainable_products.append((product,mcheck))
+            
+        # print("S: ", sustainable_products)
+        
+        res = {}
+        for product in sustainable_products:
+            mcheck = product[1]
+            sustainable_product = product[0]
+        
+            with open(self.MIGROS_PRODUCT_BASE_PATH + str(sustainable_product) + ".json") as f:
+                data = json.load(f)
+                sustainable_product_details = self.product_info(data)
+                res[sustainable_product] = {"mcheck": mcheck, **sustainable_product_details}
+        print("ORIGINAL MCHECK", original_product_mcheck)
         return res
