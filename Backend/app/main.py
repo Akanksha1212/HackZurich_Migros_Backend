@@ -19,7 +19,7 @@ Returns the sustainability goal for a customer's next shop.
 
 ## Checkout
 
-Updates the user's details
+Updates the user's details with their latest grocery shop and uses our model to calculate their next sustainability goal.
 
 * **Create users** (_not implemented_).
 * **Read users** (_not implemented_).
@@ -73,7 +73,7 @@ def get_sustainability_goal():
     return round(sustainability_goal)
 
 
-@app.get("/user_checkout/{total_score}")
+@app.get("/user_checkout/{total_score}/{customer_id}")
 def update_user_goals(total_score):
     database.user_checkout("sample_customer",total_score)
 
