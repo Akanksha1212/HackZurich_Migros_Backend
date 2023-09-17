@@ -7,7 +7,7 @@ Welcome to the MigrosNudge API. 🚀
 
 ## Product Info
 
-Retrieves information about a product from thre Migros Datavase from its barcode id.
+Retrieves information about a product from the Migros Database from its barcode ID.
 
 ## Sustainable swap
 
@@ -19,7 +19,7 @@ Returns the sustainability goal for a customer's next shop.
 
 ## Checkout
 
-Updates the user's details with their latest grocery shop and uses our model to calculate their next sustainability goal.
+Updates the user's details with their latest grocery shop which is fed into our model to calculate their next sustainability goal.
 
 * **Create users** (_not implemented_).
 * **Read users** (_not implemented_).
