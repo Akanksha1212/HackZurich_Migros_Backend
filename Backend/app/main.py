@@ -24,7 +24,7 @@ Updates the user's details with their latest grocery shop which is fed into our 
 
 """
 
-app = FastAPI(title="MigrosNudge App" description=description)
+app = FastAPI(title="MigrosNudge API" description=description)
 
 database = Database()
 
