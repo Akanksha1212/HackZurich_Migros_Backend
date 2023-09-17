@@ -21,8 +21,7 @@ Returns the sustainability goal for a customer's next shop.
 
 Updates the user's details with their latest grocery shop which is fed into our model to calculate their next sustainability goal.
 
-* **Create users** (_not implemented_).
-* **Read users** (_not implemented_).
+
 """
 
 app = FastAPI(title="MigrosNudge App" description=description)
